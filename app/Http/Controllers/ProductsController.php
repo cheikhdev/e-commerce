@@ -234,8 +234,25 @@ $order->prix_total= $cart_total;
      // public function show($slog){
          //return  view('home',compact("slog"));
      // }
+      public function agri(){
+      return  view('products.Agriculture');
+      }
+      public function acc(){
+         return  view('products.acc');
+         }
+      public function tele(){
+         return  view('products.Telecoms');
+         }
+      public function sante(){
+            return  view('products.Sante');
+            }
+      public function elec(){
+               return  view('products.Electronique');
+               }
+      public function sport(){
+                  return  view('products.Sport');
+                  }
       public function backoffi(){
       return  view('backoffice.index');
-      }
-
+                     }
 }

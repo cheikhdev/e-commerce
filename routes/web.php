@@ -37,7 +37,12 @@ Route::get('/merci', "ProductsController@merci");
 Route::get('/achat1', "ProductsController@achat1")->name('achat1_products');
 Route::post('/achat1', "ProductsController@store1")->name('achat1_products');
 
-
+Route::get('/agri', "ProductsController@agri");
+Route::get('/sante', "ProductsController@sante");
+Route::get('/tele', "ProductsController@tele");
+Route::get('/sport', "ProductsController@sport");
+Route::get('/elec', "ProductsController@elec");
+Route::get('/acc', "ProductsController@acc");
 
 
 
