@@ -28,7 +28,14 @@ Route::get('/home', 'HomeController@index');
 //Route::get('/orders/description', 'ProductsController@desc');
 //Route::get('/orders/achat', 'ProductsController@achat');
 Route::get("/produit/{id}/show", 'ProductsController@show');
-
+Route::get("/produit/{id}/achat", 'ProductsController@achat')->name('achat_products');
+Route::post("/produit/{id}/achat", 'OrderController@store')->name('achat_products');
+Route::post('/product/add_to_cart', "AjaxController@add_to_cart");
+Route::get('/cart', "OrderController@cart");
+Route::get('/checkout', 'OrderController@checkout');
+Route::get('/merci', "ProductsController@merci");
+Route::get('/achat1', "ProductsController@achat1")->name('achat1_products');
+Route::post('/achat1', "ProductsController@store1")->name('achat1_products');
 
 
 

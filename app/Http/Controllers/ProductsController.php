@@ -5,21 +5,23 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Http\UploadedFile;
 use Illuminate\Support\Str;
-
+use Illuminate\Contracts\Session\Session;
+use App\Order;
 
 use App\Product;
 class ProductsController extends Controller
 {
     //
     
-    public function desc(){
+    //public function desc(){
       //return view("/orders/description");
   
-  }
-  public function achat(){
+  //}
+  //public function achat(){
   // return view("/orders/achat");
 
-}
+//}
+    
     public function User(){
 
    
@@ -59,11 +61,13 @@ class ProductsController extends Controller
    }
    public function store(Request $request)
    {
+     
       $data = $request->validate([
          'name_product'=>'required|min:5',
          'prix_product' => 'required|min:3|numeric',
          'description_product' => 'max:1000000',
-         'image_product' => 'nullable | image | mimes:jpeg,png,jpg,gif | max: 2048'
+         'image_product' => 'nullable | image | mimes:jpeg,png,jpg,gif | max: 2048',
+         
          
      ]);
      $produit = new Product();
@@ -103,8 +107,10 @@ class ProductsController extends Controller
      $produit->category_id = 1;
      $produit->save();
      //dd($file,$produit->image_product);
+     
 
      return redirect('/produit');
+     
    }
    
 
@@ -135,6 +141,7 @@ public function update(Request $request, $id){
       'prix_product' => 'required | numeric',
       'description_product'=>'required',
       'image_product' => 'nullable | image | mimes:jpeg,png,jpg,gif | max:2048'
+      
    ]);
    $product = Product::find($id);
    if($product){
@@ -154,8 +161,9 @@ public function update(Request $request, $id){
      $product->prix_product = $request->input('prix_product');
      $product->description_product = $request->input('description_product');
      $product->category_id = $request->input('category_id');
-
      $product->save();
+     
+
  }
  return redirect()->back();
 }
@@ -165,15 +173,63 @@ public function update(Request $request, $id){
 
          
          
-         
-         
+public function merci()   {
+   return view("orders.merci");
+}   
+public function achat1()   {
+   return view("orders.achat1");
+}            
  
 public function show($id){
    $product = Product::find($id);
-   return view("products.show", compact('product'));
+   return view("orders.show", compact('product'));
 }
 
-
+public function achat($id){
+  
+   $product = Product::find($id);
+   return view("orders.achat", compact('product'));
+}
+public function store1(Request $request)
+{
+   if(!$request->session()->has('cart') || empty($request->session()->get('cart'))){
+      return redirect('/');
+  }
+   
+ $data = $request->validate([
+     'nom_client'=>'required|min:2',
+     'prenom_client' => 'required|min:2',
+     'Adresse_client' => 'required|min:3',
+     'num_tel' => 'required|min:9|numeric',
+ ]);
+ $carts = $request->session()->get('cart');
+ $cart_total = 0;
+ foreach ($carts['products'] as $cart){
+   $cart_total += $cart['total'];
+}
+//dd($request->input('nom_client'));
+$order = new Order();
+$order->prix_total= $cart_total;
+/*if($order){
+   foreach($carts['products'] as $key => $cart){
+       $order_product = $order->products()->sync([$key]);
+   }
+}*/
+  $order->nom_client = $request->input('nom_client');
+  $order->prenom_client = $request->input('prenom_client');
+  $order->Adresse_client = $request->input('Adresse_client');
+  $order->num_tel = $request->input('num_tel');
+  $order->admin_id = 1;
+  $order->delivery_id = 1;
+  $order->save();
+  if($order){
+      foreach($carts['products'] as $key => $cart){
+         $order_product = $order->products()->sync([$key]);
+      }
+   }
+  $request->session()->forget('cart');
+  return redirect('/home');
+}
 
      // public function show($slog){
          //return  view('home',compact("slog"));

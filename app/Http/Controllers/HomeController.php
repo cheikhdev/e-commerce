@@ -16,10 +16,13 @@ class HomeController extends Controller
         //$this->middleware('auth');
     }
     public function index(){
-        $products = Product::all()->take(6);//paginate(6);
+        $products = Product::all()->take(15);//paginate(6);
         return view('home', compact('products'));
      }
      
+
+    
+
     /**
      * Show the application dashboard.
      *

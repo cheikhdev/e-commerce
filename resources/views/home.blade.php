@@ -69,6 +69,7 @@
         </div>
 
       </div>
+      
       <!-- /.col-lg-3 -->
 
       <div class="col-lg-9">
@@ -87,12 +88,13 @@
             <li data-target="#carouselExampleIndicators" data-slide-to="9"></li>
             
           </ol>
+          
         <div id="image">
           <div class="text" role="listbox">
             <div class="carousel-item active">
             
               <img class="d-block img-fluid" src="{{URL::asset('/images/sport1.jpg')}}" alt="First slide" width="900" height="350">
-              <h1> PRODUIT DISPO</h1>
+             
             </div>
             <div class="carousel-item">
               <img class="d-block img-fluid" src="{{URL::asset('/images/sport2.jpg')}}" alt="Second slide" width="900" height="350">
@@ -139,32 +141,35 @@
         @foreach($products as $product)
 <div class="col-lg-4 col-sm-6 portfolio-item">
    <div class="card h-100">
-       <a href="#"><img class="card-img-top" src="{{$product->images ?? asset('storage/images/default.png')}}"  height="180" width="180" alt=""></a>
+       <a href="#"><a href="/produit/{{$product->id}}/show"><img class="card-img-top" src="{{$product->image_product ? asset($product->image_product) : asset('uploads/images/default.png')}}"   height="180" width="180" alt=""></a></a>
        <div class="card-body">
            <h4 class="card-title">
-               <a href="/produit/{{$product->id}}/show">{{$product->name}} drone agricole </a>
+               <a href="/produit/{{$product->id}}/show">{{$product->name_product}}  </a>
            </h4>
-           <p class="card-text">{!! \Illuminate\Support\Str::words($product->description, 25,'....')  !!}</p>
+           <p class="card-text">{!! \Illuminate\Support\Str::words($product->description_product, 25,'....')  !!}</p>
        </div>
+       <form action="#" id="{{'product_'.$product->id}}" class="add-to-cart">
+                        @csrf
+                        <input type="hidden" name="id" value="{{\Illuminate\Support\Facades\Auth::id()}}">
+                        <input type="hidden" name="product_id" value="{{$product->id}}">
+                        <input type="hidden" name="prix_product" value="{{$product->prix_product}}">
+                        <button type="submit" class="btn btn-primary btn-fancy" href="/produit/{{$product->id}}/show">Ajouter au panier</button>
+                    </form>
+
        <div class="card-footer">
                 <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
         </div>
+      
    </div>
 </div>
+
 @endforeach
 
 
         
 
 
-
-
-
-
-
-
-
-        </div>
+   </div>
         <!-- /.row -->
 
       </div>
