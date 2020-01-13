@@ -31,7 +31,7 @@
       <a href="{{url('acc')}}"   type="button" class="btn btn-primary">Acceuil</a>
       <button type="button" class="btn btn-secondary">Nos services</button>
       <button type="button" class="btn btn-success">Contactez-nous</button>
-     
+      <a href="{{url('/ajouproduit')}}"   type="button" class="btn btn-danger">gerer les produits</a>
       
         </ul>
       </div>
