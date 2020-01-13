@@ -17,14 +17,14 @@
     </div>
    
      <P> Shopping Hitech , vous permet de savoir les nouveaux equipements innovants <br>
-      qui sont entrain de bouilloner le marche .
+      qui sont entrain de bouilloner le marche . <br>
       Dans la categorie agriculture , vous aurez d'abord les nouveaux drones intelligents <br>
-      utillises sous differentes facettes .
+      utillises sous differentes facettes . <br>
       Par Exemple : <br>
-      1) Drones detecteurs (temperatures,pressions ) a distance ;
-      2) Drones Visualisateur 3D ;
-      3) Drones Aroseur .
-      Ensuite , des capteurs intelligents pour superviser les champs a distance .
+      1) Drones detecteurs (temperatures,pressions ) a distance ;  <br>
+      2) Drones Visualisateur 3D ;<br>
+      3) Drones Aroseur . <br>
+      Ensuite , des capteurs intelligents pour superviser les champs a distance .<br>
       
      </P>
 

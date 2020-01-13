@@ -23,9 +23,9 @@
       1) les Cables intelligents hautement sophistique  ;<br>
       2) Des cables fibres optiques;
       3) Des capteurs (temperatures , humidite, chaleurs) , <br>
-      pour la securite .
+      pour la securite . <br>
       
-      Ensuite , des plateformes dedies a la medecine pour les usagers   .
+      Ensuite , des plateformes dedies a la medecine pour les usagers   . <br>
       
      </P>
 

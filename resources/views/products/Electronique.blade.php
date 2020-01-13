@@ -17,13 +17,13 @@
     </div>
    
      <P> Shopping Hitech , vous permet de savoir les nouveaux equipements innovants <br>
-      qui sont entrain de bouilloner le marche .
+      qui sont entrain de bouilloner le marche . 
       Dans la categorie Electronique , vous aurez d'abord :  <br>
       1) les nouveaux smartphone intelligents  ;<br>
-      2) Des cables intelligents;
-      3) Des Televiseurs LED.
+      2) Des cables intelligents; <br>
+      3) Des Televiseurs LED.  <br>
       
-      Ensuite , des micro-ondes etc  .
+      Ensuite , des micro-ondes etc  .  <br>
       
      </P>
 
