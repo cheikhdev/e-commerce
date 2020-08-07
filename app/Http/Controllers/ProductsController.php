@@ -13,14 +13,14 @@ class ProductsController extends Controller
 {
     //
     
-    //public function desc(){
+    public function desc(){
       //return view("/orders/description");
   
   //}
   //public function achat(){
   // return view("/orders/achat");
 
-//}
+}
     
     public function User(){
 
@@ -121,8 +121,8 @@ public function edit($id)
    $this->authorize('admin');
    // Editons les produits 
    $product = \App\Product::find($id);
-   $categories = \App\Category::pluck('name_category','id');
-   return view('products.edit', compact('product','categories'));
+   //$categories = \App\Category::pluck('name_category','id');
+   return view('products.edit', compact('product'));
 }
 
 public function destroy($id)
