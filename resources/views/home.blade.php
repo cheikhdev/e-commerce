@@ -10,9 +10,9 @@
   <title> E-Commerce </title>
 
   <!-- Bootstrap core CSS -->
-  
   <link href="{{asset('css/app.css')}}" rel="stylesheet" />
   <link href="{{asset('css/all.css')}}" rel="stylesheet" />
+  
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rancho&effect=fire-animation|3d-float|neon|canvas-print 	
 ">
   <!-- Custom styles for this template -->
@@ -127,8 +127,7 @@
   <!-- Page Content -->
     <main>
       <div class="">
-        <div class="">
-            <div>
+            <div class="">
               <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                   <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -138,15 +137,15 @@
                 <div class="carousel-inner" role="listbox">
                   <div class="carousel-item active">
                     <p class="carouselTitle">Arashiyama</p>
-                    <img class="w-100" src="http://kclui.com/IVEST/ITP4208/images/BS4Carousel/carousel-1.jpg" alt="First slide">
+                    <img class="w-100" src="{{asset('images/materiel1.jpg')}}" alt="First slide">
                   </div>
                   <div class="carousel-item">
                     <p class="carouselTitle">Uji</p>
-                    <img class="w-100" src="http://kclui.com/IVEST/ITP4208/images/BS4Carousel/carousel-2.jpg" alt="Second slide">
+                    <img class="w-100" src="{{asset('images/materiel2.jpg')}}" alt="Second slide">
                   </div>
                   <div class="carousel-item">
                     <p class="carouselTitle">Kiyomizu-dera</p>
-                    <img class="w-100" src="http://kclui.com/IVEST/ITP4208/images/BS4Carousel/carousel-3.jpg" alt="Third slide">
+                    <img class="w-100" src="{{asset('images/materiel3.jpg')}}" alt="Third slide">
                   </div>
                 </div>
                 <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
@@ -159,7 +158,16 @@
                 </a>
               </div>
             </div>
-
+            <div class="container d-flex justify-content-between" style="padding-top:30px;padding-bottom:30px;">
+              <div class="col-5">
+                <h2 style="font-weight:bold;">Rechercher nos produits</h2>
+              </div>
+                <div class="col-7">
+                    <form action="" class="w-100">
+                      <input class="w-100" id="search" type="text" placeholder="Search..." />
+                    </form>
+                </div>
+            </div>
           <div class="row">
             @foreach($products as $product)
               <div class="col-lg-4 col-sm-6 portfolio-item">
@@ -185,7 +193,6 @@
               </div>
             @endforeach
           </div>
-        </div>
       </div>
     </main>
     <!-- fin main""""""""""" -->
