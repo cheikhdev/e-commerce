@@ -53590,13 +53590,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-<<<<<<< HEAD
-__webpack_require__(/*! C:\xampp\htdocs\e-commerce\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\xampp\htdocs\e-commerce\resources\sass\app.scss */"./resources/sass/app.scss");
-=======
 __webpack_require__(/*! /home/gaye_enginer/www/labo/e-commerce/resources/js/app.js */"./resources/js/app.js");
 module.exports = __webpack_require__(/*! /home/gaye_enginer/www/labo/e-commerce/resources/sass/app.scss */"./resources/sass/app.scss");
->>>>>>> 17aa5c803ca5b26ef9cedbb870f4fb5f22f6e1db
 
 
 /***/ })

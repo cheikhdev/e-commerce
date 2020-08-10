@@ -18,7 +18,7 @@ Route::post('/products/create','ProductsController@store')->name('store_products
 //Route::post('/products/create','categoriesController@store')->name('store_products');
 Route::get('products/{id}/edit','ProductsController@edit')->name("editer_produit");
 Route::patch('products/{id}/edit', 'ProductsController@update')->name('update_product');
-Route::get('/ajouproduit', 'ProductsController@create')->name('create_product')->middleware('auth');
+Route::get('/ajouproduit', 'ProductsController@create')->name('create_product');
 
 Route::delete('product/{id}','ProductsController@destroy');
 
