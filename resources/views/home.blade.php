@@ -62,43 +62,113 @@
                                         </li>
                                         <div class="topbar-divider d-none d-sm-block"></div>
                                         <li class="nav-item dropdown">
-                                            <a class="nav-link " href="#">
+                                            <a class="nav-link dropdown-toggle" href="#" id="aproposDropdown"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                             <i class="fab fa-hire-a-helper fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i>
-                                                Services
+                                                A Propos
                                             </a>
-                                            
-                                        </li>
-                                        <div class="topbar-divider  d-none d-sm-block"></div>
-                                        <li class="nav-item dropdown">
-                                            <a class="nav-link  dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                              <i class="fab fa-product-hunt fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i>
-                                                Produits
-                                            </a>
-                                            <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
+                                            <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="aproposDropdown">
                                               <a class="dropdown-item" href="">
                                                   <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
-                                                  Profil
+                                                  Mention légale
                                               </a>
+                                              <div class="dropdown-divider"></div>
                                               <a class="dropdown-item" href="#">
                                                   <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
-                                                  Parametres
+                                                  Conditions générales de vente
                                               </a>
                                               
                                               <div class="dropdown-divider"></div>
                                               <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
                                                   <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
-                                                  Deconnection
+                                                  Contact
                                               </a>
                                             </div>
                                         </li>
-                                        <div class="topbar-divider d-none d-sm-block"></div>
+                                        <div class="topbar-divider  d-none d-sm-block"></div>
                                         <li class="nav-item dropdown">
-                                            <a class="nav-link " href="#">
-                                            <i class="far fa-id-card fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i>
-                                                Contacter
+                                            <a class="nav-link  dropdown-toggle" href="#" id="produitDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                              <i class="fab fa-product-hunt fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i>
+                                               Categories de produits
                                             </a>
-                                            
+                                            <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in " style="width:50vw;" aria-labelledby="produitDropdown">
+                                              <div class="row ">
+                                                <div class="col-sm-6 " style="margin-bottom:20px;">
+                                                <h4 style="text-align:center;">Electricité</h4>
+                                                  <a class="dropdown-item" href="">
+                                                      <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+                                                      Elairage
+                                                  </a>
+                                                  
+                                                  <a class="dropdown-item" href="">
+                                                      <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+                                                      Cablage
+                                                  </a>
+                                                 
+                                                  <a class="dropdown-item" href="">
+                                                      <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+                                                      Appareillage
+                                                  </a>
+                                                  
+                                                  <a class="dropdown-item" href="">
+                                                      <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+                                                      Protection
+                                                  </a>
+                                                  <div class="dropdown-divider"></div>
+                                                </div>
+                                                
+                                                <div class="col-sm-6 " style="margin-bottom:20px;">
+                                                  <h4 style="text-align:center;">Sanitaire et Plomberie</h4>
+                                                  <a class="dropdown-item" href="">
+                                                      <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+                                                      Salle de bain
+                                                  </a>
+                                                  
+                                                  <a class="dropdown-item" href="">
+                                                      <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+                                                      Robineterie
+                                                  </a>
+                                                  <div class="dropdown-divider"></div>
+                                                </div>
+                                                
+                                                <div class="col-sm-6 ">
+                                                  <h4 style="text-align:center;">Peinture</h4>
+                                                  <a class="dropdown-item" href="">
+                                                      <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+                                                      Mention légale
+                                                  </a>
+                                                  
+                                                  <a class="dropdown-item" href="">
+                                                      <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+                                                      Mention légale
+                                                  </a>
+                                                  
+                                                  <a class="dropdown-item" href="">
+                                                      <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+                                                      Mention légale
+                                                  </a>
+                                                </div>
+                                                
+                                                <div class="col-sm-6 ">
+                                                  <h4 style="text-align:center;">Maçonnerie</h4>
+                                                  <a class="dropdown-item" href="">
+                                                      <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+                                                     Ciment
+                                                  </a>
+                                                
+                                                  <a class="dropdown-item" href="">
+                                                      <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+                                                      fer
+                                                  </a>
+                                                  
+                                                  <a class="dropdown-item" href="">
+                                                      <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+                                                      Graviers
+                                                  </a>
+                                                </div>
+                                              </div>
+                                            </div>
                                         </li>
+                                        
                                         <div class="topbar-divider  d-none d-sm-block"></div>
                                         <li class="nav-item">
                                             <a class="nav-link style-bar" href="/login">
@@ -405,16 +475,20 @@
 <!-- Footer -->
   <!-- Bootstrap core JavaScript -->
     
-      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-      <script src="{{asset('js/app.js')}}"></script>
-      <script src="{{asset('js/bootstrap.js')}}"></script>
-      <script src="{{asset('js/app.js')}}"></script>  
+  <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>    
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+  crossorigin="anonymous">
+</script>
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+  integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+  crossorigin="anonymous"></script>
+  
+    <script src="{{asset('js/app.js')}}"></script>  
     <script src="{{asset('js/jquery-2.2.4.min.js')}}"></script>
     <!-- Popper js -->
-    
     <script src="{{asset('js/popper.min.js')}}"></script>
-    <script src="{{asset('js/sb-admin-2.min.js')}}"></script>
     <!-- Bootstrap js -->
     <script src="{{asset('js/bootstrap.min.js')}}"></script>
     <!-- Plugins js -->
@@ -422,9 +496,14 @@
     <!-- Active js -->
     <script src="{{asset('js/active.js')}}"></script>
     <script src="{{asset('js/footer.js')}}"></script>
-    <script src="{{asset('js/folder.js')}}"></script>
-   
+    <script src="{{asset('js/jquery.dataTables.min.js')}}"></script>
     <script src="{{asset('js/jquery.min.js')}}"></script>
+    <script src="{{asset('js/bootstrap.bundle.min.js')}}"></script>
+    <script src="{{asset('js/jquery.easing.min.js')}}"></script>
+    <script src="{{asset('js/sb-admin-2.min.js')}}"></script>
+    <script src="{{asset('js/dataTables.bootstrap4.min.js')}}"></script>
+    <script src="{{asset('js/datatables-demo.js')}}"></script>
+    <script src="//cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
 
 </body>
 
