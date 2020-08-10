@@ -15,9 +15,11 @@
   
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rancho&effect=fire-animation|3d-float|neon|canvas-print 	
 ">
-  <!-- Custom styles for this template -->
+ 
+
   
   
+ 
  
 
 </head>
@@ -206,15 +208,15 @@
                 </ol>
                 <div class="carousel-inner" role="listbox">
                   <div class="carousel-item active">
-                    <p class="carouselTitle">Arashiyama</p>
+                    <p class="carouselTitle">Ciment de bonne qualite</p>
                     <img class="w-100" src="{{asset('images/materiel1.jpg')}}" alt="First slide">
                   </div>
                   <div class="carousel-item">
-                    <p class="carouselTitle">Uji</p>
+                    <p class="carouselTitle">Betons et fer </p>
                     <img class="w-100" src="{{asset('images/materiel2.jpg')}}" alt="Second slide">
                   </div>
                   <div class="carousel-item">
-                    <p class="carouselTitle">Kiyomizu-dera</p>
+                    <p class="carouselTitle">Materiels immobiliers</p>
                     <img class="w-100" src="{{asset('images/materiel3.jpg')}}" alt="Third slide">
                   </div>
                 </div>
@@ -242,7 +244,7 @@
             @foreach($products as $product)
               <div class="col-lg-4 col-sm-6 portfolio-item">
                 <div class="card h-100">
-                    <a href="#"><a href="/produit/{{$product->id}}/show"><img class="card-img-top" src="{{$product->image_product ? asset($product->image_product) : asset('uploads/images/default.png')}}"   height="180" width="180" alt=""></a></a>
+                    <a href="#"><a href="/produit/{{$product->id}}/show"><img class="card-img-top" src="{{$product->image_product ? asset($product->image_product) : asset('uploads/images/default.png')}}"   height="140" width="10" alt=""></a></a>
                     <div class="card-body">
                         <h4 class="card-title">
                             <a href="/produit/{{$product->id}}/show">{{$product->name_product}}  </a>
@@ -265,6 +267,120 @@
           </div>
       </div>
     </main>
+    <div class="container">
+  <h2 style="
+  text-align:center;
+  padding: 20px;">   Les grandes Marques vous attendent .
+
+       <!-- Footer -->
+<footer class="page-footer font-small mdb-color lighten-3 pt-4">
+
+  <!-- Footer Elements -->
+  <div class="container">
+
+    <!--Grid row-->
+    <div class="row">
+
+      <!--Grid column-->
+      <div class="col-lg-2 col-md-12 mb-4">
+
+        <!--Image-->
+        <div class="view overlay z-depth-1-half">
+          <img src="{{asset('images/marque7.png')}}" class="img-fluid"
+            alt="" >
+          <a href="">
+            <div class="mask rgba-white-light"></div>
+          </a>
+        </div>
+
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-2 col-md-6 mb-4">
+
+        <!--Image-->
+        <div class="view overlay z-depth-1-half">
+          <img src="{{asset('images/marque6.jpg')}}" class="img-fluid"
+            alt="">
+          <a href="">
+            <div class="mask rgba-white-light"></div>
+          </a>
+        </div>
+
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-2 col-md-6 mb-4">
+
+        <!--Image-->
+        <div class="view overlay z-depth-1-half">
+          <img src="{{asset('images/marque4.png')}}" class="img-fluid"
+            alt="">
+          <a href="">
+            <div class="mask rgba-white-light"></div>
+          </a>
+        </div>
+
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-2 col-md-12 mb-4">
+
+        <!--Image-->
+        <div class="view overlay z-depth-1-half">
+          <img src="{{asset('images/marque3.jpg')}}" class="img-fluid"
+            alt="">
+          <a href="">
+            <div class="mask rgba-white-light"></div>
+          </a>
+        </div>
+
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-2 col-md-6 mb-4">
+
+        <!--Image-->
+        <div class="view overlay z-depth-1-half">
+          <img src="{{asset('images/marque2.png')}}" class="img-fluid"
+            alt="">
+          <a href="">
+            <div class="mask rgba-white-light"></div>
+          </a>
+        </div>
+
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-2 col-md-6 mb-4">
+
+        <!--Image-->
+        <div class="view overlay z-depth-1-half">
+          <img src="{{asset('images/marque1.jpg')}}" class="img-fluid"
+            alt="">
+          <a href="">
+            <div class="mask rgba-white-light"></div>
+          </a>
+        </div>
+
+      </div>
+      <!--Grid column-->
+
+    </div>
+    <!--Grid row-->
+
+  </div>
+  <!-- Footer Elements -->
+
+  
+</footer>
+<!-- Footer -->
+                    
     <!-- fin main""""""""""" -->
 
     <!-- debut footer""""""""""" -->
@@ -424,54 +540,12 @@
     </footer>
   
 
-<style>
-  #lab_social_icon_footer {
-  padding: 40px 0;
-  background-color: #dedede;
-}
 
-#lab_social_icon_footer a {
-  color: #333;
-}
-
-#lab_social_icon_footer .social:hover {
-  -webkit-transform: scale(1.1);
-  -moz-transform: scale(1.1);
-  -o-transform: scale(1.1);
-}
-
-#lab_social_icon_footer .social {
-  -webkit-transform: scale(0.8);
-  /* Browser Variations: */
-  
-  -moz-transform: scale(0.8);
-  -o-transform: scale(0.8);
-  -webkit-transition-duration: 0.5s;
-  -moz-transition-duration: 0.5s;
-  -o-transition-duration: 0.5s;
-}
-/*
-    Multicoloured Hover Variations
-*/
-
-#lab_social_icon_footer #social-fb:hover {
-  color: #3B5998;
-}
-
-#lab_social_icon_footer #social-tw:hover {
-  color: #4099FF;
-}
-
-#lab_social_icon_footer #social-gp:hover {
-  color: #d34836;
-}
-
-#lab_social_icon_footer #social-em:hover {
-  color: #f39c12;
-}
-</style>
 
 </section>
+        
+
+
 <!-- Footer -->
   <!-- Bootstrap core JavaScript -->
     
