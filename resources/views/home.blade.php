@@ -442,9 +442,9 @@
           <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
 
             <!-- Content -->
-            <h6 class="text-uppercase font-weight-bold font-size-60px">Groupe E-Materiels</h6>
-            <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-            <p> Merci d'avoir visiter a notre site Pour plus d'informations  a propos de e-materiels , 
+            <h6 style="font-size: 20px;" class="text-uppercase font-weight-bold font-size-60px">Quincaillerie en Ligne</h6>
+            <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 40px;">
+            <p style="font-size: 20px;"> Merci d'avoir visiter a notre site Pour plus d'informations  a propos de e-materiels , 
               Veuillez nous contactez  .</p>
 
           </div>
@@ -454,22 +454,22 @@
           <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
 
             <!-- Links -->
-            <h6 class="text-uppercase font-weight-bold">Nos Produits</h6>
+            <h6 style="font-size: 20px;"class="text-uppercase font-weight-bold">Nos Produits</h6>
             <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
             <p>
-              <a class="dark-grey-text" href="{{ url('/agri') }}">Agricole</a>
+              <a style="font-size: 20px;" class="dark-grey-text" href="{{ url('/agri') }}">Materiels de Constructions</a>
             </p>
             <p>
-              <a class="dark-grey-text" href="{{ url('/sante') }}">Medical</a>
+              <a style="font-size: 20px;" class="dark-grey-text" href="{{ url('/sante') }}">Materiaux de Constructions</a>
             </p>
             <p>
-              <a class="dark-grey-text" href="{{ url('/sport') }}">Sport</a>
+              <a style="font-size: 20px;" class="dark-grey-text" href="{{ url('/sport') }}">Elecricite</a>
             </p>
             <p>
-              <a class="dark-grey-text" href="{{ url('/tele') }}">TELECOMS</a>
+              <a style="font-size: 20px;" class="dark-grey-text" href="{{ url('/tele') }}">Peinture</a>
             </p>
             <p>
-              <a class="dark-grey-text" href="{{ url('/elec') }}">ELECTRONIQUE</a>
+              <a style="font-size: 20px;" class="dark-grey-text" href="{{ url('/elec') }}">Carrelerie</a>
             </p>
 
           </div>
@@ -479,19 +479,19 @@
           <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
 
             <!-- Links -->
-            <h6 class="text-uppercase font-weight-bold">Liens Utiles</h6>
+            <h6 style="font-size: 20px;" class="text-uppercase font-weight-bold">Liens Utiles</h6>
             <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
             <p>
-              <a class="dark-grey-text" href="#!">Votre Compte</a>
+              <a style="font-size: 20px;" class="dark-grey-text" href="#!">Votre Compte</a>
             </p>
             <p>
-              <a class="dark-grey-text" href="#!">Devenir Partenaire</a>
+              <a style="font-size: 20px;" class="dark-grey-text" href="#!">Devenir Partenaire</a>
             </p>
             <p>
-              <a class="dark-grey-text" href="#!">Nos Partenaires</a>
+              <a style="font-size: 20px;" class="dark-grey-text" href="#!">Nos Partenaires</a>
             </p>
             <p>
-              <a class="dark-grey-text" href="#!">Aide</a>
+              <a style="font-size: 20px;" class="dark-grey-text" href="#!">Aide</a>
             </p>
 
           </div>
@@ -501,15 +501,15 @@
           <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
 
             <!-- Links -->
-            <h6 class="text-uppercase font-weight-bold">Contacts</h6>
+            <h6 style="font-size: 20px;" class="text-uppercase font-weight-bold">Contacts</h6>
             <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-            <p>
+            <p style="font-size: 20px;">
               <i class="fa fa-map-marker"></i> DAKAR</p>
-            <p>
+            <p style="font-size: 20px;">
               <i class="fa fa-envelope-o"></i> e-materiels@gmail.com</p>
-            <p>
+            <p style="font-size: 20px;">
               <i class="fa fa-tablet"></i> + 01 234 567 88</p>
-            <p>
+            <p style="font-size: 20px;">
               <i class="fa fa-tablet"></i> + 01 234 567 89</p>
 
           </div>
@@ -529,12 +529,14 @@
       <section id="lab_social_icon_footer">
       <!-- Include Font Awesome Stylesheet in Header -->
       <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+      
+      <h2>Suivez-nous dans les medias sociaux .</h2>
       <div class="container">
             <div class="text-center center-block">
-                    <a href="https://www.facebook.com/bootsnipp"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
-                  <a href="https://twitter.com/bootsnipp"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
-                  <a href="https://plus.google.com/+Bootsnipp-page"><i id="social-gp" class="fa fa-google-plus-square fa-3x social"></i></a>
-                  <a href="mailto:#"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+                    <a style="padding: 25px 35px;" href="https://www.facebook.com/bootsnipp"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
+                  <a style="padding:25px 35px;" href="https://twitter.com/bootsnipp"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
+                  <a style="padding:25px 35px;"href="https://plus.google.com/+Bootsnipp-page"><i id="social-gp" class="fa fa-google-plus-square fa-3x social"></i></a>
+                  <a style="padding:25px 35px;"href="mailto:#"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
         </div>
       </div>
     </footer>
