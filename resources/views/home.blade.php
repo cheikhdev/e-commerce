@@ -702,8 +702,8 @@ header{
                 </div>
 
                 <div class="log-sign" style="--i: 1.8s">
-                    <a href="#" class="btn transparent">Log in</a>
-                    <a href="#" class="btn solid">Sign up</a>
+                    <a href="#" class="btn transparent">Connecter</a>
+                    <a href="#" class="btn solid">S'inscrire</a>
                 </div>
             </div>
 
