@@ -15,6 +15,7 @@
   
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rancho&effect=fire-animation|3d-float|neon|canvas-print 	
 ">
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,900" rel="stylesheet" />
  <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
  
 
@@ -34,9 +35,11 @@ ul{
 }
 ul li{
   text-decoration: none;
+
 }
 a{
     text-decoration: none;
+
 }
 
 header{
@@ -54,6 +57,7 @@ header{
 .nav-btn{
     flex: 3;
     display: flex;
+
 }
 
 .nav-links{
@@ -71,7 +75,7 @@ header{
 
 .btn{
     display: inline-block;
-    padding: .5rem 1.3rem;
+    padding: 8px 13px;
     font-size: .8rem;
     border: 2px solid #fff;
     border-radius: 2rem;
@@ -436,12 +440,10 @@ header{
       <div id="mylogo">
         <img style="position: absolute;top: 8px;left: 25px;" src="{{asset('images/logo.png')}}" width="150px" height="70px">
       </div>
-      <div class="nav-btn">
-                <div class="nav-links" style="float: right;">
+      <div class="nav-btn" >
+                <div class="nav-links" style="float: right; position:relative; left: 130px; " >
                     <ul style="margin-left: 10px;">
-                        <li class="nav-link" style="--i: .6s">
-                            <a href="#">Acceuil</a>
-                        </li>
+                        
                         <li class="nav-link" style="--i: .85s">
                             <a href="#">Electricite<i class="fas fa-caret-down"></i></a>
                             <div class="dropdown">
@@ -748,11 +750,11 @@ header{
               </div>
             </div>
             
-          <div class="row">
+          <div class="row"style="margin:20px; width: 700px; height: -90px;">
             @foreach($products as $product)
               <div class="col-lg-4 col-sm-6 portfolio-item">
-                <div class="card h-100">
-                    <a href="#"><a href="/produit/{{$product->id}}/show"><img class="card-img-top" src="{{$product->image_product ? asset($product->image_product) : asset('uploads/images/default.png')}}"   height="140" width="10" alt=""></a></a>
+                <div class="card h-100" >
+                    <a href="#"><a href="/produit/{{$product->id}}/show"><img class="card-img-top" src="{{$product->image_product ? asset($product->image_product) : asset('uploads/images/default.png')}}"    alt=""></a></a>
                     <div class="card-body">
                         <h4 class="card-title">
                             <a href="/produit/{{$product->id}}/show">{{$product->name_product}}  </a>
@@ -1039,14 +1041,61 @@ header{
       <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
       
       <h2>Suivez-nous dans les medias sociaux .</h2>
-      <div class="container">
-            <div class="text-center center-block">
-                    <a style="padding: 25px 35px;" href="https://www.facebook.com/bootsnipp"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
-                  <a style="padding:25px 35px;" href="https://twitter.com/bootsnipp"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
-                  <a style="padding:25px 35px;"href="https://plus.google.com/+Bootsnipp-page"><i id="social-gp" class="fa fa-google-plus-square fa-3x social"></i></a>
-                  <a style="padding:25px 35px;"href="mailto:#"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+      <!-- Footer -->
+<footer class="page-footer font-small cyan darken-3">
+
+  <!-- Footer Elements -->
+  <div class="container">
+
+    <!-- Grid row-->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-12 py-5">
+        <div class="mb-5 flex-center">
+
+          <!-- Facebook -->
+          <a class="fb-ic">
+            <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!-- Twitter -->
+          <a class="tw-ic">
+            <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!-- Google +-->
+          <a class="gplus-ic">
+            <i class="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!--Linkedin -->
+          <a class="li-ic">
+            <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!--Instagram-->
+          <a class="ins-ic">
+            <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!--Pinterest-->
+          <a class="pin-ic">
+            <i class="fab fa-pinterest fa-lg white-text fa-2x"> </i>
+          </a>
         </div>
       </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row-->
+
+  </div>
+  <!-- Footer Elements -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+    <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
     </footer>
   
 
