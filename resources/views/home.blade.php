@@ -13,180 +13,702 @@
   <link href="{{asset('css/app.css')}}" rel="stylesheet" />
   <link href="{{asset('css/all.css')}}" rel="stylesheet" />
   
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-</head>
 
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rancho&effect=fire-animation|3d-float|neon|canvas-print">
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,900" rel="stylesheet" />
+ <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+</head>
+<style type="text/css">
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+
+ul{
+    list-style: none;
+}
+ul li{
+  text-decoration: none;
+
+}
+a{
+    text-decoration: none;
+
+}
+
+header{
+    position: sticky;
+    top: 0px;
+    background-color: #60b4df;
+    width: 100%;
+    z-index: 1000;
+}
+
+
+
+
+
+.nav-btn{
+    flex: 3;
+    display: flex;
+
+}
+
+.nav-links{
+    flex: 2;
+}
+
+.log-sign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+
+
+.btn{
+    display: inline-block;
+    padding: 8px 13px;
+    font-size: .8rem;
+    border: 2px solid #fff;
+    border-radius: 2rem;
+    line-height: 1;
+    margin: 0 .2rem;
+    transition: .3s;
+    text-transform: uppercase;
+}
+
+.btn.solid, .btn.transparent:hover{
+    background-color: #fff;
+    color: #69bde7;
+}
+
+.btn.transparent, .btn.solid:hover{
+    background-color: transparent;
+    color: #fff;
+}
+
+.nav-links > ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-link{
+    position: relative;
+}
+
+.nav-link > a{
+    line-height: 3rem;
+    color: #fff;
+    padding: 0 .8rem;
+    letter-spacing: 1px;
+    font-size: .95rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: .5s;
+}
+
+.nav-link > a > i{
+    margin-left: .2rem;
+}
+
+.nav-link:hover > a{
+    transform: scale(1.1);
+}
+
+.dropdown{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 10rem;
+    transform: translateY(10px);
+    opacity: 0;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.dropdown ul{
+    position: relative;
+}
+
+.dropdown-link > a{
+    display: flex;
+    background-color: #fff;
+    color: #3498db;
+    padding: .5rem 1rem;
+    font-size: .9rem;
+    align-items: center;
+    justify-content: space-between;
+    transition: .3s;
+}
+
+.dropdown-link:hover > a{
+    background-color: #3498db;
+    color: #fff;
+}
+
+.dropdown-link:not(:nth-last-child(2)){
+    border-bottom: 1px solid #efefef;
+}
+
+.dropdown-link i{
+    transform: rotate(-90deg);
+}
+
+.arrow{
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    top: -5.5px;
+    left: 32px;
+    background-color: #fff;
+    transform: rotate(45deg);
+    cursor: pointer;
+    transition: .3s;
+    z-index: -1;
+}
+
+.dropdown-link:first-child:hover ~ .arrow{
+    background-color: #3498db;
+}
+
+.dropdown-link{
+    position: relative;
+}
+
+.dropdown.second{
+    top: 0;
+    left: 100%;
+    padding-left: .8rem;
+    cursor: pointer;
+    transform: translateX(10px);
+}
+
+.dropdown.second .arrow{
+    top: 10px;
+    left: -5.5px;
+}
+
+.nav-link:hover > .dropdown,
+.dropdown-link:hover > .dropdown{
+    transform: translate(0, 0);
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.hamburger-menu-container{
+    flex: 1;
+    display: none;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.hamburger-menu{
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.hamburger-menu div{
+    width: 1.6rem;
+    height: 3px;
+    border-radius: 3px;
+    background-color: #fff;
+    position: relative;
+    z-index: 1001;
+    transition: .5s;
+}
+
+.hamburger-menu div:before,
+.hamburger-menu div:after{
+    content: '';
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    background-color: #fff;
+    border-radius: 3px;
+    transition: .5s;
+}
+
+.hamburger-menu div:before{
+    transform: translateY(-7px);
+}
+
+.hamburger-menu div:after{
+    transform: translateY(7px);
+}
+
+#check{
+    position: absolute;
+    top: 50%;
+    right: 1.5rem;
+    transform: translateY(-50%);
+    width: 2.5rem;
+    height: 2.5rem;
+    z-index: 90000;
+    cursor: pointer;
+    opacity: 0;
+    display: none;
+}
+
+#check:checked ~ .hamburger-menu-container .hamburger-menu div{
+    background-color: transparent;
+}
+
+#check:checked ~ .hamburger-menu-container .hamburger-menu div:before{
+    transform: translateY(0) rotate(-45deg);
+}
+
+#check:checked ~ .hamburger-menu-container .hamburger-menu div:after{
+    transform: translateY(0) rotate(45deg);
+}
+
+@keyframes animation{
+    from{
+        opacity: 0;
+        transform: translateY(15px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+@media (max-width: 920px){
+    .hamburger-menu-container{
+        display: flex;
+    }
+
+    #check{
+        display: block;
+    }
+
+    .nav-btn{
+        position: fixed;
+        height: calc(100vh - 3rem);
+        top: 3rem;
+        left: 0;
+        width: 100%;
+        background-color: #69bde7;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        overflow-x: hidden;
+        overflow-y: auto;
+        transform: translateX(100%);
+        transition: .65s;
+    }
+
+    #check:checked ~ .nav-btn{
+        transform: translateX(0);
+    }
+
+    #check:checked ~ .nav-btn .nav-link,
+    #check:checked ~ .nav-btn .log-sign{
+        animation: animation .5s ease forwards var(--i);
+    }
+
+    .nav-links{
+        flex: initial;
+        width: 100%;
+    }
+
+    .nav-links > ul{
+        flex-direction: column;
+    }
+
+    .nav-link{
+        width: 100%;
+        opacity: 0;
+        transform: translateY(15px);
+    }
+
+    .nav-link > a{
+        line-height: 1;
+        padding: 1.6rem 2rem;
+    }
+
+    .nav-link:hover > a{
+        transform: scale(1);
+        background-color: #50a9d6;
+    }
+
+    .dropdown, .dropdown.second{
+        position: initial;
+        top: initial;
+        left: initial;
+        transform: initial;
+        opacity: 1;
+        pointer-events: auto;
+        width: 100%;
+        padding: 0;
+        background-color: #3183ac;
+        display: none;
+    }
+    
+    .nav-link:hover > .dropdown,
+    .dropdown-link:hover > .dropdown{
+        display: block;
+    }
+
+    .nav-link:hover > a > i,
+    .dropdown-link:hover > a > i{
+        transform: rotate(360deg);
+    }
+
+    .dropdown-link > a{
+        background-color: transparent;
+        color: #fff;
+        padding: 1.2rem 2rem;
+        line-height: 1;
+    }
+
+    .dropdown.second .dropdown-link > a{
+        padding: 1.2rem 2rem 1.2rem 3rem;
+    }
+
+    .dropdown.second .dropdown.second .dropdown-link > a{
+        padding: 1.2rem 2rem 1.2rem 4rem;
+    }
+
+    .dropdown-link:not(:nth-last-child(2)){
+        border-bottom: none;
+    }
+
+    .arrow{
+        z-index: 1;
+        background-color: #69bde7;
+        left: 10%;
+        transform: scale(1.1) rotate(45deg);
+        transition: .5s;
+    }
+
+    .nav-link:hover .arrow{
+        background-color: #50a9d6;
+    }
+
+    .dropdown .dropdown .arrow{
+        display: none;
+    }
+
+    .dropdown-link:hover > a{
+        background-color: #3a91bd;
+    }
+
+    .dropdown-link:first-child:hover ~ .arrow{
+        background-color: #50a9d6;
+    }
+
+    .nav-link > a > i{
+        font-size: 1.1rem;
+        transform: rotate(-90deg);
+        transition: .7s;
+    }
+
+    .dropdown i{
+        font-size: 1rem;
+        transition: .7s;
+    }
+
+    .log-sign{
+        flex: initial;
+        width: 100%;
+        padding: 1.5rem 1.9rem;
+        justify-content: flex-start;
+        opacity: 0;
+        transform: translateY(15px);
+    }
+
+}
+</style>
 <body>
 
   <!-- Navigation -->
     
     <header>
-      <div class="header-area">
-        <!-- Top Header Area -->
-        <div class="top-header-area">
-            <div class="container h-100">
-                <div class="row h-100">
-                    <div class="col-12 h-100">
-                        <div class="h-100 d-md-flex justify-content-between ">
-                            <p style="font-weight:bold;">Votre quincaillerie en ligne</p>
-                            <p style="font-weight:bold;">Disponible <span>24H/24</span></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Main Header Area -->
-        <div class="main-header-area" id="stickyHeader" style="height:auto;">
-            <div class="container h-100">
-                <div class="row h-100 justify-content-between">
-                    <div class="col-12 h-100">
-                        <div class="main-menu h-100">
-                            <nav class="navbar h-100 navbar-expand-lg row justify-content-between align-items-center">
-                                <!-- Logo Area  -->
-                                <a class="navbar-brand" href=""><img src="{{asset('img/core-img/logo.png')}}" alt="Logo"></a>
-                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#medilifeMenu" aria-controls="medilifeMenu" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                                <div class="collapse navbar-collapse" id="medilifeMenu">
-                                    <!-- Menu Area -->
-                                    <ul class="navbar-nav ml-auto">
-                                        <li class="nav-item">
-                                            <a class="nav-link style-bar" href="/">
-                                                <i class="fas fa-home fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i>
-                                                Acceuil 
-                                            </a>
-                                        </li>
-                                        <div class="topbar-divider d-none d-sm-block"></div>
-                                        <li class="nav-item dropdown">
-                                            <a class="nav-link dropdown-toggle" href="#" id="aproposDropdown"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                            <i class="fab fa-hire-a-helper fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i>
-                                                A Propos
-                                            </a>
-                                            <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="aproposDropdown">
-                                              <a class="dropdown-item" href="">
-                                                  <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
-                                                  Mention légale
-                                              </a>
-                                              <div class="dropdown-divider"></div>
-                                              <a class="dropdown-item" href="#">
-                                                  <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
-                                                  Conditions générales de vente
-                                              </a>
-                                              
-                                              <div class="dropdown-divider"></div>
-                                              <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
-                                                  <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
-                                                  Contact
-                                              </a>
-                                            </div>
-                                        </li>
-                                        <div class="topbar-divider  d-none d-sm-block"></div>
-                                        <li class="nav-item dropdown">
-                                            <a class="nav-link  dropdown-toggle" href="#" id="produitDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                              <i class="fab fa-product-hunt fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i>
-                                               Categories de produits
-                                            </a>
-                                            <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in " style="width:50vw;" aria-labelledby="produitDropdown">
-                                              <div class="row ">
-                                                <div class="col-sm-6 " style="margin-bottom:20px;">
-                                                <h4 style="text-align:center;">Electricité</h4>
-                                                  <a class="dropdown-item" href="">
-                                                      <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
-                                                      Elairage
-                                                  </a>
-                                                  
-                                                  <a class="dropdown-item" href="">
-                                                      <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
-                                                      Cablage
-                                                  </a>
-                                                 
-                                                  <a class="dropdown-item" href="">
-                                                      <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
-                                                      Appareillage
-                                                  </a>
-                                                  
-                                                  <a class="dropdown-item" href="">
-                                                      <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
-                                                      Protection
-                                                  </a>
-                                                  <div class="dropdown-divider"></div>
-                                                </div>
-                                                
-                                                <div class="col-sm-6 " style="margin-bottom:20px;">
-                                                  <h4 style="text-align:center;">Sanitaire et Plomberie</h4>
-                                                  <a class="dropdown-item" href="">
-                                                      <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
-                                                      Salle de bain
-                                                  </a>
-                                                  
-                                                  <a class="dropdown-item" href="">
-                                                      <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
-                                                      Robineterie
-                                                  </a>
-                                                  <div class="dropdown-divider"></div>
-                                                </div>
-                                                
-                                                <div class="col-sm-6 ">
-                                                  <h4 style="text-align:center;">Peinture</h4>
-                                                  <a class="dropdown-item" href="">
-                                                      <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
-                                                      Mention légale
-                                                  </a>
-                                                  
-                                                  <a class="dropdown-item" href="">
-                                                      <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
-                                                      Mention légale
-                                                  </a>
-                                                  
-                                                  <a class="dropdown-item" href="">
-                                                      <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
-                                                      Mention légale
-                                                  </a>
-                                                </div>
-                                                
-                                                <div class="col-sm-6 ">
-                                                  <h4 style="text-align:center;">Maçonnerie</h4>
-                                                  <a class="dropdown-item" href="">
-                                                      <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
-                                                     Ciment
-                                                  </a>
-                                                
-                                                  <a class="dropdown-item" href="">
-                                                      <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
-                                                      fer
-                                                  </a>
-                                                  
-                                                  <a class="dropdown-item" href="">
-                                                      <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
-                                                      Graviers
-                                                  </a>
-                                                </div>
-                                              </div>
-                                            </div>
-                                        </li>
-                                        
-                                        <div class="topbar-divider  d-none d-sm-block"></div>
-                                        <li class="nav-item">
-                                            <a class="nav-link style-bar" href="/login">
-                                            <i class="fas fa-sign-in-alt fa-md fa-fw mr-2 text-gray-400" aria-hidden="true" ></i>
-                                               Compte
-                                            </a>
-                                        </li>
-                                        <div class="topbar-divider  d-none d-sm-block style-bar"></div>
-                                        <!--li class="nav-item">
-                                            <a class="nav-link" href="/register">
-                                            <i class="fas fa-user-plus fa-md fa-fw mr-2 text-gray-400" aria-hidden="true" ></i>
-                                                Inscription
-                                            </a>
-                                        </li-->
-                                      
-                                      </ul>
-                                </div>
-                            </nav>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+      <div id="mylogo">
+        <img style="position: absolute;top: 8px;left: 25px;" src="{{asset('images/logo.png')}}" width="150px" height="70px">
       </div>
+      <div class="nav-btn" >
+                <div class="nav-links" style="float: right; position:relative; left: 130px; " >
+                    <ul style="margin-left: 10px;">
+                        
+                        <li class="nav-link" style="--i: .85s">
+                            <a href="#">Electricite<i class="fas fa-caret-down"></i></a>
+                            <div class="dropdown">
+                                <ul>
+                                    <li class="dropdown-link">
+                                        <a href="#">Link 1</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="#">Link 2</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="#">Link 3<i class="fas fa-caret-down"></i></a>
+                                        <div class="dropdown second">
+                                            <ul>
+                                                <li class="dropdown-link">
+                                                    <a href="#">Link 1</a>
+                                                </li>
+                                                <li class="dropdown-link">
+                                                    <a href="#">Link 2</a>
+                                                </li>
+                                                <li class="dropdown-link">
+                                                    <a href="#">Link 3</a>
+                                                </li>
+                                                <li class="dropdown-link">
+                                                    <a href="#">More<i class="fas fa-caret-down"></i></a>
+                                                    <div class="dropdown second">
+                                                        <ul>
+                                                            <li class="dropdown-link">
+                                                                <a href="#">Link 1</a>
+                                                            </li>
+                                                            <li class="dropdown-link">
+                                                                <a href="#">Link 2</a>
+                                                            </li>
+                                                            <li class="dropdown-link">
+                                                                <a href="#">Link 3</a>
+                                                            </li>
+                                                            <div class="arrow"></div>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <div class="arrow"></div>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="#">Link 4</a>
+                                    </li>
+                                    <div class="arrow"></div>
+                                </ul>
+                            </div>
+                        </li>
+                          <li class="nav-link" style="--i: 1.1s">
+                            <a href="#">Sanitaire<i class="fas fa-caret-down"></i></a>
+                            <div class="dropdown">
+                                <ul>
+                                    <li class="dropdown-link">
+                                        <a href="#">Link 1</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="#">Link 2</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="#">Link 3<i class="fas fa-caret-down"></i></a>
+                                        <div class="dropdown second">
+                                            <ul>
+                                                <li class="dropdown-link">
+                                                    <a href="#">Link 1</a>
+                                                </li>
+                                                <li class="dropdown-link">
+                                                    <a href="#">Link 2</a>
+                                                </li>
+                                                <li class="dropdown-link">
+                                                    <a href="#">Link 3</a>
+                                                </li>
+                                                <li class="dropdown-link">
+                                                    <a href="#">More<i class="fas fa-caret-down"></i></a>
+                                                    <div class="dropdown second">
+                                                        <ul>
+                                                            <li class="dropdown-link">
+                                                                <a href="#">Link 1</a>
+                                                            </li>
+                                                            <li class="dropdown-link">
+                                                                <a href="#">Link 2</a>
+                                                            </li>
+                                                            <li class="dropdown-link">
+                                                                <a href="#">Link 3</a>
+                                                            </li>
+                                                            <div class="arrow"></div>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <div class="arrow"></div>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="#">Link 4</a>
+                                    </li>
+                                    <div class="arrow"></div>
+                                </ul>
+                            </div>
+                        
+                          <li class="nav-link" style="--i: 1.1s">
+                            <a href="#">Plomberie<i class="fas fa-caret-down"></i></a>
+                            <div class="dropdown">
+                                <ul>
+                                    <li class="dropdown-link">
+                                        <a href="#">Link 1</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="#">Link 2</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="#">Link 3<i class="fas fa-caret-down"></i></a>
+                                        <div class="dropdown second">
+                                            <ul>
+                                                <li class="dropdown-link">
+                                                    <a href="#">Link 1</a>
+                                                </li>
+                                                <li class="dropdown-link">
+                                                    <a href="#">Link 2</a>
+                                                </li>
+                                                <li class="dropdown-link">
+                                                    <a href="#">Link 3</a>
+                                                </li>
+                                                <li class="dropdown-link">
+                                                    <a href="#">More<i class="fas fa-caret-down"></i></a>
+                                                    <div class="dropdown second">
+                                                        <ul>
+                                                            <li class="dropdown-link">
+                                                                <a href="#">Link 1</a>
+                                                            </li>
+                                                            <li class="dropdown-link">
+                                                                <a href="#">Link 2</a>
+                                                            </li>
+                                                            <li class="dropdown-link">
+                                                                <a href="#">Link 3</a>
+                                                            </li>
+                                                            <div class="arrow"></div>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <div class="arrow"></div>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="#">Link 4</a>
+                                    </li>
+                                    <div class="arrow"></div>
+                                </ul>
+                            </div>
+                        
+                        <li class="nav-link" style="--i: 1.1s">
+                            <a href="#">Peinture<i class="fas fa-caret-down"></i></a>
+                            <div class="dropdown">
+                                <ul>
+                                    <li class="dropdown-link">
+                                        <a href="#">Link 1</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="#">Link 2</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="#">Link 3<i class="fas fa-caret-down"></i></a>
+                                        <div class="dropdown second">
+                                            <ul>
+                                                <li class="dropdown-link">
+                                                    <a href="#">Link 1</a>
+                                                </li>
+                                                <li class="dropdown-link">
+                                                    <a href="#">Link 2</a>
+                                                </li>
+                                                <li class="dropdown-link">
+                                                    <a href="#">Link 3</a>
+                                                </li>
+                                                <li class="dropdown-link">
+                                                    <a href="#">More<i class="fas fa-caret-down"></i></a>
+                                                    <div class="dropdown second">
+                                                        <ul>
+                                                            <li class="dropdown-link">
+                                                                <a href="#">Link 1</a>
+                                                            </li>
+                                                            <li class="dropdown-link">
+                                                                <a href="#">Link 2</a>
+                                                            </li>
+                                                            <li class="dropdown-link">
+                                                                <a href="#">Link 3</a>
+                                                            </li>
+                                                            <div class="arrow"></div>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <div class="arrow"></div>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="#">Link 4</a>
+                                    </li>
+                                    <div class="arrow"></div>
+                                </ul>
+                            </div>
+                        </li>
+                          <li class="nav-link" style="--i: 1.1s">
+                            <a href="#">maçonnerie<i class="fas fa-caret-down"></i></a>
+                            <div class="dropdown">
+                                <ul>
+                                    <li class="dropdown-link">
+                                        <a href="#">Link 1</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="#">Link 2</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="#">Link 3<i class="fas fa-caret-down"></i></a>
+                                        <div class="dropdown second">
+                                            <ul>
+                                                <li class="dropdown-link">
+                                                    <a href="#">Link 1</a>
+                                                </li>
+                                                <li class="dropdown-link">
+                                                    <a href="#">Link 2</a>
+                                                </li>
+                                                <li class="dropdown-link">
+                                                    <a href="#">Link 3</a>
+                                                </li>
+                                                <li class="dropdown-link">
+                                                    <a href="#">More<i class="fas fa-caret-down"></i></a>
+                                                    <div class="dropdown second">
+                                                        <ul>
+                                                            <li class="dropdown-link">
+                                                                <a href="#">Link 1</a>
+                                                            </li>
+                                                            <li class="dropdown-link">
+                                                                <a href="#">Link 2</a>
+                                                            </li>
+                                                            <li class="dropdown-link">
+                                                                <a href="#">Link 3</a>
+                                                            </li>
+                                                            <div class="arrow"></div>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <div class="arrow"></div>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="#">Link 4</a>
+                                    </li>
+                                    <div class="arrow"></div>
+                                </ul>
+                            </div>
+                        
+                        
+                    </ul>
+                </div>
+
+                <div class="log-sign" style="--i: 1.8s">
+                    <a href="#" class="btn transparent">Connecter</a>
+                    <a href="#" class="btn solid">S'inscrire</a>
+                </div>
+            </div>
+
+            <div class="hamburger-menu-container">
+                <div class="hamburger-menu">
+                    <div></div>
+                </div>
+            </div>
     </header>
   <!-- Page Content -->
     <main>
@@ -222,21 +744,12 @@
                 </a>
               </div>
             </div>
-            <div class="container d-flex justify-content-between" style="padding-top:30px;padding-bottom:30px;">
-              <div class="col-5">
-                <h2 style="font-weight:bold;">Rechercher nos produits</h2>
-              </div>
-                <div class="col-7">
-                    <form action="" class="w-100">
-                      <input class="w-100" id="search" type="text" placeholder="Search..." />
-                    </form>
-                </div>
-            </div>
-          <div class="row">
+            
+          <div class="row"style="margin:20px; width: 700px; height: -90px;">
             @foreach($products as $product)
               <div class="col-lg-4 col-sm-6 portfolio-item">
-                <div class="card h-100">
-                    <a href="#"><a href="/produit/{{$product->id}}/show"><img class="card-img-top" src="{{$product->image_product ? asset($product->image_product) : asset('uploads/images/default.png')}}"   height="140" width="10" alt=""></a></a>
+                <div class="card h-100" >
+                    <a href="#"><a href="/produit/{{$product->id}}/show"><img class="card-img-top" src="{{$product->image_product ? asset($product->image_product) : asset('uploads/images/default.png')}}"    alt=""></a></a>
                     <div class="card-body">
                         <h4 class="card-title">
                             <a href="/produit/{{$product->id}}/show">{{$product->name_product}}  </a>
@@ -434,9 +947,9 @@
           <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
 
             <!-- Content -->
-            <h6 class="text-uppercase font-weight-bold font-size-60px">Groupe E-Materiels</h6>
-            <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-            <p> Merci d'avoir visiter a notre site Pour plus d'informations  a propos de e-materiels , 
+            <h6 style="font-size: 20px;" class="text-uppercase font-weight-bold font-size-60px">Quincaillerie en Ligne</h6>
+            <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 40px;">
+            <p style="font-size: 20px;"> Merci d'avoir visiter a notre site Pour plus d'informations  a propos de e-materiels , 
               Veuillez nous contactez  .</p>
 
           </div>
@@ -446,22 +959,22 @@
           <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
 
             <!-- Links -->
-            <h6 class="text-uppercase font-weight-bold">Nos Produits</h6>
+            <h6 style="font-size: 20px;"class="text-uppercase font-weight-bold">Nos Produits</h6>
             <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
             <p>
-              <a class="dark-grey-text" href="{{ url('/agri') }}">Agricole</a>
+              <a style="font-size: 20px;" class="dark-grey-text" href="{{ url('/agri') }}">Materiels de Constructions</a>
             </p>
             <p>
-              <a class="dark-grey-text" href="{{ url('/sante') }}">Medical</a>
+              <a style="font-size: 20px;" class="dark-grey-text" href="{{ url('/sante') }}">Materiaux de Constructions</a>
             </p>
             <p>
-              <a class="dark-grey-text" href="{{ url('/sport') }}">Sport</a>
+              <a style="font-size: 20px;" class="dark-grey-text" href="{{ url('/sport') }}">Elecricite</a>
             </p>
             <p>
-              <a class="dark-grey-text" href="{{ url('/tele') }}">TELECOMS</a>
+              <a style="font-size: 20px;" class="dark-grey-text" href="{{ url('/tele') }}">Peinture</a>
             </p>
             <p>
-              <a class="dark-grey-text" href="{{ url('/elec') }}">ELECTRONIQUE</a>
+              <a style="font-size: 20px;" class="dark-grey-text" href="{{ url('/elec') }}">Carrelerie</a>
             </p>
 
           </div>
@@ -471,19 +984,19 @@
           <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
 
             <!-- Links -->
-            <h6 class="text-uppercase font-weight-bold">Liens Utiles</h6>
+            <h6 style="font-size: 20px;" class="text-uppercase font-weight-bold">Liens Utiles</h6>
             <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
             <p>
-              <a class="dark-grey-text" href="#!">Votre Compte</a>
+              <a style="font-size: 20px;" class="dark-grey-text" href="#!">Votre Compte</a>
             </p>
             <p>
-              <a class="dark-grey-text" href="#!">Devenir Partenaire</a>
+              <a style="font-size: 20px;" class="dark-grey-text" href="#!">Devenir Partenaire</a>
             </p>
             <p>
-              <a class="dark-grey-text" href="#!">Nos Partenaires</a>
+              <a style="font-size: 20px;" class="dark-grey-text" href="#!">Nos Partenaires</a>
             </p>
             <p>
-              <a class="dark-grey-text" href="#!">Aide</a>
+              <a style="font-size: 20px;" class="dark-grey-text" href="#!">Aide</a>
             </p>
 
           </div>
@@ -493,15 +1006,15 @@
           <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
 
             <!-- Links -->
-            <h6 class="text-uppercase font-weight-bold">Contacts</h6>
+            <h6 style="font-size: 20px;" class="text-uppercase font-weight-bold">Contacts</h6>
             <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-            <p>
+            <p style="font-size: 20px;">
               <i class="fa fa-map-marker"></i> DAKAR</p>
-            <p>
+            <p style="font-size: 20px;">
               <i class="fa fa-envelope-o"></i> e-materiels@gmail.com</p>
-            <p>
+            <p style="font-size: 20px;">
               <i class="fa fa-tablet"></i> + 01 234 567 88</p>
-            <p>
+            <p style="font-size: 20px;">
               <i class="fa fa-tablet"></i> + 01 234 567 89</p>
 
           </div>
@@ -521,14 +1034,63 @@
       <section id="lab_social_icon_footer">
       <!-- Include Font Awesome Stylesheet in Header -->
       <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-      <div class="container">
-            <div class="text-center center-block">
-                    <a href="https://www.facebook.com/bootsnipp"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
-                  <a href="https://twitter.com/bootsnipp"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
-                  <a href="https://plus.google.com/+Bootsnipp-page"><i id="social-gp" class="fa fa-google-plus-square fa-3x social"></i></a>
-                  <a href="mailto:#"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+      
+      <h2>Suivez-nous dans les medias sociaux .</h2>
+      <!-- Footer -->
+<footer class="page-footer font-small cyan darken-3">
+
+  <!-- Footer Elements -->
+  <div class="container">
+
+    <!-- Grid row-->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-12 py-5">
+        <div class="mb-5 flex-center">
+
+          <!-- Facebook -->
+          <a class="fb-ic">
+            <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!-- Twitter -->
+          <a class="tw-ic">
+            <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!-- Google +-->
+          <a class="gplus-ic">
+            <i class="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!--Linkedin -->
+          <a class="li-ic">
+            <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!--Instagram-->
+          <a class="ins-ic">
+            <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!--Pinterest-->
+          <a class="pin-ic">
+            <i class="fab fa-pinterest fa-lg white-text fa-2x"> </i>
+          </a>
         </div>
       </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row-->
+
+  </div>
+  <!-- Footer Elements -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+    <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
     </footer>
   
 
