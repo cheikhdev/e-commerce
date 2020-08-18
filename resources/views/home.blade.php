@@ -750,9 +750,9 @@ header{
               </div>
             </div>
             
-          <div class="row"style="margin:20px; width: 700px; height: -90px;">
+          <div class="row"style="margin:20px; width: 1200px; height: -320px;">
             @foreach($products as $product)
-              <div class="col-lg-4 col-sm-6 portfolio-item">
+              <div class="col-lg-2 col-sm-7 portfolio-item">
                 <div class="card h-100" >
                     <a href="#"><a href="/produit/{{$product->id}}/show"><img class="card-img-top" src="{{$product->image_product ? asset($product->image_product) : asset('uploads/images/default.png')}}"    alt=""></a></a>
                     <div class="card-body">
