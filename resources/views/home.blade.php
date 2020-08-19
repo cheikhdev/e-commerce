@@ -783,7 +783,7 @@ header{
   padding: 20px;">   Les grandes Marques vous attendent .
 
        <!-- Footer -->
-<footer class="page-footer font-small mdb-color lighten-3 pt-4">
+<section class="page-footer font-small mdb-color lighten-3 pt-4">
 
   <!-- Footer Elements -->
   <div class="container">
@@ -887,221 +887,135 @@ header{
   </div>
   <!-- Footer Elements -->
 
-  
-</footer>
+</section>
 <!-- Footer -->
-                    
-    <!-- fin main""""""""""" -->
+  <hr style="height:3px;border-width:0;color:gray;background-color:#60b4df">
 
-    <!-- debut footer""""""""""" -->
-    <footer>
-      <div class="page-footer font-small blue-grey lighten-5">
+<footer class="page-footer font-small mdb-color lighten-3 pt-4">
 
-      <div style="background-color: #21d192;">
-        <div class="container">
+  <!-- Footer Links -->
+  <div class="container text-center text-md-left">
 
-          <!-- Grid row-->
-          <div class="row py-4 d-flex align-items-center">
-
-            <!-- Grid column -->
-            <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
-              <h6 class="mb-0">Retrouvez-nous sur les reseaux sociaux!</h6>
-            </div>
-            <!-- Grid column -->
-
-            <!-- Grid column -->
-            <div class="col-md-6 col-lg-7 text-center text-md-right">
-
-              <!-- Facebook -->
-              <a class="fb-ic" >
-                <i class="fa fa-facebook"> </i>
-              </a>
-              <!-- Twitter -->
-              <a class="tw-ic">
-                <i class=" 	fa fa-youtube"> </i>
-              </a>
-              <!-- Google +-->
-              <a class="gplus-ic">
-                <i class="fa fa-google-plus"> </i>
-              </a>
-              <!--Linkedin -->
-              <a class="li-ic">
-                <i class=" fa fa-linkedin-square"> </i>
-              </a>
-              <!--Instagram-->
-              <a class="ins-ic">
-                <i class="fa fa-instagram size-200px"> </i>
-              </a>
-
-            </div>
-            <!-- Grid column -->
-
-          </div>
-          <!-- Grid row-->
-
-        </div>
-      </div>
-
-      <!-- Footer Links -->
-      <div class="container text-center text-md-left mt-5">
-
-        <!-- Grid row -->
-        <div class="row mt-3 dark-grey-text">
-
-          <!-- Grid column -->
-          <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
-
-            <!-- Content -->
-            <h6 style="font-size: 20px;" class="text-uppercase font-weight-bold font-size-60px">Quincaillerie en Ligne</h6>
-            <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 40px;">
-            <p style="font-size: 20px;"> Merci d'avoir visiter a notre site Pour plus d'informations  a propos de e-materiels , 
-              Veuillez nous contactez  .</p>
-
-          </div>
-          <!-- Grid column -->
-
-          <!-- Grid column -->
-          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-
-            <!-- Links -->
-            <h6 style="font-size: 20px;"class="text-uppercase font-weight-bold">Nos Produits</h6>
-            <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-            <p>
-              <a style="font-size: 20px;" class="dark-grey-text" href="{{ url('/agri') }}">Materiels de Constructions</a>
-            </p>
-            <p>
-              <a style="font-size: 20px;" class="dark-grey-text" href="{{ url('/sante') }}">Materiaux de Constructions</a>
-            </p>
-            <p>
-              <a style="font-size: 20px;" class="dark-grey-text" href="{{ url('/sport') }}">Elecricite</a>
-            </p>
-            <p>
-              <a style="font-size: 20px;" class="dark-grey-text" href="{{ url('/tele') }}">Peinture</a>
-            </p>
-            <p>
-              <a style="font-size: 20px;" class="dark-grey-text" href="{{ url('/elec') }}">Carrelerie</a>
-            </p>
-
-          </div>
-          <!-- Grid column -->
-
-          <!-- Grid column -->
-          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-
-            <!-- Links -->
-            <h6 style="font-size: 20px;" class="text-uppercase font-weight-bold">Liens Utiles</h6>
-            <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-            <p>
-              <a style="font-size: 20px;" class="dark-grey-text" href="#!">Votre Compte</a>
-            </p>
-            <p>
-              <a style="font-size: 20px;" class="dark-grey-text" href="#!">Devenir Partenaire</a>
-            </p>
-            <p>
-              <a style="font-size: 20px;" class="dark-grey-text" href="#!">Nos Partenaires</a>
-            </p>
-            <p>
-              <a style="font-size: 20px;" class="dark-grey-text" href="#!">Aide</a>
-            </p>
-
-          </div>
-          <!-- Grid column -->
-
-          <!-- Grid column -->
-          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-
-            <!-- Links -->
-            <h6 style="font-size: 20px;" class="text-uppercase font-weight-bold">Contacts</h6>
-            <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-            <p style="font-size: 20px;">
-              <i class="fa fa-map-marker"></i> DAKAR</p>
-            <p style="font-size: 20px;">
-              <i class="fa fa-envelope-o"></i> e-materiels@gmail.com</p>
-            <p style="font-size: 20px;">
-              <i class="fa fa-tablet"></i> + 01 234 567 88</p>
-            <p style="font-size: 20px;">
-              <i class="fa fa-tablet"></i> + 01 234 567 89</p>
-
-          </div>
-          <!-- Grid column -->
-
-        </div>
-        <!-- Grid row -->
-
-      </div>
-      <!-- Footer Links -->
-
-      <!-- Copyright -->
-
-      <!-- Copyright -->
-
-      </div>
-      <section id="lab_social_icon_footer">
-      <!-- Include Font Awesome Stylesheet in Header -->
-      <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-      
-      <h2>Suivez-nous dans les medias sociaux .</h2>
-      <!-- Footer -->
-<footer class="page-footer font-small cyan darken-3">
-
-  <!-- Footer Elements -->
-  <div class="container">
-
-    <!-- Grid row-->
+    <!-- Grid row -->
     <div class="row">
 
       <!-- Grid column -->
-      <div class="col-md-12 py-5">
-        <div class="mb-5 flex-center">
+      <div class="col-md-4 col-lg-3 mr-auto my-md-4 my-0 mt-4 mb-1">
 
-          <!-- Facebook -->
-          <a class="fb-ic">
-            <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-          </a>
-          <!-- Twitter -->
-          <a class="tw-ic">
-            <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-          </a>
-          <!-- Google +-->
-          <a class="gplus-ic">
-            <i class="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-          </a>
-          <!--Linkedin -->
-          <a class="li-ic">
-            <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-          </a>
-          <!--Instagram-->
-          <a class="ins-ic">
-            <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-          </a>
-          <!--Pinterest-->
-          <a class="pin-ic">
-            <i class="fab fa-pinterest fa-lg white-text fa-2x"> </i>
-          </a>
-        </div>
+        <!-- Content -->
+        <h5 class="font-weight-bold text-uppercase mb-4" style="font-size: 35px;">E-Quinc</h5>
+        <p style="font-size: 23px;font-weight: bold;">Bienvenue a votre quincailerie digitale de reference .</p>
+        
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-2 col-lg-2 mx-auto my-md-4 my-0 mt-4 mb-1">
+
+        <!-- Links -->
+        <h5 class="font-weight-bold text-uppercase mb-4" style="font-size: 35px;">A Propos</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <p style="font-size: 20px;">
+              <a href="#!">Acceuil</a>
+            </p>
+          </li>
+          <li>
+            <p style="font-size: 20px;">
+              <a href="#!">Nos  Cathegories</a>
+            </p>
+          </li>
+          <li>
+            <p style="font-size: 20px;">
+              <a href="#!">Nos Produits</a>
+            </p>
+          </li>
+          <li>
+            <p style="font-size: 20px;">
+              <a href="#!">Contact</a>
+            </p>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-4 col-lg-3 mx-auto my-md-4 my-0 mt-4 mb-1">
+
+        <!-- Contact details -->
+        <h5 class="font-weight-bold text-uppercase mb-4" style="font-size: 35px;">Address</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <p>
+              <i class="fas fa-home mr-3"></i> <span style="font-size:20px; font-weight: bold;"> DAKAR,SENEGAL <span/></p>
+          </li>
+          <li>
+            <p>
+              <i class="fas fa-envelope mr-3"></i><span style="font-size:20px;font-weight: bold;">   info@example.com <span/></p>
+          </li>
+          <li>
+            <p style="font-size: color:8px;">
+              <i class="fas fa-phone mr-3"></i><span style="font-size:20px;font-weight: bold;"> +221 33 XXX XX XX <span/></p>
+          </li>
+          <li>
+            <p style="font-size: color:8px;">
+              <i class="fas fa-print mr-3"></i><span style="font-size:20px;font-weight: bold;"> +221 33 XXX XX XX<span/></p>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-2 col-lg-2 text-center mx-auto my-4">
+
+        <!-- Social buttons -->
+        <h5 class="font-weight-bold text-uppercase mb-4" style="font-size: 31px;">Follow Us</h5>
+
+        <!-- Facebook -->
+        <a type="button" class="btn-floating btn-fb">
+          <i class="fab fa-facebook-f" style="color: #60b4df;"></i>
+        </a>
+        <!-- Twitter -->
+        <a type="button" class="btn-floating btn-tw">
+          <i class="fab fa-twitter" style="color: #60b4df;"></i>
+        </a>
+        <!-- Google +-->
+        <a type="button" class="btn-floating btn-gplus">
+          <i class="fab fa-google-plus-g" style="color: red;"></i>
+        </a>
+        <!-- Dribbble -->
+        <a type="button" class="btn-floating btn-dribbble">
+          <i class="fab fa-youtube" style="color: red;"></i>
+        </a>
+
       </div>
       <!-- Grid column -->
 
     </div>
-    <!-- Grid row-->
+    <!-- Grid row -->
 
   </div>
-  <!-- Footer Elements -->
+  <!-- Footer Links -->
 
   <!-- Copyright -->
-  <div class="footer-copyright text-center py-3">© 2020 Copyright:
-    <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+  <div class="footer-copyright text-center py-3"><span style="color: #60b4df; font-size: 24px;">© 2020 Copyright:
+    <a href="https://mdbootstrap.com/"> QuincEnLigne.com</a><span/>
   </div>
   <!-- Copyright -->
 
 </footer>
 <!-- Footer -->
-    </footer>
-  
-
-
-
-</section>
         
 
 
