@@ -750,7 +750,7 @@ header{
               </div>
             </div>
             
-          <div class="row"style="margin:20px; width: 1200px; height: -320px;">
+          <div class="row"style="margin:20px; width: 1200px; height: -420px;">
             @foreach($products as $product)
               <div class="col-lg-2 col-sm-7 portfolio-item">
                 <div class="card h-100" >
@@ -910,13 +910,19 @@ header{
       </div>
       <!-- Grid column -->
 
-      <hr class="clearfix w-100 d-md-none">
+      <hr style="border-left: 3px solid #60b4df ;
+  height: 500px;
+  position: absolute;
+  left: 5%;
+  margin-left: -3px;
+  top: 200">
+
 
       <!-- Grid column -->
       <div class="col-md-2 col-lg-2 mx-auto my-md-4 my-0 mt-4 mb-1">
 
         <!-- Links -->
-        <h5 class="font-weight-bold text-uppercase mb-4" style="font-size: 35px;">A Propos</h5>
+        <h5 class="font-weight-bold text-uppercase mb-4" style="font-size: 33px;">A Propos</h5>
 
         <ul class="list-unstyled">
           <li>
@@ -944,7 +950,12 @@ header{
       </div>
       <!-- Grid column -->
 
-      <hr class="clearfix w-100 d-md-none">
+      <hr style="border-left: 3px solid #60b4df ;
+  height: 500px;
+  position: absolute;
+  left: 95%;
+  margin-left: -3px;
+  top: 290">
 
       <!-- Grid column -->
       <div class="col-md-4 col-lg-3 mx-auto my-md-4 my-0 mt-4 mb-1">
