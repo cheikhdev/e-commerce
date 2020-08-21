@@ -718,11 +718,17 @@ header{
   <!-- Page Content -->
   <style type="text/css">
      
-
-
-/* CUSTOMIZE THE CAROUSEL
--------------------------------------------------- */
-/*indicator arrow background*/
+.caroussel-fade .caroussel-item{
+    opacity: 0;
+    transition-duration: 0.6s;
+    transition-property: opacity;
+}
+.caroussel-fade .caroussel-item-next,
+.caroussel-fade .caroussel-item-prev
+{
+    opacity: 1;
+    
+}
 .carousel-control-next-icon, .carousel-control-prev-icon {
     background-color: rgba(0, 0, 0, 0.3);
     background-size: 100% 50%;
