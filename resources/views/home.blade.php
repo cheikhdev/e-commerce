@@ -716,39 +716,152 @@ header{
             </div>
     </header>
   <!-- Page Content -->
-    <main>
-      <div class="">
-            <div class="">
-              <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                  <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                  <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                  <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner" role="listbox">
-                  <div class="carousel-item active">
-                    <p class="carouselTitle">Ciment de bonne qualite</p>
-                    <img class="w-100" src="{{asset('images/materiel1.jpg')}}" alt="First slide">
-                  </div>
-                  <div class="carousel-item">
-                    <p class="carouselTitle">Betons et fer </p>
-                    <img class="w-100" src="{{asset('images/materiel2.jpg')}}" alt="Second slide">
-                  </div>
-                  <div class="carousel-item">
-                    <p class="carouselTitle">Materiels immobiliers</p>
-                    <img class="w-100" src="{{asset('images/materiel3.jpg')}}" alt="Third slide">
-                  </div>
-                </div>
-                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-                  <span class="icon-prev" aria-hidden="true"></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-                  <span class="icon-next" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
-                </a>
-              </div>
+  <style type="text/css">
+     
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+/*indicator arrow background*/
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    background-color: rgba(0, 0, 0, 0.3);
+    background-size: 100% 50%;
+    border-radius: 50px;
+    height: 40px;
+    width: 40px;
+}
+.carousel-control-next-icon {
+  background-position-x: 0.2em;
+}
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+  bottom: 3rem;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 25rem;
+  background-color: #777;
+}
+
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 25rem;
+}
+
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+  </style>
+    <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval= "4000">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="first-slide animated zoomInUp" src="{{asset('images/marque4.png')}}">
+          <div class="container">
+            <div class="carousel-caption d-none d-md-block text-left">
+              <h1 class="animated fadeInDown">Poduits de La marque Inco.</h1>
+              <p class="animated zoomInLeft">Retrouvez d'excellent produit de la marque Inco , ches nos magasins .</p>
+              
             </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="second-slide animated zoomInDown" src="{{asset('images/marque3.jpg')}}" alt="">
+          <div class="container">
+            <div class="carousel-caption d-none d-md-block">
+              <h1 class="animated fadeInDown">Poduits de La marque Inco.</h1>
+              <p class="animated fadeInRight">Retrouvez d'excellent produit de la marque Inco , ches nos magasins .</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="third-slide animated zoomIn" src="{{asset('images/marque3.jpg')}}" alt="">
+          <div class="container">
+            <div class="carousel-caption d-none d-md-block text-right">
+              <h1 class="animated fadeInDown">Produit de la marque Inco.</h1>
+              <p class="animated slideInLeft">Retrouvez d'excellent produit de la marque Inco , ches nos magasins .</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+
+    </div>
+    
             
           <div class="row"style="margin:20px; width: 1200px; height: -420px;">
             @foreach($products as $product)
@@ -886,8 +999,77 @@ header{
 
   </div>
   <!-- Footer Elements -->
+<style type="text/css">
+    .ml1 {
+  font-weight: 900;
+  font-size: 3.5em;
+}
 
+.ml1 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+.ml1 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+}
+
+.ml1 .line {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  height: 3px;
+  width: 100%;
+  background-color: #fff;
+  transform-origin: 0 0;
+}
+
+.ml1 .line1 { top: 0; }
+.ml1 .line2 { bottom: 0; }
+</style>
 </section>
+  <h3 class="ml1">
+  <span class="text-wrapper">
+    <span class="line line1"></span>
+    <span class="letters">THURSDAY</span>
+    <span class="line line2"></span>
+  </span>
+</h3>
+<script type="text/javascript">
+    let textWrapper = document.querySelector('.ml1 .letters');
+textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+anime.timeline({loop: true})
+  .add({
+    targets: '.ml1 .letter',
+    scale: [0.3,1],
+    opacity: [0,1],
+    translateZ: 0,
+    easing: "easeOutExpo",
+    duration: 600,
+    delay: (el, i) => 70 * (i+1)
+  }).add({
+    targets: '.ml1 .line',
+    scaleX: [0,1],
+    opacity: [0.5,1],
+    easing: "easeOutExpo",
+    duration: 700,
+    offset: '-=875',
+    delay: (el, i, l) => 80 * (l - i)
+  }).add({
+    targets: '.ml1',
+    opacity: 0,
+    duration: 1000,
+    easing: "easeOutExpo",
+    delay: 1000
+  });
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 <!-- Footer -->
   <hr style="height:3px;border-width:0;color:gray;background-color:#60b4df">
 
@@ -911,7 +1093,7 @@ header{
       <!-- Grid column -->
 
       <hr style="border-left: 3px solid #60b4df ;
-  height: 500px;
+  height: 350px;
   position: absolute;
   left: 5%;
   margin-left: -3px;
@@ -951,7 +1133,7 @@ header{
       <!-- Grid column -->
 
       <hr style="border-left: 3px solid #60b4df ;
-  height: 500px;
+  height: 350px;
   position: absolute;
   left: 95%;
   margin-left: -3px;
@@ -994,21 +1176,19 @@ header{
         <h5 class="font-weight-bold text-uppercase mb-4" style="font-size: 31px;">Follow Us</h5>
 
         <!-- Facebook -->
-        <a type="button" class="btn-floating btn-fb">
+        <a type="button" class="btn-floating btn-fb" style="font-size: 39px;">
           <i class="fab fa-facebook-f" style="color: #60b4df;"></i>
         </a>
         <!-- Twitter -->
-        <a type="button" class="btn-floating btn-tw">
+        <a type="button" class="btn-floating btn-tw" style="font-size: 39px;">
           <i class="fab fa-twitter" style="color: #60b4df;"></i>
         </a>
         <!-- Google +-->
-        <a type="button" class="btn-floating btn-gplus">
+        <a type="button" class="btn-floating btn-gplus" style="font-size: 39px;">
           <i class="fab fa-google-plus-g" style="color: red;"></i>
         </a>
         <!-- Dribbble -->
-        <a type="button" class="btn-floating btn-dribbble">
-          <i class="fab fa-youtube" style="color: red;"></i>
-        </a>
+        
 
       </div>
       <!-- Grid column -->
