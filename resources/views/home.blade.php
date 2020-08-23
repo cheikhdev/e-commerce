@@ -697,11 +697,6 @@ header{
                         
                     </ul>
                 </div>
-
-                <div class="log-sign" style="--i: 1.8s">
-                    <a href="#" class="btn transparent">Connecter</a>
-                    <a href="#" class="btn solid">S'inscrire</a>
-                </div>
             </div>
 
             <div class="hamburger-menu-container">
@@ -720,7 +715,7 @@ header{
                   <li data-target="#carousel-example-generic" data-slide-to="1"></li>
                   <li data-target="#carousel-example-generic" data-slide-to="2"></li>
                 </ol>
-                <div class="carousel-inner" role="listbox">
+                <div class="carousel-inner" >
                   <div class="carousel-item active">
                     <p class="carouselTitle">Ciment de bonne qualite</p>
                     <img class="w-100" src="{{asset('images/materiel1.jpg')}}" alt="First slide">
@@ -1027,30 +1022,25 @@ header{
 
 <!-- Footer -->
   <!-- Bootstrap core JavaScript -->
-    
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> 
   <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>    
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-  crossorigin="anonymous">
-</script>
-<script
-  src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-  integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-  crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   
     <script src="{{asset('js/app.js')}}"></script>  
     <script src="{{asset('js/jquery-2.2.4.min.js')}}"></script>
     <!-- Popper js -->
     <script src="{{asset('js/popper.min.js')}}"></script>
     <!-- Bootstrap js -->
-    <script src="{{asset('js/bootstrap.min.js')}}"></script>
     <!-- Plugins js -->
     <script src="{{asset('js/plugins.js')}}"></script>
     <!-- Active js -->
     <script src="{{asset('js/active.js')}}"></script>
     <script src="{{asset('js/footer.js')}}"></script>
     <script src="{{asset('js/jquery.dataTables.min.js')}}"></script>
-    <script src="{{asset('js/jquery.min.js')}}"></script>
+    
     <script src="{{asset('js/bootstrap.bundle.min.js')}}"></script>
     <script src="{{asset('js/jquery.easing.min.js')}}"></script>
     <script src="{{asset('js/sb-admin-2.min.js')}}"></script>
