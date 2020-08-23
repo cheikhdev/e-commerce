@@ -21,7 +21,9 @@ class HomeController extends Controller
      }
      
 
-    
+     public function dashbord(){
+        return view('dashbord');
+     }
 
     /**
      * Show the application dashboard.

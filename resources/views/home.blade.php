@@ -440,11 +440,15 @@ header{
                     <ul style="margin-left: 10px;">
                         
                         <li class="nav-link" style="--i: .85s">
-                            <a href="#">Electricite<i class="fas fa-caret-down"></i></a>
+                          
+                            <a href="#">
+                              <i class="fas fa-bolt fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i>
+                              Electricite<i class="fas fa-caret-down"></i>
+                            </a>
                             <div class="dropdown">
                                 <ul>
                                     <li class="dropdown-link">
-                                        <a href="#">Link 1</a>
+                                        <a href="{{route('dashbord')}}">Link 1</a>
                                     </li>
                                     <li class="dropdown-link">
                                         <a href="#">Link 2</a>
@@ -490,8 +494,12 @@ header{
                                 </ul>
                             </div>
                         </li>
+                        <div class="topbar-divider d-none d-sm-block"></div>
                           <li class="nav-link" style="--i: 1.1s">
-                            <a href="#">Sanitaire<i class="fas fa-caret-down"></i></a>
+                            <a href="#">
+                              <i class="fas fa-medkit fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i>
+                              Sanitaire<i class="fas fa-caret-down"></i>
+                            </a>
                             <div class="dropdown">
                                 <ul>
                                     <li class="dropdown-link">
@@ -540,9 +548,13 @@ header{
                                     <div class="arrow"></div>
                                 </ul>
                             </div>
-                        
+                          </li>
+                          <div class="topbar-divider d-none d-sm-block"></div>
                           <li class="nav-link" style="--i: 1.1s">
-                            <a href="#">Plomberie<i class="fas fa-caret-down"></i></a>
+                            <a href="#">
+                              <i class="fas fa-wrench fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i>
+                              Plomberie<i class="fas fa-caret-down"></i>
+                            </a>
                             <div class="dropdown">
                                 <ul>
                                     <li class="dropdown-link">
@@ -591,9 +603,13 @@ header{
                                     <div class="arrow"></div>
                                 </ul>
                             </div>
-                        
+                          </li>
+                          <div class="topbar-divider d-none d-sm-block"></div>
                         <li class="nav-link" style="--i: 1.1s">
-                            <a href="#">Peinture<i class="fas fa-caret-down"></i></a>
+                            <a href="#">
+                              <i class="fas fa-paint-roller fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i>
+                              Peinture<i class="fas fa-caret-down"></i>
+                            </a>
                             <div class="dropdown">
                                 <ul>
                                     <li class="dropdown-link">
@@ -643,8 +659,12 @@ header{
                                 </ul>
                             </div>
                         </li>
+                        <div class="topbar-divider d-none d-sm-block"></div>
                           <li class="nav-link" style="--i: 1.1s">
-                            <a href="#">maçonnerie<i class="fas fa-caret-down"></i></a>
+                            <a href="#">
+                              <i class="fas fa-hammer fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i>
+                              Maçonnerie<i class="fas fa-caret-down"></i>
+                            </a>
                             <div class="dropdown">
                                 <ul>
                                     <li class="dropdown-link">
