@@ -739,6 +739,20 @@ header{
                 </a>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+
+    </div>
+    
             
           <div class="row"style="margin:20px; width: 1200px; height: -420px;">
             @foreach($products as $product)
@@ -876,8 +890,77 @@ header{
 
   </div>
   <!-- Footer Elements -->
+<style type="text/css">
+    .ml1 {
+  font-weight: 900;
+  font-size: 3.5em;
+}
 
+.ml1 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+.ml1 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+}
+
+.ml1 .line {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  height: 3px;
+  width: 100%;
+  background-color: #fff;
+  transform-origin: 0 0;
+}
+
+.ml1 .line1 { top: 0; }
+.ml1 .line2 { bottom: 0; }
+</style>
 </section>
+  <h3 class="ml1">
+  <span class="text-wrapper">
+    <span class="line line1"></span>
+    <span class="letters">THURSDAY</span>
+    <span class="line line2"></span>
+  </span>
+</h3>
+<script type="text/javascript">
+    let textWrapper = document.querySelector('.ml1 .letters');
+textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+anime.timeline({loop: true})
+  .add({
+    targets: '.ml1 .letter',
+    scale: [0.3,1],
+    opacity: [0,1],
+    translateZ: 0,
+    easing: "easeOutExpo",
+    duration: 600,
+    delay: (el, i) => 70 * (i+1)
+  }).add({
+    targets: '.ml1 .line',
+    scaleX: [0,1],
+    opacity: [0.5,1],
+    easing: "easeOutExpo",
+    duration: 700,
+    offset: '-=875',
+    delay: (el, i, l) => 80 * (l - i)
+  }).add({
+    targets: '.ml1',
+    opacity: 0,
+    duration: 1000,
+    easing: "easeOutExpo",
+    delay: 1000
+  });
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 <!-- Footer -->
   <hr style="height:3px;border-width:0;color:gray;background-color:#60b4df">
 
@@ -901,7 +984,7 @@ header{
       <!-- Grid column -->
 
       <hr style="border-left: 3px solid #60b4df ;
-  height: 500px;
+  height: 350px;
   position: absolute;
   left: 5%;
   margin-left: -3px;
@@ -941,7 +1024,7 @@ header{
       <!-- Grid column -->
 
       <hr style="border-left: 3px solid #60b4df ;
-  height: 500px;
+  height: 350px;
   position: absolute;
   left: 95%;
   margin-left: -3px;
@@ -984,21 +1067,19 @@ header{
         <h5 class="font-weight-bold text-uppercase mb-4" style="font-size: 31px;">Follow Us</h5>
 
         <!-- Facebook -->
-        <a type="button" class="btn-floating btn-fb">
+        <a type="button" class="btn-floating btn-fb" style="font-size: 39px;">
           <i class="fab fa-facebook-f" style="color: #60b4df;"></i>
         </a>
         <!-- Twitter -->
-        <a type="button" class="btn-floating btn-tw">
+        <a type="button" class="btn-floating btn-tw" style="font-size: 39px;">
           <i class="fab fa-twitter" style="color: #60b4df;"></i>
         </a>
         <!-- Google +-->
-        <a type="button" class="btn-floating btn-gplus">
+        <a type="button" class="btn-floating btn-gplus" style="font-size: 39px;">
           <i class="fab fa-google-plus-g" style="color: red;"></i>
         </a>
         <!-- Dribbble -->
-        <a type="button" class="btn-floating btn-dribbble">
-          <i class="fab fa-youtube" style="color: red;"></i>
-        </a>
+        
 
       </div>
       <!-- Grid column -->

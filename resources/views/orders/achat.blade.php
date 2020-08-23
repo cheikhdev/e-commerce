@@ -10,10 +10,10 @@
         @include('includes.header')
     </header>
     <div>
-    <h1>DFGHJKLCCCCCC</h1>    
-    <h1 style="text-align:center; color:green">
+    <h1 style="text-align:center; color:#60b4df" >Bienvenue a e-qincaillerie.</h1>    
+    <h1 style="text-align:center; color:#60b4df">
      ACHAT RAPIDE EN TROIS CLICS</h1>
-        <h2 style= "color:black">Besoin de support ? Appelez le 33 827 27 27 ou 78 147 07 17</h1>
+        <h2 style="text-align:center; color:#60b4df">Besoin de support ? Appelez le 33 827 27 27 ou 78 147 07 17</h1>
    <div class="container">
     <form action="{{route('achat_products', $product->id)}}" method="post" enctype="multipart/form-data">
                 @csrf
