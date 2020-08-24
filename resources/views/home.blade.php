@@ -761,7 +761,58 @@ header{
             </div>
           </div>
         </div>
-      </div>
+        <div class="carousel-item">
+          <img class="second-slide animated zoomInDown" src="{{asset('images/materiel3.jpg')}}" alt="">
+          <div class="container">
+            <div class="carousel-caption d-none d-md-block">
+              <h1 class="animated fadeInDown" style="color: #60b4df;">Poduits de La marque Inco.</h1>
+              <p class="animated fadeInRight" style="color: #60b4df;">Retrouvez d'excellent produit de la marque Inco , ches nos magasins .</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="second-slide animated zoomInDown" src="{{asset('images/materiel2.jpg')}}" alt="">
+          <div class="container">
+            <div class="carousel-caption d-none d-md-block">
+              <h1 class="animated fadeInDown" style="color: #60b4df;">Poduits de La marque Inco.</h1>
+              <p class="animated fadeInRight" style="color: #60b4df;">Retrouvez d'excellent produit de la marque Inco , ches nos magasins .</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="second-slide animated zoomInDown" src="{{asset('images/marque7.png')}}" alt="">
+          <div class="container">
+            <div class="carousel-caption d-none d-md-block">
+              <h1 class="animated fadeInDown" style="color: #60b4df;">Poduits de La marque Inco.</h1>
+              <p class="animated fadeInRight" style="color: #60b4df;">Retrouvez d'excellent produit de la marque Inco , ches nos magasins .</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="second-slide animated zoomInDown" src="{{asset('images/marque6.jpg')}}" alt="">
+          <div class="container">
+            <div class="carousel-caption d-none d-md-block">
+              <h1 class="animated fadeInDown" style="color: #60b4df;">Poduits de La marque Inco.</h1>
+              <p class="animated fadeInRight" style="color: #60b4df;">Retrouvez d'excellent produit de la marque Inco , ches nos magasins .</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="second-slide animated zoomInDown" src="{{asset('images/logo.png')}}" alt="">
+          <div class="container">
+            <div class="carousel-caption d-none d-md-block">
+              <h1 class="animated fadeInDown" style="color: #60b4df;">Poduits de La marque Inco.</h1>
+              <p class="animated fadeInRight" style="color: #60b4df;">Retrouvez d'excellent produit de la marque Inco , ches nos magasins .</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+        
+        
       <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="sr-only">Previous</span>
@@ -910,75 +961,6 @@ header{
 
   </div>
   <!-- Footer Elements -->
-<style type="text/css">
-    .ml1 {
-  font-weight: 900;
-  font-size: 3.5em;
-}
-
-.ml1 .letter {
-  display: inline-block;
-  line-height: 1em;
-}
-
-.ml1 .text-wrapper {
-  position: relative;
-  display: inline-block;
-  padding-top: 0.1em;
-  padding-right: 0.05em;
-  padding-bottom: 0.15em;
-}
-
-.ml1 .line {
-  opacity: 0;
-  position: absolute;
-  left: 0;
-  height: 3px;
-  width: 100%;
-  background-color: #fff;
-  transform-origin: 0 0;
-}
-
-.ml1 .line1 { top: 0; }
-.ml1 .line2 { bottom: 0; }
-</style>
-</section>
-  <h3 class="ml1">
-  <span class="text-wrapper">
-    <span class="line line1"></span>
-    <span class="letters">THURSDAY</span>
-    <span class="line line2"></span>
-  </span>
-</h3>
-<script type="text/javascript">
-    let textWrapper = document.querySelector('.ml1 .letters');
-textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
-
-anime.timeline({loop: true})
-  .add({
-    targets: '.ml1 .letter',
-    scale: [0.3,1],
-    opacity: [0,1],
-    translateZ: 0,
-    easing: "easeOutExpo",
-    duration: 600,
-    delay: (el, i) => 70 * (i+1)
-  }).add({
-    targets: '.ml1 .line',
-    scaleX: [0,1],
-    opacity: [0.5,1],
-    easing: "easeOutExpo",
-    duration: 700,
-    offset: '-=875',
-    delay: (el, i, l) => 80 * (l - i)
-  }).add({
-    targets: '.ml1',
-    opacity: 0,
-    duration: 1000,
-    easing: "easeOutExpo",
-    delay: 1000
-  });
-</script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 <!-- Footer -->
@@ -1126,10 +1108,20 @@ anime.timeline({loop: true})
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> 
   <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>    
+<<<<<<< HEAD
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   
+=======
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+  crossorigin="anonymous">
+</script>
+    <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+>>>>>>> 8ef491ec0b767980c78e3b4832b909e381e30421
     <script src="{{asset('js/app.js')}}"></script>  
     <script src="{{asset('js/jquery-2.2.4.min.js')}}"></script>
     <!-- Popper js -->
@@ -1147,8 +1139,12 @@ anime.timeline({loop: true})
     <script src="{{asset('js/sb-admin-2.min.js')}}"></script>
     <script src="{{asset('js/dataTables.bootstrap4.min.js')}}"></script>
     <script src="{{asset('js/datatables-demo.js')}}"></script>
+<<<<<<< HEAD
     <script src="//cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
     <script src="{{ asset('node_modules/tinymce/tinymce.js') }}"></script>
+=======
+    <script src="{{asset('//cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js')}}"></script>
+>>>>>>> 8ef491ec0b767980c78e3b4832b909e381e30421
 
 </body>
 
