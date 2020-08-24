@@ -445,7 +445,7 @@ header{
                     <ul style="margin-left: 10px;">
                         
                         <li class="nav-link" style="--i: .85s">
-                            <a href="#">Electricite<i class="fas fa-caret-down"></i></a>
+                            <a href="#">Maconnerie<i class="fas fa-caret-down"></i></a>
                             <div class="dropdown">
                                 <ul>
                                     <li class="dropdown-link">
@@ -547,7 +547,7 @@ header{
                             </div>
                         
                           <li class="nav-link" style="--i: 1.1s">
-                            <a href="#">Plomberie<i class="fas fa-caret-down"></i></a>
+                            <a href="#">Electricite<i class="fas fa-caret-down"></i></a>
                             <div class="dropdown">
                                 <ul>
                                     <li class="dropdown-link">
@@ -649,7 +649,7 @@ header{
                             </div>
                         </li>
                           <li class="nav-link" style="--i: 1.1s">
-                            <a href="#">maçonnerie<i class="fas fa-caret-down"></i></a>
+                            <a href="#">Plomberie<i class="fas fa-caret-down"></i></a>
                             <div class="dropdown">
                                 <ul>
                                     <li class="dropdown-link">
@@ -819,7 +819,7 @@ header{
   }
 }
   </style>
-    <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval= "4000">
+    <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval= "2500">
       <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
         <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -827,36 +827,88 @@ header{
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img class="first-slide animated zoomInUp" src="{{asset('images/marque4.png')}}">
+          <img class="first-slide animated zoomInUp" src="{{asset('images/marque4.png')}}" width="1300px" height="866px">
           <div class="container">
             <div class="carousel-caption d-none d-md-block text-left">
-              <h1 class="animated fadeInDown">Poduits de La marque Inco.</h1>
-              <p class="animated zoomInLeft">Retrouvez d'excellent produit de la marque Inco , ches nos magasins .</p>
+              <h1 class="animated fadeInDown" style="color:#60b4df;text-align: center; ">Poduits de La marque Inco.</h1>
+              <p class="animated zoomInLeft" style="color: #60b4df;text-align: center;">Retrouvez d'excellent produit de la marque Inco , ches nos magasins .</p>
+              <p style="text-align: center;"><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
               
             </div>
           </div>
         </div>
         <div class="carousel-item">
-          <img class="second-slide animated zoomInDown" src="{{asset('images/marque3.jpg')}}" alt="">
+          <img class="second-slide animated zoomInDown" src="{{asset('images/btp5.png')}}" alt="">
           <div class="container">
             <div class="carousel-caption d-none d-md-block">
-              <h1 class="animated fadeInDown">Poduits de La marque Inco.</h1>
-              <p class="animated fadeInRight">Retrouvez d'excellent produit de la marque Inco , ches nos magasins .</p>
+              <h1 class="animated fadeInDown" style="color: #60b4df;">Poduits de La marque Inco.</h1>
+              <p class="animated fadeInRight" style="color: #60b4df;">Retrouvez d'excellent produit de la marque Inco , ches nos magasins .</p>
               <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
             </div>
           </div>
         </div>
         <div class="carousel-item">
-          <img class="third-slide animated zoomIn" src="{{asset('images/marque3.jpg')}}" alt="">
+          <img class="second-slide animated zoomInDown" src="{{asset('images/fer12.jpg')}}" alt="">
           <div class="container">
-            <div class="carousel-caption d-none d-md-block text-right">
-              <h1 class="animated fadeInDown">Produit de la marque Inco.</h1>
-              <p class="animated slideInLeft">Retrouvez d'excellent produit de la marque Inco , ches nos magasins .</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+            <div class="carousel-caption d-none d-md-block">
+              <h1 class="animated fadeInDown" style="color: #60b4df;">Poduits de La marque Inco.</h1>
+              <p class="animated fadeInRight" style="color: #60b4df;">Retrouvez d'excellent produit de la marque Inco , ches nos magasins .</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
             </div>
           </div>
         </div>
-      </div>
+        <div class="carousel-item">
+          <img class="second-slide animated zoomInDown" src="{{asset('images/materiel3.jpg')}}" alt="">
+          <div class="container">
+            <div class="carousel-caption d-none d-md-block">
+              <h1 class="animated fadeInDown" style="color: #60b4df;">Poduits de La marque Inco.</h1>
+              <p class="animated fadeInRight" style="color: #60b4df;">Retrouvez d'excellent produit de la marque Inco , ches nos magasins .</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="second-slide animated zoomInDown" src="{{asset('images/materiel2.jpg')}}" alt="">
+          <div class="container">
+            <div class="carousel-caption d-none d-md-block">
+              <h1 class="animated fadeInDown" style="color: #60b4df;">Poduits de La marque Inco.</h1>
+              <p class="animated fadeInRight" style="color: #60b4df;">Retrouvez d'excellent produit de la marque Inco , ches nos magasins .</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="second-slide animated zoomInDown" src="{{asset('images/marque7.png')}}" alt="">
+          <div class="container">
+            <div class="carousel-caption d-none d-md-block">
+              <h1 class="animated fadeInDown" style="color: #60b4df;">Poduits de La marque Inco.</h1>
+              <p class="animated fadeInRight" style="color: #60b4df;">Retrouvez d'excellent produit de la marque Inco , ches nos magasins .</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="second-slide animated zoomInDown" src="{{asset('images/marque6.jpg')}}" alt="">
+          <div class="container">
+            <div class="carousel-caption d-none d-md-block">
+              <h1 class="animated fadeInDown" style="color: #60b4df;">Poduits de La marque Inco.</h1>
+              <p class="animated fadeInRight" style="color: #60b4df;">Retrouvez d'excellent produit de la marque Inco , ches nos magasins .</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="second-slide animated zoomInDown" src="{{asset('images/logo.png')}}" alt="">
+          <div class="container">
+            <div class="carousel-caption d-none d-md-block">
+              <h1 class="animated fadeInDown" style="color: #60b4df;">Poduits de La marque Inco.</h1>
+              <p class="animated fadeInRight" style="color: #60b4df;">Retrouvez d'excellent produit de la marque Inco , ches nos magasins .</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+        
+        
       <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="sr-only">Previous</span>
@@ -1005,75 +1057,6 @@ header{
 
   </div>
   <!-- Footer Elements -->
-<style type="text/css">
-    .ml1 {
-  font-weight: 900;
-  font-size: 3.5em;
-}
-
-.ml1 .letter {
-  display: inline-block;
-  line-height: 1em;
-}
-
-.ml1 .text-wrapper {
-  position: relative;
-  display: inline-block;
-  padding-top: 0.1em;
-  padding-right: 0.05em;
-  padding-bottom: 0.15em;
-}
-
-.ml1 .line {
-  opacity: 0;
-  position: absolute;
-  left: 0;
-  height: 3px;
-  width: 100%;
-  background-color: #fff;
-  transform-origin: 0 0;
-}
-
-.ml1 .line1 { top: 0; }
-.ml1 .line2 { bottom: 0; }
-</style>
-</section>
-  <h3 class="ml1">
-  <span class="text-wrapper">
-    <span class="line line1"></span>
-    <span class="letters">THURSDAY</span>
-    <span class="line line2"></span>
-  </span>
-</h3>
-<script type="text/javascript">
-    let textWrapper = document.querySelector('.ml1 .letters');
-textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
-
-anime.timeline({loop: true})
-  .add({
-    targets: '.ml1 .letter',
-    scale: [0.3,1],
-    opacity: [0,1],
-    translateZ: 0,
-    easing: "easeOutExpo",
-    duration: 600,
-    delay: (el, i) => 70 * (i+1)
-  }).add({
-    targets: '.ml1 .line',
-    scaleX: [0,1],
-    opacity: [0.5,1],
-    easing: "easeOutExpo",
-    duration: 700,
-    offset: '-=875',
-    delay: (el, i, l) => 80 * (l - i)
-  }).add({
-    targets: '.ml1',
-    opacity: 0,
-    duration: 1000,
-    easing: "easeOutExpo",
-    delay: 1000
-  });
-</script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 <!-- Footer -->
@@ -1224,11 +1207,9 @@ anime.timeline({loop: true})
   integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
   crossorigin="anonymous">
 </script>
-<script
-  src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-  integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-  crossorigin="anonymous"></script>
-  
+    <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
     <script src="{{asset('js/app.js')}}"></script>  
     <script src="{{asset('js/jquery-2.2.4.min.js')}}"></script>
     <!-- Popper js -->
@@ -1247,7 +1228,7 @@ anime.timeline({loop: true})
     <script src="{{asset('js/sb-admin-2.min.js')}}"></script>
     <script src="{{asset('js/dataTables.bootstrap4.min.js')}}"></script>
     <script src="{{asset('js/datatables-demo.js')}}"></script>
-    <script src="//cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+    <script src="{{asset('//cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js')}}"></script>
 
 </body>
 
