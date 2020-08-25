@@ -25,6 +25,10 @@ class HomeController extends Controller
         return view('dashbord');
      }
 
+     public function utilisateur(){
+        return view('utilisateur');
+     }
+    
     /**
      * Show the application dashboard.
      *

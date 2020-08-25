@@ -547,11 +547,25 @@ header{
                           </li>
                           <div class="topbar-divider d-none d-sm-block"></div>
                           
-                        <li>
-                          <a href="/login" class="btn btn-success"> <i class="fas fa-user-lock fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i>Connexion</a>
-                        </li>
-                        <li>
-                          <a href="" class="btn btn-primary"> <i class="fas fa-sign-in-alt fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i>Inscription</a>
+                          <li class="nav-link" style="">
+                            <a href="/home" class="menu">
+                            <i class="fas fa-home fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i>
+                              Mon espace<i class="fas fa-caret-down"></i>
+                            </a>
+                            <div class="dropdown second">
+                                <ul>
+                                    <li class="dropdown-link">
+                                        <a href="#">Profil</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="#">Parametre</a>
+                                    </li> 
+                                    <li class="dropdown-link">
+                                        <a href="#">Deconnexion</a>
+                                    </li> 
+                                    <div class="arrow"></div>
+                                </ul>
+                            </div>
                         </li>
                     </ul>
                 </div>

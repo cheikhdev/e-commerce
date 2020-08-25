@@ -28,6 +28,8 @@ Route::get('/home', 'HomeController@index');
 
 Route::get('/dashbord', 'HomeController@dashbord')->name('dashbord');
 
+Route::get('/utilisateur', 'HomeController@utilisateur')->name('utilisateur')->middleware('auth');
+
 //Route::get('/orders/description', 'ProductsController@desc');
 //Route::get('/orders/achat', 'ProductsController@achat');
 Route::get("/produit/{id}/show", 'ProductsController@show');
