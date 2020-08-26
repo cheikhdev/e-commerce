@@ -551,7 +551,7 @@ header{
                           <a href="/login" class="btn btn-success"> <i class="fas fa-user-lock fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i>Connexion</a>
                         </li>
                         <li>
-                          <a href="" class="btn btn-primary"> <i class="fas fa-sign-in-alt fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i>Inscription</a>
+                          <a href="" class="btn btn-primary" data-toggle="modal" data-target="#myModal"> <i class="fas fa-sign-in-alt fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i>Inscription</a>
                         </li>
                     </ul>
                 </div>
@@ -636,10 +636,92 @@ header{
               @yield('content')
           </div>
   </main>
+      <!-- Debut modall inscriptionnnn -->
+          <div class="modal fade" id="myModal">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <!-- Modal Header -->
+                        <div class="modal-header" style="background-color:rgb(35, 127, 247);">
+                          <a class="navbar-brand d-none d-sm-inline-block form-inline mr-auto ml-md-3 mb-md-3 my-2 my-md-0 mw-100" href="index.html">
+                            <div id="mylogo">
+                              <img style="" src="{{asset('images/logo.png')}}" width="150px" height="70px">
+                            </div>
+                          </a>
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>                        
+                        <!-- Modal body -->
+                        <div class="modal-body container">
+                            <form action="" method="post">
+                            @csrf
+                           
+                                <div class="row">
+                                    <div class="form-group col-12 col-sm-12 col-md-6">
+                                        <label for="inputEmail" class="">Prenom<span style="background-colol:red;">*</span></span></label>
+                                        <div class="col-sm-10">
+                                            <input type="text" class="form-control" id="prenom" name="prenom" placeholder="Entrer Prenom">
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-12 col-sm-12 col-md-6">
+                                        <label for="inputPassword" class="">Nom</label>
+                                        <div class="col-sm-10">
+                                            <input type="text" class="form-control" id="nom" name="nom" placeholder="Entrer Nom">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row ">
+                                    <div class="form-group col-12 col-sm-12 col-md-6">
+                                        <label for="inputPassword" class=" ">Email</label>
+                                        <div class="col-sm-10">
+                                            <input type="email" class="form-control" id="date" name="date" placeholder="Entrer mail">
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-12 col-sm-12 col-md-6">
+                                        <label for="inputPassword" class="">Telephone</label>
+                                        <div class="col-sm-10">
+                                            <input type="text" class="form-control" id="lieu" name="lieu" placeholder="Entrer Telephone">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                        <div class="form-group col-12 col-sm-12 col-md-6">
+                                            <label for="inputPassword" class="">Adresse</label>
+                                            <div class="col-sm-10">
+                                                <input type="text" class="form-control" id="adresse" name="adresse" placeholder="Entrer Adresse">
+                                            </div>
+                                        </div>
+                                       
+                                    <div class="form-group col-12 col-sm-12 col-md-6">
+                                        <label for="inputPassword" class=" ">Profession</label>
+                                        <div class="col-sm-10">
+                                            <input type="text" class="form-control" id="phone" name="phone" placeholder="Entrer profession">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    
+                                    <div class="form-group col-12 col-sm-12 col-md-6">
+                                        <label for="sexe" class=" ">Sexe</label>
+                                        <div class="col-sm-10">
+                                            <select name="genre" id="genre" class="form-control">
+                                                <option value="masculin">Masculin</option>
+                                                <option value="feminin">Feminin</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-center">         
+                                    <button type="submit" style="width:200px;" class="btn btn-success">Enregistrer</button>
+                                    <button type="reset" style="width:200px;" class="btn btn-danger" data-dismiss="modal">Annuler</button>
+                                </div>
+                            </form>
+                        </div>      
+                                        
+                    </div>
+                </div>
+            </div>
+       <!--fin modall inscription-->
     <div class="container">
-  <h2 style="
-  text-align:center;
-  padding: 20px;">   Les grandes Marques vous attendent .
+  <h2 style="text-align:center;padding: 20px;" class="">   Les grandes Marques vous attendent </h2>
 
        <!-- Footer -->
 <section class="page-footer font-small mdb-color lighten-3 pt-4">
@@ -769,12 +851,7 @@ header{
       </div>
       <!-- Grid column -->
 
-      <hr style="border-left: 3px solid #60b4df ;
-  height: 350px;
-  position: absolute;
-  left: 5%;
-  margin-left: -3px;
-  top: 200">
+      <hr style="border-left: 3px solid #60b4df ;height: 350px;position: absolute;left: 5%;margin-left: -3px;top: 200">
 
 
       <!-- Grid column -->
@@ -809,12 +886,7 @@ header{
       </div>
       <!-- Grid column -->
 
-      <hr style="border-left: 3px solid #60b4df ;
-  height: 350px;
-  position: absolute;
-  left: 95%;
-  margin-left: -3px;
-  top: 290">
+      <hr style="border-left: 3px solid #60b4df ;height: 350px;position: absolute;left: 95%;margin-left: -3px;top: 290">
 
       <!-- Grid column -->
       <div class="col-md-4 col-lg-3 mx-auto my-md-4 my-0 mt-4 mb-1">

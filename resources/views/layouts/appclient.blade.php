@@ -548,20 +548,25 @@ header{
                           <div class="topbar-divider d-none d-sm-block"></div>
                           
                           <li class="nav-link" style="">
-                            <a href="/home" class="menu">
-                            <i class="fas fa-home fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i>
+                            <a href="#" class="menu">
+                              <i class="fas fa-home fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i>
                               Mon espace<i class="fas fa-caret-down"></i>
                             </a>
-                            <div class="dropdown second">
+                            <div class="dropdown">
                                 <ul>
                                     <li class="dropdown-link">
                                         <a href="#">Profil</a>
                                     </li>
                                     <li class="dropdown-link">
                                         <a href="#">Parametre</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                      @can('admin')
+                                        <a  href="/dashbord">Back Office</a>
+                                      @endcan
                                     </li> 
                                     <li class="dropdown-link">
-                                        <a href="#">Deconnexion</a>
+                                        <a href="{{route('deconnect')}}">Deconnexion</a>
                                     </li> 
                                     <div class="arrow"></div>
                                 </ul>

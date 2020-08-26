@@ -26,6 +26,8 @@ Auth::routes();
 Route::get('/', 'HomeController@index');
 Route::get('/home', 'HomeController@index');
 
+Route::get('/home', 'HomeController@deconnect')->name('deconnect');
+
 Route::get('/dashbord', 'HomeController@dashbord')->name('dashbord');
 
 Route::get('/utilisateur', 'HomeController@utilisateur')->name('utilisateur')->middleware('auth');

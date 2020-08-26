@@ -90,7 +90,7 @@
               <ul class="nav sidebar-inner" id="sidebar-menu">
                 
                 <li>
-                    <a href="/home">
+                    <a href="/utilisateur">
                         <i class="fas fa-home"></i>
                         <span class="nav-text">Aller au site</span> <b class=""></b>
                     </a>

@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Http\Request;
 use App\Product;
 class HomeController extends Controller
@@ -26,8 +26,15 @@ class HomeController extends Controller
      }
 
      public function utilisateur(){
-        return view('utilisateur');
+         $products = Product::all()->take(15);
+        return view('utilisateur', compact('products'));
      }
+
+     public function deconnect(){
+         Auth::logout();
+         $products = Product::all()->take(15);
+         return view('home', compact('products'));
+  }
     
     /**
      * Show the application dashboard.
