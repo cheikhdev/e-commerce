@@ -436,14 +436,7 @@ header{
           <div id="mylogo">
             <img style="" src="{{asset('images/logo.png')}}" width="150px" height="70px">
           </div>
-          <div class="search-form d-none d-lg-inline-block" style="">
-            <div class="input-group">                              
-              <input type="text" name="query" style="width:300px;height:30px;" id="search-input" class="form-control" placeholder="recherche produits" autofocus autocomplete="off" />
-            </div>
-            <div id="search-results-container">
-              <ul id="search-results"></ul>
-            </div>
-          </div>
+          @include('partials.search')
         </div>
         
         <div class="nav-btn container" >
@@ -557,6 +550,33 @@ header{
                 </div>
         </div>
     </header>
+   @if (session('success'))
+      <div class="alert alert-success">
+          {{ session('success') }}
+      </div>
+  @endif
+
+  @if (session('error'))
+    <div class="alert alert-danger">
+        {{ session('error') }}
+    </div>
+  @endif
+
+  @if (count($errors) > 0)
+      <div class="alert alert-danger">
+        <ul class="mb-0 mt-0">
+          @foreach ($errors->all() as $error)
+          <li>{{ $error }}</li>
+          @endforeach
+        </ul>
+      </div>
+  @endif
+
+
+
+    @if (request()->input('q'))
+    <h4 style="font-size: 24px;border: 1px solid black;text-align: center;color: #60b4df">{{ $products->total() }} résultat(s) pour la recherche "{{ request()->q }}"</h6>
+  @endif
   <!-- Page Content -->
     <main>
           <div class="w-auto">

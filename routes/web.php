@@ -25,11 +25,7 @@ Route::delete('product/{id}','ProductsController@destroy');
 Auth::routes();
 Route::get('/', 'HomeController@index')->name('home');
 
-Route::get('/home', 'HomeController@deconnect')->name('deconnect');
-
 Route::get('/dashbord', 'HomeController@dashbord')->name('dashbord');
-
-Route::get('/utilisateur', 'HomeController@utilisateur')->name('utilisateur')->middleware('auth');
 
 //Route::get('/orders/description', 'ProductsController@desc');
 //Route::get('/orders/achat', 'ProductsController@achat');
@@ -42,13 +38,22 @@ Route::get('/checkout', 'OrderController@checkout');
 Route::get('/merci', "ProductsController@merci");
 Route::get('/achat1', "ProductsController@achat1")->name('achat1_products');
 Route::post('/achat1', "ProductsController@store1")->name('achat1_products');
-
+// ROUTE POUR LA BARRE DE RECHERCHE 
+Route::get('/search', "ProductsController@search")->name('products.search');
+//ROUTE POUR LES CATEGORIES
 Route::get('/agri', "ProductsController@agri");
 Route::get('/sante', "ProductsController@sante");
 Route::get('/tele', "ProductsController@tele");
 Route::get('/sport', "ProductsController@sport");
 Route::get('/elec', "ProductsController@elec");
 Route::get('/acc', "ProductsController@acc");
+//  GERER LES UTILISATEURS : CREATION DE COMPTE , CONNEXION DU COMPTE CREER, LOG OUT .
+//Route::get('/register', 'RegistrationController@create');
+//Route::post('register', 'RegistrationController@store');
+ 
+//Route::get('/login', 'SessionsController@create2');
+//Route::post('/login', 'SessionsController@store');
+//Route::get('/logout', 'SessionsController@destroy');-->
 
 
 

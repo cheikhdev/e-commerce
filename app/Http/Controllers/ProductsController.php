@@ -12,7 +12,20 @@ use App\Product;
 class ProductsController extends Controller
 {
     //
-    
+    public function search()
+    {
+        request()->validate([
+            'q' => 'required|min:3'
+        ]);
+
+        $q = request()->input('q');
+
+        $products = Product::where('name_product', 'like', "%$q%")
+                ->orWhere('description_product', 'like', "%$q%")
+                ->paginate(6);
+
+        return view('products.search')->with('products', $products);
+    }
     public function desc(){
       //return view("/orders/description");
   
