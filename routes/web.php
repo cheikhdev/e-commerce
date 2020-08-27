@@ -23,8 +23,7 @@ Route::get('/ajouproduit', 'ProductsController@create')->name('create_product');
 Route::delete('product/{id}','ProductsController@destroy');
 
 Auth::routes();
-Route::get('/', 'HomeController@index');
-Route::get('/home', 'HomeController@index');
+Route::get('/', 'HomeController@index')->name('home');
 
 Route::get('/home', 'HomeController@deconnect')->name('deconnect');
 

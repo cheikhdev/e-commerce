@@ -1,6 +1,22 @@
 @extends('layouts.app')
     @section('content')
-		<div class=" container-auth " style="height:100%;overflow-x:scroll;">
+		
+			<!-- Debut modall inscriptionnnn -->
+			<div class="modal fade" id="ModalLogin">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <!-- Modal Header -->
+                        <div class="modal-header" style="background-color:rgb(35, 127, 247);">
+                          <a class="navbar-brand d-none d-sm-inline-block form-inline mr-auto ml-md-3 mb-md-3 my-2 my-md-0 mw-100" href="index.html">
+                            <div id="mylogo">
+                              <img style="" src="{{asset('images/logo.png')}}" width="150px" height="70px">
+                            </div>
+                          </a>
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>                        
+                        <!-- Modal body -->
+                        <div class="modal-body container">
+						<div class=" container-auth " style="height:100%;overflow-x:scroll;">
 			<div class="card auth ">
 				<div class="card-header auth-header login100-form-title" style="background-image: url({{asset('images/consultation-medicale.jpg')}});">
 					<span class="login100-form-title-1">
@@ -57,4 +73,8 @@
 				</div>
 			</div>
 		</div>
+    </div>                                      
+    </div>
+    </div>
+    </div>
 @endsection
