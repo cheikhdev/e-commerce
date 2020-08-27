@@ -673,7 +673,17 @@ header{
                         <div class="modal-body container">
                             <form action="" method="post">
                             @csrf
-                           
+                                <div class="row">   
+                                    <div class="form-group col-12 col-sm-12 col-md-6">
+                                        <label for="sexe" class=" ">Sexe</label>
+                                        <div class="col-sm-10">
+                                            <select name="genre" id="genre" class="form-control">
+                                                <option value="masculin">Masculin</option>
+                                                <option value="feminin">Feminin</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
                                 <div class="row">
                                     <div class="form-group col-12 col-sm-12 col-md-6">
                                         <label for="inputEmail" class="">Prenom<span style="background-colol:red;">*</span></span></label>
@@ -690,11 +700,12 @@ header{
                                 </div>
                                 <div class="row ">
                                     <div class="form-group col-12 col-sm-12 col-md-6">
-                                        <label for="inputPassword" class=" ">Email</label>
-                                        <div class="col-sm-10">
-                                            <input type="email" class="form-control" id="date" name="date" placeholder="Entrer mail">
-                                        </div>
-                                    </div>
+                                            <label for="inputPassword" class="">Adresse</label>
+                                            <div class="col-sm-10">
+                                                <input type="text" class="form-control" id="adresse" name="adresse" placeholder="Entrer Adresse">
+                                            </div>
+                                      </div>
+                                    
                                     <div class="form-group col-12 col-sm-12 col-md-6">
                                         <label for="inputPassword" class="">Telephone</label>
                                         <div class="col-sm-10">
@@ -703,32 +714,29 @@ header{
                                     </div>
                                 </div>
                                 <div class="row">
-                                        <div class="form-group col-12 col-sm-12 col-md-6">
-                                            <label for="inputPassword" class="">Adresse</label>
-                                            <div class="col-sm-10">
-                                                <input type="text" class="form-control" id="adresse" name="adresse" placeholder="Entrer Adresse">
-                                            </div>
-                                        </div>
-                                       
-                                    <div class="form-group col-12 col-sm-12 col-md-6">
-                                        <label for="inputPassword" class=" ">Profession</label>
+                                    <div class="form-group col-12 ">
+                                        <label for="inputPassword" class=" ">Email</label>
                                         <div class="col-sm-10">
-                                            <input type="text" class="form-control" id="phone" name="phone" placeholder="Entrer profession">
+                                            <input type="email" class="form-control" id="date" name="date" placeholder="Entrer mail">
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row">
+                                <div class="row ">
+                                    <div class="form-group col-12 col-sm-12 col-md-6">
+                                            <label for="inputPassword" class="">Mot de passe</label>
+                                            <div class="col-sm-10">
+                                                <input type="password" class="form-control" id="adresse" name="password" placeholder="Entrer password">
+                                            </div>
+                                      </div>
                                     
                                     <div class="form-group col-12 col-sm-12 col-md-6">
-                                        <label for="sexe" class=" ">Sexe</label>
+                                        <label for="inputPassword" class="">Cofirmer mot de passe</label>
                                         <div class="col-sm-10">
-                                            <select name="genre" id="genre" class="form-control">
-                                                <option value="masculin">Masculin</option>
-                                                <option value="feminin">Feminin</option>
-                                            </select>
+                                            <input type="password" class="form-control" id="lieu" name="confirme_pass" placeholder="confirmer password">
                                         </div>
                                     </div>
                                 </div>
+
                                 <div class="d-flex justify-content-center">         
                                     <button type="submit" style="width:200px;" class="btn btn-success">Enregistrer</button>
                                     <button type="reset" style="width:200px;" class="btn btn-danger" data-dismiss="modal">Annuler</button>
