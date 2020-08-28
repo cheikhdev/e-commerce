@@ -3,7 +3,9 @@
 namespace App\Http\Controllers;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 use App\Product;
+use App\Category;
 class HomeController extends Controller
 {
     /**
@@ -16,8 +18,10 @@ class HomeController extends Controller
         //$this->middleware('auth');
     }
     public function index(){
-        $products = Product::all()->take(15);//paginate(6);
-        return view('home', compact('products'));
+         $categories=Category::where('id' , 1)->get();
+
+         $products = DB::table('products')->paginate(5);//paginate(6);
+        return view('home', compact('products','categories'));
      }
      
 

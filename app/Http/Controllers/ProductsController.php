@@ -7,11 +7,11 @@ use Illuminate\Http\UploadedFile;
 use Illuminate\Support\Str;
 use Illuminate\Contracts\Session\Session;
 use App\Order;
-
+use App\Category;
 use App\Product;
 class ProductsController extends Controller
 {
-    //
+    //Barre de recherche des produits
     public function search()
     {
         request()->validate([
@@ -20,12 +20,22 @@ class ProductsController extends Controller
 
         $q = request()->input('q');
 
-        $products = Product::where('name_product', 'like', "%$q%")
+        $produc = Product::where('name_product', 'like', "%$q%")
                 ->orWhere('description_product', 'like', "%$q%")
                 ->paginate(6);
 
-        return view('products.search')->with('products', $products);
+        return view('products.search')->with('products', $produc);
     }
+ // AFFICHAGE PRODUIT PAR CATEGORIE   
+public function pagecategory(){
+      //$produit = Product::find($request->id)->get();
+      $products = Product::all();
+      $category = Category::all();
+      $categories=Category::where('id' , 1)->get();
+     // dd($categories);
+      return view ('pages.category',compact('categories','category','products'));
+    }
+
     public function desc(){
       //return view("/orders/description");
   
@@ -34,6 +44,11 @@ class ProductsController extends Controller
   // return view("/orders/achat");
 
 }
+  // AFFICHAGE DES PRODUITS PAR CATHEGORIES
+  //public function getCategory($category) {
+     //  $singleCategory = Category::find($category);
+     //  return view('pages.category', ['category' => $singleCategory]);
+//}
     
     public function User(){
 
