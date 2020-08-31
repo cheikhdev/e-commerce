@@ -671,7 +671,7 @@ header{
                         </div>                        
                         <!-- Modal body -->
                         <div class="modal-body container">
-                            <form action="" method="post">
+                            <form action="{{route('ajouter_user')}}" method="post">
                             @csrf
                                 <div class="row">   
                                     <div class="form-group col-12 col-sm-12 col-md-6">
@@ -709,7 +709,7 @@ header{
                                     <div class="form-group col-12 col-sm-12 col-md-6">
                                         <label for="inputPassword" class="">Telephone</label>
                                         <div class="col-sm-10">
-                                            <input type="text" class="form-control" id="lieu" name="lieu" placeholder="Entrer Telephone">
+                                            <input type="text" class="form-control" id="lieu" name="phone" placeholder="Entrer Telephone">
                                         </div>
                                     </div>
                                 </div>
@@ -717,7 +717,7 @@ header{
                                     <div class="form-group col-12 ">
                                         <label for="inputPassword" class=" ">Email</label>
                                         <div class="col-sm-10">
-                                            <input type="email" class="form-control" id="date" name="date" placeholder="Entrer mail">
+                                            <input type="email" class="form-control" id="date" name="email" placeholder="Entrer mail">
                                         </div>
                                     </div>
                                 </div>

@@ -27,6 +27,8 @@ Route::get('/', 'HomeController@index')->name('home');
 
 Route::get('/dashbord', 'HomeController@dashbord')->name('dashbord');
 
+Route::post('/register_user', 'UsersController@store')->name('ajouter_user');
+
 //Route::get('/orders/description', 'ProductsController@desc');
 //Route::get('/orders/achat', 'ProductsController@achat');
 Route::get("/produit/{id}/show", 'ProductsController@show');
