@@ -1,8 +1,8 @@
 @extends('layouts.app')
     @section('content')
-            <div class="row"style="padding:20px; width: 100%; height: auto;">
+            <div class="row" >
             @foreach($products as $product)
-              <div class="col-lg-2 col-sm-7 portfolio-item">
+              <div class=" col-lg-2 col-sm-4  portfolio-item">
                 <div class="card h-100" >
                     <a href="#"><a href="/produit/{{$product->id}}/show"><img class="card-img-top" src="{{$product->image_product ? asset($product->image_product) : asset('uploads/images/default.png')}}"    alt=""></a></a>
                     <div class="card-body">
@@ -24,5 +24,9 @@
                 </div>
               </div>
             @endforeach
+            <nav style="position: relative;left: -450px;top: 350px;" class="page-navigation">
+            {{ $products->links()}}
+            </nav>
           </div>
+          
     @endsection

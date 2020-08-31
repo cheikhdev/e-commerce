@@ -539,7 +539,7 @@ header{
                             </div>
                           </li>
                           <div class="topbar-divider d-none d-sm-block"></div>
-                          
+                  <a href="#" class="text">panier <span class="badge badge-pill badge-dark"></span></a>
                         <li>
                           <a href="" class="btn btn-success"  data-toggle="modal" data-target="#ModalLogin"> <i class="fas fa-user-lock fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i>Connexion</a>
                         </li>
@@ -575,7 +575,7 @@ header{
 
 
     @if (request()->input('q'))
-    <h4 style="font-size: 24px;border: 1px solid black;text-align: center;color: #60b4df">{{ $products->total() }} résultat(s) pour la recherche "{{ request()->q }}"</h6>
+    <h4 style="font-size: 24px;border: 3px solid #60b4df;background-color:white;text-align: center;"><span style="color: #60b4df;">{{ $products->total() }} résultat(s) pour la recherche "{{ request()->q }}"</span></h4>
   @endif
   <!-- Page Content -->
     <main>

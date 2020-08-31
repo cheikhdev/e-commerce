@@ -40,8 +40,13 @@ Route::get('/checkout', 'OrderController@checkout');
 Route::get('/merci', "ProductsController@merci");
 Route::get('/achat1', "ProductsController@achat1")->name('achat1_products');
 Route::post('/achat1', "ProductsController@store1")->name('achat1_products');
+
+// AFFICHER LES PRODUITS ASSOCIE AUX CATHEGORIES
+Route::get('/category/{id}', "ProductsController@pagecategory")->name('produit_par_cat');;
+
 // ROUTE POUR LA BARRE DE RECHERCHE 
 Route::get('/search', "ProductsController@search")->name('products.search');
+
 //ROUTE POUR LES CATEGORIES
 Route::get('/agri', "ProductsController@agri");
 Route::get('/sante', "ProductsController@sante");
