@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html>
 <head>
@@ -9,7 +10,6 @@
     <header class="row">
         @include('includes.header')
     </header>
-    <div>
     <h1>DFGHJKLCCCCCC</h1>    
     <h1 style="text-align:center; color:green">
      ACHAT RAPIDE EN TROIS CLICS</h1>
@@ -27,7 +27,7 @@
          <input type="text" placeholder="Prenom de l'acheteur"name="prenom_client" id="prenom_client" class="form-control"  ><br>
          <input type="text" placeholder="Localisation de l'acheteur" name="Adresse_client" id="Adresse_client" class="form-control"><br>
          <input type="text" placeholder="Telephone de l'acheteur" name="num_tel" id="num_tel" class="form-control" ><br>
-         <a href="/checkout"><button class="btn btn-primary">Enregistrer</button></a>
+         <a href="{{ url('/checkout') }}"><button class="btn btn-primary">Enregistrer</button></a>
     </form> 
     </div>   
         
@@ -43,10 +43,6 @@
 
     </div>
 
-    <footer class="row">
+     <footer class="row">
         @include('includes.footer')
     </footer>
-
-</div>
-</body>
-</html>

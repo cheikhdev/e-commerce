@@ -26,7 +26,7 @@
          <input type="text" placeholder="Prenom de l'acheteur"name="prenom_client" id="prenom_client" class="form-control"  ><br>
          <input type="text" placeholder="Localisation de l'acheteur" name="Adresse_client" id="Adresse_client" class="form-control"><br>
          <input type="text" placeholder="Telephone de l'acheteur" name="num_tel" id="num_tel" class="form-control" ><br>
-         <button class="btn btn-primary">Enregistrer</button>
+         <a href="/checkout"><button class="btn btn-primary">Enregistrer</button></a>
     </form> 
     </div>   
         <div class="container mt-5" style="width: 60vw">

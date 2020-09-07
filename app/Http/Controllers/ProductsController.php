@@ -11,6 +11,11 @@ use App\Category;
 use App\Product;
 class ProductsController extends Controller
 {
+    //entete
+  public function entete()
+    {
+      return view('partials.entete');
+    }
     //Barre de recherche des produits
     public function search()
     {

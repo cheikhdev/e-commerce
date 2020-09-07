@@ -23,7 +23,7 @@ class OrderController extends Controller
         'Adresse_client' => 'required|min:3',
         'num_tel' => 'required|min:9|numeric',
     ]);
-    dd($request->session()->all());
+    //dd($request->session()->all());
      $order = new Order();
      $order->nom_client = $request->input('nom_client');
      $order->prenom_client = $request->input('prenom_client');
@@ -34,7 +34,7 @@ class OrderController extends Controller
      $order->admin_id = 1;
      $order->delivery_id = 1;
      $order->save();
-     return redirect('/home');
+     return redirect('/home')->back()->with('success', 'Commande tres bien enregsitre!');
   }
 
   public function checkout(Request $request){
@@ -54,8 +54,7 @@ class OrderController extends Controller
             $order_product = $order->products()->sync([$key]);
         }
         $request->session()->forget('cart');
-        $message = "Votre commande a ete enregistree. Nous vous reviendrons dans un instant.<br>Merci de votre confiance.";
-        view('orders.checkout')->withMessage($message);
+        return redirect()->back()->with('success', 'Product added to cart successfully!');
    }
    return redirect('/merci');
 }
