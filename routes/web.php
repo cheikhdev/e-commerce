@@ -25,7 +25,11 @@ Route::delete('product/{id}','ProductsController@destroy');
 Auth::routes();
 Route::get('/', 'HomeController@index')->name('home');
 
+Route::get('/', 'HomeController@deconnect')->name('deconnect');
+
 Route::get('/dashbord', 'HomeController@dashbord')->name('dashbord');
+
+Route::get('/espace_client', 'HomeController@utilisateur')->name('espace_client');
 
 Route::post('/register_user', 'UsersController@store')->name('ajouter_user');
 

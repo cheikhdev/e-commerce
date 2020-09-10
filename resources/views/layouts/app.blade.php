@@ -539,7 +539,7 @@ header{
                             </div>
                           </li>
                           <div class="topbar-divider d-none d-sm-block"></div>
-                  <a href="#" class="text">panier <span class="badge badge-pill badge-dark"></span></a>
+                          
                         <li>
                           <a href="" class="btn btn-success"  data-toggle="modal" data-target="#ModalLogin"> <i class="fas fa-user-lock fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i>Connexion</a>
                         </li>

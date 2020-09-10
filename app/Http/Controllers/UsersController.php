@@ -29,7 +29,7 @@ class UsersController extends Controller
        $user->password=Hash::make($request->input('password'));
        $user->save();
 
-       return redirect('/utilisateur');
+       return redirect('/espace_client');
     }
   
 }
