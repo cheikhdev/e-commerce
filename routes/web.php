@@ -23,8 +23,8 @@ Route::get('/ajouproduit', 'ProductsController@create')->name('create_product');
 Route::delete('product/{id}','ProductsController@destroy');
 
 Auth::routes();
-Route::get('/', 'HomeController@index')->name('home');
-
+Route::get('/', 'HomeController@index');
+Route::get('/home', 'HomeController@index')->name('products.index');
 Route::get('/', 'HomeController@deconnect')->name('deconnect');
 
 Route::get('/dashbord', 'HomeController@dashbord')->name('dashbord');
@@ -39,6 +39,7 @@ Route::get("/produit/{id}/show", 'ProductsController@show');
 Route::get("/produit/{id}/achat", 'ProductsController@achat')->name('achat_products');
 Route::post("/produit/{id}/achat", 'OrderController@store')->name('achat_products');
 Route::post('/product/add_to_cart', "AjaxController@add_to_cart");
+Route::post('/panier/ajouter', "CartController@store")->name('carte.store');
 Route::get('/cart', "OrderController@cart");
 Route::get('/checkout', 'OrderController@checkout');
 Route::get('/merci', "ProductsController@merci");
@@ -50,7 +51,8 @@ Route::get('/category/{id}', "ProductsController@pagecategory")->name('produit_p
 
 // ROUTE POUR LA BARRE DE RECHERCHE 
 Route::get('/search', "ProductsController@search")->name('products.search');
-
+//entete telephone
+Route::get('/entete', "ProductsController@entete");
 //ROUTE POUR LES CATEGORIES
 Route::get('/agri', "ProductsController@agri");
 Route::get('/sante', "ProductsController@sante");

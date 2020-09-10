@@ -19,6 +19,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rancho&effect=fire-animation|3d-float|neon|canvas-print">
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,900" rel="stylesheet" />
  <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
 <style type="text/css">
   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
@@ -436,6 +437,7 @@ header{
           <div id="mylogo">
             <img style="" src="{{asset('images/logo.png')}}" width="150px" height="70px">
           </div>
+          @include('partials.entete')
           @include('partials.search')
         </div>
         
@@ -544,7 +546,7 @@ header{
                           <a href="" class="btn btn-success"  data-toggle="modal" data-target="#ModalLogin"> <i class="fas fa-user-lock fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i>Connexion</a>
                         </li>
                         <li>
-                          <a href="" class="btn btn-primary" data-toggle="modal" data-target="#myModal"> <i class="fas fa-sign-in-alt fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i>Inscription</a>
+                          <a href="" class="btn btn-primary" data-toggle="modal" data-target="#myModal"> <i class="fas fa-sign-in-alt fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i>S'inscrire</a>
                         </li>
                     </ul>
                 </div>
@@ -575,12 +577,12 @@ header{
 
 
     @if (request()->input('q'))
-    <h4 style="font-size: 24px;border: 3px solid #60b4df;background-color:white;text-align: center;"><span style="color: #60b4df;">{{ $products->total() }} résultat(s) pour la recherche "{{ request()->q }}"</span></h4>
+    <h4 style="font-size: 24px;border: 3px solid #60b4df;background-color:white;text-align: center;"><span style="color: #60b4df;"> {{$products->total() }} résultat(s) pour la recherche "{{ request()->q }}"</span></h4>
   @endif
   <!-- Page Content -->
     <main>
           <div class="w-auto">
-            <div class="" style="width:100%;height:65vh;">
+            <div class="" style="width:85%;height:60vh; margin-top: -190px;">
               <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                   <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -589,10 +591,10 @@ header{
                   <li data-target="#carousel-example-generic" data-slide-to="3"></li>
                   <li data-target="#carousel-example-generic" data-slide-to="4"></li>
                 </ol>
-                <div class="carousel-inner">
+                <div class="carousel-inner" style="margin: 200px;">
                   <div class="carousel-item active">
-                    <img class="second-slide animated zoomInDown d-none d-md-block" src="{{asset('images/materiel3.jpg')}}" style="height:65vh; width:100%;" alt="">
-                    <div class="container">
+                    <img class="second-slide animated zoomInDown d-none d-md-block" src="{{asset('images/materiel3.jpg')}}" style="height:65vh; width:70%;" alt="" >
+                    <div class="container" style="position: absolute;left: -205px;">
                       <div class="carousel-caption d-none d-md-block">
                         <h1 class="animated fadeInDown" style="color: #ffffff;">Poduits de La marque Inco.</h1>
                         <p class="animated fadeInRight" style="color: #ffffff;">Retrouvez d'excellent produit de la marque Inco , ches nos magasins .</p>
@@ -601,8 +603,8 @@ header{
                     </div>
                   </div>
                   <div class="carousel-item">
-                    <img class="second-slide animated zoomInDown d-none d-md-block" src="{{asset('images/materiel2.jpg')}}" style="height:65vh; width:100%;" alt="">
-                    <div class="container">
+                    <img class="second-slide animated zoomInDown d-none d-md-block" src="{{asset('images/materiel2.jpg')}}" style="height:65vh; width:70%;" alt="">
+                    <div class="container" style="position: absolute;left: -205px;">
                       <div class="carousel-caption d-none d-md-block">
                         <h1 class="animated fadeInDown" style="color: #ffffff;">Poduits de La marque Inco.</h1>
                         <p class="animated fadeInRight" style="color: #ffffff;">Retrouvez d'excellent produit de la marque Inco , ches nos magasins .</p>
@@ -611,8 +613,8 @@ header{
                     </div>
                   </div>
                   <div class="carousel-item">
-                    <img class="second-slide animated zoomInDown d-none d-md-block" src="{{asset('images/construction-material.jpeg')}}" alt="" style="height:65vh; width:100%;">
-                    <div class="container">
+                    <img class="second-slide animated zoomInDown d-none d-md-block" src="{{asset('images/construction-material.jpeg')}}" alt="" style="height:65vh; width:70%;">
+                    <div class="container" style="position: absolute;left: -205px;">
                       <div class="carousel-caption d-none d-md-block">
                         <h1 class="animated fadeInDown" style="color: #ffffff;">Poduits de La marque Inco.</h1>
                         <p class="animated fadeInRight" style="color: #ffffff;">Retrouvez d'excellent produit de la marque Inco , ches nos magasins .</p>
@@ -621,8 +623,8 @@ header{
                     </div>
                   </div>
                   <div class="carousel-item">
-                    <img class="second-slide animated zoomInDown d-none d-md-block" src="{{asset('images/marque6.jpg')}}" alt="" style="height:65vh; width:100%;">
-                    <div class="container">
+                    <img class="second-slide animated zoomInDown d-none d-md-block" src="{{asset('images/marque6.jpg')}}" alt="" style="height:65vh; width:70%;">
+                    <div class="container"style="position: absolute;left: -205px;">
                       <div class="carousel-caption d-none d-md-block">
                         <h1 class="animated fadeInDown" style="color: #ffffff;">Poduits de La marque Inco.</h1>
                         <p class="animated fadeInRight" style="color: #ffffff;">Retrouvez d'excellent produit de la marque Inco , ches nos magasins .</p>
@@ -631,8 +633,8 @@ header{
                     </div>
                   </div>
                   <div class="carousel-item">
-                    <img class="second-slide animated zoomInDown" src="{{asset('images/materiaux_const.jpg')}}" alt="" style="height:65vh; width:100%;">
-                    <div class="container">
+                    <img class="second-slide animated zoomInDown" src="{{asset('images/materiaux_const.jpg')}}" alt="" style="height:65vh; width:70%;">
+                    <div class="container"style="position: absolute;left: -205px;">
                       <div class="carousel-caption d-none d-md-block">
                         <h1 class="animated fadeInDown" style="color: #ffffff;">Poduits de La marque Inco.</h1>
                         <p class="animated fadeInRight" style="color: #ffffff;">Retrouvez d'excellent produit de la marque Inco , ches nos magasins .</p>
@@ -642,11 +644,11 @@ header{
                   </div>
                 </div>
                   <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="carousel-control-prev-icon" aria-hidden="true" style="background-color: blue;position: absolute;left: 200px;height: 50px;"></span>
                     <span class="sr-only">Previous</span>
                   </a>
                   <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="carousel-control-next-icon" aria-hidden="true" style="background-color: blue;position: absolute;left: 18px; height: 50px;"></span>
                     <span class="sr-only">Next</span>
                   </a>
               </div>
@@ -656,6 +658,16 @@ header{
               @yield('content')
           </div>
   </main>
+  <aside style="position: absolute;
+  margin-top: -1100px;border: 2px solid #60b4df; background-color: grey; ">
+     <p style="border-bottom: 2px solid #60b4df ;font-size: 18px;color: white;"><em> Nos Cathegories.</em></p>
+      <div style="">
+      <li><a style="border-bottom: 2px solid #60b4df;color: white; ">Maconnerie  <span style="background-color:#60b4df;font-size: 23px; ">45</span><a></li>
+      <li><a style="border-bottom: 2px solid #60b4df;color: white; ">Sanitaire et Plomberie  <span style="background-color:#60b4df;font-size: 23px; ">67</span></a></li>
+      <li><a style="border-bottom: 2px solid #60b4df;color: white; ">Peinture <span style="background-color:#60b4df;font-size: 23px; ">34</span></a></li>
+      <li><a style="border-bottom: 2px solid #60b4df;color: white; ">Electricite <span style="background-color:#60b4df;font-size: 23px; ">30</span></a></li>
+      </div>
+  </aside>
       <!-- Debut modall inscriptionnnn -->
           <div class="modal fade" id="myModal">
                 <div class="modal-dialog modal-lg">
@@ -826,10 +838,25 @@ header{
     </div>
     <div class="container">
   <h2 style="text-align:center;padding: 20px;" class="">   Les grandes Marques vous attendent </h2>
+<div style="background-image: url({{asset('images/salle-bain.jpg')}}); height: 420px;">
+    <i></i><span style="font-size: 30px;position: absolute;top:1430px; ">300<br>
+<em style="font-size: 30px;">Produits disponibles<br>
+Une large gamme de produits<br>
+disponible au meilleur prix.<em></span>
+<i></i><span style="position: absolute;left: 40%;top: 1430px;">24h/24<br>
+Produits disponibles<br>
+Une large gamme de produits<br>
+disponible au meilleur prix.</span>
+<i></i><span style="position: absolute;left: 75%;top:1430px; ">100%<br>
+<em style="font-size: 30px;">Produits disponibles<br>
+Une large gamme de produits
+disponible au meilleur prix.<em></span>
+</div>  
+<div class="container" style="top: 40px;">
+  <h2 style="text-align:center;padding: 20px;top: -250px;">   Les grandes Marques vous attendent </h2>
 
        <!-- Footer -->
-<section class="page-footer font-small mdb-color lighten-3 pt-4">
-
+<marquee style="background:url({{asset('images/construction.jpg')}});"> <section class="page-footer font-small mdb-color lighten-3 pt-4">
   <!-- Footer Elements -->
   <div class="container">
 
@@ -930,13 +957,14 @@ header{
     <!--Grid row-->
 
   </div>
+  </marquee>
   <!-- Footer Elements -->
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 <!-- Footer -->
   <hr style="height:3px;border-width:0;color:gray;background-color:#60b4df">
 
-<footer class="page-footer font-small mdb-color lighten-3 pt-4">
+<footer class="page-footer font-small mdb-color lighten-3 pt-4" style="background-color:#60b4df; ">
 
   <!-- Footer Links -->
   <div class="container text-center text-md-left">
@@ -948,8 +976,8 @@ header{
       <div class="col-md-4 col-lg-3 mr-auto my-md-4 my-0 mt-4 mb-1">
 
         <!-- Content -->
-        <h5 class="font-weight-bold text-uppercase mb-4" style="font-size: 35px;">E-Quinc</h5>
-        <p style="font-size: 23px;font-weight: bold;">Bienvenue a votre quincailerie digitale de reference .</p>
+        <h5 class="font-weight-bold text-uppercase mb-4" style="font-size: 35px;color: white;">E-Quinc</h5>
+        <p style="font-size: 23px;font-weight: bold;color: white;">Bienvenue a votre quincailerie digitale de reference .</p>
         
 
       </div>
@@ -962,11 +990,11 @@ header{
       <div class="col-md-2 col-lg-2 mx-auto my-md-4 my-0 mt-4 mb-1">
 
         <!-- Links -->
-        <h5 class="font-weight-bold text-uppercase mb-4" style="font-size: 33px;">A Propos</h5>
+        <h5 class="font-weight-bold text-uppercase mb-4" style="font-size: 33px;color: white;">A Propos</h5>
 
         <ul class="list-unstyled">
           <li>
-            <p style="font-size: 20px;">
+            <p style="font-size: 20px;color: white;">
               <a href="#!">Acceuil</a>
             </p>
           </li>
@@ -996,7 +1024,7 @@ header{
       <div class="col-md-4 col-lg-3 mx-auto my-md-4 my-0 mt-4 mb-1">
 
         <!-- Contact details -->
-        <h5 class="font-weight-bold text-uppercase mb-4" style="font-size: 35px;">Address</h5>
+        <h5 class="font-weight-bold text-uppercase mb-4" style="font-size: 35px;color: white;">Address</h5>
 
         <ul class="list-unstyled">
           <li>
@@ -1026,7 +1054,7 @@ header{
       <div class="col-md-2 col-lg-2 text-center mx-auto my-4">
 
         <!-- Social buttons -->
-        <h5 class="font-weight-bold text-uppercase mb-4" style="font-size: 31px;">Follow Us</h5>
+        <h5 class="font-weight-bold text-uppercase mb-4" style="font-size: 31px;color: white;">Follow Us</h5>
 
         <!-- Facebook -->
         <a type="button" class="btn-floating btn-fb" style="font-size: 39px;">
@@ -1059,6 +1087,7 @@ header{
   <!-- Copyright -->
 
 </footer>
+
 <!-- Footer -->
         
 

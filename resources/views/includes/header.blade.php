@@ -1,3 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title> E-Commerce </title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="{{asset('css/app.css')}}" rel="stylesheet" />
+  <link href="{{asset('css/all.css')}}" rel="stylesheet" />
+  
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rancho&effect=fire-animation|3d-float|neon|canvas-print">
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,900" rel="stylesheet" />
+ <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+</head>
 <style type="text/css">
   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
@@ -402,289 +424,132 @@ header{
         opacity: 0;
         transform: translateY(15px);
     }
-
+   
 }
 </style>
 <body>
 
   <!-- Navigation -->
     
-    <header>
-      <div id="mylogo">
-        <img style="position: absolute;top: 8px;left: 25px;" src="{{asset('images/logo.png')}}" width="150px" height="70px">
-      </div>
-      <div class="nav-btn" >
-                <div class="nav-links" style="float: right; position:relative; left: 130px; " >
-                    <ul style="margin-left: 10px;">
-                        
-                        <li class="nav-link" style="--i: .85s">
-                            <a href="#">Electricite<i class="fas fa-caret-down"></i></a>
-                            <div class="dropdown">
-                                <ul>
-                                    <li class="dropdown-link">
-                                        <a href="#">Link 1</a>
-                                    </li>
-                                    <li class="dropdown-link">
-                                        <a href="#">Link 2</a>
-                                    </li>
-                                    <li class="dropdown-link">
-                                        <a href="#">Link 3<i class="fas fa-caret-down"></i></a>
-                                        <div class="dropdown second">
-                                            <ul>
-                                                <li class="dropdown-link">
-                                                    <a href="#">Link 1</a>
-                                                </li>
-                                                <li class="dropdown-link">
-                                                    <a href="#">Link 2</a>
-                                                </li>
-                                                <li class="dropdown-link">
-                                                    <a href="#">Link 3</a>
-                                                </li>
-                                                <li class="dropdown-link">
-                                                    <a href="#">More<i class="fas fa-caret-down"></i></a>
-                                                    <div class="dropdown second">
-                                                        <ul>
-                                                            <li class="dropdown-link">
-                                                                <a href="#">Link 1</a>
-                                                            </li>
-                                                            <li class="dropdown-link">
-                                                                <a href="#">Link 2</a>
-                                                            </li>
-                                                            <li class="dropdown-link">
-                                                                <a href="#">Link 3</a>
-                                                            </li>
-                                                            <div class="arrow"></div>
-                                                        </ul>
-                                                    </div>
-                                                </li>
-                                                <div class="arrow"></div>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li class="dropdown-link">
-                                        <a href="#">Link 4</a>
-                                    </li>
-                                    <div class="arrow"></div>
-                                </ul>
-                            </div>
+    <header >
+        <div class="d-flex  justify-content-between w-100 p-10" style="padding:10px;">
+          <div id="mylogo">
+            <img style="" src="{{asset('images/logo.png')}}" width="150px" height="70px">
+          </div>
+          @include('partials.entete')
+          @include('partials.search')
+        </div>
+        
+        <div class="nav-btn container" >
+                
+                <div class="nav-links" style=" " >
+                    <ul style="" class="d-flex  justify-content-between w-100"> 
+                      <div class="topbar-divider d-none d-sm-block"></div>   
+                        <li class="nav-link" style="">
+                            <a href="/home" class="menu">
+                            <i class="fas fa-home fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i>
+                              Accueil
+                            </a>
                         </li>
-                          <li class="nav-link" style="--i: 1.1s">
-                            <a href="#">Sanitaire<i class="fas fa-caret-down"></i></a>
-                            <div class="dropdown">
-                                <ul>
-                                    <li class="dropdown-link">
-                                        <a href="#">Link 1</a>
-                                    </li>
-                                    <li class="dropdown-link">
-                                        <a href="#">Link 2</a>
-                                    </li>
-                                    <li class="dropdown-link">
-                                        <a href="#">Link 3<i class="fas fa-caret-down"></i></a>
-                                        <div class="dropdown second">
-                                            <ul>
-                                                <li class="dropdown-link">
-                                                    <a href="#">Link 1</a>
-                                                </li>
-                                                <li class="dropdown-link">
-                                                    <a href="#">Link 2</a>
-                                                </li>
-                                                <li class="dropdown-link">
-                                                    <a href="#">Link 3</a>
-                                                </li>
-                                                <li class="dropdown-link">
-                                                    <a href="#">More<i class="fas fa-caret-down"></i></a>
-                                                    <div class="dropdown second">
-                                                        <ul>
-                                                            <li class="dropdown-link">
-                                                                <a href="#">Link 1</a>
-                                                            </li>
-                                                            <li class="dropdown-link">
-                                                                <a href="#">Link 2</a>
-                                                            </li>
-                                                            <li class="dropdown-link">
-                                                                <a href="#">Link 3</a>
-                                                            </li>
-                                                            <div class="arrow"></div>
-                                                        </ul>
-                                                    </div>
-                                                </li>
-                                                <div class="arrow"></div>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li class="dropdown-link">
-                                        <a href="#">Link 4</a>
-                                    </li>
-                                    <div class="arrow"></div>
-                                </ul>
-                            </div>
                         
-                          <li class="nav-link" style="--i: 1.1s">
-                            <a href="#">Plomberie<i class="fas fa-caret-down"></i></a>
-                            <div class="dropdown">
-                                <ul>
+                          <li class="nav-link" style="">
+                            <a href="#" class="menu">
+                              <i class="fas fa-medkit fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i>
+                              A Propos<i class="fas fa-caret-down"></i>
+                            </a>
+                            <div class="dropdown " style="width:300px;" >
+                                <ul style="width:100%;">
                                     <li class="dropdown-link">
-                                        <a href="#">Link 1</a>
+                                        <a href="#">Mention légale</a>
                                     </li>
                                     <li class="dropdown-link">
-                                        <a href="#">Link 2</a>
+                                        <a href="#">Conditions générales de vente</a>
                                     </li>
                                     <li class="dropdown-link">
-                                        <a href="#">Link 3<i class="fas fa-caret-down"></i></a>
+                                        <a href="#">Contact<i class="fas fa-caret-down"></i></a>
+                                    </li>
+                                   
+                                </ul>
+                            </div>
+                          </li>
+                          <div class="topbar-divider d-none d-sm-block"></div>
+                          <li class="nav-link" style="">
+                            <a href="#" class="menu">
+                              <i class="fas fa-wrench fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i>
+                              Categories de produits<i class="fas fa-caret-down"></i>
+                            </a>
+                            <div class="dropdown" style="width:300px;">
+                                <ul style="width:100%;">
+                                    <li class="dropdown-link">
+                                        <a href="">Electricité<i class="fas fa-caret-down"></i></a>
                                         <div class="dropdown second">
                                             <ul>
                                                 <li class="dropdown-link">
-                                                    <a href="#">Link 1</a>
+                                                    <a href="#">Eclairage</a>
                                                 </li>
                                                 <li class="dropdown-link">
-                                                    <a href="#">Link 2</a>
+                                                    <a href="#">Cablage</a>
                                                 </li>
                                                 <li class="dropdown-link">
-                                                    <a href="#">Link 3</a>
+                                                    <a href="#">Appareillage</a>
                                                 </li>
                                                 <li class="dropdown-link">
-                                                    <a href="#">More<i class="fas fa-caret-down"></i></a>
-                                                    <div class="dropdown second">
-                                                        <ul>
-                                                            <li class="dropdown-link">
-                                                                <a href="#">Link 1</a>
-                                                            </li>
-                                                            <li class="dropdown-link">
-                                                                <a href="#">Link 2</a>
-                                                            </li>
-                                                            <li class="dropdown-link">
-                                                                <a href="#">Link 3</a>
-                                                            </li>
-                                                            <div class="arrow"></div>
-                                                        </ul>
-                                                    </div>
+                                                    <a href="#">Protection</a>
                                                 </li>
+                                                <div class="arrow"></div>
+                                            </ul>
+                                        </div>
+                                    </li> 
+                                    <li class="dropdown-link">
+                                        <a href="#">Sanitaire et Plomberie<i class="fas fa-caret-down"></i></a>
+                                        <div class="dropdown second">
+                                            <ul>
+                                                <li class="dropdown-link">
+                                                    <a href="#">Salle de bain</a>
+                                                </li>
+                                                <li class="dropdown-link">
+                                                    <a href="#">Robineterie</a>
+                                                </li> 
                                                 <div class="arrow"></div>
                                             </ul>
                                         </div>
                                     </li>
                                     <li class="dropdown-link">
-                                        <a href="#">Link 4</a>
+                                        <a href="#">Peinture</a>
                                     </li>
                                     <div class="arrow"></div>
-                                </ul>
-                            </div>
-                        
-                        <li class="nav-link" style="--i: 1.1s">
-                            <a href="#">Peinture<i class="fas fa-caret-down"></i></a>
-                            <div class="dropdown">
-                                <ul>
                                     <li class="dropdown-link">
-                                        <a href="#">Link 1</a>
-                                    </li>
-                                    <li class="dropdown-link">
-                                        <a href="#">Link 2</a>
-                                    </li>
-                                    <li class="dropdown-link">
-                                        <a href="#">Link 3<i class="fas fa-caret-down"></i></a>
+                                        <a href="#">Maçonnerie<i class="fas fa-caret-down"></i></a>
                                         <div class="dropdown second">
                                             <ul>
                                                 <li class="dropdown-link">
-                                                    <a href="#">Link 1</a>
+                                                    <a href="#">Ciment</a>
                                                 </li>
                                                 <li class="dropdown-link">
-                                                    <a href="#">Link 2</a>
-                                                </li>
+                                                    <a href="#">Fer</a>
+                                                </li> 
                                                 <li class="dropdown-link">
-                                                    <a href="#">Link 3</a>
-                                                </li>
-                                                <li class="dropdown-link">
-                                                    <a href="#">More<i class="fas fa-caret-down"></i></a>
-                                                    <div class="dropdown second">
-                                                        <ul>
-                                                            <li class="dropdown-link">
-                                                                <a href="#">Link 1</a>
-                                                            </li>
-                                                            <li class="dropdown-link">
-                                                                <a href="#">Link 2</a>
-                                                            </li>
-                                                            <li class="dropdown-link">
-                                                                <a href="#">Link 3</a>
-                                                            </li>
-                                                            <div class="arrow"></div>
-                                                        </ul>
-                                                    </div>
-                                                </li>
+                                                    <a href="#">Graviers</a>
+                                                </li> 
                                                 <div class="arrow"></div>
                                             </ul>
                                         </div>
                                     </li>
-                                    <li class="dropdown-link">
-                                        <a href="#">Link 4</a>
-                                    </li>
                                     <div class="arrow"></div>
                                 </ul>
                             </div>
+                          </li>
+                          <div class="topbar-divider d-none d-sm-block"></div>
+          <a href="#" class="text" style="color: white;">panier <span style="color: white;" class=""></span></a>
+                        <li>
+                          <a href="/login" class="btn btn-success"> <i class="fas fa-user-lock fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i>Connexion</a>
                         </li>
-                          <li class="nav-link" style="--i: 1.1s">
-                            <a href="#">maçonnerie<i class="fas fa-caret-down"></i></a>
-                            <div class="dropdown">
-                                <ul>
-                                    <li class="dropdown-link">
-                                        <a href="#">Link 1</a>
-                                    </li>
-                                    <li class="dropdown-link">
-                                        <a href="#">Link 2</a>
-                                    </li>
-                                    <li class="dropdown-link">
-                                        <a href="#">Link 3<i class="fas fa-caret-down"></i></a>
-                                        <div class="dropdown second">
-                                            <ul>
-                                                <li class="dropdown-link">
-                                                    <a href="#">Link 1</a>
-                                                </li>
-                                                <li class="dropdown-link">
-                                                    <a href="#">Link 2</a>
-                                                </li>
-                                                <li class="dropdown-link">
-                                                    <a href="#">Link 3</a>
-                                                </li>
-                                                <li class="dropdown-link">
-                                                    <a href="#">More<i class="fas fa-caret-down"></i></a>
-                                                    <div class="dropdown second">
-                                                        <ul>
-                                                            <li class="dropdown-link">
-                                                                <a href="#">Link 1</a>
-                                                            </li>
-                                                            <li class="dropdown-link">
-                                                                <a href="#">Link 2</a>
-                                                            </li>
-                                                            <li class="dropdown-link">
-                                                                <a href="#">Link 3</a>
-                                                            </li>
-                                                            <div class="arrow"></div>
-                                                        </ul>
-                                                    </div>
-                                                </li>
-                                                <div class="arrow"></div>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li class="dropdown-link">
-                                        <a href="#">Link 4</a>
-                                    </li>
-                                    <div class="arrow"></div>
-                                </ul>
-                            </div>
-                        
-                        
+                        <li>
+                          <a href="" class="btn btn-primary" data-toggle="modal" data-target="#myModal"> <i class="fas fa-sign-in-alt fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i>Inscription</a>
+                        </li>
                     </ul>
                 </div>
-
-                <div class="log-sign" style="--i: 1.8s">
-                    <a href="#" class="btn transparent">Connecter</a>
-                    <a href="#" class="btn solid">S'inscrire</a>
-                </div>
-            </div>
-
-            <div class="hamburger-menu-container">
-                <div class="hamburger-menu">
-                    <div></div>
-                </div>
-            </div>
+        </div>
     </header>
+ </body>
+ </html>

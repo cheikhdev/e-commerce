@@ -20,7 +20,9 @@ class HomeController extends Controller
     public function index(){
          $categories=Category::where('id' , 1)->get();
 
-         $products = DB::table('products')->paginate(5);//paginate(6);
+         
+         
+         $products = DB::table('products')->paginate(12);//paginate(6);
         return view('home', compact('products','categories'));
      }
      
