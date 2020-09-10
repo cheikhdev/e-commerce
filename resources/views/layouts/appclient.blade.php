@@ -45,7 +45,11 @@ header{
     z-index: 1000;
 }
 
-
+.alternate{
+  background-color: #60b4df;
+  color:white;
+  
+}
 
 
 
@@ -436,31 +440,37 @@ header{
           <div id="mylogo">
             <img style="" src="{{asset('images/logo.png')}}" width="150px" height="70px">
           </div>
-          <div class="search-form d-none d-lg-inline-block" style="">
-            <div class="input-group">                              
-              <input type="text" name="query" style="width:300px;height:30px;" id="search-input" class="form-control" placeholder="recherche produits" autofocus autocomplete="off" />
+          <div class="container">
+            <div class="alternate" sty>
+              @include('partials.entete')
             </div>
-            <div id="search-results-container">
-              <ul id="search-results"></ul>
-            </div>
-          </div>
+            <div class="d-flex  justify-content-center pt-4">
+              <div class="search-form d-none d-lg-inline-block" style="">
+                <div class="input-group">                              
+                  <input type="text" name="query" style="width:400px;height:35px;" id="search-input" class="form-control" placeholder="recherche produits" autofocus autocomplete="off" />
+                </div>
+                <div id="search-results-container">
+                  <ul id="search-results"></ul>
+                </div>
+              </div>
+            </div>  
+          </div>  
         </div>
-        
-        <div class="nav-btn container" >
+        <div class="nav-btn " >
                 
                 <div class="nav-links" style=" " >
                     <ul style="" class="d-flex  justify-content-between w-100"> 
                       <div class="topbar-divider d-none d-sm-block"></div>   
                         <li class="nav-link" style="">
                             <a href="/home" class="menu">
-                            <i class="fas fa-home fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i>
+                            <i class="fas fa-home fa-lg fa-fw mr-2 text-gray-400" aria-hidden="true"></i>
                               Accueil
                             </a>
                         </li>
                         
                           <li class="nav-link" style="">
                             <a href="#" class="menu">
-                              <i class="fas fa-medkit fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i>
+                              <i class="fas fa-medkit fa-lg fa-fw mr-2 text-gray-400" aria-hidden="true"></i>
                               A Propos<i class="fas fa-caret-down"></i>
                             </a>
                             <div class="dropdown " style="width:300px;" >
@@ -481,7 +491,7 @@ header{
                           <div class="topbar-divider d-none d-sm-block"></div>
                           <li class="nav-link" style="">
                             <a href="#" class="menu">
-                              <i class="fas fa-wrench fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i>
+                              <i class="fas fa-wrench fa-lg fa-fw mr-2 text-gray-400" aria-hidden="true"></i>
                               Categories de produits<i class="fas fa-caret-down"></i>
                             </a>
                             <div class="dropdown" style="width:300px;">
@@ -546,10 +556,17 @@ header{
                             </div>
                           </li>
                           <div class="topbar-divider d-none d-sm-block"></div>
-                          
+                         
                           <li class="nav-link" style="">
                             <a href="#" class="menu">
-                              <i class="fas fa-home fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i>
+                              <i class="fas fa-shopping-cart fa-lg fa-fw mr-2 text-gray-400" aria-hidden="true"></i>
+                              Panier
+                            </a>
+                          </li>
+                          <li class="nav-link" style="">
+                            <a href="#" class="menu">
+                           
+                              <i class="fas fa-user-circle fa-lg fa-fw mr-2 text-gray-400" aria-hidden="true"></i>
                               Mon espace<i class="fas fa-caret-down"></i>
                             </a>
                             <div class="dropdown">

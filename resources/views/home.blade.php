@@ -25,7 +25,7 @@
               </div>
             @endforeach
             <nav style="position: absolute;top: 1360px;left: 45%;" class="page-navigation">
-            {{ $products->links()}}
+          
             </nav>
           </div>
           

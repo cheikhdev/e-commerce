@@ -38,7 +38,7 @@ class LoginController extends Controller
     }
     public function redirectTo(){
         if(auth()->user()->isAdmin() || auth()->user()->isUser() || auth()->user()->isModerator()){
-            return '/utilisateur';
+            return '/espace_client';
         } 
         else {
             return '/home';

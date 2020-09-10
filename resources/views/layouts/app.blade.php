@@ -437,8 +437,14 @@ header{
           <div id="mylogo">
             <img style="" src="{{asset('images/logo.png')}}" width="150px" height="70px">
           </div>
-          @include('partials.entete')
-          @include('partials.search')
+          <div class="container">
+            <div>
+              @include('partials.entete')
+            </div>
+            <div class="d-flex  justify-content-center">
+              @include('partials.search')
+            </div>  
+          </div>  
         </div>
         
         <div class="nav-btn container" >
