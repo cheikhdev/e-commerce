@@ -13,6 +13,7 @@
   <link href="{{asset('css/app.css')}}" rel="stylesheet" />
   <link href="{{asset('css/all.css')}}" rel="stylesheet" />
   
+  
 
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 
@@ -46,7 +47,7 @@ header{
 }
 
 .alternate{
-  background-color: #60b4df;
+  background-color: rgb(194, 58, 54);
   color:white;
   
 }
@@ -436,13 +437,12 @@ header{
   <!-- Navigation -->
     
     <header >
-        <div class="d-flex  justify-content-between w-100 p-10" style="padding:10px;">
-          <div id="mylogo">
-            <img style="" src="{{asset('images/logo.png')}}" width="150px" height="70px">
-          </div>
-          <div class="container">
-            <div class="alternate" sty>
-              @include('partials.entete')
+            <div class="alternate d-flex  justify-content-center align-content-center  p-2" >
+              <span >
+                <h3 style="font-weight:bold;">
+                  Besoin d'aide pour commander ? Appeler au <span style="background:black;border-radius:60px;padding-left:5px;padding-right:5px;"><i class="fas fa-phone-square-alt" style="margin:3px;"></i>33 850 23 25</span>
+                </h3>
+              </span>  
             </div>
             <div class="d-flex  justify-content-center pt-4">
               <div class="search-form d-none d-lg-inline-block" style="">
@@ -454,9 +454,12 @@ header{
                 </div>
               </div>
             </div>  
-          </div>  
-        </div>
-        <div class="nav-btn " >
+          <!--    ----->
+        <div class="d-flex  justify-content-between w-100 p-10" style="padding:10px;">
+          <div id="mylogo">
+            <img style="" src="{{asset('images/logo.png')}}" width="150px" height="70px">
+          </div>
+          <div class="nav-btn " >
                 
                 <div class="nav-links" style=" " >
                     <ul style="" class="d-flex  justify-content-between w-100"> 
@@ -492,7 +495,7 @@ header{
                           <li class="nav-link" style="">
                             <a href="#" class="menu">
                               <i class="fas fa-wrench fa-lg fa-fw mr-2 text-gray-400" aria-hidden="true"></i>
-                              Categories de produits<i class="fas fa-caret-down"></i>
+                              Categories<i class="fas fa-caret-down"></i>
                             </a>
                             <div class="dropdown" style="width:300px;">
                                 <ul style="width:100%;">
@@ -559,7 +562,7 @@ header{
                          
                           <li class="nav-link" style="">
                             <a href="#" class="menu">
-                              <i class="fas fa-shopping-cart fa-lg fa-fw mr-2 text-gray-400" aria-hidden="true"></i>
+                            <sup style="color:red;">{{Cart::count()}}</sup><i class="fas fa-shopping-cart fa-lg fa-fw mr-2 text-gray-400" aria-hidden="true"></i>
                               Panier
                             </a>
                           </li>
@@ -591,6 +594,7 @@ header{
                         </li>
                     </ul>
                 </div>
+          </div>
         </div>
     </header>
   <!-- Page Content -->
@@ -671,259 +675,177 @@ header{
           <div class="pt-5">
               @yield('content')
           </div>
-  </main>
-    <div class="container">
-  <h2 style="
-  text-align:center;
-  padding: 20px;">   Les grandes Marques vous attendent .
+  
+    <div class="">
+      <h2 style="text-align:center;padding: 20px;">   Les grandes Marques vous attendent . </h2>
+          <!-- Footer -->
+      <section class="page-footer font-small mdb-color lighten-3 pt-4">
 
-       <!-- Footer -->
-<section class="page-footer font-small mdb-color lighten-3 pt-4">
+       
+        <div class="container">
 
-  <!-- Footer Elements -->
-  <div class="container">
+          <!--Grid row-->
+          <div class="row">
 
-    <!--Grid row-->
-    <div class="row">
+            <!--Grid column-->
+            <div class="col-lg-2 col-md-12 mb-4">
 
-      <!--Grid column-->
-      <div class="col-lg-2 col-md-12 mb-4">
+              <!--Image-->
+              <div class="view overlay z-depth-1-half">
+                <img src="{{asset('images/marque7.png')}}" class="img-fluid"
+                  alt="" >
+                <a href="">
+                  <div class="mask rgba-white-light"></div>
+                </a>
+              </div>
 
-        <!--Image-->
-        <div class="view overlay z-depth-1-half">
-          <img src="{{asset('images/marque7.png')}}" class="img-fluid"
-            alt="" >
-          <a href="">
-            <div class="mask rgba-white-light"></div>
-          </a>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-2 col-md-6 mb-4">
+
+              <!--Image-->
+              <div class="view overlay z-depth-1-half">
+                <img src="{{asset('images/marque6.jpg')}}" class="img-fluid"
+                  alt="">
+                <a href="">
+                  <div class="mask rgba-white-light"></div>
+                </a>
+              </div>
+
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-2 col-md-6 mb-4">
+
+              <!--Image-->
+              <div class="view overlay z-depth-1-half">
+                <img src="{{asset('images/marque4.png')}}" class="img-fluid"
+                  alt="">
+                <a href="">
+                  <div class="mask rgba-white-light"></div>
+                </a>
+              </div>
+
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-2 col-md-12 mb-4">
+
+              <!--Image-->
+              <div class="view overlay z-depth-1-half">
+                <img src="{{asset('images/marque3.jpg')}}" class="img-fluid"
+                  alt="">
+                <a href="">
+                  <div class="mask rgba-white-light"></div>
+                </a>
+              </div>
+
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-2 col-md-6 mb-4">
+
+              <!--Image-->
+              <div class="view overlay z-depth-1-half">
+                <img src="{{asset('images/marque2.png')}}" class="img-fluid"
+                  alt="">
+                <a href="">
+                  <div class="mask rgba-white-light"></div>
+                </a>
+              </div>
+
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-2 col-md-6 mb-4">
+
+              <!--Image-->
+              <div class="view overlay z-depth-1-half">
+                <img src="{{asset('images/marque1.jpg')}}" class="img-fluid"
+                  alt="">
+                <a href="">
+                  <div class="mask rgba-white-light"></div>
+                </a>
+              </div>
+
+            </div>
+            <!--Grid column-->
+
+          </div>
+          <!--Grid row-->
+
         </div>
-
-      </div>
-      <!--Grid column-->
-
-      <!--Grid column-->
-      <div class="col-lg-2 col-md-6 mb-4">
-
-        <!--Image-->
-        <div class="view overlay z-depth-1-half">
-          <img src="{{asset('images/marque6.jpg')}}" class="img-fluid"
-            alt="">
-          <a href="">
-            <div class="mask rgba-white-light"></div>
-          </a>
-        </div>
-
-      </div>
-      <!--Grid column-->
-
-      <!--Grid column-->
-      <div class="col-lg-2 col-md-6 mb-4">
-
-        <!--Image-->
-        <div class="view overlay z-depth-1-half">
-          <img src="{{asset('images/marque4.png')}}" class="img-fluid"
-            alt="">
-          <a href="">
-            <div class="mask rgba-white-light"></div>
-          </a>
-        </div>
-
-      </div>
-      <!--Grid column-->
-
-      <!--Grid column-->
-      <div class="col-lg-2 col-md-12 mb-4">
-
-        <!--Image-->
-        <div class="view overlay z-depth-1-half">
-          <img src="{{asset('images/marque3.jpg')}}" class="img-fluid"
-            alt="">
-          <a href="">
-            <div class="mask rgba-white-light"></div>
-          </a>
-        </div>
-
-      </div>
-      <!--Grid column-->
-
-      <!--Grid column-->
-      <div class="col-lg-2 col-md-6 mb-4">
-
-        <!--Image-->
-        <div class="view overlay z-depth-1-half">
-          <img src="{{asset('images/marque2.png')}}" class="img-fluid"
-            alt="">
-          <a href="">
-            <div class="mask rgba-white-light"></div>
-          </a>
-        </div>
-
-      </div>
-      <!--Grid column-->
-
-      <!--Grid column-->
-      <div class="col-lg-2 col-md-6 mb-4">
-
-        <!--Image-->
-        <div class="view overlay z-depth-1-half">
-          <img src="{{asset('images/marque1.jpg')}}" class="img-fluid"
-            alt="">
-          <a href="">
-            <div class="mask rgba-white-light"></div>
-          </a>
-        </div>
-
-      </div>
-      <!--Grid column-->
-
+      </section>
     </div>
-    <!--Grid row-->
-
-  </div>
-  <!-- Footer Elements -->
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+  </main>
 <!-- Footer -->
   <hr style="height:3px;border-width:0;color:gray;background-color:#60b4df">
 
-<footer class="page-footer font-small mdb-color lighten-3 pt-4">
-
-  <!-- Footer Links -->
-  <div class="container text-center text-md-left">
-
-    <!-- Grid row -->
-    <div class="row">
-
-      <!-- Grid column -->
-      <div class="col-md-4 col-lg-3 mr-auto my-md-4 my-0 mt-4 mb-1">
-
-        <!-- Content -->
-        <h5 class="font-weight-bold text-uppercase mb-4" style="font-size: 35px;">E-Quinc</h5>
-        <p style="font-size: 23px;font-weight: bold;">Bienvenue a votre quincailerie digitale de reference .</p>
-        
-
-      </div>
-      <!-- Grid column -->
-
-      <hr style="border-left: 3px solid #60b4df ;
-  height: 350px;
-  position: absolute;
-  left: 5%;
-  margin-left: -3px;
-  top: 200">
-
-
-      <!-- Grid column -->
-      <div class="col-md-2 col-lg-2 mx-auto my-md-4 my-0 mt-4 mb-1">
-
-        <!-- Links -->
-        <h5 class="font-weight-bold text-uppercase mb-4" style="font-size: 33px;">A Propos</h5>
-
-        <ul class="list-unstyled">
-          <li>
-            <p style="font-size: 20px;">
-              <a href="#!">Acceuil</a>
-            </p>
-          </li>
-          <li>
-            <p style="font-size: 20px;">
-              <a href="#!">Nos  Cathegories</a>
-            </p>
-          </li>
-          <li>
-            <p style="font-size: 20px;">
-              <a href="#!">Nos Produits</a>
-            </p>
-          </li>
-          <li>
-            <p style="font-size: 20px;">
-              <a href="#!">Contact</a>
-            </p>
-          </li>
-        </ul>
-
-      </div>
-      <!-- Grid column -->
-
-      <hr style="border-left: 3px solid #60b4df ;
-  height: 350px;
-  position: absolute;
-  left: 95%;
-  margin-left: -3px;
-  top: 290">
-
-      <!-- Grid column -->
-      <div class="col-md-4 col-lg-3 mx-auto my-md-4 my-0 mt-4 mb-1">
-
-        <!-- Contact details -->
-        <h5 class="font-weight-bold text-uppercase mb-4" style="font-size: 35px;">Address</h5>
-
-        <ul class="list-unstyled">
-          <li>
-            <p>
-              <i class="fas fa-home mr-3"></i> <span style="font-size:20px; font-weight: bold;"> DAKAR,SENEGAL <span/></p>
-          </li>
-          <li>
-            <p>
-              <i class="fas fa-envelope mr-3"></i><span style="font-size:20px;font-weight: bold;">   info@example.com <span/></p>
-          </li>
-          <li>
-            <p style="font-size: color:8px;">
-              <i class="fas fa-phone mr-3"></i><span style="font-size:20px;font-weight: bold;"> +221 33 XXX XX XX <span/></p>
-          </li>
-          <li>
-            <p style="font-size: color:8px;">
-              <i class="fas fa-print mr-3"></i><span style="font-size:20px;font-weight: bold;"> +221 33 XXX XX XX<span/></p>
-          </li>
-        </ul>
-
-      </div>
-      <!-- Grid column -->
-
-      <hr class="clearfix w-100 d-md-none">
-
-      <!-- Grid column -->
-      <div class="col-md-2 col-lg-2 text-center mx-auto my-4">
-
-        <!-- Social buttons -->
-        <h5 class="font-weight-bold text-uppercase mb-4" style="font-size: 31px;">Follow Us</h5>
-
-        <!-- Facebook -->
-        <a type="button" class="btn-floating btn-fb" style="font-size: 39px;">
-          <i class="fab fa-facebook-f" style="color: #60b4df;"></i>
-        </a>
-        <!-- Twitter -->
-        <a type="button" class="btn-floating btn-tw" style="font-size: 39px;">
-          <i class="fab fa-twitter" style="color: #60b4df;"></i>
-        </a>
-        <!-- Google +-->
-        <a type="button" class="btn-floating btn-gplus" style="font-size: 39px;">
-          <i class="fab fa-google-plus-g" style="color: red;"></i>
-        </a>
-        <!-- Dribbble -->
-        
-
-      </div>
-      <!-- Grid column -->
-
-    </div>
-    <!-- Grid row -->
-
+  <div class="container-fluid"> 
+    <output class="bg-white shadow-sm">
+   
+        <footer class="section-footer border-top" style="">
+            <div class="container-fluid">
+                <section class="footer-top padding-y">
+                    <div class="row">
+                        <aside class="col-md-4">
+                            <article class="mr-3"> <img style="" src="{{asset('images/logo.png')}}" width="150px" height="70px" class="logo-footer">
+                                <p class="mt-3 description">Some short text about company like You might remember the Dell computer commercials in which a youth reports this exciting news to his friends.</p>
+                                <div> <a class="btn btn-icon btn-light" title="Facebook" target="_blank" href="#" data-abc="true"><i class="fab fa-facebook-f"></i></a> <a class="btn btn-icon btn-light" title="Instagram" target="_blank" href="#" data-abc="true"><i class="fab fa-instagram"></i></a> <a class="btn btn-icon btn-light" title="Youtube" target="_blank" href="#" data-abc="true"><i class="fab fa-youtube"></i></a> <a class="btn btn-icon btn-light" title="Twitter" target="_blank" href="#" data-abc="true"><i class="fab fa-twitter"></i></a> </div>
+                            </article>
+                        </aside>
+                        <aside class="col-sm-3 col-md-2">
+                            <h6 class="title">About</h6>
+                            <ul class="list-unstyled">
+                                <li> <a href="#" data-abc="true">About us</a></li>
+                                <li> <a href="#" data-abc="true">Services</a></li>
+                                <li> <a href="#" data-abc="true">Terms & Condition</a></li>
+                                <li> <a href="#" data-abc="true">Our Blogs</a></li>
+                            </ul>
+                        </aside>
+                        <aside class="col-sm-3 col-md-2">
+                            <h6 class="title">Services</h6>
+                            <ul class="list-unstyled">
+                                <li> <a href="#" data-abc="true">Help center</a></li>
+                                <li> <a href="#" data-abc="true">Money refund</a></li>
+                                <li> <a href="#" data-abc="true">Terms and Policy</a></li>
+                                <li> <a href="#" data-abc="true">Open dispute</a></li>
+                            </ul>
+                        </aside>
+                        <aside class="col-sm-3 col-md-2">
+                            <h6 class="title">For users</h6>
+                            <ul class="list-unstyled">
+                                <li> <a href="#" data-abc="true"> User Login </a></li>
+                                <li> <a href="#" data-abc="true"> User register </a></li>
+                                <li> <a href="#" data-abc="true"> Account Setting </a></li>
+                                <li> <a href="#" data-abc="true"> My Orders </a></li>
+                            </ul>
+                        </aside>
+                        <aside class="col-sm-2 col-md-2">
+                            <h6 class="title">Our app</h6> <a href="#" class="d-block mb-2" data-abc="true"><img class="img-responsive" src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1574317087/AAA/appstore.png" height="40"></a> <a href="#" class="d-block mb-2" data-abc="true"><img class="img-responsive" src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1574317110/AAA/playmarket.png" height="40"></a>
+                        </aside>
+                    </div>
+                </section>
+                <section class="footer-copyright border-top" style="background-color: rgb(194, 58, 54);">
+                    <p class="float-left text-muted"> © 2019 Talkdesk All rights resetved </p>
+                    <p target="_blank" class="float-right text-muted"> <a href="#" data-abc="true">Privacy &amp; Cookies</a> &nbsp; &nbsp; <a href="#" data-abc="true">Accessibility</a> </p>
+                </section>
+            </div>
+        </footer>
+    </output> 
   </div>
-  <!-- Footer Links -->
-
-  <!-- Copyright -->
-  <div class="footer-copyright text-center py-3"><span style="color: #60b4df; font-size: 24px;">© 2020 Copyright:
-    <a href="https://mdbootstrap.com/"> QuincEnLigne.com</a><span/>
-  </div>
-  <!-- Copyright -->
-
-</footer>
 <!-- Footer -->
         
 
 
 <!-- Footer -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
   <!-- Bootstrap core JavaScript -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> 

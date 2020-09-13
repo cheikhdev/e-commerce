@@ -15,6 +15,8 @@ html {
    */
   body {
     margin: 0;
+    padding-left: 2px;
+    padding-right: 2px;
   }
   
   /**
@@ -885,6 +887,7 @@ html {
     border: 0;
     cursor: pointer;
     font-weight: bold;
+    
   }
   
   .s007 form .inner-form .input-field .btn-search:hover {
@@ -1264,6 +1267,7 @@ iframe {
   top: 0;
   left: 0;
   background-color: rgba(54,84,99,0.7);
+ 
 }
 
 
@@ -1321,4 +1325,48 @@ iframe {
 }
 .pass{
   border-radius: 20px;
+}
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+footer {
+    background-color: #eeeeee;
+    font-family: 'Open Sans', serif;
+    font-size: 14px
+}
+
+.container-fluid {
+    margin-top: 50px
+}
+
+.footer-copyright {
+    margin-top: 13px
+}
+
+a {
+    text-decoration: none !important;
+    color: #777a7c
+}
+
+.description {
+    font-size: 12px
+}
+
+.fa-facebook-f {
+    color: #3b5999
+}
+
+.fa-instagram {
+    color: #e4405f
+}
+
+.fa-youtube {
+    color: #cd201f
+}
+
+.fa-twitter {
+    color: #55acee
+}
+
+.footer-copyright p {
+    margin-top: 10px
 }

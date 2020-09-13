@@ -467,8 +467,8 @@ pre {
 
 .container-fluid {
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: auto;
+  padding-left: auto;
   margin-right: auto;
   margin-left: auto; }
 
@@ -8120,7 +8120,7 @@ code {
 /*===== FOOTER =====*/
 .main-footer {
   background: #ffffff;
-  padding: 0.9375rem;
+  padding: 2px;
   color: #444444;
   border-top: 1px solid #e5e9f2; }
 

@@ -13,5 +13,5 @@ const mix = require('laravel-mix');
 
 mix.js('resources/js/app.js', 'public/js')
    .sass('resources/sass/app.scss', 'public/css')
-   .styles(['resources/css/E-commerce.css','resources/css/bootstrab.min.css','resources/css/reche.css','shop-homepage.css'], 'public/css/all.css');
+   .styles(['resources/css/E-commerce.css','resources/css/bootstrab.min.css','resources/css/reche.css','shop-homepage.css','resources/css/footer.css'], 'public/css/all.css');
   
