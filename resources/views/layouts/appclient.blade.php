@@ -12,6 +12,22 @@
   <!-- Bootstrap core CSS -->
   <link href="{{asset('css/app.css')}}" rel="stylesheet" />
   <link href="{{asset('css/all.css')}}" rel="stylesheet" />
+  <link href="{{asset('plugins/toaster/toastr.min.css')}}" rel="stylesheet" />
+  <link href="{{asset('plugins/nprogress/nprogress.css')}}" rel="stylesheet" />
+  <link href="{{asset('plugins/flag-icons/css/flag-icon.min.css')}}" rel="stylesheet"/>
+  <link href="{{asset('plugins/jvectormap/jquery-jvectormap-2.0.3.css')}}" rel="stylesheet" />
+  <link href="{{asset('plugins/ladda/ladda.min.css')}}" rel="stylesheet" />
+  <link href="{{asset('plugins/select2/css/select2.min.css')}}" rel="stylesheet" />
+  <link href="{{asset('plugins/daterangepicker/daterangepicker.css')}}" rel="stylesheet" />
+
+  <!-- SLEEK CSS -->
+  <link id="sleek-css" rel="stylesheet" href="{{asset('css/sleek.css')}}" />
+
+  
+
+  <!-- FAVICON -->
+  <link href="assets/img/favicon.png" rel="shortcut icon" />
+
   
   
 
@@ -175,6 +191,12 @@ header{
     cursor: pointer;
     transition: .3s;
     z-index: -1;
+}
+
+label{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:blue;
+  font-weight:bold;
 }
 
 .dropdown-link:first-child:hover ~ .arrow{
@@ -429,11 +451,12 @@ header{
         opacity: 0;
         transform: translateY(15px);
     }
+
    
 }
 </style>
-<body>
-
+<body class=" header-fixed" id="">
+  
   <!-- Navigation -->
     
     <header >
@@ -444,16 +467,7 @@ header{
                 </h3>
               </span>  
             </div>
-            <div class="d-flex  justify-content-center pt-4">
-              <div class="search-form d-none d-lg-inline-block" style="">
-                <div class="input-group">                              
-                  <input type="text" name="query" style="width:400px;height:35px;" id="search-input" class="form-control" placeholder="recherche produits" autofocus autocomplete="off" />
-                </div>
-                <div id="search-results-container">
-                  <ul id="search-results"></ul>
-                </div>
-              </div>
-            </div>  
+             
           <!--    ----->
         <div class="d-flex  justify-content-between w-100 p-10" style="padding:10px;">
           <div id="mylogo">
@@ -464,13 +478,6 @@ header{
                 <div class="nav-links" style=" " >
                     <ul style="" class="d-flex  justify-content-between w-100"> 
                       <div class="topbar-divider d-none d-sm-block"></div>   
-                        <li class="nav-link" style="">
-                            <a href="/home" class="menu">
-                            <i class="fas fa-home fa-lg fa-fw mr-2 text-gray-400" aria-hidden="true"></i>
-                              Accueil
-                            </a>
-                        </li>
-                        
                           <li class="nav-link" style="">
                             <a href="#" class="menu">
                               <i class="fas fa-medkit fa-lg fa-fw mr-2 text-gray-400" aria-hidden="true"></i>
@@ -482,7 +489,7 @@ header{
                                         <a href="#">Mention légale</a>
                                     </li>
                                     <li class="dropdown-link">
-                                        <a href="#">Conditions générales de vente</a>
+                                        <a href="#">Conditions générales</a>
                                     </li>
                                     <li class="dropdown-link">
                                         <a href="#">Contact<i class="fas fa-caret-down"></i></a>
@@ -491,75 +498,17 @@ header{
                                 </ul>
                             </div>
                           </li>
-                          <div class="topbar-divider d-none d-sm-block"></div>
-                          <li class="nav-link" style="">
-                            <a href="#" class="menu">
-                              <i class="fas fa-wrench fa-lg fa-fw mr-2 text-gray-400" aria-hidden="true"></i>
-                              Categories<i class="fas fa-caret-down"></i>
-                            </a>
-                            <div class="dropdown" style="width:300px;">
-                                <ul style="width:100%;">
-                                    <li class="dropdown-link">
-                                        <a href="">Electricité<i class="fas fa-caret-down"></i></a>
-                                        <div class="dropdown second">
-                                            <ul>
-                                                <li class="dropdown-link">
-                                                    <a href="#">Eclairage</a>
-                                                </li>
-                                                <li class="dropdown-link">
-                                                    <a href="#">Cablage</a>
-                                                </li>
-                                                <li class="dropdown-link">
-                                                    <a href="#">Appareillage</a>
-                                                </li>
-                                                <li class="dropdown-link">
-                                                    <a href="#">Protection</a>
-                                                </li>
-                                                <div class="arrow"></div>
-                                            </ul>
-                                        </div>
-                                    </li> 
-                                    <li class="dropdown-link">
-                                        <a href="#">Sanitaire et Plomberie<i class="fas fa-caret-down"></i></a>
-                                        <div class="dropdown second">
-                                            <ul>
-                                                <li class="dropdown-link">
-                                                    <a href="#">Salle de bain</a>
-                                                </li>
-                                                <li class="dropdown-link">
-                                                    <a href="#">Robineterie</a>
-                                                </li> 
-                                                <div class="arrow"></div>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li class="dropdown-link">
-                                        <a href="#">Peinture</a>
-                                    </li>
-                                    <div class="arrow"></div>
-                                    <li class="dropdown-link">
-                                        <a href="#">Maçonnerie<i class="fas fa-caret-down"></i></a>
-                                        <div class="dropdown second">
-                                            <ul>
-                                                <li class="dropdown-link">
-                                                    <a href="#">Ciment</a>
-                                                </li>
-                                                <li class="dropdown-link">
-                                                    <a href="#">Fer</a>
-                                                </li> 
-                                                <li class="dropdown-link">
-                                                    <a href="#">Graviers</a>
-                                                </li> 
-                                                <div class="arrow"></div>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <div class="arrow"></div>
-                                </ul>
+                          <div class="d-flex  justify-content-center pt-4">
+                            <div class="search-form d-none d-lg-inline-block" style="">
+                              <div class="input-group">                              
+                                <input type="text" name="query" style="width:400px;height:35px;" id="search-input" class="form-control" placeholder="recherche produits" autofocus autocomplete="off" />
+                              </div>
+                              <div id="search-results-container">
+                                <ul id="search-results"></ul>
+                              </div>
                             </div>
-                          </li>
+                          </div> 
                           <div class="topbar-divider d-none d-sm-block"></div>
-                         
                           <li class="nav-link" style="">
                             <a href="#" class="menu">
                             <sup style="color:red;">{{Cart::count()}}</sup><i class="fas fa-shopping-cart fa-lg fa-fw mr-2 text-gray-400" aria-hidden="true"></i>
@@ -599,7 +548,126 @@ header{
     </header>
   <!-- Page Content -->
     <main>
-          <div class="w-auto">
+        <div class="wrapper" style="margin-let:20px;margin-right:20px;">
+              <!----- Sidebarr leftt---->
+            <aside class="left-sidebar bg-sidebar">
+              <div id="sidebar" class="sidebar sidebar-with-footer">
+                <!-- Aplication Brand -->
+                
+                <!-- begin sidebar scrollbar -->
+                <div class="sidebar-scrollbar">
+
+                  <!-- sidebar menu -->
+            
+                  <ul class="nav sidebar-inner" id="sidebar-menu"> 
+                      <li  class="has-sub  expand" >
+                        <a class="sidenav-item-link" href="javascript:void(0)" data-toggle="collapse" data-target="#dashboard"
+                          aria-expanded="false" aria-controls="dashboard">
+                          <i class="fas fa-home "></i>
+                          <span class="nav-text">Acceuil</span> <b class="caret"></b>
+                        </a>  
+                      </li>
+                      <hr class="separator" />
+                      <label for="" >Categories de produits</label>
+                      <li  class="has-sub" >
+                        <a class="sidenav-item-link" href="javascript:void(0)" data-toggle="collapse" data-target="#ui-elements"
+                          aria-expanded="false" aria-controls="ui-elements">
+                          <i class="fab fa-product-hunt"></i>
+                          <span class="nav-text">Electricité</span> <b class="caret"></b>
+                        </a>
+                        <ul  class="collapse"  id="ui-elements"
+                          data-parent="#sidebar-menu">
+                          <div class="sub-menu"> 
+                            <li  class="has-sub" >
+                              <a class="sidenav-item-link" href="javascript:void(0)" data-toggle="collapse" data-target="#components"
+                                aria-expanded="false" aria-controls="components">
+                                <span class="nav-text">Eclairage</span> <b class="caret"></b>
+                              </a>   
+                            </li>
+                              
+                            <li  class="has-sub" >
+                              <a class="sidenav-item-link" href="javascript:void(0)" data-toggle="collapse" data-target="#icons"
+                                aria-expanded="false" aria-controls="icons">
+                                <span class="nav-text">Cablage</span> <b class="caret"></b>
+                              </a> 
+                            </li>
+                            <li  class="has-sub" >
+                              <a class="sidenav-item-link" href="javascript:void(0)" data-toggle="collapse" data-target="#forms"
+                                aria-expanded="false" aria-controls="forms">
+                                <span class="nav-text">Appareillage</span> <b class="caret"></b>
+                              </a> 
+                            </li>
+                            <li  class="has-sub" >
+                              <a class="sidenav-item-link" href="javascript:void(0)" data-toggle="collapse" data-target="#forms"
+                                aria-expanded="false" aria-controls="forms">
+                                <span class="nav-text">Protection</span> <b class="caret"></b>
+                              </a> 
+                            </li>
+                          </div>
+                        </ul>
+                      </li>
+                      <li  class="has-sub" >
+                        <a class="sidenav-item-link" href="javascript:void(0)" data-toggle="collapse" data-target="#charts"
+                          aria-expanded="false" aria-controls="charts">
+                          <i class="fas fa-shopping-cart"></i>
+                          <span class="nav-text">Sanitaire et Plomberie</span> <b class="caret"></b>
+                        </a>
+                        <ul  class="collapse"  id="charts"
+                          data-parent="#sidebar-menu">
+                          <div class="sub-menu">
+                                <li >
+                                  <a class="sidenav-item-link" href="chartjs.html">
+                                    <span class="nav-text">Salle de bain</span>                            
+                                  </a>
+                                </li>
+                                <li >
+                                  <a class="sidenav-item-link" href="chartjs.html">
+                                    <span class="nav-text">Robineterie</span>  
+                                  </a>
+                                </li> 
+                          </div>
+                        </ul>
+                      </li>
+                      <li  class="has-sub" >
+                        <a class="sidenav-item-link" href="javascript:void(0)" data-toggle="collapse" data-target="#charts"
+                          aria-expanded="false" aria-controls="charts">
+                          <i class="fas fa-shopping-cart"></i>
+                          <span class="nav-text">Maçonnerie</span> <b class="caret"></b>
+                        </a>
+                        <ul  class="collapse"  id="charts"
+                          data-parent="#sidebar-menu">
+                          <div class="sub-menu">
+                                <li >
+                                  <a class="sidenav-item-link" href="chartjs.html">
+                                    <span class="nav-text">Ciment</span>                            
+                                  </a>
+                                </li>
+                                <li >
+                                  <a class="sidenav-item-link" href="chartjs.html">
+                                    <span class="nav-text">Fer</span>  
+                                  </a>
+                                </li> 
+                                <li >
+                                  <a class="sidenav-item-link" href="chartjs.html">
+                                    <span class="nav-text">Graviers</span>  
+                                  </a>
+                                </li> 
+                          </div>
+                        </ul>
+                      </li>
+                      <li  class="has-sub" >
+                        <a class="sidenav-item-link" href="javascript:void(0)" data-toggle="collapse" data-target="#charts"
+                          aria-expanded="false" aria-controls="charts">
+                          <i class="fas fa-shopping-cart"></i>
+                          <span class="nav-text">Peinture</span> <b class="caret"></b>
+                        </a> 
+                      </li>
+                      <hr class="separator" />  
+                  </ul>
+                </div>   
+              </div>
+            </aside>
+          <div class=" page-wrapper" style="width:100%;padding-top:0px;margin-top:1px;">
             <div class="" style="width:100%;height:65vh;">
               <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
@@ -672,123 +740,147 @@ header{
               </div>
             </div>
           </div>
-          <div class="pt-5">
+        </div>
+        <div class="pt-2">
+            <aside style="">
+                <p style="border-bottom: 2px solid #60b4df ;font-size: 20px;color: black;"><em> Nos Cathegories.</em></p>
+                  <div class="container d-flex justify-content-between">
+                  <li><a style="border-bottom: 2px solid #60b4df;color: black;font-weight:bold; ">Maconnerie  <span style="background-color:#60b4df;font-size: 23px; ">45</span><a></li>
+                  <li><a style="border-bottom: 2px solid #60b4df;color: black;font-weight:bold; ">Sanitaire et Plomberie  <span style="background-color:#60b4df;font-size: 23px; ">67</span></a></li>
+                  <li><a style="border-bottom: 2px solid #60b4df;color: black;font-weight:bold; ">Peinture <span style="background-color:#60b4df;font-size: 23px; ">34</span></a></li>
+                  <li><a style="border-bottom: 2px solid #60b4df;color: black;font-weight:bold; ">Electricite <span style="background-color:#60b4df;font-size: 23px; ">30</span></a></li>
+                  </div>
+              </aside>
               @yield('content')
           </div>
-  
-    <div class="">
-      <h2 style="text-align:center;padding: 20px;">   Les grandes Marques vous attendent . </h2>
-          <!-- Footer -->
-      <section class="page-footer font-small mdb-color lighten-3 pt-4">
-
-       
-        <div class="container">
-
-          <!--Grid row-->
-          <div class="row">
-
-            <!--Grid column-->
-            <div class="col-lg-2 col-md-12 mb-4">
-
-              <!--Image-->
-              <div class="view overlay z-depth-1-half">
-                <img src="{{asset('images/marque7.png')}}" class="img-fluid"
-                  alt="" >
-                <a href="">
-                  <div class="mask rgba-white-light"></div>
-                </a>
-              </div>
-
+          <div class="container">
+            <h2 style="text-align:center;padding: 20px;" class="">   Les grandes Marques vous attendent </h2>
+            <div style="background-image: url({{asset('images/salle-bain.jpg')}}); height: 420px;">
+                <i></i><span style="font-size: 30px; ">300<br>
+                <em style="font-size: 30px;">Produits disponibles<br>
+                Une large gamme de produits<br>
+                disponible au meilleur prix.<em></span>
+                <i></i><span style="">24h/24<br>
+                Produits disponibles<br>
+                Une large gamme de produits<br>
+                disponible au meilleur prix.</span>
+                <i></i><span style=" ">100%<br>
+                <em style="font-size: 30px;">Produits disponibles<br>
+                Une large gamme de produits
+                disponible au meilleur prix.<em></span>
+            </div>  
+            <div class="container" style="top: 40px;">
+              <h2 style="text-align:center;padding: 20px;">   Les grandes Marques vous attendent </h2>
             </div>
-            <!--Grid column-->
+                                <!-- Footer -->
+              <marquee style="background:url({{asset('images/construction.jpg')}});"> <section class="page-footer font-small mdb-color lighten-3 pt-4">
+                <!-- Footer Elements -->
+                <div class="container">
 
-            <!--Grid column-->
-            <div class="col-lg-2 col-md-6 mb-4">
+                  <!--Grid row-->
+                  <div class="row">
 
-              <!--Image-->
-              <div class="view overlay z-depth-1-half">
-                <img src="{{asset('images/marque6.jpg')}}" class="img-fluid"
-                  alt="">
-                <a href="">
-                  <div class="mask rgba-white-light"></div>
-                </a>
-              </div>
+                    <!--Grid column-->
+                    <div class="col-lg-2 col-md-12 mb-4">
 
-            </div>
-            <!--Grid column-->
+                      <!--Image-->
+                      <div class="view overlay z-depth-1-half">
+                        <img src="{{asset('images/marque7.png')}}" class="img-fluid"
+                          alt="" >
+                        <a href="">
+                          <div class="mask rgba-white-light"></div>
+                        </a>
+                      </div>
 
-            <!--Grid column-->
-            <div class="col-lg-2 col-md-6 mb-4">
+                    </div>
+                    <!--Grid column-->
 
-              <!--Image-->
-              <div class="view overlay z-depth-1-half">
-                <img src="{{asset('images/marque4.png')}}" class="img-fluid"
-                  alt="">
-                <a href="">
-                  <div class="mask rgba-white-light"></div>
-                </a>
-              </div>
+                    <!--Grid column-->
+                    <div class="col-lg-2 col-md-6 mb-4">
 
-            </div>
-            <!--Grid column-->
+                      <!--Image-->
+                      <div class="view overlay z-depth-1-half">
+                        <img src="{{asset('images/marque6.jpg')}}" class="img-fluid"
+                          alt="">
+                        <a href="">
+                          <div class="mask rgba-white-light"></div>
+                        </a>
+                      </div>
 
-            <!--Grid column-->
-            <div class="col-lg-2 col-md-12 mb-4">
+                    </div>
+                    <!--Grid column-->
 
-              <!--Image-->
-              <div class="view overlay z-depth-1-half">
-                <img src="{{asset('images/marque3.jpg')}}" class="img-fluid"
-                  alt="">
-                <a href="">
-                  <div class="mask rgba-white-light"></div>
-                </a>
-              </div>
+                    <!--Grid column-->
+                    <div class="col-lg-2 col-md-6 mb-4">
 
-            </div>
-            <!--Grid column-->
+                      <!--Image-->
+                      <div class="view overlay z-depth-1-half">
+                        <img src="{{asset('images/marque4.png')}}" class="img-fluid"
+                          alt="">
+                        <a href="">
+                          <div class="mask rgba-white-light"></div>
+                        </a>
+                      </div>
 
-            <!--Grid column-->
-            <div class="col-lg-2 col-md-6 mb-4">
+                    </div>
+                    <!--Grid column-->
 
-              <!--Image-->
-              <div class="view overlay z-depth-1-half">
-                <img src="{{asset('images/marque2.png')}}" class="img-fluid"
-                  alt="">
-                <a href="">
-                  <div class="mask rgba-white-light"></div>
-                </a>
-              </div>
+                    <!--Grid column-->
+                    <div class="col-lg-2 col-md-12 mb-4">
 
-            </div>
-            <!--Grid column-->
+                      <!--Image-->
+                      <div class="view overlay z-depth-1-half">
+                        <img src="{{asset('images/marque3.jpg')}}" class="img-fluid"
+                          alt="">
+                        <a href="">
+                          <div class="mask rgba-white-light"></div>
+                        </a>
+                      </div>
 
-            <!--Grid column-->
-            <div class="col-lg-2 col-md-6 mb-4">
+                    </div>
+                    <!--Grid column-->
 
-              <!--Image-->
-              <div class="view overlay z-depth-1-half">
-                <img src="{{asset('images/marque1.jpg')}}" class="img-fluid"
-                  alt="">
-                <a href="">
-                  <div class="mask rgba-white-light"></div>
-                </a>
-              </div>
+                    <!--Grid column-->
+                    <div class="col-lg-2 col-md-6 mb-4">
 
-            </div>
-            <!--Grid column-->
+                      <!--Image-->
+                      <div class="view overlay z-depth-1-half">
+                        <img src="{{asset('images/marque2.png')}}" class="img-fluid"
+                          alt="">
+                        <a href="">
+                          <div class="mask rgba-white-light"></div>
+                        </a>
+                      </div>
 
-          </div>
-          <!--Grid row-->
+                    </div>
+                    <!--Grid column-->
 
-        </div>
-      </section>
-    </div>
+                    <!--Grid column-->
+                    <div class="col-lg-2 col-md-6 mb-4">
+
+                      <!--Image-->
+                      <div class="view overlay z-depth-1-half">
+                        <img src="{{asset('images/marque1.jpg')}}" class="img-fluid"
+                          alt="">
+                        <a href="">
+                          <div class="mask rgba-white-light"></div>
+                        </a>
+                      </div>
+
+                    </div>
+                    <!--Grid column-->
+
+                  </div>
+                  <!--Grid row-->
+
+                </div>
+                </marquee>
   </main>
 <!-- Footer -->
   <hr style="height:3px;border-width:0;color:gray;background-color:#60b4df">
 
-  <div class="container-fluid"> 
-    <output class="bg-white shadow-sm">
+  <div class="container-fluid" style="padding-left:0px;padding-right:0px;"> 
+    <output class="bg-white shadow-sm" style="width:100%;">
    
         <footer class="section-footer border-top" style="">
             <div class="container-fluid">
@@ -796,26 +888,28 @@ header{
                     <div class="row">
                         <aside class="col-md-4">
                             <article class="mr-3"> <img style="" src="{{asset('images/logo.png')}}" width="150px" height="70px" class="logo-footer">
-                                <p class="mt-3 description">Some short text about company like You might remember the Dell computer commercials in which a youth reports this exciting news to his friends.</p>
+                              <h5 class="font-weight-bold text-uppercase mb-4" style="font-size: 35px;color: white;">E-Quinc</h5>
+                                <p class="mt-3 description">Bienvenue a votre quincailerie digitale de reference .</p>
                                 <div> <a class="btn btn-icon btn-light" title="Facebook" target="_blank" href="#" data-abc="true"><i class="fab fa-facebook-f"></i></a> <a class="btn btn-icon btn-light" title="Instagram" target="_blank" href="#" data-abc="true"><i class="fab fa-instagram"></i></a> <a class="btn btn-icon btn-light" title="Youtube" target="_blank" href="#" data-abc="true"><i class="fab fa-youtube"></i></a> <a class="btn btn-icon btn-light" title="Twitter" target="_blank" href="#" data-abc="true"><i class="fab fa-twitter"></i></a> </div>
                             </article>
                         </aside>
                         <aside class="col-sm-3 col-md-2">
                             <h6 class="title">About</h6>
                             <ul class="list-unstyled">
-                                <li> <a href="#" data-abc="true">About us</a></li>
-                                <li> <a href="#" data-abc="true">Services</a></li>
-                                <li> <a href="#" data-abc="true">Terms & Condition</a></li>
-                                <li> <a href="#" data-abc="true">Our Blogs</a></li>
+                                <li> <a href="#" data-abc="true">A Propos</a></li>
+                                <li> <a href="#" data-abc="true">Acceuil</a></li>
+                                <li> <a href="#" data-abc="true">Nos  Cathegories</a></li>
+                                <li> <a href="#" data-abc="true">Nos Produits</a></li>
+                                <li> <a href="#" data-abc="true">Contacts</a></li>
                             </ul>
                         </aside>
                         <aside class="col-sm-3 col-md-2">
-                            <h6 class="title">Services</h6>
+                            <h6 class="title">Address</h6>
                             <ul class="list-unstyled">
-                                <li> <a href="#" data-abc="true">Help center</a></li>
-                                <li> <a href="#" data-abc="true">Money refund</a></li>
-                                <li> <a href="#" data-abc="true">Terms and Policy</a></li>
-                                <li> <a href="#" data-abc="true">Open dispute</a></li>
+                                <li> <a href="#" data-abc="true">DAKAR,SENEGAL</a></li>
+                                <li> <a href="#" data-abc="true">equinc.sn</a></li>
+                                <li> <a href="#" data-abc="true">+221 33 850 23 25</a></li>
+                                <li> <a href="#" data-abc="true">equinc@gmail.com</a></li>
                             </ul>
                         </aside>
                         <aside class="col-sm-3 col-md-2">
@@ -832,8 +926,8 @@ header{
                         </aside>
                     </div>
                 </section>
-                <section class="footer-copyright border-top" style="background-color: rgb(194, 58, 54);">
-                    <p class="float-left text-muted"> © 2019 Talkdesk All rights resetved </p>
+                <section class="footer-copyright border-top " style="background-color: rgb(194, 58, 54);">
+                    <p class="float-left text-muted"> © 2020 Equinc All rights reserved </p>
                     <p target="_blank" class="float-right text-muted"> <a href="#" data-abc="true">Privacy &amp; Cookies</a> &nbsp; &nbsp; <a href="#" data-abc="true">Accessibility</a> </p>
                 </section>
             </div>

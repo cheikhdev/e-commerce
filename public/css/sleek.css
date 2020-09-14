@@ -8152,7 +8152,7 @@ code {
   align-items: stretch;
   flex: 1 1 auto;
   width: 100%;
-  min-height: 100vh; }
+  min-height: 66vh; }
 
 /* Page Wrapper */
 .page-wrapper {
