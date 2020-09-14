@@ -57,7 +57,7 @@ a{
 header{
     position: sticky;
     top: 0px;
-    background-color: #60b4df;
+    background-color: rgb(1, 20, 82);
     width: 100%;
     z-index: 1000;
 }
@@ -548,7 +548,7 @@ label{
     </header>
   <!-- Page Content -->
     <main>
-        <div class="wrapper" style="margin-let:20px;margin-right:20px;">
+        <div class="wrapper" style="padding-let:0px;padding-right:0px;">
               <!----- Sidebarr leftt---->
             <aside class="left-sidebar bg-sidebar">
               <div id="sidebar" class="sidebar sidebar-with-footer">
@@ -882,7 +882,7 @@ label{
   <div class="container-fluid" style="padding-left:0px;padding-right:0px;"> 
     <output class="bg-white shadow-sm" style="width:100%;">
    
-        <footer class="section-footer border-top" style="">
+        <footer class="section-footer border-top" style="background-color:rgb(1, 20, 82)">
             <div class="container-fluid">
                 <section class="footer-top padding-y">
                     <div class="row">
@@ -896,29 +896,29 @@ label{
                         <aside class="col-sm-3 col-md-2">
                             <h6 class="title">About</h6>
                             <ul class="list-unstyled">
-                                <li> <a href="#" data-abc="true">A Propos</a></li>
-                                <li> <a href="#" data-abc="true">Acceuil</a></li>
-                                <li> <a href="#" data-abc="true">Nos  Cathegories</a></li>
-                                <li> <a href="#" data-abc="true">Nos Produits</a></li>
-                                <li> <a href="#" data-abc="true">Contacts</a></li>
+                                <li> <a href="#" data-abc="true" style="color:white;">A Propos</a></li>
+                                <li> <a href="#" data-abc="true" style="color:white;">Acceuil</a></li>
+                                <li> <a href="#" data-abc="true" style="color:white;">Nos  Cathegories</a></li>
+                                <li> <a href="#" data-abc="true" style="color:white;">Nos Produits</a></li>
+                                <li> <a href="#" data-abc="true" style="color:white;">Contacts</a></li>
                             </ul>
                         </aside>
                         <aside class="col-sm-3 col-md-2">
                             <h6 class="title">Address</h6>
                             <ul class="list-unstyled">
-                                <li> <a href="#" data-abc="true">DAKAR,SENEGAL</a></li>
-                                <li> <a href="#" data-abc="true">equinc.sn</a></li>
-                                <li> <a href="#" data-abc="true">+221 33 850 23 25</a></li>
-                                <li> <a href="#" data-abc="true">equinc@gmail.com</a></li>
+                                <li> <a href="#" data-abc="true" style="color:white;">DAKAR,SENEGAL</a></li>
+                                <li> <a href="#" data-abc="true" style="color:white;">equinc.sn</a></li>
+                                <li> <a href="#" data-abc="true" style="color:white;">+221 33 850 23 25</a></li>
+                                <li> <a href="#" data-abc="true" style="color:white;">equinc@gmail.com</a></li>
                             </ul>
                         </aside>
                         <aside class="col-sm-3 col-md-2">
                             <h6 class="title">For users</h6>
                             <ul class="list-unstyled">
-                                <li> <a href="#" data-abc="true"> User Login </a></li>
-                                <li> <a href="#" data-abc="true"> User register </a></li>
-                                <li> <a href="#" data-abc="true"> Account Setting </a></li>
-                                <li> <a href="#" data-abc="true"> My Orders </a></li>
+                                <li> <a href="#" data-abc="true" style="color:white;"> User Login </a></li>
+                                <li> <a href="#" data-abc="true" style="color:white;"> User register </a></li>
+                                <li> <a href="#" data-abc="true" style="color:white;"> Account Setting </a></li>
+                                <li> <a href="#" data-abc="true" style="color:white;"> My Orders </a></li>
                             </ul>
                         </aside>
                         <aside class="col-sm-2 col-md-2">

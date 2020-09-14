@@ -544,7 +544,7 @@ header{
   @endif
   <!-- Page Content -->
   <main>
-        <div class="wrapper" style="margin-left:20px;margin-right:20px;">
+        <div class="" style="margin-left:0px;margin-right:0px;">
               <!----- Sidebarr leftt---->
             <aside class="left-sidebar bg-sidebar">
               <div id="sidebar" class="sidebar sidebar-with-footer">
