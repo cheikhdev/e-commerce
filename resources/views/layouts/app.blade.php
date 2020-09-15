@@ -54,13 +54,14 @@ a{
 
 }
 
-header{
+  header{
     position: sticky;
     top: 0px;
-    background-color: #60b4df;
+    background-color: rgb(1, 20, 82);
     width: 100%;
     z-index: 1000;
 }
+
 
 
 
@@ -448,6 +449,10 @@ header{
   color:white;
   
 }
+span{
+  color:black;
+
+}
 </style>
 <body>
 
@@ -456,8 +461,8 @@ header{
     <header >
         <div class="alternate d-flex  justify-content-center align-content-center  p-2" >
               <span >
-                <h3 style="font-weight:bold;">
-                  Besoin d'aide pour commander ? Appeler au <span style="background:black;border-radius:60px;padding-left:5px;padding-right:5px;"><i class="fas fa-phone-square-alt" style="margin:3px;"></i>33 850 23 25</span>
+                <h3 style="font-weight:bold;color:white;">
+                  Besoin d'aide pour commander ? Appeler au <span style="color:white;background:black;border-radius:60px;padding-left:5px;padding-right:5px;"><i class="fas fa-phone-square-alt" style="margin:3px;"></i>33 850 23 25</span>
                 </h3>
               </span>  
         </div>
@@ -544,19 +549,19 @@ header{
   @endif
   <!-- Page Content -->
   <main>
-        <div class="" style="margin-left:0px;margin-right:0px;">
+        <div class="wrapper container" style="margin-top:30px;">
               <!----- Sidebarr leftt---->
-            <aside class="left-sidebar bg-sidebar">
+            <aside class="left-sidebar bg-sidebar w-auto" style="height:80vh;background-color:white;margin-right:30px;">
               <div id="sidebar" class="sidebar sidebar-with-footer">
                 <!-- Aplication Brand -->
                 
                 <!-- begin sidebar scrollbar -->
-                <div class="sidebar-scrollbar">
+                <div class="sidebar-scrollbar" >
 
                   <!-- sidebar menu -->
-            
+                  <div class="d-flex justify-content-center" style="background-color:rgb(1, 20, 82);padding:10px;"><h3 style="color:white;">E-QUINC</h3></div>
                   <ul class="nav sidebar-inner" id="sidebar-menu"> 
-                      <li  class="has-sub  expand" >
+                      <li  class="has-sub active expand" >
                         <a class="sidenav-item-link" href="javascript:void(0)" data-toggle="collapse" data-target="#dashboard"
                           aria-expanded="false" aria-controls="dashboard">
                           <i class="fas fa-home "></i>
@@ -1049,60 +1054,60 @@ header{
 <hr style="height:3px;border-width:0;color:gray;background-color:#60b4df">
 
 <div class="container-fluid" style="padding-left:0px;padding-right:0px;"> 
-  <output class="bg-white shadow-sm" style="width:100%;">
- 
-      <footer class="section-footer border-top" style="">
-          <div class="container-fluid">
-              <section class="footer-top padding-y">
-                  <div class="row">
-                      <aside class="col-md-4">
-                          <article class="mr-3"> <img style="" src="{{asset('images/logo.png')}}" width="150px" height="70px" class="logo-footer">
-                            <h5 class="font-weight-bold text-uppercase mb-4" style="font-size: 35px;color: white;">E-Quinc</h5>
-                              <p class="mt-3 description">Bienvenue a votre quincailerie digitale de reference .</p>
-                              <div> <a class="btn btn-icon btn-light" title="Facebook" target="_blank" href="#" data-abc="true"><i class="fab fa-facebook-f"></i></a> <a class="btn btn-icon btn-light" title="Instagram" target="_blank" href="#" data-abc="true"><i class="fab fa-instagram"></i></a> <a class="btn btn-icon btn-light" title="Youtube" target="_blank" href="#" data-abc="true"><i class="fab fa-youtube"></i></a> <a class="btn btn-icon btn-light" title="Twitter" target="_blank" href="#" data-abc="true"><i class="fab fa-twitter"></i></a> </div>
-                          </article>
-                      </aside>
-                      <aside class="col-sm-3 col-md-2">
-                          <h6 class="title">About</h6>
-                          <ul class="list-unstyled">
-                              <li> <a href="#" data-abc="true">A Propos</a></li>
-                              <li> <a href="#" data-abc="true">Acceuil</a></li>
-                              <li> <a href="#" data-abc="true">Nos  Cathegories</a></li>
-                              <li> <a href="#" data-abc="true">Nos Produits</a></li>
-                              <li> <a href="#" data-abc="true">Contacts</a></li>
-                          </ul>
-                      </aside>
-                      <aside class="col-sm-3 col-md-2">
-                          <h6 class="title">Address</h6>
-                          <ul class="list-unstyled">
-                              <li> <a href="#" data-abc="true">DAKAR,SENEGAL</a></li>
-                              <li> <a href="#" data-abc="true">equinc.sn</a></li>
-                              <li> <a href="#" data-abc="true">+221 33 850 23 25</a></li>
-                              <li> <a href="#" data-abc="true">equinc@gmail.com</a></li>
-                          </ul>
-                      </aside>
-                      <aside class="col-sm-3 col-md-2">
-                          <h6 class="title">For users</h6>
-                          <ul class="list-unstyled">
-                              <li> <a href="#" data-abc="true"> User Login </a></li>
-                              <li> <a href="#" data-abc="true"> User register </a></li>
-                              <li> <a href="#" data-abc="true"> Account Setting </a></li>
-                              <li> <a href="#" data-abc="true"> My Orders </a></li>
-                          </ul>
-                      </aside>
-                      <aside class="col-sm-2 col-md-2">
-                          <h6 class="title">Our app</h6> <a href="#" class="d-block mb-2" data-abc="true"><img class="img-responsive" src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1574317087/AAA/appstore.png" height="40"></a> <a href="#" class="d-block mb-2" data-abc="true"><img class="img-responsive" src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1574317110/AAA/playmarket.png" height="40"></a>
-                      </aside>
-                  </div>
-              </section>
-              <section class="footer-copyright border-top " style="background-color: rgb(194, 58, 54);">
-                  <p class="float-left text-muted"> © 2020 Equinc All rights reserved </p>
-                  <p target="_blank" class="float-right text-muted"> <a href="#" data-abc="true">Privacy &amp; Cookies</a> &nbsp; &nbsp; <a href="#" data-abc="true">Accessibility</a> </p>
-              </section>
-          </div>
-      </footer>
-  </output> 
-</div>
+    <output class="bg-white shadow-sm" style="width:100%;">
+   
+        <footer class="section-footer border-top" style="background-color:rgb(1, 20, 82)">
+            <div class="container-fluid">
+                <section class="footer-top padding-y">
+                    <div class="row">
+                        <aside class="col-md-4">
+                            <article class="mr-3"> <img style="" src="{{asset('images/logo.png')}}" width="150px" height="70px" class="logo-footer">
+                              <h5 class="font-weight-bold text-uppercase mb-4" style="font-size: 35px;color: white;">E-Quinc</h5>
+                                <p class="mt-3 description">Bienvenue a votre quincailerie digitale de reference .</p>
+                                <div> <a class="btn btn-icon btn-light" title="Facebook" target="_blank" href="#" data-abc="true"><i class="fab fa-facebook-f"></i></a> <a class="btn btn-icon btn-light" title="Instagram" target="_blank" href="#" data-abc="true"><i class="fab fa-instagram"></i></a> <a class="btn btn-icon btn-light" title="Youtube" target="_blank" href="#" data-abc="true"><i class="fab fa-youtube"></i></a> <a class="btn btn-icon btn-light" title="Twitter" target="_blank" href="#" data-abc="true"><i class="fab fa-twitter"></i></a> </div>
+                            </article>
+                        </aside>
+                        <aside class="col-sm-3 col-md-2">
+                            <h6 class="title">About</h6>
+                            <ul class="list-unstyled">
+                                <li> <a href="#" data-abc="true" style="color:white;">A Propos</a></li>
+                                <li> <a href="#" data-abc="true" style="color:white;">Acceuil</a></li>
+                                <li> <a href="#" data-abc="true" style="color:white;">Nos  Cathegories</a></li>
+                                <li> <a href="#" data-abc="true" style="color:white;">Nos Produits</a></li>
+                                <li> <a href="#" data-abc="true" style="color:white;">Contacts</a></li>
+                            </ul>
+                        </aside>
+                        <aside class="col-sm-3 col-md-2">
+                            <h6 class="title">Address</h6>
+                            <ul class="list-unstyled">
+                                <li> <a href="#" data-abc="true" style="color:white;">DAKAR,SENEGAL</a></li>
+                                <li> <a href="#" data-abc="true" style="color:white;">equinc.sn</a></li>
+                                <li> <a href="#" data-abc="true" style="color:white;">+221 33 850 23 25</a></li>
+                                <li> <a href="#" data-abc="true" style="color:white;">equinc@gmail.com</a></li>
+                            </ul>
+                        </aside>
+                        <aside class="col-sm-3 col-md-2">
+                            <h6 class="title">For users</h6>
+                            <ul class="list-unstyled">
+                                <li> <a href="#" data-abc="true" style="color:white;"> User Login </a></li>
+                                <li> <a href="#" data-abc="true" style="color:white;"> User register </a></li>
+                                <li> <a href="#" data-abc="true" style="color:white;"> Account Setting </a></li>
+                                <li> <a href="#" data-abc="true" style="color:white;"> My Orders </a></li>
+                            </ul>
+                        </aside>
+                        <aside class="col-sm-2 col-md-2">
+                            <h6 class="title">Our app</h6> <a href="#" class="d-block mb-2" data-abc="true"><img class="img-responsive" src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1574317087/AAA/appstore.png" height="40"></a> <a href="#" class="d-block mb-2" data-abc="true"><img class="img-responsive" src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1574317110/AAA/playmarket.png" height="40"></a>
+                        </aside>
+                    </div>
+                </section>
+                <section class="footer-copyright border-top " style="background-color: rgb(194, 58, 54);">
+                    <p class="float-left text-muted"> © 2020 Equinc All rights reserved </p>
+                    <p target="_blank" class="float-right text-muted"> <a href="#" data-abc="true">Privacy &amp; Cookies</a> &nbsp; &nbsp; <a href="#" data-abc="true">Accessibility</a> </p>
+                </section>
+            </div>
+        </footer>
+    </output> 
+  </div>
 
 <!-- Footer -->
         

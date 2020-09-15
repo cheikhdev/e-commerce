@@ -12,6 +12,18 @@
   <!-- Bootstrap core CSS -->
   <link href="{{asset('css/app.css')}}" rel="stylesheet" />
   <link href="{{asset('css/all.css')}}" rel="stylesheet" />
+  <link href="{{asset('css/reset.css')}}" rel="stylesheet" />
+  <link href="{{asset('css/responsive.css')}}" rel="stylesheet" />
+  <link href="{{asset('css/styleshop.css')}}" rel="stylesheet" />
+  <link rel="stylesheet" href="{{asset('css/magnific-popup.min.css')}}">
+  <link rel="stylesheet" href="{{asset('css/slicknav.min.css')}}">
+  <link rel="stylesheet" href="{{asset('css/niceselect.css')}}">
+  <link rel="stylesheet" href="{{asset('css/bootstrap.css')}}">
+  <link rel="stylesheet" href="{{asset('css/font-awesome.css')}}">
+  <link rel="stylesheet" href="{{asset('css/animate.css')}}">
+  <link rel="stylesheet" href="{{asset('css/flex-slider.min.css')}}">
+  <link rel="stylesheet" href="{{asset('css/themify-icons.css')}}">
+  <link rel="stylesheet" href="{{asset('css/jquery.fancybox.min.css')}}">
   <link href="{{asset('plugins/toaster/toastr.min.css')}}" rel="stylesheet" />
   <link href="{{asset('plugins/nprogress/nprogress.css')}}" rel="stylesheet" />
   <link href="{{asset('plugins/flag-icons/css/flag-icon.min.css')}}" rel="stylesheet"/>
@@ -165,6 +177,10 @@ header{
     align-items: center;
     justify-content: space-between;
     transition: .3s;
+}
+span{
+  color:black;
+
 }
 
 .dropdown-link:hover > a{
@@ -462,8 +478,8 @@ label{
     <header >
             <div class="alternate d-flex  justify-content-center align-content-center  p-2" >
               <span >
-                <h3 style="font-weight:bold;">
-                  Besoin d'aide pour commander ? Appeler au <span style="background:black;border-radius:60px;padding-left:5px;padding-right:5px;"><i class="fas fa-phone-square-alt" style="margin:3px;"></i>33 850 23 25</span>
+                <h3 style="font-weight:bold;color:white;">
+                  Besoin d'aide pour commander ? Appeler au <span style="color:white;background:black;border-radius:60px;padding-left:5px;padding-right:5px;"><i class="fas fa-phone-square-alt" style="margin:3px;"></i>33 850 23 25</span>
                 </h3>
               </span>  
             </div>
@@ -548,9 +564,9 @@ label{
     </header>
   <!-- Page Content -->
     <main>
-        <div class="wrapper" style="padding-let:0px;padding-right:0px;">
+        <div class="wrapper container" style="margin-top:30px;">
               <!----- Sidebarr leftt---->
-            <aside class="left-sidebar bg-sidebar">
+            <aside class="left-sidebar bg-sidebar w-auto" style="height:80vh;background-color:white;margin-right:30px;">
               <div id="sidebar" class="sidebar sidebar-with-footer">
                 <!-- Aplication Brand -->
                 
@@ -558,9 +574,9 @@ label{
                 <div class="sidebar-scrollbar">
 
                   <!-- sidebar menu -->
-            
+                  <div class="d-flex justify-content-center" style="background-color:rgb(1, 20, 82);padding:10px;"><h3 style="color:white;">E-QUINC</h3></div>
                   <ul class="nav sidebar-inner" id="sidebar-menu"> 
-                      <li  class="has-sub  expand" >
+                      <li  class="has-sub  active expand" >
                         <a class="sidenav-item-link" href="javascript:void(0)" data-toggle="collapse" data-target="#dashboard"
                           aria-expanded="false" aria-controls="dashboard">
                           <i class="fas fa-home "></i>
@@ -607,12 +623,12 @@ label{
                         </ul>
                       </li>
                       <li  class="has-sub" >
-                        <a class="sidenav-item-link" href="javascript:void(0)" data-toggle="collapse" data-target="#charts"
-                          aria-expanded="false" aria-controls="charts">
+                        <a class="sidenav-item-link" href="javascript:void(0)" data-toggle="collapse" data-target="#sanplom"
+                          aria-expanded="false" aria-controls="sanplom">
                           <i class="fas fa-shopping-cart"></i>
                           <span class="nav-text">Sanitaire et Plomberie</span> <b class="caret"></b>
                         </a>
-                        <ul  class="collapse"  id="charts"
+                        <ul  class="collapse"  id="sanplom"
                           data-parent="#sidebar-menu">
                           <div class="sub-menu">
                                 <li >
@@ -656,8 +672,8 @@ label{
                         </ul>
                       </li>
                       <li  class="has-sub" >
-                        <a class="sidenav-item-link" href="javascript:void(0)" data-toggle="collapse" data-target="#charts"
-                          aria-expanded="false" aria-controls="charts">
+                        <a class="sidenav-item-link" href="javascript:void(0)" data-toggle="collapse" data-target=""
+                          aria-expanded="false" aria-controls="">
                           <i class="fas fa-shopping-cart"></i>
                           <span class="nav-text">Peinture</span> <b class="caret"></b>
                         </a> 
@@ -967,6 +983,19 @@ label{
     <script src="{{asset('js/datatables-demo.js')}}"></script>
     <script src="//cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
     <script src="{{ asset('node_modules/tinymce/tinymce.js') }}"></script>
+
+    <script src="{{asset('js/colors.js')}}"></script>
+    <script src="{{asset('js/slicknav.min.js')}}"></script>
+    <script src="{{asset('js/magnific-popup.js')}}"></script>
+    <script src="{{asset('js/magnific-popup.js')}}"></script>
+    <script src="{{asset('js/finalcountdown.min.js')}}"></script>
+
+    <script src="{{asset('js/nicesellect.js')}}"></script>
+    <script src="{{asset('js/flex-slider.js')}}"></script>
+    <script src="{{asset('js/scrollup.js')}}"></script>
+
+    <script src="{{asset('js/onepage-nav.min.js')}}"></script>
+    <script src="{{asset('js/easing.js')}}"></script>
 
 </body>
 
