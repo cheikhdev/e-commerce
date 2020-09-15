@@ -478,26 +478,73 @@ label{
     <header >
         <div class="alternate d-flex  justify-content-center align-content-center  p-2" >
               <span >
-                <h3 style="font-weight:bold;">
-                  Besoin d'aide pour commander ? Appeler au <span style="background:black;border-radius:60px;padding-left:5px;padding-right:5px;"><i class="fas fa-phone-square-alt" style="margin:3px;"></i>33 850 23 25</span><span class="mr-5" style="color: #00FF00;position: absolute;left: 82%;"><i class="fa fa-whatsapp " aria-hidden="true"></i>77 478 19 07</span>
+                <h3 style="font-weight:bold;color:white;">
+                  Besoin d'aide pour commander ? whatsapp <span style="background:white;color:green;border-radius:60px;padding-left:5px;padding-right:5px;"><i class="fa fa-whatsapp " aria-hidden="true"></i>77 478 19 07</span>
                 </h3>
               </span>  
-              <div style="position: absolute;left: 20%;top: 25px;">@include('partials.search')</div>
+              
         </div>
-        <div class="d-flex  justify-content-between w-100 p-10" style="padding:10px;">
-          <div id="mylogo">
-            <a href="/espace_client">
-              <img style="" src="{{asset('images/logo.png')}}" width="150px" height="70px">
-            </a> 
-          </div>
-          <div class="nav-btn container mr-1 mt-4" >
-                
+        <div class="">
+          
+          <div class="">
+            <div class="container d-flex justify-content-around">
+              <div >@include('partials.search')</div>
+              <div class="nav-btn container mr-1 mt-4" > 
+                <div class="nav-links" style=" " >
+                  <ul style="" class="d-flex  justify-content-between w-100"> 
+                    <li class="nav-link" style="">
+                      <a href="/panier" class="menu" style="font-size:14px;">
+                        <sup style="color:red;">{{Cart::count()}}</sup><i class="fas fa-shopping-cart fa-lg fa-fw mr-2 text-gray-400" aria-hidden="true"></i>
+                        Panier
+                      </a>
+                    </li>
+                    <li class="nav-link mt-1" >
+                      <a href="#" class="menu" style="font-size:14px;">       
+                        <i class="fas fa-user-circle fa-lg fa-fw mr-2 text-gray-400" aria-hidden="true"></i>
+                        Compte<i class="fas fa-caret-down"></i>
+                      </a>
+                      <div class="dropdown">
+                        <ul>
+                          <li class="dropdown-link">
+                            <a href="#">Profil</a>
+                          </li>
+                          <li class="dropdown-link">
+                            <a href="#">Parametre</a>
+                          </li>
+                          <li class="dropdown-link">
+                            @can('admin')
+                              <a  href="/dashbord">Tableau de bord</a>
+                            @endcan
+                          </li> 
+                          <li class="dropdown-link">
+                            <a href="{{route('deconnect')}}">Deconnexion</a>
+                          </li> 
+                          <div class="arrow"></div>
+                        </ul>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex justify-content-end">
+              <div id="mylogo">
+                <a href="/espace_client">
+                  <img style="" src="{{asset('images/logo.png')}}" width="150px" height="70px">
+                </a> 
+              </div>
+              <div class="nav-btn container mr-1 mt-4 col-12" > 
                 <div class="nav-links" style=" " >
                     <ul style="" class="d-flex  justify-content-between w-100"> 
-                      <div class="topbar-divider d-none d-sm-block"></div>   
-                          <li style="position: absolute; left: 20%;top: 100px;"><a href="{{url('/home')}}"><i class="fas fa-home fa-md fa-fw mr-2 " style="color: white;"></i><span class="" style="color: white;font-size: 20px;">Acceuil</span></i></a></li>
-                          <li class="nav-link mr-1" style="position: absolute; left: 28%;top: 80px;">
-                            <a href="#" class="menu">
+                      <div class="topbar-divider d-none d-sm-block"></div>
+                          <li class="nav-link " >
+                            <a href="#" class="menu" style="font-size:18px;">
+                              <i class="fas fa-medkit fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i>
+                              Accueil
+                            </a>
+                          </li>
+                          <li class="nav-link mr-1" >
+                            <a href="#" class="menu" style="font-size:18px;">
                               <i class="fas fa-medkit fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i>
                               A Propos<i class="fas fa-caret-down"></i>
                             </a>
@@ -511,60 +558,28 @@ label{
                                     </li>
                                     <li class="dropdown-link">
                                         <a href="#">Contact<i class="fas fa-caret-down"></i></a>
-                                    </li>
-                                    
-                                   
+                                    </li>   
                                 </ul>
                             </div>
                           </li>
-                          <li style="position: absolute; left: 43%;top: 100px;"><a href="{{url('/home')}}"><i class="far fa-address-book fa-md fa-fw mr-2 " style="color: white;"></i><span class="" style="color: white;font-size: 20px;">Nous Contacter</span></i></a></li>
-                                    <li style="position: absolute; left: 57%;top: 100px;"><a href="{{url('/home')}}" ><i class="fas fa-phone-volume fa-md fa-fw mr-2  " style="color: white;"></i><span class="" style="color: white;font-size: 20px;">Rappel Gratuit</span></i></a></li>
-                          <div class="topbar-divider d-none d-sm-block"></div>
-                          <div class="d-flex  justify-content-center pt-4">
-                            
-                          </div> 
-
-                          <div class="d-flex  justify-content-center pt-4">
-                            
-                          </div> 
-                          <div class="topbar-divider d-none d-sm-block"></div>
-                          <div class="d-flex mr-3 mt-1" style="position: absolute;top: 35px;left: 75%;">
-                          <li class="nav-link" style="">
-                            <a href="/panier" class="menu">
-                            <sup style="color:red;">{{Cart::count()}}</sup><i class="fas fa-shopping-cart fa-lg fa-fw mr-2 text-gray-400" aria-hidden="true"></i>
-                              Panier
+                          <li class="nav-link " >
+                            <a href="#" class="menu" style="font-size:18px;">
+                              <i class="far fa-address-book fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i>
+                              Nous contacter
                             </a>
                           </li>
-                          <li class="nav-link mt-1" style="position: absolute;top: -5px;left: 65%;">
-                            <a href="#" class="menu">
-                           
-                              <i class="fas fa-user-circle fa-lg fa-fw mr-2 text-gray-400" aria-hidden="true"></i>
-                              espace<i class="fas fa-caret-down"></i>
+                          <li class="nav-link " >
+                            <a href="#" class="menu" style="font-size:18px;">
+                              <i class="fas fa-phone-volume fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i>
+                              Rappel gratuit
                             </a>
-                            <div class="dropdown">
-                                <ul>
-                                    <li class="dropdown-link">
-                                        <a href="#">Profil</a>
-                                    </li>
-                                    <li class="dropdown-link">
-                                        <a href="#">Parametre</a>
-                                    </li>
-                                    <li class="dropdown-link">
-                                      @can('admin')
-                                        <a  href="/dashbord">Tableau de bord</a>
-                                      @endcan
-                                    </li> 
-                                    <li class="dropdown-link">
-                                        <a href="{{route('deconnect')}}">Deconnexion</a>
-                                    </li> 
-                                    <div class="arrow"></div>
-                                </ul>
-                            </div>
-                          </div>
-                        </li>
+                          </li>     
                     </ul>
                 </div>
+              </div>
+            </div> 
           </div>
+          
         </div>
     </header>
   <!-- Page Content -->
@@ -594,7 +609,7 @@ label{
                         <a class="sidenav-item-link" href="javascript:void(0)" data-toggle="collapse" data-target="#ui-elements"
                           aria-expanded="false" aria-controls="ui-elements">
                           <i class="fas fa-charging-station"></i>
-                          <span class="nav-text">Electricité</span> <b class="caret"></b>
+                          <span class="nav-text">Electricité</span> <b class=""><i class="fas fa-caret-down"></i></b>
                         </a>
                         <ul  class="collapse"  id="ui-elements"
                           data-parent="#sidebar-menu">
@@ -602,26 +617,25 @@ label{
                             <li  class="has-sub" >
                               <a class="sidenav-item-link" href="javascript:void(0)" data-toggle="collapse" data-target="#components"
                                 aria-expanded="false" aria-controls="components">
-                                <span class="nav-text">Eclairage</span> <b class="caret"></b>
-                              </a>   
+                                <span class="nav-text">Eclairage</span> 
                             </li>
                               
                             <li  class="has-sub" >
                               <a class="sidenav-item-link" href="javascript:void(0)" data-toggle="collapse" data-target="#icons"
                                 aria-expanded="false" aria-controls="icons">
-                                <span class="nav-text">Cablage</span> <b class="caret"></b>
+                                <span class="nav-text">Cablage</span> 
                               </a> 
                             </li>
                             <li  class="has-sub" >
                               <a class="sidenav-item-link" href="javascript:void(0)" data-toggle="collapse" data-target="#forms"
                                 aria-expanded="false" aria-controls="forms">
-                                <span class="nav-text">Appareillage</span> <b class="caret"></b>
+                                <span class="nav-text">Appareillage</span> 
                               </a> 
                             </li>
                             <li  class="has-sub" >
                               <a class="sidenav-item-link" href="javascript:void(0)" data-toggle="collapse" data-target="#forms"
                                 aria-expanded="false" aria-controls="forms">
-                                <span class="nav-text">Protection</span> <b class="caret"></b>
+                                <span class="nav-text">Protection</span>
                               </a> 
                             </li>
                           </div>
@@ -631,7 +645,7 @@ label{
                         <a class="sidenav-item-link" href="javascript:void(0)" data-toggle="collapse" data-target="#charts"
                           aria-expanded="false" aria-controls="charts">
                           <i class="fas fa-toilet"></i>
-                          <span class="nav-text">Sanitaire et Plomberie</span> <b class="caret"></b>
+                          <span class="nav-text">Sanitaire et Plomberie</span> <b class=""><i class="fas fa-caret-down"></i></b>
                         </a>
                         <ul  class="collapse"  id="sanplom"
                           data-parent="#sidebar-menu">
@@ -653,7 +667,7 @@ label{
                         <a class="sidenav-item-link" href="javascript:void(0)" data-toggle="collapse" data-target="#charts"
                           aria-expanded="false" aria-controls="charts">
                           <i class="fab fa-buffer"></i>
-                          <span class="nav-text">Maçonnerie</span> <b class="caret"></b>
+                          <span class="nav-text">Maçonnerie</span> <b class=""><i class="fas fa-caret-down"></i></b>
                         </a>
                         <ul  class="collapse"  id="charts"
                           data-parent="#sidebar-menu">
@@ -680,7 +694,7 @@ label{
                         <a class="sidenav-item-link" href="javascript:void(0)" data-toggle="collapse" data-target="#charts"
                           aria-expanded="false" aria-controls="charts">
                           <i class="fas fa-paint-roller"></i>
-                          <span class="nav-text">Peinture</span> <b class="caret"></b>
+                          <span class="nav-text">Peinture</span> <b class=""><i class="fas fa-caret-down"></i></b>
                         </a> 
                       </li>
                       <hr class="separator" />  

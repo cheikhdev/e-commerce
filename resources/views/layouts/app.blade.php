@@ -458,29 +458,51 @@ span{
 
   <!-- Navigation -->
     
-    <header >
+  <header >
         <div class="alternate d-flex  justify-content-center align-content-center  p-2" >
               <span >
-                <h3 style="font-weight:bold;">
-                  Besoin d'aide pour commander ? Appeler au <span style="background:black;border-radius:60px;padding-left:5px;padding-right:5px;"><i class="fas fa-phone-square-alt" style="margin:3px;"></i>33 850 23 25</span><span class="mr-5" style="color: #00FF00;position: absolute;left: 82%;"><i class="fa fa-whatsapp " aria-hidden="true"></i>77 478 19 07</span>
+                <h3 style="font-weight:bold;color:white;">
+                  Besoin d'aide pour commander ? whatsapp <span style="background:white;color:green;border-radius:60px;padding-left:5px;padding-right:5px;"><i class="fa fa-whatsapp " aria-hidden="true"></i>77 478 19 07</span>
                 </h3>
               </span>  
-              <div style="position: absolute;left: 20%;top: 25px;">@include('partials.search')</div>
+              
         </div>
-        <div class="d-flex  justify-content-between w-100 p-10" style="padding:10px;">
-          <div id="mylogo">
-            <a href="/espace_client">
-              <img style="" src="{{asset('images/logo.png')}}" width="150px" height="70px">
-            </a> 
-          </div>
-          <div class="nav-btn container mr-1 mt-4" >
-                
+        <div class="">
+          
+          <div class="">
+            <div class="container d-flex justify-content-start">
+              <div >@include('partials.search')</div>
+              <div class="nav-btn container mr-1 mt-4" > 
+                <div class="nav-links" style=" " >
+                  <ul style="" class="d-flex  justify-content-between w-100"> 
+                    <li>
+                      <a href="" class="btn btn-success"  data-toggle="modal" data-target="#ModalLogin"> <i class="fas fa-user-lock fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i>Connexion</a>
+                    </li>
+                    <li>
+                      <a href="" class="btn btn-primary" data-toggle="modal" data-target="#myModal"> <i class="fas fa-sign-in-alt fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i>S'inscrire</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex justify-content-end">
+              <div id="mylogo">
+                <a href="/espace_client">
+                  <img style="" src="{{asset('images/logo.png')}}" width="150px" height="70px">
+                </a> 
+              </div>
+              <div class="nav-btn container mr-1 mt-4 col-12" > 
                 <div class="nav-links" style=" " >
                     <ul style="" class="d-flex  justify-content-between w-100"> 
-                      <div class="topbar-divider d-none d-sm-block"></div>   
-                          <li style="position: absolute; left: 20%;top: 100px;"><a href="{{url('/home')}}"><i class="fas fa-home fa-md fa-fw mr-2 " style="color: white;"></i><span class="" style="color: white;font-size: 20px;">Acceuil</span></i></a></li>
-                          <li class="nav-link mr-1" style="position: absolute; left: 28%;top: 80px;">
-                            <a href="#" class="menu">
+                      <div class="topbar-divider d-none d-sm-block"></div>
+                          <li class="nav-link " >
+                            <a href="#" class="menu" style="font-size:18px;">
+                              <i class="fas fa-medkit fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i>
+                              Accueil
+                            </a>
+                          </li>
+                          <li class="nav-link mr-1" >
+                            <a href="#" class="menu" style="font-size:18px;">
                               <i class="fas fa-medkit fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i>
                               A Propos<i class="fas fa-caret-down"></i>
                             </a>
@@ -494,33 +516,29 @@ span{
                                     </li>
                                     <li class="dropdown-link">
                                         <a href="#">Contact<i class="fas fa-caret-down"></i></a>
-                                    </li>
-                                    
-                                   
+                                    </li>   
                                 </ul>
                             </div>
                           </li>
-                          <li style="position: absolute; left: 43%;top: 100px;"><a href="{{url('/home')}}"><i class="far fa-address-book fa-md fa-fw mr-2 " style="color: white;"></i><span class="" style="color: white;font-size: 20px;">Nous Contacter</span></i></a></li>
-                                    <li style="position: absolute; left: 57%;top: 100px;"><a href="{{url('/home')}}" ><i class="fas fa-phone-volume fa-md fa-fw mr-2  " style="color: white;"></i><span class="" style="color: white;font-size: 20px;">Rappel Gratuit</span></i></a></li>
-                          <div class="topbar-divider d-none d-sm-block"></div>
-                          <div class="d-flex  justify-content-center pt-4">
-                            
-                          </div> 
-
-                        <div class="d-flex mr-3 mt-1" style="position: absolute;top: 55px;left: 72%;">
-                        <li>
-                          <a href="" class="btn btn-success"  data-toggle="modal" data-target="#ModalLogin"> <i class="fas fa-user-lock fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i>Connexion</a>
-                        </li>
-                        <li>
-                          <a href="" class="btn btn-primary" data-toggle="modal" data-target="#myModal"> <i class="fas fa-sign-in-alt fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i>S'inscrire</a>
-                        </li>
-                        <div>
+                          <li class="nav-link " >
+                            <a href="#" class="menu" style="font-size:18px;">
+                              <i class="far fa-address-book fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i>
+                              Nous contacter
+                            </a>
+                          </li>
+                          <li class="nav-link " >
+                            <a href="#" class="menu" style="font-size:18px;">
+                              <i class="fas fa-phone-volume fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i>
+                              Rappel gratuit
+                            </a>
+                          </li>     
                     </ul>
                 </div>
-          </div> 
+              </div>
+            </div> 
+          </div>
+          
         </div>
-        
-        
     </header>
    @if (session('success'))
       <div class="alert alert-success">
@@ -748,10 +766,10 @@ span{
             <aside style="">
                 <p style="border-bottom: 2px solid #60b4df ;font-size: 20px;color: black;"><em> Nos Cathegories.</em></p>
                   <div class="container d-flex justify-content-between">
-                  <li><a style="border-bottom: 2px solid #60b4df;color: black;font-weight:bold; ">Maconnerie  <span style="background-color:#60b4df;font-size: 23px; ">{{$TotalMacon}}</span><a></li>
-                  <li><a style="border-bottom: 2px solid #60b4df;color: black;font-weight:bold; ">Sanitaire et Plomberie  <span style="background-color:#60b4df;font-size: 23px; ">{{$TotalSanitaire_plomberie}}</span></a></li>
-                  <li><a style="border-bottom: 2px solid #60b4df;color: black;font-weight:bold; ">Peinture <span style="background-color:#60b4df;font-size: 23px; ">{{$TotalPeinture}}</span></a></li>
-                  <li><a style="border-bottom: 2px solid #60b4df;color: black;font-weight:bold; ">Electricite <span style="background-color:#60b4df;font-size: 23px; ">{{$TotalElectricite}}</span></a></li>
+                  <li><a style="border-bottom: 2px solid #60b4df;color: black;font-weight:bold; ">Maconnerie  <span style="background-color:#60b4df;font-size: 23px; ">{{ $TotalMacon ?? ''}}</span><a></li>
+                  <li><a style="border-bottom: 2px solid #60b4df;color: black;font-weight:bold; ">Sanitaire et Plomberie  <span style="background-color:#60b4df;font-size: 23px; ">{{$TotalSanitaire_plomberie ?? ''}}</span></a></li>
+                  <li><a style="border-bottom: 2px solid #60b4df;color: black;font-weight:bold; ">Peinture <span style="background-color:#60b4df;font-size: 23px; ">{{$TotalPeinture ?? ''}}</span></a></li>
+                  <li><a style="border-bottom: 2px solid #60b4df;color: black;font-weight:bold; ">Electricite <span style="background-color:#60b4df;font-size: 23px; ">{{$TotalElectricite ?? ''}}</span></a></li>
                   </div>
               </aside>
               @yield('content')
