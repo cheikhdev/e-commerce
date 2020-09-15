@@ -487,7 +487,9 @@ label{
           <!--    ----->
         <div class="d-flex  justify-content-between w-100 p-10" style="padding:10px;">
           <div id="mylogo">
-            <img style="" src="{{asset('images/logo.png')}}" width="150px" height="70px">
+            <a href="/espace_client">
+              <img style="" src="{{asset('images/logo.png')}}" width="150px" height="70px">
+            </a> 
           </div>
           <div class="nav-btn " >
                 
