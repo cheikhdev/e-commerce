@@ -528,7 +528,7 @@ label{
                           </div> 
                           <div class="topbar-divider d-none d-sm-block"></div>
                           <li class="nav-link" style="">
-                            <a href="#" class="menu">
+                            <a href="/panier" class="menu">
                             <sup style="color:red;">{{Cart::count()}}</sup><i class="fas fa-shopping-cart fa-lg fa-fw mr-2 text-gray-400" aria-hidden="true"></i>
                               Panier
                             </a>

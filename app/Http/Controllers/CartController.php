@@ -17,12 +17,20 @@ class CartController extends Controller
         if($duplicata->isNotEmpty()){
             return redirect()->route('espace_client'->with('success','Le produit à deja ete ajoute.'));
         }
-
-        $product = Product::find($request->product_id);
+        else{
+            $product = Product::find($request->product_id);
         
-        Cart::add($product->id, $product->name_product,1, $request->prix_product)
-            ->associate('App\Prodduct');
-        return redirect()->route('/home')->with('succes','Le Produit a bien ete ajoute');
+            Cart::add($product->id, $product->name_product,1, $product->prix_product)
+                ->associate('App\Prodduct');
+            return redirect()->route('espace_client')->with('succes','Le Produit a bien ete ajoute');
+        }
+        
             
     }
+
+    public function afficher_panier(){
+        return view('panier');
+    }
+
+
 }

@@ -62,6 +62,8 @@ Route::get('/elec', "ProductsController@elec");
 Route::get('/acc', "ProductsController@acc");
 
 Route::post('/ajout_panier', "CartController@store")->name('cart.store');
+
+Route::get('/panier', "CartController@afficher_panier")->name('afficher_panier');
 //  GERER LES UTILISATEURS : CREATION DE COMPTE , CONNEXION DU COMPTE CREER, LOG OUT .
 //Route::get('/register', 'RegistrationController@create');
 //Route::post('register', 'RegistrationController@store');

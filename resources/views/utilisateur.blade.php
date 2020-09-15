@@ -12,7 +12,7 @@
 									<h4 style="color:white;">{{$product->name_product}} </h4>
 									<h3 style="color:white;">{!! \Illuminate\Support\Str::words($product->description_product, 25,'....')  !!} <br> collection</h3>
 									<h5 style="color:red;">{{$product->prix_product}} <span style="color:white;">FCFA</span></h5>
-									<form action="{{route('cart.store')}}" id="" class="" method="post">
+									<form action="{{route('cart.store')}}" id="{{'product_'.$product->id}}" class="add-to-cart" method="post">
 										@csrf
 										
 										<input type="hidden" name="product_id" value="{{$product->id}}">
