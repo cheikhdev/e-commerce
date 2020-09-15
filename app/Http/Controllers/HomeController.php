@@ -28,7 +28,7 @@ class HomeController extends Controller
      
 
      public function dashbord(){
-        return view('dashbord');
+        return view('accueildashbord');
      }
 
      public function utilisateur(){

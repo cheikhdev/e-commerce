@@ -1,70 +1,62 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
-
-  <title> E-Commerce </title>
-
-  <!-- Bootstrap core CSS -->
-  
-  <link href="{{asset('css/app.css')}}" rel="stylesheet" />
-  <link href="{{asset('css/all.css')}}" rel="stylesheet" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rancho&effect=fire-animation|3d-float|neon|canvas-print 	
-">
-  <!-- Custom styles for this template -->
-  <H1>    AJOUT DE NOUVEAUX PRODUITS </H1>
-<div class="container">
-    <form action="{{route('store_products')}}" method="post" enctype="multipart/form-data">
-                @csrf
-                @if($errors->any())
-                @foreach($errors->all() as $error)
-                <div class="alert alert-danger">{{$error}}</div>
-                @endforeach
-                @endif
-            
-                   
-            <select name="category_id" id="category_id" class="form-control">
-                       <option value=""></option>
-                       @foreach($categories as $key => $value)
-                       <option value="{{$key}}">{{$value}}</option>
-                       @endforeach
-                       </select>
-                       
-            </select>
-
-               <div>
-                   <input type="text" name="name_product"  id="name_product" class="form-control" placeholder="le nom du produit">
-               </div>
-               <div>
-                   <input type="text" name="prix_product" id="prix_product" class="form-control" placeholder="Le prix du produit">
-               </div>
-               <div>
-                   <textarea name="description_product" id="description_product" cols="30" rows="10" class="form-control" placeholder="La description"></textarea>
-               </div>
-               <div>
-               <input type="file" name="image_product" class="form-control">
-               </div>
-
-               
-               <div>
-                   <button class="btn btn-primary">Enregistrer</button>
-               </div>
-              
-              
-               <div>
-            </form>
-            <br>
-            
-      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-      <script src="{{asset('js/app.js')}}"></script>
-      <script src="{{asset('js/bootstrap.js')}}"></script>
-     
-
-</body>
-
-</html>           
+@extends('layouts.appdashbord')
+    @section('content')
+    <div class="container">
+                    <form action="{{route('store_products')}}" method="post" enctype="multipart/form-data">
+                                @csrf
+                                @if($errors->any())
+                                @foreach($errors->all() as $error)
+                                <div class="alert alert-danger">{{$error}}</div>
+                                @endforeach
+                                @endif
+                                <div class="row">   
+                                    <div class="form-group col-8 ">
+                                        <label for="sexe" class=" " style="color:red;">Categorie</label>
+                                        <div class="col-8">
+                                            <select name="category_id" id="category_id" class="form-control">
+                                                <option value=""></option>
+                                                @foreach($categories as $key => $value)
+                                                <option value="{{$key}}">{{$value}}</option>
+                                                @endforeach
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="form-group col-10">
+                                        <label for="inputEmail" style="color:red;" class="">Nom produit<span style="background-colol:red;">*</span></span></label>
+                                        <div class="col-10">
+                                            <input type="text" name="name_product"  id="name_product" class="form-control" placeholder="le nom du produit">
+                                        </div>
+                                    </div>   
+                                </div>
+                                <div class="row ">
+                                    <div class="form-group col-10">
+                                            <label for="inputPassword" style="color:red;" class="">Prix du produit</label>
+                                            <div class="col-10">
+                                                <input type="text" name="prix_product" id="prix_product" class="form-control" placeholder="Le prix du produit">
+                                            </div>
+                                      </div>
+                                </div>
+                                <div class="row">
+                                    <div class="form-group col-10 ">
+                                        <label for="inputPassword" style="color:red;" class=" ">Description du produit</label>
+                                        <div class="col-10">
+                                            <textarea name="description_product" id="description_product" cols="30" rows="10" class="form-control" placeholder="La description"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="form-group col-10 ">
+                                        <label for="inputPassword" style="color:red;" class=" ">Image du produit</label>
+                                        <div class="col-10">
+                                            <input type="file" name="image_product" class="form-control">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-center">         
+                                    <button type="submit" style="width:200px;border-radius:20px;margin-left:20px;" class="btn btn-success">Enregistrer</button>
+                                    <button type="reset" style="width:200px;border-radius:20px;" class="btn btn-danger" data-dismiss="modal">Annuler</button>
+                                </div>
+                    </form>
+                </div>
+    @endsection        

@@ -549,7 +549,7 @@ label{
                                     </li>
                                     <li class="dropdown-link">
                                       @can('admin')
-                                        <a  href="/dashbord">Back Office</a>
+                                        <a  href="/dashbord">Tableau de bord</a>
                                       @endcan
                                     </li> 
                                     <li class="dropdown-link">

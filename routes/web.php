@@ -39,7 +39,7 @@ Route::get("/produit/{id}/show", 'ProductsController@show');
 Route::get("/produit/{id}/achat", 'ProductsController@achat')->name('achat_products');
 Route::post("/produit/{id}/achat", 'OrderController@store')->name('achat_products');
 Route::post('/product/add_to_cart', "AjaxController@add_to_cart");
-Route::post('/panier/ajouter', "CartController@store")->name('carte.store');
+
 Route::get('/cart', "OrderController@cart");
 Route::get('/checkout', 'OrderController@checkout');
 Route::get('/merci', "ProductsController@merci");
@@ -60,6 +60,8 @@ Route::get('/tele', "ProductsController@tele");
 Route::get('/sport', "ProductsController@sport");
 Route::get('/elec', "ProductsController@elec");
 Route::get('/acc', "ProductsController@acc");
+
+Route::post('/ajout_panier', "CartController@store")->name('cart.store');
 //  GERER LES UTILISATEURS : CREATION DE COMPTE , CONNEXION DU COMPTE CREER, LOG OUT .
 //Route::get('/register', 'RegistrationController@create');
 //Route::post('register', 'RegistrationController@store');
