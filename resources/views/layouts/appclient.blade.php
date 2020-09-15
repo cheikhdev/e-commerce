@@ -460,27 +460,27 @@ label{
   <!-- Navigation -->
     
     <header >
-            <div class="alternate d-flex  justify-content-center align-content-center  p-2" >
+        <div class="alternate d-flex  justify-content-center align-content-center  p-2" >
               <span >
                 <h3 style="font-weight:bold;">
-                  Besoin d'aide pour commander ? Appeler au <span style="background:black;border-radius:60px;padding-left:5px;padding-right:5px;"><i class="fas fa-phone-square-alt" style="margin:3px;"></i>33 850 23 25</span>
+                  Besoin d'aide pour commander ? Appeler au <span style="background:black;border-radius:60px;padding-left:5px;padding-right:5px;"><i class="fas fa-phone-square-alt" style="margin:3px;"></i>33 850 23 25</span><span class="mr-5" style="color: #00FF00;position: absolute;left: 82%;"><i class="fa fa-whatsapp " aria-hidden="true"></i>77 478 19 07</span>
                 </h3>
               </span>  
-            </div>
-             
-          <!--    ----->
+              <div style="position: absolute;left: 20%;top: 25px;">@include('partials.search')</div>
+        </div>
         <div class="d-flex  justify-content-between w-100 p-10" style="padding:10px;">
           <div id="mylogo">
             <img style="" src="{{asset('images/logo.png')}}" width="150px" height="70px">
           </div>
-          <div class="nav-btn " >
+          <div class="nav-btn container mr-1 mt-4" >
                 
                 <div class="nav-links" style=" " >
                     <ul style="" class="d-flex  justify-content-between w-100"> 
                       <div class="topbar-divider d-none d-sm-block"></div>   
-                          <li class="nav-link" style="">
+                          <li style="position: absolute; left: 20%;top: 100px;"><a href="{{url('/home')}}"><i class="fas fa-home fa-md fa-fw mr-2 " style="color: white;"></i><span class="" style="color: white;font-size: 20px;">Acceuil</span></i></a></li>
+                          <li class="nav-link mr-1" style="position: absolute; left: 28%;top: 80px;">
                             <a href="#" class="menu">
-                              <i class="fas fa-medkit fa-lg fa-fw mr-2 text-gray-400" aria-hidden="true"></i>
+                              <i class="fas fa-medkit fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i>
                               A Propos<i class="fas fa-caret-down"></i>
                             </a>
                             <div class="dropdown " style="width:300px;" >
@@ -489,37 +489,39 @@ label{
                                         <a href="#">Mention légale</a>
                                     </li>
                                     <li class="dropdown-link">
-                                        <a href="#">Conditions générales</a>
+                                        <a href="#">Conditions générales de vente</a>
                                     </li>
                                     <li class="dropdown-link">
                                         <a href="#">Contact<i class="fas fa-caret-down"></i></a>
                                     </li>
+                                    
                                    
                                 </ul>
                             </div>
                           </li>
+                          <li style="position: absolute; left: 43%;top: 100px;"><a href="{{url('/home')}}"><i class="far fa-address-book fa-md fa-fw mr-2 " style="color: white;"></i><span class="" style="color: white;font-size: 20px;">Nous Contacter</span></i></a></li>
+                                    <li style="position: absolute; left: 57%;top: 100px;"><a href="{{url('/home')}}" ><i class="fas fa-phone-volume fa-md fa-fw mr-2  " style="color: white;"></i><span class="" style="color: white;font-size: 20px;">Rappel Gratuit</span></i></a></li>
+                          <div class="topbar-divider d-none d-sm-block"></div>
                           <div class="d-flex  justify-content-center pt-4">
-                            <div class="search-form d-none d-lg-inline-block" style="">
-                              <div class="input-group">                              
-                                <input type="text" name="query" style="width:400px;height:35px;" id="search-input" class="form-control" placeholder="recherche produits" autofocus autocomplete="off" />
-                              </div>
-                              <div id="search-results-container">
-                                <ul id="search-results"></ul>
-                              </div>
-                            </div>
+                            
+                          </div> 
+
+                          <div class="d-flex  justify-content-center pt-4">
+                            
                           </div> 
                           <div class="topbar-divider d-none d-sm-block"></div>
+                          <div class="d-flex mr-3 mt-1" style="position: absolute;top: 35px;left: 75%;">
                           <li class="nav-link" style="">
                             <a href="#" class="menu">
                             <sup style="color:red;">{{Cart::count()}}</sup><i class="fas fa-shopping-cart fa-lg fa-fw mr-2 text-gray-400" aria-hidden="true"></i>
                               Panier
                             </a>
                           </li>
-                          <li class="nav-link" style="">
+                          <li class="nav-link mt-1" style="position: absolute;top: -5px;left: 65%;">
                             <a href="#" class="menu">
                            
                               <i class="fas fa-user-circle fa-lg fa-fw mr-2 text-gray-400" aria-hidden="true"></i>
-                              Mon espace<i class="fas fa-caret-down"></i>
+                              espace<i class="fas fa-caret-down"></i>
                             </a>
                             <div class="dropdown">
                                 <ul>
@@ -540,6 +542,7 @@ label{
                                     <div class="arrow"></div>
                                 </ul>
                             </div>
+                          </div>
                         </li>
                     </ul>
                 </div>
@@ -568,11 +571,11 @@ label{
                         </a>  
                       </li>
                       <hr class="separator" />
-                      <label for="" >Categories de produits</label>
+                     <label for="" ><span style="color: #C0C0C0;font-size: 20px;">Catégories de produits</span></label>
                       <li  class="has-sub" >
                         <a class="sidenav-item-link" href="javascript:void(0)" data-toggle="collapse" data-target="#ui-elements"
                           aria-expanded="false" aria-controls="ui-elements">
-                          <i class="fab fa-product-hunt"></i>
+                          <i class="fas fa-charging-station"></i>
                           <span class="nav-text">Electricité</span> <b class="caret"></b>
                         </a>
                         <ul  class="collapse"  id="ui-elements"
@@ -609,7 +612,7 @@ label{
                       <li  class="has-sub" >
                         <a class="sidenav-item-link" href="javascript:void(0)" data-toggle="collapse" data-target="#charts"
                           aria-expanded="false" aria-controls="charts">
-                          <i class="fas fa-shopping-cart"></i>
+                          <i class="fas fa-toilet"></i>
                           <span class="nav-text">Sanitaire et Plomberie</span> <b class="caret"></b>
                         </a>
                         <ul  class="collapse"  id="charts"
@@ -631,7 +634,7 @@ label{
                       <li  class="has-sub" >
                         <a class="sidenav-item-link" href="javascript:void(0)" data-toggle="collapse" data-target="#charts"
                           aria-expanded="false" aria-controls="charts">
-                          <i class="fas fa-shopping-cart"></i>
+                          <i class="fab fa-buffer"></i>
                           <span class="nav-text">Maçonnerie</span> <b class="caret"></b>
                         </a>
                         <ul  class="collapse"  id="charts"
@@ -658,7 +661,7 @@ label{
                       <li  class="has-sub" >
                         <a class="sidenav-item-link" href="javascript:void(0)" data-toggle="collapse" data-target="#charts"
                           aria-expanded="false" aria-controls="charts">
-                          <i class="fas fa-shopping-cart"></i>
+                          <i class="fas fa-paint-roller"></i>
                           <span class="nav-text">Peinture</span> <b class="caret"></b>
                         </a> 
                       </li>

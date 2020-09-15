@@ -20,10 +20,13 @@ class HomeController extends Controller
     public function index(){
          $categories=Category::where('id' , 1)->get();
 
-         
+         $TotalMacon = DB::table('products')->whereIn('category_id', [1])->count();
+         $TotalSanitaire_plomberie = DB::table('products')->whereIn('category_id', [2])->count();
+         $TotalPeinture = DB::table('products')->whereIn('category_id', [3])->count();
+         $TotalElectricite = DB::table('products')->whereIn('category_id', [4])->count();
          
          $products = DB::table('products')->paginate(12);//paginate(6);
-        return view('home', compact('products','categories'));
+        return view('home', compact('products','categories','TotalMacon','TotalSanitaire_plomberie','TotalPeinture','TotalElectricite'));
      }
      
 
