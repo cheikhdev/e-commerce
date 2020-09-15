@@ -461,10 +461,11 @@ span{
     <header >
         <div class="alternate d-flex  justify-content-center align-content-center  p-2" >
               <span >
-                <h3 style="font-weight:bold;color:white;">
-                  Besoin d'aide pour commander ? Appeler au <span style="color:white;background:black;border-radius:60px;padding-left:5px;padding-right:5px;"><i class="fas fa-phone-square-alt" style="margin:3px;"></i>33 850 23 25</span>
+                <h3 style="font-weight:bold;">
+                  Besoin d'aide pour commander ? Appeler au <span style="background:black;border-radius:60px;padding-left:5px;padding-right:5px;"><i class="fas fa-phone-square-alt" style="margin:3px;"></i>33 850 23 25</span><span class="mr-5" style="color: #00FF00;position: absolute;left: 82%;"><i class="fa fa-whatsapp " aria-hidden="true"></i>77 478 19 07</span>
                 </h3>
               </span>  
+              <div style="position: absolute;left: 20%;top: 25px;">@include('partials.search')</div>
         </div>
         <div class="d-flex  justify-content-between w-100 p-10" style="padding:10px;">
           <div id="mylogo">
@@ -472,13 +473,13 @@ span{
               <img style="" src="{{asset('images/logo.png')}}" width="150px" height="70px">
             </a> 
           </div>
-          <div class="nav-btn container" >
+          <div class="nav-btn container mr-1 mt-4" >
                 
                 <div class="nav-links" style=" " >
                     <ul style="" class="d-flex  justify-content-between w-100"> 
                       <div class="topbar-divider d-none d-sm-block"></div>   
-                        
-                          <li class="nav-link" style="">
+                          <li style="position: absolute; left: 20%;top: 100px;"><a href="{{url('/home')}}"><i class="fas fa-home fa-md fa-fw mr-2 " style="color: white;"></i><span class="" style="color: white;font-size: 20px;">Acceuil</span></i></a></li>
+                          <li class="nav-link mr-1" style="position: absolute; left: 28%;top: 80px;">
                             <a href="#" class="menu">
                               <i class="fas fa-medkit fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i>
                               A Propos<i class="fas fa-caret-down"></i>
@@ -494,27 +495,26 @@ span{
                                     <li class="dropdown-link">
                                         <a href="#">Contact<i class="fas fa-caret-down"></i></a>
                                     </li>
+                                    
                                    
                                 </ul>
                             </div>
                           </li>
+                          <li style="position: absolute; left: 43%;top: 100px;"><a href="{{url('/home')}}"><i class="far fa-address-book fa-md fa-fw mr-2 " style="color: white;"></i><span class="" style="color: white;font-size: 20px;">Nous Contacter</span></i></a></li>
+                                    <li style="position: absolute; left: 57%;top: 100px;"><a href="{{url('/home')}}" ><i class="fas fa-phone-volume fa-md fa-fw mr-2  " style="color: white;"></i><span class="" style="color: white;font-size: 20px;">Rappel Gratuit</span></i></a></li>
                           <div class="topbar-divider d-none d-sm-block"></div>
                           <div class="d-flex  justify-content-center pt-4">
-                            <div class="search-form d-none d-lg-inline-block" style="">
-                              <div class="input-group">                              
-                                <input type="text" name="query" style="width:400px;height:35px;" id="search-input" class="form-control" placeholder="recherche produits" autofocus autocomplete="off" />
-                              </div>
-                              <div id="search-results-container">
-                                <ul id="search-results"></ul>
-                              </div>
-                            </div>
+                            
                           </div> 
+
+                        <div class="d-flex mr-3 mt-1" style="position: absolute;top: 55px;left: 72%;">
                         <li>
                           <a href="" class="btn btn-success"  data-toggle="modal" data-target="#ModalLogin"> <i class="fas fa-user-lock fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i>Connexion</a>
                         </li>
                         <li>
                           <a href="" class="btn btn-primary" data-toggle="modal" data-target="#myModal"> <i class="fas fa-sign-in-alt fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i>S'inscrire</a>
                         </li>
+                        <div>
                     </ul>
                 </div>
           </div> 
@@ -563,19 +563,19 @@ span{
                   <!-- sidebar menu -->
                   <div class="d-flex justify-content-center" style="background-color:rgb(1, 20, 82);padding:10px;"><h3 style="color:white;">E-QUINC</h3></div>
                   <ul class="nav sidebar-inner" id="sidebar-menu"> 
-                      <li  class="has-sub active expand" >
-                        <a class="sidenav-item-link" href="javascript:void(0)" data-toggle="collapse" data-target="#dashboard"
+                      <li  class="has-sub  expand" >
+                        <a class="sidenav-item-link" href="{{url('/home')}}" data-toggle="collapse" data-target="#dashboard"
                           aria-expanded="false" aria-controls="dashboard">
                           <i class="fas fa-home "></i>
                           <span class="nav-text">Acceuil</span> <b class="caret"></b>
                         </a>  
                       </li>
                       <hr class="separator" />
-                      <label for="" >Categories de produits</label>
+                      <label for="" ><span style="color: #C0C0C0;font-size: 20px;">Catégories de produits</span></label>
                       <li  class="has-sub" >
                         <a class="sidenav-item-link" href="javascript:void(0)" data-toggle="collapse" data-target="#ui-elements"
                           aria-expanded="false" aria-controls="ui-elements">
-                          <i class="fab fa-product-hunt"></i>
+                          <i class="fas fa-charging-station"></i>
                           <span class="nav-text">Electricité</span> <b class="caret"></b>
                         </a>
                         <ul  class="collapse"  id="ui-elements"
@@ -612,7 +612,7 @@ span{
                       <li  class="has-sub" >
                         <a class="sidenav-item-link" href="javascript:void(0)" data-toggle="collapse" data-target="#charts"
                           aria-expanded="false" aria-controls="charts">
-                          <i class="fas fa-shopping-cart"></i>
+                          <i class="fas fa-toilet"></i>
                           <span class="nav-text">Sanitaire et Plomberie</span> <b class="caret"></b>
                         </a>
                         <ul  class="collapse"  id="charts"
@@ -634,7 +634,7 @@ span{
                       <li  class="has-sub" >
                         <a class="sidenav-item-link" href="javascript:void(0)" data-toggle="collapse" data-target="#charts"
                           aria-expanded="false" aria-controls="charts">
-                          <i class="fas fa-shopping-cart"></i>
+                          <i class="fab fa-buffer"></i>
                           <span class="nav-text">Maçonnerie</span> <b class="caret"></b>
                         </a>
                         <ul  class="collapse"  id="charts"
@@ -661,7 +661,7 @@ span{
                       <li  class="has-sub" >
                         <a class="sidenav-item-link" href="javascript:void(0)" data-toggle="collapse" data-target="#charts"
                           aria-expanded="false" aria-controls="charts">
-                          <i class="fas fa-shopping-cart"></i>
+                          <i class="fas fa-paint-roller"></i>
                           <span class="nav-text">Peinture</span> <b class="caret"></b>
                         </a> 
                       </li>
@@ -748,10 +748,10 @@ span{
             <aside style="">
                 <p style="border-bottom: 2px solid #60b4df ;font-size: 20px;color: black;"><em> Nos Cathegories.</em></p>
                   <div class="container d-flex justify-content-between">
-                  <li><a style="border-bottom: 2px solid #60b4df;color: black;font-weight:bold; ">Maconnerie  <span style="background-color:#60b4df;font-size: 23px; ">45</span><a></li>
-                  <li><a style="border-bottom: 2px solid #60b4df;color: black;font-weight:bold; ">Sanitaire et Plomberie  <span style="background-color:#60b4df;font-size: 23px; ">67</span></a></li>
-                  <li><a style="border-bottom: 2px solid #60b4df;color: black;font-weight:bold; ">Peinture <span style="background-color:#60b4df;font-size: 23px; ">34</span></a></li>
-                  <li><a style="border-bottom: 2px solid #60b4df;color: black;font-weight:bold; ">Electricite <span style="background-color:#60b4df;font-size: 23px; ">30</span></a></li>
+                  <li><a style="border-bottom: 2px solid #60b4df;color: black;font-weight:bold; ">Maconnerie  <span style="background-color:#60b4df;font-size: 23px; ">{{$TotalMacon}}</span><a></li>
+                  <li><a style="border-bottom: 2px solid #60b4df;color: black;font-weight:bold; ">Sanitaire et Plomberie  <span style="background-color:#60b4df;font-size: 23px; ">{{$TotalSanitaire_plomberie}}</span></a></li>
+                  <li><a style="border-bottom: 2px solid #60b4df;color: black;font-weight:bold; ">Peinture <span style="background-color:#60b4df;font-size: 23px; ">{{$TotalPeinture}}</span></a></li>
+                  <li><a style="border-bottom: 2px solid #60b4df;color: black;font-weight:bold; ">Electricite <span style="background-color:#60b4df;font-size: 23px; ">{{$TotalElectricite}}</span></a></li>
                   </div>
               </aside>
               @yield('content')
