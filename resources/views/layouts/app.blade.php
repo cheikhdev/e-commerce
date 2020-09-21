@@ -15,7 +15,8 @@
 	<link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
 	
 	<!-- StyleSheet -->
-	
+	<link href="{{asset('css/app.css')}}" rel="stylesheet" />
+  <link href="{{asset('css/all.css')}}" rel="stylesheet" />
 	<!-- Bootstrap -->
     <link rel="stylesheet" href="{{asset('css/css_home/bootstrap.css')}}">
   <!-- Magnific Popup -->
@@ -75,8 +76,8 @@
 						<!-- Top Right -->
 						<div class="right-content">
 							<ul class="list-main">
-								<li><i class="ti-user"></i> <a href="#">Inscription</a></li>
-								<li><i class="ti-power-off"></i><a href="login.html#">Connexion</a></li>
+								<li><a href="#" data-toggle="modal" data-target="#myModal"> <i class="fas fa-sign-in-alt fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i>Inscription</a></li>
+								<li><a href="login.html#"data-toggle="modal" data-target="#ModalLogin"> <i class="fas fa-user-lock fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i>Connexion</a></li>
 							</ul>
 						</div>
 						<!-- End Top Right -->
@@ -555,7 +556,176 @@
             </div>
     </div>
     <!-- Modal end -->
-	
+	<!-- Debut modall inscriptionnnn -->
+	<div class="modal fade" id="myModal">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <!-- Modal Header -->
+                        <div class="modal-header" style="background-color:rgb(35, 127, 247);">
+                          <a class="navbar-brand d-none d-sm-inline-block form-inline mr-auto ml-md-3 mb-md-3 my-2 my-md-0 mw-100" href="index.html">
+                            <div id="mylogo">
+                              <img style="" src="{{asset('images/logo.png')}}" width="150px" height="70px">
+                            </div>
+                          </a>
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>                        
+                        <!-- Modal body -->
+                        <div class="modal-body container">
+                            <form action="{{route('ajouter_user')}}" method="post">
+                            @csrf
+                                <div class="row">   
+                                    <div class="form-group col-12 col-sm-12 col-md-6">
+                                        <label for="sexe" class=" ">Sexe</label>
+                                        <div class="col-sm-10">
+                                            <select name="genre" id="genre" class="form-control">
+                                                <option value="masculin">Masculin</option>
+                                                <option value="feminin">Feminin</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="form-group col-12 col-sm-12 col-md-6">
+                                        <label for="inputEmail" class="">Prenom<span style="background-colol:red;">*</span></span></label>
+                                        <div class="col-sm-10">
+                                            <input type="text" class="form-control" id="prenom" name="prenom" placeholder="Entrer Prenom">
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-12 col-sm-12 col-md-6">
+                                        <label for="inputPassword" class="">Nom</label>
+                                        <div class="col-sm-10">
+                                            <input type="text" class="form-control" id="nom" name="nom" placeholder="Entrer Nom">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row ">
+                                    <div class="form-group col-12 col-sm-12 col-md-6">
+                                            <label for="inputPassword" class="">Adresse</label>
+                                            <div class="col-sm-10">
+                                                <input type="text" class="form-control" id="adresse" name="adresse" placeholder="Entrer Adresse">
+                                            </div>
+                                      </div>
+                                    
+                                    <div class="form-group col-12 col-sm-12 col-md-6">
+                                        <label for="inputPassword" class="">Telephone</label>
+                                        <div class="col-sm-10">
+                                            <input type="text" class="form-control" id="lieu" name="phone" placeholder="Entrer Telephone">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="form-group col-12 ">
+                                        <label for="inputPassword" class=" ">Email</label>
+                                        <div class="col-sm-10">
+                                            <input type="email" class="form-control" id="date" name="email" placeholder="Entrer mail">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row ">
+                                    <div class="form-group col-12 col-sm-12 col-md-6">
+                                            <label for="inputPassword" class="">Mot de passe</label>
+                                            <div class="col-sm-10">
+                                                <input type="password" class="form-control" id="adresse" name="password" placeholder="Entrer password">
+                                            </div>
+                                      </div>
+                                    
+                                    <div class="form-group col-12 col-sm-12 col-md-6">
+                                        <label for="inputPassword" class="">Cofirmer mot de passe</label>
+                                        <div class="col-sm-10">
+                                            <input type="password" class="form-control" id="lieu" name="confirme_pass" placeholder="confirmer password">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="d-flex justify-content-center">         
+                                    <button type="submit" style="width:200px;" class="btn btn-success">Enregistrer</button>
+                                    <button type="reset" style="width:200px;" class="btn btn-danger" data-dismiss="modal">Annuler</button>
+                                </div>
+                            </form>
+                        </div>      
+                                        
+                    </div>
+                </div>
+            </div>
+       <!--fin modall inscription-->
+		 <!-- Debut modall Cnnexion -->
+		 <div class="modal fade" id="ModalLogin">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <!-- Modal Header -->
+                        <div class="modal-header" style="background-color:rgb(35, 127, 247);">
+                          <a class="navbar-brand d-none d-sm-inline-block form-inline mr-auto ml-md-3 mb-md-3 my-2 my-md-0 mw-100" href="index.html">
+                            <div id="mylogo">
+                              <img style="" src="{{asset('images/logo.png')}}" width="150px" height="70px">
+                            </div>
+                          </a>
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>                        
+                        <!-- Modal body -->
+                        <div class="modal-body container">
+						<div class=" container-auth " style="height:100%;overflow-x:scroll;">
+			<div class="card auth ">
+				<div class="card-header auth-header login100-form-title" style="background-image: url({{asset('images/consultation-medicale.jpg')}});">
+					<span class="login100-form-title-1">
+						Authentification
+					</span>
+				</div>
+				<div class="card-body auth-body" >
+					<form class="auth-form" method="POST" action="{{ route('login') }}">
+						@csrf
+						<div class="mb-5" data-validate="Username is required">
+							<!-- class="label-input100">Identifiant</span-->
+							<div class="input-group login">
+								<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+								<input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus placeholder="Entrer votre login" >
+
+								@error('email')
+									<span class="invalid-feedback" role="alert">
+										<strong>{{ $message }}</strong>
+									</span>
+								@enderror
+							</div>
+							<span class=""></span>
+						</div>
+
+						<div class="mb-2" data-validate = "Password is required">
+							<!--span class="label-input100">Mot de passe</span-->
+							<div class="input-group pass">
+								<span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+								<input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="current-password" placeholder="Entrer votre mot de passe" >
+
+								@error('password')
+									<span class="invalid-feedback" role="alert">
+										<strong>{{ $message }}</strong>
+									</span>
+								@enderror
+							</div>
+							<span class=""></span>
+						</div>
+
+						<div class="mb-3 d-flex justify-content-end">
+							@if (Route::has('password.request'))
+								<a class="" href="{{ route('password.request') }}">
+									Mot de passe oublié?
+								</a>
+							@endif
+						</div>
+						<div class="d-flex justify-content-center " style="">
+							<button class="btn-auth btn btn-success" >
+								Se Connecter
+							</button>
+							
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+    </div>                                      
+    </div>
+    </div>
+    </div>
+   
+	 <!--fin modall connexion-->
 	<!-- Start Footer Area -->
 	<footer class="footer">
 		<!-- Footer Top -->
