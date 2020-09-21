@@ -52,7 +52,14 @@
 <body class="js">
 	
 	<!-- Preloader -->
-  
+		<div class="preloader">
+			<div class="preloader-inner">
+				<div class="preloader-icon">
+					<span></span>
+					<span></span>
+				</div>
+			</div>
+		</div>
 	<!-- End Preloader -->
 	
 	
@@ -66,8 +73,8 @@
 						<!-- Top Left -->
 						<div class="top-left">
 							<ul class="list-main">
-								<li><i class="fa fa-whatsapp " aria-hidden="true"></i> 77 478 19 07</li>
-								<li><i class="ti-email"></i> support@matcosen.com</li>
+								<li><i class="fa fa-whatsapp fa-lg fa-fw mr-2 text-gray-400" aria-hidden="true" ></i> 77 478 19 07</li>
+								<li><i class="fas fa-envelope fa-lg fa-fw mr-2 text-gray-400" aria-hidden="true"></i> support@matcosen.com</li>
 							</ul>
 						</div>
 						<!--/ End Top Left -->
@@ -76,8 +83,8 @@
 						<!-- Top Right -->
 						<div class="right-content">
 							<ul class="list-main">
-								<li><a href="#" data-toggle="modal" data-target="#myModal"> <i class="fas fa-sign-in-alt fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i>Inscription</a></li>
-								<li><a href="login.html#"data-toggle="modal" data-target="#ModalLogin"> <i class="fas fa-user-lock fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i>Connexion</a></li>
+								@yield('connect')
+								
 							</ul>
 						</div>
 						<!-- End Top Right -->
@@ -102,7 +109,7 @@
 							<div class="search-top">
 								<form class="search-form">
 									<input type="text" placeholder="Recherche de produits...." name="search">
-									<button value="search" type="submit"><i class="ti-search"></i></button>
+									<button value="search" type="submit"><i class="fas fa-search"></i></button>
 								</form>
 							</div>
 							<!--/ End Search Form -->
@@ -118,11 +125,11 @@
 									<option>electricite</option>
 									<option>maçonnerie</option>
 									<option>peinture</option>
-                  <option>sanitaire et plomberie</option>
+                  					<option>sanitaire et plomberie</option>
 								</select>
 								<form>
 									<input name="search" placeholder="Recherche de produits....." type="search">
-									<button class="btnn"><i class="ti-search"></i></button>
+									<button class="btnn"><i class="fas fa-search"></i></button>
 								</form>
 							</div>
 						</div>
@@ -252,7 +259,7 @@
 										<div class="nav-inner">	
 											<ul class="nav main-menu menu navbar-nav">
 													<li class="active"><a href="#"><i class="fas fa-home fa-lg fa-fw mr-2 text-gray-400" aria-hidden="true"></i>Accueuil</a></li>
-													<li><a href="#"><i class="fas fa-medkit fa-lg fa-fw mr-2 text-gray-400" aria-hidden="true"></i>A propos<i class="ti-angle-down"></i></a>
+													<li><a href="#"><i class="fas fa-medkit fa-lg fa-fw mr-2 text-gray-400" aria-hidden="true"></i>A propos<i class="fas fa-angle-down"></i></a>
                             <ul class="dropdown">
                                 <li><a href="shop-grid.html">Mention légale</a></li>
                                 <li><a href="cart.html">Conditions générales de vente</a></li>
@@ -261,7 +268,7 @@
                             </ul>
                           </li>												
 													<li><a href="#">Produits</a></li>
-													<li><a href="#">Nos categories<i class="ti-angle-down"></i></a>
+													<li><a href="#">Nos categories<i class="fas fa-angle-down"></i></a>
 														<ul class="dropdown">
 															<li><a href="shop-grid.html">Electricité</a>
                                 <ul class="sub-category">
@@ -559,14 +566,10 @@
 	<!-- Debut modall inscriptionnnn -->
 	<div class="modal fade" id="myModal">
                 <div class="modal-dialog modal-lg">
-                    <div class="modal-content">
+                    <div class="modal-content container container-fluid">
                         <!-- Modal Header -->
-                        <div class="modal-header" style="background-color:rgb(35, 127, 247);">
-                          <a class="navbar-brand d-none d-sm-inline-block form-inline mr-auto ml-md-3 mb-md-3 my-2 my-md-0 mw-100" href="index.html">
-                            <div id="mylogo">
-                              <img style="" src="{{asset('images/logo.png')}}" width="150px" height="70px">
-                            </div>
-                          </a>
+                        <div class="modal-header" style="">
+                          
                             <button type="button" class="close" data-dismiss="modal">&times;</button>
                         </div>                        
                         <!-- Modal body -->
@@ -575,7 +578,7 @@
                             @csrf
                                 <div class="row">   
                                     <div class="form-group col-12 col-sm-12 col-md-6">
-                                        <label for="sexe" class=" ">Sexe</label>
+                                        <label for="sexe" class=" " style="font-weight:bold;">Sexe</label>
                                         <div class="col-sm-10">
                                             <select name="genre" id="genre" class="form-control">
                                                 <option value="masculin">Masculin</option>
@@ -586,13 +589,13 @@
                                 </div>
                                 <div class="row">
                                     <div class="form-group col-12 col-sm-12 col-md-6">
-                                        <label for="inputEmail" class="">Prenom<span style="background-colol:red;">*</span></span></label>
+                                        <label for="inputEmail" class="" style="font-weight:bold;">Prenom<span style="background-colol:red;">*</span></span></label>
                                         <div class="col-sm-10">
                                             <input type="text" class="form-control" id="prenom" name="prenom" placeholder="Entrer Prenom">
                                         </div>
                                     </div>
                                     <div class="form-group col-12 col-sm-12 col-md-6">
-                                        <label for="inputPassword" class="">Nom</label>
+                                        <label for="inputPassword" class="" style="font-weight:bold;">Nom</label>
                                         <div class="col-sm-10">
                                             <input type="text" class="form-control" id="nom" name="nom" placeholder="Entrer Nom">
                                         </div>
@@ -600,14 +603,14 @@
                                 </div>
                                 <div class="row ">
                                     <div class="form-group col-12 col-sm-12 col-md-6">
-                                            <label for="inputPassword" class="">Adresse</label>
+                                            <label for="inputPassword" class="" style="font-weight:bold;">Adresse</label>
                                             <div class="col-sm-10">
                                                 <input type="text" class="form-control" id="adresse" name="adresse" placeholder="Entrer Adresse">
                                             </div>
                                       </div>
                                     
                                     <div class="form-group col-12 col-sm-12 col-md-6">
-                                        <label for="inputPassword" class="">Telephone</label>
+                                        <label for="inputPassword" class="" style="font-weight:bold;">Telephone</label>
                                         <div class="col-sm-10">
                                             <input type="text" class="form-control" id="lieu" name="phone" placeholder="Entrer Telephone">
                                         </div>
@@ -615,7 +618,7 @@
                                 </div>
                                 <div class="row">
                                     <div class="form-group col-12 ">
-                                        <label for="inputPassword" class=" ">Email</label>
+                                        <label for="inputPassword" class=" " style="font-weight:bold;">Email</label>
                                         <div class="col-sm-10">
                                             <input type="email" class="form-control" id="date" name="email" placeholder="Entrer mail">
                                         </div>
@@ -623,14 +626,14 @@
                                 </div>
                                 <div class="row ">
                                     <div class="form-group col-12 col-sm-12 col-md-6">
-                                            <label for="inputPassword" class="">Mot de passe</label>
+                                            <label for="inputPassword" class="" style="font-weight:bold;">Mot de passe</label>
                                             <div class="col-sm-10">
                                                 <input type="password" class="form-control" id="adresse" name="password" placeholder="Entrer password">
                                             </div>
                                       </div>
                                     
                                     <div class="form-group col-12 col-sm-12 col-md-6">
-                                        <label for="inputPassword" class="">Cofirmer mot de passe</label>
+                                        <label for="inputPassword" class="" style="font-weight:bold;">Cofirmer mot de passe</label>
                                         <div class="col-sm-10">
                                             <input type="password" class="form-control" id="lieu" name="confirme_pass" placeholder="confirmer password">
                                         </div>
@@ -638,8 +641,8 @@
                                 </div>
 
                                 <div class="d-flex justify-content-center">         
-                                    <button type="submit" style="width:200px;" class="btn btn-success">Enregistrer</button>
-                                    <button type="reset" style="width:200px;" class="btn btn-danger" data-dismiss="modal">Annuler</button>
+                                    <button type="submit" style="width:200px;border-radius:70px;height:50px !important;" class="btn btn-success">Enregistrer</button>
+                                    <button type="reset" style="width:200px;border-radius:70px;height:50px !important;" class="btn btn-danger" data-dismiss="modal">Annuler</button>
                                 </div>
                             </form>
                         </div>      
@@ -653,21 +656,17 @@
                 <div class="modal-dialog modal-lg">
                     <div class="modal-content">
                         <!-- Modal Header -->
-                        <div class="modal-header" style="background-color:rgb(35, 127, 247);">
-                          <a class="navbar-brand d-none d-sm-inline-block form-inline mr-auto ml-md-3 mb-md-3 my-2 my-md-0 mw-100" href="index.html">
-                            <div id="mylogo">
-                              <img style="" src="{{asset('images/logo.png')}}" width="150px" height="70px">
-                            </div>
-                          </a>
+                        <div class="modal-header" style="">
+                          
                             <button type="button" class="close" data-dismiss="modal">&times;</button>
                         </div>                        
                         <!-- Modal body -->
-                        <div class="modal-body container">
-						<div class=" container-auth " style="height:100%;overflow-x:scroll;">
+                        <div class="modal-body ">
+						<div class="  " style="height:100%;overflow-x:scroll;">
 			<div class="card auth ">
-				<div class="card-header auth-header login100-form-title" style="background-image: url({{asset('images/consultation-medicale.jpg')}});">
+				<div class="card-header auth-header login100-form-title" style="background-image: url({{asset('images/materiel1.jpg')}});">
 					<span class="login100-form-title-1">
-						Authentification
+						Matcosen Login
 					</span>
 				</div>
 				<div class="card-body auth-body" >
@@ -711,7 +710,7 @@
 							@endif
 						</div>
 						<div class="d-flex justify-content-center " style="">
-							<button class="btn-auth btn btn-success" >
+							<button class="btn-auth btn btn-success" style="border-radius:70px;">
 								Se Connecter
 							</button>
 							
