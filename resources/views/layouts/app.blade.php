@@ -1,696 +1,306 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
-
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
-
-  <title> E-Commerce </title>
-
-  <!-- Bootstrap core CSS -->
-  <link href="{{asset('css/app.css')}}" rel="stylesheet" />
-  <link href="{{asset('css/all.css')}}" rel="stylesheet" />
-  <link href="{{asset('plugins/toaster/toastr.min.css')}}" rel="stylesheet" />
-  <link href="{{asset('plugins/nprogress/nprogress.css')}}" rel="stylesheet" />
-  <link href="{{asset('plugins/flag-icons/css/flag-icon.min.css')}}" rel="stylesheet"/>
-  <link href="{{asset('plugins/jvectormap/jquery-jvectormap-2.0.3.css')}}" rel="stylesheet" />
-  <link href="{{asset('plugins/ladda/ladda.min.css')}}" rel="stylesheet" />
-  <link href="{{asset('plugins/select2/css/select2.min.css')}}" rel="stylesheet" />
-  <link href="{{asset('plugins/daterangepicker/daterangepicker.css')}}" rel="stylesheet" />
-
-  <!-- SLEEK CSS -->
-  <link id="sleek-css" rel="stylesheet" href="{{asset('css/sleek.css')}}" />
-
+	<!-- Meta Tag -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name='copyright' content=''>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Title Tag  -->
+    <title>Matcosen - eQuincaillerie en ligne.</title>
+	<!-- Favicon -->
+	<link rel="icon" type="image/png" href="images/logo.png">
+	<!-- Web Font -->
+	<link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
+	
+	<!-- StyleSheet -->
+	
+	<!-- Bootstrap -->
+    <link rel="stylesheet" href="{{asset('css/css_home/bootstrap.css')}}">
+  <!-- Magnific Popup -->
+    <link rel="stylesheet" href="{{asset('css/css_home/magnific-popup.min.css')}}">
+  <!-- Font Awesome -->
+    <link rel="stylesheet" href="{{asset('css/css_home/font-awesome.css')}}">
+  <!-- Fancybox -->
+    <link rel="stylesheet" href="{{asset('css/css_home/jquery.fancybox.min.css')}}">
+  <!-- Themify Icons -->
+    <link rel="stylesheet" href="{{asset('css/css_home/themify-icons.css')}}">
+  <!-- Nice Select CSS -->
+    <link rel="stylesheet" href="{{asset('css/css_home/niceselect.css')}}">
+  <!-- Animate CSS -->
+    <link rel="stylesheet" href="{{asset('css/css_home/animate.css')}}">
+  <!-- Flex Slider CSS -->
+    <link rel="stylesheet" href="{{asset('css/css_home/flex-slider.min.css')}}">
+  <!-- Owl Carousel -->
+    <link rel="stylesheet" href="{{asset('css/css_home/owl-carousel.css')}}">
+  <!-- Slicknav -->
+    <link rel="stylesheet" href="{{asset('css/css_home/slicknav.min.css')}}">
+  <!-- Eshop StyleSheet -->
+  <link href="{{asset('css/css_home/reset.css')}}" rel="stylesheet" />
+  <link href="{{asset('css/css_home/responsive.css')}}" rel="stylesheet" />
+  <link href="{{asset('css/css_home/style.css')}}" rel="stylesheet" />
   
-
-  <!-- FAVICON -->
-  <link href="assets/img/favicon.png" rel="shortcut icon" />
-
-  
-
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rancho&effect=fire-animation|3d-float|neon|canvas-print">
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,900" rel="stylesheet" />
  <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>	
 </head>
-<style type="text/css">
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
-
-
-ul{
-    list-style: none;
-}
-ul li{
-  text-decoration: none;
-
-}
-a{
-    text-decoration: none;
-
-}
-
-  header{
-    position: sticky;
-    top: 0px;
-    background-color: rgb(1, 20, 82);
-    width: 100%;
-    z-index: 1000;
-}
-
-
-
-
-
-
-.nav-btn{
-    flex: 3;
-    display: flex;
-
-}
-
-.nav-links{
-    flex: 2;
-}
-
-.log-sign{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex: 1;
-}
-
-
-
-.btn{
-    display: inline-block;
-    padding: 8px 13px;
-    font-size: .8rem;
-    border: 2px solid #fff;
-    border-radius: 2rem;
-    line-height: 1;
-    margin: 0 .2rem;
-    transition: .3s;
-    text-transform: uppercase;
-}
-
-.btn.solid, .btn.transparent:hover{
-    background-color: #fff;
-    color: #69bde7;
-}
-
-.btn.transparent, .btn.solid:hover{
-    background-color: transparent;
-    color: #fff;
-}
-
-.nav-links > ul{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.nav-link{
-    position: relative;
-}
-
-.nav-link > a{
-    line-height: 3rem;
-    color: #fff;
-    padding: 0 .8rem;
-    letter-spacing: 1px;
-    font-size: .95rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    transition: .5s;
-}
-
-.nav-link > a > i{
-    margin-left: .2rem;
-}
-
-.nav-link:hover > a{
-    transform: scale(1.1);
-}
-
-.dropdown{
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 10rem;
-    transform: translateY(10px);
-    opacity: 0;
-    pointer-events: none;
-    transition: .5s;
-}
-
-.dropdown ul{
-    position: relative;
-}
-
-.dropdown-link > a{
-    display: flex;
-    background-color: #fff;
-    color: #3498db;
-    padding: .5rem 1rem;
-    font-size: .9rem;
-    align-items: center;
-    justify-content: space-between;
-    transition: .3s;
-}
-
-.dropdown-link:hover > a{
-    background-color: #3498db;
-    color: #fff;
-}
-
-.dropdown-link:not(:nth-last-child(2)){
-    border-bottom: 1px solid #efefef;
-}
-
-.dropdown-link i{
-    transform: rotate(-90deg);
-}
-
-.arrow{
-    position: absolute;
-    width: 11px;
-    height: 11px;
-    top: -5.5px;
-    left: 32px;
-    background-color: #fff;
-    transform: rotate(45deg);
-    cursor: pointer;
-    transition: .3s;
-    z-index: -1;
-}
-
-.dropdown-link:first-child:hover ~ .arrow{
-    background-color: #3498db;
-}
-
-.dropdown-link{
-    position: relative;
-}
-
-.dropdown.second{
-    top: 0;
-    left: 100%;
-    padding-left: .8rem;
-    cursor: pointer;
-    transform: translateX(10px);
-}
-
-.dropdown.second .arrow{
-    top: 10px;
-    left: -5.5px;
-}
-
-.nav-link:hover > .dropdown,
-.dropdown-link:hover > .dropdown{
-    transform: translate(0, 0);
-    opacity: 1;
-    pointer-events: auto;
-}
-
-.hamburger-menu-container{
-    flex: 1;
-    display: none;
-    align-items: center;
-    justify-content: flex-end;
-}
-
-.hamburger-menu{
-    width: 2.5rem;
-    height: 2.5rem;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-}
-
-.hamburger-menu div{
-    width: 1.6rem;
-    height: 3px;
-    border-radius: 3px;
-    background-color: #fff;
-    position: relative;
-    z-index: 1001;
-    transition: .5s;
-}
-
-.hamburger-menu div:before,
-.hamburger-menu div:after{
-    content: '';
-    position: absolute;
-    width: inherit;
-    height: inherit;
-    background-color: #fff;
-    border-radius: 3px;
-    transition: .5s;
-}
-
-.hamburger-menu div:before{
-    transform: translateY(-7px);
-}
-
-.hamburger-menu div:after{
-    transform: translateY(7px);
-}
-
-#check{
-    position: absolute;
-    top: 50%;
-    right: 1.5rem;
-    transform: translateY(-50%);
-    width: 2.5rem;
-    height: 2.5rem;
-    z-index: 90000;
-    cursor: pointer;
-    opacity: 0;
-    display: none;
-}
-
-#check:checked ~ .hamburger-menu-container .hamburger-menu div{
-    background-color: transparent;
-}
-
-#check:checked ~ .hamburger-menu-container .hamburger-menu div:before{
-    transform: translateY(0) rotate(-45deg);
-}
-
-#check:checked ~ .hamburger-menu-container .hamburger-menu div:after{
-    transform: translateY(0) rotate(45deg);
-}
-
-@keyframes animation{
-    from{
-        opacity: 0;
-        transform: translateY(15px);
-    }
-    to{
-        opacity: 1;
-        transform: translateY(0px);
-    }
-}
-
-@media (max-width: 920px){
-    .hamburger-menu-container{
-        display: flex;
-    }
-
-    #check{
-        display: block;
-    }
-
-    .nav-btn{
-        position: fixed;
-        height: calc(100vh - 3rem);
-        top: 3rem;
-        left: 0;
-        width: 100%;
-        background-color: #69bde7;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
-        overflow-x: hidden;
-        overflow-y: auto;
-        transform: translateX(100%);
-        transition: .65s;
-    }
-
-    #check:checked ~ .nav-btn{
-        transform: translateX(0);
-    }
-
-    #check:checked ~ .nav-btn .nav-link,
-    #check:checked ~ .nav-btn .log-sign{
-        animation: animation .5s ease forwards var(--i);
-    }
-
-    .nav-links{
-        flex: initial;
-        width: 100%;
-    }
-
-    .nav-links > ul{
-        flex-direction: column;
-    }
-
-    .nav-link{
-        width: 100%;
-        opacity: 0;
-        transform: translateY(15px);
-    }
-
-    .nav-link > a{
-        line-height: 1;
-        padding: 1.6rem 2rem;
-    }
-
-    .nav-link:hover > a{
-        transform: scale(1);
-        background-color: #50a9d6;
-    }
-
-    .dropdown, .dropdown.second{
-        position: initial;
-        top: initial;
-        left: initial;
-        transform: initial;
-        opacity: 1;
-        pointer-events: auto;
-        width: 100%;
-        padding: 0;
-        background-color: #3183ac;
-        display: none;
-    }
-    
-    .nav-link:hover > .dropdown,
-    .dropdown-link:hover > .dropdown{
-        display: block;
-    }
-
-    .nav-link:hover > a > i,
-    .dropdown-link:hover > a > i{
-        transform: rotate(360deg);
-    }
-
-    .dropdown-link > a{
-        background-color: transparent;
-        color: #fff;
-        padding: 1.2rem 2rem;
-        line-height: 1;
-    }
-
-    .dropdown.second .dropdown-link > a{
-        padding: 1.2rem 2rem 1.2rem 3rem;
-    }
-
-    .dropdown.second .dropdown.second .dropdown-link > a{
-        padding: 1.2rem 2rem 1.2rem 4rem;
-    }
-
-    .dropdown-link:not(:nth-last-child(2)){
-        border-bottom: none;
-    }
-
-    .arrow{
-        z-index: 1;
-        background-color: #69bde7;
-        left: 10%;
-        transform: scale(1.1) rotate(45deg);
-        transition: .5s;
-    }
-
-    .nav-link:hover .arrow{
-        background-color: #50a9d6;
-    }
-
-    .dropdown .dropdown .arrow{
-        display: none;
-    }
-
-    .dropdown-link:hover > a{
-        background-color: #3a91bd;
-    }
-
-    .dropdown-link:first-child:hover ~ .arrow{
-        background-color: #50a9d6;
-    }
-
-    .nav-link > a > i{
-        font-size: 1.1rem;
-        transform: rotate(-90deg);
-        transition: .7s;
-    }
-
-    .dropdown i{
-        font-size: 1rem;
-        transition: .7s;
-    }
-
-    .log-sign{
-        flex: initial;
-        width: 100%;
-        padding: 1.5rem 1.9rem;
-        justify-content: flex-start;
-        opacity: 0;
-        transform: translateY(15px);
-    }
-   
-}
-.alternate{
-  background-color: rgb(194, 58, 54);
-  color:white;
+<body class="js">
+	
+	<!-- Preloader -->
   
-}
-span{
-  color:black;
-
-}
-</style>
-<body>
-
-  <!-- Navigation -->
-    
-  <header >
-        <div class="alternate d-flex  justify-content-center align-content-center  p-2" >
-              <span >
-                <h3 style="font-weight:bold;color:white;">
-                  Besoin d'aide pour commander ? whatsapp <span style="background:white;color:green;border-radius:60px;padding-left:5px;padding-right:5px;"><i class="fa fa-whatsapp " aria-hidden="true"></i>77 478 19 07</span>
-                </h3>
-              </span>  
-              
-        </div>
-        <div class="">
-          
-          <div class="">
-            <div class="container d-flex justify-content-start">
-              <div >@include('partials.search')</div>
-              <div class="nav-btn container mr-1 mt-4" > 
-                <div class="nav-links" style=" " >
-                  <ul style="" class="d-flex  justify-content-between w-100"> 
-                    <li>
-                      <a href="" class="btn btn-success"  data-toggle="modal" data-target="#ModalLogin"> <i class="fas fa-user-lock fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i>Connexion</a>
-                    </li>
-                    <li>
-                      <a href="" class="btn btn-primary" data-toggle="modal" data-target="#myModal"> <i class="fas fa-sign-in-alt fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i>S'inscrire</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="d-flex justify-content-end">
-              <div id="mylogo">
-                <a href="/espace_client">
-                  <img style="" src="{{asset('images/logo.png')}}" width="150px" height="70px">
-                </a> 
-              </div>
-              <div class="nav-btn container mr-1 mt-4 col-12" > 
-                <div class="nav-links" style=" " >
-                    <ul style="" class="d-flex  justify-content-between w-100"> 
-                      <div class="topbar-divider d-none d-sm-block"></div>
-                          <li class="nav-link " >
-                            <a href="#" class="menu" style="font-size:18px;">
-                              <i class="fas fa-medkit fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i>
-                              Accueil
-                            </a>
-                          </li>
-                          <li class="nav-link mr-1" >
-                            <a href="#" class="menu" style="font-size:18px;">
-                              <i class="fas fa-medkit fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i>
-                              A Propos<i class="fas fa-caret-down"></i>
-                            </a>
-                            <div class="dropdown " style="width:300px;" >
-                                <ul style="width:100%;">
-                                    <li class="dropdown-link">
-                                        <a href="#">Mention légale</a>
-                                    </li>
-                                    <li class="dropdown-link">
-                                        <a href="#">Conditions générales de vente</a>
-                                    </li>
-                                    <li class="dropdown-link">
-                                        <a href="#">Contact<i class="fas fa-caret-down"></i></a>
-                                    </li>   
+	<!-- End Preloader -->
+	
+	
+	<!-- Header -->
+	<header class="header shop">
+		<!-- Topbar -->
+		<div class="topbar">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4 col-md-12 col-12">
+						<!-- Top Left -->
+						<div class="top-left">
+							<ul class="list-main">
+								<li><i class="fa fa-whatsapp " aria-hidden="true"></i> 77 478 19 07</li>
+								<li><i class="ti-email"></i> support@matcosen.com</li>
+							</ul>
+						</div>
+						<!--/ End Top Left -->
+					</div>
+					<div class="col-lg-8 col-md-12 col-12">
+						<!-- Top Right -->
+						<div class="right-content">
+							<ul class="list-main">
+								<li><i class="ti-user"></i> <a href="#">Inscription</a></li>
+								<li><i class="ti-power-off"></i><a href="login.html#">Connexion</a></li>
+							</ul>
+						</div>
+						<!-- End Top Right -->
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Topbar -->
+		<div class="middle-inner">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-2 col-md-2 col-12">
+						<!-- Logo -->
+						<div class="logo">
+							<a href="index.html"><img src="images/logo.png" alt="logo"></a>
+						</div>
+						<!--/ End Logo -->
+						<!-- Search Form -->
+						<div class="search-top">
+							<div class="top-search"><a href="#0"><i class="ti-search"></i></a></div>
+							<!-- Search Form -->
+							<div class="search-top">
+								<form class="search-form">
+									<input type="text" placeholder="Recherche de produits...." name="search">
+									<button value="search" type="submit"><i class="ti-search"></i></button>
+								</form>
+							</div>
+							<!--/ End Search Form -->
+						</div>
+						<!--/ End Search Form -->
+						<div class="mobile-nav"></div>
+					</div>
+					<div class="col-lg-8 col-md-7 col-12">
+						<div class="search-bar-top">
+							<div class="search-bar">
+								<select  class="w-auto">
+									<option selected="selected">Tous produits</option>
+									<option>electricite</option>
+									<option>maçonnerie</option>
+									<option>peinture</option>
+                  <option>sanitaire et plomberie</option>
+								</select>
+								<form>
+									<input name="search" placeholder="Recherche de produits....." type="search">
+									<button class="btnn"><i class="ti-search"></i></button>
+								</form>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-3 col-12">
+						<div class="right-bar">
+							<!-- Search Form -->
+							<div class="sinlge-bar">
+								<a href="#" class="single-icon"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+							</div>
+							<div class="sinlge-bar">
+								<a href="#" class="single-icon"><i class="fa fa-user-circle-o" aria-hidden="true"></i></a>
+							</div>
+							<div class="sinlge-bar shopping">
+								<a href="#" class="single-icon"><i class="fas fa-shopping-cart fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i> <span class="total-count">2</span></a>
+								<!-- Shopping Item -->
+								<div class="shopping-item">
+									<div class="dropdown-cart-header">
+										<span>2 produits</span>
+										<a href="#">Affichage panier</a>
+									</div>
+									<ul class="shopping-list">
+										<li>
+											<a href="#" class="remove" title="Remove this item"><i class="fa fa-remove"></i></a>
+											<a class="cart-img" href="#"><img src="https://via.placeholder.com/70x70" alt="#"></a>
+											<h4><a href="#">Woman Ring</a></h4>
+											<p class="quantity">1x - <span class="amount">$99.00</span></p>
+										</li>
+										<li>
+											<a href="#" class="remove" title="Remove this item"><i class="fa fa-remove"></i></a>
+											<a class="cart-img" href="#"><img src="https://via.placeholder.com/70x70" alt="#"></a>
+											<h4><a href="#">Woman Necklace</a></h4>
+											<p class="quantity">1x - <span class="amount">$35.00</span></p>
+										</li>
+									</ul>
+									<div class="bottom">
+										<div class="total">
+											<span>Total</span>
+											<span class="total-amount">$134.00</span>
+										</div>
+										<a href="checkout.html" class="btn animate">Checkout</a>
+									</div>
+								</div>
+								<!--/ End Shopping Item -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Header Inner -->
+		<div class="header-inner">
+			<div class="container">
+				<div class="cat-nav-head">
+					<div class="row">
+						<div class="col-lg-3">
+							<div class="all-category">
+								<h3 class="cat-heading"><i class="fa fa-bars" aria-hidden="true"></i>CATEGORIES</h3>
+								<ul class="main-category">
+									<li><a href="#">Nouvelles arrivées <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+										<ul class="sub-category">
+											<li><a href="#">accessories</a></li>
+											<li><a href="#">meilleure vente</a></li>
+											<li><a href="#">top 100 des produits</a></li>
+											<li><a href="#">materiel de construction</a></li>
+											<li><a href="#">toilettes</a></li>
+											<li><a href="#">accessoires d'electricité</a></li>
+											<li><a href="#">peinture de qualité</a></li>
+											
+										</ul>
+									</li>
+									<li class="main-mega"><a href="#">Indispensables à la maison <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+										<ul class="mega-menu">
+											<li class="single-menu">
+												<a href="#" class="title-link">Shop Kid's</a>
+												<div class="image">
+													<img src="https://via.placeholder.com/225x155" alt="#">
+												</div>
+												<div class="inner-link">
+													<a href="#">Kids Toys</a>
+													<a href="#">Kids Travel Car</a>
+													<a href="#">Kids Color Shape</a>
+													<a href="#">Kids Tent</a>
+												</div>
+											</li>
+											<li class="single-menu">
+												<a href="#" class="title-link">Shop Men's</a>
+												<div class="image">
+													<img src="https://via.placeholder.com/225x155" alt="#">
+												</div>
+												<div class="inner-link">
+													<a href="#">Watch</a>
+													<a href="#">T-shirt</a>
+													<a href="#">Hoodies</a>
+													<a href="#">Formal Pant</a>
+												</div>
+											</li>
+											<li class="single-menu">
+												<a href="#" class="title-link">Shop Women's</a>
+												<div class="image">
+													<img src="https://via.placeholder.com/225x155" alt="#">
+												</div>
+												<div class="inner-link">
+													<a href="#">Ladies Shirt</a>
+													<a href="#">Ladies Frog</a>
+													<a href="#">Ladies Sun Glass</a>
+													<a href="#">Ladies Watch</a>
+												</div>
+											</li>
+										</ul>
+									</li>
+									<li><a href="#">accessories</a></li>
+									<li><a href="#">meilleure vente</a></li>
+									<li><a href="#">top 100 des produits</a></li>
+									<li><a href="#">materiel de construction</a></li>
+									<li><a href="#">toilettes</a></li>
+									<li><a href="#">accessoires d'electricité</a></li>
+									<li><a href="#">peinture de qualité</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-lg-9 col-12">
+							<div class="menu-area">
+								<!-- Main Menu -->
+								<nav class="navbar navbar-expand-lg">
+									<div class="navbar-collapse">	
+										<div class="nav-inner">	
+											<ul class="nav main-menu menu navbar-nav">
+													<li class="active"><a href="#"><i class="fas fa-home fa-lg fa-fw mr-2 text-gray-400" aria-hidden="true"></i>Accueuil</a></li>
+													<li><a href="#"><i class="fas fa-medkit fa-lg fa-fw mr-2 text-gray-400" aria-hidden="true"></i>A propos<i class="ti-angle-down"></i></a>
+                            <ul class="dropdown">
+                                <li><a href="shop-grid.html">Mention légale</a></li>
+                                <li><a href="cart.html">Conditions générales de vente</a></li>
+                                <li><a href="checkout.html">Contact</a></li>
+                                
+                            </ul>
+                          </li>												
+													<li><a href="#">Produits</a></li>
+													<li><a href="#">Nos categories<i class="ti-angle-down"></i></a>
+														<ul class="dropdown">
+															<li><a href="shop-grid.html">Electricité</a>
+                                <ul class="sub-category">
+                                  <li><a href="#">Cablage</a></li>
+                                  <li><a href="#">Appareillage</a></li>
+                                  <li><a href="#">Protection</a></li>
+                                  <li><a href="#">Elairage</a></li>
+                                  
                                 </ul>
-                            </div>
-                          </li>
-                          <li class="nav-link " >
-                            <a href="#" class="menu" style="font-size:18px;">
-                              <i class="far fa-address-book fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i>
-                              Nous contacter
-                            </a>
-                          </li>
-                          <li class="nav-link " >
-                            <a href="#" class="menu" style="font-size:18px;">
-                              <i class="fas fa-phone-volume fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i>
-                              Rappel gratuit
-                            </a>
-                          </li>     
-                    </ul>
-                </div>
-              </div>
-            </div> 
-          </div>
-          
-        </div>
-    </header>
-   @if (session('success'))
-      <div class="alert alert-success">
-          {{ session('success') }}
-      </div>
-  @endif
-
-  @if (session('error'))
-    <div class="alert alert-danger">
-        {{ session('error') }}
-    </div>
-  @endif
-
-  @if (count($errors) > 0)
-      <div class="alert alert-danger">
-        <ul class="mb-0 mt-0">
-          @foreach ($errors->all() as $error)
-          <li>{{ $error }}</li>
-          @endforeach
-        </ul>
-      </div>
-  @endif
-
-
-
-    @if (request()->input('q'))
-    <h4 style="font-size: 24px;border: 3px solid #60b4df;background-color:white;text-align: center;"><span style="color: #60b4df;"> {{$products->total() }} résultat(s) pour la recherche "{{ request()->q }}"</span></h4>
-  @endif
-  <!-- Page Content -->
-  <main>
-        <div class="wrapper container" style="margin-top:30px;">
-              <!----- Sidebarr leftt---->
-            <aside class="left-sidebar bg-sidebar w-auto" style="height:80vh;background-color:white;margin-right:30px;">
-              <div id="sidebar" class="sidebar sidebar-with-footer">
-                <!-- Aplication Brand -->
-                
-                <!-- begin sidebar scrollbar -->
-                <div class="sidebar-scrollbar" >
-
-                  <!-- sidebar menu -->
-                  <div class="d-flex justify-content-center" style="background-color:rgb(1, 20, 82);padding:10px;"><h3 style="color:white;">E-QUINC</h3></div>
-                  <ul class="nav sidebar-inner" id="sidebar-menu"> 
-                      <li  class="has-sub  expand" >
-                        <a class="sidenav-item-link" href="{{url('/home')}}" data-toggle="collapse" data-target="#dashboard"
-                          aria-expanded="false" aria-controls="dashboard">
-                          <i class="fas fa-home "></i>
-                          <span class="nav-text">Acceuil</span> <b class="caret"></b>
-                        </a>  
-                      </li>
-                      <hr class="separator" />
-                      <label for="" ><span style="color: #C0C0C0;font-size: 20px;">Catégories de produits</span></label>
-                      <li  class="has-sub" >
-                        <a class="sidenav-item-link" href="javascript:void(0)" data-toggle="collapse" data-target="#ui-elements"
-                          aria-expanded="false" aria-controls="ui-elements">
-                          <i class="fas fa-charging-station"></i>
-                          <span class="nav-text">Electricité</span> <b class="caret"></b>
-                        </a>
-                        <ul  class="collapse"  id="ui-elements"
-                          data-parent="#sidebar-menu">
-                          <div class="sub-menu"> 
-                            <li  class="has-sub" >
-                              <a class="sidenav-item-link" href="javascript:void(0)" data-toggle="collapse" data-target="#components"
-                                aria-expanded="false" aria-controls="components">
-                                <span class="nav-text">Eclairage</span> <b class="caret"></b>
-                              </a>   
-                            </li>
-                              
-                            <li  class="has-sub" >
-                              <a class="sidenav-item-link" href="javascript:void(0)" data-toggle="collapse" data-target="#icons"
-                                aria-expanded="false" aria-controls="icons">
-                                <span class="nav-text">Cablage</span> <b class="caret"></b>
-                              </a> 
-                            </li>
-                            <li  class="has-sub" >
-                              <a class="sidenav-item-link" href="javascript:void(0)" data-toggle="collapse" data-target="#forms"
-                                aria-expanded="false" aria-controls="forms">
-                                <span class="nav-text">Appareillage</span> <b class="caret"></b>
-                              </a> 
-                            </li>
-                            <li  class="has-sub" >
-                              <a class="sidenav-item-link" href="javascript:void(0)" data-toggle="collapse" data-target="#forms"
-                                aria-expanded="false" aria-controls="forms">
-                                <span class="nav-text">Protection</span> <b class="caret"></b>
-                              </a> 
-                            </li>
-                          </div>
-                        </ul>
-                      </li>
-                      <li  class="has-sub" >
-                        <a class="sidenav-item-link" href="javascript:void(0)" data-toggle="collapse" data-target="#charts"
-                          aria-expanded="false" aria-controls="charts">
-                          <i class="fas fa-toilet"></i>
-                          <span class="nav-text">Sanitaire et Plomberie</span> <b class="caret"></b>
-                        </a>
-                        <ul  class="collapse"  id="charts"
-                          data-parent="#sidebar-menu">
-                          <div class="sub-menu">
-                                <li >
-                                  <a class="sidenav-item-link" href="chartjs.html">
-                                    <span class="nav-text">Salle de bain</span>                            
-                                  </a>
-                                </li>
-                                <li >
-                                  <a class="sidenav-item-link" href="chartjs.html">
-                                    <span class="nav-text">Robineterie</span>  
-                                  </a>
-                                </li> 
-                          </div>
-                        </ul>
-                      </li>
-                      <li  class="has-sub" >
-                        <a class="sidenav-item-link" href="javascript:void(0)" data-toggle="collapse" data-target="#charts"
-                          aria-expanded="false" aria-controls="charts">
-                          <i class="fab fa-buffer"></i>
-                          <span class="nav-text">Maçonnerie</span> <b class="caret"></b>
-                        </a>
-                        <ul  class="collapse"  id="charts"
-                          data-parent="#sidebar-menu">
-                          <div class="sub-menu">
-                                <li >
-                                  <a class="sidenav-item-link" href="chartjs.html">
-                                    <span class="nav-text">Ciment</span>                            
-                                  </a>
-                                </li>
-                                <li >
-                                  <a class="sidenav-item-link" href="chartjs.html">
-                                    <span class="nav-text">Fer</span>  
-                                  </a>
-                                </li> 
-                                <li >
-                                  <a class="sidenav-item-link" href="chartjs.html">
-                                    <span class="nav-text">Graviers</span>  
-                                  </a>
-                                </li> 
-                          </div>
-                        </ul>
-                      </li>
-                      <li  class="has-sub" >
-                        <a class="sidenav-item-link" href="javascript:void(0)" data-toggle="collapse" data-target="#charts"
-                          aria-expanded="false" aria-controls="charts">
-                          <i class="fas fa-paint-roller"></i>
-                          <span class="nav-text">Peinture</span> <b class="caret"></b>
-                        </a> 
-                      </li>
-                      <hr class="separator" />  
-                  </ul>
-                </div>   
-              </div>
-            </aside>
-          <div class=" page-wrapper" style="width:100%;padding-top:0px;margin-top:1px;">
-            <div class="" style="width:100%;height:65vh;">
-              <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                              </li>
+															<li><a href="cart.html">Sanitaire et Plomberie</a>
+                               
+                              </li>
+															<li><a href="checkout.html">Maçonnerie</a>
+                                
+                              </li>
+                              <li><a href="checkout.html">Peinture</a></li> 
+														</ul>
+													</li>
+													<li><a href="#">Nous contacter</a></li>									
+													
+												</ul>
+										</div>
+									</div>
+								</nav>
+								<!--/ End Main Menu -->	
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--/ End Header Inner -->
+	</header>
+	<!--/ End Header -->
+	
+	<!-- Slider Area -->
+	<section class="hero-slider">
+		<!-- Single Slider -->
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                   <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
                   <li data-target="#carousel-example-generic" data-slide-to="1"></li>
@@ -759,410 +369,317 @@ span{
                     <span class="sr-only">Next</span>
                   </a>
               </div>
-            </div>
-          </div>
-        </div>
-          <div class="pt-2">
-            <aside style="">
-                <p style="border-bottom: 2px solid #60b4df ;font-size: 20px;color: black;"><em> Nos Cathegories.</em></p>
-                  <div class="container d-flex justify-content-between">
-                  <li><a style="border-bottom: 2px solid #60b4df;color: black;font-weight:bold; ">Maconnerie  <span style="background-color:#60b4df;font-size: 23px; ">{{ $TotalMacon ?? ''}}</span><a></li>
-                  <li><a style="border-bottom: 2px solid #60b4df;color: black;font-weight:bold; ">Sanitaire et Plomberie  <span style="background-color:#60b4df;font-size: 23px; ">{{$TotalSanitaire_plomberie ?? ''}}</span></a></li>
-                  <li><a style="border-bottom: 2px solid #60b4df;color: black;font-weight:bold; ">Peinture <span style="background-color:#60b4df;font-size: 23px; ">{{$TotalPeinture ?? ''}}</span></a></li>
-                  <li><a style="border-bottom: 2px solid #60b4df;color: black;font-weight:bold; ">Electricite <span style="background-color:#60b4df;font-size: 23px; ">{{$TotalElectricite ?? ''}}</span></a></li>
-                  </div>
-              </aside>
-              @yield('content')
-          </div>
-          <div class="container">
-            <h2 style="text-align:center;padding: 20px;" class="">   Les grandes Marques vous attendent </h2>
-            <div style="background-image: url({{asset('images/salle-bain.jpg')}}); height: 420px;">
-                <i></i><span style="font-size: 30px; ">300<br>
-                <em style="font-size: 30px;">Produits disponibles<br>
-                Une large gamme de produits<br>
-                disponible au meilleur prix.<em></span>
-                <i></i><span style="">24h/24<br>
-                Produits disponibles<br>
-                Une large gamme de produits<br>
-                disponible au meilleur prix.</span>
-                <i></i><span style=" ">100%<br>
-                <em style="font-size: 30px;">Produits disponibles<br>
-                Une large gamme de produits
-                disponible au meilleur prix.<em></span>
-            </div>  
-            <div class="container" style="top: 40px;">
-              <h2 style="text-align:center;padding: 20px;">   Les grandes Marques vous attendent </h2>
-            </div>
-                                <!-- Footer -->
-              <marquee style="background:url({{asset('images/construction.jpg')}});"> <section class="page-footer font-small mdb-color lighten-3 pt-4">
-                <!-- Footer Elements -->
-                <div class="container">
-
-                  <!--Grid row-->
-                  <div class="row">
-
-                    <!--Grid column-->
-                    <div class="col-lg-2 col-md-12 mb-4">
-
-                      <!--Image-->
-                      <div class="view overlay z-depth-1-half">
-                        <img src="{{asset('images/marque7.png')}}" class="img-fluid"
-                          alt="" >
-                        <a href="">
-                          <div class="mask rgba-white-light"></div>
-                        </a>
-                      </div>
-
-                    </div>
-                    <!--Grid column-->
-
-                    <!--Grid column-->
-                    <div class="col-lg-2 col-md-6 mb-4">
-
-                      <!--Image-->
-                      <div class="view overlay z-depth-1-half">
-                        <img src="{{asset('images/marque6.jpg')}}" class="img-fluid"
-                          alt="">
-                        <a href="">
-                          <div class="mask rgba-white-light"></div>
-                        </a>
-                      </div>
-
-                    </div>
-                    <!--Grid column-->
-
-                    <!--Grid column-->
-                    <div class="col-lg-2 col-md-6 mb-4">
-
-                      <!--Image-->
-                      <div class="view overlay z-depth-1-half">
-                        <img src="{{asset('images/marque4.png')}}" class="img-fluid"
-                          alt="">
-                        <a href="">
-                          <div class="mask rgba-white-light"></div>
-                        </a>
-                      </div>
-
-                    </div>
-                    <!--Grid column-->
-
-                    <!--Grid column-->
-                    <div class="col-lg-2 col-md-12 mb-4">
-
-                      <!--Image-->
-                      <div class="view overlay z-depth-1-half">
-                        <img src="{{asset('images/marque3.jpg')}}" class="img-fluid"
-                          alt="">
-                        <a href="">
-                          <div class="mask rgba-white-light"></div>
-                        </a>
-                      </div>
-
-                    </div>
-                    <!--Grid column-->
-
-                    <!--Grid column-->
-                    <div class="col-lg-2 col-md-6 mb-4">
-
-                      <!--Image-->
-                      <div class="view overlay z-depth-1-half">
-                        <img src="{{asset('images/marque2.png')}}" class="img-fluid"
-                          alt="">
-                        <a href="">
-                          <div class="mask rgba-white-light"></div>
-                        </a>
-                      </div>
-
-                    </div>
-                    <!--Grid column-->
-
-                    <!--Grid column-->
-                    <div class="col-lg-2 col-md-6 mb-4">
-
-                      <!--Image-->
-                      <div class="view overlay z-depth-1-half">
-                        <img src="{{asset('images/marque1.jpg')}}" class="img-fluid"
-                          alt="">
-                        <a href="">
-                          <div class="mask rgba-white-light"></div>
-                        </a>
-                      </div>
-
-                    </div>
-                    <!--Grid column-->
-
-                  </div>
-                  <!--Grid row-->
-
-                </div>
-                </marquee>
-  </main>
-  
-      <!-- Debut modall inscriptionnnn -->
-          <div class="modal fade" id="myModal">
-                <div class="modal-dialog modal-lg">
-                    <div class="modal-content">
-                        <!-- Modal Header -->
-                        <div class="modal-header" style="background-color:rgb(35, 127, 247);">
-                          <a class="navbar-brand d-none d-sm-inline-block form-inline mr-auto ml-md-3 mb-md-3 my-2 my-md-0 mw-100" href="index.html">
-                            <div id="mylogo">
-                              <img style="" src="{{asset('images/logo.png')}}" width="150px" height="70px">
-                            </div>
-                          </a>
-                            <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        </div>                        
-                        <!-- Modal body -->
-                        <div class="modal-body container">
-                            <form action="{{route('ajouter_user')}}" method="post">
-                            @csrf
-                                <div class="row">   
-                                    <div class="form-group col-12 col-sm-12 col-md-6">
-                                        <label for="sexe" class=" ">Sexe</label>
-                                        <div class="col-sm-10">
-                                            <select name="genre" id="genre" class="form-control">
-                                                <option value="masculin">Masculin</option>
-                                                <option value="feminin">Feminin</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="form-group col-12 col-sm-12 col-md-6">
-                                        <label for="inputEmail" class="">Prenom<span style="background-colol:red;">*</span></span></label>
-                                        <div class="col-sm-10">
-                                            <input type="text" class="form-control" id="prenom" name="prenom" placeholder="Entrer Prenom">
-                                        </div>
-                                    </div>
-                                    <div class="form-group col-12 col-sm-12 col-md-6">
-                                        <label for="inputPassword" class="">Nom</label>
-                                        <div class="col-sm-10">
-                                            <input type="text" class="form-control" id="nom" name="nom" placeholder="Entrer Nom">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row ">
-                                    <div class="form-group col-12 col-sm-12 col-md-6">
-                                            <label for="inputPassword" class="">Adresse</label>
-                                            <div class="col-sm-10">
-                                                <input type="text" class="form-control" id="adresse" name="adresse" placeholder="Entrer Adresse">
-                                            </div>
-                                      </div>
-                                    
-                                    <div class="form-group col-12 col-sm-12 col-md-6">
-                                        <label for="inputPassword" class="">Telephone</label>
-                                        <div class="col-sm-10">
-                                            <input type="text" class="form-control" id="lieu" name="phone" placeholder="Entrer Telephone">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="form-group col-12 ">
-                                        <label for="inputPassword" class=" ">Email</label>
-                                        <div class="col-sm-10">
-                                            <input type="email" class="form-control" id="date" name="email" placeholder="Entrer mail">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row ">
-                                    <div class="form-group col-12 col-sm-12 col-md-6">
-                                            <label for="inputPassword" class="">Mot de passe</label>
-                                            <div class="col-sm-10">
-                                                <input type="password" class="form-control" id="adresse" name="password" placeholder="Entrer password">
-                                            </div>
-                                      </div>
-                                    
-                                    <div class="form-group col-12 col-sm-12 col-md-6">
-                                        <label for="inputPassword" class="">Cofirmer mot de passe</label>
-                                        <div class="col-sm-10">
-                                            <input type="password" class="form-control" id="lieu" name="confirme_pass" placeholder="confirmer password">
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="d-flex justify-content-center">         
-                                    <button type="submit" style="width:200px;" class="btn btn-success">Enregistrer</button>
-                                    <button type="reset" style="width:200px;" class="btn btn-danger" data-dismiss="modal">Annuler</button>
-                                </div>
-                            </form>
-                        </div>      
-                                        
-                    </div>
-                </div>
-            </div>
-       <!--fin modall inscription-->
-       <!-- Debut modall inscriptionnnn -->
-			<div class="modal fade" id="ModalLogin">
-                <div class="modal-dialog modal-lg">
-                    <div class="modal-content">
-                        <!-- Modal Header -->
-                        <div class="modal-header" style="background-color:rgb(35, 127, 247);">
-                          <a class="navbar-brand d-none d-sm-inline-block form-inline mr-auto ml-md-3 mb-md-3 my-2 my-md-0 mw-100" href="index.html">
-                            <div id="mylogo">
-                              <img style="" src="{{asset('images/logo.png')}}" width="150px" height="70px">
-                            </div>
-                          </a>
-                            <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        </div>                        
-                        <!-- Modal body -->
-                        <div class="modal-body container">
-						<div class=" container-auth " style="height:100%;overflow-x:scroll;">
-			<div class="card auth ">
-				<div class="card-header auth-header login100-form-title" style="background-image: url({{asset('images/consultation-medicale.jpg')}});">
-					<span class="login100-form-title-1">
-						Authentification
-					</span>
+		<!--/ End Single Slider -->
+	</section>
+	<!--/ End Slider Area -->
+		<div>
+			@yield('content')
+		</div>
+	<!-- Start Shop Services Area -->
+	<section class="shop-services section home">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-md-6 col-12">
+					<!-- Start Single Service -->
+					<div class="single-service">
+						<i class="ti-rocket"></i>
+						<h4>Free shiping</h4>
+						<p>Orders over $100</p>
+					</div>
+					<!-- End Single Service -->
 				</div>
-				<div class="card-body auth-body" >
-					<form class="auth-form" method="POST" action="{{ route('login') }}">
-						@csrf
-						<div class="mb-5" data-validate="Username is required">
-							<!-- class="label-input100">Identifiant</span-->
-							<div class="input-group login">
-								<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-								<input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus placeholder="Entrer votre login" >
-
-								@error('email')
-									<span class="invalid-feedback" role="alert">
-										<strong>{{ $message }}</strong>
-									</span>
-								@enderror
-							</div>
-							<span class=""></span>
-						</div>
-
-						<div class="mb-2" data-validate = "Password is required">
-							<!--span class="label-input100">Mot de passe</span-->
-							<div class="input-group pass">
-								<span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
-								<input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="current-password" placeholder="Entrer votre mot de passe" >
-
-								@error('password')
-									<span class="invalid-feedback" role="alert">
-										<strong>{{ $message }}</strong>
-									</span>
-								@enderror
-							</div>
-							<span class=""></span>
-						</div>
-
-						<div class="mb-3 d-flex justify-content-end">
-							@if (Route::has('password.request'))
-								<a class="" href="{{ route('password.request') }}">
-									Mot de passe oublié?
-								</a>
-							@endif
-						</div>
-						<div class="d-flex justify-content-center " style="">
-							<button class="btn-auth btn btn-success" >
-								Se Connecter
-							</button>
-							
-						</div>
-					</form>
+				<div class="col-lg-3 col-md-6 col-12">
+					<!-- Start Single Service -->
+					<div class="single-service">
+						<i class="ti-reload"></i>
+						<h4>Free Return</h4>
+						<p>Within 30 days returns</p>
+					</div>
+					<!-- End Single Service -->
+				</div>
+				<div class="col-lg-3 col-md-6 col-12">
+					<!-- Start Single Service -->
+					<div class="single-service">
+						<i class="ti-lock"></i>
+						<h4>Sucure Payment</h4>
+						<p>100% secure payment</p>
+					</div>
+					<!-- End Single Service -->
+				</div>
+				<div class="col-lg-3 col-md-6 col-12">
+					<!-- Start Single Service -->
+					<div class="single-service">
+						<i class="ti-tag"></i>
+						<h4>Best Peice</h4>
+						<p>Guaranteed price</p>
+					</div>
+					<!-- End Single Service -->
 				</div>
 			</div>
 		</div>
-    </div>                                      
-    </div>
-    </div>
-    </div>
-   
-  <!-- Footer Elements -->
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-<!-- Footer -->
-<hr style="height:3px;border-width:0;color:gray;background-color:#60b4df">
-
-<div class="container-fluid" style="padding-left:0px;padding-right:0px;"> 
-    <output class="bg-white shadow-sm" style="width:100%;">
-   
-        <footer class="section-footer border-top" style="background-color:rgb(1, 20, 82)">
-            <div class="container-fluid">
-                <section class="footer-top padding-y">
-                    <div class="row">
-                        <aside class="col-md-4">
-                            <article class="mr-3"> <img style="" src="{{asset('images/logo.png')}}" width="150px" height="70px" class="logo-footer">
-                              <h5 class="font-weight-bold text-uppercase mb-4" style="font-size: 35px;color: white;">E-Quinc</h5>
-                                <p class="mt-3 description">Bienvenue a votre quincailerie digitale de reference .</p>
-                                <div> <a class="btn btn-icon btn-light" title="Facebook" target="_blank" href="#" data-abc="true"><i class="fab fa-facebook-f"></i></a> <a class="btn btn-icon btn-light" title="Instagram" target="_blank" href="#" data-abc="true"><i class="fab fa-instagram"></i></a> <a class="btn btn-icon btn-light" title="Youtube" target="_blank" href="#" data-abc="true"><i class="fab fa-youtube"></i></a> <a class="btn btn-icon btn-light" title="Twitter" target="_blank" href="#" data-abc="true"><i class="fab fa-twitter"></i></a> </div>
-                            </article>
-                        </aside>
-                        <aside class="col-sm-3 col-md-2">
-                            <h6 class="title">About</h6>
-                            <ul class="list-unstyled">
-                                <li> <a href="#" data-abc="true" style="color:white;">A Propos</a></li>
-                                <li> <a href="#" data-abc="true" style="color:white;">Acceuil</a></li>
-                                <li> <a href="#" data-abc="true" style="color:white;">Nos  Cathegories</a></li>
-                                <li> <a href="#" data-abc="true" style="color:white;">Nos Produits</a></li>
-                                <li> <a href="#" data-abc="true" style="color:white;">Contacts</a></li>
-                            </ul>
-                        </aside>
-                        <aside class="col-sm-3 col-md-2">
-                            <h6 class="title">Address</h6>
-                            <ul class="list-unstyled">
-                                <li> <a href="#" data-abc="true" style="color:white;">DAKAR,SENEGAL</a></li>
-                                <li> <a href="#" data-abc="true" style="color:white;">equinc.sn</a></li>
-                                <li> <a href="#" data-abc="true" style="color:white;">+221 33 850 23 25</a></li>
-                                <li> <a href="#" data-abc="true" style="color:white;">equinc@gmail.com</a></li>
-                            </ul>
-                        </aside>
-                        <aside class="col-sm-3 col-md-2">
-                            <h6 class="title">For users</h6>
-                            <ul class="list-unstyled">
-                                <li> <a href="#" data-abc="true" style="color:white;"> User Login </a></li>
-                                <li> <a href="#" data-abc="true" style="color:white;"> User register </a></li>
-                                <li> <a href="#" data-abc="true" style="color:white;"> Account Setting </a></li>
-                                <li> <a href="#" data-abc="true" style="color:white;"> My Orders </a></li>
-                            </ul>
-                        </aside>
-                        <aside class="col-sm-2 col-md-2">
-                            <h6 class="title">Our app</h6> <a href="#" class="d-block mb-2" data-abc="true"><img class="img-responsive" src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1574317087/AAA/appstore.png" height="40"></a> <a href="#" class="d-block mb-2" data-abc="true"><img class="img-responsive" src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1574317110/AAA/playmarket.png" height="40"></a>
-                        </aside>
-                    </div>
-                </section>
-                <section class="footer-copyright border-top " style="background-color: rgb(194, 58, 54);">
-                    <p class="float-left text-muted"> © 2020 Equinc All rights reserved </p>
-                    <p target="_blank" class="float-right text-muted"> <a href="#" data-abc="true">Privacy &amp; Cookies</a> &nbsp; &nbsp; <a href="#" data-abc="true">Accessibility</a> </p>
-                </section>
-            </div>
-        </footer>
-    </output> 
-  </div>
-
-<!-- Footer -->
-        
-
-
-<!-- Footer -->
-  <!-- Bootstrap core JavaScript -->
-  <script src="assets/plugins/nprogress/nprogress.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> 
-  <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>    
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  
-    <script src="{{asset('js/app.js')}}"></script>  
-    <script src="{{asset('js/jquery-2.2.4.min.js')}}"></script>
-    <!-- Popper js -->
-    <script src="{{asset('js/popper.min.js')}}"></script>
-    <!-- Bootstrap js -->
-    <!-- Plugins js -->
-    <script src="{{asset('js/plugins.js')}}"></script>
-    <!-- Active js -->
-    <script src="{{asset('js/active.js')}}"></script>
-    <script src="{{asset('js/footer.js')}}"></script>
-    <script src="{{asset('js/jquery.dataTables.min.js')}}"></script>
+	</section>
+	<!-- End Shop Services Area -->
+	<!-- Start Shop Newsletter  -->
+	<section class="shop-newsletter section">
+		<div class="container">
+			<div class="inner-top">
+				<div class="row">
+					<div class="col-lg-8 offset-lg-2 col-12">
+						<!-- Start Newsletter Inner -->
+						<div class="inner">
+							<h4>Newsletter</h4>
+							<p> Subscribe to our newsletter and get <span>10%</span> off your first purchase</p>
+							<form action="mail/mail.php" method="get" target="_blank" class="newsletter-inner">
+								<input name="EMAIL" placeholder="Your email address" required="" type="email">
+								<button class="btn">Subscribe</button>
+							</form>
+						</div>
+						<!-- End Newsletter Inner -->
+					</div>
+				</div>
+			</div>
+		</div>
     
-    <script src="{{asset('js/bootstrap.bundle.min.js')}}"></script>
-    <script src="{{asset('js/jquery.easing.min.js')}}"></script>
-    <script src="{{asset('js/sb-admin-2.min.js')}}"></script>
-    <script src="{{asset('js/dataTables.bootstrap4.min.js')}}"></script>
-    <script src="{{asset('js/datatables-demo.js')}}"></script>
-    <script src="//cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
-    <script src="{{ asset('node_modules/tinymce/tinymce.js') }}"></script>
-
+	</section>
+	<!-- End Shop Newsletter -->
+	
+	<!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span class="ti-close" aria-hidden="true"></span></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row no-gutters">
+                            <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                                <!-- Product Slider -->
+									<div class="product-gallery">
+										<div class="quickview-slider-active">
+											<div class="single-slider">
+												<img src="https://via.placeholder.com/569x528" alt="#">
+											</div>
+											<div class="single-slider">
+												<img src="https://via.placeholder.com/569x528" alt="#">
+											</div>
+											<div class="single-slider">
+												<img src="https://via.placeholder.com/569x528" alt="#">
+											</div>
+											<div class="single-slider">
+												<img src="https://via.placeholder.com/569x528" alt="#">
+											</div>
+										</div>
+									</div>
+								<!-- End Product slider -->
+                            </div>
+                            <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                                <div class="quickview-content">
+                                    <h2>Flared Shift Dress</h2>
+                                    <div class="quickview-ratting-review">
+                                        <div class="quickview-ratting-wrap">
+                                            <div class="quickview-ratting">
+                                                <i class="yellow fa fa-star"></i>
+                                                <i class="yellow fa fa-star"></i>
+                                                <i class="yellow fa fa-star"></i>
+                                                <i class="yellow fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+                                            <a href="#"> (1 customer review)</a>
+                                        </div>
+                                        <div class="quickview-stock">
+                                            <span><i class="fa fa-check-circle-o"></i> in stock</span>
+                                        </div>
+                                    </div>
+                                    <h3>$29.00</h3>
+                                    <div class="quickview-peragraph">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia iste laborum ad impedit pariatur esse optio tempora sint ullam autem deleniti nam in quos qui nemo ipsum numquam.</p>
+                                    </div>
+									<div class="size">
+										<div class="row">
+											<div class="col-lg-6 col-12">
+												<h5 class="title">Size</h5>
+												<select>
+													<option selected="selected">s</option>
+													<option>m</option>
+													<option>l</option>
+													<option>xl</option>
+												</select>
+											</div>
+											<div class="col-lg-6 col-12">
+												<h5 class="title">Color</h5>
+												<select>
+													<option selected="selected">orange</option>
+													<option>purple</option>
+													<option>black</option>
+													<option>pink</option>
+												</select>
+											</div>
+										</div>
+									</div>
+                                    <div class="quantity">
+										<!-- Input Order -->
+										<div class="input-group">
+											<div class="button minus">
+												<button type="button" class="btn btn-primary btn-number" disabled="disabled" data-type="minus" data-field="quant[1]">
+													<i class="ti-minus"></i>
+												</button>
+											</div>
+											<input type="text" name="quant[1]" class="input-number"  data-min="1" data-max="1000" value="1">
+											<div class="button plus">
+												<button type="button" class="btn btn-primary btn-number" data-type="plus" data-field="quant[1]">
+													<i class="ti-plus"></i>
+												</button>
+											</div>
+										</div>
+										<!--/ End Input Order -->
+									</div>
+									<div class="add-to-cart">
+										<a href="#" class="btn">Add to cart</a>
+										<a href="#" class="btn min"><i class="ti-heart"></i></a>
+										<a href="#" class="btn min"><i class="fa fa-compress"></i></a>
+									</div>
+                                    <div class="default-social">
+										<h4 class="share-now">Share:</h4>
+                                        <ul>
+                                            <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                                            <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                                            <li><a class="youtube" href="#"><i class="fa fa-pinterest-p"></i></a></li>
+                                            <li><a class="dribbble" href="#"><i class="fa fa-google-plus"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <!-- Modal end -->
+	
+	<!-- Start Footer Area -->
+	<footer class="footer">
+		<!-- Footer Top -->
+		<div class="footer-top section">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-5 col-md-6 col-12">
+						<!-- Single Widget -->
+						<div class="single-footer about">
+							<div class="logo">
+								<a href="index.html"><img src="images/logo.png" alt="#"></a>
+							</div>
+							<p class="text">Bienvenue a votre quincailerie digitale de reference .</p>
+							<p class="call">Question? Appeler 24/7<span><a href="tel:123456789">+221 77 478 19 07</a></span></p>
+						</div>
+						<!-- End Single Widget -->
+					</div>
+					<div class="col-lg-2 col-md-6 col-12">
+						<!-- Single Widget -->
+						<div class="single-footer links">
+							<h4>Information</h4>
+							<ul>
+								<li><a href="#">A propos</a></li>
+								<li><a href="#">Faq</a></li>
+								<li><a href="#">Conditions et Termes</a></li>
+								<li><a href="#">Nous contacter</a></li>
+								<li><a href="#">Aide</a></li>
+							</ul>
+						</div>
+						<!-- End Single Widget -->
+					</div>
+					<div class="col-lg-2 col-md-6 col-12">
+						<!-- Single Widget -->
+						<div class="single-footer links">
+							<h4>Nos Service</h4>
+							<ul>
+								<li><a href="#">Methodes de paiement</a></li>
+								<li><a href="#">Money-back</a></li>
+								<li><a href="#">Retourner</a></li>
+								<li><a href="#">Shipping</a></li>
+								<li><a href="#">Privacy Policy</a></li>
+							</ul>
+						</div>
+						<!-- End Single Widget -->
+					</div>
+					<div class="col-lg-3 col-md-6 col-12">
+						<!-- Single Widget -->
+						<div class="single-footer social">
+							<h4>Get In Tuch</h4>
+							<!-- Single Widget -->
+							<div class="contact">
+								<ul>
+									<li>Dakar, adresse.</li>
+									<li>Disponible.</li>
+									<li>info@matcom.com</li>
+									<li>+221 77 478 19 07</li>
+								</ul>
+							</div>
+							<!-- End Single Widget -->
+							<ul>
+								<li><a href="#"><i class="ti-facebook"></i></a></li>
+								<li><a href="#"><i class="ti-twitter"></i></a></li>
+								<li><a href="#"><i class="ti-flickr"></i></a></li>
+								<li><a href="#"><i class="ti-instagram"></i></a></li>
+							</ul>
+						</div>
+						<!-- End Single Widget -->
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Footer Top -->
+		<div class="copyright">
+			<div class="container">
+				<div class="inner">
+					<div class="row">
+						<div class="col-lg-6 col-12">
+							<div class="left">
+								<p>Copyright © 2020 <a href="http://www.matcosen.com" target="_blank">Matcosen</a>  - Tous droits reservés.</p>
+							</div>
+						</div>
+						<div class="col-lg-6 col-12">
+							<div class="right">
+								<img src="images/payments.png" alt="#">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- /End Footer Area -->
+ 
+<!-- Jquery -->  
+    <script src="{{asset('js/js_home/jquery.min.js')}}"></script>
+    <script src="{{asset('js/js_home/jquery-migrate-3.0.0.js')}}"></script>
+    <script src="{{asset('js/js_home/jquery-ui.min.js')}}"></script>
+<!-- Popper js -->
+    <script src="{{asset('js/js_home/popper.min.js')}}"></script>
+ <!-- Bootstrap js -->
+    <script src="{{asset('js/js_home/bootstrap.min.js')}}"></script>
+<!-- Color JS -->
+    <script src="{{asset('js/js_home/colors.js')}}"></script>
+<!-- Slicknav JS -->
+    <script src="{{asset('js/js_home/slicknav.min.js')}}"></script>
+<!-- Owl Carousel JS -->
+    <script src="{{asset('js/js_home/owl-carousel.js')}}"></script>
+<!-- Magnific Popup JS -->
+    <script src="{{asset('js/js_home/magnific-popup.js')}}"></script>
+<!-- Waypoints JS -->
+    <script src="{{asset('js/js_home/waypoints.min.js')}}"></script>
+<!-- Countdown JS -->
+    <script src="{{asset('js/js_home/finalcountdown.min.js')}}"></script>
+<!-- Nice Select JS -->
+    <script src="{{asset('js/js_home/nicesellect.js')}}"></script>
+<!-- Flex Slider JS -->
+    <script src="{{asset('js/js_home/flex-slider.js')}}"></script>
+<!-- ScrollUp JS -->
+    <script src="{{asset('js/js_home/scrollup.js')}}"></script>
+<!-- Onepage Nav JS -->
+    <script src="{{asset('js/js_home/onepage-nav.min.js')}}"></script>
+<!-- Easing JS -->
+    <script src="{{asset('js/js_home/easing.js')}}"></script>
+<!-- Active js -->
+    <script src="{{asset('js/js_home/active.js')}}"></script>
 </body>
-
 </html>

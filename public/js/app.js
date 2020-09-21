@@ -53419,7 +53419,7 @@ $('form.add-to-cart').submit(function (e) {
 
   $.ajax({
     type: "POST",
-    url: '/product/add_to_cart',
+    url: "{{route('cart.store')}}",
     data: form_data,
     success: function success(data) {
       if (data.success) {
