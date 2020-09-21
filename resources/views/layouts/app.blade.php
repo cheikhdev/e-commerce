@@ -52,14 +52,7 @@
 <body class="js">
 	
 	<!-- Preloader -->
-		<div class="preloader">
-			<div class="preloader-inner">
-				<div class="preloader-icon">
-					<span></span>
-					<span></span>
-				</div>
-			</div>
-		</div>
+		
 	<!-- End Preloader -->
 	
 	
@@ -144,26 +137,22 @@
 								<a href="#" class="single-icon"><i class="fa fa-user-circle-o" aria-hidden="true"></i></a>
 							</div>
 							<div class="sinlge-bar shopping">
-								<a href="#" class="single-icon"><i class="fas fa-shopping-cart fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i> <span class="total-count">2</span></a>
+								<a href="#" class="single-icon"><i class="fas fa-shopping-cart fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i> <span class="total-count">{{Cart::count()}}</span></a>
 								<!-- Shopping Item -->
 								<div class="shopping-item">
 									<div class="dropdown-cart-header">
-										<span>2 produits</span>
+										<span>{{Cart::count()}} produits</span>
 										<a href="#">Affichage panier</a>
 									</div>
 									<ul class="shopping-list">
-										<li>
-											<a href="#" class="remove" title="Remove this item"><i class="fa fa-remove"></i></a>
-											<a class="cart-img" href="#"><img src="https://via.placeholder.com/70x70" alt="#"></a>
-											<h4><a href="#">Woman Ring</a></h4>
-											<p class="quantity">1x - <span class="amount">$99.00</span></p>
-										</li>
-										<li>
-											<a href="#" class="remove" title="Remove this item"><i class="fa fa-remove"></i></a>
-											<a class="cart-img" href="#"><img src="https://via.placeholder.com/70x70" alt="#"></a>
-											<h4><a href="#">Woman Necklace</a></h4>
-											<p class="quantity">1x - <span class="amount">$35.00</span></p>
-										</li>
+										@foreach(Cart::content() as $products)
+											<li>
+												<a href="#" class="remove" title="Remove this item"><i class="fa fa-remove"></i></a>
+												<a class="cart-img" href="#"><img src="" alt="#"></a>
+												<h4><a href="#"></a>{{$products->name_product}}</h4>
+												<p class="quantity">1x - <span class="amount">{{$products->prix_product}}</span></p>
+											</li>
+										@endforeach
 									</ul>
 									<div class="bottom">
 										<div class="total">

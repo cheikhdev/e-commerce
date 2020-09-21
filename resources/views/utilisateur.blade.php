@@ -99,7 +99,13 @@
 																	<a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Ajout et details</span></a>
 																</div>
 																<div class="product-action-2">
-																	<a title="Add to cart" href="#">Ajouter au panier</a>
+																<form action="{{route('cart.store')}}" id="{{'product_'.$product->id}}" class="add-to-cart" method="post">
+																	@csrf
+																	<input type="hidden" name="product_id" value="{{$product->id}}">
+																	
+																	<button type="submit" class="btn btn-primary btn-fancy" >Ajouter au panier</button>
+																</form>
+																	
 																</div>
 															</div>
 														</div>
