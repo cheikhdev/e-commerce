@@ -52,7 +52,14 @@
 <body class="js">
 	
 	<!-- Preloader -->
-		
+		<div class="preloader">
+			<div class="preloader-inner">
+				<div class="preloader-icon">
+					<span></span>
+					<span></span>
+				</div>
+			</div>
+		</div>
 	<!-- End Preloader -->
 	
 	
@@ -379,36 +386,36 @@
 				<div class="col-lg-3 col-md-6 col-12">
 					<!-- Start Single Service -->
 					<div class="single-service">
-						<i class="ti-rocket"></i>
-						<h4>Free shiping</h4>
-						<p>Orders over $100</p>
+						<i class="fas fa-rocket"></i>
+						<h4>Livraison gratuite</h4>
+						<p>Commandes de plus de 500 000 FR</p>
 					</div>
 					<!-- End Single Service -->
 				</div>
 				<div class="col-lg-3 col-md-6 col-12">
 					<!-- Start Single Service -->
 					<div class="single-service">
-						<i class="ti-reload"></i>
-						<h4>Free Return</h4>
-						<p>Within 30 days returns</p>
+						<i class="fas fa-retweet"></i>
+						<h4>Retour Gratuit</h4>
+						<p>Retour dans les 30 jours</p>
 					</div>
 					<!-- End Single Service -->
 				</div>
 				<div class="col-lg-3 col-md-6 col-12">
 					<!-- Start Single Service -->
 					<div class="single-service">
-						<i class="ti-lock"></i>
-						<h4>Sucure Payment</h4>
-						<p>100% secure payment</p>
+						<i class="fas fa-lock"></i>
+						<h4>Paiement sécurisé</h4>
+						<p>Paiement 100% sécurisé</p>
 					</div>
 					<!-- End Single Service -->
 				</div>
 				<div class="col-lg-3 col-md-6 col-12">
 					<!-- Start Single Service -->
 					<div class="single-service">
-						<i class="ti-tag"></i>
-						<h4>Best Peice</h4>
-						<p>Guaranteed price</p>
+						<i class="fas fa-tag"></i>
+						<h4>Meilleur prix</h4>
+						<p>Prix ​​garanti</p>
 					</div>
 					<!-- End Single Service -->
 				</div>
@@ -425,10 +432,10 @@
 						<!-- Start Newsletter Inner -->
 						<div class="inner">
 							<h4>Newsletter</h4>
-							<p> Subscribe to our newsletter and get <span>10%</span> off your first purchase</p>
+							<p> Abonnez-vous à notre newsletter et recevez <span>10%</span> sur votre premier achat</p>
 							<form action="mail/mail.php" method="get" target="_blank" class="newsletter-inner">
-								<input name="EMAIL" placeholder="Your email address" required="" type="email">
-								<button class="btn">Subscribe</button>
+								<input name="EMAIL" placeholder="Votre adresse email" required="" type="email">
+								<button class="btn">Souscrire</button>
 							</form>
 						</div>
 						<!-- End Newsletter Inner -->
@@ -762,7 +769,7 @@
 					<div class="col-lg-3 col-md-6 col-12">
 						<!-- Single Widget -->
 						<div class="single-footer social">
-							<h4>Get In Tuch</h4>
+							<h4>Entrer en contact</h4>
 							<!-- Single Widget -->
 							<div class="contact">
 								<ul>
@@ -774,10 +781,10 @@
 							</div>
 							<!-- End Single Widget -->
 							<ul>
-								<li><a href="#"><i class="ti-facebook"></i></a></li>
-								<li><a href="#"><i class="ti-twitter"></i></a></li>
-								<li><a href="#"><i class="ti-flickr"></i></a></li>
-								<li><a href="#"><i class="ti-instagram"></i></a></li>
+								<li><a href="#"><i class="fab fa-facebook"></i></a></li>
+								<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fab fa-flickr"></i></a></li>
+								<li><a href="#"><i class="fab fa-instagram"></i></a></li>
 							</ul>
 						</div>
 						<!-- End Single Widget -->

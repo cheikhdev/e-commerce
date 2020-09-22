@@ -14,8 +14,8 @@
 						<img src="https://via.placeholder.com/600x370" alt="#">
 						<div class="content">
 							<p>Man's Collectons</p>
-							<h3>Summer travel <br> collection</h3>
-							<a href="#">Discover Now</a>
+							<h3>Collection de materiels  <br> d'électricité</h3>
+							<a href="#">Découvrir maintenant</a>
 						</div>
 					</div>
 				</div>
@@ -26,8 +26,8 @@
 						<img src="https://via.placeholder.com/600x370" alt="#">
 						<div class="content">
 							<p>Bag Collectons</p>
-							<h3>Awesome Bag <br> 2020</h3>
-							<a href="#">Shop Now</a>
+							<h3>Collection sannitaire  <br> et plomberie</h3>
+							<a href="#">Découvrir maintenant</a>
 						</div>
 					</div>
 				</div>
@@ -38,8 +38,8 @@
 						<img src="https://via.placeholder.com/600x370" alt="#">
 						<div class="content">
 							<p>Flash Sale</p>
-							<h3>Mid Season <br> Up to <span>40%</span> Off</h3>
-							<a href="#">Discover Now</a>
+							<h3>Collection maçonnerie<br> et peinture</h3>
+							<a href="#">Découvrir maintenant</a>
 						</div>
 					</div>
 				</div>
@@ -89,9 +89,9 @@
 															</a>
 															<div class="button-head">
 																<div class="product-action">
-																	<a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Ajout et details</span></a>
-																	<a title="Wishlist" href="#"><i class=" ti-heart "></i><span>{{$product->name_product}}</span></a>
-																	<a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Ajout et details</span></a>
+																	<a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" fas fa-eye"></i><span>Ajout et details</span></a>
+																	<a title="Wishlist" href="#"><i class=" fas fa-heart "></i><span>{{$product->name_product}}</span></a>
+																	<a title="Compare" href="#"><i class="fas fa-bar-chart-alt"></i><span>Ajout et details</span></a>
 																</div>
 																<div class="product-action-2">
 																	<a title="Add to cart" href="#">Ajouter au panier</a>
@@ -122,39 +122,8 @@
 	<!-- End Product Area -->
 	
 	<!-- Start Midium Banner  -->
-	<section class="midium-banner">
-		<div class="container">
-			<div class="row">
-				<!-- Single Banner  -->
-				<div class="col-lg-6 col-md-6 col-12">
-					<div class="single-banner">
-						<img src="https://via.placeholder.com/600x370" alt="#">
-						<div class="content">
-							<p>Man's Collectons</p>
-							<h3>Man's items <br>Up to<span> 50%</span></h3>
-							<a href="#">Shop Now</a>
-						</div>
-					</div>
-				</div>
-				<!-- /End Single Banner  -->
-				<!-- Single Banner  -->
-				<div class="col-lg-6 col-md-6 col-12">
-					<div class="single-banner">
-						<img src="https://via.placeholder.com/600x370" alt="#">
-						<div class="content">
-							<p>shoes women</p>
-							<h3>mid season <br> up to <span>70%</span></h3>
-							<a href="#" class="btn">Shop Now</a>
-						</div>
-					</div>
-				</div>
-				<!-- /End Single Banner  -->
-			</div>
-		</div>
-	</section>
-	<!-- End Midium Banner -->
 	
-	<!-- Start Most Popular -->
+	
             <div class="product-area most-popular section">
               <div class="container">
                 <div class="row">
@@ -178,9 +147,9 @@
                             </a>
                             <div class="button-head">
                               <div class="product-action">
-                                <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>ajout et details</span></a>
-                                <a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Add to Wishlist</span></a>
-                                <a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+                                <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" fas fa-eye"></i><span>ajout et details</span></a>
+                                <a title="Wishlist" href="#"><i class=" fas fa-heart "></i><span>Ajouter à la liste de souhaits</span></a>
+                                <a title="Compare" href="#"><i class="fas fa-bar-chart-alt"></i><span>ajouter pour comparer</span></a>
                               </div>
                               <div class="product-action-2">
                                 <a title="Add to cart" href="#">ajouter au panier</a>
@@ -212,7 +181,7 @@
 					<div class="row">
 						<div class="col-12">
 							<div class="shop-section-title">
-								<h1>On sale</h1>
+								<h1>En soldes</h1>
 							</div>
 						</div>
 					</div>
@@ -241,7 +210,7 @@
 					<div class="row">
 						<div class="col-12">
 							<div class="shop-section-title">
-								<h1>Best Seller</h1>
+								<h1>Meilleur vente</h1>
 							</div>
 						</div>
 					</div>
@@ -271,7 +240,7 @@
 					<div class="row">
 						<div class="col-12">
 							<div class="shop-section-title">
-								<h1>Top viewed</h1>
+								<h1>Top vu</h1>
 							</div>
 						</div>
 					</div>
@@ -301,85 +270,5 @@
 		</div>
 	</section>
 	<!-- End Shop Home List  -->
-	
-	<!-- Start Cowndown Area -->
-	<section class="cown-down">
-		<div class="section-inner ">
-			<div class="container-fluid">
-				<div class="row">
-					<div class="col-lg-6 col-12 padding-right">
-						<div class="image">
-							<img src="https://via.placeholder.com/750x590" alt="#">
-						</div>	
-					</div>	
-					<div class="col-lg-6 col-12 padding-left">
-						<div class="content">
-							<div class="heading-block">
-								<p class="small-title">Deal of day</p>
-								<h3 class="title">Beatutyful dress for women</h3>
-								<p class="text">Suspendisse massa leo, vestibulum cursus nulla sit amet, frungilla placerat lorem. Cars fermentum, sapien. </p>
-								<h1 class="price">$1200 <s>$1890</s></h1>
-								<div class="coming-time">
-									<div class="clearfix" data-countdown="2021/02/30"></div>
-								</div>
-							</div>
-						</div>	
-					</div>	
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- /End Cowndown Area -->
-	
-	<!-- Start Shop Blog  -->
-	<section class="shop-blog section">
-		<div class="container">
-			<div class="row">
-				<div class="col-12">
-					<div class="section-title">
-						<h2>From Our Blog</h2>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-lg-4 col-md-6 col-12">
-					<!-- Start Single Blog  -->
-					<div class="shop-single-blog">
-						<img src="https://via.placeholder.com/370x300" alt="#">
-						<div class="content">
-							<p class="date">22 July , 2020. Monday</p>
-							<a href="#" class="title">Sed adipiscing ornare.</a>
-							<a href="#" class="more-btn">Continue Reading</a>
-						</div>
-					</div>
-					<!-- End Single Blog  -->
-				</div>
-				<div class="col-lg-4 col-md-6 col-12">
-					<!-- Start Single Blog  -->
-					<div class="shop-single-blog">
-						<img src="https://via.placeholder.com/370x300" alt="#">
-						<div class="content">
-							<p class="date">22 July, 2020. Monday</p>
-							<a href="#" class="title">Man’s Fashion Winter Sale</a>
-							<a href="#" class="more-btn">Continue Reading</a>
-						</div>
-					</div>
-					<!-- End Single Blog  -->
-				</div>
-				<div class="col-lg-4 col-md-6 col-12">
-					<!-- Start Single Blog  -->
-					<div class="shop-single-blog">
-						<img src="https://via.placeholder.com/370x300" alt="#">
-						<div class="content">
-							<p class="date">22 July, 2020. Monday</p>
-							<a href="#" class="title">Women Fashion Festive</a>
-							<a href="#" class="more-btn">Continue Reading</a>
-						</div>
-					</div>
-					<!-- End Single Blog  -->
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- End Shop Blog  -->
+
 @endsection
