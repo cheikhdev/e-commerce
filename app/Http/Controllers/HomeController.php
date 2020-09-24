@@ -44,6 +44,9 @@ class HomeController extends Controller
          $products = Product::all()->take(15);
          return view('home', compact('products'));
   }
+   public function contacter(){
+       return view('contact');
+   }
     
     /**
      * Show the application dashboard.

@@ -143,7 +143,7 @@ public function pagecategory(){
      //dd($file,$produit->image_product);
      
 
-     return redirect('/produit');
+   return redirect('/ajouproduit')->with(['success' => "Produit ajouté avec succes"]);
      
    }
    

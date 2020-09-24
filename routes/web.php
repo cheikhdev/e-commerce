@@ -29,6 +29,8 @@ Route::get('/', 'HomeController@deconnect')->name('deconnect');
 
 Route::get('/dashbord', 'HomeController@dashbord')->name('dashbord');
 
+Route::get('/contact', 'HomeController@contacter')->name('contact');
+
 Route::get('/espace_client', 'HomeController@utilisateur')->name('espace_client');
 
 Route::post('/register_user', 'UsersController@store')->name('ajouter_user');

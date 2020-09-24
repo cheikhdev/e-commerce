@@ -3,6 +3,83 @@
 		<li><a href="#" data-toggle="modal" data-target="#myModal"> <i class="fas fa-sign-in-alt fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i>Inscription</a></li>
 		<li><a href="login.html#"data-toggle="modal" data-target="#ModalLogin"> <i class="fas fa-user-lock fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i>Connexion</a></li>
 	@endsection
+	@section('slide')
+		<!-- Slider Area -->
+		<section class="hero-slider" style="margin-left:300px; margin-top:25px;padding:5px;">
+		<!-- Single Slider -->
+    		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                  <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                  <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                  <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                  <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="second-slide animated zoomInDown d-none d-md-block" src="{{asset('images/materiel3.jpg')}}" style="height:65vh; width:100%;" alt="">
+                    <div class="container">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h1 class="animated fadeInDown" style="color: #ffffff;">Poduits de La marque Inco.</h1>
+                        <p class="animated fadeInRight" style="color: #ffffff;">Retrouvez d'excellent produit de la marque Inco , ches nos magasins .</p>
+                        <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img class="second-slide animated zoomInDown d-none d-md-block" src="{{asset('images/materiel2.jpg')}}" style="height:65vh; width:100%;" alt="">
+                    <div class="container">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h1 class="animated fadeInDown" style="color: #ffffff;">Poduits de La marque Inco.</h1>
+                        <p class="animated fadeInRight" style="color: #ffffff;">Retrouvez d'excellent produit de la marque Inco , ches nos magasins .</p>
+                        <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img class="second-slide animated zoomInDown d-none d-md-block" src="{{asset('images/construction-material.jpeg')}}" alt="" style="height:65vh; width:100%;">
+                    <div class="container">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h1 class="animated fadeInDown" style="color: #ffffff;">Poduits de La marque Inco.</h1>
+                        <p class="animated fadeInRight" style="color: #ffffff;">Retrouvez d'excellent produit de la marque Inco , ches nos magasins .</p>
+                        <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img class="second-slide animated zoomInDown d-none d-md-block" src="{{asset('images/courant.jpg')}}" alt="" style="height:65vh; width:100%;">
+                    <div class="container">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h1 class="animated fadeInDown" style="color: #ffffff;">Poduits de La marque Inco.</h1>
+                        <p class="animated fadeInRight" style="color: #ffffff;">Retrouvez d'excellent produit de la marque Inco , ches nos magasins .</p>
+                        <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img class="second-slide animated zoomInDown" src="{{asset('images/equipemen_macon.jpg')}}" alt="" style="height:65vh; width:100%;">
+                    <div class="container">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h1 class="animated fadeInDown" style="color: #ffffff;">Poduits de La marque Inco.</h1>
+                        <p class="animated fadeInRight" style="color: #ffffff;">Retrouvez d'excellent produit de la marque Inco , ches nos magasins .</p>
+                        <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                  <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+              </div>
+		<!--/ End Single Slider -->
+		</section>
+	<!--/ End Slider Area -->
+	@endsection
   @section('content')
            <!-- Start Small Banner  -->
 	<section class="small-banner section">
@@ -13,7 +90,7 @@
 					<div class="single-banner">
 						<img src="https://via.placeholder.com/600x370" alt="#">
 						<div class="content">
-							<p>Man's Collectons</p>
+							<p>Cliquer  pour découvrir nos collection</p>
 							<h3>Collection de materiels  <br> d'électricité</h3>
 							<a href="#">Découvrir maintenant</a>
 						</div>
@@ -25,7 +102,7 @@
 					<div class="single-banner">
 						<img src="https://via.placeholder.com/600x370" alt="#">
 						<div class="content">
-							<p>Bag Collectons</p>
+							<p>Cliquer  pour découvrir nos collection</p>
 							<h3>Collection sannitaire  <br> et plomberie</h3>
 							<a href="#">Découvrir maintenant</a>
 						</div>
@@ -37,7 +114,7 @@
 					<div class="single-banner tab-height">
 						<img src="https://via.placeholder.com/600x370" alt="#">
 						<div class="content">
-							<p>Flash Sale</p>
+							<p>Cliquer  pour découvrir nos collection</p>
 							<h3>Collection maçonnerie<br> et peinture</h3>
 							<a href="#">Découvrir maintenant</a>
 						</div>
@@ -84,7 +161,7 @@
 													<div class="single-product">
 														<div class="product-img">
 															<a href="product-details.html">
-																<img class="default-img" src="{{$product->image_product ? asset($product->image_product) : asset('uploads/images/default.png')}}" alt="#">
+																<img class="default-img" style="height:250px;width:300px;" src="{{$product->image_product ? asset($product->image_product) : asset('uploads/images/default.png')}}" alt="#">
 																<img class="hover-img" src="{{$product->image_product ? asset($product->image_product) : asset('uploads/images/default.png')}}" alt="#">
 															</a>
 															<div class="button-head">
@@ -141,7 +218,7 @@
                         <div class="single-product">
                           <div class="product-img">
                             <a href="product-details.html">
-                              <img class="default-img" src="{{$product->image_product ? asset($product->image_product) : asset('uploads/images/default.png')}}" alt="#">
+                              <img class="default-img" style="height:150px;width:300px;" src="{{$product->image_product ? asset($product->image_product) : asset('uploads/images/default.png')}}" alt="#">
                               <img class="hover-img" src="{{$product->image_product ? asset($product->image_product) : asset('uploads/images/default.png')}}" alt="#">
                               <span class="out-of-stock">{{$product->name_product}}</span>
                             </a>

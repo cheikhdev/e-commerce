@@ -1,5 +1,10 @@
 @extends('layouts.appdashbord')
     @section('content')
+                    @if (session('success'))
+                        <div class="alert alert-success" role="alert">
+                            {{ session('success') }}
+                        </div>
+                    @endif
     <div class="container">
                     <form action="{{route('store_products')}}" method="post" enctype="multipart/form-data">
                                 @csrf
