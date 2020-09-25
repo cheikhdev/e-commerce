@@ -1,10 +1,10 @@
 <?php
 
-namespace App;
 
+namespace App;
 use Illuminate\Database\Eloquent\Model;
 
-class Product extends Model
+class Product extends Model 
 {
     //
     protected $guarded = [];
@@ -18,5 +18,12 @@ class Product extends Model
    public function Order(){
         return $this ->belongsToMany('App\Order');
    }
+  
+
+    
+
+    public function getPrice() {
+        return $this->prix_product;
+    }
    
 }

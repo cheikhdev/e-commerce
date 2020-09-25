@@ -9,6 +9,7 @@ use Illuminate\Contracts\Session\Session;
 use App\Order;
 use App\Category;
 use App\Product;
+use App\Contact;
 class ProductsController extends Controller
 {
     //entete
@@ -29,7 +30,11 @@ class ProductsController extends Controller
                 ->orWhere('description_product', 'like', "%$q%")
                 ->paginate(6);
 
-        return view('products.search')->with('products', $produc);
+        return view('home')->with('products', $produc);
+    }
+    public function contact(){
+      
+      return view ('partials.contact');
     }
  // AFFICHAGE PRODUIT PAR CATEGORIE   
 public function pagecategory(){
