@@ -463,9 +463,10 @@
             </div>
        <!--fin modall inscription-->
 		 <!-- Debut modall Cnnexion -->
-		 <div class="modal fade" id="ModalLogin">
-                <div class="modal-dialog modal-lg">
-                    <div class="modal-content">
+		
+		<div class="modal fade " id="ModalLogin" >
+                <div class="modal-dialog  modal-md">
+                    <div class="modal-content" >
                         <!-- Modal Header -->
                         <div class="modal-header" style="">
                           
@@ -486,7 +487,7 @@
 						<div class="mb-5" data-validate="Username is required">
 							<!-- class="label-input100">Identifiant</span-->
 							<div class="input-group login">
-								<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+								<span class="input-group-addon"><i class="fas fa-user"></i></span>
 								<input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus placeholder="Entrer votre login" >
 
 								@error('email')
@@ -501,7 +502,7 @@
 						<div class="mb-2" data-validate = "Password is required">
 							<!--span class="label-input100">Mot de passe</span-->
 							<div class="input-group pass">
-								<span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+								<span class="input-group-addon"><i class="fas fa-lock"></i></span>
 								<input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="current-password" placeholder="Entrer votre mot de passe" >
 
 								@error('password')

@@ -5,7 +5,7 @@
                             {{ session('success') }}
                         </div>
                     @endif
-    <div class="container">
+            <div class="container">
                     <form action="{{route('store_products')}}" method="post" enctype="multipart/form-data">
                                 @csrf
                                 @if($errors->any())

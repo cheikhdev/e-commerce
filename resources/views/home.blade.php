@@ -156,7 +156,7 @@
 								<div class="tab-pane fade show active" id="man" role="tabpanel">
 									<div class="tab-single">
 										<div class="row">
-                      @foreach($products as $product)
+                      						@foreach($products as $product)
 												<div class="col-xl-3 col-lg-4 col-md-4 col-12">
 													<div class="single-product">
 														<div class="product-img">
@@ -183,7 +183,7 @@
 														</div>
 													</div>
 												</div>
-                      @endforeach
+                      						@endforeach
 										</div>
 									</div>
 								</div>
@@ -199,8 +199,6 @@
 	<!-- End Product Area -->
 	
 	<!-- Start Midium Banner  -->
-	
-	
             <div class="product-area most-popular section">
               <div class="container">
                 <div class="row">
