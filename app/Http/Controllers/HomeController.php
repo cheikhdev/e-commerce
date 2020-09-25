@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use App\Product;
 use App\Category;
+use App\Contact;
 class HomeController extends Controller
 {
     /**
@@ -26,7 +27,8 @@ class HomeController extends Controller
          $TotalElectricite = DB::table('products')->whereIn('category_id', [4])->count();
          
          $products = DB::table('products')->paginate(12);//paginate(6);
-        return view('home', compact('products','categories','TotalMacon','TotalSanitaire_plomberie','TotalPeinture','TotalElectricite'));
+          $product = \App\Product::All();
+        return view('home', compact('products','categories','TotalMacon','TotalSanitaire_plomberie','TotalPeinture','TotalElectricite','product'));
      }
      
 
@@ -44,7 +46,30 @@ class HomeController extends Controller
          $products = Product::all()->take(15);
          return view('home', compact('products'));
   }
-    
+
+   public function contact() {
+      return view('partials.contact');
+    }
+
+    // Store Contact Form data
+    public function CreateForm(Request $request)
+    {
+        $this->validate($request, [
+            'nom' => 'required|mi:2',
+            'prenom' => 'required|mi:2',
+            
+            'email' => 'required|email',
+            'message' => 'required|max:100000'
+        ]);
+ 
+        return view('/Home');
+    }
+
+        
+
+       
+     
+      
     /**
      * Show the application dashboard.
      *

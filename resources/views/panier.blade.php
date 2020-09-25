@@ -1,55 +1,58 @@
-@extends('layouts.appclient')
-    @section('content')
+@extends('layouts.app')
+    @section('connect')
+        <li><a href="#" data-toggle="modal" data-target="#myModal"> <i class="fas fa-sign-in-alt fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i>Inscription</a></li>
+        <li><a href="login.html#"data-toggle="modal" data-target="#ModalLogin"> <i class="fas fa-user-lock fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i>Connexion</a></li>
+    @endsection
+  @section('content')
         <!-- Begin Page Content -->
         <div class="">
 
 <!-- Page Heading -->
-            <h1 class="h3 mb-2 text-gray-800">La liste des patients de medilife</h1>
+            
 
 
             <!-- DataTales Example -->
             <div class="card shadow mb-4">
-            <div class="card-header " style="background-color:#081f3e ;">
-                <a class="navbar-brand ml-25" href="#"><img src="{{asset('img/core-img/logo.png')}}" alt="Logo"></a>
-            </div>
+             <h1 class="mr-3" style="text-align: center;">Details du panier</h1>
             <div class="card-body">
                 <div class="table-responsive">
-                    <table class="table table-hover" id="dataTable" width="100%" cellspacing="0">
-                        <thead>
-                            <tr>
-                                <th scope="col" class="border-0 bg-light">
-                                    <div class="p-2 px-3 text-uppercase">Produit</div>
-                                </th>
-                                <th scope="col" class="border-0 bg-light">
-                                    <div class=" py-3 text-uppercase">Prix</div>
-                                </th>
-                                <th scope="col" class="border-0 bg-light">
-                                    <div class=" py-3 text-uppercase">Quantité</div>
-                                </th>
-                                <th scope="col" class="border-0 bg-light">
-                                    <div class=" py-3 text-uppercase">Supprimer</div>
-                                </th>
-                            </tr>
-                        </thead>
-        
-        <tbody>
-            @foreach(Cart::content() as $products)
-                <tr>
-                    <th scope="row" class="border-0">
-                        <div class="p-2">
-                            <img src="{{$products->model->image}}" alt="" width="70" class="img-fluid rounded shadow-sm">
-                            <div class="ml-3 d-inline-block align-middle">
-                                <h5 class="mb-0"><a href="" class="text-dark d-inline-block align-middle">{{$product->name_product}}</a></h5>
-                                <span class="text-muted font-weight-normal font-italic d-block">Categorie</span>
-                            </div>
-                        </div>
+                    <table>
+    <thead>
+        <tr>
+            <th>Product</th>
+            <th>Qty</th>
+            <th>Price</th>
+            <th>Subtotal</th>
+        </tr>
+    </thead>
 
-                    </th>
-                    <td>{{$product->getPrice()}}}</td>
-                </tr>
-            @endforeach
-        </tbody>
-      </table>
+    <tbody>
+
+        <?php foreach(Cart::content() as $row) :?>
+
+            <tr>
+                <td>
+                    <p><strong><?php echo $row->name; ?></strong></p>
+                    
+                </td>
+                <td><input type="text" value="<?php echo $row->qty; ?>"></td>
+                <td>$<?php echo $row->price; ?></td>
+                <td>$<?php echo $row->total; ?></td>
+            </tr>
+
+        <?php endforeach;?>
+
+    </tbody>
+    
+    <tfoot>
+        
+        <tr>
+            <td colspan="2">&nbsp;</td>
+            <td>Total</td>
+            <td><?php echo Cart::total(); ?></td>
+        </tr>
+    </tfoot>
+</table>
     </div>
   </div>
 </div>

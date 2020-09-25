@@ -10,6 +10,7 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+use Illuminate\Support\Facades\Route;
 
 
 Route::get('/produit','ProductsController@index')->name('products');
@@ -62,7 +63,15 @@ Route::get('/elec', "ProductsController@elec");
 Route::get('/acc', "ProductsController@acc");
 
 Route::post('/ajout_panier', "CartController@store")->name('cart.store');
+Route::get('/contact', [
+    'uses' => 'HomeController@contact'
+]);
 
+// Post form data
+Route::post('/contact', [
+    'uses' => 'HomeController@CreateForm',
+    'as' => 'contact.store'
+]);
 Route::get('/panier', "CartController@afficher_panier")->name('afficher_panier');
 //  GERER LES UTILISATEURS : CREATION DE COMPTE , CONNEXION DU COMPTE CREER, LOG OUT .
 //Route::get('/register', 'RegistrationController@create');

@@ -50,6 +50,12 @@
 </head>	
 </head>
 <body class="js">
+  @section('connect')
+    <li><i class="fas fa-phone fa-lg fa-fw mr-2 text-gray-400" aria-hidden="true"></i> 33 825 25 25</li>
+    <li><a href="#" data-toggle="modal" data-target="#myModal"> <i class="fas fa-sign-in-alt fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i>Inscription</a></li>
+    <li><a href="login.html#"data-toggle="modal" data-target="#ModalLogin"> <i class="fas fa-user-lock fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i>Connexion</a></li>
+
+  @endsection
 	
 	<!-- Preloader -->
 		<div class="preloader">
@@ -73,12 +79,17 @@
 						<!-- Top Left -->
 						<div class="top-left">
 							<ul class="list-main">
-								<li><i class="fa fa-whatsapp fa-lg fa-fw mr-2 text-gray-400" aria-hidden="true" ></i> 77 478 19 07</li>
+								<li><a style="color: #25D366;" href="{{('https://wa.me/221774781907')}}"><i style="color: #25D366;" class="fa fa-whatsapp fa-lg fa-fw mr-2 text-gray-400" aria-hidden="true" ></i> 77 478 19 07</a></li>
 								<li><i class="fas fa-envelope fa-lg fa-fw mr-2 text-gray-400" aria-hidden="true"></i> support@matcosen.com</li>
+                
 							</ul>
 						</div>
 						<!--/ End Top Left -->
 					</div>
+
+@if (request()->input('q'))
+    <h4 style="font-size: 24px;border: 1px solid black;text-align: center;color: #FFD700">{{ $products->total() }} résultat(s) pour la recherche "{{ request()->q }}"</h6>
+  @endif
 					<div class="col-lg-8 col-md-12 col-12">
 						<!-- Top Right -->
 						<div class="right-content">
@@ -120,15 +131,9 @@
 					<div class="col-lg-8 col-md-7 col-12">
 						<div class="search-bar-top">
 							<div class="search-bar">
-								<select  class="w-auto">
-									<option selected="selected">Tous produits</option>
-									<option>electricite</option>
-									<option>maçonnerie</option>
-									<option>peinture</option>
-                  					<option>sanitaire et plomberie</option>
-								</select>
-								<form>
-									<input name="search" placeholder="Recherche de produits....." type="search">
+								
+								<form action="{{route('products.search')}}">
+									<input type="text" name="q" class="form-control" placeholder="Recherche de Produits" value="{{ request()->q ?? '' }}">
 									<button class="btnn"><i class="fas fa-search"></i></button>
 								</form>
 							</div>
@@ -148,25 +153,28 @@
 								<!-- Shopping Item -->
 								<div class="shopping-item">
 									<div class="dropdown-cart-header">
-										<span>{{Cart::count()}} produits</span>
+										<span>{{Cart::count()}} produit(s)</span>
 										<a href="#">Affichage panier</a>
 									</div>
 									<ul class="shopping-list">
-										@foreach(Cart::content() as $products)
+										 <?php foreach(Cart::content() as $row ) :?>
+                    
 											<li>
-												<a href="#" class="remove" title="Remove this item"><i class="fa fa-remove"></i></a>
-												<a class="cart-img" href="#"><img src="" alt="#"></a>
-												<h4><a href="#"></a>{{$products->name_product}}</h4>
-												<p class="quantity">1x - <span class="amount">{{$products->prix_product}}</span></p>
+												 <a href="#" class="remove  ml-5 text-danger" title="Remove this item"><i class="fa fa-remove "></i></a>
+												<h4><a href="#"></a><?php echo $row->name; ?></h4>
+												<h4><a href="#"></a><?php echo $row->price; ?></h4>
+                        <h4><a href="#"></a><?php echo $row->qty; ?></h4>
+                        
 											</li>
-										@endforeach
+										<?php endforeach;?>
 									</ul>
 									<div class="bottom">
 										<div class="total">
-											<span>Total</span>
-											<span class="total-amount">$134.00</span>
+											<span><?php echo Cart::total(); ?></span>
+											<span class="total-amount"></span>
 										</div>
-										<a href="checkout.html" class="btn animate">Checkout</a>
+										<a href="{{url('/panier')}}" class="btn animate">Voir le Panier</a>
+                    <a href="{{url('/home')}}" class="btn animate">Sortir</a>
 									</div>
 								</div>
 								<!--/ End Shopping Item -->
@@ -259,7 +267,7 @@
                             <ul class="dropdown">
                                 <li><a href="shop-grid.html">Mention légale</a></li>
                                 <li><a href="cart.html">Conditions générales de vente</a></li>
-                                <li><a href="checkout.html">Contact</a></li>
+                                <li><a href="{{url('/contact')}}">Contact</a></li>
                                 
                             </ul>
                           </li>												
@@ -284,7 +292,7 @@
                               <li><a href="checkout.html">Peinture</a></li> 
 														</ul>
 													</li>
-													<li><a href="#">Nous contacter</a></li>									
+													<li><a href="{{url('/contact')}}">Nous contacter</a></li>									
 													
 												</ul>
 										</div>
@@ -670,9 +678,9 @@
 							</div>
 							<!-- End Single Widget -->
 							<ul>
-								<li><a href="#"><i class="fab fa-facebook"></i></a></li>
-								<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-								<li><a href="#"><i class="fab fa-flickr"></i></a></li>
+								<li><a href="#"><i class="fab fa-facebook text-info"></i></a></li>
+								<li><a href=""><i class="fab fa-twitter"></i></a></li>
+								<li><a href="{{url('https://wa.me/221774781907')}}"><i class="fab fa-whatsapp text-success"></i></a></li>
 								<li><a href="#"><i class="fab fa-instagram"></i></a></li>
 							</ul>
 						</div>
