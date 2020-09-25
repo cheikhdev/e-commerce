@@ -522,7 +522,7 @@
 							@endif
 						</div>
 						<div class="d-flex justify-content-center " style="">
-							<button class="btn-auth btn btn-success" style="border-radius:70px;">
+							<button class=" btn-success" style="border-radius:70px;">
 								Se Connecter
 							</button>
 							
