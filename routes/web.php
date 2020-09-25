@@ -61,6 +61,9 @@ Route::get('/tele', "ProductsController@tele");
 Route::get('/sport', "ProductsController@sport");
 Route::get('/elec', "ProductsController@elec");
 Route::get('/acc', "ProductsController@acc");
+// delate update cart
+Route::delete('/panier/{rowId}','CartController@destroy')->name('cart.destroy');
+Route::delete('/home/{rowId}','CartController@remove')->name('cart.remove');
 
 Route::post('/ajout_panier', "CartController@store")->name('cart.store');
 Route::get('/contact', [

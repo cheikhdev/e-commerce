@@ -173,8 +173,14 @@
 											<span><?php echo Cart::total(); ?></span>
 											<span class="total-amount"></span>
 										</div>
-										<a href="{{url('/panier')}}" class="btn animate">Voir le Panier</a>
-                    <a href="{{url('/home')}}" class="btn animate">Sortir</a>
+										<a href="{{url('/panier')}}" class="btn animate">Details du Panier</a>
+                    <?php foreach(Cart::content() as $row) :?>
+                    <form action="{{route('cart.remove',$row->rowId)}}" method="post">
+                       @csrf                      
+                       @method('DELETE')
+                    <button type="submit" class="btn btn-dark"> <i class="fa fa-trash-o text-danger"></i> Vider le contenu du panier </button>                 
+                  </form>
+                   <?php endforeach;?>
 									</div>
 								</div>
 								<!--/ End Shopping Item -->

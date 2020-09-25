@@ -28,9 +28,23 @@ class CartController extends Controller
             
     }
 
-    public function afficher_panier(){
+    public function afficher_panier(Request $request){
+         
         return view('panier');
     }
 
+     public function destroy($rowId){
+    
+        Cart::remove($rowId);
+        return back()->with('succes' , 'Le produit a ete bien supprimer');
+
+
+     }
+     public function remove($rowId)
+        {
+            Cart::destroy($rowId);
+
+            return back();
+        }
 
 }

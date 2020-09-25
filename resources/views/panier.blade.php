@@ -5,6 +5,10 @@
     @endsection
   @section('content')
         <!-- Begin Page Content -->
+   @if (session('success'))
+    <h4 style="font-size: 24px;border: 1px solid black;text-align: center;color: #FFD700">{{session('success')</h6>
+  @endif
+
         <div class="">
 
 <!-- Page Heading -->
@@ -18,11 +22,12 @@
                 <div class="table-responsive">
                     <table>
     <thead>
-        <tr>
-            <th>Product</th>
-            <th>Qty</th>
-            <th>Price</th>
-            <th>Subtotal</th>
+        <tr class="mw-50">
+            <th>Produit </th>
+            <th>Quantite</th>
+            <th>Prix</th>
+            <th>Soustotal</th>
+            <th>Supprimer</th>
         </tr>
     </thead>
 
@@ -30,18 +35,27 @@
 
         <?php foreach(Cart::content() as $row) :?>
 
-            <tr>
+            <tr class="mw-50">
                 <td>
                     <p><strong><?php echo $row->name; ?></strong></p>
                     
                 </td>
-                <td><input type="text" value="<?php echo $row->qty; ?>"></td>
+                <td><input class="w-25 mr-1 text-left" id="quantity" name="quantity" type="number" value="<?php echo $row->qty; ?>" min="1" ></td>
                 <td>$<?php echo $row->price; ?></td>
                 <td>$<?php echo $row->total; ?></td>
+                <td>
+                    <form action="{{route('cart.destroy',$row->rowId)}}" method="POST">
+                 @csrf
+                 @method('DELETE')
+                <button type="submit" class="text-danger"><i class="fa fa-trash"></i></button>
+                </form>
+                </td>
+
             </tr>
 
         <?php endforeach;?>
 
+                 <button type="submit" class="btn btn-dark">Valider La Commande</button>
     </tbody>
     
     <tfoot>
