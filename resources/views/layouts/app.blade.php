@@ -163,7 +163,7 @@
 												 <a href="#" class="remove  ml-5 text-danger" title="Remove this item"><i class="fa fa-remove "></i></a>
 												<h4><a href="#"></a><?php echo $row->name; ?></h4>
 												<h4><a href="#"></a><?php echo $row->price; ?></h4>
-                        <h4><a href="#"></a><?php echo $row->qty; ?></h4>
+                       							<h4><a href="#"></a><?php echo $row->qty; ?></h4>
                         
 											</li>
 										<?php endforeach;?>
@@ -174,13 +174,13 @@
 											<span class="total-amount"></span>
 										</div>
 										<a href="{{url('/panier')}}" class="btn animate">Details du Panier</a>
-                    <?php foreach(Cart::content() as $row) :?>
-                    <form action="{{route('cart.remove',$row->rowId)}}" method="post">
-                       @csrf                      
-                       @method('DELETE')
-                    <button type="submit" class="btn btn-dark"> <i class="fa fa-trash-o text-danger"></i> Vider le contenu du panier </button>                 
-                  </form>
-                   <?php endforeach;?>
+										<?php foreach(Cart::content() as $row) :?>
+											<form action="{{route('cart.remove',$row->rowId)}}" method="post">
+												@csrf                      
+												@method('DELETE')
+												<button type="submit" class="btn btn-dark"> <i class="fa fa-trash-o text-danger"></i> Vider le contenu du panier </button>                 
+											</form>
+										<?php endforeach;?>
 									</div>
 								</div>
 								<!--/ End Shopping Item -->
@@ -314,8 +314,9 @@
 		<!--/ End Header Inner -->
 	</header>
 	<!--/ End Header -->
-	
+	<!-- Single Slider -->
 		@yield('slide')
+	<!--/ End Slider Area -->
 		<div>
 			@yield('content')
 		</div>
@@ -390,15 +391,15 @@
 	
 	<!-- Debut modall inscriptionnnn -->
 	<div class="modal fade" id="myModal">
-                <div class="modal-dialog modal-lg">
-                    <div class="modal-content container container-fluid">
+                <div class="modal-dialog modal-lg" style="height:100vh;width:60vw;">
+                    <div class="modal-content container container-fluid w-100 h-auto" >
                         <!-- Modal Header -->
-                        <div class="modal-header" style="">
+                        <div class="modal-header mb-5" style="">
                           
                             <button type="button" class="close" data-dismiss="modal">&times;</button>
                         </div>                        
                         <!-- Modal body -->
-                        <div class="modal-body container">
+                        <div class="modal-body container " style="height:auto; max-height:auto;">
                             <form action="{{route('ajouter_user')}}" method="post">
                             @csrf
                                 <div class="row">   
@@ -465,9 +466,9 @@
                                     </div>
                                 </div>
 
-                                <div class="d-flex justify-content-center">         
-                                    <button type="submit" style="width:200px;border-radius:70px;height:50px !important;" class="btn btn-success">Enregistrer</button>
-                                    <button type="reset" style="width:200px;border-radius:70px;height:50px !important;" class="btn btn-danger" data-dismiss="modal">Annuler</button>
+                                <div class="d-flex justify-content-around mb-5">         
+                                    <button type="submit" style="width:150px;border-radius:50px;height:30px !important;" class=" btn-success">Enregistrer</button>
+                                    <button type="reset" style="width:150px;border-radius:50px;height:30px !important;" class=" btn-danger" data-dismiss="modal">Annuler</button>
                                 </div>
                             </form>
                         </div>      
@@ -536,7 +537,7 @@
 							@endif
 						</div>
 						<div class="d-flex justify-content-center " style="">
-							<button class=" btn-success" style="border-radius:70px;">
+							<button class=" btn-success" style="border-radius:70px;width:200px;height:45px;">
 								Se Connecter
 							</button>
 							
