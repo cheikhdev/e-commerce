@@ -50,12 +50,7 @@
 </head>	
 </head>
 <body class="js">
-  @section('connect')
-    <li><i class="fas fa-phone fa-lg fa-fw mr-2 text-gray-400" aria-hidden="true"></i> 33 825 25 25</li>
-    <li><a href="#" data-toggle="modal" data-target="#myModal"> <i class="fas fa-sign-in-alt fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i>Inscription</a></li>
-    <li><a href="login.html#"data-toggle="modal" data-target="#ModalLogin"> <i class="fas fa-user-lock fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i>Connexion</a></li>
-
-  @endsection
+  
 	
 	<!-- Preloader -->
 		<div class="preloader">
@@ -68,7 +63,7 @@
 		</div>
 	<!-- End Preloader -->
 	
-	
+	<a style="color: #25D366; position:absolute;left:25px;bottom:5px;" href="{{('https://wa.me/221774781907')}}"><i style="color: #25D366;" class="fa fa-whatsapp fa-lg fa-fw mr-2 text-gray-400" aria-hidden="true" ></i></a>
 	<!-- Header -->
 	<header class="header shop">
 		<!-- Topbar -->
@@ -79,7 +74,7 @@
 						<!-- Top Left -->
 						<div class="top-left">
 							<ul class="list-main">
-								<li><a style="color: #25D366;" href="{{('https://wa.me/221774781907')}}"><i style="color: #25D366;" class="fa fa-whatsapp fa-lg fa-fw mr-2 text-gray-400" aria-hidden="true" ></i> 77 478 19 07</a></li>
+								
 								<li><i class="fas fa-envelope fa-lg fa-fw mr-2 text-gray-400" aria-hidden="true"></i> support@matcosen.com</li>
                 
 							</ul>
