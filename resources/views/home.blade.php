@@ -7,7 +7,7 @@
       @section('slide')
      
 		<!-- Slider Area -->
-        <section class="hero-slider" style="margin-left:300px; margin-top:25px;padding:5px;">
+        <section class="hero-slider" style="margin-left:300px;margin-right:100px; margin-top:25px;padding:5px;">
         <!-- Single Slider -->
             <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">

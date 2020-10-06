@@ -63,7 +63,7 @@
 		</div>
 	<!-- End Preloader -->
 	
-	<a style="color: #25D366; position:absolute;left:25px;bottom:5px;" href="{{('https://wa.me/221774781907')}}"><i style="color: #25D366;" class="fa fa-whatsapp fa-lg fa-fw mr-2 text-gray-400" aria-hidden="true" ></i></a>
+	<a style=" position:fixed;right:5px;bottom:60px;z-index:24587962;" href="{{('https://wa.me/221774781907')}}"><img style="height:70px;width:70px;" src="{{asset('images/whatsapp.png')}}" alt=""></a>
 	<!-- Header -->
 	<header class="header shop">
 		<!-- Topbar -->
