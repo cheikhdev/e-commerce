@@ -24,6 +24,7 @@
     <thead>
         <tr class="mw-50">
             <th>Produit </th>
+            <th>Image </th>
             <th>Quantite</th>
             <th>Prix</th>
             <th>Soustotal</th>
@@ -40,14 +41,22 @@
                     <p><strong><?php echo $row->name; ?></strong></p>
                     
                 </td>
-                <td><input class="w-25 mr-1 text-left" id="quantity" name="quantity" type="number" value="<?php echo $row->qty; ?>" min="1" ></td>
-                <td>$<?php echo $row->price; ?></td>
-                <td>$<?php echo $row->total; ?></td>
+                
+                <td>
+                 <form action="{{url('update')}}" method="post">
+                      {{csrf_field()}}
+                    <input class="w-25" type="text" name="uqty" value="{{$row->qty}}">
+                    <input type="hidden" name="rowId" value="{{$row->rowId}}">
+                    <button type="submit" class="btn btn-info " value="Update" style="width: 95px;height: 30px;">Modifier</button> 
+                </form>
+                </td>
+                <td><?php echo $row->price ; ?></td>
+                <td><?php echo $row->total ; ?></td>
                 <td>
                     <form action="{{route('cart.destroy',$row->rowId)}}" method="POST">
                  @csrf
                  @method('DELETE')
-                <button type="submit" class="text-danger"><i class="fa fa-trash"></i></button>
+                <button type="submit" class="text-danger  fa-2x "><i class="fa fa-trash"></i></button>
                 </form>
                 </td>
 
@@ -55,24 +64,27 @@
 
         <?php endforeach;?>
 
-                 <button type="submit" class="btn btn-dark">Valider La Commande</button>
+                 
     </tbody>
     
     <tfoot>
         
-        <tr>
+        <tr class="mt-1">
             <td colspan="2">&nbsp;</td>
-            <td>Total</td>
-            <td><?php echo Cart::total(); ?></td>
+            <td class="btn btn-info">Total</td>
+            <td><?php echo Cart::total(); ?> FcFa</td>
+            
         </tr>
+
     </tfoot>
+
 </table>
     </div>
   </div>
 </div>
 
 </div>
-
+ 
     @endsection
 
                        

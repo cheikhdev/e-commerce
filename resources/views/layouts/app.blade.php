@@ -160,11 +160,17 @@
 										 <?php foreach(Cart::content() as $row ) :?>
                     
 											<li>
-												 <a href="#" class="remove  ml-5 text-danger" title="Remove this item"><i class="fa fa-remove "></i></a>
-												<h4><a href="#"></a><?php echo $row->name; ?></h4>
-												<h4><a href="#"></a><?php echo $row->price; ?></h4>
-                       							<h4><a href="#"></a><?php echo $row->qty; ?></h4>
+												<h4 class=""><a href="#"></a><?php echo $row->name; ?></h4>
+                        <h4 class=""><a href="#"></a><?php echo $row->qty; ?></h4>
+                        <h4 class=""><a href="#"></a><?php echo $row->price; ?></h4>
                         
+                         <form action="{{route('cart.destroy',$row->rowId)}}" method="POST" class="">
+                        @csrf                      
+                        @method('DELETE')
+
+                         <button type="submit" class="remove  ml-5 text-danger  " title="Remove this item"><i class="fa fa-remove "></i></button>
+                         </form>
+												
 											</li>
 										<?php endforeach;?>
 									</ul>
@@ -178,7 +184,7 @@
 											<form action="{{route('cart.remove',$row->rowId)}}" method="post">
 												@csrf                      
 												@method('DELETE')
-												<button type="submit" class="btn btn-dark"> <i class="fa fa-trash-o text-danger"></i> Vider le contenu du panier </button>                 
+												<button type="submit" class="btn btn-dark"> <i class="fa fa-trash-o text-danger"></i> Vider le panier </button>                 
 											</form>
 										<?php endforeach;?>
 									</div>

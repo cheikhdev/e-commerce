@@ -80,3 +80,46 @@ $('form.add-to-cart').submit(function (e) {
         }
     });
 })*/;
+function minusqty(e) {
+//update when press button -
+e.preventDefault()
+
+let quantity = qty.val();
+let quaty=quantity-1;
+let prix=price.val();
+
+
+
+$.ajax({
+   url: '/panier.php',
+    method: 'GET',
+    data: {qty: quaty, price: prix },
+    cache: false,
+    dataType: 'html',
+    success: function(data) {
+
+    },
+});
+}
+function plusqty(e) {
+//update when press button -
+e.preventDefault()
+
+let quantity1 = qty.val();
+let quaty1=quantity-(-1);
+let prix1=price.val();
+
+
+
+$.ajax({
+   url: '/panier.php',
+    method: 'GET',
+    data: {qty: qty1, price: prix1 },
+    cache: false,
+    dataType: 'html',
+    success: function(data) {
+
+    },
+});
+
+}

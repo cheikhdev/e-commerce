@@ -52,22 +52,35 @@ class HomeController extends Controller
     }
 
     // Store Contact Form data
-    public function CreateForm(Request $request)
-    {
-        $this->validate($request, [
-            'nom' => 'required|mi:2',
-            'prenom' => 'required|mi:2',
-            
-            'email' => 'required|email',
-            'message' => 'required|max:100000'
-        ]);
- 
-        return view('/Home');
+    public function CreateForm(Request $request){
+    
+        $data = $request->validate([
+      'nom'   =>    'required|min:3',
+      'prenom'   => 'required|min:3',
+      'email'   =>  'required|email',
+      'message'   =>'required|max:1000000',
+      
+   ]);
+    
+        $posts = Contact::create([
+           'nom' => request('nom'),
+           'prenom' => request('prenom'),
+           'email' => request('email'),
+           'message' => request('message'),
+           ]);
+        
+        return redirect()
+            ->back()
+            ->with('success', 'Thank you for your feedback');
+
     }
 
-        
+ 
+ 
 
-       
+
+
+ 
      
       
     /**
@@ -76,4 +89,5 @@ class HomeController extends Controller
      * @return \Illuminate\Contracts\Support\Renderable
      */
     
+
 }
