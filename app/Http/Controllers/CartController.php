@@ -20,7 +20,7 @@ class CartController extends Controller
         else{
             $product = Product::find($request->product_id);
         
-            Cart::add($product->id, $product->name_product,1, $product->prix_product,$product->image_product)
+            Cart::add($product->id, $product->name_product,1, $product->prix_product)
                 ->associate('App\Product');
             return redirect()->route('products.index')->with('succes','Le Produit a bien ete ajoute');
         }
