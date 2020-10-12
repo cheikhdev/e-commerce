@@ -30,7 +30,6 @@ Route::get('/', 'HomeController@deconnect')->name('deconnect');
 
 Route::get('/dashbord', 'HomeController@dashbord')->name('dashbord');
 
-Route::get('/contact', 'HomeController@contacter')->name('contact');
 
 Route::get('/espace_client', 'HomeController@utilisateur')->name('espace_client');
 
@@ -50,7 +49,7 @@ Route::get('/achat1', "ProductsController@achat1")->name('achat1_products');
 Route::post('/achat1', "ProductsController@store1")->name('achat1_products');
 
 // AFFICHER LES PRODUITS ASSOCIE AUX CATHEGORIES
-Route::get('/category/{id}', "ProductsController@pagecategory")->name('produit_par_cat');;
+Route::get('/category/{id}', "ProductsController@pagecategory")->name('produit_par_cat');
 
 // ROUTE POUR LA BARRE DE RECHERCHE 
 Route::get('/search', "ProductsController@search")->name('products.search');
@@ -66,6 +65,8 @@ Route::get('/acc', "ProductsController@acc");
 // delate update cart
 Route::delete('/panier/{rowId}','CartController@destroy')->name('cart.destroy');
 Route::delete('/home/{rowId}','CartController@remove')->name('cart.remove');
+
+Route::post('update','CartController@update_cart')->name('update_cart');
 
 Route::post('/ajout_panier', "CartController@store")->name('cart.store');
 Route::get('/contact', [

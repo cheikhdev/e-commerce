@@ -29,8 +29,9 @@ class CartController extends Controller
     }
 
     public function afficher_panier(Request $request){
+        $product = Product::find($request->product_id);
          
-        return view('panier');
+        return view('panier' , compact('product'));
     }
 
      public function destroy($rowId){
@@ -46,5 +47,12 @@ class CartController extends Controller
 
             return back();
         }
+     public function update_cart(Request $request){
+        $uqty = $request->uqty;
+        $rowId = $request->rowId;
+
+        Cart::update($rowId, $uqty);
+        return redirect()->back();
+    }
 
 }

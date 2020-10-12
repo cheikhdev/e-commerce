@@ -151,29 +151,38 @@
 										<span>{{Cart::count()}} produit(s)</span>
 										<a href="#">Affichage panier</a>
 									</div>
-									<ul class="shopping-list">
+									 <td class="col-lg-3 text-gray-400">Produit</td>
+                   <td class="col-lg-3">Quantite</td>
+                   <td class="col-lg-3">Prix</td>
+                   <td class="col-lg-3">Supprimer</td>
 										 <?php foreach(Cart::content() as $row ) :?>
                     
-											<li>
-												 <a href="#" class="remove  ml-5 text-danger" title="Remove this item"><i class="fa fa-remove "></i></a>
-												<h4><a href="#"></a><?php echo $row->name; ?></h4>
-												<h4><a href="#"></a><?php echo $row->price; ?></h4>
-                       							<h4><a href="#"></a><?php echo $row->qty; ?></h4>
+										<div style="display: flex;">
+												<h6 class="col-lg-4"><a href="#"></a><?php echo $row->name; ?></h6>
+                        <h6 class="col-lg-2"><a href="#"></a><?php echo $row->qty; ?></h6>
+                        <h6 class="col-lg-3"><a href="#"></a><?php echo $row->price; ?></h6>
                         
-											</li>
+                        <form action="{{route('cart.destroy',$row->rowId)}}" method="POST" class="">
+                        @csrf                      
+                        @method('DELETE')
+
+                        <button type="submit" class="remove  ml-5 text-danger  " title="Remove this item"><i class="fa fa-remove "></i></button>
+                        </form>
+											</div>	
+											
 										<?php endforeach;?>
-									</ul>
+									
 									<div class="bottom">
 										<div class="total">
-											<span><?php echo Cart::total(); ?></span>
-											<span class="total-amount"></span>
+											<h3 class="bg-info"><span class="total-amount ">Total:<?php echo Cart::total(); ?></span></h3>
+											
 										</div>
 										<a href="{{url('/panier')}}" class="btn animate">Details du Panier</a>
 										<?php foreach(Cart::content() as $row) :?>
 											<form action="{{route('cart.remove',$row->rowId)}}" method="post">
 												@csrf                      
 												@method('DELETE')
-												<button type="submit" class="btn btn-dark"> <i class="fa fa-trash-o text-danger"></i> Vider le contenu du panier </button>                 
+												<button type="submit" class="btn btn-dark"> <i class="fa fa-trash-o text-danger"></i> Vider le panier </button>                 
 											</form>
 										<?php endforeach;?>
 									</div>
@@ -573,7 +582,7 @@
 								<li><a href="#">Faq</a></li>
 								<li><a href="#">Conditions et Termes</a></li>
 								<li><a href="#">Nous contacter</a></li>
-								<li><a href="#">Aide</a></li>
+								
 							</ul>
 						</div>
 						<!-- End Single Widget -->
@@ -587,7 +596,7 @@
 								<li><a href="#">Money-back</a></li>
 								<li><a href="#">Retourner</a></li>
 								<li><a href="#">Shipping</a></li>
-								<li><a href="#">Privacy Policy</a></li>
+								
 							</ul>
 						</div>
 						<!-- End Single Widget -->
@@ -600,7 +609,7 @@
 							<div class="contact">
 								<ul>
 									<li>Dakar, adresse.</li>
-									<li>Disponible.</li>
+									
 									<li>info@matcom.com</li>
 									<li>+221 77 478 19 07</li>
 								</ul>

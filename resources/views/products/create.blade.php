@@ -6,7 +6,7 @@
                         </div>
                     @endif
             <div class="container">
-                    <form action="{{route('store_products')}}" method="post" enctype="multipart/form-data">
+                    <form action="{{route('store_products')}}" method="POST" enctype="multipart/form-data">
                                 @csrf
                                 @if($errors->any())
                                 @foreach($errors->all() as $error)

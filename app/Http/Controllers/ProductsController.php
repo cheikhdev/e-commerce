@@ -109,7 +109,7 @@ public function pagecategory(){
          
          
      ]);
-     $produit = new Product();
+     
      //On verfie si une image est envoyée
       /*if($request->has('image_product')){
          //On enregistre l'image dans un dossier
@@ -128,7 +128,7 @@ public function pagecategory(){
          //On enregistre l'image dans un dossier
          $image = $request->file('image_product');
          //Nous allons definir le nom de notre image en combinant le nom du produit et un timestamp
-         $image_name = Str::slug($request->input('name')).'_'.time();
+         $image_name = Str::slug($request->input('image_product')).'_'.time();
          //Nous enregistrerons nos fichiers dans /uploads/images dans public
          $folder = '/uploads/images/';
          //Nous allons enregistrer le chemin complet de l'image dans la BD
@@ -142,13 +142,13 @@ public function pagecategory(){
      $produit->prix_product = $request->input('prix_product');
      $produit->description_product = $request->input('description_product');
      $produit->admin_id = 1;
-     //$produit->category_id = $request->input('category_id');
+     $produit->category_id = $request->input('category_id');
+    
      $produit->category_id = 1;
-     $produit->save();
      //dd($file,$produit->image_product);
      
 
-   return redirect('/ajouproduit')->with(['success' => "Produit ajouté avec succes"]);
+     return redirect('/produit');
      
    }
    
