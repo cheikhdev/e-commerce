@@ -73,10 +73,10 @@
 					<div class="col-lg-4 col-md-12 col-12">
 						<!-- Top Left -->
 						<div class="top-left">
-							<ul class="list-main">
-								
+							<ul class="list-main">	
 								<li><i class="fas fa-envelope fa-lg fa-fw mr-2 text-gray-400" aria-hidden="true"></i> support@matcosen.com</li>
-                
+								<li><i class="fas fa-phone fa-lg fa-fw mr-2 text-gray-400" aria-hidden="true"></i> 33 825 25 25</li>
+        						
 							</ul>
 						</div>
 						<!--/ End Top Left -->

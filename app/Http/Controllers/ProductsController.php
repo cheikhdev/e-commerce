@@ -102,7 +102,7 @@ public function pagecategory(){
    {
      
       $data = $request->validate([
-         'name_product'=>'required|min:5',
+         'name_product'=>'required|min:4',
          'prix_product' => 'required|min:3|numeric',
          'description_product' => 'max:1000000',
          'image_product' => 'nullable | image | mimes:jpeg,png,jpg,gif | max: 2048',

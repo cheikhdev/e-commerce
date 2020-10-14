@@ -55,7 +55,7 @@ class HomeController extends Controller
     public function CreateForm(Request $request){
     
         $data = $request->validate([
-      'nom'   =>    'required|min:3',
+      'nom'   =>    'required|min:2',
       'prenom'   => 'required|min:3',
       'email'   =>  'required|email',
       'message'   =>'required|max:1000000',
