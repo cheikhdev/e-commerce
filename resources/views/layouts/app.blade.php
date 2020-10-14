@@ -79,7 +79,7 @@
 						<!-- Top Left -->
 						<div class="top-left">
 							<ul class="list-main">
-								<li><a style="color: #25D366;" href="{{('https://wa.me/221774781907')}}"><i style="color: #25D366;" class="fa fa-whatsapp fa-lg fa-fw mr-2 text-gray-400" aria-hidden="true" ></i> 77 478 19 07</a></li>
+								<li><a style="color: #25D366;" target="_blank"  href="{{('https://wa.me/221774781907')}}"><i style="color: #25D366;" class="fa fa-whatsapp fa-lg fa-fw mr-2 text-gray-400" aria-hidden="true" ></i> 77 478 19 07</a></li>
 								<li><i class="fas fa-envelope fa-lg fa-fw mr-2 text-gray-400" aria-hidden="true"></i> support@matcosen.com</li>
                 
 							</ul>
@@ -156,7 +156,7 @@
 										<span>{{Cart::count()}} produit(s)</span>
 										<a href="#">Affichage panier</a>
 									</div>
-									 <td class="col-lg-3 text-gray-400">Produit</td>
+									 <td class="col-lg-3">Produit</td>
                    <td class="col-lg-3">Quantite</td>
                    <td class="col-lg-3">Prix</td>
                    <td class="col-lg-3">Supprimer</td>
@@ -286,25 +286,18 @@
                                 
                             </ul>
                           </li>												
-													<li><a href="#">Produits</a></li>
-													<li><a href="#">Nos categories<i class="fas fa-angle-down"></i></a>
+													<li><a href="#">Actualite</a></li>
+													<li><a href="#">Nos Partenaires<i class="fas fa-angle-down"></i></a>
 														<ul class="dropdown">
-															<li><a href="shop-grid.html">Electricité</a>
-                                <ul class="sub-category">
-                                  <li><a href="#">Cablage</a></li>
-                                  <li><a href="#">Appareillage</a></li>
-                                  <li><a href="#">Protection</a></li>
-                                  <li><a href="#">Elairage</a></li>
-                                  
-                                </ul>
-                              </li>
-															<li><a href="cart.html">Sanitaire et Plomberie</a>
+															
+															<li><a href="cart.html">Inco</a>
                                
                               </li>
-															<li><a href="checkout.html">Maçonnerie</a>
+															<li><a href="checkout.html">Ingelec</a>
                                 
                               </li>
-                              <li><a href="checkout.html">Peinture</a></li> 
+                              <li><a href="checkout.html">Seignerie</a></li> 
+                              <li><a href="checkout.html">Legrand</a></li> 
 														</ul>
 													</li>
 													<li><a href="{{url('/contact')}}">Nous contacter</a></li>									
@@ -405,23 +398,18 @@
                         <!-- Modal Header -->
                         <div class="modal-header mb-5" style="">
                           
-                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <button type="button" class="close bg-info btn-lg " data-dismiss="modal">&times;</button>
                         </div>                        
                         <!-- Modal body -->
                         <div class="modal-body container " style="height:auto; max-height:auto;">
+                         
                             <form action="{{route('ajouter_user')}}" method="post">
                             @csrf
-                                <div class="row">   
-                                    <div class="form-group col-12 col-sm-12 col-md-6">
-                                        <label for="sexe" class=" " style="font-weight:bold;">Sexe</label>
-                                        <div class="col-sm-10">
-                                            <select name="genre" id="genre" class="form-control">
-                                                <option value="masculin">Masculin</option>
-                                                <option value="feminin">Feminin</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                </div>
+                                 <div class="card-header auth-header login100-form-title" style="background-image: url({{asset('images/logo.png')}});">
+          <span class="login100-form-title-1">
+            S'inscrire
+          </span>
+        </div>
                                 <div class="row">
                                     <div class="form-group col-12 col-sm-12 col-md-6">
                                         <label for="inputEmail" class="" style="font-weight:bold;">Prenom<span style="background-colol:red;">*</span></span></label>
@@ -494,15 +482,15 @@
                         <!-- Modal Header -->
                         <div class="modal-header" style="">
                           
-                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <button type="button" class="close bg-info btn-lg " data-dismiss="modal">&times;</button>
                         </div>                        
                         <!-- Modal body -->
                         <div class="modal-body ">
 						<div class="  " style="height:100%;overflow-x:scroll;">
 			<div class="card auth ">
-				<div class="card-header auth-header login100-form-title" style="background-image: url({{asset('images/materiel1.jpg')}});">
+				<div class="card-header auth-header login100-form-title" style="background-image: url({{asset('images/logo.png')}});">
 					<span class="login100-form-title-1">
-						Matcosen Login
+						Se Connecter
 					</span>
 				</div>
 				<div class="card-body auth-body" >
