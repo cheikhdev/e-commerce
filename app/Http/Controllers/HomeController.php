@@ -58,6 +58,7 @@ class HomeController extends Controller
       'nom'   =>    'required|min:2',
       'prenom'   => 'required|min:3',
       'email'   =>  'required|email',
+      'objet'   =>  'required',
       'message'   =>'required|max:1000000',
       
    ]);
@@ -66,12 +67,13 @@ class HomeController extends Controller
            'nom' => request('nom'),
            'prenom' => request('prenom'),
            'email' => request('email'),
+          'objet' => request('objet'),
            'message' => request('message'),
            ]);
         
         return redirect()
             ->back()
-            ->with('success', 'Thank you for your feedback');
+            ->with('success', 'Merci de nous contacter, nous allons vous repondre dans les plus brefs delais.');
 
     }
 

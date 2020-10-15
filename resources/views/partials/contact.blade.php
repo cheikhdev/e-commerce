@@ -8,7 +8,7 @@
                         <div class="mx-auto alert alert-success" style="width: 400px;">
                             {{ session('success') }}
                         </div>
-                    @endif
+                @endif
                  <div class="formu" style="text-align: center;"> 
                      <h1>Contactez -NOUS</h1>
                 
@@ -19,11 +19,18 @@
                      <div class="alert alert-danger">{{$error}}</div>
                 @endforeach
                 @endif
-                
-                <input class="mt-4" type="text" name="nom" placeholder="Veuillez mettre votre Nom" style="width: 400px; height: 50px;"><br>
-                <input class="mt-4"type="text" name="prenom" placeholder="Veuillez mettre votre Prenom" style="width: 400px;height: 50px;"><br>
-                <input class="mt-4" type="text" name="email" placeholder="Veuillez mettre votre email" style="width: 400px;height: 50px;"><br>
-                <textarea class="mt-4" style="width: 400px;height: 250px;" placeholder="Veuillez Ecrire votre message." name="message"></textarea><br>
+                <input class="mt-3" type="text" name="nom" placeholder="Veuillez mettre votre Nom" style="width: 400px; height: 50px;"><br>
+                <input class="mt-3"type="text" name="prenom" placeholder="Veuillez mettre votre Prenom" style="width: 400px;height: 50px;"><br>
+                <input class="mt-3" type="text" name="email" placeholder="Veuillez mettre votre email" style="width: 400px;height: 50px;"><br>
+			   <select id="objet" name="objet">
+					  <option hidden>Veuillez preciser l'objet de votre message</option>
+					  <option value="objet">Informations</option>
+					  <option value="objet">Commande </option>
+					  <option value="objet">Livraison </option>
+					  <option value="objet">Confusion produit </option>
+
+			   </select>
+                <textarea class="mt-3" style="width: 400px;height: 180px;" placeholder="Veuillez Ecrire votre message." name="message"></textarea><br>
                 <button class="btn btn-dark mt-4" type="submit">Valider</button>
                 </form>
                 

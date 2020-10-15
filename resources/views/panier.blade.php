@@ -24,7 +24,7 @@
     <thead>
         <tr class="mw-50">
             <th>Produit </th>
-            <th>Image </th>
+        
             <th>Quantite</th>
             <th>Prix</th>
             <th>Soustotal</th>
