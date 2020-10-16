@@ -105,7 +105,7 @@
 					<div class="col-lg-2 col-md-2 col-12">
 						<!-- Logo -->
 						<div class="logo">
-							<a href="index.html"><img src="images/logo.png" alt="logo"></a>
+							<a href="/home"><img src="images/logo.png" alt="logo"></a>
 						</div>
 						<!--/ End Logo -->
 						<!-- Search Form -->
@@ -149,42 +149,29 @@
 								<div class="shopping-item">
 									<div class="dropdown-cart-header">
 										<span>{{Cart::count()}} produit(s)</span>
-										<a href="#">Affichage panier</a>
+										<a href="/panier">Afficher le panier</a>
 									</div>
-									 <td class="col-lg-3">Produit</td>
-                   <td class="col-lg-3">Quantite</td>
-                   <td class="col-lg-3">Prix</td>
-                   <td class="col-lg-3">Supprimer</td>
-										 <?php foreach(Cart::content() as $row ) :?>
-                    
-										<div style="display: flex;">
-												<h6 class="col-lg-4"><a href="#"></a><?php echo $row->name; ?></h6>
-                        <h6 class="col-lg-2"><a href="#"></a><?php echo $row->qty; ?></h6>
-                        <h6 class="col-lg-3"><a href="#"></a><?php echo $row->price; ?></h6>
-                        
-                        <form action="{{route('cart.destroy',$row->rowId)}}" method="POST" class="">
-                        @csrf                      
-                        @method('DELETE')
+									<ul class="shopping-list">
+                                        @foreach(Cart::content() as $row )
+                                            <li>
+                                                <form action="{{route('cart.destroy',$row->rowId)}}" method="POST" class="">
+                                                    @csrf                      
+                                                    @method('DELETE')
 
-                        <button type="submit" class="remove  ml-5 text-danger  " title="Remove this item"><i class="fa fa-remove "></i></button>
-                        </form>
-											</div>	
-											
-										<?php endforeach;?>
-									
+                                                    <button type="submit" class="remove text-danger  " title="Remove this item"><i class="fa fa-remove "></i></button>
+                                                </form>
+                                                <a class="cart-img" href="#"><img src="https://via.placeholder.com/70x70" alt="#"></a>
+                                                <h4><a href="#">{{$row->name}}</a></h4>
+                                                <p class="quantity">(Quantité : {{$row->qty}}) -- <span class="amount">{{$row->price}} FCFA</span></p>
+                                            </li>
+										@endforeach
+									</ul>
 									<div class="bottom">
 										<div class="total">
-											<h3 class="bg-info"><span class="total-amount ">Total:<?php echo Cart::total(); ?></span></h3>
-											
+											<span>Total</span>
+											<span class="total-amount">{{Cart::total()}} FCFA</span>
 										</div>
-										<a href="{{url('/panier')}}" class="btn animate">Details du Panier</a>
-										<?php foreach(Cart::content() as $row) :?>
-											<form action="{{route('cart.remove',$row->rowId)}}" method="post">
-												@csrf                      
-												@method('DELETE')
-												<button type="submit" class="btn btn-dark"> <i class="fa fa-trash-o text-danger"></i> Vider le panier </button>                 
-											</form>
-										<?php endforeach;?>
+										<a href="checkout.html" class="btn animate">Vider le panier</a>
 									</div>
 								</div>
 								<!--/ End Shopping Item -->

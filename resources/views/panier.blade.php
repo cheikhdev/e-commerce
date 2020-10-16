@@ -34,7 +34,7 @@
 
     <tbody>
 
-        <?php foreach(Cart::content() as $row) :?>
+        @foreach(Cart::content() as $row)
 
             <tr class="mw-50">
                 <td>
@@ -62,7 +62,7 @@
 
             </tr>
 
-        <?php endforeach;?>
+        @endforeach
 
                  
     </tbody>
@@ -72,7 +72,7 @@
         <tr class="mt-1">
             <td colspan="2">&nbsp;</td>
             <td class="btn btn-info">Total</td>
-            <td><?php echo Cart::total(); ?> FcFa</td>
+            <td>{{Cart::total()}} FcFa</td>
             
         </tr>
 

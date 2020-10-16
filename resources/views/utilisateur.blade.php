@@ -4,7 +4,7 @@
             <ul class="dropdown">
             	<li><a href="shop-grid.html">Profil</a></li>
                 <li><a href="cart.html">Parametres</a></li>
-                <li><a href="checkout.html">Deconnexion</a></li>                
+                <li><a href="/">Deconnexion</a></li>                
             </ul>
     	</li>
 	@endsection

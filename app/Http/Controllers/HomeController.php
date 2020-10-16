@@ -26,7 +26,7 @@ class HomeController extends Controller
          $TotalPeinture = DB::table('products')->whereIn('category_id', [3])->count();
          $TotalElectricite = DB::table('products')->whereIn('category_id', [4])->count();
          
-         $products = DB::table('products')->paginate(12);//paginate(6);
+         $products = DB::table('products')->paginate(6);//paginate(6);
           $product = \App\Product::All();
         return view('home', compact('products','categories','TotalMacon','TotalSanitaire_plomberie','TotalPeinture','TotalElectricite','product'));
      }
