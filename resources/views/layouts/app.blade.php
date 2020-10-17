@@ -184,9 +184,9 @@
 		</div>
 		<!-- Header Inner -->
 		<div class="header-inner">
-			<div class="container">
-				<div class="cat-nav-head">
-					<div class="row">
+			<div class="container" >
+				<div class="cat-nav-head" >
+					<div class="row" >
 						<div class="col-lg-3">
 							<div class="all-category">
 								<h3 class="cat-heading"><i class="fa fa-bars" aria-hidden="true"></i>CATEGORIES</h3>
@@ -203,42 +203,42 @@
 											
 										</ul>
 									</li>
-									<li class="main-mega"><a href="#">Indispensables à la maison <i class="fa fa-angle-right" aria-hidden="true"></i></a>
-										<ul class="mega-menu">
+									<li class="main-mega" style="z-index:9999 ;"><a href="#">Indispensables à la maison <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+										<ul class="mega-menu" style="z-index:9999 ;">
 											<li class="single-menu">
-												<a href="#" class="title-link">Shop Kid's</a>
+												<a href="#" class="title-link">Toilettes</a>
 												<div class="image">
 													<img src="https://via.placeholder.com/225x155" alt="#">
 												</div>
 												<div class="inner-link">
-													<a href="#">Kids Toys</a>
-													<a href="#">Kids Travel Car</a>
-													<a href="#">Kids Color Shape</a>
-													<a href="#">Kids Tent</a>
+													<a href="#">Lavabo</a>
+													<a href="#">Chasse</a>
+													<a href="#">Chaise</a>
+													<a href="#">.............</a>
 												</div>
 											</li>
 											<li class="single-menu">
-												<a href="#" class="title-link">Shop Men's</a>
+												<a href="#" class="title-link">Accessoires d'electricité</a>
 												<div class="image">
 													<img src="https://via.placeholder.com/225x155" alt="#">
 												</div>
 												<div class="inner-link">
-													<a href="#">Watch</a>
-													<a href="#">T-shirt</a>
-													<a href="#">Hoodies</a>
-													<a href="#">Formal Pant</a>
+													<a href="#">Cable</a>
+													<a href="#">Lampes</a>
+													<a href="#">Groupe electrogene</a>
+													<a href="#">Solaire</a>
 												</div>
 											</li>
 											<li class="single-menu">
-												<a href="#" class="title-link">Shop Women's</a>
+												<a href="#" class="title-link">Peinture de qualité</a>
 												<div class="image">
 													<img src="https://via.placeholder.com/225x155" alt="#">
 												</div>
 												<div class="inner-link">
-													<a href="#">Ladies Shirt</a>
-													<a href="#">Ladies Frog</a>
-													<a href="#">Ladies Sun Glass</a>
-													<a href="#">Ladies Watch</a>
+													<a href="#">De tous couleurs</a>
+													<a href="#">Poits</a>
+													<a href="#">Sachets de peinture</a>
+													<a href="#">.................</a>
 												</div>
 											</li>
 										</ul>
@@ -247,40 +247,37 @@
 									<li><a href="#">meilleure vente</a></li>
 									<li><a href="#">top 100 des produits</a></li>
 									<li><a href="#">materiel de construction</a></li>
-									<li><a href="#">toilettes</a></li>
-									<li><a href="#">accessoires d'electricité</a></li>
-									<li><a href="#">peinture de qualité</a></li>
 								</ul>
 							</div>
 						</div>
-						<div class="col-lg-9 col-12">
-							<div class="menu-area">
+						<div class="col-lg-9 col-12" >
+							<div class="menu-area" >
 								<!-- Main Menu -->
-								<nav class="navbar navbar-expand-lg">
-									<div class="navbar-collapse">	
-										<div class="nav-inner">	
-											<ul class="nav main-menu menu navbar-nav">
-													<li class="active"><a href="#"><i class="fas fa-home fa-lg fa-fw mr-2 text-gray-400" aria-hidden="true"></i>Accueuil</a></li>
+								<nav class="navbar navbar-expand-lg" >
+									<div class="navbar-collapse" >	
+										<div class="nav-inner" >	
+											<ul class="nav main-menu menu navbar-nav" >
+													<li  class="active"><a href="#"><i class="fas fa-home fa-lg fa-fw mr-2 text-gray-400" aria-hidden="true"></i>Accueuil</a></li>
 													<li><a href="#"><i class="fas fa-medkit fa-lg fa-fw mr-2 text-gray-400" aria-hidden="true"></i>A propos<i class="fas fa-angle-down"></i></a>
-                            <ul class="dropdown">
-                                <li><a href="shop-grid.html">Mention légale</a></li>
-                                <li><a href="cart.html">Conditions générales de vente</a></li>
-                                <li><a href="{{url('/contact')}}">Contact</a></li>
-                                
-                            </ul>
-                          </li>												
+														<ul class="dropdown">
+															<li><a href="shop-grid.html">Mention légale</a></li>
+															<li><a href="cart.html">Conditions générales de vente</a></li>
+															<li><a href="{{url('/contact')}}">Contact</a></li>
+															
+														</ul>
+													</li>												
 													<li><a href="#">Actualite</a></li>
 													<li><a href="#">Nos Partenaires<i class="fas fa-angle-down"></i></a>
 														<ul class="dropdown">
 															
 															<li><a href="cart.html">Inco</a>
                                
-                              </li>
+															</li>
 															<li><a href="checkout.html">Ingelec</a>
-                                
-                              </li>
-                              <li><a href="checkout.html">Seignerie</a></li> 
-                              <li><a href="checkout.html">Legrand</a></li> 
+																
+															</li>
+															<li><a href="checkout.html">Seignerie</a></li> 
+															<li><a href="checkout.html">Legrand</a></li> 
 														</ul>
 													</li>
 													<li><a href="{{url('/contact')}}">Nous contacter</a></li>									
