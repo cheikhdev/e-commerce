@@ -46,7 +46,8 @@
 
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rancho&effect=fire-animation|3d-float|neon|canvas-print">
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,900" rel="stylesheet" />
- <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="//cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css"> 
+<script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
 </head>	
 </head>
 <body class="js">
@@ -655,6 +656,7 @@
 <!-- Easing JS -->
     <script src="{{asset('js/js_home/easing.js')}}"></script>
 <!-- Active js -->
-    <script src="{{asset('js/js_home/active.js')}}"></script>
+	<script src="{{asset('js/js_home/active.js')}}"></script>
+	<script src="//cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
 </body>
 </html>

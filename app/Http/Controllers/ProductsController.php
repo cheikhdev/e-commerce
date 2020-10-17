@@ -94,8 +94,6 @@ public function pagecategory(){
       $categories = \App\Category::pluck('name_category','id');
      
       return view('products.create', compact('categories'));
-      
-      
    }
    
    public function store(Request $request)

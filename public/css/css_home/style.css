@@ -182,17 +182,17 @@ Version:1.0
 	font-weight: 500;
 	font-size:14px;
 	color: #fff;
-	background: #333;
+	cursor: pointer;
 	display: inline-block;
 	-webkit-transition: all 0.4s ease;
 	-moz-transition: all 0.4s ease;
 	transition: all 0.4s ease;
 	z-index: 5;
 	display: inline-block;
-	width:250px;
-	height: 45px;;
+	width:auto;
+	height: auto;
 	padding: 5px;
-	border-radius: 0px;
+	
 	text-transform:uppercase;
 }
 .btn:hover{
@@ -2496,17 +2496,7 @@ Version:1.0
 	border-radius:0;
 	overflow:hidden;
 }
-.shop.single .quantity .button .btn {
-	padding: 0;
-	width: 35px;
-	height: 45px;
-	line-height: 45px;
-	border-radius: 0px;
-	background: transparent;
-	color: #282828;
-	font-size: 12px;
-	border: none;
-}
+
 .shop.single .quantity .button .btn:hover{
 	color:#F7941D;
 }
@@ -3152,16 +3142,7 @@ Version:1.0
 	display:inline-block;
 	float:right;
 }
-.shopping-cart .total-amount .right .button5 .btn {
-	text-align: center;
-	border-radius: 0;
-	width: 100%;
-	margin-top: 10px;
-	height: 46px;
-	line-height: 18px;
-	font-size: 13px;
-	color: #fff;
-}
+
 /*======================================
    End Shopping Cart CSS
 ========================================*/
@@ -3899,9 +3880,7 @@ Version:1.0
 	margin-top:40px;
 }
 .about-us .about-content .button .btn{
-	background:#333;
-	color:#fff;
-	margin-right:15px;
+	
 }
 .about-us .about-content .button .btn:hover{
 	background:#F7941D;
