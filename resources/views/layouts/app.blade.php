@@ -299,7 +299,7 @@
 	<!-- Single Slider -->
 		@yield('slide')
 	<!--/ End Slider Area -->
-		<div>
+		<div class="container">
 			@yield('content')
 		</div>
 	<!-- Start Shop Services Area -->
@@ -372,105 +372,109 @@
 	
 	
 	<!-- Debut modall inscriptionnnn -->
-	<div class="modal fade" id="myModal">
-                <div class="modal-dialog modal-lg" style="height:100vh;width:60vw;">
-                    <div class="modal-content container container-fluid w-100 h-auto" >
+			<div class="modal fade " id="myModal" >
+                <div class="modal-dialog  modal-md">
+                    <div class="modal-content" >
                         <!-- Modal Header -->
-                        <div class="modal-header mb-5" style="">
-                          
-                            <button type="button" class="close bg-info btn-lg " data-dismiss="modal">&times;</button>
+                        <div class="modal-header" style="">
+                            <button type="button" class="close bg-danger btn-danger " data-dismiss="modal">&times;</button>
                         </div>                        
                         <!-- Modal body -->
-                        <div class="modal-body container " style="height:auto; max-height:auto;">
-                         
-                            <form action="{{route('ajouter_user')}}" method="post">
-                            @csrf
-                                 <div class="card-header auth-header login100-form-title" style="background-image: url({{asset('images/logo.png')}});">
-          <span class="login100-form-title-1">
-            S'inscrire
-          </span>
-        </div>
-                                <div class="row">
-                                    <div class="form-group col-12 col-sm-12 col-md-6">
-                                        <label for="inputEmail" class="" style="font-weight:bold;">Prenom<span style="background-colol:red;">*</span></span></label>
-                                        <div class="col-sm-10">
-                                            <input type="text" class="form-control" id="prenom" name="prenom" placeholder="Entrer Prenom">
-                                        </div>
-                                    </div>
-                                    <div class="form-group col-12 col-sm-12 col-md-6">
-                                        <label for="inputPassword" class="" style="font-weight:bold;">Nom</label>
-                                        <div class="col-sm-10">
-                                            <input type="text" class="form-control" id="nom" name="nom" placeholder="Entrer Nom">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row ">
-                                    <div class="form-group col-12 col-sm-12 col-md-6">
-                                            <label for="inputPassword" class="" style="font-weight:bold;">Adresse</label>
-                                            <div class="col-sm-10">
-                                                <input type="text" class="form-control" id="adresse" name="adresse" placeholder="Entrer Adresse">
-                                            </div>
-                                      </div>
-                                    
-                                    <div class="form-group col-12 col-sm-12 col-md-6">
-                                        <label for="inputPassword" class="" style="font-weight:bold;">Telephone</label>
-                                        <div class="col-sm-10">
-                                            <input type="text" class="form-control" id="lieu" name="phone" placeholder="Entrer Telephone">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="form-group col-12 ">
-                                        <label for="inputPassword" class=" " style="font-weight:bold;">Email</label>
-                                        <div class="col-sm-10">
-                                            <input type="email" class="form-control" id="date" name="email" placeholder="Entrer mail">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row ">
-                                    <div class="form-group col-12 col-sm-12 col-md-6">
-                                            <label for="inputPassword" class="" style="font-weight:bold;">Mot de passe</label>
-                                            <div class="col-sm-10">
-                                                <input type="password" class="form-control" id="adresse" name="password" placeholder="Entrer password">
-                                            </div>
-                                      </div>
-                                    
-                                    <div class="form-group col-12 col-sm-12 col-md-6">
-                                        <label for="inputPassword" class="" style="font-weight:bold;">Cofirmer mot de passe</label>
-                                        <div class="col-sm-10">
-                                            <input type="password" class="form-control" id="lieu" name="confirme_pass" placeholder="confirmer password">
-                                        </div>
-                                    </div>
-                                </div>
+                        <div class="modal-body ">
+							<div class="  " style="height:100%;overflow-x:scroll;">
+								<div class="card auth ">
+									<div class="card-header auth-header login100-form-title" style="background-image: url({{asset('images/logo.png')}});">
+										<span class="login100-form-title-1" style="size:16px;font-weight:bold;">
+											Inscription
+										</span>
+									</div>                        
+									<!-- Modal body -->
+									<div class="modal-body  p-3" style="height:auto;">
+										<form action="{{route('ajouter_user')}}" method="post">
+											@csrf 
+											<div class="row">
+												<div class="form-group col-12 col-sm-12 col-md-6">
+													<label for="inputEmail" class="" style="font-weight:bold;color:red;">Prénom<span style="background-colol:red;">*</span></span></label>
+													<div class="col-sm-10">
+														<input type="text" class="form-control" id="prenom" name="prenom" placeholder="Entrer Prenom">
+													</div>
+												</div>
+												<div class="form-group col-12 col-sm-12 col-md-6">
+													<label for="inputPassword" class="" style="font-weight:bold;color:red;">Nom</label>
+													<div class="col-sm-10">
+														<input type="text" class="form-control" id="nom" name="nom" placeholder="Entrer Nom">
+													</div>
+												</div>
+											</div>
+											<div class="row ">
+												<div class="form-group col-12 col-sm-12 col-md-6">
+														<label for="inputPassword" class="" style="font-weight:bold;color:red;">Adresse</label>
+														<div class="col-sm-10">
+															<input type="text" class="form-control" id="adresse" name="adresse" placeholder="Entrer Adresse">
+														</div>
+												</div>
+												
+												<div class="form-group col-12 col-sm-12 col-md-6">
+													<label for="inputPassword" class="" style="font-weight:bold;color:red;">Telephone</label>
+													<div class="col-sm-10">
+														<input type="text" class="form-control" id="lieu" name="phone" placeholder="Entrer Telephone">
+													</div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="form-group col-12 ">
+													<label for="inputPassword" class=" " style="font-weight:bold;color:red;">Email</label>
+													<div class="col-sm-10">
+														<input type="email" class="form-control" id="date" name="email" placeholder="Entrer mail">
+													</div>
+												</div>
+											</div>
+											<div class="row ">
+												<div class="form-group col-12 col-sm-12 col-md-6">
+														<label for="inputPassword" class="" style="font-weight:bold;color:red;">Mot de passe</label>
+														<div class="col-sm-10">
+															<input type="password" class="form-control" id="adresse" name="password" placeholder="Entrer password">
+														</div>
+												</div>
+												
+												<div class="form-group col-12 col-sm-12 col-md-6">
+													<label for="inputPassword" class="" style="font-weight:bold;color:red;">Cofirmer mot de passe</label>
+													<div class="col-sm-10">
+														<input type="password" class="form-control" id="lieu" name="confirme_pass" placeholder="confirmer password">
+													</div>
+												</div>
+											</div>
 
-                                <div class="d-flex justify-content-around mb-5">         
-                                    <button type="submit" style="width:150px;border-radius:50px;height:30px !important;" class=" btn-success">Enregistrer</button>
-                                    <button type="reset" style="width:150px;border-radius:50px;height:30px !important;" class=" btn-danger" data-dismiss="modal">Annuler</button>
-                                </div>
-                            </form>
-                        </div>      
-                                        
-                    </div>
-                </div>
-            </div>
+											<div class="d-flex justify-content-around mb-5">         
+												<button type="submit" style="width:150px;border-radius:50px;height:30px !important;" class=" btn-success">Enregistrer</button>
+												<button type="reset" style="width:150px;border-radius:50px;height:30px !important;" class=" btn-danger" data-dismiss="modal">Annuler</button>
+											</div>
+										</form>
+									</div>  					
+                    			</div>
+							</div>
+                		</div>
+            		</div>
+				</div>
+			</div>
        <!--fin modall inscription-->
 		 <!-- Debut modall Cnnexion -->
 		
-		<div class="modal fade " id="ModalLogin" >
+			<div class="modal fade " id="ModalLogin" >
                 <div class="modal-dialog  modal-md">
                     <div class="modal-content" >
                         <!-- Modal Header -->
                         <div class="modal-header" style="">
                           
-                            <button type="button" class="close bg-info btn-lg " data-dismiss="modal">&times;</button>
+                            <button type="button" class="close bg-danger btn-danger " data-dismiss="modal">&times;</button>
                         </div>                        
                         <!-- Modal body -->
                         <div class="modal-body ">
 						<div class="  " style="height:100%;overflow-x:scroll;">
 			<div class="card auth ">
 				<div class="card-header auth-header login100-form-title" style="background-image: url({{asset('images/logo.png')}});">
-					<span class="login100-form-title-1">
-						Se Connecter
+					<span class="login100-form-title-1" style="size:16px;font-weight:bold;">
+						Login
 					</span>
 				</div>
 				<div class="card-body auth-body" >
@@ -514,7 +518,7 @@
 							@endif
 						</div>
 						<div class="d-flex justify-content-center " style="">
-							<button class=" btn-success" style="border-radius:70px;width:200px;height:45px;">
+							<button class=" btn-success" style="border-radius:70px;width:200px;height:45px;size:12px;font-weight:bold;">
 								Se Connecter
 							</button>
 							
