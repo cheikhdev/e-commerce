@@ -83,9 +83,7 @@
 						<!--/ End Top Left -->
 					</div>
 
-@if (request()->input('q'))
-    <h4 style="font-size: 24px;border: 1px solid black;text-align: center;color: #FFD700">{{ $products->total() }} résultat(s) pour la recherche "{{ request()->q }}"</h6>
-  @endif
+
 					<div class="col-lg-8 col-md-12 col-12">
 						<!-- Top Right -->
 						<div class="right-content">
@@ -180,6 +178,11 @@
 				</div>
 			</div>
 		</div>
+		@if (request()->input('q'))
+  <div class="row align-items-center justify-content-center mt-1" >
+    <h4 style="font-size: 20px;border: 1px solid black ;  width: 30%; text-align: center;color: #FFD700">{{ $products->total() }} résultat(s) pour la recherche "{{ request()->q }}"</h4>
+  </div>
+  @endif
 		<!-- Header Inner -->
 		<div class="header-inner">
 			<div class="container" >

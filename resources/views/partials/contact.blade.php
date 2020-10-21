@@ -5,25 +5,34 @@
 	@endsection
     @section('content')
 
-    <div>
-        <div class="d-flex justify-content-around">
-            <div class="card col-12 col-md-3" style="border-radius:10px;">
-                <div class="card-body">
 
-                </div>
-            </div>
-            <div class="card col-12 col-md-3" style="border-radius:10px;">
-                <div class="card-body">
+                 <div class="formu" style="text-align: center;"> 
+                     <h1 class="mt-5">Nous Ecrire</h1>
+                   <p class="mt-1">Laissez nous un message texte pour toutes demandes ou de renseignement</p><br>
+                   <p class="mt-1">Nous vous recontacterons.</p>
 
-                </div>
-            </div>
-            <div class="card col-12 col-md-3" style="border-radius:10px;">
-                <div class="card-body">
+                <form action="{{('contact.store')}}" method="POST" enctype="multipart/form-data">
+                @csrf
+                @if($errors->any())
+                @foreach($errors->all() as $error)
+                <div class="alert alert-danger">{{$error}}</div>
+                @endforeach
+                @endif
 
-                </div>
-            </div>
-        </div>
+                <input class="mt-4" type="text" name="name" placeholder="METTRE LE NOM " style="width: 500px; height: 50px;">
+                <input class="mt-4"type="text" name="name" placeholder="METTRE LE PRENOM" style="width: 500px;height: 50px;"><br>
+                <input class="mt-4" type="text" name="name" placeholder="METTRE L'EMAIL" style="width: 500px;height: 50px;">
+                <input class="mt-4" type="text" name="name" placeholder="METTRE L'OBJET" style="width: 500px;height: 50px;"><br>
+                <textarea class="mt-4" style="width: 1000px;height: 250px;" placeholder="Veuillez Ecrire votre message."></textarea><br>
+                <a href="{{url('/home')}}"><button class="btn btn-info mt-2 w-25" type="submit">ENVOYER</button></a>
+                </form>
 
-    </div>
-    
+ 				</div>  
+
+<style type="text/css">
+	
+</style>
+
+
+  
     @endsection
