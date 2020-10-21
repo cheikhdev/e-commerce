@@ -64,7 +64,7 @@
 		</div>
 	<!-- End Preloader -->
 	
-	<a style=" position:fixed;right:5px;bottom:60px;z-index:24587962;" href="{{('https://wa.me/221774781907')}}"><img style="height:70px;width:70px;" src="{{asset('images/whatsapp.png')}}" alt=""></a>
+
 	<!-- Header -->
 	<header class="header shop">
 		<!-- Topbar -->
@@ -139,11 +139,9 @@
 						<div class="right-bar">
 							<!-- Search Form -->
 							<div class="sinlge-bar">
-								<a href="#" class="single-icon"><i class="fab fa-heart-o" aria-hidden="true"></i></a>
+								<a href="#" class="single-icon"><i class="fas fa-heart-o" aria-hidden="true"></i></a>
 							</div>
-							<div class="sinlge-bar">
-								<a href="#" class="single-icon"><i class="fab fa-user-circle-o" aria-hidden="true"></i></a>
-							</div>
+							
 							<div class="sinlge-bar shopping">
 								<a href="#" class="single-icon"><i class="fas fa-shopping-cart fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i> <span class="total-count">{{Cart::count()}}</span></a>
 								<!-- Shopping Item -->
@@ -191,19 +189,16 @@
 							<div class="all-category">
 								<h3 class="cat-heading"><i class="fa fa-bars" aria-hidden="true"></i>CATEGORIES</h3>
 								<ul class="main-category">
-									<li><a href="#">Nouvelles arrivées <i class="fa fa-angle-right" aria-hidden="true"></i></a>
-										<ul class="sub-category">
-											<li><a href="#">accessories</a></li>
-											<li><a href="#">meilleure vente</a></li>
-											<li><a href="#">top 100 des produits</a></li>
-											<li><a href="#">materiel de construction</a></li>
-											<li><a href="#">toilettes</a></li>
-											<li><a href="#">accessoires d'electricité</a></li>
-											<li><a href="#">peinture de qualité</a></li>
+									<li><a href="#">Electricité <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+										<ul class="sub-category" style="z-index:9999 ;">
+											<li><a href="#">Eclairages</a></li>
+											<li><a href="#">Cablages</a></li>
+											<li><a href="#">Appareillage</a></li>
+											<li><a href="#">Protection</a></li>
 											
 										</ul>
 									</li>
-									<li class="main-mega" style="z-index:9999 ;"><a href="#">Indispensables à la maison <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+									<!--li class="main-mega" style="z-index:9999 ;"><a href="#">Indispensables à la maison <i class="fa fa-angle-right" aria-hidden="true"></i></a>
 										<ul class="mega-menu" style="z-index:9999 ;">
 											<li class="single-menu">
 												<a href="#" class="title-link">Toilettes</a>
@@ -242,11 +237,47 @@
 												</div>
 											</li>
 										</ul>
+									</li-->
+									<li><a href="#">Maçonnerie</a>
+										<ul class="sub-category" style="z-index:9999 ;">
+											<li><a href="#">Eclairages</a></li>
+											<li><a href="#">Cablages</a></li>
+											<li><a href="#">Appareillage</a></li>
+											<li><a href="#">Protection</a></li>
+										</ul>
 									</li>
-									<li><a href="#">accessories</a></li>
-									<li><a href="#">meilleure vente</a></li>
-									<li><a href="#">top 100 des produits</a></li>
-									<li><a href="#">materiel de construction</a></li>
+									<li><a href="#">Sanitaire</a>
+										<ul class="sub-category" style="z-index:9999 ;">
+											<li><a href="#">Eclairages</a></li>
+											<li><a href="#">Cablages</a></li>
+											<li><a href="#">Appareillage</a></li>
+											<li><a href="#">Protection</a></li>
+										</ul>
+									</li>
+									<li><a href="#">Peinture</a>
+										<ul class="sub-category" style="z-index:9999 ;">
+											<li><a href="#">Eclairages</a></li>
+											<li><a href="#">Cablages</a></li>
+											<li><a href="#">Appareillage</a></li>
+											<li><a href="#">Protection</a></li>
+										</ul>
+									</li>
+									<li><a href="#">Plomberie</a>
+										<ul class="sub-category" style="z-index:9999 ;">
+											<li><a href="#">Eclairages</a></li>
+											<li><a href="#">Cablages</a></li>
+											<li><a href="#">Appareillage</a></li>
+											<li><a href="#">Protection</a></li>
+										</ul>
+									</li>
+									<li><a href="#">Indispensable à maison</a>
+										<ul class="sub-category" style="z-index:9999 ;">
+											<li><a href="#">Eclairages</a></li>
+											<li><a href="#">Cablages</a></li>
+											<li><a href="#">Appareillage</a></li>
+											<li><a href="#">Protection</a></li>
+										</ul>
+									</li>
 								</ul>
 							</div>
 						</div>
@@ -444,8 +475,7 @@
 													</div>
 												</div>
 											</div>
-
-											<div class="d-flex justify-content-around mb-5">         
+											<div class="d-flex justify-content-around mb-1">         
 												<button type="submit" style="width:150px;border-radius:50px;height:30px !important;" class=" btn-success">Enregistrer</button>
 												<button type="reset" style="width:150px;border-radius:50px;height:30px !important;" class=" btn-danger" data-dismiss="modal">Annuler</button>
 											</div>

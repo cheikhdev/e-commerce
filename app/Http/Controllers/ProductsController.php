@@ -96,6 +96,27 @@ public function pagecategory(){
       return view('products.create', compact('categories'));
    }
    
+   public function add_category(Request $request)
+   {
+      $category = new Category();
+       $name = $request->input('nom_category');
+       $categories= Category::where('name_category',$name)->first();      
+      if(empty($categories))
+         {
+            $category->name_category=$name;
+            $category->save();
+           
+            $categories = \App\Category::pluck('name_category','id');
+            return view('products.create', compact('categories'));
+         }
+      else{
+       
+         $categories = \App\Category::pluck('name_category','id');
+         return view('products.create', compact('categories'));
+      }
+
+   }
+
    public function store(Request $request)
    {
      

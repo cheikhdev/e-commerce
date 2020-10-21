@@ -103,7 +103,7 @@
 										<div class="col-lg-6 col-md-6 col-12">
 											<div class="list-image overlay">
 												<img src="{{$product->image_product ? asset($product->image_product) : asset('uploads/images/default.png')}}" alt="#">
-												<a href="#" class="buy"><i class="fas fa-shopping-cart fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i></a>
+												<a href="/ajout_panier" class="buy"><i class="fas fa-shopping-cart fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i></a>
 											</div>
 										</div>
 										<div class="col-lg-6 col-md-6 col-12 no-padding">
@@ -132,12 +132,16 @@
 										<div class="col-lg-6 col-md-6 col-12">
 											<div class="list-image overlay">
 												<img src="{{$product->image_product ? asset($product->image_product) : asset('uploads/images/default.png')}}" alt="#">
-												<a href="#" class="buy"><i class="fas fa-shopping-cart fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i></a>
+												<a href="/ajout_panier" class="buy"><i class="fas fa-shopping-cart fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i></a>
 											</div>
 										</div>
 										<div class="col-lg-6 col-md-6 col-12 no-padding">
 											<div class="content">
-												<h4 class="title"><a href="#">{{$product->name_product}}</a></h4>
+												<h4 class="
+
+
+
+title"><a href="#">{{$product->name_product}}</a></h4>
 												<p class="price with-discount">{{$product->prix_product}} FCFA</p>
 											</div>
 										</div>
@@ -161,7 +165,7 @@
 										<div class="col-lg-6 col-md-6 col-12">
 											<div class="list-image overlay">
 												<img src="{{$product->image_product ? asset($product->image_product) : asset('uploads/images/default.png')}}" alt="#">
-												<a href="#" class="buy"><i class="fas fa-shopping-cart fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i></a>
+												<a href="/ajout_panier" class="buy"><i class="fas fa-shopping-cart fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i></a>
 											</div>
 										</div>
 										<div class="col-lg-6 col-md-6 col-12 no-padding">

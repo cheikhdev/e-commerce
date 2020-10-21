@@ -90,7 +90,7 @@
               <ul class="nav sidebar-inner" id="sidebar-menu">
                 
                 <li>
-                    <a href="/espace_client">
+                    <a href="/utilisateur">
                         <i class="fas fa-home"></i>
                         <span class="nav-text">Aller au site</span> <b class=""></b>
                     </a>
@@ -108,15 +108,12 @@
                             <li  class="active" >
                               <a class="sidenav-item-link" href="index.html">
                                 <span class="nav-text">Ecommerce</span>
-                                
                               </a>
                             </li>
                             <li >
                               <a class="sidenav-item-link" href="analytics.html">
                                 <span class="nav-text">Analytics</span>
-                                
                                 <span class="badge badge-success">new</span>
-                                
                               </a>
                             </li>  
                       </div>
