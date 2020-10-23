@@ -87,7 +87,7 @@
 
               <!-- sidebar menu -->
         
-              <ul class="nav sidebar-inner" id="sidebar-menu">
+              <ul class="nav sidebar-inner mt-1" id="sidebar-menu">
                 
                 <li>
                     <a href="/utilisateur">
@@ -96,29 +96,7 @@
                     </a>
                 </li>
                 
-                  <li  class="has-sub active expand" >
-                    <a class="sidenav-item-link" href="javascript:void(0)" data-toggle="collapse" data-target="#dashboard"
-                      aria-expanded="false" aria-controls="dashboard">
-                      <i class="mdi mdi-view-dashboard-outline"></i>
-                      <span class="nav-text">Tableau de bord</span> <b class="caret"></b>
-                    </a>
-                    <ul  class="collapse show"  id="dashboard"
-                      data-parent="#sidebar-menu">
-                      <div class="sub-menu">
-                            <li  class="active" >
-                              <a class="sidenav-item-link" href="index.html">
-                                <span class="nav-text">Ecommerce</span>
-                              </a>
-                            </li>
-                            <li >
-                              <a class="sidenav-item-link" href="analytics.html">
-                                <span class="nav-text">Analytics</span>
-                                <span class="badge badge-success">new</span>
-                              </a>
-                            </li>  
-                      </div>
-                    </ul>
-                  </li>
+                  
                   <li  class="has-sub" >
                     <a class="sidenav-item-link" href="javascript:void(0)" data-toggle="collapse" data-target="#ui-elements"
                       aria-expanded="false" aria-controls="ui-elements">
@@ -133,17 +111,17 @@
                         <li  class="has-sub" >
                           <a class="sidenav-item-link" href="javascript:void(0)" data-toggle="collapse" data-target="#components"
                             aria-expanded="false" aria-controls="components">
-                            <span class="nav-text">Components</span> <b class="caret"></b>
+                            <span class="nav-text">Details des Produits</span> <b class="caret"></b>
                           </a>
                           <ul  class="collapse"  id="components">
                             <div class="sub-menu">
                               
                               <li >
-                                <a href="{{route('create_product')}}">New produit</a>
+                                <a href="{{route('create_product')}}">Ajout produit</a>
                               </li>
                               
                               <li >
-                                <a href="badge.html">Afficher les produits</a>
+                                <a href="{{url('/produit')}}">Afficher les produits</a>
                               </li>  
                             </div>
                           </ul>
@@ -168,14 +146,37 @@
                     <a class="sidenav-item-link" href="javascript:void(0)" data-toggle="collapse" data-target="#charts"
                       aria-expanded="false" aria-controls="charts">
                       <i class="fas fa-shopping-cart"></i>
-                      <span class="nav-text">Paniers</span> <b class="caret"></b>
+                      <span class="nav-text">Les utilisateurs</span> <b class="caret"></b>
                     </a>
                     <ul  class="collapse"  id="charts"
                       data-parent="#sidebar-menu">
                       <div class="sub-menu">
                             <li >
                               <a class="sidenav-item-link" href="chartjs.html">
-                                <span class="nav-text">Tous les paniers</span>                            
+                                <span class="nav-text">Listes des utilisateurs</span>                            
+                              </a>
+                            </li>
+                            <li >
+                              <a class="sidenav-item-link" href="chartjs.html">
+                                <span class="nav-text">Les emails newsletter</span>
+                                
+                              </a>
+                            </li> 
+                      </div>
+                    </ul>
+                  </li>
+                  <li  class="has-sub" >
+                    <a class="sidenav-item-link" href="javascript:void(0)" data-toggle="collapse" data-target="#charts"
+                      aria-expanded="false" aria-controls="charts">
+                      <i class="fas fa-shopping-cart"></i>
+                      <span class="nav-text">Les Commandes</span> <b class="caret"></b>
+                    </a>
+                    <ul  class="collapse"  id="charts"
+                      data-parent="#sidebar-menu">
+                      <div class="sub-menu">
+                            <li >
+                              <a class="sidenav-item-link" href="chartjs.html">
+                                <span class="nav-text">Paniers Finalisé</span>                            
                               </a>
                             </li>
                             <li >

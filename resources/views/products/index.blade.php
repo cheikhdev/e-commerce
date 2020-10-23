@@ -23,7 +23,7 @@
 
 <table class="table table-striped">
        <tr>
-           <th>#</th>          <th>Nom Produit</th>           <th>Prix Produit</th><th>Image </th><th></th>
+           <th>#</th>          <th>Nom Produit</th>           <th>Prix Produit</th><th>Image </th><th><a href="{{url('/ajouproduit')}}" class="btn btn-success">Ajouter Produits</a></th>
        </tr>
        @foreach($products as $product)
            <tr>
@@ -52,10 +52,9 @@
     <input type="submit" class="btn btn-danger" name="delete" value="Supprimer">
     </form>
     
-   <div class="col-6 text-right"><img src="{{asset($product->images)}}" alt="{{$product->name}}" width="100"></div><div class="col-6"><h3>Chargez une autre image pour remplacer celle-ci</h3></div>
-</div>
+   
 <div>
-   <input type="file" name="image_product" class="form-control">
+   
 
 </th>
 
