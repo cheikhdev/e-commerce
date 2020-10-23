@@ -51,7 +51,11 @@
 </head>	
 </head>
 <body class="js">
-  
+	<style>
+		.btnedit:hover{
+			background-color:;
+		}
+	</style>
 	
 	<!-- Preloader -->
 		<div class="preloader">
@@ -388,7 +392,7 @@
 							<h4>Newsletter</h4>
 							<p> Abonnez-vous à notre newsletter et recevez <span>10%</span> sur votre premier achat</p>
 							<form action="mail/mail.php" method="get" target="_blank" class="newsletter-inner">
-								<input name="EMAIL" placeholder="Votre adresse email" required="" type="email">
+								<input name="email" placeholder="Votre adresse email" required="" type="email">
 								<button class="btn">Souscrire</button>
 							</form>
 						</div>
@@ -655,7 +659,7 @@
 		</div>
 	</footer>
 	<!-- /End Footer Area -->
- 
+	<script src="{{asset('js/js_home/dynamique.js')}}"></script>
 <!-- Jquery -->  
     <script src="{{asset('js/js_home/jquery.min.js')}}"></script>
     <script src="{{asset('js/js_home/jquery-migrate-3.0.0.js')}}"></script>
@@ -688,6 +692,8 @@
     <script src="{{asset('js/js_home/easing.js')}}"></script>
 <!-- Active js -->
 	<script src="{{asset('js/js_home/active.js')}}"></script>
+
+	
 	<script src="//cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
 </body>
 </html>

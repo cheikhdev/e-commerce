@@ -303,6 +303,7 @@ Version:1.0
 .header .nav li .dropdown li:hover a{
 	color:#fff;
 	background:#F7941D;
+	
 }
 .header .nav li .dropdown li a:hover{
 	border-color:transparent;
@@ -1147,9 +1148,9 @@ Version:1.0
 }
 .header.sticky .all-category{}
 .header.sticky .all-category h3{
-	cursor:pointer;
-	
+	cursor:pointer;	
 }
+
 .header.shop .all-category h3{
 	cursor:pointer;
 	
@@ -2813,6 +2814,37 @@ Version:1.0
 	margin-bottom: 10px;
 	padding-bottom: 10px;
 }
+.section-commande{
+	position: absolute;
+	content: "";
+	height: 2px;
+	width: 	45%;
+	background: #F7941D;
+	left: 0;
+}
+
+/* Procedure de validation de la ommande*/
+.phase-valide{
+	background:#F7941D;
+	height:3px;
+}
+.phase-non-valide{
+	background:#8d8b88;
+	height:3px;
+}
+
+.phase-valide-border{
+	border:2px solid #F7941D;
+	border-radius:50px;
+	margin-top:-19px;
+}
+.phase-non-valide-border{
+	border:2px solid #8d8b88;
+	border-radius:50px;
+	margin-top:-19px;
+}
+/* Fin procedure de validation de la commande */
+
 .shop-home-list .shop-section-title h1::before {
 	position: absolute;
 	content: "";
@@ -4728,6 +4760,19 @@ Version:1.0
 .contact-us .form .button .btn {
 	height: 50px;
 	border: none;
+}
+button:hover{
+	color:#fff;
+	background:#F7941D;
+	border-color:transparent;
+}
+button{
+	background-color: darkgoldenrod;
+	padding-left:25px;
+	padding-right:25px;
+	height: 40px;
+	color:white;
+	font-weight:bold;
 }
 #myMap {
 	height: 500px;

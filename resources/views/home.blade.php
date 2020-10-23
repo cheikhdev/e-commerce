@@ -103,7 +103,15 @@
 										<div class="col-lg-6 col-md-6 col-12">
 											<div class="list-image overlay">
 												<img src="{{$product->image_product ? asset($product->image_product) : asset('uploads/images/default.png')}}" alt="#">
-												<a href="/ajout_panier" class="buy"><i class="fas fa-shopping-cart fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i></a>
+												<form action="{{route('cart.store')}}" method="POST"  class="add-to-cart">
+													@csrf
+													<input type="hidden" name="id" value="{{\Illuminate\Support\Facades\Auth::id()}}">
+													<input type="hidden" name="product_id" value="{{$product->id}}">
+													<input type="hidden" name="prix_product" value="{{$product->prix_product}}">
+													<button type="submit" class="buy">
+														<i class="fas fa-shopping-cart fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i>
+													</button>
+												</form>
 											</div>
 										</div>
 										<div class="col-lg-6 col-md-6 col-12 no-padding">
@@ -132,16 +140,20 @@
 										<div class="col-lg-6 col-md-6 col-12">
 											<div class="list-image overlay">
 												<img src="{{$product->image_product ? asset($product->image_product) : asset('uploads/images/default.png')}}" alt="#">
-												<a href="/ajout_panier" class="buy"><i class="fas fa-shopping-cart fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i></a>
+												<form action="{{route('cart.store')}}" method="POST"  class="add-to-cart">
+													@csrf
+													<input type="hidden" name="id" value="{{\Illuminate\Support\Facades\Auth::id()}}">
+													<input type="hidden" name="product_id" value="{{$product->id}}">
+													<input type="hidden" name="prix_product" value="{{$product->prix_product}}">
+													<button type="submit" class="buy" >
+														<i class="fas fa-shopping-cart fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i>
+													</button>
+												</form>
 											</div>
 										</div>
 										<div class="col-lg-6 col-md-6 col-12 no-padding">
 											<div class="content">
-												<h4 class="
-
-
-
-title"><a href="#">{{$product->name_product}}</a></h4>
+												<h4 class="title"><a href="#">{{$product->name_product}}</a></h4>
 												<p class="price with-discount">{{$product->prix_product}} FCFA</p>
 											</div>
 										</div>
@@ -165,7 +177,15 @@ title"><a href="#">{{$product->name_product}}</a></h4>
 										<div class="col-lg-6 col-md-6 col-12">
 											<div class="list-image overlay">
 												<img src="{{$product->image_product ? asset($product->image_product) : asset('uploads/images/default.png')}}" alt="#">
-												<a href="/ajout_panier" class="buy"><i class="fas fa-shopping-cart fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i></a>
+												<form action="{{route('cart.store')}}" method="POST"  class="add-to-cart">
+													@csrf
+													<input type="hidden" name="id" value="{{\Illuminate\Support\Facades\Auth::id()}}">
+													<input type="hidden" name="product_id" value="{{$product->id}}">
+													<input type="hidden" name="prix_product" value="{{$product->prix_product}}">
+													<button type="submit" class="buy">
+														<i class="fas fa-shopping-cart fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i>
+													</button>
+												</form>
 											</div>
 										</div>
 										<div class="col-lg-6 col-md-6 col-12 no-padding">

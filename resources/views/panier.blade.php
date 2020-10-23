@@ -9,7 +9,7 @@
     <h4 style="font-size: 24px;border: 1px solid black;text-align: center;color: #FFD700">{{session('success')}}</h6>
   @endif
 
-        <div class="" style="margin-left:300px;margin-right:25px; margin-top:25px;padding:5px;">
+        <div class="ml-5 mr-5" style="margin-top:25px;padding:5px;">
 
 <!-- Page Heading -->
             <!-- DataTales Example -->
@@ -71,21 +71,24 @@
                                 <th>Quantite</th>
                                 <th>Prix</th>
                                 <th>Soustotal</th>
-                                <th>Editer</th>
+                                
                                 <th>Delete</th>
                             </tr>
                         </thead>
                         <tbody class="mb-3">
                         @foreach(Cart::content() as $row)
-                            <tr class="clickable-row" data-href="" style="cursor:pointer;">
+                            <tr class="clickable-row" data-href="" style="">
                                 <td>{{$row->name}}</td>
-                                <td>{{$row->qty}}</td>
+                                <td>
+                                    <form action="{{url('update')}}" method="post">
+                                        {{csrf_field()}}
+                                        <input class="" type="number" id="quantite" name="uqty" value="{{$row->qty}}">
+                                        <input type="hidden" name="rowId" value="{{$row->rowId}}">
+                                        <button type="submit" disabled="true" class="btn btn-primary btnedit" id="edit" style=""><i class="fas fa-edit"></i></button> 
+                                    </form>
+                                </td>
                                 <td><b>{{$row->price}} Fcfa</b></td>
                                 <td><b>{{$row->total}} Fcfa</b></td>
-                                
-                                <td>
-                                    <p><a href="" class="btn btn-primary"><i class="fas fa-edit"></i></a></p>
-                                </td>
                                 <td>
                                     <p><a class="btn btn-danger" href="" data-toggle="modal" data-target="#deleteModal"><i class="fas fa-trash-alt"></i></a></p>
                                 </td>
@@ -94,21 +97,59 @@
                         </tbody>
                         <tfoot class="mb-3">  
                             <tr class="">
-                                
                                 <td colspan="3" style="color:red;"><b>Total</b></td>
                                 <td colspan="3" style="color:red;"><b>{{Cart::total()}} Fcfa</b></td>
                             </tr>
-
                         </tfoot>
                     </table>
                     <div class="d-flex justify-content-around">
-                        <a href="" class="btn  btn-info">Valider la commande</a>
-                        <a href="" class="btn btn-danger">Vider</a>
+                        <button><a href="/finish_cart" class="" style="font-weight:bold;">Valider la commande</a></button>
+                        <button><a href="" style="font-weight:bold;">Vider</a></button>
                     </div>
                 </div>
             </div>
     </div>
 </div>
+<div class="modal fade " id="editQTY" >
+                <div class="modal-dialog  modal-md">
+                    <div class="modal-content" >
+                        <!-- Modal Header -->
+                        <div class="modal-header" style="">
+                            <button type="button" class="close bg-danger btn-danger " data-dismiss="modal">&times;</button>
+                        </div>                        
+                        <!-- Modal body -->
+                        <div class="modal-body ">
+							<div class="  " style="height:100%;overflow-x:scroll;">
+								<div class="card auth ">
+									<div class="card-header auth-header login100-form-title" >
+										<span class="login100-form-title-1" style="size:16px;font-weight:bold;">
+											Modifier quantité categorie
+										</span>
+									</div>                        
+									<!-- Modal body -->
+									<div class="modal-body  p-3" style="height:auto;">
+										<form action="/createCategory" method="post">
+											@csrf 
+											<div class="row">
+												<div class="form-group col-12 ">
+													<label for="inputEmail" class="" style="font-weight:bold;color:red;">Quantité<span style="background-colol:red;">*</span></span></label>
+													<div class="col-12">
+														<input type="number" class="form-control" id="" name="nom_category" >
+													</div>
+												</div>
+                                            </div> 
+                                            <div class="d-flex justify-content-center " style="">
+                                                <button class=" btn-success" style="border-radius:70px;width:200px;height:45px;size:12px;font-weight:bold;">
+                                                    Enregistrer
+                                                </button>
+						                    </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
 @endsection
-
-                       

@@ -55,4 +55,10 @@ class CartController extends Controller
         return redirect()->back();
     }
 
+    public function finish_cart(){
+        return view("commande");
+    }
+
+   
+
 }

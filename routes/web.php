@@ -71,6 +71,8 @@ Route::post('/createCategory', "ProductsController@add_category");
 Route::delete('/panier/{rowId}','CartController@destroy')->name('cart.destroy');
 Route::delete('/home/{rowId}','CartController@remove')->name('cart.remove');
 
+Route::get('/finish_cart', "CartController@finish_cart");
+
 Route::post('update','CartController@update_cart')->name('update_cart');
 
 Route::post('/ajout_panier', "CartController@store")->name('cart.store');
