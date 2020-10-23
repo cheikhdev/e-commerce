@@ -109,7 +109,7 @@
 													<input type="hidden" name="product_id" value="{{$product->id}}">
 													<input type="hidden" name="prix_product" value="{{$product->prix_product}}">
 													<button type="submit" class="buy">
-														<i class="fas fa-shopping-cart fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i>
+														<i class="fas fa-shopping-cart fa-md fa-fw  text-gray-400" aria-hidden="true"></i>
 													</button>
 												</form>
 											</div>
@@ -146,7 +146,7 @@
 													<input type="hidden" name="product_id" value="{{$product->id}}">
 													<input type="hidden" name="prix_product" value="{{$product->prix_product}}">
 													<button type="submit" class="buy" >
-														<i class="fas fa-shopping-cart fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i>
+														<i class="fas fa-shopping-cart fa-md fa-fw  text-gray-400" aria-hidden="true"></i>
 													</button>
 												</form>
 											</div>
@@ -183,7 +183,7 @@
 													<input type="hidden" name="product_id" value="{{$product->id}}">
 													<input type="hidden" name="prix_product" value="{{$product->prix_product}}">
 													<button type="submit" class="buy">
-														<i class="fas fa-shopping-cart fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i>
+														<i class="fas fa-shopping-cart fa-md fa-fw  text-gray-400" aria-hidden="true"></i>
 													</button>
 												</form>
 											</div>
@@ -204,7 +204,7 @@
 			</section>
 			<!-- End Shop Home List  -->
   <!-- Start Product Area -->
-    <div class="product-area section">
+    <div class="product-area section" style="">
       <div class="container">
 				<div class="row">
 					<div class="col-12">
@@ -228,20 +228,20 @@
 								</ul>
 								<!--/ End Tab Nav -->
 							</div>
-							<div class="tab-content" id="myTabContent">
+							<div class="tab-content shop-services section home" id="myTabContent" style>
 								<!-- Start Single Tab -->
 								<div class="tab-pane fade show active" id="man" role="tabpanel">
 									<div class="tab-single">
 										<div class="row">
                       <div class="col-12">
-                        <div class="owl-carousel popular-slider">
+                        <div class="owl-carousel popular-slider" style="padding:5px;">
                         
                           <!-- Start Single Product -->
                           @foreach($products as $product)
-                          <div class="single-product" style="width:200px;height:200px;">
+                          <div class="single-product" style="width:300px;height:300px;">
                             <div class="product-img">
 															<a href="product-details.html">
-																<img class="default-img"  src="{{$product->image_product ? asset($product->image_product) : asset('uploads/images/default.png')}}" alt="#">
+																<img class="default-img" style="width:300px;height:150px;" src="{{$product->image_product ? asset($product->image_product) : asset('uploads/images/default.png')}}" alt="#">
 																<img class="hover-img" src="{{$product->image_product ? asset($product->image_product) : asset('uploads/images/default.png')}}" alt="#">
 															</a>
 															<div class="button-head">
