@@ -57,7 +57,7 @@
 		}
 	</style>
 	
-	<!-- Preloader >
+	<!-- Preloader -->
 		<div class="preloader">
 			<div class="preloader-inner">
 				<div class="preloader-icon">
@@ -66,7 +66,7 @@
 				</div>
 			</div>
 		</div>
-	<End Preloader -->
+	<!--End Preloader -->
 	
 
 	<!-- Header -->
@@ -668,7 +668,7 @@
 <!-- Popper js -->
     <script src="{{asset('js/js_home/popper.min.js')}}"></script>
  <!-- Bootstrap js -->
-    <!--script src="{{asset('js/js_home/bootstrap.min.js')}}"></script-->
+    <script src="{{asset('js/js_home/bootstrap.min.js')}}"></script>
 <!-- Color JS -->
     <script src="{{asset('js/js_home/colors.js')}}"></script>
 <!-- Slicknav JS -->
@@ -682,7 +682,7 @@
 <!-- Countdown JS -->
     <script src="{{asset('js/js_home/finalcountdown.min.js')}}"></script>
 <!-- Nice Select JS -->
-    <!--script src="{{asset('js/js_home/nicesellect.js')}}"></script-->
+    <script src="{{asset('js/js_home/nicesellect.js')}}"></script>
 <!-- Flex Slider JS -->
     <script src="{{asset('js/js_home/flex-slider.js')}}"></script>
 <!-- ScrollUp JS -->
