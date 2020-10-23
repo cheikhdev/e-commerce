@@ -53,34 +53,37 @@
                         </div>
                     </div>
                     <div class="mt-5">
-                        <h4 class="mb-3">Details de facturation</h4>
+                        <h4 class="mb-3 details">Details de facturation</h4>
                         <form action="#" id="form">
                             <div class="row mb-5">
                                 <div class="col-6">
-                                    <input type="text" id="nom" style="border:1px solid  #F7941D;background:rgb(231, 225, 225);border-radius:10px;" class="form-control" name="nom" placeholder="Nom*">
+                                    <input type="text" required=""  id="nom" style="border:1px solid  #F7941D;background:rgb(231, 225, 225);border-radius:10px;" class="form-control" name="nom" placeholder="Nom*">
                                 </div>
                                 <div class="col-6">
-                                    <input type="text" id="prenom" style="border:1px solid  #F7941D;background:rgb(231, 225, 225);border-radius:10px;" class="form-control" name="prenom" placeholder="Prénom*">
+                                    <input type="text" required="" id="prenom" style="border:1px solid  #F7941D;background:rgb(231, 225, 225);border-radius:10px;" class="form-control" name="prenom" placeholder="Prénom*">
                                 </div>
                             </div>
                             <div class="row mb-5">
                                 <div class="col-6">
-                                    <input type="email" id="email" style="border:1px solid  #F7941D;background:rgb(231, 225, 225);border-radius:10px;" class="form-control" name="email" placeholder="E-mail*">
+                                    <input type="email" required="" id="email" style="border:1px solid  #F7941D;background:rgb(231, 225, 225);border-radius:10px;" class="form-control" name="email" placeholder="E-mail*">
                                 </div>
                                 <div class="col-6">
-                                    <input type="text" id="phone" style="border:1px solid  #F7941D;background:rgb(231, 225, 225);border-radius:10px;" class="form-control" name="phone" placeholder="Numéro de Téléphone*">
+                                    <input type="text" required="" id="phone" style="border:1px solid  #F7941D;background:rgb(231, 225, 225);border-radius:10px;" class="form-control" name="phone" placeholder="Numéro de Téléphone*">
                                 </div>
                             </div>
                             <div class="row mb-5">
                                 <div class="col-10">
-                                    <input type="text" id="adresse" style="border:1px solid  #F7941D;background:rgb(231, 225, 225);border-radius:10px;" class="form-control" name="adresse" placeholder="Adresse*">
+                                    <input type="text" required="" id="adresse" style="border:1px solid  #F7941D;background:rgb(231, 225, 225);border-radius:10px;" class="form-control" name="adresse" placeholder="Adresse*">
                                 </div>
                             </div>
-                            <div class="d-flex justify-content-between">
-                                <button class="" ><a href="/panier" style="font-weight:bold;">Retour au panier</a></button>
-                                <button id="next"  class="" >Suivant</button>
+                            <div class="" id="infoChamps">
+
                             </div>
                         </form>
+                        <div class="d-flex justify-content-between">
+                            <button class="" ><a href="/panier" style="font-weight:bold;">Retour au panier</a></button>
+                            <button id="suivantbtn"  class="suivant">Suivant</button>
+                        </div>
                     </div>
                 </div>
             </div>

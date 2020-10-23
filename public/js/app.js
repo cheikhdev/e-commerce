@@ -86,291 +86,6 @@
 /************************************************************************/
 /******/ ({
 
-/***/ "./node_modules/@fortawesome/fontawesome-free/scss/brands.scss":
-/*!*********************************************************************!*\
-  !*** ./node_modules/@fortawesome/fontawesome-free/scss/brands.scss ***!
-  \*********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-
-var content = __webpack_require__(/*! !../../../css-loader!../../../postcss-loader/src??ref--7-2!../../../sass-loader/dist/cjs.js??ref--7-3!./brands.scss */ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/@fortawesome/fontawesome-free/scss/brands.scss");
-
-if(typeof content === 'string') content = [[module.i, content, '']];
-
-var transform;
-var insertInto;
-
-
-
-var options = {"hmr":true}
-
-options.transform = transform
-options.insertInto = undefined;
-
-var update = __webpack_require__(/*! ../../../style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
-
-if(content.locals) module.exports = content.locals;
-
-if(false) {}
-
-/***/ }),
-
-/***/ "./node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss":
-/*!**************************************************************************!*\
-  !*** ./node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss ***!
-  \**************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-
-var content = __webpack_require__(/*! !../../../css-loader!../../../postcss-loader/src??ref--7-2!../../../sass-loader/dist/cjs.js??ref--7-3!./fontawesome.scss */ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss");
-
-if(typeof content === 'string') content = [[module.i, content, '']];
-
-var transform;
-var insertInto;
-
-
-
-var options = {"hmr":true}
-
-options.transform = transform
-options.insertInto = undefined;
-
-var update = __webpack_require__(/*! ../../../style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
-
-if(content.locals) module.exports = content.locals;
-
-if(false) {}
-
-/***/ }),
-
-/***/ "./node_modules/@fortawesome/fontawesome-free/scss/regular.scss":
-/*!**********************************************************************!*\
-  !*** ./node_modules/@fortawesome/fontawesome-free/scss/regular.scss ***!
-  \**********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-
-var content = __webpack_require__(/*! !../../../css-loader!../../../postcss-loader/src??ref--7-2!../../../sass-loader/dist/cjs.js??ref--7-3!./regular.scss */ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/@fortawesome/fontawesome-free/scss/regular.scss");
-
-if(typeof content === 'string') content = [[module.i, content, '']];
-
-var transform;
-var insertInto;
-
-
-
-var options = {"hmr":true}
-
-options.transform = transform
-options.insertInto = undefined;
-
-var update = __webpack_require__(/*! ../../../style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
-
-if(content.locals) module.exports = content.locals;
-
-if(false) {}
-
-/***/ }),
-
-/***/ "./node_modules/@fortawesome/fontawesome-free/scss/solid.scss":
-/*!********************************************************************!*\
-  !*** ./node_modules/@fortawesome/fontawesome-free/scss/solid.scss ***!
-  \********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-
-var content = __webpack_require__(/*! !../../../css-loader!../../../postcss-loader/src??ref--7-2!../../../sass-loader/dist/cjs.js??ref--7-3!./solid.scss */ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/@fortawesome/fontawesome-free/scss/solid.scss");
-
-if(typeof content === 'string') content = [[module.i, content, '']];
-
-var transform;
-var insertInto;
-
-
-
-var options = {"hmr":true}
-
-options.transform = transform
-options.insertInto = undefined;
-
-var update = __webpack_require__(/*! ../../../style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
-
-if(content.locals) module.exports = content.locals;
-
-if(false) {}
-
-/***/ }),
-
-/***/ "./node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.eot":
-/*!*******************************************************************************!*\
-  !*** ./node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.eot ***!
-  \*******************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/fonts/vendor/@fortawesome/fontawesome-free/webfa-brands-400.eot?03783c5172ee1ad128c576bf88fac168";
-
-/***/ }),
-
-/***/ "./node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.svg":
-/*!*******************************************************************************!*\
-  !*** ./node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.svg ***!
-  \*******************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/fonts/vendor/@fortawesome/fontawesome-free/webfa-brands-400.svg?073c2f3ce60eaf69cc2767ef3d989078";
-
-/***/ }),
-
-/***/ "./node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.ttf":
-/*!*******************************************************************************!*\
-  !*** ./node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.ttf ***!
-  \*******************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/fonts/vendor/@fortawesome/fontawesome-free/webfa-brands-400.ttf?ed2b8bf117160466ba6220a8f1da54a4";
-
-/***/ }),
-
-/***/ "./node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.woff":
-/*!********************************************************************************!*\
-  !*** ./node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.woff ***!
-  \********************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/fonts/vendor/@fortawesome/fontawesome-free/webfa-brands-400.woff?fe9d62e0d16a333a20e63c3e7595f82e";
-
-/***/ }),
-
-/***/ "./node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.woff2":
-/*!*********************************************************************************!*\
-  !*** ./node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.woff2 ***!
-  \*********************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/fonts/vendor/@fortawesome/fontawesome-free/webfa-brands-400.woff2?7559b3774a0625e8ca6c0160f8f6cfd8";
-
-/***/ }),
-
-/***/ "./node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.eot":
-/*!********************************************************************************!*\
-  !*** ./node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.eot ***!
-  \********************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/fonts/vendor/@fortawesome/fontawesome-free/webfa-regular-400.eot?fc9c63c8224fb341fc933641cbdd12ef";
-
-/***/ }),
-
-/***/ "./node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.svg":
-/*!********************************************************************************!*\
-  !*** ./node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.svg ***!
-  \********************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/fonts/vendor/@fortawesome/fontawesome-free/webfa-regular-400.svg?8fdea4e89ac405d9f8db327adb331d8d";
-
-/***/ }),
-
-/***/ "./node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.ttf":
-/*!********************************************************************************!*\
-  !*** ./node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.ttf ***!
-  \********************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/fonts/vendor/@fortawesome/fontawesome-free/webfa-regular-400.ttf?59215032a4397507b80e5625dc323de3";
-
-/***/ }),
-
-/***/ "./node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.woff":
-/*!*********************************************************************************!*\
-  !*** ./node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.woff ***!
-  \*********************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/fonts/vendor/@fortawesome/fontawesome-free/webfa-regular-400.woff?e5770f9863963fb576942e25214a226d";
-
-/***/ }),
-
-/***/ "./node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.woff2":
-/*!**********************************************************************************!*\
-  !*** ./node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.woff2 ***!
-  \**********************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/fonts/vendor/@fortawesome/fontawesome-free/webfa-regular-400.woff2?e07d9e40b26048d9abe2ef966cd6e263";
-
-/***/ }),
-
-/***/ "./node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.eot":
-/*!******************************************************************************!*\
-  !*** ./node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.eot ***!
-  \******************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/fonts/vendor/@fortawesome/fontawesome-free/webfa-solid-900.eot?ef3df98419d143d9617fe163bf4edc0b";
-
-/***/ }),
-
-/***/ "./node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.svg":
-/*!******************************************************************************!*\
-  !*** ./node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.svg ***!
-  \******************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/fonts/vendor/@fortawesome/fontawesome-free/webfa-solid-900.svg?b557f56e367e59344ca95f9d1fb44352";
-
-/***/ }),
-
-/***/ "./node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.ttf":
-/*!******************************************************************************!*\
-  !*** ./node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.ttf ***!
-  \******************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/fonts/vendor/@fortawesome/fontawesome-free/webfa-solid-900.ttf?acf50f59802f20d8b45220eaae532a1c";
-
-/***/ }),
-
-/***/ "./node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff":
-/*!*******************************************************************************!*\
-  !*** ./node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff ***!
-  \*******************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/fonts/vendor/@fortawesome/fontawesome-free/webfa-solid-900.woff?4bced7c4c0d61d4f988629bb8ae80b8b";
-
-/***/ }),
-
-/***/ "./node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2":
-/*!********************************************************************************!*\
-  !*** ./node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2 ***!
-  \********************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/fonts/vendor/@fortawesome/fontawesome-free/webfa-solid-900.woff2?b5cf8ae26748570d8fb95a47f46b69e1";
-
-/***/ }),
-
 /***/ "./node_modules/axios/index.js":
 /*!*************************************!*\
   !*** ./node_modules/axios/index.js ***!
@@ -395,7 +110,6 @@ module.exports = __webpack_require__(/*! ./lib/axios */ "./node_modules/axios/li
 var utils = __webpack_require__(/*! ./../utils */ "./node_modules/axios/lib/utils.js");
 var settle = __webpack_require__(/*! ./../core/settle */ "./node_modules/axios/lib/core/settle.js");
 var buildURL = __webpack_require__(/*! ./../helpers/buildURL */ "./node_modules/axios/lib/helpers/buildURL.js");
-var buildFullPath = __webpack_require__(/*! ../core/buildFullPath */ "./node_modules/axios/lib/core/buildFullPath.js");
 var parseHeaders = __webpack_require__(/*! ./../helpers/parseHeaders */ "./node_modules/axios/lib/helpers/parseHeaders.js");
 var isURLSameOrigin = __webpack_require__(/*! ./../helpers/isURLSameOrigin */ "./node_modules/axios/lib/helpers/isURLSameOrigin.js");
 var createError = __webpack_require__(/*! ../core/createError */ "./node_modules/axios/lib/core/createError.js");
@@ -418,8 +132,7 @@ module.exports = function xhrAdapter(config) {
       requestHeaders.Authorization = 'Basic ' + btoa(username + ':' + password);
     }
 
-    var fullPath = buildFullPath(config.baseURL, config.url);
-    request.open(config.method.toUpperCase(), buildURL(fullPath, config.params, config.paramsSerializer), true);
+    request.open(config.method.toUpperCase(), buildURL(config.url, config.params, config.paramsSerializer), true);
 
     // Set the request timeout in MS
     request.timeout = config.timeout;
@@ -480,11 +193,7 @@ module.exports = function xhrAdapter(config) {
 
     // Handle timeout
     request.ontimeout = function handleTimeout() {
-      var timeoutErrorMessage = 'timeout of ' + config.timeout + 'ms exceeded';
-      if (config.timeoutErrorMessage) {
-        timeoutErrorMessage = config.timeoutErrorMessage;
-      }
-      reject(createError(timeoutErrorMessage, config, 'ECONNABORTED',
+      reject(createError('timeout of ' + config.timeout + 'ms exceeded', config, 'ECONNABORTED',
         request));
 
       // Clean up request
@@ -498,7 +207,7 @@ module.exports = function xhrAdapter(config) {
       var cookies = __webpack_require__(/*! ./../helpers/cookies */ "./node_modules/axios/lib/helpers/cookies.js");
 
       // Add xsrf header
-      var xsrfValue = (config.withCredentials || isURLSameOrigin(fullPath)) && config.xsrfCookieName ?
+      var xsrfValue = (config.withCredentials || isURLSameOrigin(config.url)) && config.xsrfCookieName ?
         cookies.read(config.xsrfCookieName) :
         undefined;
 
@@ -521,8 +230,8 @@ module.exports = function xhrAdapter(config) {
     }
 
     // Add withCredentials to request if needed
-    if (!utils.isUndefined(config.withCredentials)) {
-      request.withCredentials = !!config.withCredentials;
+    if (config.withCredentials) {
+      request.withCredentials = true;
     }
 
     // Add responseType to request if needed
@@ -801,15 +510,7 @@ Axios.prototype.request = function request(config) {
   }
 
   config = mergeConfig(this.defaults, config);
-
-  // Set config.method
-  if (config.method) {
-    config.method = config.method.toLowerCase();
-  } else if (this.defaults.method) {
-    config.method = this.defaults.method.toLowerCase();
-  } else {
-    config.method = 'get';
-  }
+  config.method = config.method ? config.method.toLowerCase() : 'get';
 
   // Hook up interceptors middleware
   var chain = [dispatchRequest, undefined];
@@ -926,38 +627,6 @@ module.exports = InterceptorManager;
 
 /***/ }),
 
-/***/ "./node_modules/axios/lib/core/buildFullPath.js":
-/*!******************************************************!*\
-  !*** ./node_modules/axios/lib/core/buildFullPath.js ***!
-  \******************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var isAbsoluteURL = __webpack_require__(/*! ../helpers/isAbsoluteURL */ "./node_modules/axios/lib/helpers/isAbsoluteURL.js");
-var combineURLs = __webpack_require__(/*! ../helpers/combineURLs */ "./node_modules/axios/lib/helpers/combineURLs.js");
-
-/**
- * Creates a new URL by combining the baseURL with the requestedURL,
- * only when the requestedURL is not already an absolute URL.
- * If the requestURL is absolute, this function returns the requestedURL untouched.
- *
- * @param {string} baseURL The base URL
- * @param {string} requestedURL Absolute or relative URL to combine
- * @returns {string} The combined full path
- */
-module.exports = function buildFullPath(baseURL, requestedURL) {
-  if (baseURL && !isAbsoluteURL(requestedURL)) {
-    return combineURLs(baseURL, requestedURL);
-  }
-  return requestedURL;
-};
-
-
-/***/ }),
-
 /***/ "./node_modules/axios/lib/core/createError.js":
 /*!****************************************************!*\
   !*** ./node_modules/axios/lib/core/createError.js ***!
@@ -1002,6 +671,8 @@ var utils = __webpack_require__(/*! ./../utils */ "./node_modules/axios/lib/util
 var transformData = __webpack_require__(/*! ./transformData */ "./node_modules/axios/lib/core/transformData.js");
 var isCancel = __webpack_require__(/*! ../cancel/isCancel */ "./node_modules/axios/lib/cancel/isCancel.js");
 var defaults = __webpack_require__(/*! ../defaults */ "./node_modules/axios/lib/defaults.js");
+var isAbsoluteURL = __webpack_require__(/*! ./../helpers/isAbsoluteURL */ "./node_modules/axios/lib/helpers/isAbsoluteURL.js");
+var combineURLs = __webpack_require__(/*! ./../helpers/combineURLs */ "./node_modules/axios/lib/helpers/combineURLs.js");
 
 /**
  * Throws a `Cancel` if cancellation has been requested.
@@ -1021,6 +692,11 @@ function throwIfCancellationRequested(config) {
 module.exports = function dispatchRequest(config) {
   throwIfCancellationRequested(config);
 
+  // Support baseURL config
+  if (config.baseURL && !isAbsoluteURL(config.url)) {
+    config.url = combineURLs(config.baseURL, config.url);
+  }
+
   // Ensure headers exist
   config.headers = config.headers || {};
 
@@ -1035,7 +711,7 @@ module.exports = function dispatchRequest(config) {
   config.headers = utils.merge(
     config.headers.common || {},
     config.headers[config.method] || {},
-    config.headers
+    config.headers || {}
   );
 
   utils.forEach(
@@ -1158,23 +834,13 @@ module.exports = function mergeConfig(config1, config2) {
   config2 = config2 || {};
   var config = {};
 
-  var valueFromConfig2Keys = ['url', 'method', 'params', 'data'];
-  var mergeDeepPropertiesKeys = ['headers', 'auth', 'proxy'];
-  var defaultToConfig2Keys = [
-    'baseURL', 'url', 'transformRequest', 'transformResponse', 'paramsSerializer',
-    'timeout', 'withCredentials', 'adapter', 'responseType', 'xsrfCookieName',
-    'xsrfHeaderName', 'onUploadProgress', 'onDownloadProgress',
-    'maxContentLength', 'validateStatus', 'maxRedirects', 'httpAgent',
-    'httpsAgent', 'cancelToken', 'socketPath'
-  ];
-
-  utils.forEach(valueFromConfig2Keys, function valueFromConfig2(prop) {
+  utils.forEach(['url', 'method', 'params', 'data'], function valueFromConfig2(prop) {
     if (typeof config2[prop] !== 'undefined') {
       config[prop] = config2[prop];
     }
   });
 
-  utils.forEach(mergeDeepPropertiesKeys, function mergeDeepProperties(prop) {
+  utils.forEach(['headers', 'auth', 'proxy'], function mergeDeepProperties(prop) {
     if (utils.isObject(config2[prop])) {
       config[prop] = utils.deepMerge(config1[prop], config2[prop]);
     } else if (typeof config2[prop] !== 'undefined') {
@@ -1186,25 +852,13 @@ module.exports = function mergeConfig(config1, config2) {
     }
   });
 
-  utils.forEach(defaultToConfig2Keys, function defaultToConfig2(prop) {
-    if (typeof config2[prop] !== 'undefined') {
-      config[prop] = config2[prop];
-    } else if (typeof config1[prop] !== 'undefined') {
-      config[prop] = config1[prop];
-    }
-  });
-
-  var axiosKeys = valueFromConfig2Keys
-    .concat(mergeDeepPropertiesKeys)
-    .concat(defaultToConfig2Keys);
-
-  var otherKeys = Object
-    .keys(config2)
-    .filter(function filterAxiosKeys(key) {
-      return axiosKeys.indexOf(key) === -1;
-    });
-
-  utils.forEach(otherKeys, function otherKeysDefaultToConfig2(prop) {
+  utils.forEach([
+    'baseURL', 'transformRequest', 'transformResponse', 'paramsSerializer',
+    'timeout', 'withCredentials', 'adapter', 'responseType', 'xsrfCookieName',
+    'xsrfHeaderName', 'onUploadProgress', 'onDownloadProgress', 'maxContentLength',
+    'validateStatus', 'maxRedirects', 'httpAgent', 'httpsAgent', 'cancelToken',
+    'socketPath'
+  ], function defaultToConfig2(prop) {
     if (typeof config2[prop] !== 'undefined') {
       config[prop] = config2[prop];
     } else if (typeof config1[prop] !== 'undefined') {
@@ -1312,12 +966,13 @@ function setContentTypeIfUnset(headers, value) {
 
 function getDefaultAdapter() {
   var adapter;
-  if (typeof XMLHttpRequest !== 'undefined') {
-    // For browsers use XHR adapter
-    adapter = __webpack_require__(/*! ./adapters/xhr */ "./node_modules/axios/lib/adapters/xhr.js");
-  } else if (typeof process !== 'undefined' && Object.prototype.toString.call(process) === '[object process]') {
+  // Only Node.JS has a process variable that is of [[Class]] process
+  if (typeof process !== 'undefined' && Object.prototype.toString.call(process) === '[object process]') {
     // For node use HTTP adapter
     adapter = __webpack_require__(/*! ./adapters/http */ "./node_modules/axios/lib/adapters/xhr.js");
+  } else if (typeof XMLHttpRequest !== 'undefined') {
+    // For browsers use XHR adapter
+    adapter = __webpack_require__(/*! ./adapters/xhr */ "./node_modules/axios/lib/adapters/xhr.js");
   }
   return adapter;
 }
@@ -1839,6 +1494,7 @@ module.exports = function spread(callback) {
 
 
 var bind = __webpack_require__(/*! ./helpers/bind */ "./node_modules/axios/lib/helpers/bind.js");
+var isBuffer = __webpack_require__(/*! is-buffer */ "./node_modules/is-buffer/index.js");
 
 /*global toString:true*/
 
@@ -1854,27 +1510,6 @@ var toString = Object.prototype.toString;
  */
 function isArray(val) {
   return toString.call(val) === '[object Array]';
-}
-
-/**
- * Determine if a value is undefined
- *
- * @param {Object} val The value to test
- * @returns {boolean} True if the value is undefined, otherwise false
- */
-function isUndefined(val) {
-  return typeof val === 'undefined';
-}
-
-/**
- * Determine if a value is a Buffer
- *
- * @param {Object} val The value to test
- * @returns {boolean} True if value is a Buffer, otherwise false
- */
-function isBuffer(val) {
-  return val !== null && !isUndefined(val) && val.constructor !== null && !isUndefined(val.constructor)
-    && typeof val.constructor.isBuffer === 'function' && val.constructor.isBuffer(val);
 }
 
 /**
@@ -1931,6 +1566,16 @@ function isString(val) {
  */
 function isNumber(val) {
   return typeof val === 'number';
+}
+
+/**
+ * Determine if a value is undefined
+ *
+ * @param {Object} val The value to test
+ * @returns {boolean} True if the value is undefined, otherwise false
+ */
+function isUndefined(val) {
+  return typeof val === 'undefined';
 }
 
 /**
@@ -2225,14 +1870,14 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 /*!
-  * Bootstrap v4.3.1 (https://getbootstrap.com/)
+  * Bootstrap v4.4.1 (https://getbootstrap.com/)
   * Copyright 2011-2019 The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)
   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
   */
 (function (global, factory) {
    true ? factory(exports, __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js"), __webpack_require__(/*! popper.js */ "./node_modules/popper.js/dist/esm/popper.js")) :
   undefined;
-}(this, function (exports, $, Popper) { 'use strict';
+}(this, (function (exports, $, Popper) { 'use strict';
 
   $ = $ && $.hasOwnProperty('default') ? $['default'] : $;
   Popper = Popper && Popper.hasOwnProperty('default') ? Popper['default'] : Popper;
@@ -2268,20 +1913,35 @@ __webpack_require__.r(__webpack_exports__);
     return obj;
   }
 
-  function _objectSpread(target) {
+  function ownKeys(object, enumerableOnly) {
+    var keys = Object.keys(object);
+
+    if (Object.getOwnPropertySymbols) {
+      var symbols = Object.getOwnPropertySymbols(object);
+      if (enumerableOnly) symbols = symbols.filter(function (sym) {
+        return Object.getOwnPropertyDescriptor(object, sym).enumerable;
+      });
+      keys.push.apply(keys, symbols);
+    }
+
+    return keys;
+  }
+
+  function _objectSpread2(target) {
     for (var i = 1; i < arguments.length; i++) {
       var source = arguments[i] != null ? arguments[i] : {};
-      var ownKeys = Object.keys(source);
 
-      if (typeof Object.getOwnPropertySymbols === 'function') {
-        ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) {
-          return Object.getOwnPropertyDescriptor(source, sym).enumerable;
-        }));
+      if (i % 2) {
+        ownKeys(Object(source), true).forEach(function (key) {
+          _defineProperty(target, key, source[key]);
+        });
+      } else if (Object.getOwnPropertyDescriptors) {
+        Object.defineProperties(target, Object.getOwnPropertyDescriptors(source));
+      } else {
+        ownKeys(Object(source)).forEach(function (key) {
+          Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key));
+        });
       }
-
-      ownKeys.forEach(function (key) {
-        _defineProperty(target, key, source[key]);
-      });
     }
 
     return target;
@@ -2295,7 +1955,7 @@ __webpack_require__.r(__webpack_exports__);
 
   /**
    * --------------------------------------------------------------------------
-   * Bootstrap (v4.3.1): util.js
+   * Bootstrap (v4.4.1): util.js
    * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
    * --------------------------------------------------------------------------
    */
@@ -2444,8 +2104,25 @@ __webpack_require__.r(__webpack_exports__);
       }
 
       return Util.findShadowRoot(element.parentNode);
+    },
+    jQueryDetection: function jQueryDetection() {
+      if (typeof $ === 'undefined') {
+        throw new TypeError('Bootstrap\'s JavaScript requires jQuery. jQuery must be included before Bootstrap\'s JavaScript.');
+      }
+
+      var version = $.fn.jquery.split(' ')[0].split('.');
+      var minMajor = 1;
+      var ltMajor = 2;
+      var minMinor = 9;
+      var minPatch = 1;
+      var maxMajor = 4;
+
+      if (version[0] < ltMajor && version[1] < minMinor || version[0] === minMajor && version[1] === minMinor && version[2] < minPatch || version[0] >= maxMajor) {
+        throw new Error('Bootstrap\'s JavaScript requires at least jQuery v1.9.1 but less than v4.0.0');
+      }
     }
   };
+  Util.jQueryDetection();
   setTransitionEndSupport();
 
   /**
@@ -2455,7 +2132,7 @@ __webpack_require__.r(__webpack_exports__);
    */
 
   var NAME = 'alert';
-  var VERSION = '4.3.1';
+  var VERSION = '4.4.1';
   var DATA_KEY = 'bs.alert';
   var EVENT_KEY = "." + DATA_KEY;
   var DATA_API_KEY = '.data-api';
@@ -2472,13 +2149,12 @@ __webpack_require__.r(__webpack_exports__);
     ALERT: 'alert',
     FADE: 'fade',
     SHOW: 'show'
-    /**
-     * ------------------------------------------------------------------------
-     * Class Definition
-     * ------------------------------------------------------------------------
-     */
-
   };
+  /**
+   * ------------------------------------------------------------------------
+   * Class Definition
+   * ------------------------------------------------------------------------
+   */
 
   var Alert =
   /*#__PURE__*/
@@ -2620,7 +2296,7 @@ __webpack_require__.r(__webpack_exports__);
    */
 
   var NAME$1 = 'button';
-  var VERSION$1 = '4.3.1';
+  var VERSION$1 = '4.4.1';
   var DATA_KEY$1 = 'bs.button';
   var EVENT_KEY$1 = "." + DATA_KEY$1;
   var DATA_API_KEY$1 = '.data-api';
@@ -2632,21 +2308,23 @@ __webpack_require__.r(__webpack_exports__);
   };
   var Selector$1 = {
     DATA_TOGGLE_CARROT: '[data-toggle^="button"]',
-    DATA_TOGGLE: '[data-toggle="buttons"]',
+    DATA_TOGGLES: '[data-toggle="buttons"]',
+    DATA_TOGGLE: '[data-toggle="button"]',
+    DATA_TOGGLES_BUTTONS: '[data-toggle="buttons"] .btn',
     INPUT: 'input:not([type="hidden"])',
     ACTIVE: '.active',
     BUTTON: '.btn'
   };
   var Event$1 = {
     CLICK_DATA_API: "click" + EVENT_KEY$1 + DATA_API_KEY$1,
-    FOCUS_BLUR_DATA_API: "focus" + EVENT_KEY$1 + DATA_API_KEY$1 + " " + ("blur" + EVENT_KEY$1 + DATA_API_KEY$1)
-    /**
-     * ------------------------------------------------------------------------
-     * Class Definition
-     * ------------------------------------------------------------------------
-     */
-
+    FOCUS_BLUR_DATA_API: "focus" + EVENT_KEY$1 + DATA_API_KEY$1 + " " + ("blur" + EVENT_KEY$1 + DATA_API_KEY$1),
+    LOAD_DATA_API: "load" + EVENT_KEY$1 + DATA_API_KEY$1
   };
+  /**
+   * ------------------------------------------------------------------------
+   * Class Definition
+   * ------------------------------------------------------------------------
+   */
 
   var Button =
   /*#__PURE__*/
@@ -2662,7 +2340,7 @@ __webpack_require__.r(__webpack_exports__);
     _proto.toggle = function toggle() {
       var triggerChangeEvent = true;
       var addAriaPressed = true;
-      var rootElement = $(this._element).closest(Selector$1.DATA_TOGGLE)[0];
+      var rootElement = $(this._element).closest(Selector$1.DATA_TOGGLES)[0];
 
       if (rootElement) {
         var input = this._element.querySelector(Selector$1.INPUT);
@@ -2678,13 +2356,16 @@ __webpack_require__.r(__webpack_exports__);
                 $(activeElement).removeClass(ClassName$1.ACTIVE);
               }
             }
+          } else if (input.type === 'checkbox') {
+            if (this._element.tagName === 'LABEL' && input.checked === this._element.classList.contains(ClassName$1.ACTIVE)) {
+              triggerChangeEvent = false;
+            }
+          } else {
+            // if it's not a radio button or checkbox don't add a pointless/invalid checked property to the input
+            triggerChangeEvent = false;
           }
 
           if (triggerChangeEvent) {
-            if (input.hasAttribute('disabled') || rootElement.hasAttribute('disabled') || input.classList.contains('disabled') || rootElement.classList.contains('disabled')) {
-              return;
-            }
-
             input.checked = !this._element.classList.contains(ClassName$1.ACTIVE);
             $(input).trigger('change');
           }
@@ -2694,12 +2375,14 @@ __webpack_require__.r(__webpack_exports__);
         }
       }
 
-      if (addAriaPressed) {
-        this._element.setAttribute('aria-pressed', !this._element.classList.contains(ClassName$1.ACTIVE));
-      }
+      if (!(this._element.hasAttribute('disabled') || this._element.classList.contains('disabled'))) {
+        if (addAriaPressed) {
+          this._element.setAttribute('aria-pressed', !this._element.classList.contains(ClassName$1.ACTIVE));
+        }
 
-      if (triggerChangeEvent) {
-        $(this._element).toggleClass(ClassName$1.ACTIVE);
+        if (triggerChangeEvent) {
+          $(this._element).toggleClass(ClassName$1.ACTIVE);
+        }
       }
     };
 
@@ -2741,17 +2424,57 @@ __webpack_require__.r(__webpack_exports__);
 
 
   $(document).on(Event$1.CLICK_DATA_API, Selector$1.DATA_TOGGLE_CARROT, function (event) {
-    event.preventDefault();
     var button = event.target;
 
     if (!$(button).hasClass(ClassName$1.BUTTON)) {
-      button = $(button).closest(Selector$1.BUTTON);
+      button = $(button).closest(Selector$1.BUTTON)[0];
     }
 
-    Button._jQueryInterface.call($(button), 'toggle');
+    if (!button || button.hasAttribute('disabled') || button.classList.contains('disabled')) {
+      event.preventDefault(); // work around Firefox bug #1540995
+    } else {
+      var inputBtn = button.querySelector(Selector$1.INPUT);
+
+      if (inputBtn && (inputBtn.hasAttribute('disabled') || inputBtn.classList.contains('disabled'))) {
+        event.preventDefault(); // work around Firefox bug #1540995
+
+        return;
+      }
+
+      Button._jQueryInterface.call($(button), 'toggle');
+    }
   }).on(Event$1.FOCUS_BLUR_DATA_API, Selector$1.DATA_TOGGLE_CARROT, function (event) {
     var button = $(event.target).closest(Selector$1.BUTTON)[0];
     $(button).toggleClass(ClassName$1.FOCUS, /^focus(in)?$/.test(event.type));
+  });
+  $(window).on(Event$1.LOAD_DATA_API, function () {
+    // ensure correct active class is set to match the controls' actual values/states
+    // find all checkboxes/readio buttons inside data-toggle groups
+    var buttons = [].slice.call(document.querySelectorAll(Selector$1.DATA_TOGGLES_BUTTONS));
+
+    for (var i = 0, len = buttons.length; i < len; i++) {
+      var button = buttons[i];
+      var input = button.querySelector(Selector$1.INPUT);
+
+      if (input.checked || input.hasAttribute('checked')) {
+        button.classList.add(ClassName$1.ACTIVE);
+      } else {
+        button.classList.remove(ClassName$1.ACTIVE);
+      }
+    } // find all button toggles
+
+
+    buttons = [].slice.call(document.querySelectorAll(Selector$1.DATA_TOGGLE));
+
+    for (var _i = 0, _len = buttons.length; _i < _len; _i++) {
+      var _button = buttons[_i];
+
+      if (_button.getAttribute('aria-pressed') === 'true') {
+        _button.classList.add(ClassName$1.ACTIVE);
+      } else {
+        _button.classList.remove(ClassName$1.ACTIVE);
+      }
+    }
   });
   /**
    * ------------------------------------------------------------------------
@@ -2774,7 +2497,7 @@ __webpack_require__.r(__webpack_exports__);
    */
 
   var NAME$2 = 'carousel';
-  var VERSION$2 = '4.3.1';
+  var VERSION$2 = '4.4.1';
   var DATA_KEY$2 = 'bs.carousel';
   var EVENT_KEY$2 = "." + DATA_KEY$2;
   var DATA_API_KEY$2 = '.data-api';
@@ -2847,13 +2570,12 @@ __webpack_require__.r(__webpack_exports__);
   var PointerType = {
     TOUCH: 'touch',
     PEN: 'pen'
-    /**
-     * ------------------------------------------------------------------------
-     * Class Definition
-     * ------------------------------------------------------------------------
-     */
-
   };
+  /**
+   * ------------------------------------------------------------------------
+   * Class Definition
+   * ------------------------------------------------------------------------
+   */
 
   var Carousel =
   /*#__PURE__*/
@@ -2973,7 +2695,7 @@ __webpack_require__.r(__webpack_exports__);
     ;
 
     _proto._getConfig = function _getConfig(config) {
-      config = _objectSpread({}, Default, config);
+      config = _objectSpread2({}, Default, {}, config);
       Util.typeCheckConfig(NAME$2, config, DefaultType);
       return config;
     };
@@ -2985,7 +2707,8 @@ __webpack_require__.r(__webpack_exports__);
         return;
       }
 
-      var direction = absDeltax / this.touchDeltaX; // swipe left
+      var direction = absDeltax / this.touchDeltaX;
+      this.touchDeltaX = 0; // swipe left
 
       if (direction > 0) {
         this.prev();
@@ -3111,8 +2834,6 @@ __webpack_require__.r(__webpack_exports__);
           event.preventDefault();
           this.next();
           break;
-
-        default:
       }
     };
 
@@ -3264,10 +2985,10 @@ __webpack_require__.r(__webpack_exports__);
       return this.each(function () {
         var data = $(this).data(DATA_KEY$2);
 
-        var _config = _objectSpread({}, Default, $(this).data());
+        var _config = _objectSpread2({}, Default, {}, $(this).data());
 
         if (typeof config === 'object') {
-          _config = _objectSpread({}, _config, config);
+          _config = _objectSpread2({}, _config, {}, config);
         }
 
         var action = typeof config === 'string' ? config : _config.slide;
@@ -3305,7 +3026,7 @@ __webpack_require__.r(__webpack_exports__);
         return;
       }
 
-      var config = _objectSpread({}, $(target).data(), $(this).data());
+      var config = _objectSpread2({}, $(target).data(), {}, $(this).data());
 
       var slideIndex = this.getAttribute('data-slide-to');
 
@@ -3374,7 +3095,7 @@ __webpack_require__.r(__webpack_exports__);
    */
 
   var NAME$3 = 'collapse';
-  var VERSION$3 = '4.3.1';
+  var VERSION$3 = '4.4.1';
   var DATA_KEY$3 = 'bs.collapse';
   var EVENT_KEY$3 = "." + DATA_KEY$3;
   var DATA_API_KEY$3 = '.data-api';
@@ -3407,13 +3128,12 @@ __webpack_require__.r(__webpack_exports__);
   var Selector$3 = {
     ACTIVES: '.show, .collapsing',
     DATA_TOGGLE: '[data-toggle="collapse"]'
-    /**
-     * ------------------------------------------------------------------------
-     * Class Definition
-     * ------------------------------------------------------------------------
-     */
-
   };
+  /**
+   * ------------------------------------------------------------------------
+   * Class Definition
+   * ------------------------------------------------------------------------
+   */
 
   var Collapse =
   /*#__PURE__*/
@@ -3600,7 +3320,7 @@ __webpack_require__.r(__webpack_exports__);
     ;
 
     _proto._getConfig = function _getConfig(config) {
-      config = _objectSpread({}, Default$1, config);
+      config = _objectSpread2({}, Default$1, {}, config);
       config.toggle = Boolean(config.toggle); // Coerce string values
 
       Util.typeCheckConfig(NAME$3, config, DefaultType$1);
@@ -3654,7 +3374,7 @@ __webpack_require__.r(__webpack_exports__);
         var $this = $(this);
         var data = $this.data(DATA_KEY$3);
 
-        var _config = _objectSpread({}, Default$1, $this.data(), typeof config === 'object' && config ? config : {});
+        var _config = _objectSpread2({}, Default$1, {}, $this.data(), {}, typeof config === 'object' && config ? config : {});
 
         if (!data && _config.toggle && /show|hide/.test(config)) {
           _config.toggle = false;
@@ -3734,7 +3454,7 @@ __webpack_require__.r(__webpack_exports__);
    */
 
   var NAME$4 = 'dropdown';
-  var VERSION$4 = '4.3.1';
+  var VERSION$4 = '4.4.1';
   var DATA_KEY$4 = 'bs.dropdown';
   var EVENT_KEY$4 = "." + DATA_KEY$4;
   var DATA_API_KEY$4 = '.data-api';
@@ -3794,21 +3514,22 @@ __webpack_require__.r(__webpack_exports__);
     flip: true,
     boundary: 'scrollParent',
     reference: 'toggle',
-    display: 'dynamic'
+    display: 'dynamic',
+    popperConfig: null
   };
   var DefaultType$2 = {
     offset: '(number|string|function)',
     flip: 'boolean',
     boundary: '(string|element)',
     reference: '(string|element)',
-    display: 'string'
-    /**
-     * ------------------------------------------------------------------------
-     * Class Definition
-     * ------------------------------------------------------------------------
-     */
-
+    display: 'string',
+    popperConfig: '(null|object)'
   };
+  /**
+   * ------------------------------------------------------------------------
+   * Class Definition
+   * ------------------------------------------------------------------------
+   */
 
   var Dropdown =
   /*#__PURE__*/
@@ -3832,8 +3553,6 @@ __webpack_require__.r(__webpack_exports__);
         return;
       }
 
-      var parent = Dropdown._getParentFromElement(this._element);
-
       var isActive = $(this._menu).hasClass(ClassName$4.SHOW);
 
       Dropdown._clearMenus();
@@ -3842,10 +3561,25 @@ __webpack_require__.r(__webpack_exports__);
         return;
       }
 
+      this.show(true);
+    };
+
+    _proto.show = function show(usePopper) {
+      if (usePopper === void 0) {
+        usePopper = false;
+      }
+
+      if (this._element.disabled || $(this._element).hasClass(ClassName$4.DISABLED) || $(this._menu).hasClass(ClassName$4.SHOW)) {
+        return;
+      }
+
       var relatedTarget = {
         relatedTarget: this._element
       };
       var showEvent = $.Event(Event$4.SHOW, relatedTarget);
+
+      var parent = Dropdown._getParentFromElement(this._element);
+
       $(parent).trigger(showEvent);
 
       if (showEvent.isDefaultPrevented()) {
@@ -3853,7 +3587,7 @@ __webpack_require__.r(__webpack_exports__);
       } // Disable totally Popper.js for Dropdown in Navbar
 
 
-      if (!this._inNavbar) {
+      if (!this._inNavbar && usePopper) {
         /**
          * Check for Popper dependency
          * Popper - https://popper.js.org
@@ -3900,28 +3634,6 @@ __webpack_require__.r(__webpack_exports__);
       $(parent).toggleClass(ClassName$4.SHOW).trigger($.Event(Event$4.SHOWN, relatedTarget));
     };
 
-    _proto.show = function show() {
-      if (this._element.disabled || $(this._element).hasClass(ClassName$4.DISABLED) || $(this._menu).hasClass(ClassName$4.SHOW)) {
-        return;
-      }
-
-      var relatedTarget = {
-        relatedTarget: this._element
-      };
-      var showEvent = $.Event(Event$4.SHOW, relatedTarget);
-
-      var parent = Dropdown._getParentFromElement(this._element);
-
-      $(parent).trigger(showEvent);
-
-      if (showEvent.isDefaultPrevented()) {
-        return;
-      }
-
-      $(this._menu).toggleClass(ClassName$4.SHOW);
-      $(parent).toggleClass(ClassName$4.SHOW).trigger($.Event(Event$4.SHOWN, relatedTarget));
-    };
-
     _proto.hide = function hide() {
       if (this._element.disabled || $(this._element).hasClass(ClassName$4.DISABLED) || !$(this._menu).hasClass(ClassName$4.SHOW)) {
         return;
@@ -3938,6 +3650,10 @@ __webpack_require__.r(__webpack_exports__);
 
       if (hideEvent.isDefaultPrevented()) {
         return;
+      }
+
+      if (this._popper) {
+        this._popper.destroy();
       }
 
       $(this._menu).toggleClass(ClassName$4.SHOW);
@@ -3978,7 +3694,7 @@ __webpack_require__.r(__webpack_exports__);
     };
 
     _proto._getConfig = function _getConfig(config) {
-      config = _objectSpread({}, this.constructor.Default, $(this._element).data(), config);
+      config = _objectSpread2({}, this.constructor.Default, {}, $(this._element).data(), {}, config);
       Util.typeCheckConfig(NAME$4, config, this.constructor.DefaultType);
       return config;
     };
@@ -4027,7 +3743,7 @@ __webpack_require__.r(__webpack_exports__);
 
       if (typeof this._config.offset === 'function') {
         offset.fn = function (data) {
-          data.offsets = _objectSpread({}, data.offsets, _this2._config.offset(data.offsets, _this2._element) || {});
+          data.offsets = _objectSpread2({}, data.offsets, {}, _this2._config.offset(data.offsets, _this2._element) || {});
           return data;
         };
       } else {
@@ -4048,9 +3764,8 @@ __webpack_require__.r(__webpack_exports__);
           preventOverflow: {
             boundariesElement: this._config.boundary
           }
-        } // Disable Popper.js if we have a static display
-
-      };
+        }
+      }; // Disable Popper.js if we have a static display
 
       if (this._config.display === 'static') {
         popperConfig.modifiers.applyStyle = {
@@ -4058,7 +3773,7 @@ __webpack_require__.r(__webpack_exports__);
         };
       }
 
-      return popperConfig;
+      return _objectSpread2({}, popperConfig, {}, this._config.popperConfig);
     } // Static
     ;
 
@@ -4130,6 +3845,11 @@ __webpack_require__.r(__webpack_exports__);
         }
 
         toggles[i].setAttribute('aria-expanded', 'false');
+
+        if (context._popper) {
+          context._popper.destroy();
+        }
+
         $(dropdownMenu).removeClass(ClassName$4.SHOW);
         $(parent).removeClass(ClassName$4.SHOW).trigger($.Event(Event$4.HIDDEN, relatedTarget));
       }
@@ -4170,6 +3890,10 @@ __webpack_require__.r(__webpack_exports__);
 
       var isActive = $(parent).hasClass(ClassName$4.SHOW);
 
+      if (!isActive && event.which === ESCAPE_KEYCODE) {
+        return;
+      }
+
       if (!isActive || isActive && (event.which === ESCAPE_KEYCODE || event.which === SPACE_KEYCODE)) {
         if (event.which === ESCAPE_KEYCODE) {
           var toggle = parent.querySelector(Selector$4.DATA_TOGGLE);
@@ -4180,7 +3904,9 @@ __webpack_require__.r(__webpack_exports__);
         return;
       }
 
-      var items = [].slice.call(parent.querySelectorAll(Selector$4.VISIBLE_ITEMS));
+      var items = [].slice.call(parent.querySelectorAll(Selector$4.VISIBLE_ITEMS)).filter(function (item) {
+        return $(item).is(':visible');
+      });
 
       if (items.length === 0) {
         return;
@@ -4260,7 +3986,7 @@ __webpack_require__.r(__webpack_exports__);
    */
 
   var NAME$5 = 'modal';
-  var VERSION$5 = '4.3.1';
+  var VERSION$5 = '4.4.1';
   var DATA_KEY$5 = 'bs.modal';
   var EVENT_KEY$5 = "." + DATA_KEY$5;
   var DATA_API_KEY$5 = '.data-api';
@@ -4281,6 +4007,7 @@ __webpack_require__.r(__webpack_exports__);
   };
   var Event$5 = {
     HIDE: "hide" + EVENT_KEY$5,
+    HIDE_PREVENTED: "hidePrevented" + EVENT_KEY$5,
     HIDDEN: "hidden" + EVENT_KEY$5,
     SHOW: "show" + EVENT_KEY$5,
     SHOWN: "shown" + EVENT_KEY$5,
@@ -4298,7 +4025,8 @@ __webpack_require__.r(__webpack_exports__);
     BACKDROP: 'modal-backdrop',
     OPEN: 'modal-open',
     FADE: 'fade',
-    SHOW: 'show'
+    SHOW: 'show',
+    STATIC: 'modal-static'
   };
   var Selector$5 = {
     DIALOG: '.modal-dialog',
@@ -4307,13 +4035,12 @@ __webpack_require__.r(__webpack_exports__);
     DATA_DISMISS: '[data-dismiss="modal"]',
     FIXED_CONTENT: '.fixed-top, .fixed-bottom, .is-fixed, .sticky-top',
     STICKY_CONTENT: '.sticky-top'
-    /**
-     * ------------------------------------------------------------------------
-     * Class Definition
-     * ------------------------------------------------------------------------
-     */
-
   };
+  /**
+   * ------------------------------------------------------------------------
+   * Class Definition
+   * ------------------------------------------------------------------------
+   */
 
   var Modal =
   /*#__PURE__*/
@@ -4459,15 +4186,40 @@ __webpack_require__.r(__webpack_exports__);
     ;
 
     _proto._getConfig = function _getConfig(config) {
-      config = _objectSpread({}, Default$3, config);
+      config = _objectSpread2({}, Default$3, {}, config);
       Util.typeCheckConfig(NAME$5, config, DefaultType$3);
       return config;
     };
 
-    _proto._showElement = function _showElement(relatedTarget) {
+    _proto._triggerBackdropTransition = function _triggerBackdropTransition() {
       var _this3 = this;
 
+      if (this._config.backdrop === 'static') {
+        var hideEventPrevented = $.Event(Event$5.HIDE_PREVENTED);
+        $(this._element).trigger(hideEventPrevented);
+
+        if (hideEventPrevented.defaultPrevented) {
+          return;
+        }
+
+        this._element.classList.add(ClassName$5.STATIC);
+
+        var modalTransitionDuration = Util.getTransitionDurationFromElement(this._element);
+        $(this._element).one(Util.TRANSITION_END, function () {
+          _this3._element.classList.remove(ClassName$5.STATIC);
+        }).emulateTransitionEnd(modalTransitionDuration);
+
+        this._element.focus();
+      } else {
+        this.hide();
+      }
+    };
+
+    _proto._showElement = function _showElement(relatedTarget) {
+      var _this4 = this;
+
       var transition = $(this._element).hasClass(ClassName$5.FADE);
+      var modalBody = this._dialog ? this._dialog.querySelector(Selector$5.MODAL_BODY) : null;
 
       if (!this._element.parentNode || this._element.parentNode.nodeType !== Node.ELEMENT_NODE) {
         // Don't move modal's DOM position
@@ -4480,8 +4232,8 @@ __webpack_require__.r(__webpack_exports__);
 
       this._element.setAttribute('aria-modal', true);
 
-      if ($(this._dialog).hasClass(ClassName$5.SCROLLABLE)) {
-        this._dialog.querySelector(Selector$5.MODAL_BODY).scrollTop = 0;
+      if ($(this._dialog).hasClass(ClassName$5.SCROLLABLE) && modalBody) {
+        modalBody.scrollTop = 0;
       } else {
         this._element.scrollTop = 0;
       }
@@ -4501,12 +4253,12 @@ __webpack_require__.r(__webpack_exports__);
       });
 
       var transitionComplete = function transitionComplete() {
-        if (_this3._config.focus) {
-          _this3._element.focus();
+        if (_this4._config.focus) {
+          _this4._element.focus();
         }
 
-        _this3._isTransitioning = false;
-        $(_this3._element).trigger(shownEvent);
+        _this4._isTransitioning = false;
+        $(_this4._element).trigger(shownEvent);
       };
 
       if (transition) {
@@ -4518,25 +4270,23 @@ __webpack_require__.r(__webpack_exports__);
     };
 
     _proto._enforceFocus = function _enforceFocus() {
-      var _this4 = this;
+      var _this5 = this;
 
       $(document).off(Event$5.FOCUSIN) // Guard against infinite focus loop
       .on(Event$5.FOCUSIN, function (event) {
-        if (document !== event.target && _this4._element !== event.target && $(_this4._element).has(event.target).length === 0) {
-          _this4._element.focus();
+        if (document !== event.target && _this5._element !== event.target && $(_this5._element).has(event.target).length === 0) {
+          _this5._element.focus();
         }
       });
     };
 
     _proto._setEscapeEvent = function _setEscapeEvent() {
-      var _this5 = this;
+      var _this6 = this;
 
       if (this._isShown && this._config.keyboard) {
         $(this._element).on(Event$5.KEYDOWN_DISMISS, function (event) {
           if (event.which === ESCAPE_KEYCODE$1) {
-            event.preventDefault();
-
-            _this5.hide();
+            _this6._triggerBackdropTransition();
           }
         });
       } else if (!this._isShown) {
@@ -4545,11 +4295,11 @@ __webpack_require__.r(__webpack_exports__);
     };
 
     _proto._setResizeEvent = function _setResizeEvent() {
-      var _this6 = this;
+      var _this7 = this;
 
       if (this._isShown) {
         $(window).on(Event$5.RESIZE, function (event) {
-          return _this6.handleUpdate(event);
+          return _this7.handleUpdate(event);
         });
       } else {
         $(window).off(Event$5.RESIZE);
@@ -4557,7 +4307,7 @@ __webpack_require__.r(__webpack_exports__);
     };
 
     _proto._hideModal = function _hideModal() {
-      var _this7 = this;
+      var _this8 = this;
 
       this._element.style.display = 'none';
 
@@ -4570,11 +4320,11 @@ __webpack_require__.r(__webpack_exports__);
       this._showBackdrop(function () {
         $(document.body).removeClass(ClassName$5.OPEN);
 
-        _this7._resetAdjustments();
+        _this8._resetAdjustments();
 
-        _this7._resetScrollbar();
+        _this8._resetScrollbar();
 
-        $(_this7._element).trigger(Event$5.HIDDEN);
+        $(_this8._element).trigger(Event$5.HIDDEN);
       });
     };
 
@@ -4586,7 +4336,7 @@ __webpack_require__.r(__webpack_exports__);
     };
 
     _proto._showBackdrop = function _showBackdrop(callback) {
-      var _this8 = this;
+      var _this9 = this;
 
       var animate = $(this._element).hasClass(ClassName$5.FADE) ? ClassName$5.FADE : '';
 
@@ -4600,8 +4350,8 @@ __webpack_require__.r(__webpack_exports__);
 
         $(this._backdrop).appendTo(document.body);
         $(this._element).on(Event$5.CLICK_DISMISS, function (event) {
-          if (_this8._ignoreBackdropClick) {
-            _this8._ignoreBackdropClick = false;
+          if (_this9._ignoreBackdropClick) {
+            _this9._ignoreBackdropClick = false;
             return;
           }
 
@@ -4609,11 +4359,7 @@ __webpack_require__.r(__webpack_exports__);
             return;
           }
 
-          if (_this8._config.backdrop === 'static') {
-            _this8._element.focus();
-          } else {
-            _this8.hide();
-          }
+          _this9._triggerBackdropTransition();
         });
 
         if (animate) {
@@ -4637,7 +4383,7 @@ __webpack_require__.r(__webpack_exports__);
         $(this._backdrop).removeClass(ClassName$5.SHOW);
 
         var callbackRemove = function callbackRemove() {
-          _this8._removeBackdrop();
+          _this9._removeBackdrop();
 
           if (callback) {
             callback();
@@ -4684,7 +4430,7 @@ __webpack_require__.r(__webpack_exports__);
     };
 
     _proto._setScrollbar = function _setScrollbar() {
-      var _this9 = this;
+      var _this10 = this;
 
       if (this._isBodyOverflowing) {
         // Note: DOMNode.style.paddingRight returns the actual value or '' if not set
@@ -4695,13 +4441,13 @@ __webpack_require__.r(__webpack_exports__);
         $(fixedContent).each(function (index, element) {
           var actualPadding = element.style.paddingRight;
           var calculatedPadding = $(element).css('padding-right');
-          $(element).data('padding-right', actualPadding).css('padding-right', parseFloat(calculatedPadding) + _this9._scrollbarWidth + "px");
+          $(element).data('padding-right', actualPadding).css('padding-right', parseFloat(calculatedPadding) + _this10._scrollbarWidth + "px");
         }); // Adjust sticky content margin
 
         $(stickyContent).each(function (index, element) {
           var actualMargin = element.style.marginRight;
           var calculatedMargin = $(element).css('margin-right');
-          $(element).data('margin-right', actualMargin).css('margin-right', parseFloat(calculatedMargin) - _this9._scrollbarWidth + "px");
+          $(element).data('margin-right', actualMargin).css('margin-right', parseFloat(calculatedMargin) - _this10._scrollbarWidth + "px");
         }); // Adjust body padding
 
         var actualPadding = document.body.style.paddingRight;
@@ -4750,7 +4496,7 @@ __webpack_require__.r(__webpack_exports__);
       return this.each(function () {
         var data = $(this).data(DATA_KEY$5);
 
-        var _config = _objectSpread({}, Default$3, $(this).data(), typeof config === 'object' && config ? config : {});
+        var _config = _objectSpread2({}, Default$3, {}, $(this).data(), {}, typeof config === 'object' && config ? config : {});
 
         if (!data) {
           data = new Modal(this, _config);
@@ -4791,7 +4537,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
   $(document).on(Event$5.CLICK_DATA_API, Selector$5.DATA_TOGGLE, function (event) {
-    var _this10 = this;
+    var _this11 = this;
 
     var target;
     var selector = Util.getSelectorFromElement(this);
@@ -4800,7 +4546,7 @@ __webpack_require__.r(__webpack_exports__);
       target = document.querySelector(selector);
     }
 
-    var config = $(target).data(DATA_KEY$5) ? 'toggle' : _objectSpread({}, $(target).data(), $(this).data());
+    var config = $(target).data(DATA_KEY$5) ? 'toggle' : _objectSpread2({}, $(target).data(), {}, $(this).data());
 
     if (this.tagName === 'A' || this.tagName === 'AREA') {
       event.preventDefault();
@@ -4813,8 +4559,8 @@ __webpack_require__.r(__webpack_exports__);
       }
 
       $target.one(Event$5.HIDDEN, function () {
-        if ($(_this10).is(':visible')) {
-          _this10.focus();
+        if ($(_this11).is(':visible')) {
+          _this11.focus();
         }
       });
     });
@@ -4837,7 +4583,7 @@ __webpack_require__.r(__webpack_exports__);
 
   /**
    * --------------------------------------------------------------------------
-   * Bootstrap (v4.3.1): tools/sanitizer.js
+   * Bootstrap (v4.4.1): tools/sanitizer.js
    * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
    * --------------------------------------------------------------------------
    */
@@ -4875,13 +4621,13 @@ __webpack_require__.r(__webpack_exports__);
     strong: [],
     u: [],
     ul: []
-    /**
-     * A pattern that recognizes a commonly useful subset of URLs that are safe.
-     *
-     * Shoutout to Angular 7 https://github.com/angular/angular/blob/7.2.4/packages/core/src/sanitization/url_sanitizer.ts
-     */
-
   };
+  /**
+   * A pattern that recognizes a commonly useful subset of URLs that are safe.
+   *
+   * Shoutout to Angular 7 https://github.com/angular/angular/blob/7.2.4/packages/core/src/sanitization/url_sanitizer.ts
+   */
+
   var SAFE_URL_PATTERN = /^(?:(?:https?|mailto|ftp|tel|file):|[^&:/?#]*(?:[/?#]|$))/gi;
   /**
    * A pattern that matches safe data URLs. Only matches image, video and audio types.
@@ -4948,7 +4694,7 @@ __webpack_require__.r(__webpack_exports__);
     };
 
     for (var i = 0, len = elements.length; i < len; i++) {
-      var _ret = _loop(i, len);
+      var _ret = _loop(i);
 
       if (_ret === "continue") continue;
     }
@@ -4963,7 +4709,7 @@ __webpack_require__.r(__webpack_exports__);
    */
 
   var NAME$6 = 'tooltip';
-  var VERSION$6 = '4.3.1';
+  var VERSION$6 = '4.4.1';
   var DATA_KEY$6 = 'bs.tooltip';
   var EVENT_KEY$6 = "." + DATA_KEY$6;
   var JQUERY_NO_CONFLICT$6 = $.fn[NAME$6];
@@ -4985,7 +4731,8 @@ __webpack_require__.r(__webpack_exports__);
     boundary: '(string|element)',
     sanitize: 'boolean',
     sanitizeFn: '(null|function)',
-    whiteList: 'object'
+    whiteList: 'object',
+    popperConfig: '(null|object)'
   };
   var AttachmentMap$1 = {
     AUTO: 'auto',
@@ -5009,7 +4756,8 @@ __webpack_require__.r(__webpack_exports__);
     boundary: 'scrollParent',
     sanitize: true,
     sanitizeFn: null,
-    whiteList: DefaultWhitelist
+    whiteList: DefaultWhitelist,
+    popperConfig: null
   };
   var HoverState = {
     SHOW: 'show',
@@ -5041,22 +4789,17 @@ __webpack_require__.r(__webpack_exports__);
     FOCUS: 'focus',
     CLICK: 'click',
     MANUAL: 'manual'
-    /**
-     * ------------------------------------------------------------------------
-     * Class Definition
-     * ------------------------------------------------------------------------
-     */
-
   };
+  /**
+   * ------------------------------------------------------------------------
+   * Class Definition
+   * ------------------------------------------------------------------------
+   */
 
   var Tooltip =
   /*#__PURE__*/
   function () {
     function Tooltip(element, config) {
-      /**
-       * Check for Popper dependency
-       * Popper - https://popper.js.org
-       */
       if (typeof Popper === 'undefined') {
         throw new TypeError('Bootstrap\'s tooltips require Popper.js (https://popper.js.org/)');
       } // private
@@ -5127,7 +4870,7 @@ __webpack_require__.r(__webpack_exports__);
       clearTimeout(this._timeout);
       $.removeData(this.element, this.constructor.DATA_KEY);
       $(this.element).off(this.constructor.EVENT_KEY);
-      $(this.element).closest('.modal').off('hide.bs.modal');
+      $(this.element).closest('.modal').off('hide.bs.modal', this._hideModalHandler);
 
       if (this.tip) {
         $(this.tip).remove();
@@ -5138,7 +4881,7 @@ __webpack_require__.r(__webpack_exports__);
       this._hoverState = null;
       this._activeTrigger = null;
 
-      if (this._popper !== null) {
+      if (this._popper) {
         this._popper.destroy();
       }
 
@@ -5191,29 +4934,7 @@ __webpack_require__.r(__webpack_exports__);
         }
 
         $(this.element).trigger(this.constructor.Event.INSERTED);
-        this._popper = new Popper(this.element, tip, {
-          placement: attachment,
-          modifiers: {
-            offset: this._getOffset(),
-            flip: {
-              behavior: this.config.fallbackPlacement
-            },
-            arrow: {
-              element: Selector$6.ARROW
-            },
-            preventOverflow: {
-              boundariesElement: this.config.boundary
-            }
-          },
-          onCreate: function onCreate(data) {
-            if (data.originalPlacement !== data.placement) {
-              _this._handlePopperPlacementChange(data);
-            }
-          },
-          onUpdate: function onUpdate(data) {
-            return _this._handlePopperPlacementChange(data);
-          }
-        });
+        this._popper = new Popper(this.element, tip, this._getPopperConfig(attachment));
         $(tip).addClass(ClassName$6.SHOW); // If this is a touch-enabled device we add extra
         // empty mouseover listeners to the body's immediate children;
         // only needed because of broken event delegation on iOS
@@ -5361,14 +5082,43 @@ __webpack_require__.r(__webpack_exports__);
     } // Private
     ;
 
-    _proto._getOffset = function _getOffset() {
+    _proto._getPopperConfig = function _getPopperConfig(attachment) {
       var _this3 = this;
+
+      var defaultBsConfig = {
+        placement: attachment,
+        modifiers: {
+          offset: this._getOffset(),
+          flip: {
+            behavior: this.config.fallbackPlacement
+          },
+          arrow: {
+            element: Selector$6.ARROW
+          },
+          preventOverflow: {
+            boundariesElement: this.config.boundary
+          }
+        },
+        onCreate: function onCreate(data) {
+          if (data.originalPlacement !== data.placement) {
+            _this3._handlePopperPlacementChange(data);
+          }
+        },
+        onUpdate: function onUpdate(data) {
+          return _this3._handlePopperPlacementChange(data);
+        }
+      };
+      return _objectSpread2({}, defaultBsConfig, {}, this.config.popperConfig);
+    };
+
+    _proto._getOffset = function _getOffset() {
+      var _this4 = this;
 
       var offset = {};
 
       if (typeof this.config.offset === 'function') {
         offset.fn = function (data) {
-          data.offsets = _objectSpread({}, data.offsets, _this3.config.offset(data.offsets, _this3.element) || {});
+          data.offsets = _objectSpread2({}, data.offsets, {}, _this4.config.offset(data.offsets, _this4.element) || {});
           return data;
         };
       } else {
@@ -5395,32 +5145,35 @@ __webpack_require__.r(__webpack_exports__);
     };
 
     _proto._setListeners = function _setListeners() {
-      var _this4 = this;
+      var _this5 = this;
 
       var triggers = this.config.trigger.split(' ');
       triggers.forEach(function (trigger) {
         if (trigger === 'click') {
-          $(_this4.element).on(_this4.constructor.Event.CLICK, _this4.config.selector, function (event) {
-            return _this4.toggle(event);
+          $(_this5.element).on(_this5.constructor.Event.CLICK, _this5.config.selector, function (event) {
+            return _this5.toggle(event);
           });
         } else if (trigger !== Trigger.MANUAL) {
-          var eventIn = trigger === Trigger.HOVER ? _this4.constructor.Event.MOUSEENTER : _this4.constructor.Event.FOCUSIN;
-          var eventOut = trigger === Trigger.HOVER ? _this4.constructor.Event.MOUSELEAVE : _this4.constructor.Event.FOCUSOUT;
-          $(_this4.element).on(eventIn, _this4.config.selector, function (event) {
-            return _this4._enter(event);
-          }).on(eventOut, _this4.config.selector, function (event) {
-            return _this4._leave(event);
+          var eventIn = trigger === Trigger.HOVER ? _this5.constructor.Event.MOUSEENTER : _this5.constructor.Event.FOCUSIN;
+          var eventOut = trigger === Trigger.HOVER ? _this5.constructor.Event.MOUSELEAVE : _this5.constructor.Event.FOCUSOUT;
+          $(_this5.element).on(eventIn, _this5.config.selector, function (event) {
+            return _this5._enter(event);
+          }).on(eventOut, _this5.config.selector, function (event) {
+            return _this5._leave(event);
           });
-        }
-      });
-      $(this.element).closest('.modal').on('hide.bs.modal', function () {
-        if (_this4.element) {
-          _this4.hide();
         }
       });
 
+      this._hideModalHandler = function () {
+        if (_this5.element) {
+          _this5.hide();
+        }
+      };
+
+      $(this.element).closest('.modal').on('hide.bs.modal', this._hideModalHandler);
+
       if (this.config.selector) {
-        this.config = _objectSpread({}, this.config, {
+        this.config = _objectSpread2({}, this.config, {
           trigger: 'manual',
           selector: ''
         });
@@ -5520,7 +5273,7 @@ __webpack_require__.r(__webpack_exports__);
           delete dataAttributes[dataAttr];
         }
       });
-      config = _objectSpread({}, this.constructor.Default, dataAttributes, typeof config === 'object' && config ? config : {});
+      config = _objectSpread2({}, this.constructor.Default, {}, dataAttributes, {}, typeof config === 'object' && config ? config : {});
 
       if (typeof config.delay === 'number') {
         config.delay = {
@@ -5680,21 +5433,21 @@ __webpack_require__.r(__webpack_exports__);
    */
 
   var NAME$7 = 'popover';
-  var VERSION$7 = '4.3.1';
+  var VERSION$7 = '4.4.1';
   var DATA_KEY$7 = 'bs.popover';
   var EVENT_KEY$7 = "." + DATA_KEY$7;
   var JQUERY_NO_CONFLICT$7 = $.fn[NAME$7];
   var CLASS_PREFIX$1 = 'bs-popover';
   var BSCLS_PREFIX_REGEX$1 = new RegExp("(^|\\s)" + CLASS_PREFIX$1 + "\\S+", 'g');
 
-  var Default$5 = _objectSpread({}, Tooltip.Default, {
+  var Default$5 = _objectSpread2({}, Tooltip.Default, {
     placement: 'right',
     trigger: 'click',
     content: '',
     template: '<div class="popover" role="tooltip">' + '<div class="arrow"></div>' + '<h3 class="popover-header"></h3>' + '<div class="popover-body"></div></div>'
   });
 
-  var DefaultType$5 = _objectSpread({}, Tooltip.DefaultType, {
+  var DefaultType$5 = _objectSpread2({}, Tooltip.DefaultType, {
     content: '(string|element|function)'
   });
 
@@ -5717,13 +5470,12 @@ __webpack_require__.r(__webpack_exports__);
     FOCUSOUT: "focusout" + EVENT_KEY$7,
     MOUSEENTER: "mouseenter" + EVENT_KEY$7,
     MOUSELEAVE: "mouseleave" + EVENT_KEY$7
-    /**
-     * ------------------------------------------------------------------------
-     * Class Definition
-     * ------------------------------------------------------------------------
-     */
-
   };
+  /**
+   * ------------------------------------------------------------------------
+   * Class Definition
+   * ------------------------------------------------------------------------
+   */
 
   var Popover =
   /*#__PURE__*/
@@ -5867,7 +5619,7 @@ __webpack_require__.r(__webpack_exports__);
    */
 
   var NAME$8 = 'scrollspy';
-  var VERSION$8 = '4.3.1';
+  var VERSION$8 = '4.4.1';
   var DATA_KEY$8 = 'bs.scrollspy';
   var EVENT_KEY$8 = "." + DATA_KEY$8;
   var DATA_API_KEY$6 = '.data-api';
@@ -5906,13 +5658,12 @@ __webpack_require__.r(__webpack_exports__);
   var OffsetMethod = {
     OFFSET: 'offset',
     POSITION: 'position'
-    /**
-     * ------------------------------------------------------------------------
-     * Class Definition
-     * ------------------------------------------------------------------------
-     */
-
   };
+  /**
+   * ------------------------------------------------------------------------
+   * Class Definition
+   * ------------------------------------------------------------------------
+   */
 
   var ScrollSpy =
   /*#__PURE__*/
@@ -5994,7 +5745,7 @@ __webpack_require__.r(__webpack_exports__);
     ;
 
     _proto._getConfig = function _getConfig(config) {
-      config = _objectSpread({}, Default$6, typeof config === 'object' && config ? config : {});
+      config = _objectSpread2({}, Default$6, {}, typeof config === 'object' && config ? config : {});
 
       if (typeof config.target !== 'string') {
         var id = $(config.target).attr('id');
@@ -6174,7 +5925,7 @@ __webpack_require__.r(__webpack_exports__);
    */
 
   var NAME$9 = 'tab';
-  var VERSION$9 = '4.3.1';
+  var VERSION$9 = '4.4.1';
   var DATA_KEY$9 = 'bs.tab';
   var EVENT_KEY$9 = "." + DATA_KEY$9;
   var DATA_API_KEY$7 = '.data-api';
@@ -6201,13 +5952,12 @@ __webpack_require__.r(__webpack_exports__);
     DATA_TOGGLE: '[data-toggle="tab"], [data-toggle="pill"], [data-toggle="list"]',
     DROPDOWN_TOGGLE: '.dropdown-toggle',
     DROPDOWN_ACTIVE_CHILD: '> .dropdown-menu .active'
-    /**
-     * ------------------------------------------------------------------------
-     * Class Definition
-     * ------------------------------------------------------------------------
-     */
-
   };
+  /**
+   * ------------------------------------------------------------------------
+   * Class Definition
+   * ------------------------------------------------------------------------
+   */
 
   var Tab =
   /*#__PURE__*/
@@ -6409,7 +6159,7 @@ __webpack_require__.r(__webpack_exports__);
    */
 
   var NAME$a = 'toast';
-  var VERSION$a = '4.3.1';
+  var VERSION$a = '4.4.1';
   var DATA_KEY$a = 'bs.toast';
   var EVENT_KEY$a = "." + DATA_KEY$a;
   var JQUERY_NO_CONFLICT$a = $.fn[NAME$a];
@@ -6438,13 +6188,12 @@ __webpack_require__.r(__webpack_exports__);
   };
   var Selector$a = {
     DATA_DISMISS: '[data-dismiss="toast"]'
-    /**
-     * ------------------------------------------------------------------------
-     * Class Definition
-     * ------------------------------------------------------------------------
-     */
-
   };
+  /**
+   * ------------------------------------------------------------------------
+   * Class Definition
+   * ------------------------------------------------------------------------
+   */
 
   var Toast =
   /*#__PURE__*/
@@ -6464,7 +6213,12 @@ __webpack_require__.r(__webpack_exports__);
     _proto.show = function show() {
       var _this = this;
 
-      $(this._element).trigger(Event$a.SHOW);
+      var showEvent = $.Event(Event$a.SHOW);
+      $(this._element).trigger(showEvent);
+
+      if (showEvent.isDefaultPrevented()) {
+        return;
+      }
 
       if (this._config.animation) {
         this._element.classList.add(ClassName$a.FADE);
@@ -6478,11 +6232,15 @@ __webpack_require__.r(__webpack_exports__);
         $(_this._element).trigger(Event$a.SHOWN);
 
         if (_this._config.autohide) {
-          _this.hide();
+          _this._timeout = setTimeout(function () {
+            _this.hide();
+          }, _this._config.delay);
         }
       };
 
       this._element.classList.remove(ClassName$a.HIDE);
+
+      Util.reflow(this._element);
 
       this._element.classList.add(ClassName$a.SHOWING);
 
@@ -6494,22 +6252,19 @@ __webpack_require__.r(__webpack_exports__);
       }
     };
 
-    _proto.hide = function hide(withoutTimeout) {
-      var _this2 = this;
-
+    _proto.hide = function hide() {
       if (!this._element.classList.contains(ClassName$a.SHOW)) {
         return;
       }
 
-      $(this._element).trigger(Event$a.HIDE);
+      var hideEvent = $.Event(Event$a.HIDE);
+      $(this._element).trigger(hideEvent);
 
-      if (withoutTimeout) {
-        this._close();
-      } else {
-        this._timeout = setTimeout(function () {
-          _this2._close();
-        }, this._config.delay);
+      if (hideEvent.isDefaultPrevented()) {
+        return;
       }
+
+      this._close();
     };
 
     _proto.dispose = function dispose() {
@@ -6528,26 +6283,26 @@ __webpack_require__.r(__webpack_exports__);
     ;
 
     _proto._getConfig = function _getConfig(config) {
-      config = _objectSpread({}, Default$7, $(this._element).data(), typeof config === 'object' && config ? config : {});
+      config = _objectSpread2({}, Default$7, {}, $(this._element).data(), {}, typeof config === 'object' && config ? config : {});
       Util.typeCheckConfig(NAME$a, config, this.constructor.DefaultType);
       return config;
     };
 
     _proto._setListeners = function _setListeners() {
-      var _this3 = this;
+      var _this2 = this;
 
       $(this._element).on(Event$a.CLICK_DISMISS, Selector$a.DATA_DISMISS, function () {
-        return _this3.hide(true);
+        return _this2.hide();
       });
     };
 
     _proto._close = function _close() {
-      var _this4 = this;
+      var _this3 = this;
 
       var complete = function complete() {
-        _this4._element.classList.add(ClassName$a.HIDE);
+        _this3._element.classList.add(ClassName$a.HIDE);
 
-        $(_this4._element).trigger(Event$a.HIDDEN);
+        $(_this3._element).trigger(Event$a.HIDDEN);
       };
 
       this._element.classList.remove(ClassName$a.SHOW);
@@ -6617,31 +6372,6 @@ __webpack_require__.r(__webpack_exports__);
     return Toast._jQueryInterface;
   };
 
-  /**
-   * --------------------------------------------------------------------------
-   * Bootstrap (v4.3.1): index.js
-   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
-   * --------------------------------------------------------------------------
-   */
-
-  (function () {
-    if (typeof $ === 'undefined') {
-      throw new TypeError('Bootstrap\'s JavaScript requires jQuery. jQuery must be included before Bootstrap\'s JavaScript.');
-    }
-
-    var version = $.fn.jquery.split(' ')[0].split('.');
-    var minMajor = 1;
-    var ltMajor = 2;
-    var minMinor = 9;
-    var minPatch = 1;
-    var maxMajor = 4;
-
-    if (version[0] < ltMajor && version[1] < minMinor || version[0] === minMajor && version[1] === minMinor && version[2] < minPatch || version[0] >= maxMajor) {
-      throw new Error('Bootstrap\'s JavaScript requires at least jQuery v1.9.1 but less than v4.0.0');
-    }
-  })();
-
-  exports.Util = Util;
   exports.Alert = Alert;
   exports.Button = Button;
   exports.Carousel = Carousel;
@@ -6653,203 +6383,33 @@ __webpack_require__.r(__webpack_exports__);
   exports.Tab = Tab;
   exports.Toast = Toast;
   exports.Tooltip = Tooltip;
+  exports.Util = Util;
 
   Object.defineProperty(exports, '__esModule', { value: true });
 
-}));
+})));
 //# sourceMappingURL=bootstrap.js.map
 
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/@fortawesome/fontawesome-free/scss/brands.scss":
-/*!********************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./node_modules/@fortawesome/fontawesome-free/scss/brands.scss ***!
-  \********************************************************************************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var escape = __webpack_require__(/*! ../../../css-loader/lib/url/escape.js */ "./node_modules/css-loader/lib/url/escape.js");
-exports = module.exports = __webpack_require__(/*! ../../../css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
-// imports
-
-
-// module
-exports.push([module.i, "/*!\n * Font Awesome Free 5.9.0 by @fontawesome - https://fontawesome.com\n * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)\n */\n@font-face {\n  font-family: \"Font Awesome 5 Brands\";\n  font-style: normal;\n  font-weight: normal;\n  font-display: auto;\n  src: url(" + escape(__webpack_require__(/*! ../webfonts/fa-brands-400.eot */ "./node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.eot")) + ");\n  src: url(" + escape(__webpack_require__(/*! ../webfonts/fa-brands-400.eot */ "./node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.eot")) + "?#iefix) format(\"embedded-opentype\"), url(" + escape(__webpack_require__(/*! ../webfonts/fa-brands-400.woff2 */ "./node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.woff2")) + ") format(\"woff2\"), url(" + escape(__webpack_require__(/*! ../webfonts/fa-brands-400.woff */ "./node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.woff")) + ") format(\"woff\"), url(" + escape(__webpack_require__(/*! ../webfonts/fa-brands-400.ttf */ "./node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.ttf")) + ") format(\"truetype\"), url(" + escape(__webpack_require__(/*! ../webfonts/fa-brands-400.svg */ "./node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.svg")) + "#fontawesome) format(\"svg\");\n}\n.fab {\n  font-family: \"Font Awesome 5 Brands\";\n}", ""]);
-
-// exports
-
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss":
-/*!*************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss ***!
-  \*************************************************************************************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(/*! ../../../css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
-// imports
-
-
-// module
-exports.push([module.i, "@charset \"UTF-8\";\n/*!\n * Font Awesome Free 5.9.0 by @fontawesome - https://fontawesome.com\n * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)\n */\n.fa,\n.fas,\n.far,\n.fal,\n.fab {\n  -moz-osx-font-smoothing: grayscale;\n  -webkit-font-smoothing: antialiased;\n  display: inline-block;\n  font-style: normal;\n  font-variant: normal;\n  text-rendering: auto;\n  line-height: 1;\n}\n\n.fa-lg {\n  font-size: 1.3333333333em;\n  line-height: 0.75em;\n  vertical-align: -0.0667em;\n}\n\n.fa-xs {\n  font-size: 0.75em;\n}\n\n.fa-sm {\n  font-size: 0.875em;\n}\n\n.fa-1x {\n  font-size: 1em;\n}\n\n.fa-2x {\n  font-size: 2em;\n}\n\n.fa-3x {\n  font-size: 3em;\n}\n\n.fa-4x {\n  font-size: 4em;\n}\n\n.fa-5x {\n  font-size: 5em;\n}\n\n.fa-6x {\n  font-size: 6em;\n}\n\n.fa-7x {\n  font-size: 7em;\n}\n\n.fa-8x {\n  font-size: 8em;\n}\n\n.fa-9x {\n  font-size: 9em;\n}\n\n.fa-10x {\n  font-size: 10em;\n}\n\n.fa-fw {\n  text-align: center;\n  width: 1.25em;\n}\n\n.fa-ul {\n  list-style-type: none;\n  margin-left: 2.5em;\n  padding-left: 0;\n}\n.fa-ul > li {\n  position: relative;\n}\n\n.fa-li {\n  left: -2em;\n  position: absolute;\n  text-align: center;\n  width: 2em;\n  line-height: inherit;\n}\n\n.fa-border {\n  border: solid 0.08em #eee;\n  border-radius: 0.1em;\n  padding: 0.2em 0.25em 0.15em;\n}\n\n.fa-pull-left {\n  float: left;\n}\n\n.fa-pull-right {\n  float: right;\n}\n\n.fa.fa-pull-left,\n.fas.fa-pull-left,\n.far.fa-pull-left,\n.fal.fa-pull-left,\n.fab.fa-pull-left {\n  margin-right: 0.3em;\n}\n.fa.fa-pull-right,\n.fas.fa-pull-right,\n.far.fa-pull-right,\n.fal.fa-pull-right,\n.fab.fa-pull-right {\n  margin-left: 0.3em;\n}\n\n.fa-spin {\n  -webkit-animation: fa-spin 2s infinite linear;\n          animation: fa-spin 2s infinite linear;\n}\n\n.fa-pulse {\n  -webkit-animation: fa-spin 1s infinite steps(8);\n          animation: fa-spin 1s infinite steps(8);\n}\n\n@-webkit-keyframes fa-spin {\n  0% {\n    -webkit-transform: rotate(0deg);\n            transform: rotate(0deg);\n  }\n  100% {\n    -webkit-transform: rotate(360deg);\n            transform: rotate(360deg);\n  }\n}\n\n@keyframes fa-spin {\n  0% {\n    -webkit-transform: rotate(0deg);\n            transform: rotate(0deg);\n  }\n  100% {\n    -webkit-transform: rotate(360deg);\n            transform: rotate(360deg);\n  }\n}\n.fa-rotate-90 {\n  -ms-filter: \"progid:DXImageTransform.Microsoft.BasicImage(rotation=1)\";\n  -webkit-transform: rotate(90deg);\n          transform: rotate(90deg);\n}\n\n.fa-rotate-180 {\n  -ms-filter: \"progid:DXImageTransform.Microsoft.BasicImage(rotation=2)\";\n  -webkit-transform: rotate(180deg);\n          transform: rotate(180deg);\n}\n\n.fa-rotate-270 {\n  -ms-filter: \"progid:DXImageTransform.Microsoft.BasicImage(rotation=3)\";\n  -webkit-transform: rotate(270deg);\n          transform: rotate(270deg);\n}\n\n.fa-flip-horizontal {\n  -ms-filter: \"progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)\";\n  -webkit-transform: scale(-1, 1);\n          transform: scale(-1, 1);\n}\n\n.fa-flip-vertical {\n  -ms-filter: \"progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)\";\n  -webkit-transform: scale(1, -1);\n          transform: scale(1, -1);\n}\n\n.fa-flip-both, .fa-flip-horizontal.fa-flip-vertical {\n  -ms-filter: \"progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)\";\n  -webkit-transform: scale(-1, -1);\n          transform: scale(-1, -1);\n}\n\n:root .fa-rotate-90,\n:root .fa-rotate-180,\n:root .fa-rotate-270,\n:root .fa-flip-horizontal,\n:root .fa-flip-vertical,\n:root .fa-flip-both {\n  -webkit-filter: none;\n          filter: none;\n}\n\n.fa-stack {\n  display: inline-block;\n  height: 2em;\n  line-height: 2em;\n  position: relative;\n  vertical-align: middle;\n  width: 2.5em;\n}\n\n.fa-stack-1x,\n.fa-stack-2x {\n  left: 0;\n  position: absolute;\n  text-align: center;\n  width: 100%;\n}\n\n.fa-stack-1x {\n  line-height: inherit;\n}\n\n.fa-stack-2x {\n  font-size: 2em;\n}\n\n.fa-inverse {\n  color: #fff;\n}\n\n/* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen\nreaders do not read off random characters that represent icons */\n.fa-500px:before {\n  content: \"\\F26E\";\n}\n\n.fa-accessible-icon:before {\n  content: \"\\F368\";\n}\n\n.fa-accusoft:before {\n  content: \"\\F369\";\n}\n\n.fa-acquisitions-incorporated:before {\n  content: \"\\F6AF\";\n}\n\n.fa-ad:before {\n  content: \"\\F641\";\n}\n\n.fa-address-book:before {\n  content: \"\\F2B9\";\n}\n\n.fa-address-card:before {\n  content: \"\\F2BB\";\n}\n\n.fa-adjust:before {\n  content: \"\\F042\";\n}\n\n.fa-adn:before {\n  content: \"\\F170\";\n}\n\n.fa-adobe:before {\n  content: \"\\F778\";\n}\n\n.fa-adversal:before {\n  content: \"\\F36A\";\n}\n\n.fa-affiliatetheme:before {\n  content: \"\\F36B\";\n}\n\n.fa-air-freshener:before {\n  content: \"\\F5D0\";\n}\n\n.fa-airbnb:before {\n  content: \"\\F834\";\n}\n\n.fa-algolia:before {\n  content: \"\\F36C\";\n}\n\n.fa-align-center:before {\n  content: \"\\F037\";\n}\n\n.fa-align-justify:before {\n  content: \"\\F039\";\n}\n\n.fa-align-left:before {\n  content: \"\\F036\";\n}\n\n.fa-align-right:before {\n  content: \"\\F038\";\n}\n\n.fa-alipay:before {\n  content: \"\\F642\";\n}\n\n.fa-allergies:before {\n  content: \"\\F461\";\n}\n\n.fa-amazon:before {\n  content: \"\\F270\";\n}\n\n.fa-amazon-pay:before {\n  content: \"\\F42C\";\n}\n\n.fa-ambulance:before {\n  content: \"\\F0F9\";\n}\n\n.fa-american-sign-language-interpreting:before {\n  content: \"\\F2A3\";\n}\n\n.fa-amilia:before {\n  content: \"\\F36D\";\n}\n\n.fa-anchor:before {\n  content: \"\\F13D\";\n}\n\n.fa-android:before {\n  content: \"\\F17B\";\n}\n\n.fa-angellist:before {\n  content: \"\\F209\";\n}\n\n.fa-angle-double-down:before {\n  content: \"\\F103\";\n}\n\n.fa-angle-double-left:before {\n  content: \"\\F100\";\n}\n\n.fa-angle-double-right:before {\n  content: \"\\F101\";\n}\n\n.fa-angle-double-up:before {\n  content: \"\\F102\";\n}\n\n.fa-angle-down:before {\n  content: \"\\F107\";\n}\n\n.fa-angle-left:before {\n  content: \"\\F104\";\n}\n\n.fa-angle-right:before {\n  content: \"\\F105\";\n}\n\n.fa-angle-up:before {\n  content: \"\\F106\";\n}\n\n.fa-angry:before {\n  content: \"\\F556\";\n}\n\n.fa-angrycreative:before {\n  content: \"\\F36E\";\n}\n\n.fa-angular:before {\n  content: \"\\F420\";\n}\n\n.fa-ankh:before {\n  content: \"\\F644\";\n}\n\n.fa-app-store:before {\n  content: \"\\F36F\";\n}\n\n.fa-app-store-ios:before {\n  content: \"\\F370\";\n}\n\n.fa-apper:before {\n  content: \"\\F371\";\n}\n\n.fa-apple:before {\n  content: \"\\F179\";\n}\n\n.fa-apple-alt:before {\n  content: \"\\F5D1\";\n}\n\n.fa-apple-pay:before {\n  content: \"\\F415\";\n}\n\n.fa-archive:before {\n  content: \"\\F187\";\n}\n\n.fa-archway:before {\n  content: \"\\F557\";\n}\n\n.fa-arrow-alt-circle-down:before {\n  content: \"\\F358\";\n}\n\n.fa-arrow-alt-circle-left:before {\n  content: \"\\F359\";\n}\n\n.fa-arrow-alt-circle-right:before {\n  content: \"\\F35A\";\n}\n\n.fa-arrow-alt-circle-up:before {\n  content: \"\\F35B\";\n}\n\n.fa-arrow-circle-down:before {\n  content: \"\\F0AB\";\n}\n\n.fa-arrow-circle-left:before {\n  content: \"\\F0A8\";\n}\n\n.fa-arrow-circle-right:before {\n  content: \"\\F0A9\";\n}\n\n.fa-arrow-circle-up:before {\n  content: \"\\F0AA\";\n}\n\n.fa-arrow-down:before {\n  content: \"\\F063\";\n}\n\n.fa-arrow-left:before {\n  content: \"\\F060\";\n}\n\n.fa-arrow-right:before {\n  content: \"\\F061\";\n}\n\n.fa-arrow-up:before {\n  content: \"\\F062\";\n}\n\n.fa-arrows-alt:before {\n  content: \"\\F0B2\";\n}\n\n.fa-arrows-alt-h:before {\n  content: \"\\F337\";\n}\n\n.fa-arrows-alt-v:before {\n  content: \"\\F338\";\n}\n\n.fa-artstation:before {\n  content: \"\\F77A\";\n}\n\n.fa-assistive-listening-systems:before {\n  content: \"\\F2A2\";\n}\n\n.fa-asterisk:before {\n  content: \"\\F069\";\n}\n\n.fa-asymmetrik:before {\n  content: \"\\F372\";\n}\n\n.fa-at:before {\n  content: \"\\F1FA\";\n}\n\n.fa-atlas:before {\n  content: \"\\F558\";\n}\n\n.fa-atlassian:before {\n  content: \"\\F77B\";\n}\n\n.fa-atom:before {\n  content: \"\\F5D2\";\n}\n\n.fa-audible:before {\n  content: \"\\F373\";\n}\n\n.fa-audio-description:before {\n  content: \"\\F29E\";\n}\n\n.fa-autoprefixer:before {\n  content: \"\\F41C\";\n}\n\n.fa-avianex:before {\n  content: \"\\F374\";\n}\n\n.fa-aviato:before {\n  content: \"\\F421\";\n}\n\n.fa-award:before {\n  content: \"\\F559\";\n}\n\n.fa-aws:before {\n  content: \"\\F375\";\n}\n\n.fa-baby:before {\n  content: \"\\F77C\";\n}\n\n.fa-baby-carriage:before {\n  content: \"\\F77D\";\n}\n\n.fa-backspace:before {\n  content: \"\\F55A\";\n}\n\n.fa-backward:before {\n  content: \"\\F04A\";\n}\n\n.fa-bacon:before {\n  content: \"\\F7E5\";\n}\n\n.fa-balance-scale:before {\n  content: \"\\F24E\";\n}\n\n.fa-balance-scale-left:before {\n  content: \"\\F515\";\n}\n\n.fa-balance-scale-right:before {\n  content: \"\\F516\";\n}\n\n.fa-ban:before {\n  content: \"\\F05E\";\n}\n\n.fa-band-aid:before {\n  content: \"\\F462\";\n}\n\n.fa-bandcamp:before {\n  content: \"\\F2D5\";\n}\n\n.fa-barcode:before {\n  content: \"\\F02A\";\n}\n\n.fa-bars:before {\n  content: \"\\F0C9\";\n}\n\n.fa-baseball-ball:before {\n  content: \"\\F433\";\n}\n\n.fa-basketball-ball:before {\n  content: \"\\F434\";\n}\n\n.fa-bath:before {\n  content: \"\\F2CD\";\n}\n\n.fa-battery-empty:before {\n  content: \"\\F244\";\n}\n\n.fa-battery-full:before {\n  content: \"\\F240\";\n}\n\n.fa-battery-half:before {\n  content: \"\\F242\";\n}\n\n.fa-battery-quarter:before {\n  content: \"\\F243\";\n}\n\n.fa-battery-three-quarters:before {\n  content: \"\\F241\";\n}\n\n.fa-battle-net:before {\n  content: \"\\F835\";\n}\n\n.fa-bed:before {\n  content: \"\\F236\";\n}\n\n.fa-beer:before {\n  content: \"\\F0FC\";\n}\n\n.fa-behance:before {\n  content: \"\\F1B4\";\n}\n\n.fa-behance-square:before {\n  content: \"\\F1B5\";\n}\n\n.fa-bell:before {\n  content: \"\\F0F3\";\n}\n\n.fa-bell-slash:before {\n  content: \"\\F1F6\";\n}\n\n.fa-bezier-curve:before {\n  content: \"\\F55B\";\n}\n\n.fa-bible:before {\n  content: \"\\F647\";\n}\n\n.fa-bicycle:before {\n  content: \"\\F206\";\n}\n\n.fa-biking:before {\n  content: \"\\F84A\";\n}\n\n.fa-bimobject:before {\n  content: \"\\F378\";\n}\n\n.fa-binoculars:before {\n  content: \"\\F1E5\";\n}\n\n.fa-biohazard:before {\n  content: \"\\F780\";\n}\n\n.fa-birthday-cake:before {\n  content: \"\\F1FD\";\n}\n\n.fa-bitbucket:before {\n  content: \"\\F171\";\n}\n\n.fa-bitcoin:before {\n  content: \"\\F379\";\n}\n\n.fa-bity:before {\n  content: \"\\F37A\";\n}\n\n.fa-black-tie:before {\n  content: \"\\F27E\";\n}\n\n.fa-blackberry:before {\n  content: \"\\F37B\";\n}\n\n.fa-blender:before {\n  content: \"\\F517\";\n}\n\n.fa-blender-phone:before {\n  content: \"\\F6B6\";\n}\n\n.fa-blind:before {\n  content: \"\\F29D\";\n}\n\n.fa-blog:before {\n  content: \"\\F781\";\n}\n\n.fa-blogger:before {\n  content: \"\\F37C\";\n}\n\n.fa-blogger-b:before {\n  content: \"\\F37D\";\n}\n\n.fa-bluetooth:before {\n  content: \"\\F293\";\n}\n\n.fa-bluetooth-b:before {\n  content: \"\\F294\";\n}\n\n.fa-bold:before {\n  content: \"\\F032\";\n}\n\n.fa-bolt:before {\n  content: \"\\F0E7\";\n}\n\n.fa-bomb:before {\n  content: \"\\F1E2\";\n}\n\n.fa-bone:before {\n  content: \"\\F5D7\";\n}\n\n.fa-bong:before {\n  content: \"\\F55C\";\n}\n\n.fa-book:before {\n  content: \"\\F02D\";\n}\n\n.fa-book-dead:before {\n  content: \"\\F6B7\";\n}\n\n.fa-book-medical:before {\n  content: \"\\F7E6\";\n}\n\n.fa-book-open:before {\n  content: \"\\F518\";\n}\n\n.fa-book-reader:before {\n  content: \"\\F5DA\";\n}\n\n.fa-bookmark:before {\n  content: \"\\F02E\";\n}\n\n.fa-bootstrap:before {\n  content: \"\\F836\";\n}\n\n.fa-border-all:before {\n  content: \"\\F84C\";\n}\n\n.fa-border-none:before {\n  content: \"\\F850\";\n}\n\n.fa-border-style:before {\n  content: \"\\F853\";\n}\n\n.fa-bowling-ball:before {\n  content: \"\\F436\";\n}\n\n.fa-box:before {\n  content: \"\\F466\";\n}\n\n.fa-box-open:before {\n  content: \"\\F49E\";\n}\n\n.fa-boxes:before {\n  content: \"\\F468\";\n}\n\n.fa-braille:before {\n  content: \"\\F2A1\";\n}\n\n.fa-brain:before {\n  content: \"\\F5DC\";\n}\n\n.fa-bread-slice:before {\n  content: \"\\F7EC\";\n}\n\n.fa-briefcase:before {\n  content: \"\\F0B1\";\n}\n\n.fa-briefcase-medical:before {\n  content: \"\\F469\";\n}\n\n.fa-broadcast-tower:before {\n  content: \"\\F519\";\n}\n\n.fa-broom:before {\n  content: \"\\F51A\";\n}\n\n.fa-brush:before {\n  content: \"\\F55D\";\n}\n\n.fa-btc:before {\n  content: \"\\F15A\";\n}\n\n.fa-buffer:before {\n  content: \"\\F837\";\n}\n\n.fa-bug:before {\n  content: \"\\F188\";\n}\n\n.fa-building:before {\n  content: \"\\F1AD\";\n}\n\n.fa-bullhorn:before {\n  content: \"\\F0A1\";\n}\n\n.fa-bullseye:before {\n  content: \"\\F140\";\n}\n\n.fa-burn:before {\n  content: \"\\F46A\";\n}\n\n.fa-buromobelexperte:before {\n  content: \"\\F37F\";\n}\n\n.fa-bus:before {\n  content: \"\\F207\";\n}\n\n.fa-bus-alt:before {\n  content: \"\\F55E\";\n}\n\n.fa-business-time:before {\n  content: \"\\F64A\";\n}\n\n.fa-buysellads:before {\n  content: \"\\F20D\";\n}\n\n.fa-calculator:before {\n  content: \"\\F1EC\";\n}\n\n.fa-calendar:before {\n  content: \"\\F133\";\n}\n\n.fa-calendar-alt:before {\n  content: \"\\F073\";\n}\n\n.fa-calendar-check:before {\n  content: \"\\F274\";\n}\n\n.fa-calendar-day:before {\n  content: \"\\F783\";\n}\n\n.fa-calendar-minus:before {\n  content: \"\\F272\";\n}\n\n.fa-calendar-plus:before {\n  content: \"\\F271\";\n}\n\n.fa-calendar-times:before {\n  content: \"\\F273\";\n}\n\n.fa-calendar-week:before {\n  content: \"\\F784\";\n}\n\n.fa-camera:before {\n  content: \"\\F030\";\n}\n\n.fa-camera-retro:before {\n  content: \"\\F083\";\n}\n\n.fa-campground:before {\n  content: \"\\F6BB\";\n}\n\n.fa-canadian-maple-leaf:before {\n  content: \"\\F785\";\n}\n\n.fa-candy-cane:before {\n  content: \"\\F786\";\n}\n\n.fa-cannabis:before {\n  content: \"\\F55F\";\n}\n\n.fa-capsules:before {\n  content: \"\\F46B\";\n}\n\n.fa-car:before {\n  content: \"\\F1B9\";\n}\n\n.fa-car-alt:before {\n  content: \"\\F5DE\";\n}\n\n.fa-car-battery:before {\n  content: \"\\F5DF\";\n}\n\n.fa-car-crash:before {\n  content: \"\\F5E1\";\n}\n\n.fa-car-side:before {\n  content: \"\\F5E4\";\n}\n\n.fa-caret-down:before {\n  content: \"\\F0D7\";\n}\n\n.fa-caret-left:before {\n  content: \"\\F0D9\";\n}\n\n.fa-caret-right:before {\n  content: \"\\F0DA\";\n}\n\n.fa-caret-square-down:before {\n  content: \"\\F150\";\n}\n\n.fa-caret-square-left:before {\n  content: \"\\F191\";\n}\n\n.fa-caret-square-right:before {\n  content: \"\\F152\";\n}\n\n.fa-caret-square-up:before {\n  content: \"\\F151\";\n}\n\n.fa-caret-up:before {\n  content: \"\\F0D8\";\n}\n\n.fa-carrot:before {\n  content: \"\\F787\";\n}\n\n.fa-cart-arrow-down:before {\n  content: \"\\F218\";\n}\n\n.fa-cart-plus:before {\n  content: \"\\F217\";\n}\n\n.fa-cash-register:before {\n  content: \"\\F788\";\n}\n\n.fa-cat:before {\n  content: \"\\F6BE\";\n}\n\n.fa-cc-amazon-pay:before {\n  content: \"\\F42D\";\n}\n\n.fa-cc-amex:before {\n  content: \"\\F1F3\";\n}\n\n.fa-cc-apple-pay:before {\n  content: \"\\F416\";\n}\n\n.fa-cc-diners-club:before {\n  content: \"\\F24C\";\n}\n\n.fa-cc-discover:before {\n  content: \"\\F1F2\";\n}\n\n.fa-cc-jcb:before {\n  content: \"\\F24B\";\n}\n\n.fa-cc-mastercard:before {\n  content: \"\\F1F1\";\n}\n\n.fa-cc-paypal:before {\n  content: \"\\F1F4\";\n}\n\n.fa-cc-stripe:before {\n  content: \"\\F1F5\";\n}\n\n.fa-cc-visa:before {\n  content: \"\\F1F0\";\n}\n\n.fa-centercode:before {\n  content: \"\\F380\";\n}\n\n.fa-centos:before {\n  content: \"\\F789\";\n}\n\n.fa-certificate:before {\n  content: \"\\F0A3\";\n}\n\n.fa-chair:before {\n  content: \"\\F6C0\";\n}\n\n.fa-chalkboard:before {\n  content: \"\\F51B\";\n}\n\n.fa-chalkboard-teacher:before {\n  content: \"\\F51C\";\n}\n\n.fa-charging-station:before {\n  content: \"\\F5E7\";\n}\n\n.fa-chart-area:before {\n  content: \"\\F1FE\";\n}\n\n.fa-chart-bar:before {\n  content: \"\\F080\";\n}\n\n.fa-chart-line:before {\n  content: \"\\F201\";\n}\n\n.fa-chart-pie:before {\n  content: \"\\F200\";\n}\n\n.fa-check:before {\n  content: \"\\F00C\";\n}\n\n.fa-check-circle:before {\n  content: \"\\F058\";\n}\n\n.fa-check-double:before {\n  content: \"\\F560\";\n}\n\n.fa-check-square:before {\n  content: \"\\F14A\";\n}\n\n.fa-cheese:before {\n  content: \"\\F7EF\";\n}\n\n.fa-chess:before {\n  content: \"\\F439\";\n}\n\n.fa-chess-bishop:before {\n  content: \"\\F43A\";\n}\n\n.fa-chess-board:before {\n  content: \"\\F43C\";\n}\n\n.fa-chess-king:before {\n  content: \"\\F43F\";\n}\n\n.fa-chess-knight:before {\n  content: \"\\F441\";\n}\n\n.fa-chess-pawn:before {\n  content: \"\\F443\";\n}\n\n.fa-chess-queen:before {\n  content: \"\\F445\";\n}\n\n.fa-chess-rook:before {\n  content: \"\\F447\";\n}\n\n.fa-chevron-circle-down:before {\n  content: \"\\F13A\";\n}\n\n.fa-chevron-circle-left:before {\n  content: \"\\F137\";\n}\n\n.fa-chevron-circle-right:before {\n  content: \"\\F138\";\n}\n\n.fa-chevron-circle-up:before {\n  content: \"\\F139\";\n}\n\n.fa-chevron-down:before {\n  content: \"\\F078\";\n}\n\n.fa-chevron-left:before {\n  content: \"\\F053\";\n}\n\n.fa-chevron-right:before {\n  content: \"\\F054\";\n}\n\n.fa-chevron-up:before {\n  content: \"\\F077\";\n}\n\n.fa-child:before {\n  content: \"\\F1AE\";\n}\n\n.fa-chrome:before {\n  content: \"\\F268\";\n}\n\n.fa-chromecast:before {\n  content: \"\\F838\";\n}\n\n.fa-church:before {\n  content: \"\\F51D\";\n}\n\n.fa-circle:before {\n  content: \"\\F111\";\n}\n\n.fa-circle-notch:before {\n  content: \"\\F1CE\";\n}\n\n.fa-city:before {\n  content: \"\\F64F\";\n}\n\n.fa-clinic-medical:before {\n  content: \"\\F7F2\";\n}\n\n.fa-clipboard:before {\n  content: \"\\F328\";\n}\n\n.fa-clipboard-check:before {\n  content: \"\\F46C\";\n}\n\n.fa-clipboard-list:before {\n  content: \"\\F46D\";\n}\n\n.fa-clock:before {\n  content: \"\\F017\";\n}\n\n.fa-clone:before {\n  content: \"\\F24D\";\n}\n\n.fa-closed-captioning:before {\n  content: \"\\F20A\";\n}\n\n.fa-cloud:before {\n  content: \"\\F0C2\";\n}\n\n.fa-cloud-download-alt:before {\n  content: \"\\F381\";\n}\n\n.fa-cloud-meatball:before {\n  content: \"\\F73B\";\n}\n\n.fa-cloud-moon:before {\n  content: \"\\F6C3\";\n}\n\n.fa-cloud-moon-rain:before {\n  content: \"\\F73C\";\n}\n\n.fa-cloud-rain:before {\n  content: \"\\F73D\";\n}\n\n.fa-cloud-showers-heavy:before {\n  content: \"\\F740\";\n}\n\n.fa-cloud-sun:before {\n  content: \"\\F6C4\";\n}\n\n.fa-cloud-sun-rain:before {\n  content: \"\\F743\";\n}\n\n.fa-cloud-upload-alt:before {\n  content: \"\\F382\";\n}\n\n.fa-cloudscale:before {\n  content: \"\\F383\";\n}\n\n.fa-cloudsmith:before {\n  content: \"\\F384\";\n}\n\n.fa-cloudversify:before {\n  content: \"\\F385\";\n}\n\n.fa-cocktail:before {\n  content: \"\\F561\";\n}\n\n.fa-code:before {\n  content: \"\\F121\";\n}\n\n.fa-code-branch:before {\n  content: \"\\F126\";\n}\n\n.fa-codepen:before {\n  content: \"\\F1CB\";\n}\n\n.fa-codiepie:before {\n  content: \"\\F284\";\n}\n\n.fa-coffee:before {\n  content: \"\\F0F4\";\n}\n\n.fa-cog:before {\n  content: \"\\F013\";\n}\n\n.fa-cogs:before {\n  content: \"\\F085\";\n}\n\n.fa-coins:before {\n  content: \"\\F51E\";\n}\n\n.fa-columns:before {\n  content: \"\\F0DB\";\n}\n\n.fa-comment:before {\n  content: \"\\F075\";\n}\n\n.fa-comment-alt:before {\n  content: \"\\F27A\";\n}\n\n.fa-comment-dollar:before {\n  content: \"\\F651\";\n}\n\n.fa-comment-dots:before {\n  content: \"\\F4AD\";\n}\n\n.fa-comment-medical:before {\n  content: \"\\F7F5\";\n}\n\n.fa-comment-slash:before {\n  content: \"\\F4B3\";\n}\n\n.fa-comments:before {\n  content: \"\\F086\";\n}\n\n.fa-comments-dollar:before {\n  content: \"\\F653\";\n}\n\n.fa-compact-disc:before {\n  content: \"\\F51F\";\n}\n\n.fa-compass:before {\n  content: \"\\F14E\";\n}\n\n.fa-compress:before {\n  content: \"\\F066\";\n}\n\n.fa-compress-arrows-alt:before {\n  content: \"\\F78C\";\n}\n\n.fa-concierge-bell:before {\n  content: \"\\F562\";\n}\n\n.fa-confluence:before {\n  content: \"\\F78D\";\n}\n\n.fa-connectdevelop:before {\n  content: \"\\F20E\";\n}\n\n.fa-contao:before {\n  content: \"\\F26D\";\n}\n\n.fa-cookie:before {\n  content: \"\\F563\";\n}\n\n.fa-cookie-bite:before {\n  content: \"\\F564\";\n}\n\n.fa-copy:before {\n  content: \"\\F0C5\";\n}\n\n.fa-copyright:before {\n  content: \"\\F1F9\";\n}\n\n.fa-couch:before {\n  content: \"\\F4B8\";\n}\n\n.fa-cpanel:before {\n  content: \"\\F388\";\n}\n\n.fa-creative-commons:before {\n  content: \"\\F25E\";\n}\n\n.fa-creative-commons-by:before {\n  content: \"\\F4E7\";\n}\n\n.fa-creative-commons-nc:before {\n  content: \"\\F4E8\";\n}\n\n.fa-creative-commons-nc-eu:before {\n  content: \"\\F4E9\";\n}\n\n.fa-creative-commons-nc-jp:before {\n  content: \"\\F4EA\";\n}\n\n.fa-creative-commons-nd:before {\n  content: \"\\F4EB\";\n}\n\n.fa-creative-commons-pd:before {\n  content: \"\\F4EC\";\n}\n\n.fa-creative-commons-pd-alt:before {\n  content: \"\\F4ED\";\n}\n\n.fa-creative-commons-remix:before {\n  content: \"\\F4EE\";\n}\n\n.fa-creative-commons-sa:before {\n  content: \"\\F4EF\";\n}\n\n.fa-creative-commons-sampling:before {\n  content: \"\\F4F0\";\n}\n\n.fa-creative-commons-sampling-plus:before {\n  content: \"\\F4F1\";\n}\n\n.fa-creative-commons-share:before {\n  content: \"\\F4F2\";\n}\n\n.fa-creative-commons-zero:before {\n  content: \"\\F4F3\";\n}\n\n.fa-credit-card:before {\n  content: \"\\F09D\";\n}\n\n.fa-critical-role:before {\n  content: \"\\F6C9\";\n}\n\n.fa-crop:before {\n  content: \"\\F125\";\n}\n\n.fa-crop-alt:before {\n  content: \"\\F565\";\n}\n\n.fa-cross:before {\n  content: \"\\F654\";\n}\n\n.fa-crosshairs:before {\n  content: \"\\F05B\";\n}\n\n.fa-crow:before {\n  content: \"\\F520\";\n}\n\n.fa-crown:before {\n  content: \"\\F521\";\n}\n\n.fa-crutch:before {\n  content: \"\\F7F7\";\n}\n\n.fa-css3:before {\n  content: \"\\F13C\";\n}\n\n.fa-css3-alt:before {\n  content: \"\\F38B\";\n}\n\n.fa-cube:before {\n  content: \"\\F1B2\";\n}\n\n.fa-cubes:before {\n  content: \"\\F1B3\";\n}\n\n.fa-cut:before {\n  content: \"\\F0C4\";\n}\n\n.fa-cuttlefish:before {\n  content: \"\\F38C\";\n}\n\n.fa-d-and-d:before {\n  content: \"\\F38D\";\n}\n\n.fa-d-and-d-beyond:before {\n  content: \"\\F6CA\";\n}\n\n.fa-dashcube:before {\n  content: \"\\F210\";\n}\n\n.fa-database:before {\n  content: \"\\F1C0\";\n}\n\n.fa-deaf:before {\n  content: \"\\F2A4\";\n}\n\n.fa-delicious:before {\n  content: \"\\F1A5\";\n}\n\n.fa-democrat:before {\n  content: \"\\F747\";\n}\n\n.fa-deploydog:before {\n  content: \"\\F38E\";\n}\n\n.fa-deskpro:before {\n  content: \"\\F38F\";\n}\n\n.fa-desktop:before {\n  content: \"\\F108\";\n}\n\n.fa-dev:before {\n  content: \"\\F6CC\";\n}\n\n.fa-deviantart:before {\n  content: \"\\F1BD\";\n}\n\n.fa-dharmachakra:before {\n  content: \"\\F655\";\n}\n\n.fa-dhl:before {\n  content: \"\\F790\";\n}\n\n.fa-diagnoses:before {\n  content: \"\\F470\";\n}\n\n.fa-diaspora:before {\n  content: \"\\F791\";\n}\n\n.fa-dice:before {\n  content: \"\\F522\";\n}\n\n.fa-dice-d20:before {\n  content: \"\\F6CF\";\n}\n\n.fa-dice-d6:before {\n  content: \"\\F6D1\";\n}\n\n.fa-dice-five:before {\n  content: \"\\F523\";\n}\n\n.fa-dice-four:before {\n  content: \"\\F524\";\n}\n\n.fa-dice-one:before {\n  content: \"\\F525\";\n}\n\n.fa-dice-six:before {\n  content: \"\\F526\";\n}\n\n.fa-dice-three:before {\n  content: \"\\F527\";\n}\n\n.fa-dice-two:before {\n  content: \"\\F528\";\n}\n\n.fa-digg:before {\n  content: \"\\F1A6\";\n}\n\n.fa-digital-ocean:before {\n  content: \"\\F391\";\n}\n\n.fa-digital-tachograph:before {\n  content: \"\\F566\";\n}\n\n.fa-directions:before {\n  content: \"\\F5EB\";\n}\n\n.fa-discord:before {\n  content: \"\\F392\";\n}\n\n.fa-discourse:before {\n  content: \"\\F393\";\n}\n\n.fa-divide:before {\n  content: \"\\F529\";\n}\n\n.fa-dizzy:before {\n  content: \"\\F567\";\n}\n\n.fa-dna:before {\n  content: \"\\F471\";\n}\n\n.fa-dochub:before {\n  content: \"\\F394\";\n}\n\n.fa-docker:before {\n  content: \"\\F395\";\n}\n\n.fa-dog:before {\n  content: \"\\F6D3\";\n}\n\n.fa-dollar-sign:before {\n  content: \"\\F155\";\n}\n\n.fa-dolly:before {\n  content: \"\\F472\";\n}\n\n.fa-dolly-flatbed:before {\n  content: \"\\F474\";\n}\n\n.fa-donate:before {\n  content: \"\\F4B9\";\n}\n\n.fa-door-closed:before {\n  content: \"\\F52A\";\n}\n\n.fa-door-open:before {\n  content: \"\\F52B\";\n}\n\n.fa-dot-circle:before {\n  content: \"\\F192\";\n}\n\n.fa-dove:before {\n  content: \"\\F4BA\";\n}\n\n.fa-download:before {\n  content: \"\\F019\";\n}\n\n.fa-draft2digital:before {\n  content: \"\\F396\";\n}\n\n.fa-drafting-compass:before {\n  content: \"\\F568\";\n}\n\n.fa-dragon:before {\n  content: \"\\F6D5\";\n}\n\n.fa-draw-polygon:before {\n  content: \"\\F5EE\";\n}\n\n.fa-dribbble:before {\n  content: \"\\F17D\";\n}\n\n.fa-dribbble-square:before {\n  content: \"\\F397\";\n}\n\n.fa-dropbox:before {\n  content: \"\\F16B\";\n}\n\n.fa-drum:before {\n  content: \"\\F569\";\n}\n\n.fa-drum-steelpan:before {\n  content: \"\\F56A\";\n}\n\n.fa-drumstick-bite:before {\n  content: \"\\F6D7\";\n}\n\n.fa-drupal:before {\n  content: \"\\F1A9\";\n}\n\n.fa-dumbbell:before {\n  content: \"\\F44B\";\n}\n\n.fa-dumpster:before {\n  content: \"\\F793\";\n}\n\n.fa-dumpster-fire:before {\n  content: \"\\F794\";\n}\n\n.fa-dungeon:before {\n  content: \"\\F6D9\";\n}\n\n.fa-dyalog:before {\n  content: \"\\F399\";\n}\n\n.fa-earlybirds:before {\n  content: \"\\F39A\";\n}\n\n.fa-ebay:before {\n  content: \"\\F4F4\";\n}\n\n.fa-edge:before {\n  content: \"\\F282\";\n}\n\n.fa-edit:before {\n  content: \"\\F044\";\n}\n\n.fa-egg:before {\n  content: \"\\F7FB\";\n}\n\n.fa-eject:before {\n  content: \"\\F052\";\n}\n\n.fa-elementor:before {\n  content: \"\\F430\";\n}\n\n.fa-ellipsis-h:before {\n  content: \"\\F141\";\n}\n\n.fa-ellipsis-v:before {\n  content: \"\\F142\";\n}\n\n.fa-ello:before {\n  content: \"\\F5F1\";\n}\n\n.fa-ember:before {\n  content: \"\\F423\";\n}\n\n.fa-empire:before {\n  content: \"\\F1D1\";\n}\n\n.fa-envelope:before {\n  content: \"\\F0E0\";\n}\n\n.fa-envelope-open:before {\n  content: \"\\F2B6\";\n}\n\n.fa-envelope-open-text:before {\n  content: \"\\F658\";\n}\n\n.fa-envelope-square:before {\n  content: \"\\F199\";\n}\n\n.fa-envira:before {\n  content: \"\\F299\";\n}\n\n.fa-equals:before {\n  content: \"\\F52C\";\n}\n\n.fa-eraser:before {\n  content: \"\\F12D\";\n}\n\n.fa-erlang:before {\n  content: \"\\F39D\";\n}\n\n.fa-ethereum:before {\n  content: \"\\F42E\";\n}\n\n.fa-ethernet:before {\n  content: \"\\F796\";\n}\n\n.fa-etsy:before {\n  content: \"\\F2D7\";\n}\n\n.fa-euro-sign:before {\n  content: \"\\F153\";\n}\n\n.fa-evernote:before {\n  content: \"\\F839\";\n}\n\n.fa-exchange-alt:before {\n  content: \"\\F362\";\n}\n\n.fa-exclamation:before {\n  content: \"\\F12A\";\n}\n\n.fa-exclamation-circle:before {\n  content: \"\\F06A\";\n}\n\n.fa-exclamation-triangle:before {\n  content: \"\\F071\";\n}\n\n.fa-expand:before {\n  content: \"\\F065\";\n}\n\n.fa-expand-arrows-alt:before {\n  content: \"\\F31E\";\n}\n\n.fa-expeditedssl:before {\n  content: \"\\F23E\";\n}\n\n.fa-external-link-alt:before {\n  content: \"\\F35D\";\n}\n\n.fa-external-link-square-alt:before {\n  content: \"\\F360\";\n}\n\n.fa-eye:before {\n  content: \"\\F06E\";\n}\n\n.fa-eye-dropper:before {\n  content: \"\\F1FB\";\n}\n\n.fa-eye-slash:before {\n  content: \"\\F070\";\n}\n\n.fa-facebook:before {\n  content: \"\\F09A\";\n}\n\n.fa-facebook-f:before {\n  content: \"\\F39E\";\n}\n\n.fa-facebook-messenger:before {\n  content: \"\\F39F\";\n}\n\n.fa-facebook-square:before {\n  content: \"\\F082\";\n}\n\n.fa-fan:before {\n  content: \"\\F863\";\n}\n\n.fa-fantasy-flight-games:before {\n  content: \"\\F6DC\";\n}\n\n.fa-fast-backward:before {\n  content: \"\\F049\";\n}\n\n.fa-fast-forward:before {\n  content: \"\\F050\";\n}\n\n.fa-fax:before {\n  content: \"\\F1AC\";\n}\n\n.fa-feather:before {\n  content: \"\\F52D\";\n}\n\n.fa-feather-alt:before {\n  content: \"\\F56B\";\n}\n\n.fa-fedex:before {\n  content: \"\\F797\";\n}\n\n.fa-fedora:before {\n  content: \"\\F798\";\n}\n\n.fa-female:before {\n  content: \"\\F182\";\n}\n\n.fa-fighter-jet:before {\n  content: \"\\F0FB\";\n}\n\n.fa-figma:before {\n  content: \"\\F799\";\n}\n\n.fa-file:before {\n  content: \"\\F15B\";\n}\n\n.fa-file-alt:before {\n  content: \"\\F15C\";\n}\n\n.fa-file-archive:before {\n  content: \"\\F1C6\";\n}\n\n.fa-file-audio:before {\n  content: \"\\F1C7\";\n}\n\n.fa-file-code:before {\n  content: \"\\F1C9\";\n}\n\n.fa-file-contract:before {\n  content: \"\\F56C\";\n}\n\n.fa-file-csv:before {\n  content: \"\\F6DD\";\n}\n\n.fa-file-download:before {\n  content: \"\\F56D\";\n}\n\n.fa-file-excel:before {\n  content: \"\\F1C3\";\n}\n\n.fa-file-export:before {\n  content: \"\\F56E\";\n}\n\n.fa-file-image:before {\n  content: \"\\F1C5\";\n}\n\n.fa-file-import:before {\n  content: \"\\F56F\";\n}\n\n.fa-file-invoice:before {\n  content: \"\\F570\";\n}\n\n.fa-file-invoice-dollar:before {\n  content: \"\\F571\";\n}\n\n.fa-file-medical:before {\n  content: \"\\F477\";\n}\n\n.fa-file-medical-alt:before {\n  content: \"\\F478\";\n}\n\n.fa-file-pdf:before {\n  content: \"\\F1C1\";\n}\n\n.fa-file-powerpoint:before {\n  content: \"\\F1C4\";\n}\n\n.fa-file-prescription:before {\n  content: \"\\F572\";\n}\n\n.fa-file-signature:before {\n  content: \"\\F573\";\n}\n\n.fa-file-upload:before {\n  content: \"\\F574\";\n}\n\n.fa-file-video:before {\n  content: \"\\F1C8\";\n}\n\n.fa-file-word:before {\n  content: \"\\F1C2\";\n}\n\n.fa-fill:before {\n  content: \"\\F575\";\n}\n\n.fa-fill-drip:before {\n  content: \"\\F576\";\n}\n\n.fa-film:before {\n  content: \"\\F008\";\n}\n\n.fa-filter:before {\n  content: \"\\F0B0\";\n}\n\n.fa-fingerprint:before {\n  content: \"\\F577\";\n}\n\n.fa-fire:before {\n  content: \"\\F06D\";\n}\n\n.fa-fire-alt:before {\n  content: \"\\F7E4\";\n}\n\n.fa-fire-extinguisher:before {\n  content: \"\\F134\";\n}\n\n.fa-firefox:before {\n  content: \"\\F269\";\n}\n\n.fa-first-aid:before {\n  content: \"\\F479\";\n}\n\n.fa-first-order:before {\n  content: \"\\F2B0\";\n}\n\n.fa-first-order-alt:before {\n  content: \"\\F50A\";\n}\n\n.fa-firstdraft:before {\n  content: \"\\F3A1\";\n}\n\n.fa-fish:before {\n  content: \"\\F578\";\n}\n\n.fa-fist-raised:before {\n  content: \"\\F6DE\";\n}\n\n.fa-flag:before {\n  content: \"\\F024\";\n}\n\n.fa-flag-checkered:before {\n  content: \"\\F11E\";\n}\n\n.fa-flag-usa:before {\n  content: \"\\F74D\";\n}\n\n.fa-flask:before {\n  content: \"\\F0C3\";\n}\n\n.fa-flickr:before {\n  content: \"\\F16E\";\n}\n\n.fa-flipboard:before {\n  content: \"\\F44D\";\n}\n\n.fa-flushed:before {\n  content: \"\\F579\";\n}\n\n.fa-fly:before {\n  content: \"\\F417\";\n}\n\n.fa-folder:before {\n  content: \"\\F07B\";\n}\n\n.fa-folder-minus:before {\n  content: \"\\F65D\";\n}\n\n.fa-folder-open:before {\n  content: \"\\F07C\";\n}\n\n.fa-folder-plus:before {\n  content: \"\\F65E\";\n}\n\n.fa-font:before {\n  content: \"\\F031\";\n}\n\n.fa-font-awesome:before {\n  content: \"\\F2B4\";\n}\n\n.fa-font-awesome-alt:before {\n  content: \"\\F35C\";\n}\n\n.fa-font-awesome-flag:before {\n  content: \"\\F425\";\n}\n\n.fa-font-awesome-logo-full:before {\n  content: \"\\F4E6\";\n}\n\n.fa-fonticons:before {\n  content: \"\\F280\";\n}\n\n.fa-fonticons-fi:before {\n  content: \"\\F3A2\";\n}\n\n.fa-football-ball:before {\n  content: \"\\F44E\";\n}\n\n.fa-fort-awesome:before {\n  content: \"\\F286\";\n}\n\n.fa-fort-awesome-alt:before {\n  content: \"\\F3A3\";\n}\n\n.fa-forumbee:before {\n  content: \"\\F211\";\n}\n\n.fa-forward:before {\n  content: \"\\F04E\";\n}\n\n.fa-foursquare:before {\n  content: \"\\F180\";\n}\n\n.fa-free-code-camp:before {\n  content: \"\\F2C5\";\n}\n\n.fa-freebsd:before {\n  content: \"\\F3A4\";\n}\n\n.fa-frog:before {\n  content: \"\\F52E\";\n}\n\n.fa-frown:before {\n  content: \"\\F119\";\n}\n\n.fa-frown-open:before {\n  content: \"\\F57A\";\n}\n\n.fa-fulcrum:before {\n  content: \"\\F50B\";\n}\n\n.fa-funnel-dollar:before {\n  content: \"\\F662\";\n}\n\n.fa-futbol:before {\n  content: \"\\F1E3\";\n}\n\n.fa-galactic-republic:before {\n  content: \"\\F50C\";\n}\n\n.fa-galactic-senate:before {\n  content: \"\\F50D\";\n}\n\n.fa-gamepad:before {\n  content: \"\\F11B\";\n}\n\n.fa-gas-pump:before {\n  content: \"\\F52F\";\n}\n\n.fa-gavel:before {\n  content: \"\\F0E3\";\n}\n\n.fa-gem:before {\n  content: \"\\F3A5\";\n}\n\n.fa-genderless:before {\n  content: \"\\F22D\";\n}\n\n.fa-get-pocket:before {\n  content: \"\\F265\";\n}\n\n.fa-gg:before {\n  content: \"\\F260\";\n}\n\n.fa-gg-circle:before {\n  content: \"\\F261\";\n}\n\n.fa-ghost:before {\n  content: \"\\F6E2\";\n}\n\n.fa-gift:before {\n  content: \"\\F06B\";\n}\n\n.fa-gifts:before {\n  content: \"\\F79C\";\n}\n\n.fa-git:before {\n  content: \"\\F1D3\";\n}\n\n.fa-git-alt:before {\n  content: \"\\F841\";\n}\n\n.fa-git-square:before {\n  content: \"\\F1D2\";\n}\n\n.fa-github:before {\n  content: \"\\F09B\";\n}\n\n.fa-github-alt:before {\n  content: \"\\F113\";\n}\n\n.fa-github-square:before {\n  content: \"\\F092\";\n}\n\n.fa-gitkraken:before {\n  content: \"\\F3A6\";\n}\n\n.fa-gitlab:before {\n  content: \"\\F296\";\n}\n\n.fa-gitter:before {\n  content: \"\\F426\";\n}\n\n.fa-glass-cheers:before {\n  content: \"\\F79F\";\n}\n\n.fa-glass-martini:before {\n  content: \"\\F000\";\n}\n\n.fa-glass-martini-alt:before {\n  content: \"\\F57B\";\n}\n\n.fa-glass-whiskey:before {\n  content: \"\\F7A0\";\n}\n\n.fa-glasses:before {\n  content: \"\\F530\";\n}\n\n.fa-glide:before {\n  content: \"\\F2A5\";\n}\n\n.fa-glide-g:before {\n  content: \"\\F2A6\";\n}\n\n.fa-globe:before {\n  content: \"\\F0AC\";\n}\n\n.fa-globe-africa:before {\n  content: \"\\F57C\";\n}\n\n.fa-globe-americas:before {\n  content: \"\\F57D\";\n}\n\n.fa-globe-asia:before {\n  content: \"\\F57E\";\n}\n\n.fa-globe-europe:before {\n  content: \"\\F7A2\";\n}\n\n.fa-gofore:before {\n  content: \"\\F3A7\";\n}\n\n.fa-golf-ball:before {\n  content: \"\\F450\";\n}\n\n.fa-goodreads:before {\n  content: \"\\F3A8\";\n}\n\n.fa-goodreads-g:before {\n  content: \"\\F3A9\";\n}\n\n.fa-google:before {\n  content: \"\\F1A0\";\n}\n\n.fa-google-drive:before {\n  content: \"\\F3AA\";\n}\n\n.fa-google-play:before {\n  content: \"\\F3AB\";\n}\n\n.fa-google-plus:before {\n  content: \"\\F2B3\";\n}\n\n.fa-google-plus-g:before {\n  content: \"\\F0D5\";\n}\n\n.fa-google-plus-square:before {\n  content: \"\\F0D4\";\n}\n\n.fa-google-wallet:before {\n  content: \"\\F1EE\";\n}\n\n.fa-gopuram:before {\n  content: \"\\F664\";\n}\n\n.fa-graduation-cap:before {\n  content: \"\\F19D\";\n}\n\n.fa-gratipay:before {\n  content: \"\\F184\";\n}\n\n.fa-grav:before {\n  content: \"\\F2D6\";\n}\n\n.fa-greater-than:before {\n  content: \"\\F531\";\n}\n\n.fa-greater-than-equal:before {\n  content: \"\\F532\";\n}\n\n.fa-grimace:before {\n  content: \"\\F57F\";\n}\n\n.fa-grin:before {\n  content: \"\\F580\";\n}\n\n.fa-grin-alt:before {\n  content: \"\\F581\";\n}\n\n.fa-grin-beam:before {\n  content: \"\\F582\";\n}\n\n.fa-grin-beam-sweat:before {\n  content: \"\\F583\";\n}\n\n.fa-grin-hearts:before {\n  content: \"\\F584\";\n}\n\n.fa-grin-squint:before {\n  content: \"\\F585\";\n}\n\n.fa-grin-squint-tears:before {\n  content: \"\\F586\";\n}\n\n.fa-grin-stars:before {\n  content: \"\\F587\";\n}\n\n.fa-grin-tears:before {\n  content: \"\\F588\";\n}\n\n.fa-grin-tongue:before {\n  content: \"\\F589\";\n}\n\n.fa-grin-tongue-squint:before {\n  content: \"\\F58A\";\n}\n\n.fa-grin-tongue-wink:before {\n  content: \"\\F58B\";\n}\n\n.fa-grin-wink:before {\n  content: \"\\F58C\";\n}\n\n.fa-grip-horizontal:before {\n  content: \"\\F58D\";\n}\n\n.fa-grip-lines:before {\n  content: \"\\F7A4\";\n}\n\n.fa-grip-lines-vertical:before {\n  content: \"\\F7A5\";\n}\n\n.fa-grip-vertical:before {\n  content: \"\\F58E\";\n}\n\n.fa-gripfire:before {\n  content: \"\\F3AC\";\n}\n\n.fa-grunt:before {\n  content: \"\\F3AD\";\n}\n\n.fa-guitar:before {\n  content: \"\\F7A6\";\n}\n\n.fa-gulp:before {\n  content: \"\\F3AE\";\n}\n\n.fa-h-square:before {\n  content: \"\\F0FD\";\n}\n\n.fa-hacker-news:before {\n  content: \"\\F1D4\";\n}\n\n.fa-hacker-news-square:before {\n  content: \"\\F3AF\";\n}\n\n.fa-hackerrank:before {\n  content: \"\\F5F7\";\n}\n\n.fa-hamburger:before {\n  content: \"\\F805\";\n}\n\n.fa-hammer:before {\n  content: \"\\F6E3\";\n}\n\n.fa-hamsa:before {\n  content: \"\\F665\";\n}\n\n.fa-hand-holding:before {\n  content: \"\\F4BD\";\n}\n\n.fa-hand-holding-heart:before {\n  content: \"\\F4BE\";\n}\n\n.fa-hand-holding-usd:before {\n  content: \"\\F4C0\";\n}\n\n.fa-hand-lizard:before {\n  content: \"\\F258\";\n}\n\n.fa-hand-middle-finger:before {\n  content: \"\\F806\";\n}\n\n.fa-hand-paper:before {\n  content: \"\\F256\";\n}\n\n.fa-hand-peace:before {\n  content: \"\\F25B\";\n}\n\n.fa-hand-point-down:before {\n  content: \"\\F0A7\";\n}\n\n.fa-hand-point-left:before {\n  content: \"\\F0A5\";\n}\n\n.fa-hand-point-right:before {\n  content: \"\\F0A4\";\n}\n\n.fa-hand-point-up:before {\n  content: \"\\F0A6\";\n}\n\n.fa-hand-pointer:before {\n  content: \"\\F25A\";\n}\n\n.fa-hand-rock:before {\n  content: \"\\F255\";\n}\n\n.fa-hand-scissors:before {\n  content: \"\\F257\";\n}\n\n.fa-hand-spock:before {\n  content: \"\\F259\";\n}\n\n.fa-hands:before {\n  content: \"\\F4C2\";\n}\n\n.fa-hands-helping:before {\n  content: \"\\F4C4\";\n}\n\n.fa-handshake:before {\n  content: \"\\F2B5\";\n}\n\n.fa-hanukiah:before {\n  content: \"\\F6E6\";\n}\n\n.fa-hard-hat:before {\n  content: \"\\F807\";\n}\n\n.fa-hashtag:before {\n  content: \"\\F292\";\n}\n\n.fa-hat-wizard:before {\n  content: \"\\F6E8\";\n}\n\n.fa-haykal:before {\n  content: \"\\F666\";\n}\n\n.fa-hdd:before {\n  content: \"\\F0A0\";\n}\n\n.fa-heading:before {\n  content: \"\\F1DC\";\n}\n\n.fa-headphones:before {\n  content: \"\\F025\";\n}\n\n.fa-headphones-alt:before {\n  content: \"\\F58F\";\n}\n\n.fa-headset:before {\n  content: \"\\F590\";\n}\n\n.fa-heart:before {\n  content: \"\\F004\";\n}\n\n.fa-heart-broken:before {\n  content: \"\\F7A9\";\n}\n\n.fa-heartbeat:before {\n  content: \"\\F21E\";\n}\n\n.fa-helicopter:before {\n  content: \"\\F533\";\n}\n\n.fa-highlighter:before {\n  content: \"\\F591\";\n}\n\n.fa-hiking:before {\n  content: \"\\F6EC\";\n}\n\n.fa-hippo:before {\n  content: \"\\F6ED\";\n}\n\n.fa-hips:before {\n  content: \"\\F452\";\n}\n\n.fa-hire-a-helper:before {\n  content: \"\\F3B0\";\n}\n\n.fa-history:before {\n  content: \"\\F1DA\";\n}\n\n.fa-hockey-puck:before {\n  content: \"\\F453\";\n}\n\n.fa-holly-berry:before {\n  content: \"\\F7AA\";\n}\n\n.fa-home:before {\n  content: \"\\F015\";\n}\n\n.fa-hooli:before {\n  content: \"\\F427\";\n}\n\n.fa-hornbill:before {\n  content: \"\\F592\";\n}\n\n.fa-horse:before {\n  content: \"\\F6F0\";\n}\n\n.fa-horse-head:before {\n  content: \"\\F7AB\";\n}\n\n.fa-hospital:before {\n  content: \"\\F0F8\";\n}\n\n.fa-hospital-alt:before {\n  content: \"\\F47D\";\n}\n\n.fa-hospital-symbol:before {\n  content: \"\\F47E\";\n}\n\n.fa-hot-tub:before {\n  content: \"\\F593\";\n}\n\n.fa-hotdog:before {\n  content: \"\\F80F\";\n}\n\n.fa-hotel:before {\n  content: \"\\F594\";\n}\n\n.fa-hotjar:before {\n  content: \"\\F3B1\";\n}\n\n.fa-hourglass:before {\n  content: \"\\F254\";\n}\n\n.fa-hourglass-end:before {\n  content: \"\\F253\";\n}\n\n.fa-hourglass-half:before {\n  content: \"\\F252\";\n}\n\n.fa-hourglass-start:before {\n  content: \"\\F251\";\n}\n\n.fa-house-damage:before {\n  content: \"\\F6F1\";\n}\n\n.fa-houzz:before {\n  content: \"\\F27C\";\n}\n\n.fa-hryvnia:before {\n  content: \"\\F6F2\";\n}\n\n.fa-html5:before {\n  content: \"\\F13B\";\n}\n\n.fa-hubspot:before {\n  content: \"\\F3B2\";\n}\n\n.fa-i-cursor:before {\n  content: \"\\F246\";\n}\n\n.fa-ice-cream:before {\n  content: \"\\F810\";\n}\n\n.fa-icicles:before {\n  content: \"\\F7AD\";\n}\n\n.fa-icons:before {\n  content: \"\\F86D\";\n}\n\n.fa-id-badge:before {\n  content: \"\\F2C1\";\n}\n\n.fa-id-card:before {\n  content: \"\\F2C2\";\n}\n\n.fa-id-card-alt:before {\n  content: \"\\F47F\";\n}\n\n.fa-igloo:before {\n  content: \"\\F7AE\";\n}\n\n.fa-image:before {\n  content: \"\\F03E\";\n}\n\n.fa-images:before {\n  content: \"\\F302\";\n}\n\n.fa-imdb:before {\n  content: \"\\F2D8\";\n}\n\n.fa-inbox:before {\n  content: \"\\F01C\";\n}\n\n.fa-indent:before {\n  content: \"\\F03C\";\n}\n\n.fa-industry:before {\n  content: \"\\F275\";\n}\n\n.fa-infinity:before {\n  content: \"\\F534\";\n}\n\n.fa-info:before {\n  content: \"\\F129\";\n}\n\n.fa-info-circle:before {\n  content: \"\\F05A\";\n}\n\n.fa-instagram:before {\n  content: \"\\F16D\";\n}\n\n.fa-intercom:before {\n  content: \"\\F7AF\";\n}\n\n.fa-internet-explorer:before {\n  content: \"\\F26B\";\n}\n\n.fa-invision:before {\n  content: \"\\F7B0\";\n}\n\n.fa-ioxhost:before {\n  content: \"\\F208\";\n}\n\n.fa-italic:before {\n  content: \"\\F033\";\n}\n\n.fa-itch-io:before {\n  content: \"\\F83A\";\n}\n\n.fa-itunes:before {\n  content: \"\\F3B4\";\n}\n\n.fa-itunes-note:before {\n  content: \"\\F3B5\";\n}\n\n.fa-java:before {\n  content: \"\\F4E4\";\n}\n\n.fa-jedi:before {\n  content: \"\\F669\";\n}\n\n.fa-jedi-order:before {\n  content: \"\\F50E\";\n}\n\n.fa-jenkins:before {\n  content: \"\\F3B6\";\n}\n\n.fa-jira:before {\n  content: \"\\F7B1\";\n}\n\n.fa-joget:before {\n  content: \"\\F3B7\";\n}\n\n.fa-joint:before {\n  content: \"\\F595\";\n}\n\n.fa-joomla:before {\n  content: \"\\F1AA\";\n}\n\n.fa-journal-whills:before {\n  content: \"\\F66A\";\n}\n\n.fa-js:before {\n  content: \"\\F3B8\";\n}\n\n.fa-js-square:before {\n  content: \"\\F3B9\";\n}\n\n.fa-jsfiddle:before {\n  content: \"\\F1CC\";\n}\n\n.fa-kaaba:before {\n  content: \"\\F66B\";\n}\n\n.fa-kaggle:before {\n  content: \"\\F5FA\";\n}\n\n.fa-key:before {\n  content: \"\\F084\";\n}\n\n.fa-keybase:before {\n  content: \"\\F4F5\";\n}\n\n.fa-keyboard:before {\n  content: \"\\F11C\";\n}\n\n.fa-keycdn:before {\n  content: \"\\F3BA\";\n}\n\n.fa-khanda:before {\n  content: \"\\F66D\";\n}\n\n.fa-kickstarter:before {\n  content: \"\\F3BB\";\n}\n\n.fa-kickstarter-k:before {\n  content: \"\\F3BC\";\n}\n\n.fa-kiss:before {\n  content: \"\\F596\";\n}\n\n.fa-kiss-beam:before {\n  content: \"\\F597\";\n}\n\n.fa-kiss-wink-heart:before {\n  content: \"\\F598\";\n}\n\n.fa-kiwi-bird:before {\n  content: \"\\F535\";\n}\n\n.fa-korvue:before {\n  content: \"\\F42F\";\n}\n\n.fa-landmark:before {\n  content: \"\\F66F\";\n}\n\n.fa-language:before {\n  content: \"\\F1AB\";\n}\n\n.fa-laptop:before {\n  content: \"\\F109\";\n}\n\n.fa-laptop-code:before {\n  content: \"\\F5FC\";\n}\n\n.fa-laptop-medical:before {\n  content: \"\\F812\";\n}\n\n.fa-laravel:before {\n  content: \"\\F3BD\";\n}\n\n.fa-lastfm:before {\n  content: \"\\F202\";\n}\n\n.fa-lastfm-square:before {\n  content: \"\\F203\";\n}\n\n.fa-laugh:before {\n  content: \"\\F599\";\n}\n\n.fa-laugh-beam:before {\n  content: \"\\F59A\";\n}\n\n.fa-laugh-squint:before {\n  content: \"\\F59B\";\n}\n\n.fa-laugh-wink:before {\n  content: \"\\F59C\";\n}\n\n.fa-layer-group:before {\n  content: \"\\F5FD\";\n}\n\n.fa-leaf:before {\n  content: \"\\F06C\";\n}\n\n.fa-leanpub:before {\n  content: \"\\F212\";\n}\n\n.fa-lemon:before {\n  content: \"\\F094\";\n}\n\n.fa-less:before {\n  content: \"\\F41D\";\n}\n\n.fa-less-than:before {\n  content: \"\\F536\";\n}\n\n.fa-less-than-equal:before {\n  content: \"\\F537\";\n}\n\n.fa-level-down-alt:before {\n  content: \"\\F3BE\";\n}\n\n.fa-level-up-alt:before {\n  content: \"\\F3BF\";\n}\n\n.fa-life-ring:before {\n  content: \"\\F1CD\";\n}\n\n.fa-lightbulb:before {\n  content: \"\\F0EB\";\n}\n\n.fa-line:before {\n  content: \"\\F3C0\";\n}\n\n.fa-link:before {\n  content: \"\\F0C1\";\n}\n\n.fa-linkedin:before {\n  content: \"\\F08C\";\n}\n\n.fa-linkedin-in:before {\n  content: \"\\F0E1\";\n}\n\n.fa-linode:before {\n  content: \"\\F2B8\";\n}\n\n.fa-linux:before {\n  content: \"\\F17C\";\n}\n\n.fa-lira-sign:before {\n  content: \"\\F195\";\n}\n\n.fa-list:before {\n  content: \"\\F03A\";\n}\n\n.fa-list-alt:before {\n  content: \"\\F022\";\n}\n\n.fa-list-ol:before {\n  content: \"\\F0CB\";\n}\n\n.fa-list-ul:before {\n  content: \"\\F0CA\";\n}\n\n.fa-location-arrow:before {\n  content: \"\\F124\";\n}\n\n.fa-lock:before {\n  content: \"\\F023\";\n}\n\n.fa-lock-open:before {\n  content: \"\\F3C1\";\n}\n\n.fa-long-arrow-alt-down:before {\n  content: \"\\F309\";\n}\n\n.fa-long-arrow-alt-left:before {\n  content: \"\\F30A\";\n}\n\n.fa-long-arrow-alt-right:before {\n  content: \"\\F30B\";\n}\n\n.fa-long-arrow-alt-up:before {\n  content: \"\\F30C\";\n}\n\n.fa-low-vision:before {\n  content: \"\\F2A8\";\n}\n\n.fa-luggage-cart:before {\n  content: \"\\F59D\";\n}\n\n.fa-lyft:before {\n  content: \"\\F3C3\";\n}\n\n.fa-magento:before {\n  content: \"\\F3C4\";\n}\n\n.fa-magic:before {\n  content: \"\\F0D0\";\n}\n\n.fa-magnet:before {\n  content: \"\\F076\";\n}\n\n.fa-mail-bulk:before {\n  content: \"\\F674\";\n}\n\n.fa-mailchimp:before {\n  content: \"\\F59E\";\n}\n\n.fa-male:before {\n  content: \"\\F183\";\n}\n\n.fa-mandalorian:before {\n  content: \"\\F50F\";\n}\n\n.fa-map:before {\n  content: \"\\F279\";\n}\n\n.fa-map-marked:before {\n  content: \"\\F59F\";\n}\n\n.fa-map-marked-alt:before {\n  content: \"\\F5A0\";\n}\n\n.fa-map-marker:before {\n  content: \"\\F041\";\n}\n\n.fa-map-marker-alt:before {\n  content: \"\\F3C5\";\n}\n\n.fa-map-pin:before {\n  content: \"\\F276\";\n}\n\n.fa-map-signs:before {\n  content: \"\\F277\";\n}\n\n.fa-markdown:before {\n  content: \"\\F60F\";\n}\n\n.fa-marker:before {\n  content: \"\\F5A1\";\n}\n\n.fa-mars:before {\n  content: \"\\F222\";\n}\n\n.fa-mars-double:before {\n  content: \"\\F227\";\n}\n\n.fa-mars-stroke:before {\n  content: \"\\F229\";\n}\n\n.fa-mars-stroke-h:before {\n  content: \"\\F22B\";\n}\n\n.fa-mars-stroke-v:before {\n  content: \"\\F22A\";\n}\n\n.fa-mask:before {\n  content: \"\\F6FA\";\n}\n\n.fa-mastodon:before {\n  content: \"\\F4F6\";\n}\n\n.fa-maxcdn:before {\n  content: \"\\F136\";\n}\n\n.fa-medal:before {\n  content: \"\\F5A2\";\n}\n\n.fa-medapps:before {\n  content: \"\\F3C6\";\n}\n\n.fa-medium:before {\n  content: \"\\F23A\";\n}\n\n.fa-medium-m:before {\n  content: \"\\F3C7\";\n}\n\n.fa-medkit:before {\n  content: \"\\F0FA\";\n}\n\n.fa-medrt:before {\n  content: \"\\F3C8\";\n}\n\n.fa-meetup:before {\n  content: \"\\F2E0\";\n}\n\n.fa-megaport:before {\n  content: \"\\F5A3\";\n}\n\n.fa-meh:before {\n  content: \"\\F11A\";\n}\n\n.fa-meh-blank:before {\n  content: \"\\F5A4\";\n}\n\n.fa-meh-rolling-eyes:before {\n  content: \"\\F5A5\";\n}\n\n.fa-memory:before {\n  content: \"\\F538\";\n}\n\n.fa-mendeley:before {\n  content: \"\\F7B3\";\n}\n\n.fa-menorah:before {\n  content: \"\\F676\";\n}\n\n.fa-mercury:before {\n  content: \"\\F223\";\n}\n\n.fa-meteor:before {\n  content: \"\\F753\";\n}\n\n.fa-microchip:before {\n  content: \"\\F2DB\";\n}\n\n.fa-microphone:before {\n  content: \"\\F130\";\n}\n\n.fa-microphone-alt:before {\n  content: \"\\F3C9\";\n}\n\n.fa-microphone-alt-slash:before {\n  content: \"\\F539\";\n}\n\n.fa-microphone-slash:before {\n  content: \"\\F131\";\n}\n\n.fa-microscope:before {\n  content: \"\\F610\";\n}\n\n.fa-microsoft:before {\n  content: \"\\F3CA\";\n}\n\n.fa-minus:before {\n  content: \"\\F068\";\n}\n\n.fa-minus-circle:before {\n  content: \"\\F056\";\n}\n\n.fa-minus-square:before {\n  content: \"\\F146\";\n}\n\n.fa-mitten:before {\n  content: \"\\F7B5\";\n}\n\n.fa-mix:before {\n  content: \"\\F3CB\";\n}\n\n.fa-mixcloud:before {\n  content: \"\\F289\";\n}\n\n.fa-mizuni:before {\n  content: \"\\F3CC\";\n}\n\n.fa-mobile:before {\n  content: \"\\F10B\";\n}\n\n.fa-mobile-alt:before {\n  content: \"\\F3CD\";\n}\n\n.fa-modx:before {\n  content: \"\\F285\";\n}\n\n.fa-monero:before {\n  content: \"\\F3D0\";\n}\n\n.fa-money-bill:before {\n  content: \"\\F0D6\";\n}\n\n.fa-money-bill-alt:before {\n  content: \"\\F3D1\";\n}\n\n.fa-money-bill-wave:before {\n  content: \"\\F53A\";\n}\n\n.fa-money-bill-wave-alt:before {\n  content: \"\\F53B\";\n}\n\n.fa-money-check:before {\n  content: \"\\F53C\";\n}\n\n.fa-money-check-alt:before {\n  content: \"\\F53D\";\n}\n\n.fa-monument:before {\n  content: \"\\F5A6\";\n}\n\n.fa-moon:before {\n  content: \"\\F186\";\n}\n\n.fa-mortar-pestle:before {\n  content: \"\\F5A7\";\n}\n\n.fa-mosque:before {\n  content: \"\\F678\";\n}\n\n.fa-motorcycle:before {\n  content: \"\\F21C\";\n}\n\n.fa-mountain:before {\n  content: \"\\F6FC\";\n}\n\n.fa-mouse-pointer:before {\n  content: \"\\F245\";\n}\n\n.fa-mug-hot:before {\n  content: \"\\F7B6\";\n}\n\n.fa-music:before {\n  content: \"\\F001\";\n}\n\n.fa-napster:before {\n  content: \"\\F3D2\";\n}\n\n.fa-neos:before {\n  content: \"\\F612\";\n}\n\n.fa-network-wired:before {\n  content: \"\\F6FF\";\n}\n\n.fa-neuter:before {\n  content: \"\\F22C\";\n}\n\n.fa-newspaper:before {\n  content: \"\\F1EA\";\n}\n\n.fa-nimblr:before {\n  content: \"\\F5A8\";\n}\n\n.fa-node:before {\n  content: \"\\F419\";\n}\n\n.fa-node-js:before {\n  content: \"\\F3D3\";\n}\n\n.fa-not-equal:before {\n  content: \"\\F53E\";\n}\n\n.fa-notes-medical:before {\n  content: \"\\F481\";\n}\n\n.fa-npm:before {\n  content: \"\\F3D4\";\n}\n\n.fa-ns8:before {\n  content: \"\\F3D5\";\n}\n\n.fa-nutritionix:before {\n  content: \"\\F3D6\";\n}\n\n.fa-object-group:before {\n  content: \"\\F247\";\n}\n\n.fa-object-ungroup:before {\n  content: \"\\F248\";\n}\n\n.fa-odnoklassniki:before {\n  content: \"\\F263\";\n}\n\n.fa-odnoklassniki-square:before {\n  content: \"\\F264\";\n}\n\n.fa-oil-can:before {\n  content: \"\\F613\";\n}\n\n.fa-old-republic:before {\n  content: \"\\F510\";\n}\n\n.fa-om:before {\n  content: \"\\F679\";\n}\n\n.fa-opencart:before {\n  content: \"\\F23D\";\n}\n\n.fa-openid:before {\n  content: \"\\F19B\";\n}\n\n.fa-opera:before {\n  content: \"\\F26A\";\n}\n\n.fa-optin-monster:before {\n  content: \"\\F23C\";\n}\n\n.fa-osi:before {\n  content: \"\\F41A\";\n}\n\n.fa-otter:before {\n  content: \"\\F700\";\n}\n\n.fa-outdent:before {\n  content: \"\\F03B\";\n}\n\n.fa-page4:before {\n  content: \"\\F3D7\";\n}\n\n.fa-pagelines:before {\n  content: \"\\F18C\";\n}\n\n.fa-pager:before {\n  content: \"\\F815\";\n}\n\n.fa-paint-brush:before {\n  content: \"\\F1FC\";\n}\n\n.fa-paint-roller:before {\n  content: \"\\F5AA\";\n}\n\n.fa-palette:before {\n  content: \"\\F53F\";\n}\n\n.fa-palfed:before {\n  content: \"\\F3D8\";\n}\n\n.fa-pallet:before {\n  content: \"\\F482\";\n}\n\n.fa-paper-plane:before {\n  content: \"\\F1D8\";\n}\n\n.fa-paperclip:before {\n  content: \"\\F0C6\";\n}\n\n.fa-parachute-box:before {\n  content: \"\\F4CD\";\n}\n\n.fa-paragraph:before {\n  content: \"\\F1DD\";\n}\n\n.fa-parking:before {\n  content: \"\\F540\";\n}\n\n.fa-passport:before {\n  content: \"\\F5AB\";\n}\n\n.fa-pastafarianism:before {\n  content: \"\\F67B\";\n}\n\n.fa-paste:before {\n  content: \"\\F0EA\";\n}\n\n.fa-patreon:before {\n  content: \"\\F3D9\";\n}\n\n.fa-pause:before {\n  content: \"\\F04C\";\n}\n\n.fa-pause-circle:before {\n  content: \"\\F28B\";\n}\n\n.fa-paw:before {\n  content: \"\\F1B0\";\n}\n\n.fa-paypal:before {\n  content: \"\\F1ED\";\n}\n\n.fa-peace:before {\n  content: \"\\F67C\";\n}\n\n.fa-pen:before {\n  content: \"\\F304\";\n}\n\n.fa-pen-alt:before {\n  content: \"\\F305\";\n}\n\n.fa-pen-fancy:before {\n  content: \"\\F5AC\";\n}\n\n.fa-pen-nib:before {\n  content: \"\\F5AD\";\n}\n\n.fa-pen-square:before {\n  content: \"\\F14B\";\n}\n\n.fa-pencil-alt:before {\n  content: \"\\F303\";\n}\n\n.fa-pencil-ruler:before {\n  content: \"\\F5AE\";\n}\n\n.fa-penny-arcade:before {\n  content: \"\\F704\";\n}\n\n.fa-people-carry:before {\n  content: \"\\F4CE\";\n}\n\n.fa-pepper-hot:before {\n  content: \"\\F816\";\n}\n\n.fa-percent:before {\n  content: \"\\F295\";\n}\n\n.fa-percentage:before {\n  content: \"\\F541\";\n}\n\n.fa-periscope:before {\n  content: \"\\F3DA\";\n}\n\n.fa-person-booth:before {\n  content: \"\\F756\";\n}\n\n.fa-phabricator:before {\n  content: \"\\F3DB\";\n}\n\n.fa-phoenix-framework:before {\n  content: \"\\F3DC\";\n}\n\n.fa-phoenix-squadron:before {\n  content: \"\\F511\";\n}\n\n.fa-phone:before {\n  content: \"\\F095\";\n}\n\n.fa-phone-alt:before {\n  content: \"\\F879\";\n}\n\n.fa-phone-slash:before {\n  content: \"\\F3DD\";\n}\n\n.fa-phone-square:before {\n  content: \"\\F098\";\n}\n\n.fa-phone-square-alt:before {\n  content: \"\\F87B\";\n}\n\n.fa-phone-volume:before {\n  content: \"\\F2A0\";\n}\n\n.fa-photo-video:before {\n  content: \"\\F87C\";\n}\n\n.fa-php:before {\n  content: \"\\F457\";\n}\n\n.fa-pied-piper:before {\n  content: \"\\F2AE\";\n}\n\n.fa-pied-piper-alt:before {\n  content: \"\\F1A8\";\n}\n\n.fa-pied-piper-hat:before {\n  content: \"\\F4E5\";\n}\n\n.fa-pied-piper-pp:before {\n  content: \"\\F1A7\";\n}\n\n.fa-piggy-bank:before {\n  content: \"\\F4D3\";\n}\n\n.fa-pills:before {\n  content: \"\\F484\";\n}\n\n.fa-pinterest:before {\n  content: \"\\F0D2\";\n}\n\n.fa-pinterest-p:before {\n  content: \"\\F231\";\n}\n\n.fa-pinterest-square:before {\n  content: \"\\F0D3\";\n}\n\n.fa-pizza-slice:before {\n  content: \"\\F818\";\n}\n\n.fa-place-of-worship:before {\n  content: \"\\F67F\";\n}\n\n.fa-plane:before {\n  content: \"\\F072\";\n}\n\n.fa-plane-arrival:before {\n  content: \"\\F5AF\";\n}\n\n.fa-plane-departure:before {\n  content: \"\\F5B0\";\n}\n\n.fa-play:before {\n  content: \"\\F04B\";\n}\n\n.fa-play-circle:before {\n  content: \"\\F144\";\n}\n\n.fa-playstation:before {\n  content: \"\\F3DF\";\n}\n\n.fa-plug:before {\n  content: \"\\F1E6\";\n}\n\n.fa-plus:before {\n  content: \"\\F067\";\n}\n\n.fa-plus-circle:before {\n  content: \"\\F055\";\n}\n\n.fa-plus-square:before {\n  content: \"\\F0FE\";\n}\n\n.fa-podcast:before {\n  content: \"\\F2CE\";\n}\n\n.fa-poll:before {\n  content: \"\\F681\";\n}\n\n.fa-poll-h:before {\n  content: \"\\F682\";\n}\n\n.fa-poo:before {\n  content: \"\\F2FE\";\n}\n\n.fa-poo-storm:before {\n  content: \"\\F75A\";\n}\n\n.fa-poop:before {\n  content: \"\\F619\";\n}\n\n.fa-portrait:before {\n  content: \"\\F3E0\";\n}\n\n.fa-pound-sign:before {\n  content: \"\\F154\";\n}\n\n.fa-power-off:before {\n  content: \"\\F011\";\n}\n\n.fa-pray:before {\n  content: \"\\F683\";\n}\n\n.fa-praying-hands:before {\n  content: \"\\F684\";\n}\n\n.fa-prescription:before {\n  content: \"\\F5B1\";\n}\n\n.fa-prescription-bottle:before {\n  content: \"\\F485\";\n}\n\n.fa-prescription-bottle-alt:before {\n  content: \"\\F486\";\n}\n\n.fa-print:before {\n  content: \"\\F02F\";\n}\n\n.fa-procedures:before {\n  content: \"\\F487\";\n}\n\n.fa-product-hunt:before {\n  content: \"\\F288\";\n}\n\n.fa-project-diagram:before {\n  content: \"\\F542\";\n}\n\n.fa-pushed:before {\n  content: \"\\F3E1\";\n}\n\n.fa-puzzle-piece:before {\n  content: \"\\F12E\";\n}\n\n.fa-python:before {\n  content: \"\\F3E2\";\n}\n\n.fa-qq:before {\n  content: \"\\F1D6\";\n}\n\n.fa-qrcode:before {\n  content: \"\\F029\";\n}\n\n.fa-question:before {\n  content: \"\\F128\";\n}\n\n.fa-question-circle:before {\n  content: \"\\F059\";\n}\n\n.fa-quidditch:before {\n  content: \"\\F458\";\n}\n\n.fa-quinscape:before {\n  content: \"\\F459\";\n}\n\n.fa-quora:before {\n  content: \"\\F2C4\";\n}\n\n.fa-quote-left:before {\n  content: \"\\F10D\";\n}\n\n.fa-quote-right:before {\n  content: \"\\F10E\";\n}\n\n.fa-quran:before {\n  content: \"\\F687\";\n}\n\n.fa-r-project:before {\n  content: \"\\F4F7\";\n}\n\n.fa-radiation:before {\n  content: \"\\F7B9\";\n}\n\n.fa-radiation-alt:before {\n  content: \"\\F7BA\";\n}\n\n.fa-rainbow:before {\n  content: \"\\F75B\";\n}\n\n.fa-random:before {\n  content: \"\\F074\";\n}\n\n.fa-raspberry-pi:before {\n  content: \"\\F7BB\";\n}\n\n.fa-ravelry:before {\n  content: \"\\F2D9\";\n}\n\n.fa-react:before {\n  content: \"\\F41B\";\n}\n\n.fa-reacteurope:before {\n  content: \"\\F75D\";\n}\n\n.fa-readme:before {\n  content: \"\\F4D5\";\n}\n\n.fa-rebel:before {\n  content: \"\\F1D0\";\n}\n\n.fa-receipt:before {\n  content: \"\\F543\";\n}\n\n.fa-recycle:before {\n  content: \"\\F1B8\";\n}\n\n.fa-red-river:before {\n  content: \"\\F3E3\";\n}\n\n.fa-reddit:before {\n  content: \"\\F1A1\";\n}\n\n.fa-reddit-alien:before {\n  content: \"\\F281\";\n}\n\n.fa-reddit-square:before {\n  content: \"\\F1A2\";\n}\n\n.fa-redhat:before {\n  content: \"\\F7BC\";\n}\n\n.fa-redo:before {\n  content: \"\\F01E\";\n}\n\n.fa-redo-alt:before {\n  content: \"\\F2F9\";\n}\n\n.fa-registered:before {\n  content: \"\\F25D\";\n}\n\n.fa-remove-format:before {\n  content: \"\\F87D\";\n}\n\n.fa-renren:before {\n  content: \"\\F18B\";\n}\n\n.fa-reply:before {\n  content: \"\\F3E5\";\n}\n\n.fa-reply-all:before {\n  content: \"\\F122\";\n}\n\n.fa-replyd:before {\n  content: \"\\F3E6\";\n}\n\n.fa-republican:before {\n  content: \"\\F75E\";\n}\n\n.fa-researchgate:before {\n  content: \"\\F4F8\";\n}\n\n.fa-resolving:before {\n  content: \"\\F3E7\";\n}\n\n.fa-restroom:before {\n  content: \"\\F7BD\";\n}\n\n.fa-retweet:before {\n  content: \"\\F079\";\n}\n\n.fa-rev:before {\n  content: \"\\F5B2\";\n}\n\n.fa-ribbon:before {\n  content: \"\\F4D6\";\n}\n\n.fa-ring:before {\n  content: \"\\F70B\";\n}\n\n.fa-road:before {\n  content: \"\\F018\";\n}\n\n.fa-robot:before {\n  content: \"\\F544\";\n}\n\n.fa-rocket:before {\n  content: \"\\F135\";\n}\n\n.fa-rocketchat:before {\n  content: \"\\F3E8\";\n}\n\n.fa-rockrms:before {\n  content: \"\\F3E9\";\n}\n\n.fa-route:before {\n  content: \"\\F4D7\";\n}\n\n.fa-rss:before {\n  content: \"\\F09E\";\n}\n\n.fa-rss-square:before {\n  content: \"\\F143\";\n}\n\n.fa-ruble-sign:before {\n  content: \"\\F158\";\n}\n\n.fa-ruler:before {\n  content: \"\\F545\";\n}\n\n.fa-ruler-combined:before {\n  content: \"\\F546\";\n}\n\n.fa-ruler-horizontal:before {\n  content: \"\\F547\";\n}\n\n.fa-ruler-vertical:before {\n  content: \"\\F548\";\n}\n\n.fa-running:before {\n  content: \"\\F70C\";\n}\n\n.fa-rupee-sign:before {\n  content: \"\\F156\";\n}\n\n.fa-sad-cry:before {\n  content: \"\\F5B3\";\n}\n\n.fa-sad-tear:before {\n  content: \"\\F5B4\";\n}\n\n.fa-safari:before {\n  content: \"\\F267\";\n}\n\n.fa-salesforce:before {\n  content: \"\\F83B\";\n}\n\n.fa-sass:before {\n  content: \"\\F41E\";\n}\n\n.fa-satellite:before {\n  content: \"\\F7BF\";\n}\n\n.fa-satellite-dish:before {\n  content: \"\\F7C0\";\n}\n\n.fa-save:before {\n  content: \"\\F0C7\";\n}\n\n.fa-schlix:before {\n  content: \"\\F3EA\";\n}\n\n.fa-school:before {\n  content: \"\\F549\";\n}\n\n.fa-screwdriver:before {\n  content: \"\\F54A\";\n}\n\n.fa-scribd:before {\n  content: \"\\F28A\";\n}\n\n.fa-scroll:before {\n  content: \"\\F70E\";\n}\n\n.fa-sd-card:before {\n  content: \"\\F7C2\";\n}\n\n.fa-search:before {\n  content: \"\\F002\";\n}\n\n.fa-search-dollar:before {\n  content: \"\\F688\";\n}\n\n.fa-search-location:before {\n  content: \"\\F689\";\n}\n\n.fa-search-minus:before {\n  content: \"\\F010\";\n}\n\n.fa-search-plus:before {\n  content: \"\\F00E\";\n}\n\n.fa-searchengin:before {\n  content: \"\\F3EB\";\n}\n\n.fa-seedling:before {\n  content: \"\\F4D8\";\n}\n\n.fa-sellcast:before {\n  content: \"\\F2DA\";\n}\n\n.fa-sellsy:before {\n  content: \"\\F213\";\n}\n\n.fa-server:before {\n  content: \"\\F233\";\n}\n\n.fa-servicestack:before {\n  content: \"\\F3EC\";\n}\n\n.fa-shapes:before {\n  content: \"\\F61F\";\n}\n\n.fa-share:before {\n  content: \"\\F064\";\n}\n\n.fa-share-alt:before {\n  content: \"\\F1E0\";\n}\n\n.fa-share-alt-square:before {\n  content: \"\\F1E1\";\n}\n\n.fa-share-square:before {\n  content: \"\\F14D\";\n}\n\n.fa-shekel-sign:before {\n  content: \"\\F20B\";\n}\n\n.fa-shield-alt:before {\n  content: \"\\F3ED\";\n}\n\n.fa-ship:before {\n  content: \"\\F21A\";\n}\n\n.fa-shipping-fast:before {\n  content: \"\\F48B\";\n}\n\n.fa-shirtsinbulk:before {\n  content: \"\\F214\";\n}\n\n.fa-shoe-prints:before {\n  content: \"\\F54B\";\n}\n\n.fa-shopping-bag:before {\n  content: \"\\F290\";\n}\n\n.fa-shopping-basket:before {\n  content: \"\\F291\";\n}\n\n.fa-shopping-cart:before {\n  content: \"\\F07A\";\n}\n\n.fa-shopware:before {\n  content: \"\\F5B5\";\n}\n\n.fa-shower:before {\n  content: \"\\F2CC\";\n}\n\n.fa-shuttle-van:before {\n  content: \"\\F5B6\";\n}\n\n.fa-sign:before {\n  content: \"\\F4D9\";\n}\n\n.fa-sign-in-alt:before {\n  content: \"\\F2F6\";\n}\n\n.fa-sign-language:before {\n  content: \"\\F2A7\";\n}\n\n.fa-sign-out-alt:before {\n  content: \"\\F2F5\";\n}\n\n.fa-signal:before {\n  content: \"\\F012\";\n}\n\n.fa-signature:before {\n  content: \"\\F5B7\";\n}\n\n.fa-sim-card:before {\n  content: \"\\F7C4\";\n}\n\n.fa-simplybuilt:before {\n  content: \"\\F215\";\n}\n\n.fa-sistrix:before {\n  content: \"\\F3EE\";\n}\n\n.fa-sitemap:before {\n  content: \"\\F0E8\";\n}\n\n.fa-sith:before {\n  content: \"\\F512\";\n}\n\n.fa-skating:before {\n  content: \"\\F7C5\";\n}\n\n.fa-sketch:before {\n  content: \"\\F7C6\";\n}\n\n.fa-skiing:before {\n  content: \"\\F7C9\";\n}\n\n.fa-skiing-nordic:before {\n  content: \"\\F7CA\";\n}\n\n.fa-skull:before {\n  content: \"\\F54C\";\n}\n\n.fa-skull-crossbones:before {\n  content: \"\\F714\";\n}\n\n.fa-skyatlas:before {\n  content: \"\\F216\";\n}\n\n.fa-skype:before {\n  content: \"\\F17E\";\n}\n\n.fa-slack:before {\n  content: \"\\F198\";\n}\n\n.fa-slack-hash:before {\n  content: \"\\F3EF\";\n}\n\n.fa-slash:before {\n  content: \"\\F715\";\n}\n\n.fa-sleigh:before {\n  content: \"\\F7CC\";\n}\n\n.fa-sliders-h:before {\n  content: \"\\F1DE\";\n}\n\n.fa-slideshare:before {\n  content: \"\\F1E7\";\n}\n\n.fa-smile:before {\n  content: \"\\F118\";\n}\n\n.fa-smile-beam:before {\n  content: \"\\F5B8\";\n}\n\n.fa-smile-wink:before {\n  content: \"\\F4DA\";\n}\n\n.fa-smog:before {\n  content: \"\\F75F\";\n}\n\n.fa-smoking:before {\n  content: \"\\F48D\";\n}\n\n.fa-smoking-ban:before {\n  content: \"\\F54D\";\n}\n\n.fa-sms:before {\n  content: \"\\F7CD\";\n}\n\n.fa-snapchat:before {\n  content: \"\\F2AB\";\n}\n\n.fa-snapchat-ghost:before {\n  content: \"\\F2AC\";\n}\n\n.fa-snapchat-square:before {\n  content: \"\\F2AD\";\n}\n\n.fa-snowboarding:before {\n  content: \"\\F7CE\";\n}\n\n.fa-snowflake:before {\n  content: \"\\F2DC\";\n}\n\n.fa-snowman:before {\n  content: \"\\F7D0\";\n}\n\n.fa-snowplow:before {\n  content: \"\\F7D2\";\n}\n\n.fa-socks:before {\n  content: \"\\F696\";\n}\n\n.fa-solar-panel:before {\n  content: \"\\F5BA\";\n}\n\n.fa-sort:before {\n  content: \"\\F0DC\";\n}\n\n.fa-sort-alpha-down:before {\n  content: \"\\F15D\";\n}\n\n.fa-sort-alpha-down-alt:before {\n  content: \"\\F881\";\n}\n\n.fa-sort-alpha-up:before {\n  content: \"\\F15E\";\n}\n\n.fa-sort-alpha-up-alt:before {\n  content: \"\\F882\";\n}\n\n.fa-sort-amount-down:before {\n  content: \"\\F160\";\n}\n\n.fa-sort-amount-down-alt:before {\n  content: \"\\F884\";\n}\n\n.fa-sort-amount-up:before {\n  content: \"\\F161\";\n}\n\n.fa-sort-amount-up-alt:before {\n  content: \"\\F885\";\n}\n\n.fa-sort-down:before {\n  content: \"\\F0DD\";\n}\n\n.fa-sort-numeric-down:before {\n  content: \"\\F162\";\n}\n\n.fa-sort-numeric-down-alt:before {\n  content: \"\\F886\";\n}\n\n.fa-sort-numeric-up:before {\n  content: \"\\F163\";\n}\n\n.fa-sort-numeric-up-alt:before {\n  content: \"\\F887\";\n}\n\n.fa-sort-up:before {\n  content: \"\\F0DE\";\n}\n\n.fa-soundcloud:before {\n  content: \"\\F1BE\";\n}\n\n.fa-sourcetree:before {\n  content: \"\\F7D3\";\n}\n\n.fa-spa:before {\n  content: \"\\F5BB\";\n}\n\n.fa-space-shuttle:before {\n  content: \"\\F197\";\n}\n\n.fa-speakap:before {\n  content: \"\\F3F3\";\n}\n\n.fa-speaker-deck:before {\n  content: \"\\F83C\";\n}\n\n.fa-spell-check:before {\n  content: \"\\F891\";\n}\n\n.fa-spider:before {\n  content: \"\\F717\";\n}\n\n.fa-spinner:before {\n  content: \"\\F110\";\n}\n\n.fa-splotch:before {\n  content: \"\\F5BC\";\n}\n\n.fa-spotify:before {\n  content: \"\\F1BC\";\n}\n\n.fa-spray-can:before {\n  content: \"\\F5BD\";\n}\n\n.fa-square:before {\n  content: \"\\F0C8\";\n}\n\n.fa-square-full:before {\n  content: \"\\F45C\";\n}\n\n.fa-square-root-alt:before {\n  content: \"\\F698\";\n}\n\n.fa-squarespace:before {\n  content: \"\\F5BE\";\n}\n\n.fa-stack-exchange:before {\n  content: \"\\F18D\";\n}\n\n.fa-stack-overflow:before {\n  content: \"\\F16C\";\n}\n\n.fa-stackpath:before {\n  content: \"\\F842\";\n}\n\n.fa-stamp:before {\n  content: \"\\F5BF\";\n}\n\n.fa-star:before {\n  content: \"\\F005\";\n}\n\n.fa-star-and-crescent:before {\n  content: \"\\F699\";\n}\n\n.fa-star-half:before {\n  content: \"\\F089\";\n}\n\n.fa-star-half-alt:before {\n  content: \"\\F5C0\";\n}\n\n.fa-star-of-david:before {\n  content: \"\\F69A\";\n}\n\n.fa-star-of-life:before {\n  content: \"\\F621\";\n}\n\n.fa-staylinked:before {\n  content: \"\\F3F5\";\n}\n\n.fa-steam:before {\n  content: \"\\F1B6\";\n}\n\n.fa-steam-square:before {\n  content: \"\\F1B7\";\n}\n\n.fa-steam-symbol:before {\n  content: \"\\F3F6\";\n}\n\n.fa-step-backward:before {\n  content: \"\\F048\";\n}\n\n.fa-step-forward:before {\n  content: \"\\F051\";\n}\n\n.fa-stethoscope:before {\n  content: \"\\F0F1\";\n}\n\n.fa-sticker-mule:before {\n  content: \"\\F3F7\";\n}\n\n.fa-sticky-note:before {\n  content: \"\\F249\";\n}\n\n.fa-stop:before {\n  content: \"\\F04D\";\n}\n\n.fa-stop-circle:before {\n  content: \"\\F28D\";\n}\n\n.fa-stopwatch:before {\n  content: \"\\F2F2\";\n}\n\n.fa-store:before {\n  content: \"\\F54E\";\n}\n\n.fa-store-alt:before {\n  content: \"\\F54F\";\n}\n\n.fa-strava:before {\n  content: \"\\F428\";\n}\n\n.fa-stream:before {\n  content: \"\\F550\";\n}\n\n.fa-street-view:before {\n  content: \"\\F21D\";\n}\n\n.fa-strikethrough:before {\n  content: \"\\F0CC\";\n}\n\n.fa-stripe:before {\n  content: \"\\F429\";\n}\n\n.fa-stripe-s:before {\n  content: \"\\F42A\";\n}\n\n.fa-stroopwafel:before {\n  content: \"\\F551\";\n}\n\n.fa-studiovinari:before {\n  content: \"\\F3F8\";\n}\n\n.fa-stumbleupon:before {\n  content: \"\\F1A4\";\n}\n\n.fa-stumbleupon-circle:before {\n  content: \"\\F1A3\";\n}\n\n.fa-subscript:before {\n  content: \"\\F12C\";\n}\n\n.fa-subway:before {\n  content: \"\\F239\";\n}\n\n.fa-suitcase:before {\n  content: \"\\F0F2\";\n}\n\n.fa-suitcase-rolling:before {\n  content: \"\\F5C1\";\n}\n\n.fa-sun:before {\n  content: \"\\F185\";\n}\n\n.fa-superpowers:before {\n  content: \"\\F2DD\";\n}\n\n.fa-superscript:before {\n  content: \"\\F12B\";\n}\n\n.fa-supple:before {\n  content: \"\\F3F9\";\n}\n\n.fa-surprise:before {\n  content: \"\\F5C2\";\n}\n\n.fa-suse:before {\n  content: \"\\F7D6\";\n}\n\n.fa-swatchbook:before {\n  content: \"\\F5C3\";\n}\n\n.fa-swimmer:before {\n  content: \"\\F5C4\";\n}\n\n.fa-swimming-pool:before {\n  content: \"\\F5C5\";\n}\n\n.fa-symfony:before {\n  content: \"\\F83D\";\n}\n\n.fa-synagogue:before {\n  content: \"\\F69B\";\n}\n\n.fa-sync:before {\n  content: \"\\F021\";\n}\n\n.fa-sync-alt:before {\n  content: \"\\F2F1\";\n}\n\n.fa-syringe:before {\n  content: \"\\F48E\";\n}\n\n.fa-table:before {\n  content: \"\\F0CE\";\n}\n\n.fa-table-tennis:before {\n  content: \"\\F45D\";\n}\n\n.fa-tablet:before {\n  content: \"\\F10A\";\n}\n\n.fa-tablet-alt:before {\n  content: \"\\F3FA\";\n}\n\n.fa-tablets:before {\n  content: \"\\F490\";\n}\n\n.fa-tachometer-alt:before {\n  content: \"\\F3FD\";\n}\n\n.fa-tag:before {\n  content: \"\\F02B\";\n}\n\n.fa-tags:before {\n  content: \"\\F02C\";\n}\n\n.fa-tape:before {\n  content: \"\\F4DB\";\n}\n\n.fa-tasks:before {\n  content: \"\\F0AE\";\n}\n\n.fa-taxi:before {\n  content: \"\\F1BA\";\n}\n\n.fa-teamspeak:before {\n  content: \"\\F4F9\";\n}\n\n.fa-teeth:before {\n  content: \"\\F62E\";\n}\n\n.fa-teeth-open:before {\n  content: \"\\F62F\";\n}\n\n.fa-telegram:before {\n  content: \"\\F2C6\";\n}\n\n.fa-telegram-plane:before {\n  content: \"\\F3FE\";\n}\n\n.fa-temperature-high:before {\n  content: \"\\F769\";\n}\n\n.fa-temperature-low:before {\n  content: \"\\F76B\";\n}\n\n.fa-tencent-weibo:before {\n  content: \"\\F1D5\";\n}\n\n.fa-tenge:before {\n  content: \"\\F7D7\";\n}\n\n.fa-terminal:before {\n  content: \"\\F120\";\n}\n\n.fa-text-height:before {\n  content: \"\\F034\";\n}\n\n.fa-text-width:before {\n  content: \"\\F035\";\n}\n\n.fa-th:before {\n  content: \"\\F00A\";\n}\n\n.fa-th-large:before {\n  content: \"\\F009\";\n}\n\n.fa-th-list:before {\n  content: \"\\F00B\";\n}\n\n.fa-the-red-yeti:before {\n  content: \"\\F69D\";\n}\n\n.fa-theater-masks:before {\n  content: \"\\F630\";\n}\n\n.fa-themeco:before {\n  content: \"\\F5C6\";\n}\n\n.fa-themeisle:before {\n  content: \"\\F2B2\";\n}\n\n.fa-thermometer:before {\n  content: \"\\F491\";\n}\n\n.fa-thermometer-empty:before {\n  content: \"\\F2CB\";\n}\n\n.fa-thermometer-full:before {\n  content: \"\\F2C7\";\n}\n\n.fa-thermometer-half:before {\n  content: \"\\F2C9\";\n}\n\n.fa-thermometer-quarter:before {\n  content: \"\\F2CA\";\n}\n\n.fa-thermometer-three-quarters:before {\n  content: \"\\F2C8\";\n}\n\n.fa-think-peaks:before {\n  content: \"\\F731\";\n}\n\n.fa-thumbs-down:before {\n  content: \"\\F165\";\n}\n\n.fa-thumbs-up:before {\n  content: \"\\F164\";\n}\n\n.fa-thumbtack:before {\n  content: \"\\F08D\";\n}\n\n.fa-ticket-alt:before {\n  content: \"\\F3FF\";\n}\n\n.fa-times:before {\n  content: \"\\F00D\";\n}\n\n.fa-times-circle:before {\n  content: \"\\F057\";\n}\n\n.fa-tint:before {\n  content: \"\\F043\";\n}\n\n.fa-tint-slash:before {\n  content: \"\\F5C7\";\n}\n\n.fa-tired:before {\n  content: \"\\F5C8\";\n}\n\n.fa-toggle-off:before {\n  content: \"\\F204\";\n}\n\n.fa-toggle-on:before {\n  content: \"\\F205\";\n}\n\n.fa-toilet:before {\n  content: \"\\F7D8\";\n}\n\n.fa-toilet-paper:before {\n  content: \"\\F71E\";\n}\n\n.fa-toolbox:before {\n  content: \"\\F552\";\n}\n\n.fa-tools:before {\n  content: \"\\F7D9\";\n}\n\n.fa-tooth:before {\n  content: \"\\F5C9\";\n}\n\n.fa-torah:before {\n  content: \"\\F6A0\";\n}\n\n.fa-torii-gate:before {\n  content: \"\\F6A1\";\n}\n\n.fa-tractor:before {\n  content: \"\\F722\";\n}\n\n.fa-trade-federation:before {\n  content: \"\\F513\";\n}\n\n.fa-trademark:before {\n  content: \"\\F25C\";\n}\n\n.fa-traffic-light:before {\n  content: \"\\F637\";\n}\n\n.fa-train:before {\n  content: \"\\F238\";\n}\n\n.fa-tram:before {\n  content: \"\\F7DA\";\n}\n\n.fa-transgender:before {\n  content: \"\\F224\";\n}\n\n.fa-transgender-alt:before {\n  content: \"\\F225\";\n}\n\n.fa-trash:before {\n  content: \"\\F1F8\";\n}\n\n.fa-trash-alt:before {\n  content: \"\\F2ED\";\n}\n\n.fa-trash-restore:before {\n  content: \"\\F829\";\n}\n\n.fa-trash-restore-alt:before {\n  content: \"\\F82A\";\n}\n\n.fa-tree:before {\n  content: \"\\F1BB\";\n}\n\n.fa-trello:before {\n  content: \"\\F181\";\n}\n\n.fa-tripadvisor:before {\n  content: \"\\F262\";\n}\n\n.fa-trophy:before {\n  content: \"\\F091\";\n}\n\n.fa-truck:before {\n  content: \"\\F0D1\";\n}\n\n.fa-truck-loading:before {\n  content: \"\\F4DE\";\n}\n\n.fa-truck-monster:before {\n  content: \"\\F63B\";\n}\n\n.fa-truck-moving:before {\n  content: \"\\F4DF\";\n}\n\n.fa-truck-pickup:before {\n  content: \"\\F63C\";\n}\n\n.fa-tshirt:before {\n  content: \"\\F553\";\n}\n\n.fa-tty:before {\n  content: \"\\F1E4\";\n}\n\n.fa-tumblr:before {\n  content: \"\\F173\";\n}\n\n.fa-tumblr-square:before {\n  content: \"\\F174\";\n}\n\n.fa-tv:before {\n  content: \"\\F26C\";\n}\n\n.fa-twitch:before {\n  content: \"\\F1E8\";\n}\n\n.fa-twitter:before {\n  content: \"\\F099\";\n}\n\n.fa-twitter-square:before {\n  content: \"\\F081\";\n}\n\n.fa-typo3:before {\n  content: \"\\F42B\";\n}\n\n.fa-uber:before {\n  content: \"\\F402\";\n}\n\n.fa-ubuntu:before {\n  content: \"\\F7DF\";\n}\n\n.fa-uikit:before {\n  content: \"\\F403\";\n}\n\n.fa-umbrella:before {\n  content: \"\\F0E9\";\n}\n\n.fa-umbrella-beach:before {\n  content: \"\\F5CA\";\n}\n\n.fa-underline:before {\n  content: \"\\F0CD\";\n}\n\n.fa-undo:before {\n  content: \"\\F0E2\";\n}\n\n.fa-undo-alt:before {\n  content: \"\\F2EA\";\n}\n\n.fa-uniregistry:before {\n  content: \"\\F404\";\n}\n\n.fa-universal-access:before {\n  content: \"\\F29A\";\n}\n\n.fa-university:before {\n  content: \"\\F19C\";\n}\n\n.fa-unlink:before {\n  content: \"\\F127\";\n}\n\n.fa-unlock:before {\n  content: \"\\F09C\";\n}\n\n.fa-unlock-alt:before {\n  content: \"\\F13E\";\n}\n\n.fa-untappd:before {\n  content: \"\\F405\";\n}\n\n.fa-upload:before {\n  content: \"\\F093\";\n}\n\n.fa-ups:before {\n  content: \"\\F7E0\";\n}\n\n.fa-usb:before {\n  content: \"\\F287\";\n}\n\n.fa-user:before {\n  content: \"\\F007\";\n}\n\n.fa-user-alt:before {\n  content: \"\\F406\";\n}\n\n.fa-user-alt-slash:before {\n  content: \"\\F4FA\";\n}\n\n.fa-user-astronaut:before {\n  content: \"\\F4FB\";\n}\n\n.fa-user-check:before {\n  content: \"\\F4FC\";\n}\n\n.fa-user-circle:before {\n  content: \"\\F2BD\";\n}\n\n.fa-user-clock:before {\n  content: \"\\F4FD\";\n}\n\n.fa-user-cog:before {\n  content: \"\\F4FE\";\n}\n\n.fa-user-edit:before {\n  content: \"\\F4FF\";\n}\n\n.fa-user-friends:before {\n  content: \"\\F500\";\n}\n\n.fa-user-graduate:before {\n  content: \"\\F501\";\n}\n\n.fa-user-injured:before {\n  content: \"\\F728\";\n}\n\n.fa-user-lock:before {\n  content: \"\\F502\";\n}\n\n.fa-user-md:before {\n  content: \"\\F0F0\";\n}\n\n.fa-user-minus:before {\n  content: \"\\F503\";\n}\n\n.fa-user-ninja:before {\n  content: \"\\F504\";\n}\n\n.fa-user-nurse:before {\n  content: \"\\F82F\";\n}\n\n.fa-user-plus:before {\n  content: \"\\F234\";\n}\n\n.fa-user-secret:before {\n  content: \"\\F21B\";\n}\n\n.fa-user-shield:before {\n  content: \"\\F505\";\n}\n\n.fa-user-slash:before {\n  content: \"\\F506\";\n}\n\n.fa-user-tag:before {\n  content: \"\\F507\";\n}\n\n.fa-user-tie:before {\n  content: \"\\F508\";\n}\n\n.fa-user-times:before {\n  content: \"\\F235\";\n}\n\n.fa-users:before {\n  content: \"\\F0C0\";\n}\n\n.fa-users-cog:before {\n  content: \"\\F509\";\n}\n\n.fa-usps:before {\n  content: \"\\F7E1\";\n}\n\n.fa-ussunnah:before {\n  content: \"\\F407\";\n}\n\n.fa-utensil-spoon:before {\n  content: \"\\F2E5\";\n}\n\n.fa-utensils:before {\n  content: \"\\F2E7\";\n}\n\n.fa-vaadin:before {\n  content: \"\\F408\";\n}\n\n.fa-vector-square:before {\n  content: \"\\F5CB\";\n}\n\n.fa-venus:before {\n  content: \"\\F221\";\n}\n\n.fa-venus-double:before {\n  content: \"\\F226\";\n}\n\n.fa-venus-mars:before {\n  content: \"\\F228\";\n}\n\n.fa-viacoin:before {\n  content: \"\\F237\";\n}\n\n.fa-viadeo:before {\n  content: \"\\F2A9\";\n}\n\n.fa-viadeo-square:before {\n  content: \"\\F2AA\";\n}\n\n.fa-vial:before {\n  content: \"\\F492\";\n}\n\n.fa-vials:before {\n  content: \"\\F493\";\n}\n\n.fa-viber:before {\n  content: \"\\F409\";\n}\n\n.fa-video:before {\n  content: \"\\F03D\";\n}\n\n.fa-video-slash:before {\n  content: \"\\F4E2\";\n}\n\n.fa-vihara:before {\n  content: \"\\F6A7\";\n}\n\n.fa-vimeo:before {\n  content: \"\\F40A\";\n}\n\n.fa-vimeo-square:before {\n  content: \"\\F194\";\n}\n\n.fa-vimeo-v:before {\n  content: \"\\F27D\";\n}\n\n.fa-vine:before {\n  content: \"\\F1CA\";\n}\n\n.fa-vk:before {\n  content: \"\\F189\";\n}\n\n.fa-vnv:before {\n  content: \"\\F40B\";\n}\n\n.fa-voicemail:before {\n  content: \"\\F897\";\n}\n\n.fa-volleyball-ball:before {\n  content: \"\\F45F\";\n}\n\n.fa-volume-down:before {\n  content: \"\\F027\";\n}\n\n.fa-volume-mute:before {\n  content: \"\\F6A9\";\n}\n\n.fa-volume-off:before {\n  content: \"\\F026\";\n}\n\n.fa-volume-up:before {\n  content: \"\\F028\";\n}\n\n.fa-vote-yea:before {\n  content: \"\\F772\";\n}\n\n.fa-vr-cardboard:before {\n  content: \"\\F729\";\n}\n\n.fa-vuejs:before {\n  content: \"\\F41F\";\n}\n\n.fa-walking:before {\n  content: \"\\F554\";\n}\n\n.fa-wallet:before {\n  content: \"\\F555\";\n}\n\n.fa-warehouse:before {\n  content: \"\\F494\";\n}\n\n.fa-water:before {\n  content: \"\\F773\";\n}\n\n.fa-wave-square:before {\n  content: \"\\F83E\";\n}\n\n.fa-waze:before {\n  content: \"\\F83F\";\n}\n\n.fa-weebly:before {\n  content: \"\\F5CC\";\n}\n\n.fa-weibo:before {\n  content: \"\\F18A\";\n}\n\n.fa-weight:before {\n  content: \"\\F496\";\n}\n\n.fa-weight-hanging:before {\n  content: \"\\F5CD\";\n}\n\n.fa-weixin:before {\n  content: \"\\F1D7\";\n}\n\n.fa-whatsapp:before {\n  content: \"\\F232\";\n}\n\n.fa-whatsapp-square:before {\n  content: \"\\F40C\";\n}\n\n.fa-wheelchair:before {\n  content: \"\\F193\";\n}\n\n.fa-whmcs:before {\n  content: \"\\F40D\";\n}\n\n.fa-wifi:before {\n  content: \"\\F1EB\";\n}\n\n.fa-wikipedia-w:before {\n  content: \"\\F266\";\n}\n\n.fa-wind:before {\n  content: \"\\F72E\";\n}\n\n.fa-window-close:before {\n  content: \"\\F410\";\n}\n\n.fa-window-maximize:before {\n  content: \"\\F2D0\";\n}\n\n.fa-window-minimize:before {\n  content: \"\\F2D1\";\n}\n\n.fa-window-restore:before {\n  content: \"\\F2D2\";\n}\n\n.fa-windows:before {\n  content: \"\\F17A\";\n}\n\n.fa-wine-bottle:before {\n  content: \"\\F72F\";\n}\n\n.fa-wine-glass:before {\n  content: \"\\F4E3\";\n}\n\n.fa-wine-glass-alt:before {\n  content: \"\\F5CE\";\n}\n\n.fa-wix:before {\n  content: \"\\F5CF\";\n}\n\n.fa-wizards-of-the-coast:before {\n  content: \"\\F730\";\n}\n\n.fa-wolf-pack-battalion:before {\n  content: \"\\F514\";\n}\n\n.fa-won-sign:before {\n  content: \"\\F159\";\n}\n\n.fa-wordpress:before {\n  content: \"\\F19A\";\n}\n\n.fa-wordpress-simple:before {\n  content: \"\\F411\";\n}\n\n.fa-wpbeginner:before {\n  content: \"\\F297\";\n}\n\n.fa-wpexplorer:before {\n  content: \"\\F2DE\";\n}\n\n.fa-wpforms:before {\n  content: \"\\F298\";\n}\n\n.fa-wpressr:before {\n  content: \"\\F3E4\";\n}\n\n.fa-wrench:before {\n  content: \"\\F0AD\";\n}\n\n.fa-x-ray:before {\n  content: \"\\F497\";\n}\n\n.fa-xbox:before {\n  content: \"\\F412\";\n}\n\n.fa-xing:before {\n  content: \"\\F168\";\n}\n\n.fa-xing-square:before {\n  content: \"\\F169\";\n}\n\n.fa-y-combinator:before {\n  content: \"\\F23B\";\n}\n\n.fa-yahoo:before {\n  content: \"\\F19E\";\n}\n\n.fa-yammer:before {\n  content: \"\\F840\";\n}\n\n.fa-yandex:before {\n  content: \"\\F413\";\n}\n\n.fa-yandex-international:before {\n  content: \"\\F414\";\n}\n\n.fa-yarn:before {\n  content: \"\\F7E3\";\n}\n\n.fa-yelp:before {\n  content: \"\\F1E9\";\n}\n\n.fa-yen-sign:before {\n  content: \"\\F157\";\n}\n\n.fa-yin-yang:before {\n  content: \"\\F6AD\";\n}\n\n.fa-yoast:before {\n  content: \"\\F2B1\";\n}\n\n.fa-youtube:before {\n  content: \"\\F167\";\n}\n\n.fa-youtube-square:before {\n  content: \"\\F431\";\n}\n\n.fa-zhihu:before {\n  content: \"\\F63F\";\n}\n\n.sr-only {\n  border: 0;\n  clip: rect(0, 0, 0, 0);\n  height: 1px;\n  margin: -1px;\n  overflow: hidden;\n  padding: 0;\n  position: absolute;\n  width: 1px;\n}\n\n.sr-only-focusable:active, .sr-only-focusable:focus {\n  clip: auto;\n  height: auto;\n  margin: 0;\n  overflow: visible;\n  position: static;\n  width: auto;\n}", ""]);
-
-// exports
-
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/@fortawesome/fontawesome-free/scss/regular.scss":
-/*!*********************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./node_modules/@fortawesome/fontawesome-free/scss/regular.scss ***!
-  \*********************************************************************************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var escape = __webpack_require__(/*! ../../../css-loader/lib/url/escape.js */ "./node_modules/css-loader/lib/url/escape.js");
-exports = module.exports = __webpack_require__(/*! ../../../css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
-// imports
-
-
-// module
-exports.push([module.i, "/*!\n * Font Awesome Free 5.9.0 by @fontawesome - https://fontawesome.com\n * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)\n */\n@font-face {\n  font-family: \"Font Awesome 5 Free\";\n  font-style: normal;\n  font-weight: 400;\n  font-display: auto;\n  src: url(" + escape(__webpack_require__(/*! ../webfonts/fa-regular-400.eot */ "./node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.eot")) + ");\n  src: url(" + escape(__webpack_require__(/*! ../webfonts/fa-regular-400.eot */ "./node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.eot")) + "?#iefix) format(\"embedded-opentype\"), url(" + escape(__webpack_require__(/*! ../webfonts/fa-regular-400.woff2 */ "./node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.woff2")) + ") format(\"woff2\"), url(" + escape(__webpack_require__(/*! ../webfonts/fa-regular-400.woff */ "./node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.woff")) + ") format(\"woff\"), url(" + escape(__webpack_require__(/*! ../webfonts/fa-regular-400.ttf */ "./node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.ttf")) + ") format(\"truetype\"), url(" + escape(__webpack_require__(/*! ../webfonts/fa-regular-400.svg */ "./node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.svg")) + "#fontawesome) format(\"svg\");\n}\n.far {\n  font-family: \"Font Awesome 5 Free\";\n  font-weight: 400;\n}", ""]);
-
-// exports
-
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/@fortawesome/fontawesome-free/scss/solid.scss":
-/*!*******************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./node_modules/@fortawesome/fontawesome-free/scss/solid.scss ***!
-  \*******************************************************************************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var escape = __webpack_require__(/*! ../../../css-loader/lib/url/escape.js */ "./node_modules/css-loader/lib/url/escape.js");
-exports = module.exports = __webpack_require__(/*! ../../../css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
-// imports
-
-
-// module
-exports.push([module.i, "/*!\n * Font Awesome Free 5.9.0 by @fontawesome - https://fontawesome.com\n * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)\n */\n@font-face {\n  font-family: \"Font Awesome 5 Free\";\n  font-style: normal;\n  font-weight: 900;\n  font-display: auto;\n  src: url(" + escape(__webpack_require__(/*! ../webfonts/fa-solid-900.eot */ "./node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.eot")) + ");\n  src: url(" + escape(__webpack_require__(/*! ../webfonts/fa-solid-900.eot */ "./node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.eot")) + "?#iefix) format(\"embedded-opentype\"), url(" + escape(__webpack_require__(/*! ../webfonts/fa-solid-900.woff2 */ "./node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2")) + ") format(\"woff2\"), url(" + escape(__webpack_require__(/*! ../webfonts/fa-solid-900.woff */ "./node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff")) + ") format(\"woff\"), url(" + escape(__webpack_require__(/*! ../webfonts/fa-solid-900.ttf */ "./node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.ttf")) + ") format(\"truetype\"), url(" + escape(__webpack_require__(/*! ../webfonts/fa-solid-900.svg */ "./node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.svg")) + "#fontawesome) format(\"svg\");\n}\n.fa,\n.fas {\n  font-family: \"Font Awesome 5 Free\";\n  font-weight: 900;\n}", ""]);
-
-// exports
-
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/lib/css-base.js":
-/*!*************************************************!*\
-  !*** ./node_modules/css-loader/lib/css-base.js ***!
-  \*************************************************/
+/***/ "./node_modules/is-buffer/index.js":
+/*!*****************************************!*\
+  !*** ./node_modules/is-buffer/index.js ***!
+  \*****************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-/*
-	MIT License http://www.opensource.org/licenses/mit-license.php
-	Author Tobias Koppers @sokra
-*/
-// css base code, injected by the css-loader
-module.exports = function(useSourceMap) {
-	var list = [];
+/*!
+ * Determine if an object is a Buffer
+ *
+ * @author   Feross Aboukhadijeh <https://feross.org>
+ * @license  MIT
+ */
 
-	// return the list of modules as css string
-	list.toString = function toString() {
-		return this.map(function (item) {
-			var content = cssWithMappingToString(item, useSourceMap);
-			if(item[2]) {
-				return "@media " + item[2] + "{" + content + "}";
-			} else {
-				return content;
-			}
-		}).join("");
-	};
-
-	// import a list of modules into the list
-	list.i = function(modules, mediaQuery) {
-		if(typeof modules === "string")
-			modules = [[null, modules, ""]];
-		var alreadyImportedModules = {};
-		for(var i = 0; i < this.length; i++) {
-			var id = this[i][0];
-			if(typeof id === "number")
-				alreadyImportedModules[id] = true;
-		}
-		for(i = 0; i < modules.length; i++) {
-			var item = modules[i];
-			// skip already imported module
-			// this implementation is not 100% perfect for weird media query combinations
-			//  when a module is imported multiple times with different media queries.
-			//  I hope this will never occur (Hey this way we have smaller bundles)
-			if(typeof item[0] !== "number" || !alreadyImportedModules[item[0]]) {
-				if(mediaQuery && !item[2]) {
-					item[2] = mediaQuery;
-				} else if(mediaQuery) {
-					item[2] = "(" + item[2] + ") and (" + mediaQuery + ")";
-				}
-				list.push(item);
-			}
-		}
-	};
-	return list;
-};
-
-function cssWithMappingToString(item, useSourceMap) {
-	var content = item[1] || '';
-	var cssMapping = item[3];
-	if (!cssMapping) {
-		return content;
-	}
-
-	if (useSourceMap && typeof btoa === 'function') {
-		var sourceMapping = toComment(cssMapping);
-		var sourceURLs = cssMapping.sources.map(function (source) {
-			return '/*# sourceURL=' + cssMapping.sourceRoot + source + ' */'
-		});
-
-		return [content].concat(sourceURLs).concat([sourceMapping]).join('\n');
-	}
-
-	return [content].join('\n');
-}
-
-// Adapted from convert-source-map (MIT)
-function toComment(sourceMap) {
-	// eslint-disable-next-line no-undef
-	var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));
-	var data = 'sourceMappingURL=data:application/json;charset=utf-8;base64,' + base64;
-
-	return '/*# ' + data + ' */';
-}
-
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/lib/url/escape.js":
-/*!***************************************************!*\
-  !*** ./node_modules/css-loader/lib/url/escape.js ***!
-  \***************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = function escape(url) {
-    if (typeof url !== 'string') {
-        return url
-    }
-    // If url is already wrapped in quotes, remove them
-    if (/^['"].*['"]$/.test(url)) {
-        url = url.slice(1, -1);
-    }
-    // Should url be wrapped?
-    // See https://drafts.csswg.org/css-values-3/#urls
-    if (/["'() \t\n]/.test(url)) {
-        return '"' + url.replace(/"/g, '\\"').replace(/\n/g, '\\n') + '"'
-    }
-
-    return url
+module.exports = function isBuffer (obj) {
+  return obj != null && obj.constructor != null &&
+    typeof obj.constructor.isBuffer === 'function' && obj.constructor.isBuffer(obj)
 }
 
 
@@ -6863,7 +6423,7 @@ module.exports = function escape(url) {
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
- * jQuery JavaScript Library v3.4.1
+ * jQuery JavaScript Library v3.5.1
  * https://jquery.com/
  *
  * Includes Sizzle.js
@@ -6873,7 +6433,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
  * Released under the MIT license
  * https://jquery.org/license
  *
- * Date: 2019-05-01T21:04Z
+ * Date: 2020-05-04T22:49Z
  */
 ( function( global, factory ) {
 
@@ -6911,13 +6471,16 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
 
 var arr = [];
 
-var document = window.document;
-
 var getProto = Object.getPrototypeOf;
 
 var slice = arr.slice;
 
-var concat = arr.concat;
+var flat = arr.flat ? function( array ) {
+	return arr.flat.call( array );
+} : function( array ) {
+	return arr.concat.apply( [], array );
+};
+
 
 var push = arr.push;
 
@@ -6949,6 +6512,8 @@ var isWindow = function isWindow( obj ) {
 		return obj != null && obj === obj.window;
 	};
 
+
+var document = window.document;
 
 
 
@@ -7006,7 +6571,7 @@ function toType( obj ) {
 
 
 var
-	version = "3.4.1",
+	version = "3.5.1",
 
 	// Define a local copy of jQuery
 	jQuery = function( selector, context ) {
@@ -7014,11 +6579,7 @@ var
 		// The jQuery object is actually just the init constructor 'enhanced'
 		// Need init if jQuery is called (just allow error to be thrown if not included)
 		return new jQuery.fn.init( selector, context );
-	},
-
-	// Support: Android <=4.0 only
-	// Make sure we trim BOM and NBSP
-	rtrim = /^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g;
+	};
 
 jQuery.fn = jQuery.prototype = {
 
@@ -7082,6 +6643,18 @@ jQuery.fn = jQuery.prototype = {
 
 	last: function() {
 		return this.eq( -1 );
+	},
+
+	even: function() {
+		return this.pushStack( jQuery.grep( this, function( _elem, i ) {
+			return ( i + 1 ) % 2;
+		} ) );
+	},
+
+	odd: function() {
+		return this.pushStack( jQuery.grep( this, function( _elem, i ) {
+			return i % 2;
+		} ) );
 	},
 
 	eq: function( i ) {
@@ -7217,9 +6790,10 @@ jQuery.extend( {
 		return true;
 	},
 
-	// Evaluates a script in a global context
-	globalEval: function( code, options ) {
-		DOMEval( code, { nonce: options && options.nonce } );
+	// Evaluates a script in a provided context; falls back to the global one
+	// if not specified.
+	globalEval: function( code, options, doc ) {
+		DOMEval( code, { nonce: options && options.nonce }, doc );
 	},
 
 	each: function( obj, callback ) {
@@ -7241,13 +6815,6 @@ jQuery.extend( {
 		}
 
 		return obj;
-	},
-
-	// Support: Android <=4.0 only
-	trim: function( text ) {
-		return text == null ?
-			"" :
-			( text + "" ).replace( rtrim, "" );
 	},
 
 	// results is for internal usage only
@@ -7336,7 +6903,7 @@ jQuery.extend( {
 		}
 
 		// Flatten any nested arrays
-		return concat.apply( [], ret );
+		return flat( ret );
 	},
 
 	// A global GUID counter for objects
@@ -7353,7 +6920,7 @@ if ( typeof Symbol === "function" ) {
 
 // Populate the class2type map
 jQuery.each( "Boolean Number String Function Array Date RegExp Object Error Symbol".split( " " ),
-function( i, name ) {
+function( _i, name ) {
 	class2type[ "[object " + name + "]" ] = name.toLowerCase();
 } );
 
@@ -7375,17 +6942,16 @@ function isArrayLike( obj ) {
 }
 var Sizzle =
 /*!
- * Sizzle CSS Selector Engine v2.3.4
+ * Sizzle CSS Selector Engine v2.3.5
  * https://sizzlejs.com/
  *
  * Copyright JS Foundation and other contributors
  * Released under the MIT license
  * https://js.foundation/
  *
- * Date: 2019-04-08
+ * Date: 2020-03-14
  */
-(function( window ) {
-
+( function( window ) {
 var i,
 	support,
 	Expr,
@@ -7425,59 +6991,70 @@ var i,
 	},
 
 	// Instance methods
-	hasOwn = ({}).hasOwnProperty,
+	hasOwn = ( {} ).hasOwnProperty,
 	arr = [],
 	pop = arr.pop,
-	push_native = arr.push,
+	pushNative = arr.push,
 	push = arr.push,
 	slice = arr.slice,
+
 	// Use a stripped-down indexOf as it's faster than native
 	// https://jsperf.com/thor-indexof-vs-for/5
 	indexOf = function( list, elem ) {
 		var i = 0,
 			len = list.length;
 		for ( ; i < len; i++ ) {
-			if ( list[i] === elem ) {
+			if ( list[ i ] === elem ) {
 				return i;
 			}
 		}
 		return -1;
 	},
 
-	booleans = "checked|selected|async|autofocus|autoplay|controls|defer|disabled|hidden|ismap|loop|multiple|open|readonly|required|scoped",
+	booleans = "checked|selected|async|autofocus|autoplay|controls|defer|disabled|hidden|" +
+		"ismap|loop|multiple|open|readonly|required|scoped",
 
 	// Regular expressions
 
 	// http://www.w3.org/TR/css3-selectors/#whitespace
 	whitespace = "[\\x20\\t\\r\\n\\f]",
 
-	// http://www.w3.org/TR/CSS21/syndata.html#value-def-identifier
-	identifier = "(?:\\\\.|[\\w-]|[^\0-\\xa0])+",
+	// https://www.w3.org/TR/css-syntax-3/#ident-token-diagram
+	identifier = "(?:\\\\[\\da-fA-F]{1,6}" + whitespace +
+		"?|\\\\[^\\r\\n\\f]|[\\w-]|[^\0-\\x7f])+",
 
 	// Attribute selectors: http://www.w3.org/TR/selectors/#attribute-selectors
 	attributes = "\\[" + whitespace + "*(" + identifier + ")(?:" + whitespace +
+
 		// Operator (capture 2)
 		"*([*^$|!~]?=)" + whitespace +
-		// "Attribute values must be CSS identifiers [capture 5] or strings [capture 3 or capture 4]"
-		"*(?:'((?:\\\\.|[^\\\\'])*)'|\"((?:\\\\.|[^\\\\\"])*)\"|(" + identifier + "))|)" + whitespace +
-		"*\\]",
+
+		// "Attribute values must be CSS identifiers [capture 5]
+		// or strings [capture 3 or capture 4]"
+		"*(?:'((?:\\\\.|[^\\\\'])*)'|\"((?:\\\\.|[^\\\\\"])*)\"|(" + identifier + "))|)" +
+		whitespace + "*\\]",
 
 	pseudos = ":(" + identifier + ")(?:\\((" +
+
 		// To reduce the number of selectors needing tokenize in the preFilter, prefer arguments:
 		// 1. quoted (capture 3; capture 4 or capture 5)
 		"('((?:\\\\.|[^\\\\'])*)'|\"((?:\\\\.|[^\\\\\"])*)\")|" +
+
 		// 2. simple (capture 6)
 		"((?:\\\\.|[^\\\\()[\\]]|" + attributes + ")*)|" +
+
 		// 3. anything else (capture 2)
 		".*" +
 		")\\)|)",
 
 	// Leading and non-escaped trailing whitespace, capturing some non-whitespace characters preceding the latter
 	rwhitespace = new RegExp( whitespace + "+", "g" ),
-	rtrim = new RegExp( "^" + whitespace + "+|((?:^|[^\\\\])(?:\\\\.)*)" + whitespace + "+$", "g" ),
+	rtrim = new RegExp( "^" + whitespace + "+|((?:^|[^\\\\])(?:\\\\.)*)" +
+		whitespace + "+$", "g" ),
 
 	rcomma = new RegExp( "^" + whitespace + "*," + whitespace + "*" ),
-	rcombinators = new RegExp( "^" + whitespace + "*([>+~]|" + whitespace + ")" + whitespace + "*" ),
+	rcombinators = new RegExp( "^" + whitespace + "*([>+~]|" + whitespace + ")" + whitespace +
+		"*" ),
 	rdescend = new RegExp( whitespace + "|>" ),
 
 	rpseudo = new RegExp( pseudos ),
@@ -7489,14 +7066,16 @@ var i,
 		"TAG": new RegExp( "^(" + identifier + "|[*])" ),
 		"ATTR": new RegExp( "^" + attributes ),
 		"PSEUDO": new RegExp( "^" + pseudos ),
-		"CHILD": new RegExp( "^:(only|first|last|nth|nth-last)-(child|of-type)(?:\\(" + whitespace +
-			"*(even|odd|(([+-]|)(\\d*)n|)" + whitespace + "*(?:([+-]|)" + whitespace +
-			"*(\\d+)|))" + whitespace + "*\\)|)", "i" ),
+		"CHILD": new RegExp( "^:(only|first|last|nth|nth-last)-(child|of-type)(?:\\(" +
+			whitespace + "*(even|odd|(([+-]|)(\\d*)n|)" + whitespace + "*(?:([+-]|)" +
+			whitespace + "*(\\d+)|))" + whitespace + "*\\)|)", "i" ),
 		"bool": new RegExp( "^(?:" + booleans + ")$", "i" ),
+
 		// For use in libraries implementing .is()
 		// We use this for POS matching in `select`
-		"needsContext": new RegExp( "^" + whitespace + "*[>+~]|:(even|odd|eq|gt|lt|nth|first|last)(?:\\(" +
-			whitespace + "*((?:-\\d)?\\d*)" + whitespace + "*\\)|)(?=[^-]|$)", "i" )
+		"needsContext": new RegExp( "^" + whitespace +
+			"*[>+~]|:(even|odd|eq|gt|lt|nth|first|last)(?:\\(" + whitespace +
+			"*((?:-\\d)?\\d*)" + whitespace + "*\\)|)(?=[^-]|$)", "i" )
 	},
 
 	rhtml = /HTML$/i,
@@ -7512,18 +7091,21 @@ var i,
 
 	// CSS escapes
 	// http://www.w3.org/TR/CSS21/syndata.html#escaped-characters
-	runescape = new RegExp( "\\\\([\\da-f]{1,6}" + whitespace + "?|(" + whitespace + ")|.)", "ig" ),
-	funescape = function( _, escaped, escapedWhitespace ) {
-		var high = "0x" + escaped - 0x10000;
-		// NaN means non-codepoint
-		// Support: Firefox<24
-		// Workaround erroneous numeric interpretation of +"0x"
-		return high !== high || escapedWhitespace ?
-			escaped :
+	runescape = new RegExp( "\\\\[\\da-fA-F]{1,6}" + whitespace + "?|\\\\([^\\r\\n\\f])", "g" ),
+	funescape = function( escape, nonHex ) {
+		var high = "0x" + escape.slice( 1 ) - 0x10000;
+
+		return nonHex ?
+
+			// Strip the backslash prefix from a non-hex escape sequence
+			nonHex :
+
+			// Replace a hexadecimal escape sequence with the encoded Unicode code point
+			// Support: IE <=11+
+			// For values outside the Basic Multilingual Plane (BMP), manually construct a
+			// surrogate pair
 			high < 0 ?
-				// BMP codepoint
 				String.fromCharCode( high + 0x10000 ) :
-				// Supplemental Plane codepoint (surrogate pair)
 				String.fromCharCode( high >> 10 | 0xD800, high & 0x3FF | 0xDC00 );
 	},
 
@@ -7539,7 +7121,8 @@ var i,
 			}
 
 			// Control characters and (dependent upon position) numbers get escaped as code points
-			return ch.slice( 0, -1 ) + "\\" + ch.charCodeAt( ch.length - 1 ).toString( 16 ) + " ";
+			return ch.slice( 0, -1 ) + "\\" +
+				ch.charCodeAt( ch.length - 1 ).toString( 16 ) + " ";
 		}
 
 		// Other potentially-special ASCII characters get backslash-escaped
@@ -7564,18 +7147,20 @@ var i,
 // Optimize for push.apply( _, NodeList )
 try {
 	push.apply(
-		(arr = slice.call( preferredDoc.childNodes )),
+		( arr = slice.call( preferredDoc.childNodes ) ),
 		preferredDoc.childNodes
 	);
+
 	// Support: Android<4.0
 	// Detect silently failing push.apply
+	// eslint-disable-next-line no-unused-expressions
 	arr[ preferredDoc.childNodes.length ].nodeType;
 } catch ( e ) {
 	push = { apply: arr.length ?
 
 		// Leverage slice if possible
 		function( target, els ) {
-			push_native.apply( target, slice.call(els) );
+			pushNative.apply( target, slice.call( els ) );
 		} :
 
 		// Support: IE<9
@@ -7583,8 +7168,9 @@ try {
 		function( target, els ) {
 			var j = target.length,
 				i = 0;
+
 			// Can't trust NodeList.length
-			while ( (target[j++] = els[i++]) ) {}
+			while ( ( target[ j++ ] = els[ i++ ] ) ) {}
 			target.length = j - 1;
 		}
 	};
@@ -7608,24 +7194,21 @@ function Sizzle( selector, context, results, seed ) {
 
 	// Try to shortcut find operations (as opposed to filters) in HTML documents
 	if ( !seed ) {
-
-		if ( ( context ? context.ownerDocument || context : preferredDoc ) !== document ) {
-			setDocument( context );
-		}
+		setDocument( context );
 		context = context || document;
 
 		if ( documentIsHTML ) {
 
 			// If the selector is sufficiently simple, try using a "get*By*" DOM method
 			// (excepting DocumentFragment context, where the methods don't exist)
-			if ( nodeType !== 11 && (match = rquickExpr.exec( selector )) ) {
+			if ( nodeType !== 11 && ( match = rquickExpr.exec( selector ) ) ) {
 
 				// ID selector
-				if ( (m = match[1]) ) {
+				if ( ( m = match[ 1 ] ) ) {
 
 					// Document context
 					if ( nodeType === 9 ) {
-						if ( (elem = context.getElementById( m )) ) {
+						if ( ( elem = context.getElementById( m ) ) ) {
 
 							// Support: IE, Opera, Webkit
 							// TODO: identify versions
@@ -7644,7 +7227,7 @@ function Sizzle( selector, context, results, seed ) {
 						// Support: IE, Opera, Webkit
 						// TODO: identify versions
 						// getElementById can match elements by name instead of ID
-						if ( newContext && (elem = newContext.getElementById( m )) &&
+						if ( newContext && ( elem = newContext.getElementById( m ) ) &&
 							contains( context, elem ) &&
 							elem.id === m ) {
 
@@ -7654,12 +7237,12 @@ function Sizzle( selector, context, results, seed ) {
 					}
 
 				// Type selector
-				} else if ( match[2] ) {
+				} else if ( match[ 2 ] ) {
 					push.apply( results, context.getElementsByTagName( selector ) );
 					return results;
 
 				// Class selector
-				} else if ( (m = match[3]) && support.getElementsByClassName &&
+				} else if ( ( m = match[ 3 ] ) && support.getElementsByClassName &&
 					context.getElementsByClassName ) {
 
 					push.apply( results, context.getElementsByClassName( m ) );
@@ -7670,11 +7253,11 @@ function Sizzle( selector, context, results, seed ) {
 			// Take advantage of querySelectorAll
 			if ( support.qsa &&
 				!nonnativeSelectorCache[ selector + " " ] &&
-				(!rbuggyQSA || !rbuggyQSA.test( selector )) &&
+				( !rbuggyQSA || !rbuggyQSA.test( selector ) ) &&
 
 				// Support: IE 8 only
 				// Exclude object elements
-				(nodeType !== 1 || context.nodeName.toLowerCase() !== "object") ) {
+				( nodeType !== 1 || context.nodeName.toLowerCase() !== "object" ) ) {
 
 				newSelector = selector;
 				newContext = context;
@@ -7683,27 +7266,36 @@ function Sizzle( selector, context, results, seed ) {
 				// descendant combinators, which is not what we want.
 				// In such cases, we work around the behavior by prefixing every selector in the
 				// list with an ID selector referencing the scope context.
+				// The technique has to be used as well when a leading combinator is used
+				// as such selectors are not recognized by querySelectorAll.
 				// Thanks to Andrew Dupont for this technique.
-				if ( nodeType === 1 && rdescend.test( selector ) ) {
+				if ( nodeType === 1 &&
+					( rdescend.test( selector ) || rcombinators.test( selector ) ) ) {
 
-					// Capture the context ID, setting it first if necessary
-					if ( (nid = context.getAttribute( "id" )) ) {
-						nid = nid.replace( rcssescape, fcssescape );
-					} else {
-						context.setAttribute( "id", (nid = expando) );
+					// Expand context for sibling selectors
+					newContext = rsibling.test( selector ) && testContext( context.parentNode ) ||
+						context;
+
+					// We can use :scope instead of the ID hack if the browser
+					// supports it & if we're not changing the context.
+					if ( newContext !== context || !support.scope ) {
+
+						// Capture the context ID, setting it first if necessary
+						if ( ( nid = context.getAttribute( "id" ) ) ) {
+							nid = nid.replace( rcssescape, fcssescape );
+						} else {
+							context.setAttribute( "id", ( nid = expando ) );
+						}
 					}
 
 					// Prefix every selector in the list
 					groups = tokenize( selector );
 					i = groups.length;
 					while ( i-- ) {
-						groups[i] = "#" + nid + " " + toSelector( groups[i] );
+						groups[ i ] = ( nid ? "#" + nid : ":scope" ) + " " +
+							toSelector( groups[ i ] );
 					}
 					newSelector = groups.join( "," );
-
-					// Expand context for sibling selectors
-					newContext = rsibling.test( selector ) && testContext( context.parentNode ) ||
-						context;
 				}
 
 				try {
@@ -7736,12 +7328,14 @@ function createCache() {
 	var keys = [];
 
 	function cache( key, value ) {
+
 		// Use (key + " ") to avoid collision with native prototype properties (see Issue #157)
 		if ( keys.push( key + " " ) > Expr.cacheLength ) {
+
 			// Only keep the most recent entries
 			delete cache[ keys.shift() ];
 		}
-		return (cache[ key + " " ] = value);
+		return ( cache[ key + " " ] = value );
 	}
 	return cache;
 }
@@ -7760,17 +7354,19 @@ function markFunction( fn ) {
  * @param {Function} fn Passed the created element and returns a boolean result
  */
 function assert( fn ) {
-	var el = document.createElement("fieldset");
+	var el = document.createElement( "fieldset" );
 
 	try {
 		return !!fn( el );
-	} catch (e) {
+	} catch ( e ) {
 		return false;
 	} finally {
+
 		// Remove from its parent by default
 		if ( el.parentNode ) {
 			el.parentNode.removeChild( el );
 		}
+
 		// release memory in IE
 		el = null;
 	}
@@ -7782,11 +7378,11 @@ function assert( fn ) {
  * @param {Function} handler The method that will be applied
  */
 function addHandle( attrs, handler ) {
-	var arr = attrs.split("|"),
+	var arr = attrs.split( "|" ),
 		i = arr.length;
 
 	while ( i-- ) {
-		Expr.attrHandle[ arr[i] ] = handler;
+		Expr.attrHandle[ arr[ i ] ] = handler;
 	}
 }
 
@@ -7808,7 +7404,7 @@ function siblingCheck( a, b ) {
 
 	// Check if b follows a
 	if ( cur ) {
-		while ( (cur = cur.nextSibling) ) {
+		while ( ( cur = cur.nextSibling ) ) {
 			if ( cur === b ) {
 				return -1;
 			}
@@ -7836,7 +7432,7 @@ function createInputPseudo( type ) {
 function createButtonPseudo( type ) {
 	return function( elem ) {
 		var name = elem.nodeName.toLowerCase();
-		return (name === "input" || name === "button") && elem.type === type;
+		return ( name === "input" || name === "button" ) && elem.type === type;
 	};
 }
 
@@ -7879,7 +7475,7 @@ function createDisabledPseudo( disabled ) {
 					// Where there is no isDisabled, check manually
 					/* jshint -W018 */
 					elem.isDisabled !== !disabled &&
-						inDisabledFieldset( elem ) === disabled;
+					inDisabledFieldset( elem ) === disabled;
 			}
 
 			return elem.disabled === disabled;
@@ -7901,21 +7497,21 @@ function createDisabledPseudo( disabled ) {
  * @param {Function} fn
  */
 function createPositionalPseudo( fn ) {
-	return markFunction(function( argument ) {
+	return markFunction( function( argument ) {
 		argument = +argument;
-		return markFunction(function( seed, matches ) {
+		return markFunction( function( seed, matches ) {
 			var j,
 				matchIndexes = fn( [], seed.length, argument ),
 				i = matchIndexes.length;
 
 			// Match elements found at the specified indexes
 			while ( i-- ) {
-				if ( seed[ (j = matchIndexes[i]) ] ) {
-					seed[j] = !(matches[j] = seed[j]);
+				if ( seed[ ( j = matchIndexes[ i ] ) ] ) {
+					seed[ j ] = !( matches[ j ] = seed[ j ] );
 				}
 			}
-		});
-	});
+		} );
+	} );
 }
 
 /**
@@ -7937,7 +7533,7 @@ support = Sizzle.support = {};
  */
 isXML = Sizzle.isXML = function( elem ) {
 	var namespace = elem.namespaceURI,
-		docElem = (elem.ownerDocument || elem).documentElement;
+		docElem = ( elem.ownerDocument || elem ).documentElement;
 
 	// Support: IE <=8
 	// Assume HTML when documentElement doesn't yet exist, such as inside loading iframes
@@ -7955,7 +7551,11 @@ setDocument = Sizzle.setDocument = function( node ) {
 		doc = node ? node.ownerDocument || node : preferredDoc;
 
 	// Return early if doc is invalid or already selected
-	if ( doc === document || doc.nodeType !== 9 || !doc.documentElement ) {
+	// Support: IE 11+, Edge 17 - 18+
+	// IE/Edge sometimes throw a "Permission denied" error when strict-comparing
+	// two documents; shallow comparisons work.
+	// eslint-disable-next-line eqeqeq
+	if ( doc == document || doc.nodeType !== 9 || !doc.documentElement ) {
 		return document;
 	}
 
@@ -7964,10 +7564,14 @@ setDocument = Sizzle.setDocument = function( node ) {
 	docElem = document.documentElement;
 	documentIsHTML = !isXML( document );
 
-	// Support: IE 9-11, Edge
+	// Support: IE 9 - 11+, Edge 12 - 18+
 	// Accessing iframe documents after unload throws "permission denied" errors (jQuery #13936)
-	if ( preferredDoc !== document &&
-		(subWindow = document.defaultView) && subWindow.top !== subWindow ) {
+	// Support: IE 11+, Edge 17 - 18+
+	// IE/Edge sometimes throw a "Permission denied" error when strict-comparing
+	// two documents; shallow comparisons work.
+	// eslint-disable-next-line eqeqeq
+	if ( preferredDoc != document &&
+		( subWindow = document.defaultView ) && subWindow.top !== subWindow ) {
 
 		// Support: IE 11, Edge
 		if ( subWindow.addEventListener ) {
@@ -7979,25 +7583,36 @@ setDocument = Sizzle.setDocument = function( node ) {
 		}
 	}
 
+	// Support: IE 8 - 11+, Edge 12 - 18+, Chrome <=16 - 25 only, Firefox <=3.6 - 31 only,
+	// Safari 4 - 5 only, Opera <=11.6 - 12.x only
+	// IE/Edge & older browsers don't support the :scope pseudo-class.
+	// Support: Safari 6.0 only
+	// Safari 6.0 supports :scope but it's an alias of :root there.
+	support.scope = assert( function( el ) {
+		docElem.appendChild( el ).appendChild( document.createElement( "div" ) );
+		return typeof el.querySelectorAll !== "undefined" &&
+			!el.querySelectorAll( ":scope fieldset div" ).length;
+	} );
+
 	/* Attributes
 	---------------------------------------------------------------------- */
 
 	// Support: IE<8
 	// Verify that getAttribute really returns attributes and not properties
 	// (excepting IE8 booleans)
-	support.attributes = assert(function( el ) {
+	support.attributes = assert( function( el ) {
 		el.className = "i";
-		return !el.getAttribute("className");
-	});
+		return !el.getAttribute( "className" );
+	} );
 
 	/* getElement(s)By*
 	---------------------------------------------------------------------- */
 
 	// Check if getElementsByTagName("*") returns only elements
-	support.getElementsByTagName = assert(function( el ) {
-		el.appendChild( document.createComment("") );
-		return !el.getElementsByTagName("*").length;
-	});
+	support.getElementsByTagName = assert( function( el ) {
+		el.appendChild( document.createComment( "" ) );
+		return !el.getElementsByTagName( "*" ).length;
+	} );
 
 	// Support: IE<9
 	support.getElementsByClassName = rnative.test( document.getElementsByClassName );
@@ -8006,38 +7621,38 @@ setDocument = Sizzle.setDocument = function( node ) {
 	// Check if getElementById returns elements by name
 	// The broken getElementById methods don't pick up programmatically-set names,
 	// so use a roundabout getElementsByName test
-	support.getById = assert(function( el ) {
+	support.getById = assert( function( el ) {
 		docElem.appendChild( el ).id = expando;
 		return !document.getElementsByName || !document.getElementsByName( expando ).length;
-	});
+	} );
 
 	// ID filter and find
 	if ( support.getById ) {
-		Expr.filter["ID"] = function( id ) {
+		Expr.filter[ "ID" ] = function( id ) {
 			var attrId = id.replace( runescape, funescape );
 			return function( elem ) {
-				return elem.getAttribute("id") === attrId;
+				return elem.getAttribute( "id" ) === attrId;
 			};
 		};
-		Expr.find["ID"] = function( id, context ) {
+		Expr.find[ "ID" ] = function( id, context ) {
 			if ( typeof context.getElementById !== "undefined" && documentIsHTML ) {
 				var elem = context.getElementById( id );
 				return elem ? [ elem ] : [];
 			}
 		};
 	} else {
-		Expr.filter["ID"] =  function( id ) {
+		Expr.filter[ "ID" ] =  function( id ) {
 			var attrId = id.replace( runescape, funescape );
 			return function( elem ) {
 				var node = typeof elem.getAttributeNode !== "undefined" &&
-					elem.getAttributeNode("id");
+					elem.getAttributeNode( "id" );
 				return node && node.value === attrId;
 			};
 		};
 
 		// Support: IE 6 - 7 only
 		// getElementById is not reliable as a find shortcut
-		Expr.find["ID"] = function( id, context ) {
+		Expr.find[ "ID" ] = function( id, context ) {
 			if ( typeof context.getElementById !== "undefined" && documentIsHTML ) {
 				var node, i, elems,
 					elem = context.getElementById( id );
@@ -8045,7 +7660,7 @@ setDocument = Sizzle.setDocument = function( node ) {
 				if ( elem ) {
 
 					// Verify the id attribute
-					node = elem.getAttributeNode("id");
+					node = elem.getAttributeNode( "id" );
 					if ( node && node.value === id ) {
 						return [ elem ];
 					}
@@ -8053,8 +7668,8 @@ setDocument = Sizzle.setDocument = function( node ) {
 					// Fall back on getElementsByName
 					elems = context.getElementsByName( id );
 					i = 0;
-					while ( (elem = elems[i++]) ) {
-						node = elem.getAttributeNode("id");
+					while ( ( elem = elems[ i++ ] ) ) {
+						node = elem.getAttributeNode( "id" );
 						if ( node && node.value === id ) {
 							return [ elem ];
 						}
@@ -8067,7 +7682,7 @@ setDocument = Sizzle.setDocument = function( node ) {
 	}
 
 	// Tag
-	Expr.find["TAG"] = support.getElementsByTagName ?
+	Expr.find[ "TAG" ] = support.getElementsByTagName ?
 		function( tag, context ) {
 			if ( typeof context.getElementsByTagName !== "undefined" ) {
 				return context.getElementsByTagName( tag );
@@ -8082,12 +7697,13 @@ setDocument = Sizzle.setDocument = function( node ) {
 			var elem,
 				tmp = [],
 				i = 0,
+
 				// By happy coincidence, a (broken) gEBTN appears on DocumentFragment nodes too
 				results = context.getElementsByTagName( tag );
 
 			// Filter out possible comments
 			if ( tag === "*" ) {
-				while ( (elem = results[i++]) ) {
+				while ( ( elem = results[ i++ ] ) ) {
 					if ( elem.nodeType === 1 ) {
 						tmp.push( elem );
 					}
@@ -8099,7 +7715,7 @@ setDocument = Sizzle.setDocument = function( node ) {
 		};
 
 	// Class
-	Expr.find["CLASS"] = support.getElementsByClassName && function( className, context ) {
+	Expr.find[ "CLASS" ] = support.getElementsByClassName && function( className, context ) {
 		if ( typeof context.getElementsByClassName !== "undefined" && documentIsHTML ) {
 			return context.getElementsByClassName( className );
 		}
@@ -8120,10 +7736,14 @@ setDocument = Sizzle.setDocument = function( node ) {
 	// See https://bugs.jquery.com/ticket/13378
 	rbuggyQSA = [];
 
-	if ( (support.qsa = rnative.test( document.querySelectorAll )) ) {
+	if ( ( support.qsa = rnative.test( document.querySelectorAll ) ) ) {
+
 		// Build QSA regex
 		// Regex strategy adopted from Diego Perini
-		assert(function( el ) {
+		assert( function( el ) {
+
+			var input;
+
 			// Select is set to empty string on purpose
 			// This is to test IE's treatment of not explicitly
 			// setting a boolean content attribute,
@@ -8137,78 +7757,98 @@ setDocument = Sizzle.setDocument = function( node ) {
 			// Nothing should be selected when empty strings follow ^= or $= or *=
 			// The test attribute must be unknown in Opera but "safe" for WinRT
 			// https://msdn.microsoft.com/en-us/library/ie/hh465388.aspx#attribute_section
-			if ( el.querySelectorAll("[msallowcapture^='']").length ) {
+			if ( el.querySelectorAll( "[msallowcapture^='']" ).length ) {
 				rbuggyQSA.push( "[*^$]=" + whitespace + "*(?:''|\"\")" );
 			}
 
 			// Support: IE8
 			// Boolean attributes and "value" are not treated correctly
-			if ( !el.querySelectorAll("[selected]").length ) {
+			if ( !el.querySelectorAll( "[selected]" ).length ) {
 				rbuggyQSA.push( "\\[" + whitespace + "*(?:value|" + booleans + ")" );
 			}
 
 			// Support: Chrome<29, Android<4.4, Safari<7.0+, iOS<7.0+, PhantomJS<1.9.8+
 			if ( !el.querySelectorAll( "[id~=" + expando + "-]" ).length ) {
-				rbuggyQSA.push("~=");
+				rbuggyQSA.push( "~=" );
+			}
+
+			// Support: IE 11+, Edge 15 - 18+
+			// IE 11/Edge don't find elements on a `[name='']` query in some cases.
+			// Adding a temporary attribute to the document before the selection works
+			// around the issue.
+			// Interestingly, IE 10 & older don't seem to have the issue.
+			input = document.createElement( "input" );
+			input.setAttribute( "name", "" );
+			el.appendChild( input );
+			if ( !el.querySelectorAll( "[name='']" ).length ) {
+				rbuggyQSA.push( "\\[" + whitespace + "*name" + whitespace + "*=" +
+					whitespace + "*(?:''|\"\")" );
 			}
 
 			// Webkit/Opera - :checked should return selected option elements
 			// http://www.w3.org/TR/2011/REC-css3-selectors-20110929/#checked
 			// IE8 throws error here and will not see later tests
-			if ( !el.querySelectorAll(":checked").length ) {
-				rbuggyQSA.push(":checked");
+			if ( !el.querySelectorAll( ":checked" ).length ) {
+				rbuggyQSA.push( ":checked" );
 			}
 
 			// Support: Safari 8+, iOS 8+
 			// https://bugs.webkit.org/show_bug.cgi?id=136851
 			// In-page `selector#id sibling-combinator selector` fails
 			if ( !el.querySelectorAll( "a#" + expando + "+*" ).length ) {
-				rbuggyQSA.push(".#.+[+~]");
+				rbuggyQSA.push( ".#.+[+~]" );
 			}
-		});
 
-		assert(function( el ) {
+			// Support: Firefox <=3.6 - 5 only
+			// Old Firefox doesn't throw on a badly-escaped identifier.
+			el.querySelectorAll( "\\\f" );
+			rbuggyQSA.push( "[\\r\\n\\f]" );
+		} );
+
+		assert( function( el ) {
 			el.innerHTML = "<a href='' disabled='disabled'></a>" +
 				"<select disabled='disabled'><option/></select>";
 
 			// Support: Windows 8 Native Apps
 			// The type and name attributes are restricted during .innerHTML assignment
-			var input = document.createElement("input");
+			var input = document.createElement( "input" );
 			input.setAttribute( "type", "hidden" );
 			el.appendChild( input ).setAttribute( "name", "D" );
 
 			// Support: IE8
 			// Enforce case-sensitivity of name attribute
-			if ( el.querySelectorAll("[name=d]").length ) {
+			if ( el.querySelectorAll( "[name=d]" ).length ) {
 				rbuggyQSA.push( "name" + whitespace + "*[*^$|!~]?=" );
 			}
 
 			// FF 3.5 - :enabled/:disabled and hidden elements (hidden elements are still enabled)
 			// IE8 throws error here and will not see later tests
-			if ( el.querySelectorAll(":enabled").length !== 2 ) {
+			if ( el.querySelectorAll( ":enabled" ).length !== 2 ) {
 				rbuggyQSA.push( ":enabled", ":disabled" );
 			}
 
 			// Support: IE9-11+
 			// IE's :disabled selector does not pick up the children of disabled fieldsets
 			docElem.appendChild( el ).disabled = true;
-			if ( el.querySelectorAll(":disabled").length !== 2 ) {
+			if ( el.querySelectorAll( ":disabled" ).length !== 2 ) {
 				rbuggyQSA.push( ":enabled", ":disabled" );
 			}
 
+			// Support: Opera 10 - 11 only
 			// Opera 10-11 does not throw on post-comma invalid pseudos
-			el.querySelectorAll("*,:x");
-			rbuggyQSA.push(",.*:");
-		});
+			el.querySelectorAll( "*,:x" );
+			rbuggyQSA.push( ",.*:" );
+		} );
 	}
 
-	if ( (support.matchesSelector = rnative.test( (matches = docElem.matches ||
+	if ( ( support.matchesSelector = rnative.test( ( matches = docElem.matches ||
 		docElem.webkitMatchesSelector ||
 		docElem.mozMatchesSelector ||
 		docElem.oMatchesSelector ||
-		docElem.msMatchesSelector) )) ) {
+		docElem.msMatchesSelector ) ) ) ) {
 
-		assert(function( el ) {
+		assert( function( el ) {
+
 			// Check to see if it's possible to do matchesSelector
 			// on a disconnected node (IE 9)
 			support.disconnectedMatch = matches.call( el, "*" );
@@ -8217,11 +7857,11 @@ setDocument = Sizzle.setDocument = function( node ) {
 			// Gecko does not error, returns false instead
 			matches.call( el, "[s!='']:x" );
 			rbuggyMatches.push( "!=", pseudos );
-		});
+		} );
 	}
 
-	rbuggyQSA = rbuggyQSA.length && new RegExp( rbuggyQSA.join("|") );
-	rbuggyMatches = rbuggyMatches.length && new RegExp( rbuggyMatches.join("|") );
+	rbuggyQSA = rbuggyQSA.length && new RegExp( rbuggyQSA.join( "|" ) );
+	rbuggyMatches = rbuggyMatches.length && new RegExp( rbuggyMatches.join( "|" ) );
 
 	/* Contains
 	---------------------------------------------------------------------- */
@@ -8238,11 +7878,11 @@ setDocument = Sizzle.setDocument = function( node ) {
 				adown.contains ?
 					adown.contains( bup ) :
 					a.compareDocumentPosition && a.compareDocumentPosition( bup ) & 16
-			));
+			) );
 		} :
 		function( a, b ) {
 			if ( b ) {
-				while ( (b = b.parentNode) ) {
+				while ( ( b = b.parentNode ) ) {
 					if ( b === a ) {
 						return true;
 					}
@@ -8271,7 +7911,11 @@ setDocument = Sizzle.setDocument = function( node ) {
 		}
 
 		// Calculate position if both inputs belong to the same document
-		compare = ( a.ownerDocument || a ) === ( b.ownerDocument || b ) ?
+		// Support: IE 11+, Edge 17 - 18+
+		// IE/Edge sometimes throw a "Permission denied" error when strict-comparing
+		// two documents; shallow comparisons work.
+		// eslint-disable-next-line eqeqeq
+		compare = ( a.ownerDocument || a ) == ( b.ownerDocument || b ) ?
 			a.compareDocumentPosition( b ) :
 
 			// Otherwise we know they are disconnected
@@ -8279,13 +7923,24 @@ setDocument = Sizzle.setDocument = function( node ) {
 
 		// Disconnected nodes
 		if ( compare & 1 ||
-			(!support.sortDetached && b.compareDocumentPosition( a ) === compare) ) {
+			( !support.sortDetached && b.compareDocumentPosition( a ) === compare ) ) {
 
 			// Choose the first element that is related to our preferred document
-			if ( a === document || a.ownerDocument === preferredDoc && contains(preferredDoc, a) ) {
+			// Support: IE 11+, Edge 17 - 18+
+			// IE/Edge sometimes throw a "Permission denied" error when strict-comparing
+			// two documents; shallow comparisons work.
+			// eslint-disable-next-line eqeqeq
+			if ( a == document || a.ownerDocument == preferredDoc &&
+				contains( preferredDoc, a ) ) {
 				return -1;
 			}
-			if ( b === document || b.ownerDocument === preferredDoc && contains(preferredDoc, b) ) {
+
+			// Support: IE 11+, Edge 17 - 18+
+			// IE/Edge sometimes throw a "Permission denied" error when strict-comparing
+			// two documents; shallow comparisons work.
+			// eslint-disable-next-line eqeqeq
+			if ( b == document || b.ownerDocument == preferredDoc &&
+				contains( preferredDoc, b ) ) {
 				return 1;
 			}
 
@@ -8298,6 +7953,7 @@ setDocument = Sizzle.setDocument = function( node ) {
 		return compare & 4 ? -1 : 1;
 	} :
 	function( a, b ) {
+
 		// Exit early if the nodes are identical
 		if ( a === b ) {
 			hasDuplicate = true;
@@ -8313,8 +7969,14 @@ setDocument = Sizzle.setDocument = function( node ) {
 
 		// Parentless nodes are either documents or disconnected
 		if ( !aup || !bup ) {
-			return a === document ? -1 :
-				b === document ? 1 :
+
+			// Support: IE 11+, Edge 17 - 18+
+			// IE/Edge sometimes throw a "Permission denied" error when strict-comparing
+			// two documents; shallow comparisons work.
+			/* eslint-disable eqeqeq */
+			return a == document ? -1 :
+				b == document ? 1 :
+				/* eslint-enable eqeqeq */
 				aup ? -1 :
 				bup ? 1 :
 				sortInput ?
@@ -8328,26 +7990,32 @@ setDocument = Sizzle.setDocument = function( node ) {
 
 		// Otherwise we need full lists of their ancestors for comparison
 		cur = a;
-		while ( (cur = cur.parentNode) ) {
+		while ( ( cur = cur.parentNode ) ) {
 			ap.unshift( cur );
 		}
 		cur = b;
-		while ( (cur = cur.parentNode) ) {
+		while ( ( cur = cur.parentNode ) ) {
 			bp.unshift( cur );
 		}
 
 		// Walk down the tree looking for a discrepancy
-		while ( ap[i] === bp[i] ) {
+		while ( ap[ i ] === bp[ i ] ) {
 			i++;
 		}
 
 		return i ?
+
 			// Do a sibling check if the nodes have a common ancestor
-			siblingCheck( ap[i], bp[i] ) :
+			siblingCheck( ap[ i ], bp[ i ] ) :
 
 			// Otherwise nodes in our document sort first
-			ap[i] === preferredDoc ? -1 :
-			bp[i] === preferredDoc ? 1 :
+			// Support: IE 11+, Edge 17 - 18+
+			// IE/Edge sometimes throw a "Permission denied" error when strict-comparing
+			// two documents; shallow comparisons work.
+			/* eslint-disable eqeqeq */
+			ap[ i ] == preferredDoc ? -1 :
+			bp[ i ] == preferredDoc ? 1 :
+			/* eslint-enable eqeqeq */
 			0;
 	};
 
@@ -8359,10 +8027,7 @@ Sizzle.matches = function( expr, elements ) {
 };
 
 Sizzle.matchesSelector = function( elem, expr ) {
-	// Set document vars if needed
-	if ( ( elem.ownerDocument || elem ) !== document ) {
-		setDocument( elem );
-	}
+	setDocument( elem );
 
 	if ( support.matchesSelector && documentIsHTML &&
 		!nonnativeSelectorCache[ expr + " " ] &&
@@ -8374,12 +8039,13 @@ Sizzle.matchesSelector = function( elem, expr ) {
 
 			// IE 9's matchesSelector returns false on disconnected nodes
 			if ( ret || support.disconnectedMatch ||
-					// As well, disconnected nodes are said to be in a document
-					// fragment in IE 9
-					elem.document && elem.document.nodeType !== 11 ) {
+
+				// As well, disconnected nodes are said to be in a document
+				// fragment in IE 9
+				elem.document && elem.document.nodeType !== 11 ) {
 				return ret;
 			}
-		} catch (e) {
+		} catch ( e ) {
 			nonnativeSelectorCache( expr, true );
 		}
 	}
@@ -8388,20 +8054,31 @@ Sizzle.matchesSelector = function( elem, expr ) {
 };
 
 Sizzle.contains = function( context, elem ) {
+
 	// Set document vars if needed
-	if ( ( context.ownerDocument || context ) !== document ) {
+	// Support: IE 11+, Edge 17 - 18+
+	// IE/Edge sometimes throw a "Permission denied" error when strict-comparing
+	// two documents; shallow comparisons work.
+	// eslint-disable-next-line eqeqeq
+	if ( ( context.ownerDocument || context ) != document ) {
 		setDocument( context );
 	}
 	return contains( context, elem );
 };
 
 Sizzle.attr = function( elem, name ) {
+
 	// Set document vars if needed
-	if ( ( elem.ownerDocument || elem ) !== document ) {
+	// Support: IE 11+, Edge 17 - 18+
+	// IE/Edge sometimes throw a "Permission denied" error when strict-comparing
+	// two documents; shallow comparisons work.
+	// eslint-disable-next-line eqeqeq
+	if ( ( elem.ownerDocument || elem ) != document ) {
 		setDocument( elem );
 	}
 
 	var fn = Expr.attrHandle[ name.toLowerCase() ],
+
 		// Don't get fooled by Object.prototype properties (jQuery #13807)
 		val = fn && hasOwn.call( Expr.attrHandle, name.toLowerCase() ) ?
 			fn( elem, name, !documentIsHTML ) :
@@ -8411,13 +8088,13 @@ Sizzle.attr = function( elem, name ) {
 		val :
 		support.attributes || !documentIsHTML ?
 			elem.getAttribute( name ) :
-			(val = elem.getAttributeNode(name)) && val.specified ?
+			( val = elem.getAttributeNode( name ) ) && val.specified ?
 				val.value :
 				null;
 };
 
 Sizzle.escape = function( sel ) {
-	return (sel + "").replace( rcssescape, fcssescape );
+	return ( sel + "" ).replace( rcssescape, fcssescape );
 };
 
 Sizzle.error = function( msg ) {
@@ -8440,7 +8117,7 @@ Sizzle.uniqueSort = function( results ) {
 	results.sort( sortOrder );
 
 	if ( hasDuplicate ) {
-		while ( (elem = results[i++]) ) {
+		while ( ( elem = results[ i++ ] ) ) {
 			if ( elem === results[ i ] ) {
 				j = duplicates.push( i );
 			}
@@ -8468,17 +8145,21 @@ getText = Sizzle.getText = function( elem ) {
 		nodeType = elem.nodeType;
 
 	if ( !nodeType ) {
+
 		// If no nodeType, this is expected to be an array
-		while ( (node = elem[i++]) ) {
+		while ( ( node = elem[ i++ ] ) ) {
+
 			// Do not traverse comment nodes
 			ret += getText( node );
 		}
 	} else if ( nodeType === 1 || nodeType === 9 || nodeType === 11 ) {
+
 		// Use textContent for elements
 		// innerText usage removed for consistency of new lines (jQuery #11153)
 		if ( typeof elem.textContent === "string" ) {
 			return elem.textContent;
 		} else {
+
 			// Traverse its children
 			for ( elem = elem.firstChild; elem; elem = elem.nextSibling ) {
 				ret += getText( elem );
@@ -8487,6 +8168,7 @@ getText = Sizzle.getText = function( elem ) {
 	} else if ( nodeType === 3 || nodeType === 4 ) {
 		return elem.nodeValue;
 	}
+
 	// Do not include comment or processing instruction nodes
 
 	return ret;
@@ -8514,19 +8196,21 @@ Expr = Sizzle.selectors = {
 
 	preFilter: {
 		"ATTR": function( match ) {
-			match[1] = match[1].replace( runescape, funescape );
+			match[ 1 ] = match[ 1 ].replace( runescape, funescape );
 
 			// Move the given value to match[3] whether quoted or unquoted
-			match[3] = ( match[3] || match[4] || match[5] || "" ).replace( runescape, funescape );
+			match[ 3 ] = ( match[ 3 ] || match[ 4 ] ||
+				match[ 5 ] || "" ).replace( runescape, funescape );
 
-			if ( match[2] === "~=" ) {
-				match[3] = " " + match[3] + " ";
+			if ( match[ 2 ] === "~=" ) {
+				match[ 3 ] = " " + match[ 3 ] + " ";
 			}
 
 			return match.slice( 0, 4 );
 		},
 
 		"CHILD": function( match ) {
+
 			/* matches from matchExpr["CHILD"]
 				1 type (only|nth|...)
 				2 what (child|of-type)
@@ -8537,22 +8221,25 @@ Expr = Sizzle.selectors = {
 				7 sign of y-component
 				8 y of y-component
 			*/
-			match[1] = match[1].toLowerCase();
+			match[ 1 ] = match[ 1 ].toLowerCase();
 
-			if ( match[1].slice( 0, 3 ) === "nth" ) {
+			if ( match[ 1 ].slice( 0, 3 ) === "nth" ) {
+
 				// nth-* requires argument
-				if ( !match[3] ) {
-					Sizzle.error( match[0] );
+				if ( !match[ 3 ] ) {
+					Sizzle.error( match[ 0 ] );
 				}
 
 				// numeric x and y parameters for Expr.filter.CHILD
 				// remember that false/true cast respectively to 0/1
-				match[4] = +( match[4] ? match[5] + (match[6] || 1) : 2 * ( match[3] === "even" || match[3] === "odd" ) );
-				match[5] = +( ( match[7] + match[8] ) || match[3] === "odd" );
+				match[ 4 ] = +( match[ 4 ] ?
+					match[ 5 ] + ( match[ 6 ] || 1 ) :
+					2 * ( match[ 3 ] === "even" || match[ 3 ] === "odd" ) );
+				match[ 5 ] = +( ( match[ 7 ] + match[ 8 ] ) || match[ 3 ] === "odd" );
 
-			// other types prohibit arguments
-			} else if ( match[3] ) {
-				Sizzle.error( match[0] );
+				// other types prohibit arguments
+			} else if ( match[ 3 ] ) {
+				Sizzle.error( match[ 0 ] );
 			}
 
 			return match;
@@ -8560,26 +8247,28 @@ Expr = Sizzle.selectors = {
 
 		"PSEUDO": function( match ) {
 			var excess,
-				unquoted = !match[6] && match[2];
+				unquoted = !match[ 6 ] && match[ 2 ];
 
-			if ( matchExpr["CHILD"].test( match[0] ) ) {
+			if ( matchExpr[ "CHILD" ].test( match[ 0 ] ) ) {
 				return null;
 			}
 
 			// Accept quoted arguments as-is
-			if ( match[3] ) {
-				match[2] = match[4] || match[5] || "";
+			if ( match[ 3 ] ) {
+				match[ 2 ] = match[ 4 ] || match[ 5 ] || "";
 
 			// Strip excess characters from unquoted arguments
 			} else if ( unquoted && rpseudo.test( unquoted ) &&
+
 				// Get excess from tokenize (recursively)
-				(excess = tokenize( unquoted, true )) &&
+				( excess = tokenize( unquoted, true ) ) &&
+
 				// advance to the next closing parenthesis
-				(excess = unquoted.indexOf( ")", unquoted.length - excess ) - unquoted.length) ) {
+				( excess = unquoted.indexOf( ")", unquoted.length - excess ) - unquoted.length ) ) {
 
 				// excess is a negative index
-				match[0] = match[0].slice( 0, excess );
-				match[2] = unquoted.slice( 0, excess );
+				match[ 0 ] = match[ 0 ].slice( 0, excess );
+				match[ 2 ] = unquoted.slice( 0, excess );
 			}
 
 			// Return only captures needed by the pseudo filter method (type and argument)
@@ -8592,7 +8281,9 @@ Expr = Sizzle.selectors = {
 		"TAG": function( nodeNameSelector ) {
 			var nodeName = nodeNameSelector.replace( runescape, funescape ).toLowerCase();
 			return nodeNameSelector === "*" ?
-				function() { return true; } :
+				function() {
+					return true;
+				} :
 				function( elem ) {
 					return elem.nodeName && elem.nodeName.toLowerCase() === nodeName;
 				};
@@ -8602,10 +8293,16 @@ Expr = Sizzle.selectors = {
 			var pattern = classCache[ className + " " ];
 
 			return pattern ||
-				(pattern = new RegExp( "(^|" + whitespace + ")" + className + "(" + whitespace + "|$)" )) &&
-				classCache( className, function( elem ) {
-					return pattern.test( typeof elem.className === "string" && elem.className || typeof elem.getAttribute !== "undefined" && elem.getAttribute("class") || "" );
-				});
+				( pattern = new RegExp( "(^|" + whitespace +
+					")" + className + "(" + whitespace + "|$)" ) ) && classCache(
+						className, function( elem ) {
+							return pattern.test(
+								typeof elem.className === "string" && elem.className ||
+								typeof elem.getAttribute !== "undefined" &&
+									elem.getAttribute( "class" ) ||
+								""
+							);
+				} );
 		},
 
 		"ATTR": function( name, operator, check ) {
@@ -8621,6 +8318,8 @@ Expr = Sizzle.selectors = {
 
 				result += "";
 
+				/* eslint-disable max-len */
+
 				return operator === "=" ? result === check :
 					operator === "!=" ? result !== check :
 					operator === "^=" ? check && result.indexOf( check ) === 0 :
@@ -8629,10 +8328,12 @@ Expr = Sizzle.selectors = {
 					operator === "~=" ? ( " " + result.replace( rwhitespace, " " ) + " " ).indexOf( check ) > -1 :
 					operator === "|=" ? result === check || result.slice( 0, check.length + 1 ) === check + "-" :
 					false;
+				/* eslint-enable max-len */
+
 			};
 		},
 
-		"CHILD": function( type, what, argument, first, last ) {
+		"CHILD": function( type, what, _argument, first, last ) {
 			var simple = type.slice( 0, 3 ) !== "nth",
 				forward = type.slice( -4 ) !== "last",
 				ofType = what === "of-type";
@@ -8644,7 +8345,7 @@ Expr = Sizzle.selectors = {
 					return !!elem.parentNode;
 				} :
 
-				function( elem, context, xml ) {
+				function( elem, _context, xml ) {
 					var cache, uniqueCache, outerCache, node, nodeIndex, start,
 						dir = simple !== forward ? "nextSibling" : "previousSibling",
 						parent = elem.parentNode,
@@ -8658,7 +8359,7 @@ Expr = Sizzle.selectors = {
 						if ( simple ) {
 							while ( dir ) {
 								node = elem;
-								while ( (node = node[ dir ]) ) {
+								while ( ( node = node[ dir ] ) ) {
 									if ( ofType ?
 										node.nodeName.toLowerCase() === name :
 										node.nodeType === 1 ) {
@@ -8666,6 +8367,7 @@ Expr = Sizzle.selectors = {
 										return false;
 									}
 								}
+
 								// Reverse direction for :only-* (if we haven't yet done so)
 								start = dir = type === "only" && !start && "nextSibling";
 							}
@@ -8681,22 +8383,22 @@ Expr = Sizzle.selectors = {
 
 							// ...in a gzip-friendly way
 							node = parent;
-							outerCache = node[ expando ] || (node[ expando ] = {});
+							outerCache = node[ expando ] || ( node[ expando ] = {} );
 
 							// Support: IE <9 only
 							// Defend against cloned attroperties (jQuery gh-1709)
 							uniqueCache = outerCache[ node.uniqueID ] ||
-								(outerCache[ node.uniqueID ] = {});
+								( outerCache[ node.uniqueID ] = {} );
 
 							cache = uniqueCache[ type ] || [];
 							nodeIndex = cache[ 0 ] === dirruns && cache[ 1 ];
 							diff = nodeIndex && cache[ 2 ];
 							node = nodeIndex && parent.childNodes[ nodeIndex ];
 
-							while ( (node = ++nodeIndex && node && node[ dir ] ||
+							while ( ( node = ++nodeIndex && node && node[ dir ] ||
 
 								// Fallback to seeking `elem` from the start
-								(diff = nodeIndex = 0) || start.pop()) ) {
+								( diff = nodeIndex = 0 ) || start.pop() ) ) {
 
 								// When found, cache indexes on `parent` and break
 								if ( node.nodeType === 1 && ++diff && node === elem ) {
@@ -8706,16 +8408,18 @@ Expr = Sizzle.selectors = {
 							}
 
 						} else {
+
 							// Use previously-cached element index if available
 							if ( useCache ) {
+
 								// ...in a gzip-friendly way
 								node = elem;
-								outerCache = node[ expando ] || (node[ expando ] = {});
+								outerCache = node[ expando ] || ( node[ expando ] = {} );
 
 								// Support: IE <9 only
 								// Defend against cloned attroperties (jQuery gh-1709)
 								uniqueCache = outerCache[ node.uniqueID ] ||
-									(outerCache[ node.uniqueID ] = {});
+									( outerCache[ node.uniqueID ] = {} );
 
 								cache = uniqueCache[ type ] || [];
 								nodeIndex = cache[ 0 ] === dirruns && cache[ 1 ];
@@ -8725,9 +8429,10 @@ Expr = Sizzle.selectors = {
 							// xml :nth-child(...)
 							// or :nth-last-child(...) or :nth(-last)?-of-type(...)
 							if ( diff === false ) {
+
 								// Use the same loop as above to seek `elem` from the start
-								while ( (node = ++nodeIndex && node && node[ dir ] ||
-									(diff = nodeIndex = 0) || start.pop()) ) {
+								while ( ( node = ++nodeIndex && node && node[ dir ] ||
+									( diff = nodeIndex = 0 ) || start.pop() ) ) {
 
 									if ( ( ofType ?
 										node.nodeName.toLowerCase() === name :
@@ -8736,12 +8441,13 @@ Expr = Sizzle.selectors = {
 
 										// Cache the index of each encountered element
 										if ( useCache ) {
-											outerCache = node[ expando ] || (node[ expando ] = {});
+											outerCache = node[ expando ] ||
+												( node[ expando ] = {} );
 
 											// Support: IE <9 only
 											// Defend against cloned attroperties (jQuery gh-1709)
 											uniqueCache = outerCache[ node.uniqueID ] ||
-												(outerCache[ node.uniqueID ] = {});
+												( outerCache[ node.uniqueID ] = {} );
 
 											uniqueCache[ type ] = [ dirruns, diff ];
 										}
@@ -8762,6 +8468,7 @@ Expr = Sizzle.selectors = {
 		},
 
 		"PSEUDO": function( pseudo, argument ) {
+
 			// pseudo-class names are case-insensitive
 			// http://www.w3.org/TR/selectors/#pseudo-classes
 			// Prioritize by case sensitivity in case custom pseudos are added with uppercase letters
@@ -8781,15 +8488,15 @@ Expr = Sizzle.selectors = {
 			if ( fn.length > 1 ) {
 				args = [ pseudo, pseudo, "", argument ];
 				return Expr.setFilters.hasOwnProperty( pseudo.toLowerCase() ) ?
-					markFunction(function( seed, matches ) {
+					markFunction( function( seed, matches ) {
 						var idx,
 							matched = fn( seed, argument ),
 							i = matched.length;
 						while ( i-- ) {
-							idx = indexOf( seed, matched[i] );
-							seed[ idx ] = !( matches[ idx ] = matched[i] );
+							idx = indexOf( seed, matched[ i ] );
+							seed[ idx ] = !( matches[ idx ] = matched[ i ] );
 						}
-					}) :
+					} ) :
 					function( elem ) {
 						return fn( elem, 0, args );
 					};
@@ -8800,8 +8507,10 @@ Expr = Sizzle.selectors = {
 	},
 
 	pseudos: {
+
 		// Potentially complex pseudos
-		"not": markFunction(function( selector ) {
+		"not": markFunction( function( selector ) {
+
 			// Trim the selector passed to compile
 			// to avoid treating leading and trailing
 			// spaces as combinators
@@ -8810,39 +8519,40 @@ Expr = Sizzle.selectors = {
 				matcher = compile( selector.replace( rtrim, "$1" ) );
 
 			return matcher[ expando ] ?
-				markFunction(function( seed, matches, context, xml ) {
+				markFunction( function( seed, matches, _context, xml ) {
 					var elem,
 						unmatched = matcher( seed, null, xml, [] ),
 						i = seed.length;
 
 					// Match elements unmatched by `matcher`
 					while ( i-- ) {
-						if ( (elem = unmatched[i]) ) {
-							seed[i] = !(matches[i] = elem);
+						if ( ( elem = unmatched[ i ] ) ) {
+							seed[ i ] = !( matches[ i ] = elem );
 						}
 					}
-				}) :
-				function( elem, context, xml ) {
-					input[0] = elem;
+				} ) :
+				function( elem, _context, xml ) {
+					input[ 0 ] = elem;
 					matcher( input, null, xml, results );
+
 					// Don't keep the element (issue #299)
-					input[0] = null;
+					input[ 0 ] = null;
 					return !results.pop();
 				};
-		}),
+		} ),
 
-		"has": markFunction(function( selector ) {
+		"has": markFunction( function( selector ) {
 			return function( elem ) {
 				return Sizzle( selector, elem ).length > 0;
 			};
-		}),
+		} ),
 
-		"contains": markFunction(function( text ) {
+		"contains": markFunction( function( text ) {
 			text = text.replace( runescape, funescape );
 			return function( elem ) {
 				return ( elem.textContent || getText( elem ) ).indexOf( text ) > -1;
 			};
-		}),
+		} ),
 
 		// "Whether an element is represented by a :lang() selector
 		// is based solely on the element's language value
@@ -8852,25 +8562,26 @@ Expr = Sizzle.selectors = {
 		// The identifier C does not have to be a valid language name."
 		// http://www.w3.org/TR/selectors/#lang-pseudo
 		"lang": markFunction( function( lang ) {
+
 			// lang value must be a valid identifier
-			if ( !ridentifier.test(lang || "") ) {
+			if ( !ridentifier.test( lang || "" ) ) {
 				Sizzle.error( "unsupported lang: " + lang );
 			}
 			lang = lang.replace( runescape, funescape ).toLowerCase();
 			return function( elem ) {
 				var elemLang;
 				do {
-					if ( (elemLang = documentIsHTML ?
+					if ( ( elemLang = documentIsHTML ?
 						elem.lang :
-						elem.getAttribute("xml:lang") || elem.getAttribute("lang")) ) {
+						elem.getAttribute( "xml:lang" ) || elem.getAttribute( "lang" ) ) ) {
 
 						elemLang = elemLang.toLowerCase();
 						return elemLang === lang || elemLang.indexOf( lang + "-" ) === 0;
 					}
-				} while ( (elem = elem.parentNode) && elem.nodeType === 1 );
+				} while ( ( elem = elem.parentNode ) && elem.nodeType === 1 );
 				return false;
 			};
-		}),
+		} ),
 
 		// Miscellaneous
 		"target": function( elem ) {
@@ -8883,7 +8594,9 @@ Expr = Sizzle.selectors = {
 		},
 
 		"focus": function( elem ) {
-			return elem === document.activeElement && (!document.hasFocus || document.hasFocus()) && !!(elem.type || elem.href || ~elem.tabIndex);
+			return elem === document.activeElement &&
+				( !document.hasFocus || document.hasFocus() ) &&
+				!!( elem.type || elem.href || ~elem.tabIndex );
 		},
 
 		// Boolean properties
@@ -8891,16 +8604,20 @@ Expr = Sizzle.selectors = {
 		"disabled": createDisabledPseudo( true ),
 
 		"checked": function( elem ) {
+
 			// In CSS3, :checked should return both checked and selected elements
 			// http://www.w3.org/TR/2011/REC-css3-selectors-20110929/#checked
 			var nodeName = elem.nodeName.toLowerCase();
-			return (nodeName === "input" && !!elem.checked) || (nodeName === "option" && !!elem.selected);
+			return ( nodeName === "input" && !!elem.checked ) ||
+				( nodeName === "option" && !!elem.selected );
 		},
 
 		"selected": function( elem ) {
+
 			// Accessing this property makes selected-by-default
 			// options in Safari work properly
 			if ( elem.parentNode ) {
+				// eslint-disable-next-line no-unused-expressions
 				elem.parentNode.selectedIndex;
 			}
 
@@ -8909,6 +8626,7 @@ Expr = Sizzle.selectors = {
 
 		// Contents
 		"empty": function( elem ) {
+
 			// http://www.w3.org/TR/selectors/#empty-pseudo
 			// :empty is negated by element (1) or content nodes (text: 3; cdata: 4; entity ref: 5),
 			//   but not by others (comment: 8; processing instruction: 7; etc.)
@@ -8922,7 +8640,7 @@ Expr = Sizzle.selectors = {
 		},
 
 		"parent": function( elem ) {
-			return !Expr.pseudos["empty"]( elem );
+			return !Expr.pseudos[ "empty" ]( elem );
 		},
 
 		// Element/input types
@@ -8946,39 +8664,40 @@ Expr = Sizzle.selectors = {
 
 				// Support: IE<8
 				// New HTML5 attribute values (e.g., "search") appear with elem.type === "text"
-				( (attr = elem.getAttribute("type")) == null || attr.toLowerCase() === "text" );
+				( ( attr = elem.getAttribute( "type" ) ) == null ||
+					attr.toLowerCase() === "text" );
 		},
 
 		// Position-in-collection
-		"first": createPositionalPseudo(function() {
+		"first": createPositionalPseudo( function() {
 			return [ 0 ];
-		}),
+		} ),
 
-		"last": createPositionalPseudo(function( matchIndexes, length ) {
+		"last": createPositionalPseudo( function( _matchIndexes, length ) {
 			return [ length - 1 ];
-		}),
+		} ),
 
-		"eq": createPositionalPseudo(function( matchIndexes, length, argument ) {
+		"eq": createPositionalPseudo( function( _matchIndexes, length, argument ) {
 			return [ argument < 0 ? argument + length : argument ];
-		}),
+		} ),
 
-		"even": createPositionalPseudo(function( matchIndexes, length ) {
+		"even": createPositionalPseudo( function( matchIndexes, length ) {
 			var i = 0;
 			for ( ; i < length; i += 2 ) {
 				matchIndexes.push( i );
 			}
 			return matchIndexes;
-		}),
+		} ),
 
-		"odd": createPositionalPseudo(function( matchIndexes, length ) {
+		"odd": createPositionalPseudo( function( matchIndexes, length ) {
 			var i = 1;
 			for ( ; i < length; i += 2 ) {
 				matchIndexes.push( i );
 			}
 			return matchIndexes;
-		}),
+		} ),
 
-		"lt": createPositionalPseudo(function( matchIndexes, length, argument ) {
+		"lt": createPositionalPseudo( function( matchIndexes, length, argument ) {
 			var i = argument < 0 ?
 				argument + length :
 				argument > length ?
@@ -8988,19 +8707,19 @@ Expr = Sizzle.selectors = {
 				matchIndexes.push( i );
 			}
 			return matchIndexes;
-		}),
+		} ),
 
-		"gt": createPositionalPseudo(function( matchIndexes, length, argument ) {
+		"gt": createPositionalPseudo( function( matchIndexes, length, argument ) {
 			var i = argument < 0 ? argument + length : argument;
 			for ( ; ++i < length; ) {
 				matchIndexes.push( i );
 			}
 			return matchIndexes;
-		})
+		} )
 	}
 };
 
-Expr.pseudos["nth"] = Expr.pseudos["eq"];
+Expr.pseudos[ "nth" ] = Expr.pseudos[ "eq" ];
 
 // Add button/input type pseudos
 for ( i in { radio: true, checkbox: true, file: true, password: true, image: true } ) {
@@ -9031,37 +8750,39 @@ tokenize = Sizzle.tokenize = function( selector, parseOnly ) {
 	while ( soFar ) {
 
 		// Comma and first run
-		if ( !matched || (match = rcomma.exec( soFar )) ) {
+		if ( !matched || ( match = rcomma.exec( soFar ) ) ) {
 			if ( match ) {
+
 				// Don't consume trailing commas as valid
-				soFar = soFar.slice( match[0].length ) || soFar;
+				soFar = soFar.slice( match[ 0 ].length ) || soFar;
 			}
-			groups.push( (tokens = []) );
+			groups.push( ( tokens = [] ) );
 		}
 
 		matched = false;
 
 		// Combinators
-		if ( (match = rcombinators.exec( soFar )) ) {
+		if ( ( match = rcombinators.exec( soFar ) ) ) {
 			matched = match.shift();
-			tokens.push({
+			tokens.push( {
 				value: matched,
+
 				// Cast descendant combinators to space
-				type: match[0].replace( rtrim, " " )
-			});
+				type: match[ 0 ].replace( rtrim, " " )
+			} );
 			soFar = soFar.slice( matched.length );
 		}
 
 		// Filters
 		for ( type in Expr.filter ) {
-			if ( (match = matchExpr[ type ].exec( soFar )) && (!preFilters[ type ] ||
-				(match = preFilters[ type ]( match ))) ) {
+			if ( ( match = matchExpr[ type ].exec( soFar ) ) && ( !preFilters[ type ] ||
+				( match = preFilters[ type ]( match ) ) ) ) {
 				matched = match.shift();
-				tokens.push({
+				tokens.push( {
 					value: matched,
 					type: type,
 					matches: match
-				});
+				} );
 				soFar = soFar.slice( matched.length );
 			}
 		}
@@ -9078,6 +8799,7 @@ tokenize = Sizzle.tokenize = function( selector, parseOnly ) {
 		soFar.length :
 		soFar ?
 			Sizzle.error( selector ) :
+
 			// Cache the tokens
 			tokenCache( selector, groups ).slice( 0 );
 };
@@ -9087,7 +8809,7 @@ function toSelector( tokens ) {
 		len = tokens.length,
 		selector = "";
 	for ( ; i < len; i++ ) {
-		selector += tokens[i].value;
+		selector += tokens[ i ].value;
 	}
 	return selector;
 }
@@ -9100,9 +8822,10 @@ function addCombinator( matcher, combinator, base ) {
 		doneName = done++;
 
 	return combinator.first ?
+
 		// Check against closest ancestor/preceding element
 		function( elem, context, xml ) {
-			while ( (elem = elem[ dir ]) ) {
+			while ( ( elem = elem[ dir ] ) ) {
 				if ( elem.nodeType === 1 || checkNonElements ) {
 					return matcher( elem, context, xml );
 				}
@@ -9117,7 +8840,7 @@ function addCombinator( matcher, combinator, base ) {
 
 			// We can't set arbitrary data on XML nodes, so they don't benefit from combinator caching
 			if ( xml ) {
-				while ( (elem = elem[ dir ]) ) {
+				while ( ( elem = elem[ dir ] ) ) {
 					if ( elem.nodeType === 1 || checkNonElements ) {
 						if ( matcher( elem, context, xml ) ) {
 							return true;
@@ -9125,27 +8848,29 @@ function addCombinator( matcher, combinator, base ) {
 					}
 				}
 			} else {
-				while ( (elem = elem[ dir ]) ) {
+				while ( ( elem = elem[ dir ] ) ) {
 					if ( elem.nodeType === 1 || checkNonElements ) {
-						outerCache = elem[ expando ] || (elem[ expando ] = {});
+						outerCache = elem[ expando ] || ( elem[ expando ] = {} );
 
 						// Support: IE <9 only
 						// Defend against cloned attroperties (jQuery gh-1709)
-						uniqueCache = outerCache[ elem.uniqueID ] || (outerCache[ elem.uniqueID ] = {});
+						uniqueCache = outerCache[ elem.uniqueID ] ||
+							( outerCache[ elem.uniqueID ] = {} );
 
 						if ( skip && skip === elem.nodeName.toLowerCase() ) {
 							elem = elem[ dir ] || elem;
-						} else if ( (oldCache = uniqueCache[ key ]) &&
+						} else if ( ( oldCache = uniqueCache[ key ] ) &&
 							oldCache[ 0 ] === dirruns && oldCache[ 1 ] === doneName ) {
 
 							// Assign to newCache so results back-propagate to previous elements
-							return (newCache[ 2 ] = oldCache[ 2 ]);
+							return ( newCache[ 2 ] = oldCache[ 2 ] );
 						} else {
+
 							// Reuse newcache so results back-propagate to previous elements
 							uniqueCache[ key ] = newCache;
 
 							// A match means we're done; a fail means we have to keep checking
-							if ( (newCache[ 2 ] = matcher( elem, context, xml )) ) {
+							if ( ( newCache[ 2 ] = matcher( elem, context, xml ) ) ) {
 								return true;
 							}
 						}
@@ -9161,20 +8886,20 @@ function elementMatcher( matchers ) {
 		function( elem, context, xml ) {
 			var i = matchers.length;
 			while ( i-- ) {
-				if ( !matchers[i]( elem, context, xml ) ) {
+				if ( !matchers[ i ]( elem, context, xml ) ) {
 					return false;
 				}
 			}
 			return true;
 		} :
-		matchers[0];
+		matchers[ 0 ];
 }
 
 function multipleContexts( selector, contexts, results ) {
 	var i = 0,
 		len = contexts.length;
 	for ( ; i < len; i++ ) {
-		Sizzle( selector, contexts[i], results );
+		Sizzle( selector, contexts[ i ], results );
 	}
 	return results;
 }
@@ -9187,7 +8912,7 @@ function condense( unmatched, map, filter, context, xml ) {
 		mapped = map != null;
 
 	for ( ; i < len; i++ ) {
-		if ( (elem = unmatched[i]) ) {
+		if ( ( elem = unmatched[ i ] ) ) {
 			if ( !filter || filter( elem, context, xml ) ) {
 				newUnmatched.push( elem );
 				if ( mapped ) {
@@ -9207,14 +8932,18 @@ function setMatcher( preFilter, selector, matcher, postFilter, postFinder, postS
 	if ( postFinder && !postFinder[ expando ] ) {
 		postFinder = setMatcher( postFinder, postSelector );
 	}
-	return markFunction(function( seed, results, context, xml ) {
+	return markFunction( function( seed, results, context, xml ) {
 		var temp, i, elem,
 			preMap = [],
 			postMap = [],
 			preexisting = results.length,
 
 			// Get initial elements from seed or context
-			elems = seed || multipleContexts( selector || "*", context.nodeType ? [ context ] : context, [] ),
+			elems = seed || multipleContexts(
+				selector || "*",
+				context.nodeType ? [ context ] : context,
+				[]
+			),
 
 			// Prefilter to get matcher input, preserving a map for seed-results synchronization
 			matcherIn = preFilter && ( seed || !selector ) ?
@@ -9222,6 +8951,7 @@ function setMatcher( preFilter, selector, matcher, postFilter, postFinder, postS
 				elems,
 
 			matcherOut = matcher ?
+
 				// If we have a postFinder, or filtered seed, or non-seed postFilter or preexisting results,
 				postFinder || ( seed ? preFilter : preexisting || postFilter ) ?
 
@@ -9245,8 +8975,8 @@ function setMatcher( preFilter, selector, matcher, postFilter, postFinder, postS
 			// Un-match failing elements by moving them back to matcherIn
 			i = temp.length;
 			while ( i-- ) {
-				if ( (elem = temp[i]) ) {
-					matcherOut[ postMap[i] ] = !(matcherIn[ postMap[i] ] = elem);
+				if ( ( elem = temp[ i ] ) ) {
+					matcherOut[ postMap[ i ] ] = !( matcherIn[ postMap[ i ] ] = elem );
 				}
 			}
 		}
@@ -9254,25 +8984,27 @@ function setMatcher( preFilter, selector, matcher, postFilter, postFinder, postS
 		if ( seed ) {
 			if ( postFinder || preFilter ) {
 				if ( postFinder ) {
+
 					// Get the final matcherOut by condensing this intermediate into postFinder contexts
 					temp = [];
 					i = matcherOut.length;
 					while ( i-- ) {
-						if ( (elem = matcherOut[i]) ) {
+						if ( ( elem = matcherOut[ i ] ) ) {
+
 							// Restore matcherIn since elem is not yet a final match
-							temp.push( (matcherIn[i] = elem) );
+							temp.push( ( matcherIn[ i ] = elem ) );
 						}
 					}
-					postFinder( null, (matcherOut = []), temp, xml );
+					postFinder( null, ( matcherOut = [] ), temp, xml );
 				}
 
 				// Move matched elements from seed to results to keep them synchronized
 				i = matcherOut.length;
 				while ( i-- ) {
-					if ( (elem = matcherOut[i]) &&
-						(temp = postFinder ? indexOf( seed, elem ) : preMap[i]) > -1 ) {
+					if ( ( elem = matcherOut[ i ] ) &&
+						( temp = postFinder ? indexOf( seed, elem ) : preMap[ i ] ) > -1 ) {
 
-						seed[temp] = !(results[temp] = elem);
+						seed[ temp ] = !( results[ temp ] = elem );
 					}
 				}
 			}
@@ -9290,14 +9022,14 @@ function setMatcher( preFilter, selector, matcher, postFilter, postFinder, postS
 				push.apply( results, matcherOut );
 			}
 		}
-	});
+	} );
 }
 
 function matcherFromTokens( tokens ) {
 	var checkContext, matcher, j,
 		len = tokens.length,
-		leadingRelative = Expr.relative[ tokens[0].type ],
-		implicitRelative = leadingRelative || Expr.relative[" "],
+		leadingRelative = Expr.relative[ tokens[ 0 ].type ],
+		implicitRelative = leadingRelative || Expr.relative[ " " ],
 		i = leadingRelative ? 1 : 0,
 
 		// The foundational matcher ensures that elements are reachable from top-level context(s)
@@ -9309,38 +9041,43 @@ function matcherFromTokens( tokens ) {
 		}, implicitRelative, true ),
 		matchers = [ function( elem, context, xml ) {
 			var ret = ( !leadingRelative && ( xml || context !== outermostContext ) ) || (
-				(checkContext = context).nodeType ?
+				( checkContext = context ).nodeType ?
 					matchContext( elem, context, xml ) :
 					matchAnyContext( elem, context, xml ) );
+
 			// Avoid hanging onto element (issue #299)
 			checkContext = null;
 			return ret;
 		} ];
 
 	for ( ; i < len; i++ ) {
-		if ( (matcher = Expr.relative[ tokens[i].type ]) ) {
-			matchers = [ addCombinator(elementMatcher( matchers ), matcher) ];
+		if ( ( matcher = Expr.relative[ tokens[ i ].type ] ) ) {
+			matchers = [ addCombinator( elementMatcher( matchers ), matcher ) ];
 		} else {
-			matcher = Expr.filter[ tokens[i].type ].apply( null, tokens[i].matches );
+			matcher = Expr.filter[ tokens[ i ].type ].apply( null, tokens[ i ].matches );
 
 			// Return special upon seeing a positional matcher
 			if ( matcher[ expando ] ) {
+
 				// Find the next relative operator (if any) for proper handling
 				j = ++i;
 				for ( ; j < len; j++ ) {
-					if ( Expr.relative[ tokens[j].type ] ) {
+					if ( Expr.relative[ tokens[ j ].type ] ) {
 						break;
 					}
 				}
 				return setMatcher(
 					i > 1 && elementMatcher( matchers ),
 					i > 1 && toSelector(
-						// If the preceding token was a descendant combinator, insert an implicit any-element `*`
-						tokens.slice( 0, i - 1 ).concat({ value: tokens[ i - 2 ].type === " " ? "*" : "" })
+
+					// If the preceding token was a descendant combinator, insert an implicit any-element `*`
+					tokens
+						.slice( 0, i - 1 )
+						.concat( { value: tokens[ i - 2 ].type === " " ? "*" : "" } )
 					).replace( rtrim, "$1" ),
 					matcher,
 					i < j && matcherFromTokens( tokens.slice( i, j ) ),
-					j < len && matcherFromTokens( (tokens = tokens.slice( j )) ),
+					j < len && matcherFromTokens( ( tokens = tokens.slice( j ) ) ),
 					j < len && toSelector( tokens )
 				);
 			}
@@ -9361,28 +9098,40 @@ function matcherFromGroupMatchers( elementMatchers, setMatchers ) {
 				unmatched = seed && [],
 				setMatched = [],
 				contextBackup = outermostContext,
+
 				// We must always have either seed elements or outermost context
-				elems = seed || byElement && Expr.find["TAG"]( "*", outermost ),
+				elems = seed || byElement && Expr.find[ "TAG" ]( "*", outermost ),
+
 				// Use integer dirruns iff this is the outermost matcher
-				dirrunsUnique = (dirruns += contextBackup == null ? 1 : Math.random() || 0.1),
+				dirrunsUnique = ( dirruns += contextBackup == null ? 1 : Math.random() || 0.1 ),
 				len = elems.length;
 
 			if ( outermost ) {
-				outermostContext = context === document || context || outermost;
+
+				// Support: IE 11+, Edge 17 - 18+
+				// IE/Edge sometimes throw a "Permission denied" error when strict-comparing
+				// two documents; shallow comparisons work.
+				// eslint-disable-next-line eqeqeq
+				outermostContext = context == document || context || outermost;
 			}
 
 			// Add elements passing elementMatchers directly to results
 			// Support: IE<9, Safari
 			// Tolerate NodeList properties (IE: "length"; Safari: <number>) matching elements by id
-			for ( ; i !== len && (elem = elems[i]) != null; i++ ) {
+			for ( ; i !== len && ( elem = elems[ i ] ) != null; i++ ) {
 				if ( byElement && elem ) {
 					j = 0;
-					if ( !context && elem.ownerDocument !== document ) {
+
+					// Support: IE 11+, Edge 17 - 18+
+					// IE/Edge sometimes throw a "Permission denied" error when strict-comparing
+					// two documents; shallow comparisons work.
+					// eslint-disable-next-line eqeqeq
+					if ( !context && elem.ownerDocument != document ) {
 						setDocument( elem );
 						xml = !documentIsHTML;
 					}
-					while ( (matcher = elementMatchers[j++]) ) {
-						if ( matcher( elem, context || document, xml) ) {
+					while ( ( matcher = elementMatchers[ j++ ] ) ) {
+						if ( matcher( elem, context || document, xml ) ) {
 							results.push( elem );
 							break;
 						}
@@ -9394,8 +9143,9 @@ function matcherFromGroupMatchers( elementMatchers, setMatchers ) {
 
 				// Track unmatched elements for set filters
 				if ( bySet ) {
+
 					// They will have gone through all possible matchers
-					if ( (elem = !matcher && elem) ) {
+					if ( ( elem = !matcher && elem ) ) {
 						matchedCount--;
 					}
 
@@ -9419,16 +9169,17 @@ function matcherFromGroupMatchers( elementMatchers, setMatchers ) {
 			// numerically zero.
 			if ( bySet && i !== matchedCount ) {
 				j = 0;
-				while ( (matcher = setMatchers[j++]) ) {
+				while ( ( matcher = setMatchers[ j++ ] ) ) {
 					matcher( unmatched, setMatched, context, xml );
 				}
 
 				if ( seed ) {
+
 					// Reintegrate element matches to eliminate the need for sorting
 					if ( matchedCount > 0 ) {
 						while ( i-- ) {
-							if ( !(unmatched[i] || setMatched[i]) ) {
-								setMatched[i] = pop.call( results );
+							if ( !( unmatched[ i ] || setMatched[ i ] ) ) {
+								setMatched[ i ] = pop.call( results );
 							}
 						}
 					}
@@ -9469,13 +9220,14 @@ compile = Sizzle.compile = function( selector, match /* Internal Use Only */ ) {
 		cached = compilerCache[ selector + " " ];
 
 	if ( !cached ) {
+
 		// Generate a function of recursive functions that can be used to check each element
 		if ( !match ) {
 			match = tokenize( selector );
 		}
 		i = match.length;
 		while ( i-- ) {
-			cached = matcherFromTokens( match[i] );
+			cached = matcherFromTokens( match[ i ] );
 			if ( cached[ expando ] ) {
 				setMatchers.push( cached );
 			} else {
@@ -9484,7 +9236,10 @@ compile = Sizzle.compile = function( selector, match /* Internal Use Only */ ) {
 		}
 
 		// Cache the compiled function
-		cached = compilerCache( selector, matcherFromGroupMatchers( elementMatchers, setMatchers ) );
+		cached = compilerCache(
+			selector,
+			matcherFromGroupMatchers( elementMatchers, setMatchers )
+		);
 
 		// Save selector and tokenization
 		cached.selector = selector;
@@ -9504,7 +9259,7 @@ compile = Sizzle.compile = function( selector, match /* Internal Use Only */ ) {
 select = Sizzle.select = function( selector, context, results, seed ) {
 	var i, tokens, token, type, find,
 		compiled = typeof selector === "function" && selector,
-		match = !seed && tokenize( (selector = compiled.selector || selector) );
+		match = !seed && tokenize( ( selector = compiled.selector || selector ) );
 
 	results = results || [];
 
@@ -9513,11 +9268,12 @@ select = Sizzle.select = function( selector, context, results, seed ) {
 	if ( match.length === 1 ) {
 
 		// Reduce context if the leading compound selector is an ID
-		tokens = match[0] = match[0].slice( 0 );
-		if ( tokens.length > 2 && (token = tokens[0]).type === "ID" &&
-				context.nodeType === 9 && documentIsHTML && Expr.relative[ tokens[1].type ] ) {
+		tokens = match[ 0 ] = match[ 0 ].slice( 0 );
+		if ( tokens.length > 2 && ( token = tokens[ 0 ] ).type === "ID" &&
+			context.nodeType === 9 && documentIsHTML && Expr.relative[ tokens[ 1 ].type ] ) {
 
-			context = ( Expr.find["ID"]( token.matches[0].replace(runescape, funescape), context ) || [] )[0];
+			context = ( Expr.find[ "ID" ]( token.matches[ 0 ]
+				.replace( runescape, funescape ), context ) || [] )[ 0 ];
 			if ( !context ) {
 				return results;
 
@@ -9530,20 +9286,22 @@ select = Sizzle.select = function( selector, context, results, seed ) {
 		}
 
 		// Fetch a seed set for right-to-left matching
-		i = matchExpr["needsContext"].test( selector ) ? 0 : tokens.length;
+		i = matchExpr[ "needsContext" ].test( selector ) ? 0 : tokens.length;
 		while ( i-- ) {
-			token = tokens[i];
+			token = tokens[ i ];
 
 			// Abort if we hit a combinator
-			if ( Expr.relative[ (type = token.type) ] ) {
+			if ( Expr.relative[ ( type = token.type ) ] ) {
 				break;
 			}
-			if ( (find = Expr.find[ type ]) ) {
+			if ( ( find = Expr.find[ type ] ) ) {
+
 				// Search, expanding context for leading sibling combinators
-				if ( (seed = find(
-					token.matches[0].replace( runescape, funescape ),
-					rsibling.test( tokens[0].type ) && testContext( context.parentNode ) || context
-				)) ) {
+				if ( ( seed = find(
+					token.matches[ 0 ].replace( runescape, funescape ),
+					rsibling.test( tokens[ 0 ].type ) && testContext( context.parentNode ) ||
+						context
+				) ) ) {
 
 					// If seed is empty or no tokens remain, we can return early
 					tokens.splice( i, 1 );
@@ -9574,7 +9332,7 @@ select = Sizzle.select = function( selector, context, results, seed ) {
 // One-time assignments
 
 // Sort stability
-support.sortStable = expando.split("").sort( sortOrder ).join("") === expando;
+support.sortStable = expando.split( "" ).sort( sortOrder ).join( "" ) === expando;
 
 // Support: Chrome 14-35+
 // Always assume duplicates if they aren't passed to the comparison function
@@ -9585,58 +9343,59 @@ setDocument();
 
 // Support: Webkit<537.32 - Safari 6.0.3/Chrome 25 (fixed in Chrome 27)
 // Detached nodes confoundingly follow *each other*
-support.sortDetached = assert(function( el ) {
+support.sortDetached = assert( function( el ) {
+
 	// Should return 1, but returns 4 (following)
-	return el.compareDocumentPosition( document.createElement("fieldset") ) & 1;
-});
+	return el.compareDocumentPosition( document.createElement( "fieldset" ) ) & 1;
+} );
 
 // Support: IE<8
 // Prevent attribute/property "interpolation"
 // https://msdn.microsoft.com/en-us/library/ms536429%28VS.85%29.aspx
-if ( !assert(function( el ) {
+if ( !assert( function( el ) {
 	el.innerHTML = "<a href='#'></a>";
-	return el.firstChild.getAttribute("href") === "#" ;
-}) ) {
+	return el.firstChild.getAttribute( "href" ) === "#";
+} ) ) {
 	addHandle( "type|href|height|width", function( elem, name, isXML ) {
 		if ( !isXML ) {
 			return elem.getAttribute( name, name.toLowerCase() === "type" ? 1 : 2 );
 		}
-	});
+	} );
 }
 
 // Support: IE<9
 // Use defaultValue in place of getAttribute("value")
-if ( !support.attributes || !assert(function( el ) {
+if ( !support.attributes || !assert( function( el ) {
 	el.innerHTML = "<input/>";
 	el.firstChild.setAttribute( "value", "" );
 	return el.firstChild.getAttribute( "value" ) === "";
-}) ) {
-	addHandle( "value", function( elem, name, isXML ) {
+} ) ) {
+	addHandle( "value", function( elem, _name, isXML ) {
 		if ( !isXML && elem.nodeName.toLowerCase() === "input" ) {
 			return elem.defaultValue;
 		}
-	});
+	} );
 }
 
 // Support: IE<9
 // Use getAttributeNode to fetch booleans when getAttribute lies
-if ( !assert(function( el ) {
-	return el.getAttribute("disabled") == null;
-}) ) {
+if ( !assert( function( el ) {
+	return el.getAttribute( "disabled" ) == null;
+} ) ) {
 	addHandle( booleans, function( elem, name, isXML ) {
 		var val;
 		if ( !isXML ) {
 			return elem[ name ] === true ? name.toLowerCase() :
-					(val = elem.getAttributeNode( name )) && val.specified ?
+				( val = elem.getAttributeNode( name ) ) && val.specified ?
 					val.value :
-				null;
+					null;
 		}
-	});
+	} );
 }
 
 return Sizzle;
 
-})( window );
+} )( window );
 
 
 
@@ -10005,7 +9764,7 @@ jQuery.each( {
 	parents: function( elem ) {
 		return dir( elem, "parentNode" );
 	},
-	parentsUntil: function( elem, i, until ) {
+	parentsUntil: function( elem, _i, until ) {
 		return dir( elem, "parentNode", until );
 	},
 	next: function( elem ) {
@@ -10020,10 +9779,10 @@ jQuery.each( {
 	prevAll: function( elem ) {
 		return dir( elem, "previousSibling" );
 	},
-	nextUntil: function( elem, i, until ) {
+	nextUntil: function( elem, _i, until ) {
 		return dir( elem, "nextSibling", until );
 	},
-	prevUntil: function( elem, i, until ) {
+	prevUntil: function( elem, _i, until ) {
 		return dir( elem, "previousSibling", until );
 	},
 	siblings: function( elem ) {
@@ -10033,7 +9792,13 @@ jQuery.each( {
 		return siblings( elem.firstChild );
 	},
 	contents: function( elem ) {
-		if ( typeof elem.contentDocument !== "undefined" ) {
+		if ( elem.contentDocument != null &&
+
+			// Support: IE 11+
+			// <object> elements with no `data` attribute has an object
+			// `contentDocument` with a `null` prototype.
+			getProto( elem.contentDocument ) ) {
+
 			return elem.contentDocument;
 		}
 
@@ -10376,7 +10141,7 @@ jQuery.extend( {
 					var fns = arguments;
 
 					return jQuery.Deferred( function( newDefer ) {
-						jQuery.each( tuples, function( i, tuple ) {
+						jQuery.each( tuples, function( _i, tuple ) {
 
 							// Map tuples (progress, done, fail) to arguments (done, fail, progress)
 							var fn = isFunction( fns[ tuple[ 4 ] ] ) && fns[ tuple[ 4 ] ];
@@ -10829,7 +10594,7 @@ var access = function( elems, fn, key, value, chainable, emptyGet, raw ) {
 			// ...except when executing function values
 			} else {
 				bulk = fn;
-				fn = function( elem, key, value ) {
+				fn = function( elem, _key, value ) {
 					return bulk.call( jQuery( elem ), value );
 				};
 			}
@@ -10864,7 +10629,7 @@ var rmsPrefix = /^-ms-/,
 	rdashAlpha = /-([a-z])/g;
 
 // Used by camelCase as callback to replace()
-function fcamelCase( all, letter ) {
+function fcamelCase( _all, letter ) {
 	return letter.toUpperCase();
 }
 
@@ -11392,27 +11157,6 @@ var isHiddenWithinTree = function( elem, el ) {
 			jQuery.css( elem, "display" ) === "none";
 	};
 
-var swap = function( elem, options, callback, args ) {
-	var ret, name,
-		old = {};
-
-	// Remember the old values, and insert the new ones
-	for ( name in options ) {
-		old[ name ] = elem.style[ name ];
-		elem.style[ name ] = options[ name ];
-	}
-
-	ret = callback.apply( elem, args || [] );
-
-	// Revert the old values
-	for ( name in options ) {
-		elem.style[ name ] = old[ name ];
-	}
-
-	return ret;
-};
-
-
 
 
 function adjustCSS( elem, prop, valueParts, tween ) {
@@ -11583,11 +11327,40 @@ var rscriptType = ( /^$|^module$|\/(?:java|ecma)script/i );
 
 
 
-// We have to close these tags to support XHTML (#13200)
-var wrapMap = {
+( function() {
+	var fragment = document.createDocumentFragment(),
+		div = fragment.appendChild( document.createElement( "div" ) ),
+		input = document.createElement( "input" );
+
+	// Support: Android 4.0 - 4.3 only
+	// Check state lost if the name is set (#11217)
+	// Support: Windows Web Apps (WWA)
+	// `name` and `type` must use .setAttribute for WWA (#14901)
+	input.setAttribute( "type", "radio" );
+	input.setAttribute( "checked", "checked" );
+	input.setAttribute( "name", "t" );
+
+	div.appendChild( input );
+
+	// Support: Android <=4.1 only
+	// Older WebKit doesn't clone checked state correctly in fragments
+	support.checkClone = div.cloneNode( true ).cloneNode( true ).lastChild.checked;
+
+	// Support: IE <=11 only
+	// Make sure textarea (and checkbox) defaultValue is properly cloned
+	div.innerHTML = "<textarea>x</textarea>";
+	support.noCloneChecked = !!div.cloneNode( true ).lastChild.defaultValue;
 
 	// Support: IE <=9 only
-	option: [ 1, "<select multiple='multiple'>", "</select>" ],
+	// IE <=9 replaces <option> tags with their contents when inserted outside of
+	// the select element.
+	div.innerHTML = "<option></option>";
+	support.option = !!div.lastChild;
+} )();
+
+
+// We have to close these tags to support XHTML (#13200)
+var wrapMap = {
 
 	// XHTML parsers do not magically insert elements in the
 	// same way that tag soup parsers do. So we cannot shorten
@@ -11600,11 +11373,13 @@ var wrapMap = {
 	_default: [ 0, "", "" ]
 };
 
-// Support: IE <=9 only
-wrapMap.optgroup = wrapMap.option;
-
 wrapMap.tbody = wrapMap.tfoot = wrapMap.colgroup = wrapMap.caption = wrapMap.thead;
 wrapMap.th = wrapMap.td;
+
+// Support: IE <=9 only
+if ( !support.option ) {
+	wrapMap.optgroup = wrapMap.option = [ 1, "<select multiple='multiple'>", "</select>" ];
+}
 
 
 function getAll( context, tag ) {
@@ -11738,32 +11513,6 @@ function buildFragment( elems, context, scripts, selection, ignored ) {
 }
 
 
-( function() {
-	var fragment = document.createDocumentFragment(),
-		div = fragment.appendChild( document.createElement( "div" ) ),
-		input = document.createElement( "input" );
-
-	// Support: Android 4.0 - 4.3 only
-	// Check state lost if the name is set (#11217)
-	// Support: Windows Web Apps (WWA)
-	// `name` and `type` must use .setAttribute for WWA (#14901)
-	input.setAttribute( "type", "radio" );
-	input.setAttribute( "checked", "checked" );
-	input.setAttribute( "name", "t" );
-
-	div.appendChild( input );
-
-	// Support: Android <=4.1 only
-	// Older WebKit doesn't clone checked state correctly in fragments
-	support.checkClone = div.cloneNode( true ).cloneNode( true ).lastChild.checked;
-
-	// Support: IE <=11 only
-	// Make sure textarea (and checkbox) defaultValue is properly cloned
-	div.innerHTML = "<textarea>x</textarea>";
-	support.noCloneChecked = !!div.cloneNode( true ).lastChild.defaultValue;
-} )();
-
-
 var
 	rkeyEvent = /^key/,
 	rmouseEvent = /^(?:mouse|pointer|contextmenu|drag|drop)|click/,
@@ -11872,8 +11621,8 @@ jQuery.event = {
 			special, handlers, type, namespaces, origType,
 			elemData = dataPriv.get( elem );
 
-		// Don't attach events to noData or text/comment nodes (but allow plain objects)
-		if ( !elemData ) {
+		// Only attach events to objects that accept data
+		if ( !acceptData( elem ) ) {
 			return;
 		}
 
@@ -11897,7 +11646,7 @@ jQuery.event = {
 
 		// Init the element's event structure and main handler, if this is the first
 		if ( !( events = elemData.events ) ) {
-			events = elemData.events = {};
+			events = elemData.events = Object.create( null );
 		}
 		if ( !( eventHandle = elemData.handle ) ) {
 			eventHandle = elemData.handle = function( e ) {
@@ -12055,12 +11804,15 @@ jQuery.event = {
 
 	dispatch: function( nativeEvent ) {
 
-		// Make a writable jQuery.Event from the native event object
-		var event = jQuery.event.fix( nativeEvent );
-
 		var i, j, ret, matched, handleObj, handlerQueue,
 			args = new Array( arguments.length ),
-			handlers = ( dataPriv.get( this, "events" ) || {} )[ event.type ] || [],
+
+			// Make a writable jQuery.Event from the native event object
+			event = jQuery.event.fix( nativeEvent ),
+
+			handlers = (
+					dataPriv.get( this, "events" ) || Object.create( null )
+				)[ event.type ] || [],
 			special = jQuery.event.special[ event.type ] || {};
 
 		// Use the fix-ed jQuery.Event rather than the (read-only) native event
@@ -12635,13 +12387,6 @@ jQuery.fn.extend( {
 
 var
 
-	/* eslint-disable max-len */
-
-	// See https://github.com/eslint/eslint/issues/3229
-	rxhtmlTag = /<(?!area|br|col|embed|hr|img|input|link|meta|param)(([a-z][^\/\0>\x20\t\r\n\f]*)[^>]*)\/>/gi,
-
-	/* eslint-enable */
-
 	// Support: IE <=10 - 11, Edge 12 - 13 only
 	// In IE/Edge using regex groups here causes severe slowdowns.
 	// See https://connect.microsoft.com/IE/feedback/details/1736512/
@@ -12678,7 +12423,7 @@ function restoreScript( elem ) {
 }
 
 function cloneCopyEvent( src, dest ) {
-	var i, l, type, pdataOld, pdataCur, udataOld, udataCur, events;
+	var i, l, type, pdataOld, udataOld, udataCur, events;
 
 	if ( dest.nodeType !== 1 ) {
 		return;
@@ -12686,13 +12431,11 @@ function cloneCopyEvent( src, dest ) {
 
 	// 1. Copy private data: events, handlers, etc.
 	if ( dataPriv.hasData( src ) ) {
-		pdataOld = dataPriv.access( src );
-		pdataCur = dataPriv.set( dest, pdataOld );
+		pdataOld = dataPriv.get( src );
 		events = pdataOld.events;
 
 		if ( events ) {
-			delete pdataCur.handle;
-			pdataCur.events = {};
+			dataPriv.remove( dest, "handle events" );
 
 			for ( type in events ) {
 				for ( i = 0, l = events[ type ].length; i < l; i++ ) {
@@ -12728,7 +12471,7 @@ function fixInput( src, dest ) {
 function domManip( collection, args, callback, ignored ) {
 
 	// Flatten any nested arrays
-	args = concat.apply( [], args );
+	args = flat( args );
 
 	var fragment, first, scripts, hasScripts, node, doc,
 		i = 0,
@@ -12803,7 +12546,7 @@ function domManip( collection, args, callback, ignored ) {
 							if ( jQuery._evalUrl && !node.noModule ) {
 								jQuery._evalUrl( node.src, {
 									nonce: node.nonce || node.getAttribute( "nonce" )
-								} );
+								}, doc );
 							}
 						} else {
 							DOMEval( node.textContent.replace( rcleanScript, "" ), node, doc );
@@ -12840,7 +12583,7 @@ function remove( elem, selector, keepData ) {
 
 jQuery.extend( {
 	htmlPrefilter: function( html ) {
-		return html.replace( rxhtmlTag, "<$1></$2>" );
+		return html;
 	},
 
 	clone: function( elem, dataAndEvents, deepDataAndEvents ) {
@@ -13102,6 +12845,27 @@ var getStyles = function( elem ) {
 		return view.getComputedStyle( elem );
 	};
 
+var swap = function( elem, options, callback ) {
+	var ret, name,
+		old = {};
+
+	// Remember the old values, and insert the new ones
+	for ( name in options ) {
+		old[ name ] = elem.style[ name ];
+		elem.style[ name ] = options[ name ];
+	}
+
+	ret = callback.call( elem );
+
+	// Revert the old values
+	for ( name in options ) {
+		elem.style[ name ] = old[ name ];
+	}
+
+	return ret;
+};
+
+
 var rboxStyle = new RegExp( cssExpand.join( "|" ), "i" );
 
 
@@ -13159,7 +12923,7 @@ var rboxStyle = new RegExp( cssExpand.join( "|" ), "i" );
 	}
 
 	var pixelPositionVal, boxSizingReliableVal, scrollboxSizeVal, pixelBoxStylesVal,
-		reliableMarginLeftVal,
+		reliableTrDimensionsVal, reliableMarginLeftVal,
 		container = document.createElement( "div" ),
 		div = document.createElement( "div" );
 
@@ -13194,6 +12958,35 @@ var rboxStyle = new RegExp( cssExpand.join( "|" ), "i" );
 		scrollboxSize: function() {
 			computeStyleTests();
 			return scrollboxSizeVal;
+		},
+
+		// Support: IE 9 - 11+, Edge 15 - 18+
+		// IE/Edge misreport `getComputedStyle` of table rows with width/height
+		// set in CSS while `offset*` properties report correct values.
+		// Behavior in IE 9 is more subtle than in newer versions & it passes
+		// some versions of this test; make sure not to make it pass there!
+		reliableTrDimensions: function() {
+			var table, tr, trChild, trStyle;
+			if ( reliableTrDimensionsVal == null ) {
+				table = document.createElement( "table" );
+				tr = document.createElement( "tr" );
+				trChild = document.createElement( "div" );
+
+				table.style.cssText = "position:absolute;left:-11111px";
+				tr.style.height = "1px";
+				trChild.style.height = "9px";
+
+				documentElement
+					.appendChild( table )
+					.appendChild( tr )
+					.appendChild( trChild );
+
+				trStyle = window.getComputedStyle( tr );
+				reliableTrDimensionsVal = parseInt( trStyle.height ) > 3;
+
+				documentElement.removeChild( table );
+			}
+			return reliableTrDimensionsVal;
 		}
 	} );
 } )();
@@ -13318,7 +13111,7 @@ var
 		fontWeight: "400"
 	};
 
-function setPositiveNumber( elem, value, subtract ) {
+function setPositiveNumber( _elem, value, subtract ) {
 
 	// Any relative (+/-) values have already been
 	// normalized at this point
@@ -13423,17 +13216,26 @@ function getWidthOrHeight( elem, dimension, extra ) {
 	}
 
 
-	// Fall back to offsetWidth/offsetHeight when value is "auto"
-	// This happens for inline elements with no explicit setting (gh-3571)
-	// Support: Android <=4.1 - 4.3 only
-	// Also use offsetWidth/offsetHeight for misreported inline dimensions (gh-3602)
-	// Support: IE 9-11 only
-	// Also use offsetWidth/offsetHeight for when box sizing is unreliable
-	// We use getClientRects() to check for hidden/disconnected.
-	// In those cases, the computed value can be trusted to be border-box
+	// Support: IE 9 - 11 only
+	// Use offsetWidth/offsetHeight for when box sizing is unreliable.
+	// In those cases, the computed value can be trusted to be border-box.
 	if ( ( !support.boxSizingReliable() && isBorderBox ||
+
+		// Support: IE 10 - 11+, Edge 15 - 18+
+		// IE/Edge misreport `getComputedStyle` of table rows with width/height
+		// set in CSS while `offset*` properties report correct values.
+		// Interestingly, in some cases IE 9 doesn't suffer from this issue.
+		!support.reliableTrDimensions() && nodeName( elem, "tr" ) ||
+
+		// Fall back to offsetWidth/offsetHeight when value is "auto"
+		// This happens for inline elements with no explicit setting (gh-3571)
 		val === "auto" ||
+
+		// Support: Android <=4.1 - 4.3 only
+		// Also use offsetWidth/offsetHeight for misreported inline dimensions (gh-3602)
 		!parseFloat( val ) && jQuery.css( elem, "display", false, styles ) === "inline" ) &&
+
+		// Make sure the element is visible & connected
 		elem.getClientRects().length ) {
 
 		isBorderBox = jQuery.css( elem, "boxSizing", false, styles ) === "border-box";
@@ -13628,7 +13430,7 @@ jQuery.extend( {
 	}
 } );
 
-jQuery.each( [ "height", "width" ], function( i, dimension ) {
+jQuery.each( [ "height", "width" ], function( _i, dimension ) {
 	jQuery.cssHooks[ dimension ] = {
 		get: function( elem, computed, extra ) {
 			if ( computed ) {
@@ -14401,7 +14203,7 @@ jQuery.fn.extend( {
 			clearQueue = type;
 			type = undefined;
 		}
-		if ( clearQueue && type !== false ) {
+		if ( clearQueue ) {
 			this.queue( type || "fx", [] );
 		}
 
@@ -14484,7 +14286,7 @@ jQuery.fn.extend( {
 	}
 } );
 
-jQuery.each( [ "toggle", "show", "hide" ], function( i, name ) {
+jQuery.each( [ "toggle", "show", "hide" ], function( _i, name ) {
 	var cssFn = jQuery.fn[ name ];
 	jQuery.fn[ name ] = function( speed, easing, callback ) {
 		return speed == null || typeof speed === "boolean" ?
@@ -14705,7 +14507,7 @@ boolHook = {
 	}
 };
 
-jQuery.each( jQuery.expr.match.bool.source.match( /\w+/g ), function( i, name ) {
+jQuery.each( jQuery.expr.match.bool.source.match( /\w+/g ), function( _i, name ) {
 	var getter = attrHandle[ name ] || jQuery.find.attr;
 
 	attrHandle[ name ] = function( elem, name, isXML ) {
@@ -15329,7 +15131,9 @@ jQuery.extend( jQuery.event, {
 				special.bindType || type;
 
 			// jQuery handler
-			handle = ( dataPriv.get( cur, "events" ) || {} )[ event.type ] &&
+			handle = (
+					dataPriv.get( cur, "events" ) || Object.create( null )
+				)[ event.type ] &&
 				dataPriv.get( cur, "handle" );
 			if ( handle ) {
 				handle.apply( cur, data );
@@ -15440,7 +15244,10 @@ if ( !support.focusin ) {
 
 		jQuery.event.special[ fix ] = {
 			setup: function() {
-				var doc = this.ownerDocument || this,
+
+				// Handle: regular nodes (via `this.ownerDocument`), window
+				// (via `this.document`) & document (via `this`).
+				var doc = this.ownerDocument || this.document || this,
 					attaches = dataPriv.access( doc, fix );
 
 				if ( !attaches ) {
@@ -15449,7 +15256,7 @@ if ( !support.focusin ) {
 				dataPriv.access( doc, fix, ( attaches || 0 ) + 1 );
 			},
 			teardown: function() {
-				var doc = this.ownerDocument || this,
+				var doc = this.ownerDocument || this.document || this,
 					attaches = dataPriv.access( doc, fix ) - 1;
 
 				if ( !attaches ) {
@@ -15465,7 +15272,7 @@ if ( !support.focusin ) {
 }
 var location = window.location;
 
-var nonce = Date.now();
+var nonce = { guid: Date.now() };
 
 var rquery = ( /\?/ );
 
@@ -15597,7 +15404,7 @@ jQuery.fn.extend( {
 				rsubmittable.test( this.nodeName ) && !rsubmitterTypes.test( type ) &&
 				( this.checked || !rcheckableType.test( type ) );
 		} )
-		.map( function( i, elem ) {
+		.map( function( _i, elem ) {
 			var val = jQuery( this ).val();
 
 			if ( val == null ) {
@@ -16210,7 +16017,8 @@ jQuery.extend( {
 			// Add or update anti-cache param if needed
 			if ( s.cache === false ) {
 				cacheURL = cacheURL.replace( rantiCache, "$1" );
-				uncached = ( rquery.test( cacheURL ) ? "&" : "?" ) + "_=" + ( nonce++ ) + uncached;
+				uncached = ( rquery.test( cacheURL ) ? "&" : "?" ) + "_=" + ( nonce.guid++ ) +
+					uncached;
 			}
 
 			// Put hash and anti-cache on the URL that will be requested (gh-1732)
@@ -16343,6 +16151,11 @@ jQuery.extend( {
 				response = ajaxHandleResponses( s, jqXHR, responses );
 			}
 
+			// Use a noop converter for missing script
+			if ( !isSuccess && jQuery.inArray( "script", s.dataTypes ) > -1 ) {
+				s.converters[ "text script" ] = function() {};
+			}
+
 			// Convert no matter what (that way responseXXX fields are always set)
 			response = ajaxConvert( s, response, jqXHR, isSuccess );
 
@@ -16433,7 +16246,7 @@ jQuery.extend( {
 	}
 } );
 
-jQuery.each( [ "get", "post" ], function( i, method ) {
+jQuery.each( [ "get", "post" ], function( _i, method ) {
 	jQuery[ method ] = function( url, data, callback, type ) {
 
 		// Shift arguments if data argument was omitted
@@ -16454,8 +16267,17 @@ jQuery.each( [ "get", "post" ], function( i, method ) {
 	};
 } );
 
+jQuery.ajaxPrefilter( function( s ) {
+	var i;
+	for ( i in s.headers ) {
+		if ( i.toLowerCase() === "content-type" ) {
+			s.contentType = s.headers[ i ] || "";
+		}
+	}
+} );
 
-jQuery._evalUrl = function( url, options ) {
+
+jQuery._evalUrl = function( url, options, doc ) {
 	return jQuery.ajax( {
 		url: url,
 
@@ -16473,7 +16295,7 @@ jQuery._evalUrl = function( url, options ) {
 			"text script": function() {}
 		},
 		dataFilter: function( response ) {
-			jQuery.globalEval( response, options );
+			jQuery.globalEval( response, options, doc );
 		}
 	} );
 };
@@ -16795,7 +16617,7 @@ var oldCallbacks = [],
 jQuery.ajaxSetup( {
 	jsonp: "callback",
 	jsonpCallback: function() {
-		var callback = oldCallbacks.pop() || ( jQuery.expando + "_" + ( nonce++ ) );
+		var callback = oldCallbacks.pop() || ( jQuery.expando + "_" + ( nonce.guid++ ) );
 		this[ callback ] = true;
 		return callback;
 	}
@@ -17012,23 +16834,6 @@ jQuery.fn.load = function( url, params, callback ) {
 
 
 
-// Attach a bunch of functions for handling common AJAX events
-jQuery.each( [
-	"ajaxStart",
-	"ajaxStop",
-	"ajaxComplete",
-	"ajaxError",
-	"ajaxSuccess",
-	"ajaxSend"
-], function( i, type ) {
-	jQuery.fn[ type ] = function( fn ) {
-		return this.on( type, fn );
-	};
-} );
-
-
-
-
 jQuery.expr.pseudos.animated = function( elem ) {
 	return jQuery.grep( jQuery.timers, function( fn ) {
 		return elem === fn.elem;
@@ -17085,6 +16890,12 @@ jQuery.offset = {
 			options.using.call( elem, props );
 
 		} else {
+			if ( typeof props.top === "number" ) {
+				props.top += "px";
+			}
+			if ( typeof props.left === "number" ) {
+				props.left += "px";
+			}
 			curElem.css( props );
 		}
 	}
@@ -17235,7 +17046,7 @@ jQuery.each( { scrollLeft: "pageXOffset", scrollTop: "pageYOffset" }, function( 
 // Blink bug: https://bugs.chromium.org/p/chromium/issues/detail?id=589347
 // getComputedStyle returns percent when specified for top/left/bottom/right;
 // rather than make the css module depend on the offset module, just check for it here
-jQuery.each( [ "top", "left" ], function( i, prop ) {
+jQuery.each( [ "top", "left" ], function( _i, prop ) {
 	jQuery.cssHooks[ prop ] = addGetHookIf( support.pixelPosition,
 		function( elem, computed ) {
 			if ( computed ) {
@@ -17298,23 +17109,17 @@ jQuery.each( { Height: "height", Width: "width" }, function( name, type ) {
 } );
 
 
-jQuery.each( ( "blur focus focusin focusout resize scroll click dblclick " +
-	"mousedown mouseup mousemove mouseover mouseout mouseenter mouseleave " +
-	"change select submit keydown keypress keyup contextmenu" ).split( " " ),
-	function( i, name ) {
-
-	// Handle event binding
-	jQuery.fn[ name ] = function( data, fn ) {
-		return arguments.length > 0 ?
-			this.on( name, null, data, fn ) :
-			this.trigger( name );
+jQuery.each( [
+	"ajaxStart",
+	"ajaxStop",
+	"ajaxComplete",
+	"ajaxError",
+	"ajaxSuccess",
+	"ajaxSend"
+], function( _i, type ) {
+	jQuery.fn[ type ] = function( fn ) {
+		return this.on( type, fn );
 	};
-} );
-
-jQuery.fn.extend( {
-	hover: function( fnOver, fnOut ) {
-		return this.mouseenter( fnOver ).mouseleave( fnOut || fnOver );
-	}
 } );
 
 
@@ -17338,8 +17143,32 @@ jQuery.fn.extend( {
 		return arguments.length === 1 ?
 			this.off( selector, "**" ) :
 			this.off( types, selector || "**", fn );
+	},
+
+	hover: function( fnOver, fnOut ) {
+		return this.mouseenter( fnOver ).mouseleave( fnOut || fnOver );
 	}
 } );
+
+jQuery.each( ( "blur focus focusin focusout resize scroll click dblclick " +
+	"mousedown mouseup mousemove mouseover mouseout mouseenter mouseleave " +
+	"change select submit keydown keypress keyup contextmenu" ).split( " " ),
+	function( _i, name ) {
+
+		// Handle event binding
+		jQuery.fn[ name ] = function( data, fn ) {
+			return arguments.length > 0 ?
+				this.on( name, null, data, fn ) :
+				this.trigger( name );
+		};
+	} );
+
+
+
+
+// Support: Android <=4.0 only
+// Make sure we trim BOM and NBSP
+var rtrim = /^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g;
 
 // Bind a function to a context, optionally partially applying any
 // arguments.
@@ -17403,6 +17232,11 @@ jQuery.isNumeric = function( obj ) {
 		!isNaN( obj - parseFloat( obj ) );
 };
 
+jQuery.trim = function( text ) {
+	return text == null ?
+		"" :
+		( text + "" ).replace( rtrim, "" );
+};
 
 
 
@@ -17452,7 +17286,7 @@ jQuery.noConflict = function( deep ) {
 // Expose jQuery and $ identifiers, even in AMD
 // (#7102#comment:10, https://github.com/jquery/jquery/pull/557)
 // and CommonJS for browser emulators (#13566)
-if ( !noGlobal ) {
+if ( typeof noGlobal === "undefined" ) {
 	window.jQuery = window.$ = jQuery;
 }
 
@@ -34592,7 +34426,7 @@ return jQuery;
 __webpack_require__.r(__webpack_exports__);
 /* WEBPACK VAR INJECTION */(function(global) {/**!
  * @fileOverview Kickass library to create and place poppers near their reference elements.
- * @version 1.16.1
+ * @version 1.16.0
  * @license
  * Copyright (c) 2016 Federico Zivolo and contributors
  *
@@ -34938,7 +34772,7 @@ function getBordersSize(styles, axis) {
   var sideA = axis === 'x' ? 'Left' : 'Top';
   var sideB = sideA === 'Left' ? 'Right' : 'Bottom';
 
-  return parseFloat(styles['border' + sideA + 'Width']) + parseFloat(styles['border' + sideB + 'Width']);
+  return parseFloat(styles['border' + sideA + 'Width'], 10) + parseFloat(styles['border' + sideB + 'Width'], 10);
 }
 
 function getSize(axis, body, html, computedStyle) {
@@ -35093,8 +34927,8 @@ function getOffsetRectRelativeToArbitraryNode(children, parent) {
   var scrollParent = getScrollParent(children);
 
   var styles = getStyleComputedProperty(parent);
-  var borderTopWidth = parseFloat(styles.borderTopWidth);
-  var borderLeftWidth = parseFloat(styles.borderLeftWidth);
+  var borderTopWidth = parseFloat(styles.borderTopWidth, 10);
+  var borderLeftWidth = parseFloat(styles.borderLeftWidth, 10);
 
   // In cases where the parent is fixed, we must ignore negative scroll in offset calc
   if (fixedPosition && isHTML) {
@@ -35115,8 +34949,8 @@ function getOffsetRectRelativeToArbitraryNode(children, parent) {
   // differently when margins are applied to it. The margins are included in
   // the box of the documentElement, in the other cases not.
   if (!isIE10 && isHTML) {
-    var marginTop = parseFloat(styles.marginTop);
-    var marginLeft = parseFloat(styles.marginLeft);
+    var marginTop = parseFloat(styles.marginTop, 10);
+    var marginLeft = parseFloat(styles.marginLeft, 10);
 
     offsets.top -= borderTopWidth - marginTop;
     offsets.bottom -= borderTopWidth - marginTop;
@@ -36055,8 +35889,8 @@ function arrow(data, options) {
   // Compute the sideValue using the updated popper offsets
   // take popper margin in account because we don't have this info available
   var css = getStyleComputedProperty(data.instance.popper);
-  var popperMarginSide = parseFloat(css['margin' + sideCapitalized]);
-  var popperBorderSide = parseFloat(css['border' + sideCapitalized + 'Width']);
+  var popperMarginSide = parseFloat(css['margin' + sideCapitalized], 10);
+  var popperBorderSide = parseFloat(css['border' + sideCapitalized + 'Width'], 10);
   var sideValue = center - data.offsets.popper[side] - popperMarginSide - popperBorderSide;
 
   // prevent arrowElement from being placed not contiguously to its popper
@@ -37604,3705 +37438,6 @@ process.umask = function() { return 0; };
 
 /***/ }),
 
-/***/ "./node_modules/style-loader/lib/addStyles.js":
-/*!****************************************************!*\
-  !*** ./node_modules/style-loader/lib/addStyles.js ***!
-  \****************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-/*
-	MIT License http://www.opensource.org/licenses/mit-license.php
-	Author Tobias Koppers @sokra
-*/
-
-var stylesInDom = {};
-
-var	memoize = function (fn) {
-	var memo;
-
-	return function () {
-		if (typeof memo === "undefined") memo = fn.apply(this, arguments);
-		return memo;
-	};
-};
-
-var isOldIE = memoize(function () {
-	// Test for IE <= 9 as proposed by Browserhacks
-	// @see http://browserhacks.com/#hack-e71d8692f65334173fee715c222cb805
-	// Tests for existence of standard globals is to allow style-loader
-	// to operate correctly into non-standard environments
-	// @see https://github.com/webpack-contrib/style-loader/issues/177
-	return window && document && document.all && !window.atob;
-});
-
-var getTarget = function (target, parent) {
-  if (parent){
-    return parent.querySelector(target);
-  }
-  return document.querySelector(target);
-};
-
-var getElement = (function (fn) {
-	var memo = {};
-
-	return function(target, parent) {
-                // If passing function in options, then use it for resolve "head" element.
-                // Useful for Shadow Root style i.e
-                // {
-                //   insertInto: function () { return document.querySelector("#foo").shadowRoot }
-                // }
-                if (typeof target === 'function') {
-                        return target();
-                }
-                if (typeof memo[target] === "undefined") {
-			var styleTarget = getTarget.call(this, target, parent);
-			// Special case to return head of iframe instead of iframe itself
-			if (window.HTMLIFrameElement && styleTarget instanceof window.HTMLIFrameElement) {
-				try {
-					// This will throw an exception if access to iframe is blocked
-					// due to cross-origin restrictions
-					styleTarget = styleTarget.contentDocument.head;
-				} catch(e) {
-					styleTarget = null;
-				}
-			}
-			memo[target] = styleTarget;
-		}
-		return memo[target]
-	};
-})();
-
-var singleton = null;
-var	singletonCounter = 0;
-var	stylesInsertedAtTop = [];
-
-var	fixUrls = __webpack_require__(/*! ./urls */ "./node_modules/style-loader/lib/urls.js");
-
-module.exports = function(list, options) {
-	if (typeof DEBUG !== "undefined" && DEBUG) {
-		if (typeof document !== "object") throw new Error("The style-loader cannot be used in a non-browser environment");
-	}
-
-	options = options || {};
-
-	options.attrs = typeof options.attrs === "object" ? options.attrs : {};
-
-	// Force single-tag solution on IE6-9, which has a hard limit on the # of <style>
-	// tags it will allow on a page
-	if (!options.singleton && typeof options.singleton !== "boolean") options.singleton = isOldIE();
-
-	// By default, add <style> tags to the <head> element
-        if (!options.insertInto) options.insertInto = "head";
-
-	// By default, add <style> tags to the bottom of the target
-	if (!options.insertAt) options.insertAt = "bottom";
-
-	var styles = listToStyles(list, options);
-
-	addStylesToDom(styles, options);
-
-	return function update (newList) {
-		var mayRemove = [];
-
-		for (var i = 0; i < styles.length; i++) {
-			var item = styles[i];
-			var domStyle = stylesInDom[item.id];
-
-			domStyle.refs--;
-			mayRemove.push(domStyle);
-		}
-
-		if(newList) {
-			var newStyles = listToStyles(newList, options);
-			addStylesToDom(newStyles, options);
-		}
-
-		for (var i = 0; i < mayRemove.length; i++) {
-			var domStyle = mayRemove[i];
-
-			if(domStyle.refs === 0) {
-				for (var j = 0; j < domStyle.parts.length; j++) domStyle.parts[j]();
-
-				delete stylesInDom[domStyle.id];
-			}
-		}
-	};
-};
-
-function addStylesToDom (styles, options) {
-	for (var i = 0; i < styles.length; i++) {
-		var item = styles[i];
-		var domStyle = stylesInDom[item.id];
-
-		if(domStyle) {
-			domStyle.refs++;
-
-			for(var j = 0; j < domStyle.parts.length; j++) {
-				domStyle.parts[j](item.parts[j]);
-			}
-
-			for(; j < item.parts.length; j++) {
-				domStyle.parts.push(addStyle(item.parts[j], options));
-			}
-		} else {
-			var parts = [];
-
-			for(var j = 0; j < item.parts.length; j++) {
-				parts.push(addStyle(item.parts[j], options));
-			}
-
-			stylesInDom[item.id] = {id: item.id, refs: 1, parts: parts};
-		}
-	}
-}
-
-function listToStyles (list, options) {
-	var styles = [];
-	var newStyles = {};
-
-	for (var i = 0; i < list.length; i++) {
-		var item = list[i];
-		var id = options.base ? item[0] + options.base : item[0];
-		var css = item[1];
-		var media = item[2];
-		var sourceMap = item[3];
-		var part = {css: css, media: media, sourceMap: sourceMap};
-
-		if(!newStyles[id]) styles.push(newStyles[id] = {id: id, parts: [part]});
-		else newStyles[id].parts.push(part);
-	}
-
-	return styles;
-}
-
-function insertStyleElement (options, style) {
-	var target = getElement(options.insertInto)
-
-	if (!target) {
-		throw new Error("Couldn't find a style target. This probably means that the value for the 'insertInto' parameter is invalid.");
-	}
-
-	var lastStyleElementInsertedAtTop = stylesInsertedAtTop[stylesInsertedAtTop.length - 1];
-
-	if (options.insertAt === "top") {
-		if (!lastStyleElementInsertedAtTop) {
-			target.insertBefore(style, target.firstChild);
-		} else if (lastStyleElementInsertedAtTop.nextSibling) {
-			target.insertBefore(style, lastStyleElementInsertedAtTop.nextSibling);
-		} else {
-			target.appendChild(style);
-		}
-		stylesInsertedAtTop.push(style);
-	} else if (options.insertAt === "bottom") {
-		target.appendChild(style);
-	} else if (typeof options.insertAt === "object" && options.insertAt.before) {
-		var nextSibling = getElement(options.insertAt.before, target);
-		target.insertBefore(style, nextSibling);
-	} else {
-		throw new Error("[Style Loader]\n\n Invalid value for parameter 'insertAt' ('options.insertAt') found.\n Must be 'top', 'bottom', or Object.\n (https://github.com/webpack-contrib/style-loader#insertat)\n");
-	}
-}
-
-function removeStyleElement (style) {
-	if (style.parentNode === null) return false;
-	style.parentNode.removeChild(style);
-
-	var idx = stylesInsertedAtTop.indexOf(style);
-	if(idx >= 0) {
-		stylesInsertedAtTop.splice(idx, 1);
-	}
-}
-
-function createStyleElement (options) {
-	var style = document.createElement("style");
-
-	if(options.attrs.type === undefined) {
-		options.attrs.type = "text/css";
-	}
-
-	if(options.attrs.nonce === undefined) {
-		var nonce = getNonce();
-		if (nonce) {
-			options.attrs.nonce = nonce;
-		}
-	}
-
-	addAttrs(style, options.attrs);
-	insertStyleElement(options, style);
-
-	return style;
-}
-
-function createLinkElement (options) {
-	var link = document.createElement("link");
-
-	if(options.attrs.type === undefined) {
-		options.attrs.type = "text/css";
-	}
-	options.attrs.rel = "stylesheet";
-
-	addAttrs(link, options.attrs);
-	insertStyleElement(options, link);
-
-	return link;
-}
-
-function addAttrs (el, attrs) {
-	Object.keys(attrs).forEach(function (key) {
-		el.setAttribute(key, attrs[key]);
-	});
-}
-
-function getNonce() {
-	if (false) {}
-
-	return __webpack_require__.nc;
-}
-
-function addStyle (obj, options) {
-	var style, update, remove, result;
-
-	// If a transform function was defined, run it on the css
-	if (options.transform && obj.css) {
-	    result = typeof options.transform === 'function'
-		 ? options.transform(obj.css) 
-		 : options.transform.default(obj.css);
-
-	    if (result) {
-	    	// If transform returns a value, use that instead of the original css.
-	    	// This allows running runtime transformations on the css.
-	    	obj.css = result;
-	    } else {
-	    	// If the transform function returns a falsy value, don't add this css.
-	    	// This allows conditional loading of css
-	    	return function() {
-	    		// noop
-	    	};
-	    }
-	}
-
-	if (options.singleton) {
-		var styleIndex = singletonCounter++;
-
-		style = singleton || (singleton = createStyleElement(options));
-
-		update = applyToSingletonTag.bind(null, style, styleIndex, false);
-		remove = applyToSingletonTag.bind(null, style, styleIndex, true);
-
-	} else if (
-		obj.sourceMap &&
-		typeof URL === "function" &&
-		typeof URL.createObjectURL === "function" &&
-		typeof URL.revokeObjectURL === "function" &&
-		typeof Blob === "function" &&
-		typeof btoa === "function"
-	) {
-		style = createLinkElement(options);
-		update = updateLink.bind(null, style, options);
-		remove = function () {
-			removeStyleElement(style);
-
-			if(style.href) URL.revokeObjectURL(style.href);
-		};
-	} else {
-		style = createStyleElement(options);
-		update = applyToTag.bind(null, style);
-		remove = function () {
-			removeStyleElement(style);
-		};
-	}
-
-	update(obj);
-
-	return function updateStyle (newObj) {
-		if (newObj) {
-			if (
-				newObj.css === obj.css &&
-				newObj.media === obj.media &&
-				newObj.sourceMap === obj.sourceMap
-			) {
-				return;
-			}
-
-			update(obj = newObj);
-		} else {
-			remove();
-		}
-	};
-}
-
-var replaceText = (function () {
-	var textStore = [];
-
-	return function (index, replacement) {
-		textStore[index] = replacement;
-
-		return textStore.filter(Boolean).join('\n');
-	};
-})();
-
-function applyToSingletonTag (style, index, remove, obj) {
-	var css = remove ? "" : obj.css;
-
-	if (style.styleSheet) {
-		style.styleSheet.cssText = replaceText(index, css);
-	} else {
-		var cssNode = document.createTextNode(css);
-		var childNodes = style.childNodes;
-
-		if (childNodes[index]) style.removeChild(childNodes[index]);
-
-		if (childNodes.length) {
-			style.insertBefore(cssNode, childNodes[index]);
-		} else {
-			style.appendChild(cssNode);
-		}
-	}
-}
-
-function applyToTag (style, obj) {
-	var css = obj.css;
-	var media = obj.media;
-
-	if(media) {
-		style.setAttribute("media", media)
-	}
-
-	if(style.styleSheet) {
-		style.styleSheet.cssText = css;
-	} else {
-		while(style.firstChild) {
-			style.removeChild(style.firstChild);
-		}
-
-		style.appendChild(document.createTextNode(css));
-	}
-}
-
-function updateLink (link, options, obj) {
-	var css = obj.css;
-	var sourceMap = obj.sourceMap;
-
-	/*
-		If convertToAbsoluteUrls isn't defined, but sourcemaps are enabled
-		and there is no publicPath defined then lets turn convertToAbsoluteUrls
-		on by default.  Otherwise default to the convertToAbsoluteUrls option
-		directly
-	*/
-	var autoFixUrls = options.convertToAbsoluteUrls === undefined && sourceMap;
-
-	if (options.convertToAbsoluteUrls || autoFixUrls) {
-		css = fixUrls(css);
-	}
-
-	if (sourceMap) {
-		// http://stackoverflow.com/a/26603875
-		css += "\n/*# sourceMappingURL=data:application/json;base64," + btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap)))) + " */";
-	}
-
-	var blob = new Blob([css], { type: "text/css" });
-
-	var oldSrc = link.href;
-
-	link.href = URL.createObjectURL(blob);
-
-	if(oldSrc) URL.revokeObjectURL(oldSrc);
-}
-
-
-/***/ }),
-
-/***/ "./node_modules/style-loader/lib/urls.js":
-/*!***********************************************!*\
-  !*** ./node_modules/style-loader/lib/urls.js ***!
-  \***********************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-
-/**
- * When source maps are enabled, `style-loader` uses a link element with a data-uri to
- * embed the css on the page. This breaks all relative urls because now they are relative to a
- * bundle instead of the current page.
- *
- * One solution is to only use full urls, but that may be impossible.
- *
- * Instead, this function "fixes" the relative urls to be absolute according to the current page location.
- *
- * A rudimentary test suite is located at `test/fixUrls.js` and can be run via the `npm test` command.
- *
- */
-
-module.exports = function (css) {
-  // get current location
-  var location = typeof window !== "undefined" && window.location;
-
-  if (!location) {
-    throw new Error("fixUrls requires window.location");
-  }
-
-	// blank or null?
-	if (!css || typeof css !== "string") {
-	  return css;
-  }
-
-  var baseUrl = location.protocol + "//" + location.host;
-  var currentDir = baseUrl + location.pathname.replace(/\/[^\/]*$/, "/");
-
-	// convert each url(...)
-	/*
-	This regular expression is just a way to recursively match brackets within
-	a string.
-
-	 /url\s*\(  = Match on the word "url" with any whitespace after it and then a parens
-	   (  = Start a capturing group
-	     (?:  = Start a non-capturing group
-	         [^)(]  = Match anything that isn't a parentheses
-	         |  = OR
-	         \(  = Match a start parentheses
-	             (?:  = Start another non-capturing groups
-	                 [^)(]+  = Match anything that isn't a parentheses
-	                 |  = OR
-	                 \(  = Match a start parentheses
-	                     [^)(]*  = Match anything that isn't a parentheses
-	                 \)  = Match a end parentheses
-	             )  = End Group
-              *\) = Match anything and then a close parens
-          )  = Close non-capturing group
-          *  = Match anything
-       )  = Close capturing group
-	 \)  = Match a close parens
-
-	 /gi  = Get all matches, not the first.  Be case insensitive.
-	 */
-	var fixedCss = css.replace(/url\s*\(((?:[^)(]|\((?:[^)(]+|\([^)(]*\))*\))*)\)/gi, function(fullMatch, origUrl) {
-		// strip quotes (if they exist)
-		var unquotedOrigUrl = origUrl
-			.trim()
-			.replace(/^"(.*)"$/, function(o, $1){ return $1; })
-			.replace(/^'(.*)'$/, function(o, $1){ return $1; });
-
-		// already a full url? no change
-		if (/^(#|data:|http:\/\/|https:\/\/|file:\/\/\/|\s*$)/i.test(unquotedOrigUrl)) {
-		  return fullMatch;
-		}
-
-		// convert the url to a full url
-		var newUrl;
-
-		if (unquotedOrigUrl.indexOf("//") === 0) {
-		  	//TODO: should we add protocol?
-			newUrl = unquotedOrigUrl;
-		} else if (unquotedOrigUrl.indexOf("/") === 0) {
-			// path should be relative to the base url
-			newUrl = baseUrl + unquotedOrigUrl; // already starts with '/'
-		} else {
-			// path should be relative to current directory
-			newUrl = currentDir + unquotedOrigUrl.replace(/^\.\//, ""); // Strip leading './'
-		}
-
-		// send back the fixed url(...)
-		return "url(" + JSON.stringify(newUrl) + ")";
-	});
-
-	// send back the fixed css
-	return fixedCss;
-};
-
-
-/***/ }),
-
-/***/ "./node_modules/sweetalert2/dist/sweetalert2.all.js":
-/*!**********************************************************!*\
-  !*** ./node_modules/sweetalert2/dist/sweetalert2.all.js ***!
-  \**********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-/*!
-* sweetalert2 v9.17.2
-* Released under the MIT License.
-*/
-(function (global, factory) {
-   true ? module.exports = factory() :
-  undefined;
-}(this, function () { 'use strict';
-
-  function _typeof(obj) {
-    "@babel/helpers - typeof";
-
-    if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") {
-      _typeof = function (obj) {
-        return typeof obj;
-      };
-    } else {
-      _typeof = function (obj) {
-        return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj;
-      };
-    }
-
-    return _typeof(obj);
-  }
-
-  function _classCallCheck(instance, Constructor) {
-    if (!(instance instanceof Constructor)) {
-      throw new TypeError("Cannot call a class as a function");
-    }
-  }
-
-  function _defineProperties(target, props) {
-    for (var i = 0; i < props.length; i++) {
-      var descriptor = props[i];
-      descriptor.enumerable = descriptor.enumerable || false;
-      descriptor.configurable = true;
-      if ("value" in descriptor) descriptor.writable = true;
-      Object.defineProperty(target, descriptor.key, descriptor);
-    }
-  }
-
-  function _createClass(Constructor, protoProps, staticProps) {
-    if (protoProps) _defineProperties(Constructor.prototype, protoProps);
-    if (staticProps) _defineProperties(Constructor, staticProps);
-    return Constructor;
-  }
-
-  function _extends() {
-    _extends = Object.assign || function (target) {
-      for (var i = 1; i < arguments.length; i++) {
-        var source = arguments[i];
-
-        for (var key in source) {
-          if (Object.prototype.hasOwnProperty.call(source, key)) {
-            target[key] = source[key];
-          }
-        }
-      }
-
-      return target;
-    };
-
-    return _extends.apply(this, arguments);
-  }
-
-  function _inherits(subClass, superClass) {
-    if (typeof superClass !== "function" && superClass !== null) {
-      throw new TypeError("Super expression must either be null or a function");
-    }
-
-    subClass.prototype = Object.create(superClass && superClass.prototype, {
-      constructor: {
-        value: subClass,
-        writable: true,
-        configurable: true
-      }
-    });
-    if (superClass) _setPrototypeOf(subClass, superClass);
-  }
-
-  function _getPrototypeOf(o) {
-    _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) {
-      return o.__proto__ || Object.getPrototypeOf(o);
-    };
-    return _getPrototypeOf(o);
-  }
-
-  function _setPrototypeOf(o, p) {
-    _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) {
-      o.__proto__ = p;
-      return o;
-    };
-
-    return _setPrototypeOf(o, p);
-  }
-
-  function _isNativeReflectConstruct() {
-    if (typeof Reflect === "undefined" || !Reflect.construct) return false;
-    if (Reflect.construct.sham) return false;
-    if (typeof Proxy === "function") return true;
-
-    try {
-      Date.prototype.toString.call(Reflect.construct(Date, [], function () {}));
-      return true;
-    } catch (e) {
-      return false;
-    }
-  }
-
-  function _construct(Parent, args, Class) {
-    if (_isNativeReflectConstruct()) {
-      _construct = Reflect.construct;
-    } else {
-      _construct = function _construct(Parent, args, Class) {
-        var a = [null];
-        a.push.apply(a, args);
-        var Constructor = Function.bind.apply(Parent, a);
-        var instance = new Constructor();
-        if (Class) _setPrototypeOf(instance, Class.prototype);
-        return instance;
-      };
-    }
-
-    return _construct.apply(null, arguments);
-  }
-
-  function _assertThisInitialized(self) {
-    if (self === void 0) {
-      throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
-    }
-
-    return self;
-  }
-
-  function _possibleConstructorReturn(self, call) {
-    if (call && (typeof call === "object" || typeof call === "function")) {
-      return call;
-    }
-
-    return _assertThisInitialized(self);
-  }
-
-  function _createSuper(Derived) {
-    var hasNativeReflectConstruct = _isNativeReflectConstruct();
-
-    return function _createSuperInternal() {
-      var Super = _getPrototypeOf(Derived),
-          result;
-
-      if (hasNativeReflectConstruct) {
-        var NewTarget = _getPrototypeOf(this).constructor;
-
-        result = Reflect.construct(Super, arguments, NewTarget);
-      } else {
-        result = Super.apply(this, arguments);
-      }
-
-      return _possibleConstructorReturn(this, result);
-    };
-  }
-
-  function _superPropBase(object, property) {
-    while (!Object.prototype.hasOwnProperty.call(object, property)) {
-      object = _getPrototypeOf(object);
-      if (object === null) break;
-    }
-
-    return object;
-  }
-
-  function _get(target, property, receiver) {
-    if (typeof Reflect !== "undefined" && Reflect.get) {
-      _get = Reflect.get;
-    } else {
-      _get = function _get(target, property, receiver) {
-        var base = _superPropBase(target, property);
-
-        if (!base) return;
-        var desc = Object.getOwnPropertyDescriptor(base, property);
-
-        if (desc.get) {
-          return desc.get.call(receiver);
-        }
-
-        return desc.value;
-      };
-    }
-
-    return _get(target, property, receiver || target);
-  }
-
-  var consolePrefix = 'SweetAlert2:';
-  /**
-   * Filter the unique values into a new array
-   * @param arr
-   */
-
-  var uniqueArray = function uniqueArray(arr) {
-    var result = [];
-
-    for (var i = 0; i < arr.length; i++) {
-      if (result.indexOf(arr[i]) === -1) {
-        result.push(arr[i]);
-      }
-    }
-
-    return result;
-  };
-  /**
-   * Capitalize the first letter of a string
-   * @param str
-   */
-
-  var capitalizeFirstLetter = function capitalizeFirstLetter(str) {
-    return str.charAt(0).toUpperCase() + str.slice(1);
-  };
-  /**
-   * Returns the array of object values (Object.values isn't supported in IE11)
-   * @param obj
-   */
-
-  var objectValues = function objectValues(obj) {
-    return Object.keys(obj).map(function (key) {
-      return obj[key];
-    });
-  };
-  /**
-   * Convert NodeList to Array
-   * @param nodeList
-   */
-
-  var toArray = function toArray(nodeList) {
-    return Array.prototype.slice.call(nodeList);
-  };
-  /**
-   * Standardise console warnings
-   * @param message
-   */
-
-  var warn = function warn(message) {
-    console.warn("".concat(consolePrefix, " ").concat(message));
-  };
-  /**
-   * Standardise console errors
-   * @param message
-   */
-
-  var error = function error(message) {
-    console.error("".concat(consolePrefix, " ").concat(message));
-  };
-  /**
-   * Private global state for `warnOnce`
-   * @type {Array}
-   * @private
-   */
-
-  var previousWarnOnceMessages = [];
-  /**
-   * Show a console warning, but only if it hasn't already been shown
-   * @param message
-   */
-
-  var warnOnce = function warnOnce(message) {
-    if (!(previousWarnOnceMessages.indexOf(message) !== -1)) {
-      previousWarnOnceMessages.push(message);
-      warn(message);
-    }
-  };
-  /**
-   * Show a one-time console warning about deprecated params/methods
-   */
-
-  var warnAboutDepreation = function warnAboutDepreation(deprecatedParam, useInstead) {
-    warnOnce("\"".concat(deprecatedParam, "\" is deprecated and will be removed in the next major release. Please use \"").concat(useInstead, "\" instead."));
-  };
-  /**
-   * If `arg` is a function, call it (with no arguments or context) and return the result.
-   * Otherwise, just pass the value through
-   * @param arg
-   */
-
-  var callIfFunction = function callIfFunction(arg) {
-    return typeof arg === 'function' ? arg() : arg;
-  };
-  var hasToPromiseFn = function hasToPromiseFn(arg) {
-    return arg && typeof arg.toPromise === 'function';
-  };
-  var asPromise = function asPromise(arg) {
-    return hasToPromiseFn(arg) ? arg.toPromise() : Promise.resolve(arg);
-  };
-  var isPromise = function isPromise(arg) {
-    return arg && Promise.resolve(arg) === arg;
-  };
-
-  var DismissReason = Object.freeze({
-    cancel: 'cancel',
-    backdrop: 'backdrop',
-    close: 'close',
-    esc: 'esc',
-    timer: 'timer'
-  });
-
-  var isJqueryElement = function isJqueryElement(elem) {
-    return _typeof(elem) === 'object' && elem.jquery;
-  };
-
-  var isElement = function isElement(elem) {
-    return elem instanceof Element || isJqueryElement(elem);
-  };
-
-  var argsToParams = function argsToParams(args) {
-    var params = {};
-
-    if (_typeof(args[0]) === 'object' && !isElement(args[0])) {
-      _extends(params, args[0]);
-    } else {
-      ['title', 'html', 'icon'].forEach(function (name, index) {
-        var arg = args[index];
-
-        if (typeof arg === 'string' || isElement(arg)) {
-          params[name] = arg;
-        } else if (arg !== undefined) {
-          error("Unexpected type of ".concat(name, "! Expected \"string\" or \"Element\", got ").concat(_typeof(arg)));
-        }
-      });
-    }
-
-    return params;
-  };
-
-  var swalPrefix = 'swal2-';
-  var prefix = function prefix(items) {
-    var result = {};
-
-    for (var i in items) {
-      result[items[i]] = swalPrefix + items[i];
-    }
-
-    return result;
-  };
-  var swalClasses = prefix(['container', 'shown', 'height-auto', 'iosfix', 'popup', 'modal', 'no-backdrop', 'no-transition', 'toast', 'toast-shown', 'toast-column', 'show', 'hide', 'close', 'title', 'header', 'content', 'html-container', 'actions', 'confirm', 'cancel', 'footer', 'icon', 'icon-content', 'image', 'input', 'file', 'range', 'select', 'radio', 'checkbox', 'label', 'textarea', 'inputerror', 'validation-message', 'progress-steps', 'active-progress-step', 'progress-step', 'progress-step-line', 'loading', 'styled', 'top', 'top-start', 'top-end', 'top-left', 'top-right', 'center', 'center-start', 'center-end', 'center-left', 'center-right', 'bottom', 'bottom-start', 'bottom-end', 'bottom-left', 'bottom-right', 'grow-row', 'grow-column', 'grow-fullscreen', 'rtl', 'timer-progress-bar', 'timer-progress-bar-container', 'scrollbar-measure', 'icon-success', 'icon-warning', 'icon-info', 'icon-question', 'icon-error']);
-  var iconTypes = prefix(['success', 'warning', 'info', 'question', 'error']);
-
-  var getContainer = function getContainer() {
-    return document.body.querySelector(".".concat(swalClasses.container));
-  };
-  var elementBySelector = function elementBySelector(selectorString) {
-    var container = getContainer();
-    return container ? container.querySelector(selectorString) : null;
-  };
-
-  var elementByClass = function elementByClass(className) {
-    return elementBySelector(".".concat(className));
-  };
-
-  var getPopup = function getPopup() {
-    return elementByClass(swalClasses.popup);
-  };
-  var getIcons = function getIcons() {
-    var popup = getPopup();
-    return toArray(popup.querySelectorAll(".".concat(swalClasses.icon)));
-  };
-  var getIcon = function getIcon() {
-    var visibleIcon = getIcons().filter(function (icon) {
-      return isVisible(icon);
-    });
-    return visibleIcon.length ? visibleIcon[0] : null;
-  };
-  var getTitle = function getTitle() {
-    return elementByClass(swalClasses.title);
-  };
-  var getContent = function getContent() {
-    return elementByClass(swalClasses.content);
-  };
-  var getHtmlContainer = function getHtmlContainer() {
-    return elementByClass(swalClasses['html-container']);
-  };
-  var getImage = function getImage() {
-    return elementByClass(swalClasses.image);
-  };
-  var getProgressSteps = function getProgressSteps() {
-    return elementByClass(swalClasses['progress-steps']);
-  };
-  var getValidationMessage = function getValidationMessage() {
-    return elementByClass(swalClasses['validation-message']);
-  };
-  var getConfirmButton = function getConfirmButton() {
-    return elementBySelector(".".concat(swalClasses.actions, " .").concat(swalClasses.confirm));
-  };
-  var getCancelButton = function getCancelButton() {
-    return elementBySelector(".".concat(swalClasses.actions, " .").concat(swalClasses.cancel));
-  };
-  var getActions = function getActions() {
-    return elementByClass(swalClasses.actions);
-  };
-  var getHeader = function getHeader() {
-    return elementByClass(swalClasses.header);
-  };
-  var getFooter = function getFooter() {
-    return elementByClass(swalClasses.footer);
-  };
-  var getTimerProgressBar = function getTimerProgressBar() {
-    return elementByClass(swalClasses['timer-progress-bar']);
-  };
-  var getCloseButton = function getCloseButton() {
-    return elementByClass(swalClasses.close);
-  }; // https://github.com/jkup/focusable/blob/master/index.js
-
-  var focusable = "\n  a[href],\n  area[href],\n  input:not([disabled]),\n  select:not([disabled]),\n  textarea:not([disabled]),\n  button:not([disabled]),\n  iframe,\n  object,\n  embed,\n  [tabindex=\"0\"],\n  [contenteditable],\n  audio[controls],\n  video[controls],\n  summary\n";
-  var getFocusableElements = function getFocusableElements() {
-    var focusableElementsWithTabindex = toArray(getPopup().querySelectorAll('[tabindex]:not([tabindex="-1"]):not([tabindex="0"])')) // sort according to tabindex
-    .sort(function (a, b) {
-      a = parseInt(a.getAttribute('tabindex'));
-      b = parseInt(b.getAttribute('tabindex'));
-
-      if (a > b) {
-        return 1;
-      } else if (a < b) {
-        return -1;
-      }
-
-      return 0;
-    });
-    var otherFocusableElements = toArray(getPopup().querySelectorAll(focusable)).filter(function (el) {
-      return el.getAttribute('tabindex') !== '-1';
-    });
-    return uniqueArray(focusableElementsWithTabindex.concat(otherFocusableElements)).filter(function (el) {
-      return isVisible(el);
-    });
-  };
-  var isModal = function isModal() {
-    return !isToast() && !document.body.classList.contains(swalClasses['no-backdrop']);
-  };
-  var isToast = function isToast() {
-    return document.body.classList.contains(swalClasses['toast-shown']);
-  };
-  var isLoading = function isLoading() {
-    return getPopup().hasAttribute('data-loading');
-  };
-
-  var states = {
-    previousBodyPadding: null
-  };
-  var setInnerHtml = function setInnerHtml(elem, html) {
-    // #1926
-    elem.textContent = '';
-
-    if (html) {
-      var parser = new DOMParser();
-      var parsed = parser.parseFromString(html, "text/html");
-      toArray(parsed.querySelector('head').childNodes).forEach(function (child) {
-        elem.appendChild(child);
-      });
-      toArray(parsed.querySelector('body').childNodes).forEach(function (child) {
-        elem.appendChild(child);
-      });
-    }
-  };
-  var hasClass = function hasClass(elem, className) {
-    if (!className) {
-      return false;
-    }
-
-    var classList = className.split(/\s+/);
-
-    for (var i = 0; i < classList.length; i++) {
-      if (!elem.classList.contains(classList[i])) {
-        return false;
-      }
-    }
-
-    return true;
-  };
-
-  var removeCustomClasses = function removeCustomClasses(elem, params) {
-    toArray(elem.classList).forEach(function (className) {
-      if (!(objectValues(swalClasses).indexOf(className) !== -1) && !(objectValues(iconTypes).indexOf(className) !== -1) && !(objectValues(params.showClass).indexOf(className) !== -1)) {
-        elem.classList.remove(className);
-      }
-    });
-  };
-
-  var applyCustomClass = function applyCustomClass(elem, params, className) {
-    removeCustomClasses(elem, params);
-
-    if (params.customClass && params.customClass[className]) {
-      if (typeof params.customClass[className] !== 'string' && !params.customClass[className].forEach) {
-        return warn("Invalid type of customClass.".concat(className, "! Expected string or iterable object, got \"").concat(_typeof(params.customClass[className]), "\""));
-      }
-
-      addClass(elem, params.customClass[className]);
-    }
-  };
-  function getInput(content, inputType) {
-    if (!inputType) {
-      return null;
-    }
-
-    switch (inputType) {
-      case 'select':
-      case 'textarea':
-      case 'file':
-        return getChildByClass(content, swalClasses[inputType]);
-
-      case 'checkbox':
-        return content.querySelector(".".concat(swalClasses.checkbox, " input"));
-
-      case 'radio':
-        return content.querySelector(".".concat(swalClasses.radio, " input:checked")) || content.querySelector(".".concat(swalClasses.radio, " input:first-child"));
-
-      case 'range':
-        return content.querySelector(".".concat(swalClasses.range, " input"));
-
-      default:
-        return getChildByClass(content, swalClasses.input);
-    }
-  }
-  var focusInput = function focusInput(input) {
-    input.focus(); // place cursor at end of text in text input
-
-    if (input.type !== 'file') {
-      // http://stackoverflow.com/a/2345915
-      var val = input.value;
-      input.value = '';
-      input.value = val;
-    }
-  };
-  var toggleClass = function toggleClass(target, classList, condition) {
-    if (!target || !classList) {
-      return;
-    }
-
-    if (typeof classList === 'string') {
-      classList = classList.split(/\s+/).filter(Boolean);
-    }
-
-    classList.forEach(function (className) {
-      if (target.forEach) {
-        target.forEach(function (elem) {
-          condition ? elem.classList.add(className) : elem.classList.remove(className);
-        });
-      } else {
-        condition ? target.classList.add(className) : target.classList.remove(className);
-      }
-    });
-  };
-  var addClass = function addClass(target, classList) {
-    toggleClass(target, classList, true);
-  };
-  var removeClass = function removeClass(target, classList) {
-    toggleClass(target, classList, false);
-  };
-  var getChildByClass = function getChildByClass(elem, className) {
-    for (var i = 0; i < elem.childNodes.length; i++) {
-      if (hasClass(elem.childNodes[i], className)) {
-        return elem.childNodes[i];
-      }
-    }
-  };
-  var applyNumericalStyle = function applyNumericalStyle(elem, property, value) {
-    if (value || parseInt(value) === 0) {
-      elem.style[property] = typeof value === 'number' ? "".concat(value, "px") : value;
-    } else {
-      elem.style.removeProperty(property);
-    }
-  };
-  var show = function show(elem) {
-    var display = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 'flex';
-    elem.style.opacity = '';
-    elem.style.display = display;
-  };
-  var hide = function hide(elem) {
-    elem.style.opacity = '';
-    elem.style.display = 'none';
-  };
-  var toggle = function toggle(elem, condition, display) {
-    condition ? show(elem, display) : hide(elem);
-  }; // borrowed from jquery $(elem).is(':visible') implementation
-
-  var isVisible = function isVisible(elem) {
-    return !!(elem && (elem.offsetWidth || elem.offsetHeight || elem.getClientRects().length));
-  };
-  /* istanbul ignore next */
-
-  var isScrollable = function isScrollable(elem) {
-    return !!(elem.scrollHeight > elem.clientHeight);
-  }; // borrowed from https://stackoverflow.com/a/46352119
-
-  var hasCssAnimation = function hasCssAnimation(elem) {
-    var style = window.getComputedStyle(elem);
-    var animDuration = parseFloat(style.getPropertyValue('animation-duration') || '0');
-    var transDuration = parseFloat(style.getPropertyValue('transition-duration') || '0');
-    return animDuration > 0 || transDuration > 0;
-  };
-  var contains = function contains(haystack, needle) {
-    if (typeof haystack.contains === 'function') {
-      return haystack.contains(needle);
-    }
-  };
-  var animateTimerProgressBar = function animateTimerProgressBar(timer) {
-    var reset = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : false;
-    var timerProgressBar = getTimerProgressBar();
-
-    if (isVisible(timerProgressBar)) {
-      if (reset) {
-        timerProgressBar.style.transition = 'none';
-        timerProgressBar.style.width = '100%';
-      }
-
-      setTimeout(function () {
-        timerProgressBar.style.transition = "width ".concat(timer / 1000, "s linear");
-        timerProgressBar.style.width = '0%';
-      }, 10);
-    }
-  };
-  var stopTimerProgressBar = function stopTimerProgressBar() {
-    var timerProgressBar = getTimerProgressBar();
-    var timerProgressBarWidth = parseInt(window.getComputedStyle(timerProgressBar).width);
-    timerProgressBar.style.removeProperty('transition');
-    timerProgressBar.style.width = '100%';
-    var timerProgressBarFullWidth = parseInt(window.getComputedStyle(timerProgressBar).width);
-    var timerProgressBarPercent = parseInt(timerProgressBarWidth / timerProgressBarFullWidth * 100);
-    timerProgressBar.style.removeProperty('transition');
-    timerProgressBar.style.width = "".concat(timerProgressBarPercent, "%");
-  };
-
-  // Detect Node env
-  var isNodeEnv = function isNodeEnv() {
-    return typeof window === 'undefined' || typeof document === 'undefined';
-  };
-
-  var sweetHTML = "\n <div aria-labelledby=\"".concat(swalClasses.title, "\" aria-describedby=\"").concat(swalClasses.content, "\" class=\"").concat(swalClasses.popup, "\" tabindex=\"-1\">\n   <div class=\"").concat(swalClasses.header, "\">\n     <ul class=\"").concat(swalClasses['progress-steps'], "\"></ul>\n     <div class=\"").concat(swalClasses.icon, " ").concat(iconTypes.error, "\"></div>\n     <div class=\"").concat(swalClasses.icon, " ").concat(iconTypes.question, "\"></div>\n     <div class=\"").concat(swalClasses.icon, " ").concat(iconTypes.warning, "\"></div>\n     <div class=\"").concat(swalClasses.icon, " ").concat(iconTypes.info, "\"></div>\n     <div class=\"").concat(swalClasses.icon, " ").concat(iconTypes.success, "\"></div>\n     <img class=\"").concat(swalClasses.image, "\" />\n     <h2 class=\"").concat(swalClasses.title, "\" id=\"").concat(swalClasses.title, "\"></h2>\n     <button type=\"button\" class=\"").concat(swalClasses.close, "\"></button>\n   </div>\n   <div class=\"").concat(swalClasses.content, "\">\n     <div id=\"").concat(swalClasses.content, "\" class=\"").concat(swalClasses['html-container'], "\"></div>\n     <input class=\"").concat(swalClasses.input, "\" />\n     <input type=\"file\" class=\"").concat(swalClasses.file, "\" />\n     <div class=\"").concat(swalClasses.range, "\">\n       <input type=\"range\" />\n       <output></output>\n     </div>\n     <select class=\"").concat(swalClasses.select, "\"></select>\n     <div class=\"").concat(swalClasses.radio, "\"></div>\n     <label for=\"").concat(swalClasses.checkbox, "\" class=\"").concat(swalClasses.checkbox, "\">\n       <input type=\"checkbox\" />\n       <span class=\"").concat(swalClasses.label, "\"></span>\n     </label>\n     <textarea class=\"").concat(swalClasses.textarea, "\"></textarea>\n     <div class=\"").concat(swalClasses['validation-message'], "\" id=\"").concat(swalClasses['validation-message'], "\"></div>\n   </div>\n   <div class=\"").concat(swalClasses.actions, "\">\n     <button type=\"button\" class=\"").concat(swalClasses.confirm, "\">OK</button>\n     <button type=\"button\" class=\"").concat(swalClasses.cancel, "\">Cancel</button>\n   </div>\n   <div class=\"").concat(swalClasses.footer, "\"></div>\n   <div class=\"").concat(swalClasses['timer-progress-bar-container'], "\">\n     <div class=\"").concat(swalClasses['timer-progress-bar'], "\"></div>\n   </div>\n </div>\n").replace(/(^|\n)\s*/g, '');
-
-  var resetOldContainer = function resetOldContainer() {
-    var oldContainer = getContainer();
-
-    if (!oldContainer) {
-      return false;
-    }
-
-    oldContainer.parentNode.removeChild(oldContainer);
-    removeClass([document.documentElement, document.body], [swalClasses['no-backdrop'], swalClasses['toast-shown'], swalClasses['has-column']]);
-    return true;
-  };
-
-  var oldInputVal; // IE11 workaround, see #1109 for details
-
-  var resetValidationMessage = function resetValidationMessage(e) {
-    if (Swal.isVisible() && oldInputVal !== e.target.value) {
-      Swal.resetValidationMessage();
-    }
-
-    oldInputVal = e.target.value;
-  };
-
-  var addInputChangeListeners = function addInputChangeListeners() {
-    var content = getContent();
-    var input = getChildByClass(content, swalClasses.input);
-    var file = getChildByClass(content, swalClasses.file);
-    var range = content.querySelector(".".concat(swalClasses.range, " input"));
-    var rangeOutput = content.querySelector(".".concat(swalClasses.range, " output"));
-    var select = getChildByClass(content, swalClasses.select);
-    var checkbox = content.querySelector(".".concat(swalClasses.checkbox, " input"));
-    var textarea = getChildByClass(content, swalClasses.textarea);
-    input.oninput = resetValidationMessage;
-    file.onchange = resetValidationMessage;
-    select.onchange = resetValidationMessage;
-    checkbox.onchange = resetValidationMessage;
-    textarea.oninput = resetValidationMessage;
-
-    range.oninput = function (e) {
-      resetValidationMessage(e);
-      rangeOutput.value = range.value;
-    };
-
-    range.onchange = function (e) {
-      resetValidationMessage(e);
-      range.nextSibling.value = range.value;
-    };
-  };
-
-  var getTarget = function getTarget(target) {
-    return typeof target === 'string' ? document.querySelector(target) : target;
-  };
-
-  var setupAccessibility = function setupAccessibility(params) {
-    var popup = getPopup();
-    popup.setAttribute('role', params.toast ? 'alert' : 'dialog');
-    popup.setAttribute('aria-live', params.toast ? 'polite' : 'assertive');
-
-    if (!params.toast) {
-      popup.setAttribute('aria-modal', 'true');
-    }
-  };
-
-  var setupRTL = function setupRTL(targetElement) {
-    if (window.getComputedStyle(targetElement).direction === 'rtl') {
-      addClass(getContainer(), swalClasses.rtl);
-    }
-  };
-  /*
-   * Add modal + backdrop to DOM
-   */
-
-
-  var init = function init(params) {
-    // Clean up the old popup container if it exists
-    var oldContainerExisted = resetOldContainer();
-    /* istanbul ignore if */
-
-    if (isNodeEnv()) {
-      error('SweetAlert2 requires document to initialize');
-      return;
-    }
-
-    var container = document.createElement('div');
-    container.className = swalClasses.container;
-
-    if (oldContainerExisted) {
-      addClass(container, swalClasses['no-transition']);
-    }
-
-    setInnerHtml(container, sweetHTML);
-    var targetElement = getTarget(params.target);
-    targetElement.appendChild(container);
-    setupAccessibility(params);
-    setupRTL(targetElement);
-    addInputChangeListeners();
-  };
-
-  var parseHtmlToContainer = function parseHtmlToContainer(param, target) {
-    // DOM element
-    if (param instanceof HTMLElement) {
-      target.appendChild(param); // Object
-    } else if (_typeof(param) === 'object') {
-      handleObject(param, target); // Plain string
-    } else if (param) {
-      setInnerHtml(target, param);
-    }
-  };
-
-  var handleObject = function handleObject(param, target) {
-    // JQuery element(s)
-    if (param.jquery) {
-      handleJqueryElem(target, param); // For other objects use their string representation
-    } else {
-      setInnerHtml(target, param.toString());
-    }
-  };
-
-  var handleJqueryElem = function handleJqueryElem(target, elem) {
-    target.textContent = '';
-
-    if (0 in elem) {
-      for (var i = 0; (i in elem); i++) {
-        target.appendChild(elem[i].cloneNode(true));
-      }
-    } else {
-      target.appendChild(elem.cloneNode(true));
-    }
-  };
-
-  var animationEndEvent = function () {
-    // Prevent run in Node env
-
-    /* istanbul ignore if */
-    if (isNodeEnv()) {
-      return false;
-    }
-
-    var testEl = document.createElement('div');
-    var transEndEventNames = {
-      WebkitAnimation: 'webkitAnimationEnd',
-      OAnimation: 'oAnimationEnd oanimationend',
-      animation: 'animationend'
-    };
-
-    for (var i in transEndEventNames) {
-      if (Object.prototype.hasOwnProperty.call(transEndEventNames, i) && typeof testEl.style[i] !== 'undefined') {
-        return transEndEventNames[i];
-      }
-    }
-
-    return false;
-  }();
-
-  // https://github.com/twbs/bootstrap/blob/master/js/src/modal.js
-
-  var measureScrollbar = function measureScrollbar() {
-    var scrollDiv = document.createElement('div');
-    scrollDiv.className = swalClasses['scrollbar-measure'];
-    document.body.appendChild(scrollDiv);
-    var scrollbarWidth = scrollDiv.getBoundingClientRect().width - scrollDiv.clientWidth;
-    document.body.removeChild(scrollDiv);
-    return scrollbarWidth;
-  };
-
-  var renderActions = function renderActions(instance, params) {
-    var actions = getActions();
-    var confirmButton = getConfirmButton();
-    var cancelButton = getCancelButton(); // Actions (buttons) wrapper
-
-    if (!params.showConfirmButton && !params.showCancelButton) {
-      hide(actions);
-    } // Custom class
-
-
-    applyCustomClass(actions, params, 'actions'); // Render confirm button
-
-    renderButton(confirmButton, 'confirm', params); // render Cancel Button
-
-    renderButton(cancelButton, 'cancel', params);
-
-    if (params.buttonsStyling) {
-      handleButtonsStyling(confirmButton, cancelButton, params);
-    } else {
-      removeClass([confirmButton, cancelButton], swalClasses.styled);
-      confirmButton.style.backgroundColor = confirmButton.style.borderLeftColor = confirmButton.style.borderRightColor = '';
-      cancelButton.style.backgroundColor = cancelButton.style.borderLeftColor = cancelButton.style.borderRightColor = '';
-    }
-
-    if (params.reverseButtons) {
-      confirmButton.parentNode.insertBefore(cancelButton, confirmButton);
-    }
-  };
-
-  function handleButtonsStyling(confirmButton, cancelButton, params) {
-    addClass([confirmButton, cancelButton], swalClasses.styled); // Buttons background colors
-
-    if (params.confirmButtonColor) {
-      confirmButton.style.backgroundColor = params.confirmButtonColor;
-    }
-
-    if (params.cancelButtonColor) {
-      cancelButton.style.backgroundColor = params.cancelButtonColor;
-    } // Loading state
-
-
-    if (!isLoading()) {
-      var confirmButtonBackgroundColor = window.getComputedStyle(confirmButton).getPropertyValue('background-color');
-      confirmButton.style.borderLeftColor = confirmButtonBackgroundColor;
-      confirmButton.style.borderRightColor = confirmButtonBackgroundColor;
-    }
-  }
-
-  function renderButton(button, buttonType, params) {
-    toggle(button, params["show".concat(capitalizeFirstLetter(buttonType), "Button")], 'inline-block');
-    setInnerHtml(button, params["".concat(buttonType, "ButtonText")]); // Set caption text
-
-    button.setAttribute('aria-label', params["".concat(buttonType, "ButtonAriaLabel")]); // ARIA label
-    // Add buttons custom classes
-
-    button.className = swalClasses[buttonType];
-    applyCustomClass(button, params, "".concat(buttonType, "Button"));
-    addClass(button, params["".concat(buttonType, "ButtonClass")]);
-  }
-
-  function handleBackdropParam(container, backdrop) {
-    if (typeof backdrop === 'string') {
-      container.style.background = backdrop;
-    } else if (!backdrop) {
-      addClass([document.documentElement, document.body], swalClasses['no-backdrop']);
-    }
-  }
-
-  function handlePositionParam(container, position) {
-    if (position in swalClasses) {
-      addClass(container, swalClasses[position]);
-    } else {
-      warn('The "position" parameter is not valid, defaulting to "center"');
-      addClass(container, swalClasses.center);
-    }
-  }
-
-  function handleGrowParam(container, grow) {
-    if (grow && typeof grow === 'string') {
-      var growClass = "grow-".concat(grow);
-
-      if (growClass in swalClasses) {
-        addClass(container, swalClasses[growClass]);
-      }
-    }
-  }
-
-  var renderContainer = function renderContainer(instance, params) {
-    var container = getContainer();
-
-    if (!container) {
-      return;
-    }
-
-    handleBackdropParam(container, params.backdrop);
-
-    if (!params.backdrop && params.allowOutsideClick) {
-      warn('"allowOutsideClick" parameter requires `backdrop` parameter to be set to `true`');
-    }
-
-    handlePositionParam(container, params.position);
-    handleGrowParam(container, params.grow); // Custom class
-
-    applyCustomClass(container, params, 'container'); // Set queue step attribute for getQueueStep() method
-
-    var queueStep = document.body.getAttribute('data-swal2-queue-step');
-
-    if (queueStep) {
-      container.setAttribute('data-queue-step', queueStep);
-      document.body.removeAttribute('data-swal2-queue-step');
-    }
-  };
-
-  /**
-   * This module containts `WeakMap`s for each effectively-"private  property" that a `Swal` has.
-   * For example, to set the private property "foo" of `this` to "bar", you can `privateProps.foo.set(this, 'bar')`
-   * This is the approach that Babel will probably take to implement private methods/fields
-   *   https://github.com/tc39/proposal-private-methods
-   *   https://github.com/babel/babel/pull/7555
-   * Once we have the changes from that PR in Babel, and our core class fits reasonable in *one module*
-   *   then we can use that language feature.
-   */
-  var privateProps = {
-    promise: new WeakMap(),
-    innerParams: new WeakMap(),
-    domCache: new WeakMap()
-  };
-
-  var inputTypes = ['input', 'file', 'range', 'select', 'radio', 'checkbox', 'textarea'];
-  var renderInput = function renderInput(instance, params) {
-    var content = getContent();
-    var innerParams = privateProps.innerParams.get(instance);
-    var rerender = !innerParams || params.input !== innerParams.input;
-    inputTypes.forEach(function (inputType) {
-      var inputClass = swalClasses[inputType];
-      var inputContainer = getChildByClass(content, inputClass); // set attributes
-
-      setAttributes(inputType, params.inputAttributes); // set class
-
-      inputContainer.className = inputClass;
-
-      if (rerender) {
-        hide(inputContainer);
-      }
-    });
-
-    if (params.input) {
-      if (rerender) {
-        showInput(params);
-      } // set custom class
-
-
-      setCustomClass(params);
-    }
-  };
-
-  var showInput = function showInput(params) {
-    if (!renderInputType[params.input]) {
-      return error("Unexpected type of input! Expected \"text\", \"email\", \"password\", \"number\", \"tel\", \"select\", \"radio\", \"checkbox\", \"textarea\", \"file\" or \"url\", got \"".concat(params.input, "\""));
-    }
-
-    var inputContainer = getInputContainer(params.input);
-    var input = renderInputType[params.input](inputContainer, params);
-    show(input); // input autofocus
-
-    setTimeout(function () {
-      focusInput(input);
-    });
-  };
-
-  var removeAttributes = function removeAttributes(input) {
-    for (var i = 0; i < input.attributes.length; i++) {
-      var attrName = input.attributes[i].name;
-
-      if (!(['type', 'value', 'style'].indexOf(attrName) !== -1)) {
-        input.removeAttribute(attrName);
-      }
-    }
-  };
-
-  var setAttributes = function setAttributes(inputType, inputAttributes) {
-    var input = getInput(getContent(), inputType);
-
-    if (!input) {
-      return;
-    }
-
-    removeAttributes(input);
-
-    for (var attr in inputAttributes) {
-      // Do not set a placeholder for <input type="range">
-      // it'll crash Edge, #1298
-      if (inputType === 'range' && attr === 'placeholder') {
-        continue;
-      }
-
-      input.setAttribute(attr, inputAttributes[attr]);
-    }
-  };
-
-  var setCustomClass = function setCustomClass(params) {
-    var inputContainer = getInputContainer(params.input);
-
-    if (params.customClass) {
-      addClass(inputContainer, params.customClass.input);
-    }
-  };
-
-  var setInputPlaceholder = function setInputPlaceholder(input, params) {
-    if (!input.placeholder || params.inputPlaceholder) {
-      input.placeholder = params.inputPlaceholder;
-    }
-  };
-
-  var getInputContainer = function getInputContainer(inputType) {
-    var inputClass = swalClasses[inputType] ? swalClasses[inputType] : swalClasses.input;
-    return getChildByClass(getContent(), inputClass);
-  };
-
-  var renderInputType = {};
-
-  renderInputType.text = renderInputType.email = renderInputType.password = renderInputType.number = renderInputType.tel = renderInputType.url = function (input, params) {
-    if (typeof params.inputValue === 'string' || typeof params.inputValue === 'number') {
-      input.value = params.inputValue;
-    } else if (!isPromise(params.inputValue)) {
-      warn("Unexpected type of inputValue! Expected \"string\", \"number\" or \"Promise\", got \"".concat(_typeof(params.inputValue), "\""));
-    }
-
-    setInputPlaceholder(input, params);
-    input.type = params.input;
-    return input;
-  };
-
-  renderInputType.file = function (input, params) {
-    setInputPlaceholder(input, params);
-    return input;
-  };
-
-  renderInputType.range = function (range, params) {
-    var rangeInput = range.querySelector('input');
-    var rangeOutput = range.querySelector('output');
-    rangeInput.value = params.inputValue;
-    rangeInput.type = params.input;
-    rangeOutput.value = params.inputValue;
-    return range;
-  };
-
-  renderInputType.select = function (select, params) {
-    select.textContent = '';
-
-    if (params.inputPlaceholder) {
-      var placeholder = document.createElement('option');
-      setInnerHtml(placeholder, params.inputPlaceholder);
-      placeholder.value = '';
-      placeholder.disabled = true;
-      placeholder.selected = true;
-      select.appendChild(placeholder);
-    }
-
-    return select;
-  };
-
-  renderInputType.radio = function (radio) {
-    radio.textContent = '';
-    return radio;
-  };
-
-  renderInputType.checkbox = function (checkboxContainer, params) {
-    var checkbox = getInput(getContent(), 'checkbox');
-    checkbox.value = 1;
-    checkbox.id = swalClasses.checkbox;
-    checkbox.checked = Boolean(params.inputValue);
-    var label = checkboxContainer.querySelector('span');
-    setInnerHtml(label, params.inputPlaceholder);
-    return checkboxContainer;
-  };
-
-  renderInputType.textarea = function (textarea, params) {
-    textarea.value = params.inputValue;
-    setInputPlaceholder(textarea, params);
-
-    if ('MutationObserver' in window) {
-      // #1699
-      var initialPopupWidth = parseInt(window.getComputedStyle(getPopup()).width);
-      var popupPadding = parseInt(window.getComputedStyle(getPopup()).paddingLeft) + parseInt(window.getComputedStyle(getPopup()).paddingRight);
-
-      var outputsize = function outputsize() {
-        var contentWidth = textarea.offsetWidth + popupPadding;
-
-        if (contentWidth > initialPopupWidth) {
-          getPopup().style.width = "".concat(contentWidth, "px");
-        } else {
-          getPopup().style.width = null;
-        }
-      };
-
-      new MutationObserver(outputsize).observe(textarea, {
-        attributes: true,
-        attributeFilter: ['style']
-      });
-    }
-
-    return textarea;
-  };
-
-  var renderContent = function renderContent(instance, params) {
-    var content = getContent().querySelector("#".concat(swalClasses.content)); // Content as HTML
-
-    if (params.html) {
-      parseHtmlToContainer(params.html, content);
-      show(content, 'block'); // Content as plain text
-    } else if (params.text) {
-      content.textContent = params.text;
-      show(content, 'block'); // No content
-    } else {
-      hide(content);
-    }
-
-    renderInput(instance, params); // Custom class
-
-    applyCustomClass(getContent(), params, 'content');
-  };
-
-  var renderFooter = function renderFooter(instance, params) {
-    var footer = getFooter();
-    toggle(footer, params.footer);
-
-    if (params.footer) {
-      parseHtmlToContainer(params.footer, footer);
-    } // Custom class
-
-
-    applyCustomClass(footer, params, 'footer');
-  };
-
-  var renderCloseButton = function renderCloseButton(instance, params) {
-    var closeButton = getCloseButton();
-    setInnerHtml(closeButton, params.closeButtonHtml); // Custom class
-
-    applyCustomClass(closeButton, params, 'closeButton');
-    toggle(closeButton, params.showCloseButton);
-    closeButton.setAttribute('aria-label', params.closeButtonAriaLabel);
-  };
-
-  var renderIcon = function renderIcon(instance, params) {
-    var innerParams = privateProps.innerParams.get(instance); // if the give icon already rendered, apply the custom class without re-rendering the icon
-
-    if (innerParams && params.icon === innerParams.icon && getIcon()) {
-      applyCustomClass(getIcon(), params, 'icon');
-      return;
-    }
-
-    hideAllIcons();
-
-    if (!params.icon) {
-      return;
-    }
-
-    if (Object.keys(iconTypes).indexOf(params.icon) !== -1) {
-      var icon = elementBySelector(".".concat(swalClasses.icon, ".").concat(iconTypes[params.icon]));
-      show(icon); // Custom or default content
-
-      setContent(icon, params);
-      adjustSuccessIconBackgoundColor(); // Custom class
-
-      applyCustomClass(icon, params, 'icon'); // Animate icon
-
-      addClass(icon, params.showClass.icon);
-    } else {
-      error("Unknown icon! Expected \"success\", \"error\", \"warning\", \"info\" or \"question\", got \"".concat(params.icon, "\""));
-    }
-  };
-
-  var hideAllIcons = function hideAllIcons() {
-    var icons = getIcons();
-
-    for (var i = 0; i < icons.length; i++) {
-      hide(icons[i]);
-    }
-  }; // Adjust success icon background color to match the popup background color
-
-
-  var adjustSuccessIconBackgoundColor = function adjustSuccessIconBackgoundColor() {
-    var popup = getPopup();
-    var popupBackgroundColor = window.getComputedStyle(popup).getPropertyValue('background-color');
-    var successIconParts = popup.querySelectorAll('[class^=swal2-success-circular-line], .swal2-success-fix');
-
-    for (var i = 0; i < successIconParts.length; i++) {
-      successIconParts[i].style.backgroundColor = popupBackgroundColor;
-    }
-  };
-
-  var setContent = function setContent(icon, params) {
-    icon.textContent = '';
-
-    if (params.iconHtml) {
-      setInnerHtml(icon, iconContent(params.iconHtml));
-    } else if (params.icon === 'success') {
-      setInnerHtml(icon, "\n      <div class=\"swal2-success-circular-line-left\"></div>\n      <span class=\"swal2-success-line-tip\"></span> <span class=\"swal2-success-line-long\"></span>\n      <div class=\"swal2-success-ring\"></div> <div class=\"swal2-success-fix\"></div>\n      <div class=\"swal2-success-circular-line-right\"></div>\n    ");
-    } else if (params.icon === 'error') {
-      setInnerHtml(icon, "\n      <span class=\"swal2-x-mark\">\n        <span class=\"swal2-x-mark-line-left\"></span>\n        <span class=\"swal2-x-mark-line-right\"></span>\n      </span>\n    ");
-    } else {
-      var defaultIconHtml = {
-        question: '?',
-        warning: '!',
-        info: 'i'
-      };
-      setInnerHtml(icon, iconContent(defaultIconHtml[params.icon]));
-    }
-  };
-
-  var iconContent = function iconContent(content) {
-    return "<div class=\"".concat(swalClasses['icon-content'], "\">").concat(content, "</div>");
-  };
-
-  var renderImage = function renderImage(instance, params) {
-    var image = getImage();
-
-    if (!params.imageUrl) {
-      return hide(image);
-    }
-
-    show(image, ''); // Src, alt
-
-    image.setAttribute('src', params.imageUrl);
-    image.setAttribute('alt', params.imageAlt); // Width, height
-
-    applyNumericalStyle(image, 'width', params.imageWidth);
-    applyNumericalStyle(image, 'height', params.imageHeight); // Class
-
-    image.className = swalClasses.image;
-    applyCustomClass(image, params, 'image');
-  };
-
-  var currentSteps = [];
-  /*
-   * Global function for chaining sweetAlert popups
-   */
-
-  var queue = function queue(steps) {
-    var Swal = this;
-    currentSteps = steps;
-
-    var resetAndResolve = function resetAndResolve(resolve, value) {
-      currentSteps = [];
-      resolve(value);
-    };
-
-    var queueResult = [];
-    return new Promise(function (resolve) {
-      (function step(i, callback) {
-        if (i < currentSteps.length) {
-          document.body.setAttribute('data-swal2-queue-step', i);
-          Swal.fire(currentSteps[i]).then(function (result) {
-            if (typeof result.value !== 'undefined') {
-              queueResult.push(result.value);
-              step(i + 1, callback);
-            } else {
-              resetAndResolve(resolve, {
-                dismiss: result.dismiss
-              });
-            }
-          });
-        } else {
-          resetAndResolve(resolve, {
-            value: queueResult
-          });
-        }
-      })(0);
-    });
-  };
-  /*
-   * Global function for getting the index of current popup in queue
-   */
-
-  var getQueueStep = function getQueueStep() {
-    return getContainer() && getContainer().getAttribute('data-queue-step');
-  };
-  /*
-   * Global function for inserting a popup to the queue
-   */
-
-  var insertQueueStep = function insertQueueStep(step, index) {
-    if (index && index < currentSteps.length) {
-      return currentSteps.splice(index, 0, step);
-    }
-
-    return currentSteps.push(step);
-  };
-  /*
-   * Global function for deleting a popup from the queue
-   */
-
-  var deleteQueueStep = function deleteQueueStep(index) {
-    if (typeof currentSteps[index] !== 'undefined') {
-      currentSteps.splice(index, 1);
-    }
-  };
-
-  var createStepElement = function createStepElement(step) {
-    var stepEl = document.createElement('li');
-    addClass(stepEl, swalClasses['progress-step']);
-    setInnerHtml(stepEl, step);
-    return stepEl;
-  };
-
-  var createLineElement = function createLineElement(params) {
-    var lineEl = document.createElement('li');
-    addClass(lineEl, swalClasses['progress-step-line']);
-
-    if (params.progressStepsDistance) {
-      lineEl.style.width = params.progressStepsDistance;
-    }
-
-    return lineEl;
-  };
-
-  var renderProgressSteps = function renderProgressSteps(instance, params) {
-    var progressStepsContainer = getProgressSteps();
-
-    if (!params.progressSteps || params.progressSteps.length === 0) {
-      return hide(progressStepsContainer);
-    }
-
-    show(progressStepsContainer);
-    progressStepsContainer.textContent = '';
-    var currentProgressStep = parseInt(params.currentProgressStep === undefined ? getQueueStep() : params.currentProgressStep);
-
-    if (currentProgressStep >= params.progressSteps.length) {
-      warn('Invalid currentProgressStep parameter, it should be less than progressSteps.length ' + '(currentProgressStep like JS arrays starts from 0)');
-    }
-
-    params.progressSteps.forEach(function (step, index) {
-      var stepEl = createStepElement(step);
-      progressStepsContainer.appendChild(stepEl);
-
-      if (index === currentProgressStep) {
-        addClass(stepEl, swalClasses['active-progress-step']);
-      }
-
-      if (index !== params.progressSteps.length - 1) {
-        var lineEl = createLineElement(params);
-        progressStepsContainer.appendChild(lineEl);
-      }
-    });
-  };
-
-  var renderTitle = function renderTitle(instance, params) {
-    var title = getTitle();
-    toggle(title, params.title || params.titleText);
-
-    if (params.title) {
-      parseHtmlToContainer(params.title, title);
-    }
-
-    if (params.titleText) {
-      title.innerText = params.titleText;
-    } // Custom class
-
-
-    applyCustomClass(title, params, 'title');
-  };
-
-  var renderHeader = function renderHeader(instance, params) {
-    var header = getHeader(); // Custom class
-
-    applyCustomClass(header, params, 'header'); // Progress steps
-
-    renderProgressSteps(instance, params); // Icon
-
-    renderIcon(instance, params); // Image
-
-    renderImage(instance, params); // Title
-
-    renderTitle(instance, params); // Close button
-
-    renderCloseButton(instance, params);
-  };
-
-  var renderPopup = function renderPopup(instance, params) {
-    var popup = getPopup(); // Width
-
-    applyNumericalStyle(popup, 'width', params.width); // Padding
-
-    applyNumericalStyle(popup, 'padding', params.padding); // Background
-
-    if (params.background) {
-      popup.style.background = params.background;
-    } // Classes
-
-
-    addClasses(popup, params);
-  };
-
-  var addClasses = function addClasses(popup, params) {
-    // Default Class + showClass when updating Swal.update({})
-    popup.className = "".concat(swalClasses.popup, " ").concat(isVisible(popup) ? params.showClass.popup : '');
-
-    if (params.toast) {
-      addClass([document.documentElement, document.body], swalClasses['toast-shown']);
-      addClass(popup, swalClasses.toast);
-    } else {
-      addClass(popup, swalClasses.modal);
-    } // Custom class
-
-
-    applyCustomClass(popup, params, 'popup');
-
-    if (typeof params.customClass === 'string') {
-      addClass(popup, params.customClass);
-    } // Icon class (#1842)
-
-
-    if (params.icon) {
-      addClass(popup, swalClasses["icon-".concat(params.icon)]);
-    }
-  };
-
-  var render = function render(instance, params) {
-    renderPopup(instance, params);
-    renderContainer(instance, params);
-    renderHeader(instance, params);
-    renderContent(instance, params);
-    renderActions(instance, params);
-    renderFooter(instance, params);
-
-    if (typeof params.onRender === 'function') {
-      params.onRender(getPopup());
-    }
-  };
-
-  /*
-   * Global function to determine if SweetAlert2 popup is shown
-   */
-
-  var isVisible$1 = function isVisible$$1() {
-    return isVisible(getPopup());
-  };
-  /*
-   * Global function to click 'Confirm' button
-   */
-
-  var clickConfirm = function clickConfirm() {
-    return getConfirmButton() && getConfirmButton().click();
-  };
-  /*
-   * Global function to click 'Cancel' button
-   */
-
-  var clickCancel = function clickCancel() {
-    return getCancelButton() && getCancelButton().click();
-  };
-
-  function fire() {
-    var Swal = this;
-
-    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
-      args[_key] = arguments[_key];
-    }
-
-    return _construct(Swal, args);
-  }
-
-  /**
-   * Returns an extended version of `Swal` containing `params` as defaults.
-   * Useful for reusing Swal configuration.
-   *
-   * For example:
-   *
-   * Before:
-   * const textPromptOptions = { input: 'text', showCancelButton: true }
-   * const {value: firstName} = await Swal.fire({ ...textPromptOptions, title: 'What is your first name?' })
-   * const {value: lastName} = await Swal.fire({ ...textPromptOptions, title: 'What is your last name?' })
-   *
-   * After:
-   * const TextPrompt = Swal.mixin({ input: 'text', showCancelButton: true })
-   * const {value: firstName} = await TextPrompt('What is your first name?')
-   * const {value: lastName} = await TextPrompt('What is your last name?')
-   *
-   * @param mixinParams
-   */
-  function mixin(mixinParams) {
-    var MixinSwal = /*#__PURE__*/function (_this) {
-      _inherits(MixinSwal, _this);
-
-      var _super = _createSuper(MixinSwal);
-
-      function MixinSwal() {
-        _classCallCheck(this, MixinSwal);
-
-        return _super.apply(this, arguments);
-      }
-
-      _createClass(MixinSwal, [{
-        key: "_main",
-        value: function _main(params) {
-          return _get(_getPrototypeOf(MixinSwal.prototype), "_main", this).call(this, _extends({}, mixinParams, params));
-        }
-      }]);
-
-      return MixinSwal;
-    }(this);
-
-    return MixinSwal;
-  }
-
-  /**
-   * Show spinner instead of Confirm button
-   */
-
-  var showLoading = function showLoading() {
-    var popup = getPopup();
-
-    if (!popup) {
-      Swal.fire();
-    }
-
-    popup = getPopup();
-    var actions = getActions();
-    var confirmButton = getConfirmButton();
-    show(actions);
-    show(confirmButton, 'inline-block');
-    addClass([popup, actions], swalClasses.loading);
-    confirmButton.disabled = true;
-    popup.setAttribute('data-loading', true);
-    popup.setAttribute('aria-busy', true);
-    popup.focus();
-  };
-
-  var RESTORE_FOCUS_TIMEOUT = 100;
-
-  var globalState = {};
-
-  var focusPreviousActiveElement = function focusPreviousActiveElement() {
-    if (globalState.previousActiveElement && globalState.previousActiveElement.focus) {
-      globalState.previousActiveElement.focus();
-      globalState.previousActiveElement = null;
-    } else if (document.body) {
-      document.body.focus();
-    }
-  }; // Restore previous active (focused) element
-
-
-  var restoreActiveElement = function restoreActiveElement() {
-    return new Promise(function (resolve) {
-      var x = window.scrollX;
-      var y = window.scrollY;
-      globalState.restoreFocusTimeout = setTimeout(function () {
-        focusPreviousActiveElement();
-        resolve();
-      }, RESTORE_FOCUS_TIMEOUT); // issues/900
-
-      /* istanbul ignore if */
-
-      if (typeof x !== 'undefined' && typeof y !== 'undefined') {
-        // IE doesn't have scrollX/scrollY support
-        window.scrollTo(x, y);
-      }
-    });
-  };
-
-  /**
-   * If `timer` parameter is set, returns number of milliseconds of timer remained.
-   * Otherwise, returns undefined.
-   */
-
-  var getTimerLeft = function getTimerLeft() {
-    return globalState.timeout && globalState.timeout.getTimerLeft();
-  };
-  /**
-   * Stop timer. Returns number of milliseconds of timer remained.
-   * If `timer` parameter isn't set, returns undefined.
-   */
-
-  var stopTimer = function stopTimer() {
-    if (globalState.timeout) {
-      stopTimerProgressBar();
-      return globalState.timeout.stop();
-    }
-  };
-  /**
-   * Resume timer. Returns number of milliseconds of timer remained.
-   * If `timer` parameter isn't set, returns undefined.
-   */
-
-  var resumeTimer = function resumeTimer() {
-    if (globalState.timeout) {
-      var remaining = globalState.timeout.start();
-      animateTimerProgressBar(remaining);
-      return remaining;
-    }
-  };
-  /**
-   * Resume timer. Returns number of milliseconds of timer remained.
-   * If `timer` parameter isn't set, returns undefined.
-   */
-
-  var toggleTimer = function toggleTimer() {
-    var timer = globalState.timeout;
-    return timer && (timer.running ? stopTimer() : resumeTimer());
-  };
-  /**
-   * Increase timer. Returns number of milliseconds of an updated timer.
-   * If `timer` parameter isn't set, returns undefined.
-   */
-
-  var increaseTimer = function increaseTimer(n) {
-    if (globalState.timeout) {
-      var remaining = globalState.timeout.increase(n);
-      animateTimerProgressBar(remaining, true);
-      return remaining;
-    }
-  };
-  /**
-   * Check if timer is running. Returns true if timer is running
-   * or false if timer is paused or stopped.
-   * If `timer` parameter isn't set, returns undefined
-   */
-
-  var isTimerRunning = function isTimerRunning() {
-    return globalState.timeout && globalState.timeout.isRunning();
-  };
-
-  var defaultParams = {
-    title: '',
-    titleText: '',
-    text: '',
-    html: '',
-    footer: '',
-    icon: undefined,
-    iconHtml: undefined,
-    toast: false,
-    animation: true,
-    showClass: {
-      popup: 'swal2-show',
-      backdrop: 'swal2-backdrop-show',
-      icon: 'swal2-icon-show'
-    },
-    hideClass: {
-      popup: 'swal2-hide',
-      backdrop: 'swal2-backdrop-hide',
-      icon: 'swal2-icon-hide'
-    },
-    customClass: undefined,
-    target: 'body',
-    backdrop: true,
-    heightAuto: true,
-    allowOutsideClick: true,
-    allowEscapeKey: true,
-    allowEnterKey: true,
-    stopKeydownPropagation: true,
-    keydownListenerCapture: false,
-    showConfirmButton: true,
-    showCancelButton: false,
-    preConfirm: undefined,
-    confirmButtonText: 'OK',
-    confirmButtonAriaLabel: '',
-    confirmButtonColor: undefined,
-    cancelButtonText: 'Cancel',
-    cancelButtonAriaLabel: '',
-    cancelButtonColor: undefined,
-    buttonsStyling: true,
-    reverseButtons: false,
-    focusConfirm: true,
-    focusCancel: false,
-    showCloseButton: false,
-    closeButtonHtml: '&times;',
-    closeButtonAriaLabel: 'Close this dialog',
-    showLoaderOnConfirm: false,
-    imageUrl: undefined,
-    imageWidth: undefined,
-    imageHeight: undefined,
-    imageAlt: '',
-    timer: undefined,
-    timerProgressBar: false,
-    width: undefined,
-    padding: undefined,
-    background: undefined,
-    input: undefined,
-    inputPlaceholder: '',
-    inputValue: '',
-    inputOptions: {},
-    inputAutoTrim: true,
-    inputAttributes: {},
-    inputValidator: undefined,
-    validationMessage: undefined,
-    grow: false,
-    position: 'center',
-    progressSteps: [],
-    currentProgressStep: undefined,
-    progressStepsDistance: undefined,
-    onBeforeOpen: undefined,
-    onOpen: undefined,
-    onRender: undefined,
-    onClose: undefined,
-    onAfterClose: undefined,
-    onDestroy: undefined,
-    scrollbarPadding: true
-  };
-  var updatableParams = ['allowEscapeKey', 'allowOutsideClick', 'buttonsStyling', 'cancelButtonAriaLabel', 'cancelButtonColor', 'cancelButtonText', 'closeButtonAriaLabel', 'closeButtonHtml', 'confirmButtonAriaLabel', 'confirmButtonColor', 'confirmButtonText', 'currentProgressStep', 'customClass', 'footer', 'hideClass', 'html', 'icon', 'imageAlt', 'imageHeight', 'imageUrl', 'imageWidth', 'onAfterClose', 'onClose', 'onDestroy', 'progressSteps', 'reverseButtons', 'showCancelButton', 'showCloseButton', 'showConfirmButton', 'text', 'title', 'titleText'];
-  var deprecatedParams = {
-    animation: 'showClass" and "hideClass'
-  };
-  var toastIncompatibleParams = ['allowOutsideClick', 'allowEnterKey', 'backdrop', 'focusConfirm', 'focusCancel', 'heightAuto', 'keydownListenerCapture'];
-  /**
-   * Is valid parameter
-   * @param {String} paramName
-   */
-
-  var isValidParameter = function isValidParameter(paramName) {
-    return Object.prototype.hasOwnProperty.call(defaultParams, paramName);
-  };
-  /**
-   * Is valid parameter for Swal.update() method
-   * @param {String} paramName
-   */
-
-  var isUpdatableParameter = function isUpdatableParameter(paramName) {
-    return updatableParams.indexOf(paramName) !== -1;
-  };
-  /**
-   * Is deprecated parameter
-   * @param {String} paramName
-   */
-
-  var isDeprecatedParameter = function isDeprecatedParameter(paramName) {
-    return deprecatedParams[paramName];
-  };
-
-  var checkIfParamIsValid = function checkIfParamIsValid(param) {
-    if (!isValidParameter(param)) {
-      warn("Unknown parameter \"".concat(param, "\""));
-    }
-  };
-
-  var checkIfToastParamIsValid = function checkIfToastParamIsValid(param) {
-    if (toastIncompatibleParams.indexOf(param) !== -1) {
-      warn("The parameter \"".concat(param, "\" is incompatible with toasts"));
-    }
-  };
-
-  var checkIfParamIsDeprecated = function checkIfParamIsDeprecated(param) {
-    if (isDeprecatedParameter(param)) {
-      warnAboutDepreation(param, isDeprecatedParameter(param));
-    }
-  };
-  /**
-   * Show relevant warnings for given params
-   *
-   * @param params
-   */
-
-
-  var showWarningsForParams = function showWarningsForParams(params) {
-    for (var param in params) {
-      checkIfParamIsValid(param);
-
-      if (params.toast) {
-        checkIfToastParamIsValid(param);
-      }
-
-      checkIfParamIsDeprecated(param);
-    }
-  };
-
-
-
-  var staticMethods = /*#__PURE__*/Object.freeze({
-    isValidParameter: isValidParameter,
-    isUpdatableParameter: isUpdatableParameter,
-    isDeprecatedParameter: isDeprecatedParameter,
-    argsToParams: argsToParams,
-    isVisible: isVisible$1,
-    clickConfirm: clickConfirm,
-    clickCancel: clickCancel,
-    getContainer: getContainer,
-    getPopup: getPopup,
-    getTitle: getTitle,
-    getContent: getContent,
-    getHtmlContainer: getHtmlContainer,
-    getImage: getImage,
-    getIcon: getIcon,
-    getIcons: getIcons,
-    getCloseButton: getCloseButton,
-    getActions: getActions,
-    getConfirmButton: getConfirmButton,
-    getCancelButton: getCancelButton,
-    getHeader: getHeader,
-    getFooter: getFooter,
-    getTimerProgressBar: getTimerProgressBar,
-    getFocusableElements: getFocusableElements,
-    getValidationMessage: getValidationMessage,
-    isLoading: isLoading,
-    fire: fire,
-    mixin: mixin,
-    queue: queue,
-    getQueueStep: getQueueStep,
-    insertQueueStep: insertQueueStep,
-    deleteQueueStep: deleteQueueStep,
-    showLoading: showLoading,
-    enableLoading: showLoading,
-    getTimerLeft: getTimerLeft,
-    stopTimer: stopTimer,
-    resumeTimer: resumeTimer,
-    toggleTimer: toggleTimer,
-    increaseTimer: increaseTimer,
-    isTimerRunning: isTimerRunning
-  });
-
-  /**
-   * Enables buttons and hide loader.
-   */
-
-  function hideLoading() {
-    // do nothing if popup is closed
-    var innerParams = privateProps.innerParams.get(this);
-
-    if (!innerParams) {
-      return;
-    }
-
-    var domCache = privateProps.domCache.get(this);
-
-    if (!innerParams.showConfirmButton) {
-      hide(domCache.confirmButton);
-
-      if (!innerParams.showCancelButton) {
-        hide(domCache.actions);
-      }
-    }
-
-    removeClass([domCache.popup, domCache.actions], swalClasses.loading);
-    domCache.popup.removeAttribute('aria-busy');
-    domCache.popup.removeAttribute('data-loading');
-    domCache.confirmButton.disabled = false;
-    domCache.cancelButton.disabled = false;
-  }
-
-  function getInput$1(instance) {
-    var innerParams = privateProps.innerParams.get(instance || this);
-    var domCache = privateProps.domCache.get(instance || this);
-
-    if (!domCache) {
-      return null;
-    }
-
-    return getInput(domCache.content, innerParams.input);
-  }
-
-  var fixScrollbar = function fixScrollbar() {
-    // for queues, do not do this more than once
-    if (states.previousBodyPadding !== null) {
-      return;
-    } // if the body has overflow
-
-
-    if (document.body.scrollHeight > window.innerHeight) {
-      // add padding so the content doesn't shift after removal of scrollbar
-      states.previousBodyPadding = parseInt(window.getComputedStyle(document.body).getPropertyValue('padding-right'));
-      document.body.style.paddingRight = "".concat(states.previousBodyPadding + measureScrollbar(), "px");
-    }
-  };
-  var undoScrollbar = function undoScrollbar() {
-    if (states.previousBodyPadding !== null) {
-      document.body.style.paddingRight = "".concat(states.previousBodyPadding, "px");
-      states.previousBodyPadding = null;
-    }
-  };
-
-  /* istanbul ignore file */
-
-  var iOSfix = function iOSfix() {
-    var iOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream || navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1;
-
-    if (iOS && !hasClass(document.body, swalClasses.iosfix)) {
-      var offset = document.body.scrollTop;
-      document.body.style.top = "".concat(offset * -1, "px");
-      addClass(document.body, swalClasses.iosfix);
-      lockBodyScroll();
-      addBottomPaddingForTallPopups(); // #1948
-    }
-  };
-
-  var addBottomPaddingForTallPopups = function addBottomPaddingForTallPopups() {
-    var safari = !navigator.userAgent.match(/(CriOS|FxiOS|EdgiOS|YaBrowser|UCBrowser)/i);
-
-    if (safari) {
-      var bottomPanelHeight = 44;
-
-      if (getPopup().scrollHeight > window.innerHeight - bottomPanelHeight) {
-        getContainer().style.paddingBottom = "".concat(bottomPanelHeight, "px");
-      }
-    }
-  };
-
-  var lockBodyScroll = function lockBodyScroll() {
-    // #1246
-    var container = getContainer();
-    var preventTouchMove;
-
-    container.ontouchstart = function (e) {
-      preventTouchMove = shouldPreventTouchMove(e.target);
-    };
-
-    container.ontouchmove = function (e) {
-      if (preventTouchMove) {
-        e.preventDefault();
-        e.stopPropagation();
-      }
-    };
-  };
-
-  var shouldPreventTouchMove = function shouldPreventTouchMove(target) {
-    var container = getContainer();
-
-    if (target === container) {
-      return true;
-    }
-
-    if (!isScrollable(container) && target.tagName !== 'INPUT' && // #1603
-    !(isScrollable(getContent()) && // #1944
-    getContent().contains(target))) {
-      return true;
-    }
-
-    return false;
-  };
-
-  var undoIOSfix = function undoIOSfix() {
-    if (hasClass(document.body, swalClasses.iosfix)) {
-      var offset = parseInt(document.body.style.top, 10);
-      removeClass(document.body, swalClasses.iosfix);
-      document.body.style.top = '';
-      document.body.scrollTop = offset * -1;
-    }
-  };
-
-  /* istanbul ignore file */
-
-  var isIE11 = function isIE11() {
-    return !!window.MSInputMethodContext && !!document.documentMode;
-  }; // Fix IE11 centering sweetalert2/issues/933
-
-
-  var fixVerticalPositionIE = function fixVerticalPositionIE() {
-    var container = getContainer();
-    var popup = getPopup();
-    container.style.removeProperty('align-items');
-
-    if (popup.offsetTop < 0) {
-      container.style.alignItems = 'flex-start';
-    }
-  };
-
-  var IEfix = function IEfix() {
-    if (typeof window !== 'undefined' && isIE11()) {
-      fixVerticalPositionIE();
-      window.addEventListener('resize', fixVerticalPositionIE);
-    }
-  };
-  var undoIEfix = function undoIEfix() {
-    if (typeof window !== 'undefined' && isIE11()) {
-      window.removeEventListener('resize', fixVerticalPositionIE);
-    }
-  };
-
-  // Adding aria-hidden="true" to elements outside of the active modal dialog ensures that
-  // elements not within the active modal dialog will not be surfaced if a user opens a screen
-  // reader’s list of elements (headings, form controls, landmarks, etc.) in the document.
-
-  var setAriaHidden = function setAriaHidden() {
-    var bodyChildren = toArray(document.body.children);
-    bodyChildren.forEach(function (el) {
-      if (el === getContainer() || contains(el, getContainer())) {
-        return;
-      }
-
-      if (el.hasAttribute('aria-hidden')) {
-        el.setAttribute('data-previous-aria-hidden', el.getAttribute('aria-hidden'));
-      }
-
-      el.setAttribute('aria-hidden', 'true');
-    });
-  };
-  var unsetAriaHidden = function unsetAriaHidden() {
-    var bodyChildren = toArray(document.body.children);
-    bodyChildren.forEach(function (el) {
-      if (el.hasAttribute('data-previous-aria-hidden')) {
-        el.setAttribute('aria-hidden', el.getAttribute('data-previous-aria-hidden'));
-        el.removeAttribute('data-previous-aria-hidden');
-      } else {
-        el.removeAttribute('aria-hidden');
-      }
-    });
-  };
-
-  /**
-   * This module containts `WeakMap`s for each effectively-"private  property" that a `Swal` has.
-   * For example, to set the private property "foo" of `this` to "bar", you can `privateProps.foo.set(this, 'bar')`
-   * This is the approach that Babel will probably take to implement private methods/fields
-   *   https://github.com/tc39/proposal-private-methods
-   *   https://github.com/babel/babel/pull/7555
-   * Once we have the changes from that PR in Babel, and our core class fits reasonable in *one module*
-   *   then we can use that language feature.
-   */
-  var privateMethods = {
-    swalPromiseResolve: new WeakMap()
-  };
-
-  /*
-   * Instance method to close sweetAlert
-   */
-
-  function removePopupAndResetState(instance, container, isToast$$1, onAfterClose) {
-    if (isToast$$1) {
-      triggerOnAfterCloseAndDispose(instance, onAfterClose);
-    } else {
-      restoreActiveElement().then(function () {
-        return triggerOnAfterCloseAndDispose(instance, onAfterClose);
-      });
-      globalState.keydownTarget.removeEventListener('keydown', globalState.keydownHandler, {
-        capture: globalState.keydownListenerCapture
-      });
-      globalState.keydownHandlerAdded = false;
-    }
-
-    if (container.parentNode && !document.body.getAttribute('data-swal2-queue-step')) {
-      container.parentNode.removeChild(container);
-    }
-
-    if (isModal()) {
-      undoScrollbar();
-      undoIOSfix();
-      undoIEfix();
-      unsetAriaHidden();
-    }
-
-    removeBodyClasses();
-  }
-
-  function removeBodyClasses() {
-    removeClass([document.documentElement, document.body], [swalClasses.shown, swalClasses['height-auto'], swalClasses['no-backdrop'], swalClasses['toast-shown'], swalClasses['toast-column']]);
-  }
-
-  function close(resolveValue) {
-    var popup = getPopup();
-
-    if (!popup) {
-      return;
-    }
-
-    var innerParams = privateProps.innerParams.get(this);
-
-    if (!innerParams || hasClass(popup, innerParams.hideClass.popup)) {
-      return;
-    }
-
-    var swalPromiseResolve = privateMethods.swalPromiseResolve.get(this);
-    removeClass(popup, innerParams.showClass.popup);
-    addClass(popup, innerParams.hideClass.popup);
-    var backdrop = getContainer();
-    removeClass(backdrop, innerParams.showClass.backdrop);
-    addClass(backdrop, innerParams.hideClass.backdrop);
-    handlePopupAnimation(this, popup, innerParams);
-
-    if (typeof resolveValue !== 'undefined') {
-      resolveValue.isDismissed = typeof resolveValue.dismiss !== 'undefined';
-      resolveValue.isConfirmed = typeof resolveValue.dismiss === 'undefined';
-    } else {
-      resolveValue = {
-        isDismissed: true,
-        isConfirmed: false
-      };
-    } // Resolve Swal promise
-
-
-    swalPromiseResolve(resolveValue || {});
-  }
-
-  var handlePopupAnimation = function handlePopupAnimation(instance, popup, innerParams) {
-    var container = getContainer(); // If animation is supported, animate
-
-    var animationIsSupported = animationEndEvent && hasCssAnimation(popup);
-    var onClose = innerParams.onClose,
-        onAfterClose = innerParams.onAfterClose;
-
-    if (onClose !== null && typeof onClose === 'function') {
-      onClose(popup);
-    }
-
-    if (animationIsSupported) {
-      animatePopup(instance, popup, container, onAfterClose);
-    } else {
-      // Otherwise, remove immediately
-      removePopupAndResetState(instance, container, isToast(), onAfterClose);
-    }
-  };
-
-  var animatePopup = function animatePopup(instance, popup, container, onAfterClose) {
-    globalState.swalCloseEventFinishedCallback = removePopupAndResetState.bind(null, instance, container, isToast(), onAfterClose);
-    popup.addEventListener(animationEndEvent, function (e) {
-      if (e.target === popup) {
-        globalState.swalCloseEventFinishedCallback();
-        delete globalState.swalCloseEventFinishedCallback;
-      }
-    });
-  };
-
-  var triggerOnAfterCloseAndDispose = function triggerOnAfterCloseAndDispose(instance, onAfterClose) {
-    setTimeout(function () {
-      if (typeof onAfterClose === 'function') {
-        onAfterClose();
-      }
-
-      instance._destroy();
-    });
-  };
-
-  function setButtonsDisabled(instance, buttons, disabled) {
-    var domCache = privateProps.domCache.get(instance);
-    buttons.forEach(function (button) {
-      domCache[button].disabled = disabled;
-    });
-  }
-
-  function setInputDisabled(input, disabled) {
-    if (!input) {
-      return false;
-    }
-
-    if (input.type === 'radio') {
-      var radiosContainer = input.parentNode.parentNode;
-      var radios = radiosContainer.querySelectorAll('input');
-
-      for (var i = 0; i < radios.length; i++) {
-        radios[i].disabled = disabled;
-      }
-    } else {
-      input.disabled = disabled;
-    }
-  }
-
-  function enableButtons() {
-    setButtonsDisabled(this, ['confirmButton', 'cancelButton'], false);
-  }
-  function disableButtons() {
-    setButtonsDisabled(this, ['confirmButton', 'cancelButton'], true);
-  }
-  function enableInput() {
-    return setInputDisabled(this.getInput(), false);
-  }
-  function disableInput() {
-    return setInputDisabled(this.getInput(), true);
-  }
-
-  function showValidationMessage(error) {
-    var domCache = privateProps.domCache.get(this);
-    setInnerHtml(domCache.validationMessage, error);
-    var popupComputedStyle = window.getComputedStyle(domCache.popup);
-    domCache.validationMessage.style.marginLeft = "-".concat(popupComputedStyle.getPropertyValue('padding-left'));
-    domCache.validationMessage.style.marginRight = "-".concat(popupComputedStyle.getPropertyValue('padding-right'));
-    show(domCache.validationMessage);
-    var input = this.getInput();
-
-    if (input) {
-      input.setAttribute('aria-invalid', true);
-      input.setAttribute('aria-describedBy', swalClasses['validation-message']);
-      focusInput(input);
-      addClass(input, swalClasses.inputerror);
-    }
-  } // Hide block with validation message
-
-  function resetValidationMessage$1() {
-    var domCache = privateProps.domCache.get(this);
-
-    if (domCache.validationMessage) {
-      hide(domCache.validationMessage);
-    }
-
-    var input = this.getInput();
-
-    if (input) {
-      input.removeAttribute('aria-invalid');
-      input.removeAttribute('aria-describedBy');
-      removeClass(input, swalClasses.inputerror);
-    }
-  }
-
-  function getProgressSteps$1() {
-    var domCache = privateProps.domCache.get(this);
-    return domCache.progressSteps;
-  }
-
-  var Timer = /*#__PURE__*/function () {
-    function Timer(callback, delay) {
-      _classCallCheck(this, Timer);
-
-      this.callback = callback;
-      this.remaining = delay;
-      this.running = false;
-      this.start();
-    }
-
-    _createClass(Timer, [{
-      key: "start",
-      value: function start() {
-        if (!this.running) {
-          this.running = true;
-          this.started = new Date();
-          this.id = setTimeout(this.callback, this.remaining);
-        }
-
-        return this.remaining;
-      }
-    }, {
-      key: "stop",
-      value: function stop() {
-        if (this.running) {
-          this.running = false;
-          clearTimeout(this.id);
-          this.remaining -= new Date() - this.started;
-        }
-
-        return this.remaining;
-      }
-    }, {
-      key: "increase",
-      value: function increase(n) {
-        var running = this.running;
-
-        if (running) {
-          this.stop();
-        }
-
-        this.remaining += n;
-
-        if (running) {
-          this.start();
-        }
-
-        return this.remaining;
-      }
-    }, {
-      key: "getTimerLeft",
-      value: function getTimerLeft() {
-        if (this.running) {
-          this.stop();
-          this.start();
-        }
-
-        return this.remaining;
-      }
-    }, {
-      key: "isRunning",
-      value: function isRunning() {
-        return this.running;
-      }
-    }]);
-
-    return Timer;
-  }();
-
-  var defaultInputValidators = {
-    email: function email(string, validationMessage) {
-      return /^[a-zA-Z0-9.+_-]+@[a-zA-Z0-9.-]+\.[a-zA-Z0-9-]{2,24}$/.test(string) ? Promise.resolve() : Promise.resolve(validationMessage || 'Invalid email address');
-    },
-    url: function url(string, validationMessage) {
-      // taken from https://stackoverflow.com/a/3809435 with a small change from #1306 and #2013
-      return /^https?:\/\/(www\.)?[-a-zA-Z0-9@:%._+~#=]{1,256}\.[a-z]{2,63}\b([-a-zA-Z0-9@:%_+.~#?&/=]*)$/.test(string) ? Promise.resolve() : Promise.resolve(validationMessage || 'Invalid URL');
-    }
-  };
-
-  function setDefaultInputValidators(params) {
-    // Use default `inputValidator` for supported input types if not provided
-    if (!params.inputValidator) {
-      Object.keys(defaultInputValidators).forEach(function (key) {
-        if (params.input === key) {
-          params.inputValidator = defaultInputValidators[key];
-        }
-      });
-    }
-  }
-
-  function validateCustomTargetElement(params) {
-    // Determine if the custom target element is valid
-    if (!params.target || typeof params.target === 'string' && !document.querySelector(params.target) || typeof params.target !== 'string' && !params.target.appendChild) {
-      warn('Target parameter is not valid, defaulting to "body"');
-      params.target = 'body';
-    }
-  }
-  /**
-   * Set type, text and actions on popup
-   *
-   * @param params
-   * @returns {boolean}
-   */
-
-
-  function setParameters(params) {
-    setDefaultInputValidators(params); // showLoaderOnConfirm && preConfirm
-
-    if (params.showLoaderOnConfirm && !params.preConfirm) {
-      warn('showLoaderOnConfirm is set to true, but preConfirm is not defined.\n' + 'showLoaderOnConfirm should be used together with preConfirm, see usage example:\n' + 'https://sweetalert2.github.io/#ajax-request');
-    } // params.animation will be actually used in renderPopup.js
-    // but in case when params.animation is a function, we need to call that function
-    // before popup (re)initialization, so it'll be possible to check Swal.isVisible()
-    // inside the params.animation function
-
-
-    params.animation = callIfFunction(params.animation);
-    validateCustomTargetElement(params); // Replace newlines with <br> in title
-
-    if (typeof params.title === 'string') {
-      params.title = params.title.split('\n').join('<br />');
-    }
-
-    init(params);
-  }
-
-  /**
-   * Open popup, add necessary classes and styles, fix scrollbar
-   *
-   * @param {Array} params
-   */
-
-  var openPopup = function openPopup(params) {
-    var container = getContainer();
-    var popup = getPopup();
-
-    if (typeof params.onBeforeOpen === 'function') {
-      params.onBeforeOpen(popup);
-    }
-
-    var bodyStyles = window.getComputedStyle(document.body);
-    var initialBodyOverflow = bodyStyles.overflowY;
-    addClasses$1(container, popup, params); // scrolling is 'hidden' until animation is done, after that 'auto'
-
-    setScrollingVisibility(container, popup);
-
-    if (isModal()) {
-      fixScrollContainer(container, params.scrollbarPadding, initialBodyOverflow);
-      setAriaHidden();
-    }
-
-    if (!isToast() && !globalState.previousActiveElement) {
-      globalState.previousActiveElement = document.activeElement;
-    }
-
-    if (typeof params.onOpen === 'function') {
-      setTimeout(function () {
-        return params.onOpen(popup);
-      });
-    }
-
-    removeClass(container, swalClasses['no-transition']);
-  };
-
-  function swalOpenAnimationFinished(event) {
-    var popup = getPopup();
-
-    if (event.target !== popup) {
-      return;
-    }
-
-    var container = getContainer();
-    popup.removeEventListener(animationEndEvent, swalOpenAnimationFinished);
-    container.style.overflowY = 'auto';
-  }
-
-  var setScrollingVisibility = function setScrollingVisibility(container, popup) {
-    if (animationEndEvent && hasCssAnimation(popup)) {
-      container.style.overflowY = 'hidden';
-      popup.addEventListener(animationEndEvent, swalOpenAnimationFinished);
-    } else {
-      container.style.overflowY = 'auto';
-    }
-  };
-
-  var fixScrollContainer = function fixScrollContainer(container, scrollbarPadding, initialBodyOverflow) {
-    iOSfix();
-    IEfix();
-
-    if (scrollbarPadding && initialBodyOverflow !== 'hidden') {
-      fixScrollbar();
-    } // sweetalert2/issues/1247
-
-
-    setTimeout(function () {
-      container.scrollTop = 0;
-    });
-  };
-
-  var addClasses$1 = function addClasses(container, popup, params) {
-    addClass(container, params.showClass.backdrop);
-    show(popup); // Animate popup right after showing it
-
-    addClass(popup, params.showClass.popup);
-    addClass([document.documentElement, document.body], swalClasses.shown);
-
-    if (params.heightAuto && params.backdrop && !params.toast) {
-      addClass([document.documentElement, document.body], swalClasses['height-auto']);
-    }
-  };
-
-  var handleInputOptionsAndValue = function handleInputOptionsAndValue(instance, params) {
-    if (params.input === 'select' || params.input === 'radio') {
-      handleInputOptions(instance, params);
-    } else if (['text', 'email', 'number', 'tel', 'textarea'].indexOf(params.input) !== -1 && (hasToPromiseFn(params.inputValue) || isPromise(params.inputValue))) {
-      handleInputValue(instance, params);
-    }
-  };
-  var getInputValue = function getInputValue(instance, innerParams) {
-    var input = instance.getInput();
-
-    if (!input) {
-      return null;
-    }
-
-    switch (innerParams.input) {
-      case 'checkbox':
-        return getCheckboxValue(input);
-
-      case 'radio':
-        return getRadioValue(input);
-
-      case 'file':
-        return getFileValue(input);
-
-      default:
-        return innerParams.inputAutoTrim ? input.value.trim() : input.value;
-    }
-  };
-
-  var getCheckboxValue = function getCheckboxValue(input) {
-    return input.checked ? 1 : 0;
-  };
-
-  var getRadioValue = function getRadioValue(input) {
-    return input.checked ? input.value : null;
-  };
-
-  var getFileValue = function getFileValue(input) {
-    return input.files.length ? input.getAttribute('multiple') !== null ? input.files : input.files[0] : null;
-  };
-
-  var handleInputOptions = function handleInputOptions(instance, params) {
-    var content = getContent();
-
-    var processInputOptions = function processInputOptions(inputOptions) {
-      return populateInputOptions[params.input](content, formatInputOptions(inputOptions), params);
-    };
-
-    if (hasToPromiseFn(params.inputOptions) || isPromise(params.inputOptions)) {
-      showLoading();
-      asPromise(params.inputOptions).then(function (inputOptions) {
-        instance.hideLoading();
-        processInputOptions(inputOptions);
-      });
-    } else if (_typeof(params.inputOptions) === 'object') {
-      processInputOptions(params.inputOptions);
-    } else {
-      error("Unexpected type of inputOptions! Expected object, Map or Promise, got ".concat(_typeof(params.inputOptions)));
-    }
-  };
-
-  var handleInputValue = function handleInputValue(instance, params) {
-    var input = instance.getInput();
-    hide(input);
-    asPromise(params.inputValue).then(function (inputValue) {
-      input.value = params.input === 'number' ? parseFloat(inputValue) || 0 : "".concat(inputValue);
-      show(input);
-      input.focus();
-      instance.hideLoading();
-    })["catch"](function (err) {
-      error("Error in inputValue promise: ".concat(err));
-      input.value = '';
-      show(input);
-      input.focus();
-      instance.hideLoading();
-    });
-  };
-
-  var populateInputOptions = {
-    select: function select(content, inputOptions, params) {
-      var select = getChildByClass(content, swalClasses.select);
-
-      var renderOption = function renderOption(parent, optionLabel, optionValue) {
-        var option = document.createElement('option');
-        option.value = optionValue;
-        setInnerHtml(option, optionLabel);
-
-        if (params.inputValue.toString() === optionValue.toString()) {
-          option.selected = true;
-        }
-
-        parent.appendChild(option);
-      };
-
-      inputOptions.forEach(function (inputOption) {
-        var optionValue = inputOption[0];
-        var optionLabel = inputOption[1]; // <optgroup> spec:
-        // https://www.w3.org/TR/html401/interact/forms.html#h-17.6
-        // "...all OPTGROUP elements must be specified directly within a SELECT element (i.e., groups may not be nested)..."
-        // check whether this is a <optgroup>
-
-        if (Array.isArray(optionLabel)) {
-          // if it is an array, then it is an <optgroup>
-          var optgroup = document.createElement('optgroup');
-          optgroup.label = optionValue;
-          optgroup.disabled = false; // not configurable for now
-
-          select.appendChild(optgroup);
-          optionLabel.forEach(function (o) {
-            return renderOption(optgroup, o[1], o[0]);
-          });
-        } else {
-          // case of <option>
-          renderOption(select, optionLabel, optionValue);
-        }
-      });
-      select.focus();
-    },
-    radio: function radio(content, inputOptions, params) {
-      var radio = getChildByClass(content, swalClasses.radio);
-      inputOptions.forEach(function (inputOption) {
-        var radioValue = inputOption[0];
-        var radioLabel = inputOption[1];
-        var radioInput = document.createElement('input');
-        var radioLabelElement = document.createElement('label');
-        radioInput.type = 'radio';
-        radioInput.name = swalClasses.radio;
-        radioInput.value = radioValue;
-
-        if (params.inputValue.toString() === radioValue.toString()) {
-          radioInput.checked = true;
-        }
-
-        var label = document.createElement('span');
-        setInnerHtml(label, radioLabel);
-        label.className = swalClasses.label;
-        radioLabelElement.appendChild(radioInput);
-        radioLabelElement.appendChild(label);
-        radio.appendChild(radioLabelElement);
-      });
-      var radios = radio.querySelectorAll('input');
-
-      if (radios.length) {
-        radios[0].focus();
-      }
-    }
-  };
-  /**
-   * Converts `inputOptions` into an array of `[value, label]`s
-   * @param inputOptions
-   */
-
-  var formatInputOptions = function formatInputOptions(inputOptions) {
-    var result = [];
-
-    if (typeof Map !== 'undefined' && inputOptions instanceof Map) {
-      inputOptions.forEach(function (value, key) {
-        var valueFormatted = value;
-
-        if (_typeof(valueFormatted) === 'object') {
-          // case of <optgroup>
-          valueFormatted = formatInputOptions(valueFormatted);
-        }
-
-        result.push([key, valueFormatted]);
-      });
-    } else {
-      Object.keys(inputOptions).forEach(function (key) {
-        var valueFormatted = inputOptions[key];
-
-        if (_typeof(valueFormatted) === 'object') {
-          // case of <optgroup>
-          valueFormatted = formatInputOptions(valueFormatted);
-        }
-
-        result.push([key, valueFormatted]);
-      });
-    }
-
-    return result;
-  };
-
-  var handleConfirmButtonClick = function handleConfirmButtonClick(instance, innerParams) {
-    instance.disableButtons();
-
-    if (innerParams.input) {
-      handleConfirmWithInput(instance, innerParams);
-    } else {
-      confirm(instance, innerParams, true);
-    }
-  };
-  var handleCancelButtonClick = function handleCancelButtonClick(instance, dismissWith) {
-    instance.disableButtons();
-    dismissWith(DismissReason.cancel);
-  };
-
-  var handleConfirmWithInput = function handleConfirmWithInput(instance, innerParams) {
-    var inputValue = getInputValue(instance, innerParams);
-
-    if (innerParams.inputValidator) {
-      instance.disableInput();
-      var validationPromise = Promise.resolve().then(function () {
-        return asPromise(innerParams.inputValidator(inputValue, innerParams.validationMessage));
-      });
-      validationPromise.then(function (validationMessage) {
-        instance.enableButtons();
-        instance.enableInput();
-
-        if (validationMessage) {
-          instance.showValidationMessage(validationMessage);
-        } else {
-          confirm(instance, innerParams, inputValue);
-        }
-      });
-    } else if (!instance.getInput().checkValidity()) {
-      instance.enableButtons();
-      instance.showValidationMessage(innerParams.validationMessage);
-    } else {
-      confirm(instance, innerParams, inputValue);
-    }
-  };
-
-  var succeedWith = function succeedWith(instance, value) {
-    instance.closePopup({
-      value: value
-    });
-  };
-
-  var confirm = function confirm(instance, innerParams, value) {
-    if (innerParams.showLoaderOnConfirm) {
-      showLoading(); // TODO: make showLoading an *instance* method
-    }
-
-    if (innerParams.preConfirm) {
-      instance.resetValidationMessage();
-      var preConfirmPromise = Promise.resolve().then(function () {
-        return asPromise(innerParams.preConfirm(value, innerParams.validationMessage));
-      });
-      preConfirmPromise.then(function (preConfirmValue) {
-        if (isVisible(getValidationMessage()) || preConfirmValue === false) {
-          instance.hideLoading();
-        } else {
-          succeedWith(instance, typeof preConfirmValue === 'undefined' ? value : preConfirmValue);
-        }
-      });
-    } else {
-      succeedWith(instance, value);
-    }
-  };
-
-  var addKeydownHandler = function addKeydownHandler(instance, globalState, innerParams, dismissWith) {
-    if (globalState.keydownTarget && globalState.keydownHandlerAdded) {
-      globalState.keydownTarget.removeEventListener('keydown', globalState.keydownHandler, {
-        capture: globalState.keydownListenerCapture
-      });
-      globalState.keydownHandlerAdded = false;
-    }
-
-    if (!innerParams.toast) {
-      globalState.keydownHandler = function (e) {
-        return keydownHandler(instance, e, dismissWith);
-      };
-
-      globalState.keydownTarget = innerParams.keydownListenerCapture ? window : getPopup();
-      globalState.keydownListenerCapture = innerParams.keydownListenerCapture;
-      globalState.keydownTarget.addEventListener('keydown', globalState.keydownHandler, {
-        capture: globalState.keydownListenerCapture
-      });
-      globalState.keydownHandlerAdded = true;
-    }
-  }; // Focus handling
-
-  var setFocus = function setFocus(innerParams, index, increment) {
-    var focusableElements = getFocusableElements(); // search for visible elements and select the next possible match
-
-    for (var i = 0; i < focusableElements.length; i++) {
-      index = index + increment; // rollover to first item
-
-      if (index === focusableElements.length) {
-        index = 0; // go to last item
-      } else if (index === -1) {
-        index = focusableElements.length - 1;
-      }
-
-      return focusableElements[index].focus();
-    } // no visible focusable elements, focus the popup
-
-
-    getPopup().focus();
-  };
-  var arrowKeys = ['ArrowLeft', 'ArrowRight', 'ArrowUp', 'ArrowDown', 'Left', 'Right', 'Up', 'Down' // IE11
-  ];
-  var escKeys = ['Escape', 'Esc' // IE11
-  ];
-
-  var keydownHandler = function keydownHandler(instance, e, dismissWith) {
-    var innerParams = privateProps.innerParams.get(instance);
-
-    if (innerParams.stopKeydownPropagation) {
-      e.stopPropagation();
-    } // ENTER
-
-
-    if (e.key === 'Enter') {
-      handleEnter(instance, e, innerParams); // TAB
-    } else if (e.key === 'Tab') {
-      handleTab(e, innerParams); // ARROWS - switch focus between buttons
-    } else if (arrowKeys.indexOf(e.key) !== -1) {
-      handleArrows(); // ESC
-    } else if (escKeys.indexOf(e.key) !== -1) {
-      handleEsc(e, innerParams, dismissWith);
-    }
-  };
-
-  var handleEnter = function handleEnter(instance, e, innerParams) {
-    // #720 #721
-    if (e.isComposing) {
-      return;
-    }
-
-    if (e.target && instance.getInput() && e.target.outerHTML === instance.getInput().outerHTML) {
-      if (['textarea', 'file'].indexOf(innerParams.input) !== -1) {
-        return; // do not submit
-      }
-
-      clickConfirm();
-      e.preventDefault();
-    }
-  };
-
-  var handleTab = function handleTab(e, innerParams) {
-    var targetElement = e.target;
-    var focusableElements = getFocusableElements();
-    var btnIndex = -1;
-
-    for (var i = 0; i < focusableElements.length; i++) {
-      if (targetElement === focusableElements[i]) {
-        btnIndex = i;
-        break;
-      }
-    }
-
-    if (!e.shiftKey) {
-      // Cycle to the next button
-      setFocus(innerParams, btnIndex, 1);
-    } else {
-      // Cycle to the prev button
-      setFocus(innerParams, btnIndex, -1);
-    }
-
-    e.stopPropagation();
-    e.preventDefault();
-  };
-
-  var handleArrows = function handleArrows() {
-    var confirmButton = getConfirmButton();
-    var cancelButton = getCancelButton(); // focus Cancel button if Confirm button is currently focused
-
-    if (document.activeElement === confirmButton && isVisible(cancelButton)) {
-      cancelButton.focus(); // and vice versa
-    } else if (document.activeElement === cancelButton && isVisible(confirmButton)) {
-      confirmButton.focus();
-    }
-  };
-
-  var handleEsc = function handleEsc(e, innerParams, dismissWith) {
-    if (callIfFunction(innerParams.allowEscapeKey)) {
-      e.preventDefault();
-      dismissWith(DismissReason.esc);
-    }
-  };
-
-  var handlePopupClick = function handlePopupClick(instance, domCache, dismissWith) {
-    var innerParams = privateProps.innerParams.get(instance);
-
-    if (innerParams.toast) {
-      handleToastClick(instance, domCache, dismissWith);
-    } else {
-      // Ignore click events that had mousedown on the popup but mouseup on the container
-      // This can happen when the user drags a slider
-      handleModalMousedown(domCache); // Ignore click events that had mousedown on the container but mouseup on the popup
-
-      handleContainerMousedown(domCache);
-      handleModalClick(instance, domCache, dismissWith);
-    }
-  };
-
-  var handleToastClick = function handleToastClick(instance, domCache, dismissWith) {
-    // Closing toast by internal click
-    domCache.popup.onclick = function () {
-      var innerParams = privateProps.innerParams.get(instance);
-
-      if (innerParams.showConfirmButton || innerParams.showCancelButton || innerParams.showCloseButton || innerParams.input) {
-        return;
-      }
-
-      dismissWith(DismissReason.close);
-    };
-  };
-
-  var ignoreOutsideClick = false;
-
-  var handleModalMousedown = function handleModalMousedown(domCache) {
-    domCache.popup.onmousedown = function () {
-      domCache.container.onmouseup = function (e) {
-        domCache.container.onmouseup = undefined; // We only check if the mouseup target is the container because usually it doesn't
-        // have any other direct children aside of the popup
-
-        if (e.target === domCache.container) {
-          ignoreOutsideClick = true;
-        }
-      };
-    };
-  };
-
-  var handleContainerMousedown = function handleContainerMousedown(domCache) {
-    domCache.container.onmousedown = function () {
-      domCache.popup.onmouseup = function (e) {
-        domCache.popup.onmouseup = undefined; // We also need to check if the mouseup target is a child of the popup
-
-        if (e.target === domCache.popup || domCache.popup.contains(e.target)) {
-          ignoreOutsideClick = true;
-        }
-      };
-    };
-  };
-
-  var handleModalClick = function handleModalClick(instance, domCache, dismissWith) {
-    domCache.container.onclick = function (e) {
-      var innerParams = privateProps.innerParams.get(instance);
-
-      if (ignoreOutsideClick) {
-        ignoreOutsideClick = false;
-        return;
-      }
-
-      if (e.target === domCache.container && callIfFunction(innerParams.allowOutsideClick)) {
-        dismissWith(DismissReason.backdrop);
-      }
-    };
-  };
-
-  function _main(userParams) {
-    showWarningsForParams(userParams);
-
-    if (globalState.currentInstance) {
-      globalState.currentInstance._destroy();
-    }
-
-    globalState.currentInstance = this;
-    var innerParams = prepareParams(userParams);
-    setParameters(innerParams);
-    Object.freeze(innerParams); // clear the previous timer
-
-    if (globalState.timeout) {
-      globalState.timeout.stop();
-      delete globalState.timeout;
-    } // clear the restore focus timeout
-
-
-    clearTimeout(globalState.restoreFocusTimeout);
-    var domCache = populateDomCache(this);
-    render(this, innerParams);
-    privateProps.innerParams.set(this, innerParams);
-    return swalPromise(this, domCache, innerParams);
-  }
-
-  var prepareParams = function prepareParams(userParams) {
-    var showClass = _extends({}, defaultParams.showClass, userParams.showClass);
-
-    var hideClass = _extends({}, defaultParams.hideClass, userParams.hideClass);
-
-    var params = _extends({}, defaultParams, userParams);
-
-    params.showClass = showClass;
-    params.hideClass = hideClass; // @deprecated
-
-    if (userParams.animation === false) {
-      params.showClass = {
-        popup: 'swal2-noanimation',
-        backdrop: 'swal2-noanimation'
-      };
-      params.hideClass = {};
-    }
-
-    return params;
-  };
-
-  var swalPromise = function swalPromise(instance, domCache, innerParams) {
-    return new Promise(function (resolve) {
-      // functions to handle all closings/dismissals
-      var dismissWith = function dismissWith(dismiss) {
-        instance.closePopup({
-          dismiss: dismiss
-        });
-      };
-
-      privateMethods.swalPromiseResolve.set(instance, resolve);
-
-      domCache.confirmButton.onclick = function () {
-        return handleConfirmButtonClick(instance, innerParams);
-      };
-
-      domCache.cancelButton.onclick = function () {
-        return handleCancelButtonClick(instance, dismissWith);
-      };
-
-      domCache.closeButton.onclick = function () {
-        return dismissWith(DismissReason.close);
-      };
-
-      handlePopupClick(instance, domCache, dismissWith);
-      addKeydownHandler(instance, globalState, innerParams, dismissWith);
-
-      if (innerParams.toast && (innerParams.input || innerParams.footer || innerParams.showCloseButton)) {
-        addClass(document.body, swalClasses['toast-column']);
-      } else {
-        removeClass(document.body, swalClasses['toast-column']);
-      }
-
-      handleInputOptionsAndValue(instance, innerParams);
-      openPopup(innerParams);
-      setupTimer(globalState, innerParams, dismissWith);
-      initFocus(domCache, innerParams); // Scroll container to top on open (#1247, #1946)
-
-      setTimeout(function () {
-        domCache.container.scrollTop = 0;
-      });
-    });
-  };
-
-  var populateDomCache = function populateDomCache(instance) {
-    var domCache = {
-      popup: getPopup(),
-      container: getContainer(),
-      content: getContent(),
-      actions: getActions(),
-      confirmButton: getConfirmButton(),
-      cancelButton: getCancelButton(),
-      closeButton: getCloseButton(),
-      validationMessage: getValidationMessage(),
-      progressSteps: getProgressSteps()
-    };
-    privateProps.domCache.set(instance, domCache);
-    return domCache;
-  };
-
-  var setupTimer = function setupTimer(globalState$$1, innerParams, dismissWith) {
-    var timerProgressBar = getTimerProgressBar();
-    hide(timerProgressBar);
-
-    if (innerParams.timer) {
-      globalState$$1.timeout = new Timer(function () {
-        dismissWith('timer');
-        delete globalState$$1.timeout;
-      }, innerParams.timer);
-
-      if (innerParams.timerProgressBar) {
-        show(timerProgressBar);
-        setTimeout(function () {
-          if (globalState$$1.timeout.running) {
-            // timer can be already stopped at this point
-            animateTimerProgressBar(innerParams.timer);
-          }
-        });
-      }
-    }
-  };
-
-  var initFocus = function initFocus(domCache, innerParams) {
-    if (innerParams.toast) {
-      return;
-    }
-
-    if (!callIfFunction(innerParams.allowEnterKey)) {
-      return blurActiveElement();
-    }
-
-    if (innerParams.focusCancel && isVisible(domCache.cancelButton)) {
-      return domCache.cancelButton.focus();
-    }
-
-    if (innerParams.focusConfirm && isVisible(domCache.confirmButton)) {
-      return domCache.confirmButton.focus();
-    }
-
-    setFocus(innerParams, -1, 1);
-  };
-
-  var blurActiveElement = function blurActiveElement() {
-    if (document.activeElement && typeof document.activeElement.blur === 'function') {
-      document.activeElement.blur();
-    }
-  };
-
-  /**
-   * Updates popup parameters.
-   */
-
-  function update(params) {
-    var popup = getPopup();
-    var innerParams = privateProps.innerParams.get(this);
-
-    if (!popup || hasClass(popup, innerParams.hideClass.popup)) {
-      return warn("You're trying to update the closed or closing popup, that won't work. Use the update() method in preConfirm parameter or show a new popup.");
-    }
-
-    var validUpdatableParams = {}; // assign valid params from `params` to `defaults`
-
-    Object.keys(params).forEach(function (param) {
-      if (Swal.isUpdatableParameter(param)) {
-        validUpdatableParams[param] = params[param];
-      } else {
-        warn("Invalid parameter to update: \"".concat(param, "\". Updatable params are listed here: https://github.com/sweetalert2/sweetalert2/blob/master/src/utils/params.js"));
-      }
-    });
-
-    var updatedParams = _extends({}, innerParams, validUpdatableParams);
-
-    render(this, updatedParams);
-    privateProps.innerParams.set(this, updatedParams);
-    Object.defineProperties(this, {
-      params: {
-        value: _extends({}, this.params, params),
-        writable: false,
-        enumerable: true
-      }
-    });
-  }
-
-  function _destroy() {
-    var domCache = privateProps.domCache.get(this);
-    var innerParams = privateProps.innerParams.get(this);
-
-    if (!innerParams) {
-      return; // This instance has already been destroyed
-    } // Check if there is another Swal closing
-
-
-    if (domCache.popup && globalState.swalCloseEventFinishedCallback) {
-      globalState.swalCloseEventFinishedCallback();
-      delete globalState.swalCloseEventFinishedCallback;
-    } // Check if there is a swal disposal defer timer
-
-
-    if (globalState.deferDisposalTimer) {
-      clearTimeout(globalState.deferDisposalTimer);
-      delete globalState.deferDisposalTimer;
-    }
-
-    if (typeof innerParams.onDestroy === 'function') {
-      innerParams.onDestroy();
-    }
-
-    disposeSwal(this);
-  }
-
-  var disposeSwal = function disposeSwal(instance) {
-    // Unset this.params so GC will dispose it (#1569)
-    delete instance.params; // Unset globalState props so GC will dispose globalState (#1569)
-
-    delete globalState.keydownHandler;
-    delete globalState.keydownTarget; // Unset WeakMaps so GC will be able to dispose them (#1569)
-
-    unsetWeakMaps(privateProps);
-    unsetWeakMaps(privateMethods);
-  };
-
-  var unsetWeakMaps = function unsetWeakMaps(obj) {
-    for (var i in obj) {
-      obj[i] = new WeakMap();
-    }
-  };
-
-
-
-  var instanceMethods = /*#__PURE__*/Object.freeze({
-    hideLoading: hideLoading,
-    disableLoading: hideLoading,
-    getInput: getInput$1,
-    close: close,
-    closePopup: close,
-    closeModal: close,
-    closeToast: close,
-    enableButtons: enableButtons,
-    disableButtons: disableButtons,
-    enableInput: enableInput,
-    disableInput: disableInput,
-    showValidationMessage: showValidationMessage,
-    resetValidationMessage: resetValidationMessage$1,
-    getProgressSteps: getProgressSteps$1,
-    _main: _main,
-    update: update,
-    _destroy: _destroy
-  });
-
-  var currentInstance;
-
-  var SweetAlert = /*#__PURE__*/function () {
-    function SweetAlert() {
-      _classCallCheck(this, SweetAlert);
-
-      // Prevent run in Node env
-      if (typeof window === 'undefined') {
-        return;
-      } // Check for the existence of Promise
-
-
-      if (typeof Promise === 'undefined') {
-        error('This package requires a Promise library, please include a shim to enable it in this browser (See: https://github.com/sweetalert2/sweetalert2/wiki/Migration-from-SweetAlert-to-SweetAlert2#1-ie-support)');
-      }
-
-      currentInstance = this;
-
-      for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
-        args[_key] = arguments[_key];
-      }
-
-      var outerParams = Object.freeze(this.constructor.argsToParams(args));
-      Object.defineProperties(this, {
-        params: {
-          value: outerParams,
-          writable: false,
-          enumerable: true,
-          configurable: true
-        }
-      });
-
-      var promise = this._main(this.params);
-
-      privateProps.promise.set(this, promise);
-    } // `catch` cannot be the name of a module export, so we define our thenable methods here instead
-
-
-    _createClass(SweetAlert, [{
-      key: "then",
-      value: function then(onFulfilled) {
-        var promise = privateProps.promise.get(this);
-        return promise.then(onFulfilled);
-      }
-    }, {
-      key: "finally",
-      value: function _finally(onFinally) {
-        var promise = privateProps.promise.get(this);
-        return promise["finally"](onFinally);
-      }
-    }]);
-
-    return SweetAlert;
-  }(); // Assign instance methods from src/instanceMethods/*.js to prototype
-
-
-  _extends(SweetAlert.prototype, instanceMethods); // Assign static methods from src/staticMethods/*.js to constructor
-
-
-  _extends(SweetAlert, staticMethods); // Proxy to instance methods to constructor, for now, for backwards compatibility
-
-
-  Object.keys(instanceMethods).forEach(function (key) {
-    SweetAlert[key] = function () {
-      if (currentInstance) {
-        var _currentInstance;
-
-        return (_currentInstance = currentInstance)[key].apply(_currentInstance, arguments);
-      }
-    };
-  });
-  SweetAlert.DismissReason = DismissReason;
-  SweetAlert.version = '9.17.2';
-
-  var Swal = SweetAlert;
-  Swal["default"] = Swal;
-
-  return Swal;
-
-}));
-if (typeof this !== 'undefined' && this.Sweetalert2){  this.swal = this.sweetAlert = this.Swal = this.SweetAlert = this.Sweetalert2}
-
-"undefined"!=typeof document&&function(e,t){var n=e.createElement("style");if(e.getElementsByTagName("head")[0].appendChild(n),n.styleSheet)n.styleSheet.disabled||(n.styleSheet.cssText=t);else try{n.innerHTML=t}catch(e){n.innerText=t}}(document,".swal2-popup.swal2-toast{flex-direction:row;align-items:center;width:auto;padding:.625em;overflow-y:hidden;background:#fff;box-shadow:0 0 .625em #d9d9d9}.swal2-popup.swal2-toast .swal2-header{flex-direction:row;padding:0}.swal2-popup.swal2-toast .swal2-title{flex-grow:1;justify-content:flex-start;margin:0 .6em;font-size:1em}.swal2-popup.swal2-toast .swal2-footer{margin:.5em 0 0;padding:.5em 0 0;font-size:.8em}.swal2-popup.swal2-toast .swal2-close{position:static;width:.8em;height:.8em;line-height:.8}.swal2-popup.swal2-toast .swal2-content{justify-content:flex-start;padding:0;font-size:1em}.swal2-popup.swal2-toast .swal2-icon{width:2em;min-width:2em;height:2em;margin:0}.swal2-popup.swal2-toast .swal2-icon .swal2-icon-content{display:flex;align-items:center;font-size:1.8em;font-weight:700}@media all and (-ms-high-contrast:none),(-ms-high-contrast:active){.swal2-popup.swal2-toast .swal2-icon .swal2-icon-content{font-size:.25em}}.swal2-popup.swal2-toast .swal2-icon.swal2-success .swal2-success-ring{width:2em;height:2em}.swal2-popup.swal2-toast .swal2-icon.swal2-error [class^=swal2-x-mark-line]{top:.875em;width:1.375em}.swal2-popup.swal2-toast .swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=left]{left:.3125em}.swal2-popup.swal2-toast .swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=right]{right:.3125em}.swal2-popup.swal2-toast .swal2-actions{flex-basis:auto!important;width:auto;height:auto;margin:0 .3125em}.swal2-popup.swal2-toast .swal2-styled{margin:0 .3125em;padding:.3125em .625em;font-size:1em}.swal2-popup.swal2-toast .swal2-styled:focus{box-shadow:0 0 0 1px #fff,0 0 0 3px rgba(50,100,150,.4)}.swal2-popup.swal2-toast .swal2-success{border-color:#a5dc86}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-circular-line]{position:absolute;width:1.6em;height:3em;transform:rotate(45deg);border-radius:50%}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-circular-line][class$=left]{top:-.8em;left:-.5em;transform:rotate(-45deg);transform-origin:2em 2em;border-radius:4em 0 0 4em}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-circular-line][class$=right]{top:-.25em;left:.9375em;transform-origin:0 1.5em;border-radius:0 4em 4em 0}.swal2-popup.swal2-toast .swal2-success .swal2-success-ring{width:2em;height:2em}.swal2-popup.swal2-toast .swal2-success .swal2-success-fix{top:0;left:.4375em;width:.4375em;height:2.6875em}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-line]{height:.3125em}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-line][class$=tip]{top:1.125em;left:.1875em;width:.75em}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-line][class$=long]{top:.9375em;right:.1875em;width:1.375em}.swal2-popup.swal2-toast .swal2-success.swal2-icon-show .swal2-success-line-tip{-webkit-animation:swal2-toast-animate-success-line-tip .75s;animation:swal2-toast-animate-success-line-tip .75s}.swal2-popup.swal2-toast .swal2-success.swal2-icon-show .swal2-success-line-long{-webkit-animation:swal2-toast-animate-success-line-long .75s;animation:swal2-toast-animate-success-line-long .75s}.swal2-popup.swal2-toast.swal2-show{-webkit-animation:swal2-toast-show .5s;animation:swal2-toast-show .5s}.swal2-popup.swal2-toast.swal2-hide{-webkit-animation:swal2-toast-hide .1s forwards;animation:swal2-toast-hide .1s forwards}.swal2-container{display:flex;position:fixed;z-index:1060;top:0;right:0;bottom:0;left:0;flex-direction:row;align-items:center;justify-content:center;padding:.625em;overflow-x:hidden;transition:background-color .1s;-webkit-overflow-scrolling:touch}.swal2-container.swal2-backdrop-show,.swal2-container.swal2-noanimation{background:rgba(0,0,0,.4)}.swal2-container.swal2-backdrop-hide{background:0 0!important}.swal2-container.swal2-top{align-items:flex-start}.swal2-container.swal2-top-left,.swal2-container.swal2-top-start{align-items:flex-start;justify-content:flex-start}.swal2-container.swal2-top-end,.swal2-container.swal2-top-right{align-items:flex-start;justify-content:flex-end}.swal2-container.swal2-center{align-items:center}.swal2-container.swal2-center-left,.swal2-container.swal2-center-start{align-items:center;justify-content:flex-start}.swal2-container.swal2-center-end,.swal2-container.swal2-center-right{align-items:center;justify-content:flex-end}.swal2-container.swal2-bottom{align-items:flex-end}.swal2-container.swal2-bottom-left,.swal2-container.swal2-bottom-start{align-items:flex-end;justify-content:flex-start}.swal2-container.swal2-bottom-end,.swal2-container.swal2-bottom-right{align-items:flex-end;justify-content:flex-end}.swal2-container.swal2-bottom-end>:first-child,.swal2-container.swal2-bottom-left>:first-child,.swal2-container.swal2-bottom-right>:first-child,.swal2-container.swal2-bottom-start>:first-child,.swal2-container.swal2-bottom>:first-child{margin-top:auto}.swal2-container.swal2-grow-fullscreen>.swal2-modal{display:flex!important;flex:1;align-self:stretch;justify-content:center}.swal2-container.swal2-grow-row>.swal2-modal{display:flex!important;flex:1;align-content:center;justify-content:center}.swal2-container.swal2-grow-column{flex:1;flex-direction:column}.swal2-container.swal2-grow-column.swal2-bottom,.swal2-container.swal2-grow-column.swal2-center,.swal2-container.swal2-grow-column.swal2-top{align-items:center}.swal2-container.swal2-grow-column.swal2-bottom-left,.swal2-container.swal2-grow-column.swal2-bottom-start,.swal2-container.swal2-grow-column.swal2-center-left,.swal2-container.swal2-grow-column.swal2-center-start,.swal2-container.swal2-grow-column.swal2-top-left,.swal2-container.swal2-grow-column.swal2-top-start{align-items:flex-start}.swal2-container.swal2-grow-column.swal2-bottom-end,.swal2-container.swal2-grow-column.swal2-bottom-right,.swal2-container.swal2-grow-column.swal2-center-end,.swal2-container.swal2-grow-column.swal2-center-right,.swal2-container.swal2-grow-column.swal2-top-end,.swal2-container.swal2-grow-column.swal2-top-right{align-items:flex-end}.swal2-container.swal2-grow-column>.swal2-modal{display:flex!important;flex:1;align-content:center;justify-content:center}.swal2-container.swal2-no-transition{transition:none!important}.swal2-container:not(.swal2-top):not(.swal2-top-start):not(.swal2-top-end):not(.swal2-top-left):not(.swal2-top-right):not(.swal2-center-start):not(.swal2-center-end):not(.swal2-center-left):not(.swal2-center-right):not(.swal2-bottom):not(.swal2-bottom-start):not(.swal2-bottom-end):not(.swal2-bottom-left):not(.swal2-bottom-right):not(.swal2-grow-fullscreen)>.swal2-modal{margin:auto}@media all and (-ms-high-contrast:none),(-ms-high-contrast:active){.swal2-container .swal2-modal{margin:0!important}}.swal2-popup{display:none;position:relative;box-sizing:border-box;flex-direction:column;justify-content:center;width:32em;max-width:100%;padding:1.25em;border:none;border-radius:.3125em;background:#fff;font-family:inherit;font-size:1rem}.swal2-popup:focus{outline:0}.swal2-popup.swal2-loading{overflow-y:hidden}.swal2-header{display:flex;flex-direction:column;align-items:center;padding:0 1.8em}.swal2-title{position:relative;max-width:100%;margin:0 0 .4em;padding:0;color:#595959;font-size:1.875em;font-weight:600;text-align:center;text-transform:none;word-wrap:break-word}.swal2-actions{display:flex;z-index:1;flex-wrap:wrap;align-items:center;justify-content:center;width:100%;margin:1.25em auto 0}.swal2-actions:not(.swal2-loading) .swal2-styled[disabled]{opacity:.4}.swal2-actions:not(.swal2-loading) .swal2-styled:hover{background-image:linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1))}.swal2-actions:not(.swal2-loading) .swal2-styled:active{background-image:linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2))}.swal2-actions.swal2-loading .swal2-styled.swal2-confirm{box-sizing:border-box;width:2.5em;height:2.5em;margin:.46875em;padding:0;-webkit-animation:swal2-rotate-loading 1.5s linear 0s infinite normal;animation:swal2-rotate-loading 1.5s linear 0s infinite normal;border:.25em solid transparent;border-radius:100%;border-color:transparent;background-color:transparent!important;color:transparent!important;cursor:default;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.swal2-actions.swal2-loading .swal2-styled.swal2-cancel{margin-right:30px;margin-left:30px}.swal2-actions.swal2-loading :not(.swal2-styled).swal2-confirm::after{content:\"\";display:inline-block;width:15px;height:15px;margin-left:5px;-webkit-animation:swal2-rotate-loading 1.5s linear 0s infinite normal;animation:swal2-rotate-loading 1.5s linear 0s infinite normal;border:3px solid #999;border-radius:50%;border-right-color:transparent;box-shadow:1px 1px 1px #fff}.swal2-styled{margin:.3125em;padding:.625em 2em;box-shadow:none;font-weight:500}.swal2-styled:not([disabled]){cursor:pointer}.swal2-styled.swal2-confirm{border:0;border-radius:.25em;background:initial;background-color:#3085d6;color:#fff;font-size:1.0625em}.swal2-styled.swal2-cancel{border:0;border-radius:.25em;background:initial;background-color:#aaa;color:#fff;font-size:1.0625em}.swal2-styled:focus{outline:0;box-shadow:0 0 0 1px #fff,0 0 0 3px rgba(50,100,150,.4)}.swal2-styled::-moz-focus-inner{border:0}.swal2-footer{justify-content:center;margin:1.25em 0 0;padding:1em 0 0;border-top:1px solid #eee;color:#545454;font-size:1em}.swal2-timer-progress-bar-container{position:absolute;right:0;bottom:0;left:0;height:.25em;overflow:hidden;border-bottom-right-radius:.3125em;border-bottom-left-radius:.3125em}.swal2-timer-progress-bar{width:100%;height:.25em;background:rgba(0,0,0,.2)}.swal2-image{max-width:100%;margin:1.25em auto}.swal2-close{position:absolute;z-index:2;top:0;right:0;align-items:center;justify-content:center;width:1.2em;height:1.2em;padding:0;overflow:hidden;transition:color .1s ease-out;border:none;border-radius:0;background:0 0;color:#ccc;font-family:serif;font-size:2.5em;line-height:1.2;cursor:pointer}.swal2-close:hover{transform:none;background:0 0;color:#f27474}.swal2-close::-moz-focus-inner{border:0}.swal2-content{z-index:1;justify-content:center;margin:0;padding:0 1.6em;color:#545454;font-size:1.125em;font-weight:400;line-height:normal;text-align:center;word-wrap:break-word}.swal2-checkbox,.swal2-file,.swal2-input,.swal2-radio,.swal2-select,.swal2-textarea{margin:1em auto}.swal2-file,.swal2-input,.swal2-textarea{box-sizing:border-box;width:100%;transition:border-color .3s,box-shadow .3s;border:1px solid #d9d9d9;border-radius:.1875em;background:inherit;box-shadow:inset 0 1px 1px rgba(0,0,0,.06);color:inherit;font-size:1.125em}.swal2-file.swal2-inputerror,.swal2-input.swal2-inputerror,.swal2-textarea.swal2-inputerror{border-color:#f27474!important;box-shadow:0 0 2px #f27474!important}.swal2-file:focus,.swal2-input:focus,.swal2-textarea:focus{border:1px solid #b4dbed;outline:0;box-shadow:0 0 3px #c4e6f5}.swal2-file::-moz-placeholder,.swal2-input::-moz-placeholder,.swal2-textarea::-moz-placeholder{color:#ccc}.swal2-file:-ms-input-placeholder,.swal2-input:-ms-input-placeholder,.swal2-textarea:-ms-input-placeholder{color:#ccc}.swal2-file::-ms-input-placeholder,.swal2-input::-ms-input-placeholder,.swal2-textarea::-ms-input-placeholder{color:#ccc}.swal2-file::placeholder,.swal2-input::placeholder,.swal2-textarea::placeholder{color:#ccc}.swal2-range{margin:1em auto;background:#fff}.swal2-range input{width:80%}.swal2-range output{width:20%;color:inherit;font-weight:600;text-align:center}.swal2-range input,.swal2-range output{height:2.625em;padding:0;font-size:1.125em;line-height:2.625em}.swal2-input{height:2.625em;padding:0 .75em}.swal2-input[type=number]{max-width:10em}.swal2-file{background:inherit;font-size:1.125em}.swal2-textarea{height:6.75em;padding:.75em}.swal2-select{min-width:50%;max-width:100%;padding:.375em .625em;background:inherit;color:inherit;font-size:1.125em}.swal2-checkbox,.swal2-radio{align-items:center;justify-content:center;background:#fff;color:inherit}.swal2-checkbox label,.swal2-radio label{margin:0 .6em;font-size:1.125em}.swal2-checkbox input,.swal2-radio input{margin:0 .4em}.swal2-validation-message{display:none;align-items:center;justify-content:center;padding:.625em;overflow:hidden;background:#f0f0f0;color:#666;font-size:1em;font-weight:300}.swal2-validation-message::before{content:\"!\";display:inline-block;width:1.5em;min-width:1.5em;height:1.5em;margin:0 .625em;border-radius:50%;background-color:#f27474;color:#fff;font-weight:600;line-height:1.5em;text-align:center}.swal2-icon{position:relative;box-sizing:content-box;justify-content:center;width:5em;height:5em;margin:1.25em auto 1.875em;border:.25em solid transparent;border-radius:50%;font-family:inherit;line-height:5em;cursor:default;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.swal2-icon .swal2-icon-content{display:flex;align-items:center;font-size:3.75em}.swal2-icon.swal2-error{border-color:#f27474;color:#f27474}.swal2-icon.swal2-error .swal2-x-mark{position:relative;flex-grow:1}.swal2-icon.swal2-error [class^=swal2-x-mark-line]{display:block;position:absolute;top:2.3125em;width:2.9375em;height:.3125em;border-radius:.125em;background-color:#f27474}.swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=left]{left:1.0625em;transform:rotate(45deg)}.swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=right]{right:1em;transform:rotate(-45deg)}.swal2-icon.swal2-error.swal2-icon-show{-webkit-animation:swal2-animate-error-icon .5s;animation:swal2-animate-error-icon .5s}.swal2-icon.swal2-error.swal2-icon-show .swal2-x-mark{-webkit-animation:swal2-animate-error-x-mark .5s;animation:swal2-animate-error-x-mark .5s}.swal2-icon.swal2-warning{border-color:#facea8;color:#f8bb86}.swal2-icon.swal2-info{border-color:#9de0f6;color:#3fc3ee}.swal2-icon.swal2-question{border-color:#c9dae1;color:#87adbd}.swal2-icon.swal2-success{border-color:#a5dc86;color:#a5dc86}.swal2-icon.swal2-success [class^=swal2-success-circular-line]{position:absolute;width:3.75em;height:7.5em;transform:rotate(45deg);border-radius:50%}.swal2-icon.swal2-success [class^=swal2-success-circular-line][class$=left]{top:-.4375em;left:-2.0635em;transform:rotate(-45deg);transform-origin:3.75em 3.75em;border-radius:7.5em 0 0 7.5em}.swal2-icon.swal2-success [class^=swal2-success-circular-line][class$=right]{top:-.6875em;left:1.875em;transform:rotate(-45deg);transform-origin:0 3.75em;border-radius:0 7.5em 7.5em 0}.swal2-icon.swal2-success .swal2-success-ring{position:absolute;z-index:2;top:-.25em;left:-.25em;box-sizing:content-box;width:100%;height:100%;border:.25em solid rgba(165,220,134,.3);border-radius:50%}.swal2-icon.swal2-success .swal2-success-fix{position:absolute;z-index:1;top:.5em;left:1.625em;width:.4375em;height:5.625em;transform:rotate(-45deg)}.swal2-icon.swal2-success [class^=swal2-success-line]{display:block;position:absolute;z-index:2;height:.3125em;border-radius:.125em;background-color:#a5dc86}.swal2-icon.swal2-success [class^=swal2-success-line][class$=tip]{top:2.875em;left:.8125em;width:1.5625em;transform:rotate(45deg)}.swal2-icon.swal2-success [class^=swal2-success-line][class$=long]{top:2.375em;right:.5em;width:2.9375em;transform:rotate(-45deg)}.swal2-icon.swal2-success.swal2-icon-show .swal2-success-line-tip{-webkit-animation:swal2-animate-success-line-tip .75s;animation:swal2-animate-success-line-tip .75s}.swal2-icon.swal2-success.swal2-icon-show .swal2-success-line-long{-webkit-animation:swal2-animate-success-line-long .75s;animation:swal2-animate-success-line-long .75s}.swal2-icon.swal2-success.swal2-icon-show .swal2-success-circular-line-right{-webkit-animation:swal2-rotate-success-circular-line 4.25s ease-in;animation:swal2-rotate-success-circular-line 4.25s ease-in}.swal2-progress-steps{align-items:center;margin:0 0 1.25em;padding:0;background:inherit;font-weight:600}.swal2-progress-steps li{display:inline-block;position:relative}.swal2-progress-steps .swal2-progress-step{z-index:20;width:2em;height:2em;border-radius:2em;background:#3085d6;color:#fff;line-height:2em;text-align:center}.swal2-progress-steps .swal2-progress-step.swal2-active-progress-step{background:#3085d6}.swal2-progress-steps .swal2-progress-step.swal2-active-progress-step~.swal2-progress-step{background:#add8e6;color:#fff}.swal2-progress-steps .swal2-progress-step.swal2-active-progress-step~.swal2-progress-step-line{background:#add8e6}.swal2-progress-steps .swal2-progress-step-line{z-index:10;width:2.5em;height:.4em;margin:0 -1px;background:#3085d6}[class^=swal2]{-webkit-tap-highlight-color:transparent}.swal2-show{-webkit-animation:swal2-show .3s;animation:swal2-show .3s}.swal2-hide{-webkit-animation:swal2-hide .15s forwards;animation:swal2-hide .15s forwards}.swal2-noanimation{transition:none}.swal2-scrollbar-measure{position:absolute;top:-9999px;width:50px;height:50px;overflow:scroll}.swal2-rtl .swal2-close{right:auto;left:0}.swal2-rtl .swal2-timer-progress-bar{right:0;left:auto}@supports (-ms-accelerator:true){.swal2-range input{width:100%!important}.swal2-range output{display:none}}@media all and (-ms-high-contrast:none),(-ms-high-contrast:active){.swal2-range input{width:100%!important}.swal2-range output{display:none}}@-moz-document url-prefix(){.swal2-close:focus{outline:2px solid rgba(50,100,150,.4)}}@-webkit-keyframes swal2-toast-show{0%{transform:translateY(-.625em) rotateZ(2deg)}33%{transform:translateY(0) rotateZ(-2deg)}66%{transform:translateY(.3125em) rotateZ(2deg)}100%{transform:translateY(0) rotateZ(0)}}@keyframes swal2-toast-show{0%{transform:translateY(-.625em) rotateZ(2deg)}33%{transform:translateY(0) rotateZ(-2deg)}66%{transform:translateY(.3125em) rotateZ(2deg)}100%{transform:translateY(0) rotateZ(0)}}@-webkit-keyframes swal2-toast-hide{100%{transform:rotateZ(1deg);opacity:0}}@keyframes swal2-toast-hide{100%{transform:rotateZ(1deg);opacity:0}}@-webkit-keyframes swal2-toast-animate-success-line-tip{0%{top:.5625em;left:.0625em;width:0}54%{top:.125em;left:.125em;width:0}70%{top:.625em;left:-.25em;width:1.625em}84%{top:1.0625em;left:.75em;width:.5em}100%{top:1.125em;left:.1875em;width:.75em}}@keyframes swal2-toast-animate-success-line-tip{0%{top:.5625em;left:.0625em;width:0}54%{top:.125em;left:.125em;width:0}70%{top:.625em;left:-.25em;width:1.625em}84%{top:1.0625em;left:.75em;width:.5em}100%{top:1.125em;left:.1875em;width:.75em}}@-webkit-keyframes swal2-toast-animate-success-line-long{0%{top:1.625em;right:1.375em;width:0}65%{top:1.25em;right:.9375em;width:0}84%{top:.9375em;right:0;width:1.125em}100%{top:.9375em;right:.1875em;width:1.375em}}@keyframes swal2-toast-animate-success-line-long{0%{top:1.625em;right:1.375em;width:0}65%{top:1.25em;right:.9375em;width:0}84%{top:.9375em;right:0;width:1.125em}100%{top:.9375em;right:.1875em;width:1.375em}}@-webkit-keyframes swal2-show{0%{transform:scale(.7)}45%{transform:scale(1.05)}80%{transform:scale(.95)}100%{transform:scale(1)}}@keyframes swal2-show{0%{transform:scale(.7)}45%{transform:scale(1.05)}80%{transform:scale(.95)}100%{transform:scale(1)}}@-webkit-keyframes swal2-hide{0%{transform:scale(1);opacity:1}100%{transform:scale(.5);opacity:0}}@keyframes swal2-hide{0%{transform:scale(1);opacity:1}100%{transform:scale(.5);opacity:0}}@-webkit-keyframes swal2-animate-success-line-tip{0%{top:1.1875em;left:.0625em;width:0}54%{top:1.0625em;left:.125em;width:0}70%{top:2.1875em;left:-.375em;width:3.125em}84%{top:3em;left:1.3125em;width:1.0625em}100%{top:2.8125em;left:.8125em;width:1.5625em}}@keyframes swal2-animate-success-line-tip{0%{top:1.1875em;left:.0625em;width:0}54%{top:1.0625em;left:.125em;width:0}70%{top:2.1875em;left:-.375em;width:3.125em}84%{top:3em;left:1.3125em;width:1.0625em}100%{top:2.8125em;left:.8125em;width:1.5625em}}@-webkit-keyframes swal2-animate-success-line-long{0%{top:3.375em;right:2.875em;width:0}65%{top:3.375em;right:2.875em;width:0}84%{top:2.1875em;right:0;width:3.4375em}100%{top:2.375em;right:.5em;width:2.9375em}}@keyframes swal2-animate-success-line-long{0%{top:3.375em;right:2.875em;width:0}65%{top:3.375em;right:2.875em;width:0}84%{top:2.1875em;right:0;width:3.4375em}100%{top:2.375em;right:.5em;width:2.9375em}}@-webkit-keyframes swal2-rotate-success-circular-line{0%{transform:rotate(-45deg)}5%{transform:rotate(-45deg)}12%{transform:rotate(-405deg)}100%{transform:rotate(-405deg)}}@keyframes swal2-rotate-success-circular-line{0%{transform:rotate(-45deg)}5%{transform:rotate(-45deg)}12%{transform:rotate(-405deg)}100%{transform:rotate(-405deg)}}@-webkit-keyframes swal2-animate-error-x-mark{0%{margin-top:1.625em;transform:scale(.4);opacity:0}50%{margin-top:1.625em;transform:scale(.4);opacity:0}80%{margin-top:-.375em;transform:scale(1.15)}100%{margin-top:0;transform:scale(1);opacity:1}}@keyframes swal2-animate-error-x-mark{0%{margin-top:1.625em;transform:scale(.4);opacity:0}50%{margin-top:1.625em;transform:scale(.4);opacity:0}80%{margin-top:-.375em;transform:scale(1.15)}100%{margin-top:0;transform:scale(1);opacity:1}}@-webkit-keyframes swal2-animate-error-icon{0%{transform:rotateX(100deg);opacity:0}100%{transform:rotateX(0);opacity:1}}@keyframes swal2-animate-error-icon{0%{transform:rotateX(100deg);opacity:0}100%{transform:rotateX(0);opacity:1}}@-webkit-keyframes swal2-rotate-loading{0%{transform:rotate(0)}100%{transform:rotate(360deg)}}@keyframes swal2-rotate-loading{0%{transform:rotate(0)}100%{transform:rotate(360deg)}}body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown){overflow:hidden}body.swal2-height-auto{height:auto!important}body.swal2-no-backdrop .swal2-container{top:auto;right:auto;bottom:auto;left:auto;max-width:calc(100% - .625em * 2);background-color:transparent!important}body.swal2-no-backdrop .swal2-container>.swal2-modal{box-shadow:0 0 10px rgba(0,0,0,.4)}body.swal2-no-backdrop .swal2-container.swal2-top{top:0;left:50%;transform:translateX(-50%)}body.swal2-no-backdrop .swal2-container.swal2-top-left,body.swal2-no-backdrop .swal2-container.swal2-top-start{top:0;left:0}body.swal2-no-backdrop .swal2-container.swal2-top-end,body.swal2-no-backdrop .swal2-container.swal2-top-right{top:0;right:0}body.swal2-no-backdrop .swal2-container.swal2-center{top:50%;left:50%;transform:translate(-50%,-50%)}body.swal2-no-backdrop .swal2-container.swal2-center-left,body.swal2-no-backdrop .swal2-container.swal2-center-start{top:50%;left:0;transform:translateY(-50%)}body.swal2-no-backdrop .swal2-container.swal2-center-end,body.swal2-no-backdrop .swal2-container.swal2-center-right{top:50%;right:0;transform:translateY(-50%)}body.swal2-no-backdrop .swal2-container.swal2-bottom{bottom:0;left:50%;transform:translateX(-50%)}body.swal2-no-backdrop .swal2-container.swal2-bottom-left,body.swal2-no-backdrop .swal2-container.swal2-bottom-start{bottom:0;left:0}body.swal2-no-backdrop .swal2-container.swal2-bottom-end,body.swal2-no-backdrop .swal2-container.swal2-bottom-right{right:0;bottom:0}@media print{body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown){overflow-y:scroll!important}body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown)>[aria-hidden=true]{display:none}body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) .swal2-container{position:static!important}}body.swal2-toast-shown .swal2-container{background-color:transparent}body.swal2-toast-shown .swal2-container.swal2-top{top:0;right:auto;bottom:auto;left:50%;transform:translateX(-50%)}body.swal2-toast-shown .swal2-container.swal2-top-end,body.swal2-toast-shown .swal2-container.swal2-top-right{top:0;right:0;bottom:auto;left:auto}body.swal2-toast-shown .swal2-container.swal2-top-left,body.swal2-toast-shown .swal2-container.swal2-top-start{top:0;right:auto;bottom:auto;left:0}body.swal2-toast-shown .swal2-container.swal2-center-left,body.swal2-toast-shown .swal2-container.swal2-center-start{top:50%;right:auto;bottom:auto;left:0;transform:translateY(-50%)}body.swal2-toast-shown .swal2-container.swal2-center{top:50%;right:auto;bottom:auto;left:50%;transform:translate(-50%,-50%)}body.swal2-toast-shown .swal2-container.swal2-center-end,body.swal2-toast-shown .swal2-container.swal2-center-right{top:50%;right:0;bottom:auto;left:auto;transform:translateY(-50%)}body.swal2-toast-shown .swal2-container.swal2-bottom-left,body.swal2-toast-shown .swal2-container.swal2-bottom-start{top:auto;right:auto;bottom:0;left:0}body.swal2-toast-shown .swal2-container.swal2-bottom{top:auto;right:auto;bottom:0;left:50%;transform:translateX(-50%)}body.swal2-toast-shown .swal2-container.swal2-bottom-end,body.swal2-toast-shown .swal2-container.swal2-bottom-right{top:auto;right:0;bottom:0;left:auto}body.swal2-toast-column .swal2-toast{flex-direction:column;align-items:stretch}body.swal2-toast-column .swal2-toast .swal2-actions{flex:1;align-self:stretch;height:2.2em;margin-top:.3125em}body.swal2-toast-column .swal2-toast .swal2-loading{justify-content:center}body.swal2-toast-column .swal2-toast .swal2-input{height:2em;margin:.3125em auto;font-size:1em}body.swal2-toast-column .swal2-toast .swal2-validation-message{font-size:1em}");
-
-/***/ }),
-
 /***/ "./node_modules/timers-browserify/main.js":
 /*!************************************************!*\
   !*** ./node_modules/timers-browserify/main.js ***!
@@ -41541,7 +37676,7 @@ function normalizeComponent (
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function(global, setImmediate) {/*!
- * Vue.js v2.6.11
+ * Vue.js v2.6.10
  * (c) 2014-2019 Evan You
  * Released under the MIT License.
  */
@@ -43507,7 +39642,7 @@ if (typeof Promise !== 'undefined' && isNative(Promise)) {
   isUsingMicroTask = true;
 } else if (typeof setImmediate !== 'undefined' && isNative(setImmediate)) {
   // Fallback to setImmediate.
-  // Technically it leverages the (macro) task queue,
+  // Techinically it leverages the (macro) task queue,
   // but it is still a better choice than setTimeout.
   timerFunc = function () {
     setImmediate(flushCallbacks);
@@ -43596,7 +39731,7 @@ var initProxy;
     warn(
       "Property \"" + key + "\" must be accessed with \"$data." + key + "\" because " +
       'properties starting with "$" or "_" are not proxied in the Vue instance to ' +
-      'prevent conflicts with Vue internals. ' +
+      'prevent conflicts with Vue internals' +
       'See: https://vuejs.org/v2/api/#data',
       target
     );
@@ -44456,7 +40591,7 @@ function bindDynamicKeys (baseObj, values) {
     if (typeof key === 'string' && key) {
       baseObj[values[i]] = values[i + 1];
     } else if (key !== '' && key !== null) {
-      // null is a special value for explicitly removing a binding
+      // null is a speical value for explicitly removing a binding
       warn(
         ("Invalid value for dynamic directive argument (expected string or null): " + key),
         this
@@ -44951,12 +41086,6 @@ function _createElement (
     ns = (context.$vnode && context.$vnode.ns) || config.getTagNamespace(tag);
     if (config.isReservedTag(tag)) {
       // platform built-in elements
-      if (isDef(data) && isDef(data.nativeOn)) {
-        warn(
-          ("The .native modifier for v-on is only valid on components but it was used on <" + tag + ">."),
-          context
-        );
-      }
       vnode = new VNode(
         config.parsePlatformTagName(tag), data, children,
         undefined, undefined, context
@@ -45082,7 +41211,7 @@ function renderMixin (Vue) {
     // render self
     var vnode;
     try {
-      // There's no need to maintain a stack because all render fns are called
+      // There's no need to maintain a stack becaues all render fns are called
       // separately from one another. Nested component's render fns are called
       // when parent component is patched.
       currentRenderingInstance = vm;
@@ -46981,7 +43110,7 @@ Object.defineProperty(Vue, 'FunctionalRenderContext', {
   value: FunctionalRenderContext
 });
 
-Vue.version = '2.6.11';
+Vue.version = '2.6.10';
 
 /*  */
 
@@ -47654,7 +43783,7 @@ function createPatchFunction (backend) {
     }
   }
 
-  function removeVnodes (vnodes, startIdx, endIdx) {
+  function removeVnodes (parentElm, vnodes, startIdx, endIdx) {
     for (; startIdx <= endIdx; ++startIdx) {
       var ch = vnodes[startIdx];
       if (isDef(ch)) {
@@ -47765,7 +43894,7 @@ function createPatchFunction (backend) {
       refElm = isUndef(newCh[newEndIdx + 1]) ? null : newCh[newEndIdx + 1].elm;
       addVnodes(parentElm, refElm, newCh, newStartIdx, newEndIdx, insertedVnodeQueue);
     } else if (newStartIdx > newEndIdx) {
-      removeVnodes(oldCh, oldStartIdx, oldEndIdx);
+      removeVnodes(parentElm, oldCh, oldStartIdx, oldEndIdx);
     }
   }
 
@@ -47857,7 +43986,7 @@ function createPatchFunction (backend) {
         if (isDef(oldVnode.text)) { nodeOps.setTextContent(elm, ''); }
         addVnodes(elm, null, ch, 0, ch.length - 1, insertedVnodeQueue);
       } else if (isDef(oldCh)) {
-        removeVnodes(oldCh, 0, oldCh.length - 1);
+        removeVnodes(elm, oldCh, 0, oldCh.length - 1);
       } else if (isDef(oldVnode.text)) {
         nodeOps.setTextContent(elm, '');
       }
@@ -48086,7 +44215,7 @@ function createPatchFunction (backend) {
 
         // destroy old node
         if (isDef(parentElm)) {
-          removeVnodes([oldVnode], 0, 0);
+          removeVnodes(parentElm, [oldVnode], 0, 0);
         } else if (isDef(oldVnode.tag)) {
           invokeDestroyHook(oldVnode);
         }
@@ -50792,7 +46921,7 @@ var startTagOpen = new RegExp(("^<" + qnameCapture));
 var startTagClose = /^\s*(\/?)>/;
 var endTag = new RegExp(("^<\\/" + qnameCapture + "[^>]*>"));
 var doctype = /^<!DOCTYPE [^>]+>/i;
-// #7298: escape - to avoid being passed as HTML comment when inlined in page
+// #7298: escape - to avoid being pased as HTML comment when inlined in page
 var comment = /^<!\--/;
 var conditionalComment = /^<!\[/;
 
@@ -51077,7 +47206,7 @@ function parseHTML (html, options) {
 /*  */
 
 var onRE = /^@|^v-on:/;
-var dirRE = /^v-|^@|^:|^#/;
+var dirRE = /^v-|^@|^:/;
 var forAliasRE = /([\s\S]*?)\s+(?:in|of)\s+([\s\S]*)/;
 var forIteratorRE = /,([^,\}\]]*)(?:,([^,\}\]]*))?$/;
 var stripParensRE = /^\(|\)$/g;
@@ -51701,7 +47830,7 @@ function processSlotContent (el) {
           if (el.parent && !maybeComponent(el.parent)) {
             warn$2(
               "<template v-slot> can only appear at the root level inside " +
-              "the receiving component",
+              "the receiving the component",
               el
             );
           }
@@ -52264,7 +48393,7 @@ function isDirectChildOfTemplateFor (node) {
 
 /*  */
 
-var fnExpRE = /^([\w$_]+|\([^)]*?\))\s*=>|^function(?:\s+[\w$]+)?\s*\(/;
+var fnExpRE = /^([\w$_]+|\([^)]*?\))\s*=>|^function\s*(?:[\w$]+)?\s*\(/;
 var fnInvokeRE = /\([^)]*?\);*$/;
 var simplePathRE = /^[A-Za-z_$][\w$]*(?:\.[A-Za-z_$][\w$]*|\['[^']*?']|\["[^"]*?"]|\[\d+]|\[[A-Za-z_$][\w$]*])*$/;
 
@@ -53033,8 +49162,6 @@ function checkNode (node, warn) {
           var range = node.rawAttrsMap[name];
           if (name === 'v-for') {
             checkFor(node, ("v-for=\"" + value + "\""), warn, range);
-          } else if (name === 'v-slot' || name[0] === '#') {
-            checkFunctionParameterExpression(value, (name + "=\"" + value + "\""), warn, range);
           } else if (onRE.test(name)) {
             checkEvent(value, (name + "=\"" + value + "\""), warn, range);
           } else {
@@ -53054,9 +49181,9 @@ function checkNode (node, warn) {
 }
 
 function checkEvent (exp, text, warn, range) {
-  var stripped = exp.replace(stripStringRE, '');
-  var keywordMatch = stripped.match(unaryOperatorsRE);
-  if (keywordMatch && stripped.charAt(keywordMatch.index - 1) !== '$') {
+  var stipped = exp.replace(stripStringRE, '');
+  var keywordMatch = stipped.match(unaryOperatorsRE);
+  if (keywordMatch && stipped.charAt(keywordMatch.index - 1) !== '$') {
     warn(
       "avoid using JavaScript unary operator as property name: " +
       "\"" + (keywordMatch[0]) + "\" in expression " + (text.trim()),
@@ -53108,19 +49235,6 @@ function checkExpression (exp, text, warn, range) {
         range
       );
     }
-  }
-}
-
-function checkFunctionParameterExpression (exp, text, warn, range) {
-  try {
-    new Function(exp, '');
-  } catch (e) {
-    warn(
-      "invalid function parameter expression: " + (e.message) + " in\n\n" +
-      "    " + exp + "\n\n" +
-      "  Raw expression: " + (text.trim()) + "\n",
-      range
-    );
   }
 }
 
@@ -53586,13 +49700,9 @@ module.exports = function(module) {
 /*!*****************************!*\
   !*** ./resources/js/app.js ***!
   \*****************************/
-/*! no exports provided */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! sweetalert2 */ "./node_modules/sweetalert2/dist/sweetalert2.all.js");
-/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(sweetalert2__WEBPACK_IMPORTED_MODULE_0__);
 /**
  * First we will load all of this project's JavaScript dependencies which
  * includes Vue and other libraries. It is a great starting point when
@@ -53600,18 +49710,7 @@ __webpack_require__.r(__webpack_exports__);
  */
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
-__webpack_require__(/*! @fortawesome/fontawesome-free/scss/brands.scss */ "./node_modules/@fortawesome/fontawesome-free/scss/brands.scss");
-
-__webpack_require__(/*! @fortawesome/fontawesome-free/scss/fontawesome.scss */ "./node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss");
-
-__webpack_require__(/*! @fortawesome/fontawesome-free/scss/regular.scss */ "./node_modules/@fortawesome/fontawesome-free/scss/regular.scss");
-
-__webpack_require__(/*! @fortawesome/fontawesome-free/scss/solid.scss */ "./node_modules/@fortawesome/fontawesome-free/scss/solid.scss");
-
-__webpack_require__(/*! sweetalert2 */ "./node_modules/sweetalert2/dist/sweetalert2.all.js");
-
 window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.js");
-
 /**
  * The following block of code may be used to automatically register your
  * Vue components. It will recursively scan this directory for the Vue
@@ -53631,89 +49730,7 @@ Vue.component('example-component', __webpack_require__(/*! ./components/ExampleC
 
 var app = new Vue({
   el: '#app'
-}); //Fonctionalite qui permet d'ajouter des produit dans un panier de commande
-
-var form = document.getElementById("category_form");
-$('form.add-to-cart').submit(function (e) {
-  e.preventDefault();
-  var form_data = $(this).serialize(); //alert(form_data);
-
-  $.ajax({
-    type: "POST",
-    url: "{{route('cart.store')}}",
-    data: form_data,
-    success: function success(data) {
-      if (data.success) {
-        $("form#".concat(data.id, " button")).html('produit ajouter au panier');
-        console.log("Tout va bien");
-        sweetalert2__WEBPACK_IMPORTED_MODULE_0___default.a.fire({
-          title: 'Produit Ajouté dans le panier!',
-          text: 'Do you want to continue',
-          icon: 'success',
-          html: '<a href="/cart" class="btn btn-success">Ouvrir le panier</a>',
-          showCloseButton: true,
-          showCancelButton: false,
-          focusConfirm: false,
-          confirmButtonText: '<i class="fa fa-thumbs-up"></i> Ajouter d\'autres produits!',
-          confirmButtonAriaLabel: 'Ajouter d\'autres produits!'
-        });
-      } else {
-        console.log("il y une erreur");
-      }
-    }
-  });
-})
-/*form.addEventListener('submit', function (e) {
-    e.preventDefault();
-    let donnees_formulaire = $(this).serialize();
-    $.ajax({
-        type: "POST",
-        url: '/admin/edit_category',
-        data: donnees_formulaire,
-        success: function(data){
-            window.location.href = '{{url('/admin/categories')}}'
-        }
-    });
-})*/
-;
-
-function minusqty(e) {
-  //update when press button -
-  e.preventDefault();
-  var quantity = qty.val();
-  var quaty = quantity - 1;
-  var prix = price.val();
-  $.ajax({
-    url: '/panier.php',
-    method: 'GET',
-    data: {
-      qty: quaty,
-      price: prix
-    },
-    cache: false,
-    dataType: 'html',
-    success: function success(data) {}
-  });
-}
-
-function plusqty(e) {
-  //update when press button -
-  e.preventDefault();
-  var quantity1 = qty.val();
-  var quaty1 = quantity - -1;
-  var prix1 = price.val();
-  $.ajax({
-    url: '/panier.php',
-    method: 'GET',
-    data: {
-      qty: qty1,
-      price: prix1
-    },
-    cache: false,
-    dataType: 'html',
-    success: function success(data) {}
-  });
-}
+});
 
 /***/ }),
 
@@ -53849,8 +49866,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\xampp\htdocs\e-commerce\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\xampp\htdocs\e-commerce\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /home/gaye_enginer/www/labo/SamaClinique/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /home/gaye_enginer/www/labo/SamaClinique/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

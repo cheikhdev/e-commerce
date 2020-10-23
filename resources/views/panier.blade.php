@@ -64,8 +64,8 @@
                     </tfoot>
                 </table-->
                 <div class="table-responsive">
-                    <table id="myTable" class="table table-dark" style="overflow:hedden; width:100%;">
-                        <thead>
+                    <table id="myTable" class="table" style="overflow:hedden; width:100%;">
+                        <thead class=" table-dark">
                             <tr>
                                 <th>Produit </th>
                                 <th>Quantite</th>
@@ -79,10 +79,10 @@
                         @foreach(Cart::content() as $row)
                             <tr class="clickable-row" data-href="" style="">
                                 <td>{{$row->name}}</td>
-                                <td>
+                                <td class="d-flex justify-content-between">
                                     <form action="{{url('update')}}" method="post">
                                         {{csrf_field()}}
-                                        <input class="" type="number" id="quantite" name="uqty" value="{{$row->qty}}">
+                                        <input class="" style="width:90px;" type="number" id="quantite" name="uqty" value="{{$row->qty}}">
                                         <input type="hidden" name="rowId" value="{{$row->rowId}}">
                                         <button type="submit" disabled="true" class="btn btn-primary btnedit" id="edit" style=""><i class="fas fa-edit"></i></button> 
                                     </form>
@@ -96,15 +96,15 @@
                             @endforeach
                         </tbody>
                         <tfoot class="mb-3">  
-                            <tr class="">
-                                <td colspan="3" style="color:red;"><b>Total</b></td>
+                            <tr>
+                                <td colspan="3" style="color:red;text-align:right;" ><b>Total</b></td>
                                 <td colspan="3" style="color:red;"><b>{{Cart::total()}} Fcfa</b></td>
                             </tr>
                         </tfoot>
                     </table>
                     <div class="d-flex justify-content-around">
                         <button><a href="/finish_cart" class="" style="font-weight:bold;">Valider la commande</a></button>
-                        <button><a href="" style="font-weight:bold;">Vider</a></button>
+                        <button><a href="#" id="vider" style="font-weight:bold;">Vider</a></button>
                     </div>
                 </div>
             </div>

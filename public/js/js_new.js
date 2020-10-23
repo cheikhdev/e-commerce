@@ -4,8 +4,6 @@ $('.boutonSend').on('click', function(event, target){
 
 });
 
-
-
 function checkEmptyInputs(){
 
     $(".notempty").each(function (i, elt){

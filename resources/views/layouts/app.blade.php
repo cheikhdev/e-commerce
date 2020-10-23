@@ -57,7 +57,7 @@
 		}
 	</style>
 	
-	<!-- Preloader -->
+	<!-- Preloader >
 		<div class="preloader">
 			<div class="preloader-inner">
 				<div class="preloader-icon">
@@ -66,7 +66,7 @@
 				</div>
 			</div>
 		</div>
-	<!-- End Preloader -->
+	<End Preloader -->
 	
 
 	<!-- Header -->
@@ -245,44 +245,42 @@
 											</li>
 										</ul>
 									</li-->
-									<li><a href="#">Maçonnerie</a>
+									<li><a href="#">Maçonnerie<i class="fa fa-angle-right" aria-hidden="true"></i></a>
 										<ul class="sub-category" style="z-index:9999 ;">
-											<li><a href="#">Eclairages</a></li>
-											<li><a href="#">Cablages</a></li>
-											<li><a href="#">Appareillage</a></li>
-											<li><a href="#">Protection</a></li>
+											<li><a href="#">Ciment</a></li>
+											<li><a href="#">Fer</a></li>
+											<li><a href="#">Graviers</a></li>
 										</ul>
 									</li>
-									<li><a href="#">Sanitaire</a>
+									<li><a href="#">Sanitaire<i class="fa fa-angle-right" aria-hidden="true"></i></a>
 										<ul class="sub-category" style="z-index:9999 ;">
-											<li><a href="#">Eclairages</a></li>
-											<li><a href="#">Cablages</a></li>
-											<li><a href="#">Appareillage</a></li>
-											<li><a href="#">Protection</a></li>
+											<li><a href="#">.............</a></li>
+											<li><a href="#">.............</a></li>
+											<li><a href="#">..............</a></li>
+											<li><a href="#">..............</a></li>
 										</ul>
 									</li>
-									<li><a href="#">Peinture</a>
+									<li><a href="#">Peinture<i class="fa fa-angle-right" aria-hidden="true"></i></a>
 										<ul class="sub-category" style="z-index:9999 ;">
-											<li><a href="#">Eclairages</a></li>
-											<li><a href="#">Cablages</a></li>
-											<li><a href="#">Appareillage</a></li>
-											<li><a href="#">Protection</a></li>
+											<li><a href="#">.............</a></li>
+											<li><a href="#">.............</a></li>
+											<li><a href="#">..............</a></li>
+											<li><a href="#">..............</a></li>
 										</ul>
 									</li>
-									<li><a href="#">Plomberie</a>
+									<li><a href="#">Plomberie<i class="fa fa-angle-right" aria-hidden="true"></i></a>
 										<ul class="sub-category" style="z-index:9999 ;">
-											<li><a href="#">Eclairages</a></li>
-											<li><a href="#">Cablages</a></li>
-											<li><a href="#">Appareillage</a></li>
-											<li><a href="#">Protection</a></li>
+											<li><a href="#">Salle de bain</a></li>
+											<li><a href="#">Robineterie</a></li>
+											
 										</ul>
 									</li>
-									<li><a href="#">Indispensable à maison</a>
+									<li><a href="#">Indispensable à maison<i class="fa fa-angle-right" aria-hidden="true"></i></a>
 										<ul class="sub-category" style="z-index:9999 ;">
-											<li><a href="#">Eclairages</a></li>
-											<li><a href="#">Cablages</a></li>
-											<li><a href="#">Appareillage</a></li>
-											<li><a href="#">Protection</a></li>
+											<li><a href="#">.............</a></li>
+											<li><a href="#">.............</a></li>
+											<li><a href="#">..............</a></li>
+											<li><a href="#">..............</a></li>
 										</ul>
 									</li>
 								</ul>
@@ -662,7 +660,7 @@
 		</div>
 	</footer>
 	<!-- /End Footer Area -->
-	<script src="{{asset('js/js_home/dynamique.js')}}"></script>
+	
 <!-- Jquery -->  
     <script src="{{asset('js/js_home/jquery.min.js')}}"></script>
     <script src="{{asset('js/js_home/jquery-migrate-3.0.0.js')}}"></script>
@@ -670,7 +668,7 @@
 <!-- Popper js -->
     <script src="{{asset('js/js_home/popper.min.js')}}"></script>
  <!-- Bootstrap js -->
-    <script src="{{asset('js/js_home/bootstrap.min.js')}}"></script>
+    <!--script src="{{asset('js/js_home/bootstrap.min.js')}}"></script-->
 <!-- Color JS -->
     <script src="{{asset('js/js_home/colors.js')}}"></script>
 <!-- Slicknav JS -->
@@ -684,7 +682,7 @@
 <!-- Countdown JS -->
     <script src="{{asset('js/js_home/finalcountdown.min.js')}}"></script>
 <!-- Nice Select JS -->
-    <script src="{{asset('js/js_home/nicesellect.js')}}"></script>
+    <!--script src="{{asset('js/js_home/nicesellect.js')}}"></script-->
 <!-- Flex Slider JS -->
     <script src="{{asset('js/js_home/flex-slider.js')}}"></script>
 <!-- ScrollUp JS -->
@@ -696,7 +694,9 @@
 <!-- Active js -->
 	<script src="{{asset('js/js_home/active.js')}}"></script>
 
+	<script src="{{asset('js/js_home/panier.js')}}"></script>
+	<script src="{{asset('js/js_home/commande.js')}}"></script>
 	
-	<script src="//cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+	
 </body>
 </html>
