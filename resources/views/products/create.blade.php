@@ -55,7 +55,7 @@
                                 </div>
                                 <div class="row">
                                     <div class="form-group col-10 ">
-                                        <label for="inputPassword" style="color:red;" class=" ">Image du produit</label>
+                                        <label for="" style="color:red;" class=" ">Image du produit</label>
                                         <div class="col-10">
                                             <input type="file" name="image_product" class="form-control">
                                         </div>

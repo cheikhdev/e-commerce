@@ -119,7 +119,7 @@ public function pagecategory(){
 
    public function store(Request $request)
    {
-     
+      $produit = new Product();
       $data = $request->validate([
          'name_product'=>'required|min:4',
          'prix_product' => 'required|min:3|numeric',
