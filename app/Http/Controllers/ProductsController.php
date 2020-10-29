@@ -161,13 +161,9 @@ public function pagecategory(){
      $produit->prix_product = $request->input('prix_product');
      $produit->description_product = $request->input('description_product');
      $produit->admin_id = 1;
-     $produit->category_id = $request->input('category_id');
-    
-     $produit->category_id = 1;
-     //dd($file,$produit->image_product);
-     
-
-     return redirect('/produit');
+     $produit->category_id = $request->input('category_id');  
+     $produit->save();
+     return redirect()->back()->with('success', 'Produit ajouté...');
      
    }
    
@@ -225,12 +221,7 @@ public function update(Request $request, $id){
  }
  return redirect()->back();
 }
-
-
-
-
-         
-         
+        
 public function merci()   {
    return view("orders.merci");
 }   

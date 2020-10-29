@@ -6,7 +6,8 @@
                         </div>
                     @endif
                     <div class="d-flex justify-content-end mb-3">
-                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#ajoutcategorie" style="width:250px;"> <i class="fas fa-sign-in-alt fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i>Ajout categorie</a>
+                        <a href="/produit" class="btn btn-primary mr-5" style="width:200px;"><i class="fas fa-sign-in-alt fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i>Liste des produits</a>
+                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#ajoutcategorie" style="width:200px;"> <i class="fas fa-sign-in-alt fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i>Ajout categorie</a>
                     </div>
                 <div class="container">
                     <form action="{{route('store_products')}}" method="POST" enctype="multipart/form-data">
@@ -49,7 +50,7 @@
                                     <div class="form-group col-10 ">
                                         <label for="inputPassword" style="color:red;" class=" ">Description du produit</label>
                                         <div class="col-10">
-                                            <textarea name="description_product" id="description_product" cols="30" rows="10" class="form-control" placeholder="La description"></textarea>
+                                            <textarea name="description_product" id="description_product" cols="30" rows="3" class="form-control" placeholder="La description"></textarea>
                                         </div>
                                     </div>
                                 </div>
@@ -61,9 +62,9 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="d-flex justify-content-center">         
-                                    <button type="submit" style="width:200px;border-radius:20px;margin-left:20px;" class="btn btn-success">Enregistrer</button>
-                                    <button type="reset" style="width:200px;border-radius:20px;" class="btn btn-danger" data-dismiss="modal">Annuler</button>
+                                <div class="d-flex justify-content-between">         
+                                    <button type="submit" style="width:150px;border-radius:5px;" class="btn btn-success">Enregistrer</button>
+                                    <button type="reset" style="width:150px;border-radius:5px;" class="btn btn-danger" data-dismiss="modal">Annuler</button>
                                 </div>
                     </form>
                 </div>

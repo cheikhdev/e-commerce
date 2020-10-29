@@ -696,7 +696,19 @@
 
 	<script src="{{asset('js/js_home/panier.js')}}"></script>
 	<script src="{{asset('js/js_home/commande.js')}}"></script>
-	
+	<script src="//cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+
+    <script>
+        $(document).ready( function () {
+        $('#myTable').DataTable();
+        });
+        jQuery(document).ready(function($) {
+                $(".clickable-row").click(function() {
+                    window.location = $(this).data("href");
+                });
+           
+        } );
+    </script>
 	
 </body>
 </html>

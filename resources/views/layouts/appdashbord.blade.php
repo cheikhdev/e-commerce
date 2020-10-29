@@ -24,7 +24,7 @@
 
   <!-- SLEEK CSS -->
   <link id="sleek-css" rel="stylesheet" href="{{asset('css/sleek.css')}}" />
-
+  <link rel="stylesheet" href="//cdn.datatables.net/1.10.22/css/jquery.dataTables.min.css"> 
   
 
   <!-- FAVICON -->
@@ -111,7 +111,7 @@
                         <li  class="has-sub" >
                           <a class="sidenav-item-link" href="javascript:void(0)" data-toggle="collapse" data-target="#components"
                             aria-expanded="false" aria-controls="components">
-                            <span class="nav-text">Details des Produits</span> <b class="caret"></b>
+                            <span class="nav-text">Gestion Produits</span> <b class="caret"></b>
                           </a>
                           <ul  class="collapse"  id="components">
                             <div class="sub-menu">
@@ -130,15 +130,10 @@
                         <li  class="has-sub" >
                           <a class="sidenav-item-link" href="javascript:void(0)" data-toggle="collapse" data-target="#icons"
                             aria-expanded="false" aria-controls="icons">
-                            <span class="nav-text">Icons</span> <b class="caret"></b>
+                            <span class="nav-text">Categories</span> <b class="caret"></b>
                           </a> 
                         </li>
-                        <li  class="has-sub" >
-                          <a class="sidenav-item-link" href="javascript:void(0)" data-toggle="collapse" data-target="#forms"
-                            aria-expanded="false" aria-controls="forms">
-                            <span class="nav-text">Forms</span> <b class="caret"></b>
-                          </a> 
-                        </li>
+                       
                       </div>
                     </ul>
                   </li>
@@ -410,7 +405,8 @@
           </div>
         </div>
 
-    
+        
+
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDCn8TFXGg17HAUcNpkwtxxyT9Io9B_NcM" defer></script>
 <script src="{{asset('plugins/jquery/jquery.min.js')}}"></script>
 <script src="{{asset('plugins/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
@@ -432,6 +428,19 @@
 <script src="{{asset('js/map.js')}}"></script>
 <script src="{{asset('js/custom.js')}}"></script>
 <script src="{{asset('js/popper.min.js')}}"></script>
+
+<script src="//cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script>
+    <script>
+       $(document).ready( function () {
+          $('#dataTable').DataTable();
+      });
+        jQuery(document).ready(function($) {
+                $(".clickable-row").click(function() {
+                    window.location = $(this).data("href");
+                });
+           
+        } );
+    </script>
 
   </body>
 </html>

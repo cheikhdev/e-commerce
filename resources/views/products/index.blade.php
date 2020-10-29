@@ -1,63 +1,39 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
-
-  <title> E-Commerce </title>
-
-  <!-- Bootstrap core CSS -->
-  
-  <link href="{{asset('css/app.css')}}" rel="stylesheet" />
-  <link href="{{asset('css/all.css')}}" rel="stylesheet" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rancho&effect=fire-animation|3d-float|neon">
-</head>
-  <!-- Custom styles for this template -->
-  
-  
- 
-
-
-<table class="table table-striped">
-       <tr>
-           <th>#</th>          <th>Nom Produit</th>           <th>Prix Produit</th><th>Image </th><th><a href="{{url('/ajouproduit')}}" class="btn btn-success">Ajouter Produits</a></th>
-       </tr>
-       @foreach($products as $product)
-           <tr>
-               <th>#</th>
-               <th>{{$product->name_product}}</th>
-               <th>{{$product->prix_product}} {{ $product->category->name ?? '' }}</th>
-               <th>{{$product->image_product}}</th>
-               <th><img src="{{$product->image_product ? asset($product->image_product) : asset('uploads/images/default.png')}}" alt="{{$product->name}}" width="100"></th>
-               <th></th>
-        
-            
-               
-               
-               <th>
-               
-<p><a href="{{route('editer_produit',['id'=>$product->id])}}"><button type="button" class="btn btn-primary">Editer</button></a>
-<br>
-
-</p>
-
+@extends('layouts.appdashbord')
+  @section('content')
+    <div class="table-responsive">
+      <table class="table table-hover" id="dataTable" width="100%" cellspacing="0">
+        <thead>
+          <tr>
+            <th>Categorie</th>    
+            <th>Nom Produit</th>
+            <th>Prix Produit</th>
+            <th>Image </th>
+            <th>Edit</th>
+            <th>Delete</th>
+          </tr>
+        </thead>
+        <tbody>
+          @foreach($products as $product)
+            <tr>
+                <th>{{$product->category->name_category}}</th>
+                <th>{{$product->name_product}}</th>
+                <th>{{$product->prix_product}} {{ $product->category->name ?? '' }}</th>
+                <th><img style="width:80px;height:70px;" src="{{$product->image_product ? asset($product->image_product) : asset('uploads/images/default.png')}}" alt="" width="100"></th>
+                <th> 
+                  <a href="{{route('editer_produit',['id'=>$product->id])}}" class="btn btn-primary"><i class="fas fa-edit"></i></a>
+                </th>
+                <th>
+                  <form action="product/{{$product->id}}" method="post">
+                    @csrf
+                    @method('delete')
+                  <button type="submit" class="btn btn-danger " id="" style=""><i class="fas fa-trash-alt"></i></i></button> 
+                  </form>
+                </th>
+              </tr>
+          @endforeach
+        </tbody>
+      
+    </table>
+  </div>
    
-
-    <form action="product/{{$product->id}}" method="post">
-    @csrf
-    @method('delete')
-    <input type="submit" class="btn btn-danger" name="delete" value="Supprimer">
-    </form>
-    
-   
-<div>
-   
-
-</th>
-
-       </tr>
-       @endforeach
-   </table>
+  @endsection
