@@ -30,7 +30,7 @@ Route::get('/', 'HomeController@deconnect')->name('deconnect');
 Route::get('/dashbord', 'HomeController@dashbord')->name('dashbord');
 
 
-Route::get('/espace_client', 'HomeController@utilisateur')->name('espace_client');
+Route::get('/espace_client', 'HomeController@utilisateur')->name('espace_client')->middleware('auth');
 
 Route::post('/register_user', 'UsersController@store')->name('ajouter_user');
 

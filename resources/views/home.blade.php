@@ -82,7 +82,7 @@
         <!--/ End Slider Area -->
         @endsection
         @section('content')
-            <div class="row"style="padding:20px; width: 100%; height: auto;">
+            <div class="row"style="margin:20px; width: 100%; height: auto;">
            
              <!-- Start Shop Home List  -->
 			<section class="shop-home-list section">
@@ -219,7 +219,7 @@
 							<div class="nav-main">
 								<!-- Tab Nav -->
 								<ul class="nav nav-tabs" id="myTab" role="tablist">
-                  <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#man" role="tab">Electricité</a></li>
+                  					<li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#man" role="tab">Electricité</a></li>
 									<li class="nav-item"><a class="nav-link" data-toggle="tab" href="#women" role="tab">Maçonnerie</a></li>
 									<li class="nav-item"><a class="nav-link" data-toggle="tab" href="#kids" role="tab">Sanitaire</a></li>
 									<li class="nav-item"><a class="nav-link" data-toggle="tab" href="#accessories" role="tab">Peinture</a></li>
@@ -233,13 +233,13 @@
 								<div class="tab-pane fade show active" id="man" role="tabpanel">
 									<div class="tab-single">
 										<div class="row">
-                      <div class="col-12">
-                        <div class="owl-carousel popular-slider" style="padding:5px;">
-                        
-                          <!-- Start Single Product -->
-                          @foreach($products as $product)
-                          <div class="single-product" style="width:300px;height:300px;">
-                            <div class="product-img">
+											<div class="col-12">
+												<div class="owl-carousel popular-slider" style="padding:5px;">
+												
+												<!-- Start Single Product -->
+												@foreach($products as $product)
+												<div class="single-product" style="width:300px;height:300px;">
+													<div class="product-img">
 															<a href="product-details.html">
 																<img class="default-img" style="width:300px;height:150px;" src="{{$product->image_product ? asset($product->image_product) : asset('uploads/images/default.png')}}" alt="#">
 																<img class="hover-img" src="{{$product->image_product ? asset($product->image_product) : asset('uploads/images/default.png')}}" alt="#">
@@ -261,11 +261,11 @@
 																<span style="color:red">{{$product->prix_product}} FCFA</span>
 															</div>
 														</div>
-                          </div>
-                          @endforeach
-                          <!-- End Single Product -->
-                        </div>
-                      </div>
+												</div>
+												@endforeach
+												<!-- End Single Product -->
+												</div>
+											</div>
 										</div>
 									</div>
 								</div>
