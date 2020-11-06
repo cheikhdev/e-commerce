@@ -37,14 +37,14 @@ const app = new Vue({
 
 //Fonctionalite qui permet d'ajouter des produit dans un panier de commande
 
-let form = document.getElementById("category_form");
+let form = document.getElementById("panier_form");
 $('form.add-to-cart').submit(function (e) {
     e.preventDefault();
     let form_data = $(this).serialize();
     //alert(form_data);
     $.ajax({
         type: "POST",
-        url: "{{route('cart.store')}}",
+        url: '/ajout_panier',
         data: form_data,
         success: function (data) {
             if(data.success){
@@ -54,7 +54,7 @@ $('form.add-to-cart').submit(function (e) {
                     title: 'Produit Ajouté dans le panier!',
                     text: 'Do you want to continue',
                     icon: 'success',
-                    html:'<a href="/cart" class="btn btn-success">Ouvrir le panier</a>',
+                    html:'<a href="/panier" class="btn btn-success" style="color:white;">Ouvrir le panier</a>',
                     showCloseButton: true,
                     showCancelButton: false,
                     focusConfirm: false,

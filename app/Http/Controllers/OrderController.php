@@ -64,9 +64,9 @@ class OrderController extends Controller
     if(!$request->session()->has('cart'))
         return redirect('/');
     $cart = $request->session()->get('cart');
-    return view('orders.carts', compact('cart'));
+    return view('panier', compact('cart'));
 
-     }
+}
 
      public function User(){
 

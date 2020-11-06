@@ -15,18 +15,28 @@ class CartController extends Controller
         });
 
         if($duplicata->isNotEmpty()){
-            return redirect()->route('products.index'->with('success','Le produit à deja ete ajoute.'));
+            return response()->json(['success' => true,], 200);
         }
         else{
             $product = Product::find($request->product_id);
         
             Cart::add($product->id, $product->name_product,1, $product->prix_product)
                 ->associate('App\Product');
-            return redirect()->route('products.index')->with('succes','Le Produit a bien ete ajoute');
+                return response()->json(['success' => true,], 200);
         }
-        
+    }  
+        public function add_to_cart(Request $request){
+            //On recupere le produit dans la BD a partir de l'id qui est passe en parametre
+            $product = Product::find($request->input('product_id'));
+            //On s'assure qu'il y'a bien un produit qui est retourne
+            if($product){
+                Cart::add($product->id, $product->name_product,1, $product->prix_product)
+                ->associate('App\Product');
+            }
+            return response()->json(['success' => true,], 200);
+         }
             
-    }
+    
 
     public function afficher_panier(Request $request){
         $product = Product::find($request->product_id);

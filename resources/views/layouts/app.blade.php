@@ -41,15 +41,17 @@
   <link href="{{asset('css/css_home/reset.css')}}" rel="stylesheet" />
   <link href="{{asset('css/css_home/responsive.css')}}" rel="stylesheet" />
   <link href="{{asset('css/css_home/style.css')}}" rel="stylesheet" />
-  
+  <!--link href="{{asset('css/css_home/frontend.min.css')}}" rel="stylesheet" />
+  <link href="{{asset('css/css_home/style.min.css')}}" rel="stylesheet" />
+  <link href="{{asset('css/css_home/post-10.css')}}" rel="stylesheet" /-->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rancho&effect=fire-animation|3d-float|neon|canvas-print">
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,900" rel="stylesheet" />
 <link rel="stylesheet" href="//cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css"> 
 <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+
 </head>	
-</head>
 <body class="js">
 	<style>
 		.btnedit:hover{
@@ -61,7 +63,7 @@
 		<div class="preloader">
 			<div class="preloader-inner">
 				<div class="preloader-icon">
-					<span></span>
+					<span>Veuiller patienter</span>
 					<span></span>
 				</div>
 			</div>
@@ -145,20 +147,19 @@
 							</div>
 							
 							<div class="sinlge-bar shopping">
-								<a href="#" class="single-icon"><i class="fas fa-shopping-cart fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i> <span class="total-count">{{Cart::count()}}</span></a>
+								<a href="#" class="single-icon" id="shopping"><i class="fas fa-shopping-cart fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i> <span class="total-count">{{Cart::count()}}</span></a>
 								<!-- Shopping Item -->
 								<div class="shopping-item">
 									<div class="dropdown-cart-header">
 										<span>{{Cart::count()}} produit(s)</span>
 										<a href="/panier">Afficher le panier</a>
 									</div>
-									<ul class="shopping-list">
+									<ul class="shopping-list" >
                                         @foreach(Cart::content() as $row )
                                             <li>
                                                 <form action="{{route('cart.destroy',$row->rowId)}}" method="POST" class="">
                                                     @csrf                      
                                                     @method('DELETE')
-
                                                     <button type="submit" class="remove text-danger  " title="Remove this item"><i class="fa fa-remove "></i></button>
                                                 </form>
                                                 <a class="cart-img" href="#"><img src="https://via.placeholder.com/70x70" alt="#"></a>
@@ -291,7 +292,7 @@
 								<!-- Main Menu -->
 								<nav class="navbar navbar-expand-lg" >
 									<div class="navbar-collapse" >	
-										<div class="nav-inner" >	
+										<div class="nav-inner" id="bare">	
 											<ul class="nav main-menu menu navbar-nav" >
 													<li  class="active"><a href="#"><i class="fas fa-home fa-lg fa-fw mr-2 text-gray-400" aria-hidden="true"></i>Accueuil</a></li>
 													<li><a href="#"><i class="fas fa-medkit fa-lg fa-fw mr-2 text-gray-400" aria-hidden="true"></i>A propos<i class="fas fa-angle-down"></i></a>
@@ -661,8 +662,10 @@
 	</footer>
 	<!-- /End Footer Area -->
 	
-<!-- Jquery -->  
-    <script src="{{asset('js/js_home/jquery.min.js')}}"></script>
+<!-- Jquery --> 
+<!--script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script!-->
+<script src="{{asset('js/app.js')}}"></script>   
+<script src="{{asset('js/js_home/jquery.min.js')}}"></script>
     <script src="{{asset('js/js_home/jquery-migrate-3.0.0.js')}}"></script>
     <script src="{{asset('js/js_home/jquery-ui.min.js')}}"></script>
 <!-- Popper js -->
@@ -695,9 +698,10 @@
 	<script src="{{asset('js/js_home/active.js')}}"></script>
 
 	<script src="{{asset('js/js_home/panier.js')}}"></script>
+	<!--script src="{{asset('js/js_home/add_cart.js')}}"></script-->
 	<script src="{{asset('js/js_home/commande.js')}}"></script>
 	<script src="//cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
-
+	
     <script>
         $(document).ready( function () {
         $('#myTable').DataTable();
@@ -709,6 +713,14 @@
            
         } );
     </script>
+	<script>
+		let bod = document.getElementByTagName('body');
+		let bare = doccument.getElementById('bare');
+		let  shopping = document.getElementById('shopping');
+		if(bod.scrollTo(10,10)){
+			bare.append('shopping');
+		}
+	</script>
 	
 </body>
 </html>

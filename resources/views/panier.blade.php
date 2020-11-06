@@ -77,12 +77,12 @@
                         </thead>
                         <tbody class="mb-3">
                         @foreach(Cart::content() as $row)
-                            <tr class="clickable-row" data-href="" style="">
+                            <tr class="" data-href="" style="">
                                 <td>{{$row->name}}</td>
                                 <td class="d-flex justify-content-between">
                                     <form action="{{url('update')}}" method="post">
                                         {{csrf_field()}}
-                                        <input class="" style="width:90px;" type="number" id="quantite" name="uqty" value="{{$row->qty}}">
+                                        <input  style="width:90px;" type="number" id="quantite" name="uqty" value="{{$row->qty}}">
                                         <input type="hidden" name="rowId" value="{{$row->rowId}}">
                                         <button type="submit" disabled="true" class="btn btn-primary btnedit" id="edit" style=""><i class="fas fa-edit"></i></button> 
                                     </form>

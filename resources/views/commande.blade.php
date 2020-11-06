@@ -17,42 +17,43 @@
                     <div class="d-flex mt-3">
                         <div class="col-4 pl-0 pr-0" style="">
                             <div class="d-flex ">
-                                <div class="col-5 phase-valide" style="">
+                                <div class="col-5 phase-valide" id="phaseValFact1" style="">
                                 </div>
-                                <div class="col-2 phase-valide-border" >
+                                <div class="col-2 phase-valide-border" id="phaseValBordFact">
                                     <h5  class="pt-2 pb-2" style="text-align:center;">1</h5>
                                 </div>
-                                <div class="col-5 phase-valide" >
+                                <div class="col-5 phase-valide" id="phaseValFact2">
+
                                 </div>
                             </div>
                             <h4 style="text-align:center;">Facturation</h4>
                         </div>
                         <div class="col-4 pl-0 pr-0">
                             <div class="d-flex ">
-                                <div class="col-5 phase-non-valide" >
+                                <div class="col-5 phase-non-valide" id="phaseValComm1">
                                 </div>
-                                <div class="col-2 phase-non-valide-border" >
+                                <div class="col-2 phase-non-valide-border" id="phaseValBordComm">
                                     <h5  class="pt-2 pb-2" style="text-align:center;">2</h5>
                                 </div>
-                                <div class="col-5 phase-non-valide" >
+                                <div class="col-5 phase-non-valide" id="phaseValComm2">
                                 </div>
                             </div>
                             <h4 style="text-align:center;">Commande</h4>
                         </div>
                         <div class="col-4 pl-0 pr-0" style="">
                             <div class="d-flex ">
-                                <div class="col-5 phase-non-valide" >
+                                <div class="col-5 phase-non-valide" id="phaseValPaie1">
                                 </div>
-                                <div class="col-2 phase-non-valide-border" >
+                                <div class="col-2 phase-non-valide-border" id="phaseValBordPaie">
                                     <h5  class="pt-2 pb-2" style="text-align:center;">3</h5>
                                 </div>
-                                <div class="col-5 phase-non-valide" >
+                                <div class="col-5 phase-non-valide" id="phaseValPaie2">
                                 </div>
                             </div>
                             <h4 style="text-align:center;">Paiement</h4>
                         </div>
                     </div>
-                    <div class="mt-5">
+                    <div class="mt-5" id="facturation">
                         <h4 class="mb-3 details">Details de facturation</h4>
                         <form action="#" id="form">
                             <div class="row mb-5">
@@ -79,10 +80,107 @@
                             <div class="" id="infoChamps">
 
                             </div>
+                            <div class="row mb-5">
+                                <div class="">
+                                    <label for="" style="font-weight:bold;color:red;"> Expedier dans une autre adresse</label>
+                                    <div class="d-flex">
+                                        <div>
+                                            <input type="checkbox" selected="false" style="width:20px;height:20px;" id="check"  class="form-control mr-5" name="check" > OUI
+                                        </div>
+                                       
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div id="autre_address" style="display:none;">
+                                <div class="row mb-5">
+                                    <div class="col-6">
+                                        <input type="text" required=""  id="nom2" style="border:1px solid  #F7941D;background:rgb(231, 225, 225);border-radius:10px;" class="form-control" name="nom2" placeholder="Nom*">
+                                    </div>
+                                    <div class="col-6">
+                                        <input type="text" required="" id="prenom2" style="border:1px solid  #F7941D;background:rgb(231, 225, 225);border-radius:10px;" class="form-control" name="prenom2" placeholder="Prénom*">
+                                    </div>
+                                </div>
+                                <div class="row mb-5">
+                                    <div class="col-6">
+                                        <input type="email" required="" id="email2" style="border:1px solid  #F7941D;background:rgb(231, 225, 225);border-radius:10px;" class="form-control" name="email2" placeholder="E-mail*">
+                                    </div>
+                                    <div class="col-6">
+                                        <input type="text" required="" id="phone2" style="border:1px solid  #F7941D;background:rgb(231, 225, 225);border-radius:10px;" class="form-control" name="phone2" placeholder="Numéro de Téléphone*">
+                                    </div>
+                                </div>
+                                <div class="row mb-5">
+                                    <div class="col-10">
+                                        <input type="text" required="" id="adresse2" style="border:1px solid  #F7941D;background:rgb(231, 225, 225);border-radius:10px;" class="form-control" name="adresse2" placeholder="Adresse*">
+                                    </div>
+                                </div>
+                            </div>
                         </form>
                         <div class="d-flex justify-content-between">
                             <button class="" ><a href="/panier" style="font-weight:bold;">Retour au panier</a></button>
                             <button id="suivantbtn"  class="suivant">Suivant</button>
+                        </div>
+                    </div>
+                    <div class="mt-5" id="commande" style="display:none;">
+                        <h4 class="mb-3 details">Details de la commande</h4>
+                        <div class="row mb-5">
+                            <div class="col-12 col-md-6">
+                                <h5 class="mb-5 mt-4 d-flex justify-content-center">Info livraison</h5>
+                                <div>
+                                    <div >Nom : <h6 id="labnom"></h6></div>
+                                    <hr>
+                                    <div >Telephone : <h6 id="labphone"></h6></div>
+                                    <hr>
+                                    <div >Email : <h6 id="labmail"></h6></div>
+                                    <hr>
+                                    <div >Adresse : <h6 id="labadresse"></h6></div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6" >
+                                <div class="card">
+                                    <div class="card-header">
+                                        <h5 class="mb-5 mt-4 d-flex justify-content-center" >Votre commande</h5>
+                                    </div>
+                                    <div class="card-body">
+                                        <table class="table table-light">
+                                            <thead >
+                                                <tr class="d-flex justify-content-between pl-3 pr-3">
+                                                    <th><h5>Produit</h5> </th>
+                                                    <th><h5>Total</h5></th>
+                                                </tr>
+                                            </thead>
+                                            <tbody >
+                                                @foreach(Cart::content() as $row)
+                                                    <tr class="d-flex justify-content-between pl-2 pr-2">
+                                                        <td>{{$row->name}} x {{$row->qty}}</td>
+                                                        <td><h6>{{$row->total}} <span style="color:red;">Fcfa</span></h6></td>
+                                                    </tr>
+                                                @endforeach
+                                                    <tr class="d-flex justify-content-between pl-2 pr-2">
+                                                        <td><h5>Sous-total</h5></td>
+                                                        <td><h6>{{Cart::total()}} <span style="color:red;">Fcfa</span></h6></td>
+                                                        
+                                                    </tr>
+                                                    <tr class="d-flex justify-content-between pl-2 pr-2">
+                                                        <td><h5>Expedition</h5></td>
+                                                        <td><h6></h6></td>
+                                                    </tr>
+                                            </tbody>
+
+                                        </table>
+                                    </div>
+                                    <div class="card-footer">
+                                        <div class="d-flex justify-content-between pl-3 pr-3">
+                                            <h5>Total</h5>
+                                            <h6>{{Cart::total()}} <span style="color:red;">Fcfa</span></h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-around">
+                            <button id="retourfacture" class="" >Retour a la facturation</button>
+                            <button id="commander"  class="">Commander</button>
                         </div>
                     </div>
                 </div>

@@ -77,411 +77,491 @@
                     <span class="sr-only">Next</span>
                   </a>
               </div>
-		<!--/ End Single Slider -->
+			<!--/ End Single Slider -->
           </section>
         <!--/ End Slider Area -->
-        @endsection
-        @section('content')
+		@endsection
+		
+		@section('content')
             <div class="row"style="margin:20px; width: 100%; height: auto;">
-           
-             <!-- Start Shop Home List  -->
-			<section class="shop-home-list section">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-4 col-md-6 col-12">
-							<div class="row">
-								<div class="col-12">
-									<div class="shop-section-title">
-										<h1>Nouveaux produits</h1>
-									</div>
-								</div>
-							</div>
-							<!-- Start Single List  -->
-							@foreach($products as $product)
-								<div class="single-list">
-									<div class="row">
-										<div class="col-lg-6 col-md-6 col-12">
-											<div class="list-image overlay">
-												<img src="{{$product->image_product ? asset($product->image_product) : asset('uploads/images/default.png')}}" alt="#">
-												<form action="{{route('cart.store')}}" method="POST"  class="add-to-cart">
-													@csrf
-													<input type="hidden" name="id" value="{{\Illuminate\Support\Facades\Auth::id()}}">
-													<input type="hidden" name="product_id" value="{{$product->id}}">
-													<input type="hidden" name="prix_product" value="{{$product->prix_product}}">
-													<button type="submit" class="buy">
-														<i class="fas fa-shopping-cart fa-md fa-fw  text-gray-400" aria-hidden="true"></i>
-													</button>
-												</form>
-											</div>
-										</div>
-										<div class="col-lg-6 col-md-6 col-12 no-padding">
-											<div class="content">
-												<h4 class="title"><a href="#">{{$product->name_product}}</a></h4>
-												<p class="price with-discount">{{$product->prix_product}} FCFA</p>
-											</div>
+             	<!-- Start Shop Home List  -->
+				<section class="shop-home-list section">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-4 col-md-6 col-12">
+								<div class="row">
+									<div class="col-12">
+										<div class="shop-section-title">
+											<h1>Nouveaux produits</h1>
 										</div>
 									</div>
 								</div>
-							@endforeach
-							<!-- End Single List  -->
-						</div>
-						<div class="col-lg-4 col-md-6 col-12">
-							<div class="row">
-								<div class="col-12">
-									<div class="shop-section-title">
-										<h1>Meilleur vente</h1>
-									</div>
-								</div>
-							</div>
-							<!-- Start Single List  -->
-							@foreach($products as $product)
-								<div class="single-list">
-									<div class="row">
-										<div class="col-lg-6 col-md-6 col-12">
-											<div class="list-image overlay">
-												<img src="{{$product->image_product ? asset($product->image_product) : asset('uploads/images/default.png')}}" alt="#">
-												<form action="{{route('cart.store')}}" method="POST"  class="add-to-cart">
-													@csrf
-													<input type="hidden" name="id" value="{{\Illuminate\Support\Facades\Auth::id()}}">
-													<input type="hidden" name="product_id" value="{{$product->id}}">
-													<input type="hidden" name="prix_product" value="{{$product->prix_product}}">
-													<button type="submit" class="buy" >
-														<i class="fas fa-shopping-cart fa-md fa-fw  text-gray-400" aria-hidden="true"></i>
-													</button>
-												</form>
-											</div>
-										</div>
-										<div class="col-lg-6 col-md-6 col-12 no-padding">
-											<div class="content">
-												<h4 class="title"><a href="#">{{$product->name_product}}</a></h4>
-												<p class="price with-discount">{{$product->prix_product}} FCFA</p>
-											</div>
-										</div>
-									</div>
-								</div>
-							@endforeach
-							<!-- End Single List  -->
-						</div>
-						<div class="col-lg-4 col-md-6 col-12">
-							<div class="row">
-								<div class="col-12">
-									<div class="shop-section-title">
-										<h1>Les plus Visité</h1>
-									</div>
-								</div>
-							</div>
-							<!-- Start Single List  -->
-							@foreach($products as $product)
-								<div class="single-list">
-									<div class="row">
-										<div class="col-lg-6 col-md-6 col-12">
-											<div class="list-image overlay">
-												<img src="{{$product->image_product ? asset($product->image_product) : asset('uploads/images/default.png')}}" alt="#">
-												<form action="{{route('cart.store')}}" method="POST"  class="add-to-cart">
-													@csrf
-													<input type="hidden" name="id" value="{{\Illuminate\Support\Facades\Auth::id()}}">
-													<input type="hidden" name="product_id" value="{{$product->id}}">
-													<input type="hidden" name="prix_product" value="{{$product->prix_product}}">
-													<button type="submit" class="buy">
-														<i class="fas fa-shopping-cart fa-md fa-fw  text-gray-400" aria-hidden="true"></i>
-													</button>
-												</form>
-											</div>
-										</div>
-										<div class="col-lg-6 col-md-6 col-12 no-padding">
-											<div class="content">
-												<h4 class="title"><a href="#">{{$product->name_product}}</a></h4>
-												<p class="price with-discount">{{$product->prix_product}} FCFA</p>
-											</div>
-										</div>
-									</div>
-								</div>
-							@endforeach
-							<!-- End Single List  -->
-						</div>
-					</div>
-				</div>
-			</section>
-			<!-- End Shop Home List  -->
-  <!-- Start Product Area -->
-    <div class="product-area section" style="">
-      <div class="container">
-				<div class="row">
-					<div class="col-12">
-						<div class="section-title">
-							<h2>Affichage par categorie</h2>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-12">
-						<div class="product-info">
-							<div class="nav-main">
-								<!-- Tab Nav -->
-								<ul class="nav nav-tabs" id="myTab" role="tablist">
-                  					<li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#man" role="tab">Electricité</a></li>
-									<li class="nav-item"><a class="nav-link" data-toggle="tab" href="#women" role="tab">Maçonnerie</a></li>
-									<li class="nav-item"><a class="nav-link" data-toggle="tab" href="#kids" role="tab">Sanitaire</a></li>
-									<li class="nav-item"><a class="nav-link" data-toggle="tab" href="#accessories" role="tab">Peinture</a></li>
-									<li class="nav-item"><a class="nav-link" data-toggle="tab" href="#essential" role="tab">Plomberie</a></li>
-									<li class="nav-item"><a class="nav-link" data-toggle="tab" href="#prices" role="tab">Maison</a></li>
-								</ul>
-								<!--/ End Tab Nav -->
-							</div>
-							<div class="tab-content shop-services section home" id="myTabContent" style>
-								<!-- Start Single Tab -->
-								<div class="tab-pane fade show active" id="man" role="tabpanel">
-									<div class="tab-single">
+								<!-- Start Single List  -->
+								@foreach($products as $product)
+									<div class="single-list">
 										<div class="row">
-											<div class="col-12">
-												<div class="owl-carousel popular-slider" style="padding:5px;">
-												
-												<!-- Start Single Product -->
-												@foreach($products as $product)
-												<div class="single-product" style="width:300px;height:300px;">
-													<div class="product-img">
-															<a href="product-details.html">
-																<img class="default-img" style="width:300px;height:150px;" src="{{$product->image_product ? asset($product->image_product) : asset('uploads/images/default.png')}}" alt="#">
-																<img class="hover-img" src="{{$product->image_product ? asset($product->image_product) : asset('uploads/images/default.png')}}" alt="#">
-															</a>
-															<div class="button-head">
-																<div class="product-action">
-																	<a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" fas fa-eye"></i><span>Ajout et details</span></a>
-																	<a title="Wishlist" href="#"><i class=" fas fa-heart "></i><span>{{$product->name_product}}</span></a>
-																	<a title="Compare" href="#"><i class="fas fa-bar-chart-alt"></i><span>Ajout et details</span></a>
-																</div>
-																<div class="product-action-2">
-																	<a title="Add to cart" href="#">Ajouter au panier</a>
-																</div>
-															</div>
-														</div>
-														<div class="product-content">
-															<h3><a href="product-details.html">{!! \Illuminate\Support\Str::words($product->description_product, 25,'....')  !!}</a></h3>
-															<div class="product-price">
-																<span style="color:red">{{$product->prix_product}} FCFA</span>
-															</div>
-														</div>
+											<div class="col-lg-6 col-md-6 col-12">
+												<div class="list-image overlay">
+													<img src="{{$product->image_product ? asset($product->image_product) : asset('uploads/images/default.png')}}" alt="#">
+													<form action="#" id="{{'product_'.$product->id}}" class="add-to-cart">
+														@csrf
+														<input type="hidden" name="user_id" value="{{\Illuminate\Support\Facades\Auth::id()}}">
+														<input type="hidden" name="product_id" value="{{$product->id}}">
+														<input type="hidden" name="prix_product" value="{{$product->prix_product}}">
+														<button type="submit" class="buy" id="panier-form">
+															<i class="fas fa-shopping-cart fa-md fa-fw  text-gray-400" aria-hidden="true"></i>
+														</button>
+													</form>
 												</div>
-												@endforeach
-												<!-- End Single Product -->
+											</div>
+											<div class="col-lg-6 col-md-6 col-12 no-padding">
+												<div class="content">
+													<h4 class="title"><a href="#">{{$product->name_product}}</a></h4>
+													<p class="price with-discount mb-2">{{$product->prix_product}} FCFA</p>
+													<form action="#" id="{{'product_'.$product->id}}" class="add-to-cart">
+														@csrf
+														<input type="hidden" name="user_id" value="{{\Illuminate\Support\Facades\Auth::id()}}">
+														<input type="hidden" name="product_id" value="{{$product->id}}">
+														<input type="hidden" name="prix_product" value="{{$product->prix_product}}">
+														<button type="submit" class="">
+															<i class="fas fa-shopping-cart fa-md fa-fw  text-gray-400" aria-hidden="true"></i>
+															Acheter
+														</button>
+													</form>	
 												</div>
 											</div>
 										</div>
 									</div>
-								</div>
-								<!--/ End Single Tab -->
-								<!-- Start Single Tab -->
-								<div class="tab-pane fade" id="women" role="tabpanel">
-									<div class="tab-single">
-										<div class="row">
-                    <div class="col-12">
-                        <div class="owl-carousel popular-slider">
-                        
-                          <!-- Start Single Product -->
-                          @foreach($products as $product)
-                          <div class="single-product" style="width:200px;height:200px;">
-                            <div class="product-img">
-															<a href="product-details.html">
-																<img class="default-img"  src="{{$product->image_product ? asset($product->image_product) : asset('uploads/images/default.png')}}" alt="#">
-																<img class="hover-img" src="{{$product->image_product ? asset($product->image_product) : asset('uploads/images/default.png')}}" alt="#">
-															</a>
-															<div class="button-head">
-																<div class="product-action">
-																	<a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" fas fa-eye"></i><span>Ajout et details</span></a>
-																	<a title="Wishlist" href="#"><i class=" fas fa-heart "></i><span>{{$product->name_product}}</span></a>
-																	<a title="Compare" href="#"><i class="fas fa-bar-chart-alt"></i><span>Ajout et details</span></a>
-																</div>
-																<div class="product-action-2">
-																	<a title="Add to cart" href="#">Ajouter au panier</a>
-																</div>
-															</div>
-														</div>
-														<div class="product-content">
-															<h3><a href="product-details.html">{!! \Illuminate\Support\Str::words($product->description_product, 25,'....')  !!}</a></h3>
-															<div class="product-price">
-																<span style="color:red">{{$product->prix_product}} FCFA</span>
-															</div>
-														</div>
-                          </div>
-                          @endforeach
-                          <!-- End Single Product -->
-                        </div>
-                      </div>
-										</div>
-									</div>
-								</div>
-								<!--/ End Single Tab -->
-								<!-- Start Single Tab -->
-								<div class="tab-pane fade" id="kids" role="tabpanel">
-									<div class="tab-single">
-										<div class="row">
-                    <div class="col-12">
-                        <div class="owl-carousel popular-slider">
-                        
-                          <!-- Start Single Product -->
-                          @foreach($products as $product)
-                          <div class="single-product" style="width:200px;height:200px;">
-                            <div class="product-img">
-															<a href="product-details.html">
-																<img class="default-img"  src="{{$product->image_product ? asset($product->image_product) : asset('uploads/images/default.png')}}" alt="#">
-																<img class="hover-img" src="{{$product->image_product ? asset($product->image_product) : asset('uploads/images/default.png')}}" alt="#">
-															</a>
-															<div class="button-head">
-																<div class="product-action">
-																	<a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" fas fa-eye"></i><span>Ajout et details</span></a>
-																	<a title="Wishlist" href="#"><i class=" fas fa-heart "></i><span>{{$product->name_product}}</span></a>
-																	<a title="Compare" href="#"><i class="fas fa-bar-chart-alt"></i><span>Ajout et details</span></a>
-																</div>
-																<div class="product-action-2">
-																	<a title="Add to cart" href="#">Ajouter au panier</a>
-																</div>
-															</div>
-														</div>
-														<div class="product-content">
-															<h3><a href="product-details.html">{!! \Illuminate\Support\Str::words($product->description_product, 25,'....')  !!}</a></h3>
-															<div class="product-price">
-																<span style="color:red">{{$product->prix_product}} FCFA</span>
-															</div>
-														</div>
-                          </div>
-                          @endforeach
-                          <!-- End Single Product -->
-                        </div>
-                      </div>
-										</div>
-									</div>
-								</div>
-								<!--/ End Single Tab -->
-								<!-- Start Single Tab -->
-								<div class="tab-pane fade" id="accessories" role="tabpanel">
-									<div class="tab-single">
-										<div class="row">
-                    <div class="col-12">
-                        <div class="owl-carousel popular-slider">
-                        
-                          <!-- Start Single Product -->
-                          @foreach($products as $product)
-                          <div class="single-product" style="width:200px;height:200px;">
-                            <div class="product-img">
-															<a href="product-details.html">
-																<img class="default-img"  src="{{$product->image_product ? asset($product->image_product) : asset('uploads/images/default.png')}}" alt="#">
-																<img class="hover-img" src="{{$product->image_product ? asset($product->image_product) : asset('uploads/images/default.png')}}" alt="#">
-															</a>
-															<div class="button-head">
-																<div class="product-action">
-																	<a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" fas fa-eye"></i><span>Ajout et details</span></a>
-																	<a title="Wishlist" href="#"><i class=" fas fa-heart "></i><span>{{$product->name_product}}</span></a>
-																	<a title="Compare" href="#"><i class="fas fa-bar-chart-alt"></i><span>Ajout et details</span></a>
-																</div>
-																<div class="product-action-2">
-																	<a title="Add to cart" href="#">Ajouter au panier</a>
-																</div>
-															</div>
-														</div>
-														<div class="product-content">
-															<h3><a href="product-details.html">{!! \Illuminate\Support\Str::words($product->description_product, 25,'....')  !!}</a></h3>
-															<div class="product-price">
-																<span style="color:red">{{$product->prix_product}} FCFA</span>
-															</div>
-														</div>
-                          </div>
-                          @endforeach
-                          <!-- End Single Product -->
-                        </div>
-                      </div>
-										</div>
-									</div>
-								</div>
-								<!--/ End Single Tab -->
-								<!-- Start Single Tab -->
-								<div class="tab-pane fade" id="essential" role="tabpanel">
-									<div class="tab-single">
-										<div class="row">
-                    <div class="col-12">
-                        <div class="owl-carousel popular-slider">
-                        
-                          <!-- Start Single Product -->
-                          @foreach($products as $product)
-                          <div class="single-product" style="width:200px;height:200px;">
-                            <div class="product-img">
-															<a href="product-details.html">
-																<img class="default-img"  src="{{$product->image_product ? asset($product->image_product) : asset('uploads/images/default.png')}}" alt="#">
-																<img class="hover-img" src="{{$product->image_product ? asset($product->image_product) : asset('uploads/images/default.png')}}" alt="#">
-															</a>
-															<div class="button-head">
-																<div class="product-action">
-																	<a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" fas fa-eye"></i><span>Ajout et details</span></a>
-																	<a title="Wishlist" href="#"><i class=" fas fa-heart "></i><span>{{$product->name_product}}</span></a>
-																	<a title="Compare" href="#"><i class="fas fa-bar-chart-alt"></i><span>Ajout et details</span></a>
-																</div>
-																<div class="product-action-2">
-																	<a title="Add to cart" href="#">Ajouter au panier</a>
-																</div>
-															</div>
-														</div>
-														<div class="product-content">
-															<h3><a href="product-details.html">{!! \Illuminate\Support\Str::words($product->description_product, 25,'....')  !!}</a></h3>
-															<div class="product-price">
-																<span style="color:red">{{$product->prix_product}} FCFA</span>
-															</div>
-														</div>
-                          </div>
-                          @endforeach
-                          <!-- End Single Product -->
-                        </div>
-                      </div>
-										</div>
-									</div>
-								</div>
-								<!--/ End Single Tab -->
-								<!-- Start Single Tab -->
-								<div class="tab-pane fade" id="prices" role="tabpanel">
-									<div class="tab-single">
-										<div class="row">
-                    <div class="col-12">
-                        <div class="owl-carousel popular-slider">
-                        
-                          <!-- Start Single Product -->
-                          @foreach($products as $product)
-                          <div class="single-product" style="width:200px;height:200px;">
-                            <div class="product-img">
-															<a href="product-details.html">
-																<img class="default-img"  src="{{$product->image_product ? asset($product->image_product) : asset('uploads/images/default.png')}}" alt="#">
-																<img class="hover-img" src="{{$product->image_product ? asset($product->image_product) : asset('uploads/images/default.png')}}" alt="#">
-															</a>
-															<div class="button-head">
-																<div class="product-action">
-																	<a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" fas fa-eye"></i><span>Ajout et details</span></a>
-																	<a title="Wishlist" href="#"><i class=" fas fa-heart "></i><span>{{$product->name_product}}</span></a>
-																	<a title="Compare" href="#"><i class="fas fa-bar-chart-alt"></i><span>Ajout et details</span></a>
-																</div>
-																<div class="product-action-2">
-																	<a title="Add to cart" href="#">Ajouter au panier</a>
-																</div>
-															</div>
-														</div>
-														<div class="product-content">
-															<h3><a href="product-details.html">{!! \Illuminate\Support\Str::words($product->description_product, 25,'....')  !!}</a></h3>
-															<div class="product-price">
-																<span style="color:red">{{$product->prix_product}} FCFA</span>
-															</div>
-														</div>
-                          </div>
-                          @endforeach
-                          <!-- End Single Product -->
-                        </div>
-                      </div>
-										</div>
-									</div>
-								</div>
-								<!--/ End Single Tab -->
+								@endforeach
+								<!-- End Single List  -->
 							</div>
-						</div>
-					</div>
-				</div>
-            </div>
-    </div>
-	<!-- End Product Area -->
-	
-          
+							<div class="col-lg-4 col-md-6 col-12">
+								<div class="row">
+									<div class="col-12">
+										<div class="shop-section-title">
+											<h1>Meilleur vente</h1>
+										</div>
+									</div>
+								</div>
+								<!-- Start Single List  -->
+								@foreach($products as $product)
+									<div class="single-list">
+										<div class="row">
+											<div class="col-lg-6 col-md-6 col-12">
+												<div class="list-image overlay">
+													<img src="{{$product->image_product ? asset($product->image_product) : asset('uploads/images/default.png')}}" alt="#">
+													<form action="#" id="{{'product_'.$product->id}}" class="add-to-cart">
+														@csrf
+														<input type="hidden" name="user_id" value="{{\Illuminate\Support\Facades\Auth::id()}}">
+														<input type="hidden" name="product_id" value="{{$product->id}}">
+														<input type="hidden" name="prix_product" value="{{$product->prix_product}}">
+														<button type="submit" class="buy" id="panier-form">
+															<i class="fas fa-shopping-cart fa-md fa-fw  text-gray-400" aria-hidden="true"></i>
+														</button>
+													</form>
+												</div>
+											</div>
+											<div class="col-lg-6 col-md-6 col-12 no-padding">
+												<div class="content">
+													<h4 class="title"><a href="#">{{$product->name_product}}</a></h4>
+													<p class="price with-discount mb-2">{{$product->prix_product}} FCFA</p>
+													<form action="#" id="{{'product_'.$product->id}}" class="add-to-cart">
+														@csrf
+														<input type="hidden" name="user_id" value="{{\Illuminate\Support\Facades\Auth::id()}}">
+														<input type="hidden" name="product_id" value="{{$product->id}}">
+														<input type="hidden" name="prix_product" value="{{$product->prix_product}}">
+														<button type="submit" class="">
+															<i class="fas fa-shopping-cart fa-md fa-fw  text-gray-400" aria-hidden="true"></i>
+															Acheter
+														</button>
+													</form>	
+												</div>
+											</div>
+										</div>
+									</div>
+								@endforeach
+								<!-- End Single List  -->
+							</div>
+							<div class="col-lg-4 col-md-6 col-12">
+								<div class="row">
+									<div class="col-12">
+										<div class="shop-section-title">
+											<h1>Les plus Visité</h1>
+										</div>
+									</div>
+								</div>
+								<!-- Start Single List  -->
+								@foreach($products as $product)
+									<div class="single-list">
+										<div class="row">
+											<div class="col-lg-6 col-md-6 col-12">
+												<div class="list-image overlay">
+													<img src="{{$product->image_product ? asset($product->image_product) : asset('uploads/images/default.png')}}" alt="#">
+													<form action="#" id="{{'product_'.$product->id}}" class="add-to-cart">
+														@csrf
+														<input type="hidden" name="user_id" value="{{\Illuminate\Support\Facades\Auth::id()}}">
+														<input type="hidden" name="product_id" value="{{$product->id}}">
+														<input type="hidden" name="prix_product" value="{{$product->prix_product}}">
+														<button type="submit" class="buy" id="panier-form">
+															<i class="fas fa-shopping-cart fa-md fa-fw  text-gray-400" aria-hidden="true"></i>
+														</button>
+													</form>
+												</div>
+											</div>
+											<div class="col-lg-6 col-md-6 col-12 no-padding">
+												<div class="content">
+													<h4 class="title"><a href="#">{{$product->name_product}}</a></h4>
+													<p class="price with-discount mb-2">{{$product->prix_product}} FCFA</p>
+													<form action="#" id="{{'product_'.$product->id}}" class="add-to-cart">
+														@csrf
+														<input type="hidden" name="user_id" value="{{\Illuminate\Support\Facades\Auth::id()}}">
+														<input type="hidden" name="product_id" value="{{$product->id}}">
+														<input type="hidden" name="prix_product" value="{{$product->prix_product}}">
+														<button type="submit" class="">
+															<i class="fas fa-shopping-cart fa-md fa-fw  text-gray-400" aria-hidden="true"></i>
+															Acheter
+														</button>
+													</form>	
+												</div>
+											</div>
+										</div>
+									</div>
+								@endforeach
+								<!-- End Single List  -->
+												</div>
+											</div>
+										</div>
+									</section>
+								</div>
+									<!-- End Shop Home List  -->
+									<!-- Start Product Area -->
+									<div class="product-area section" style="">
+										<div class="container">
+											<div class="row">
+												<div class="col-12">
+													<div class="section-title">
+														<h2>Affichage par categorie</h2>
+													</div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-12">
+													<div class="product-info">
+														<div class="nav-main">
+															<!-- Tab Nav -->
+															<ul class="nav nav-tabs" id="myTab" role="tablist">
+																<li class="nav-item"><a class="nav-link " data-toggle="tab" href="#man" role="tab">Electricité</a></li>
+																<li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#women" role="tab">Maçonnerie</a></li>
+																<li class="nav-item"><a class="nav-link" data-toggle="tab" href="#kids" role="tab">Sanitaire</a></li>
+																<li class="nav-item"><a class="nav-link" data-toggle="tab" href="#accessories" role="tab">Peinture</a></li>
+																<li class="nav-item"><a class="nav-link" data-toggle="tab" href="#essential" role="tab">Plomberie</a></li>
+																<li class="nav-item"><a class="nav-link" data-toggle="tab" href="#prices" role="tab">Maison</a></li>
+															</ul>
+															<!--/ End Tab Nav -->
+														</div>
+														<div class="tab-content shop-services section home" id="myTabContent" style>
+															<!-- Start Single Tab -->
+															<div class="tab-pane fade  show" id="man" role="tabpanel">
+																<div class="tab-single">
+																	<div class="row">
+																		<div class="col-12">
+																			<div class="owl-carousel popular-slider" style="padding:5px;">
+																			<!-- Start Single Product -->
+																			@foreach($products as $product)
+																			<div class="single-product" style="width:300px;height:300px;">
+																				<div class="product-img">
+																						<a href="product-details.html">
+																							<img class="default-img" style="width:300px;height:150px;" src="{{$product->image_product ? asset($product->image_product) : asset('uploads/images/default.png')}}" alt="#">
+																							<img class="hover-img" src="{{$product->image_product ? asset($product->image_product) : asset('uploads/images/default.png')}}" alt="#">
+																						</a>
+																						<div class="button-head">
+																							<div class="product-action">
+																								<a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" fas fa-eye"></i><span>Ajout et details</span></a>
+																								<a title="Wishlist" href="#"><i class=" fas fa-heart "></i><span>{{$product->name_product}}</span></a>
+																								<a title="Compare" href="#"><i class="fas fa-bar-chart-alt"></i><span>Ajout et details</span></a>
+																							</div>
+																							<div class="product-action-2">
+																								<form action="{{route('cart.store')}}" method="POST"  class="add-to-cart">
+																									@csrf
+																									<input type="hidden" name="id" value="{{\Illuminate\Support\Facades\Auth::id()}}">
+																									<input type="hidden" name="product_id" value="{{$product->id}}">
+																									<input type="hidden" name="prix_product" value="{{$product->prix_product}}">
+																									<button type="submit" class="buy">
+																										<i class="fas fa-shopping-cart fa-md fa-fw  text-gray-400" aria-hidden="true"></i>
+																										Ajouter au panier
+																									</button>
+																								</form>
+																							</div>
+																						</div>
+																					</div>
+																					<div class="product-content">
+																						<h3><a href="product-details.html">{!! \Illuminate\Support\Str::words($product->description_product, 25,'....')  !!}</a></h3>
+																						<div class="product-price">
+																							<span style="color:red">{{$product->prix_product}} FCFA</span>
+																						</div>
+																					</div>
+																			</div>
+																			@endforeach
+																			<!-- End Single Product -->
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<!--/ End Single Tab -->
+															<!-- Start Single Tab -->
+															<div class="tab-pane fade active show" id="women" role="tabpanel">
+																<div class="tab-single">
+																	<div class="row">
+																		<div class="col-12">
+																		<div class="owl-carousel popular-slider" style="padding:5px;">
+																			<!-- Start Single Product -->
+																			@foreach($products as $product)
+																			<div class="single-product" style="width:300px;height:300px;">
+																				<div class="product-img">
+																						<a href="product-details.html">
+																							<img class="default-img" style="width:300px;height:150px;" src="{{$product->image_product ? asset($product->image_product) : asset('uploads/images/default.png')}}" alt="#">
+																							<img class="hover-img" src="{{$product->image_product ? asset($product->image_product) : asset('uploads/images/default.png')}}" alt="#">
+																						</a>
+																						<div class="button-head">
+																							<div class="product-action">
+																								<a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" fas fa-eye"></i><span>Ajout et details</span></a>
+																								<a title="Wishlist" href="#"><i class=" fas fa-heart "></i><span>{{$product->name_product}}</span></a>
+																								<a title="Compare" href="#"><i class="fas fa-bar-chart-alt"></i><span>Ajout et details</span></a>
+																							</div>
+																							<div class="product-action-2">
+																								<form action="{{route('cart.store')}}" method="POST"  class="add-to-cart">
+																									@csrf
+																									<input type="hidden" name="id" value="{{\Illuminate\Support\Facades\Auth::id()}}">
+																									<input type="hidden" name="product_id" value="{{$product->id}}">
+																									<input type="hidden" name="prix_product" value="{{$product->prix_product}}">
+																									<button type="submit" class="buy">
+																										<i class="fas fa-shopping-cart fa-md fa-fw  text-gray-400" aria-hidden="true"></i>
+																										Ajouter au panier
+																									</button>
+																								</form>
+																							</div>
+																						</div>
+																					</div>
+																					<div class="product-content">
+																						<h3><a href="product-details.html">{!! \Illuminate\Support\Str::words($product->description_product, 25,'....')  !!}</a></h3>
+																						<div class="product-price">
+																							<span style="color:red">{{$product->prix_product}} FCFA</span>
+																						</div>
+																					</div>
+																				</div>
+																			@endforeach
+																			<!-- End Single Product -->
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<!--/ End Single Tab -->
+															<!-- Start Single Tab -->
+															<div class="tab-pane fade show" id="kids" role="tabpanel">
+																<div class="tab-single">
+																	<div class="row">
+																		<div class="col-12">
+																			<div class="owl-carousel popular-slider" style="padding:5px;">
+																				<!-- Start Single Product -->
+																				@foreach($products as $product)
+																				<div class="single-product" style="width:300px;height:300px;">
+																					<div class="product-img">
+																						<a href="product-details.html">
+																							<img class="default-img" style="width:300px;height:150px;" src="{{$product->image_product ? asset($product->image_product) : asset('uploads/images/default.png')}}" alt="#">
+																							<img class="hover-img" src="{{$product->image_product ? asset($product->image_product) : asset('uploads/images/default.png')}}" alt="#">
+																						</a>
+																						<div class="button-head">
+																							<div class="product-action">
+																								<a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" fas fa-eye"></i><span>Ajout et details</span></a>
+																								<a title="Wishlist" href="#"><i class=" fas fa-heart "></i><span>{{$product->name_product}}</span></a>
+																								<a title="Compare" href="#"><i class="fas fa-bar-chart-alt"></i><span>Ajout et details</span></a>
+																							</div>
+																							<div class="product-action-2">
+																								<form action="{{route('cart.store')}}" method="POST"  class="add-to-cart">
+																									@csrf
+																									<input type="hidden" name="id" value="{{\Illuminate\Support\Facades\Auth::id()}}">
+																									<input type="hidden" name="product_id" value="{{$product->id}}">
+																									<input type="hidden" name="prix_product" value="{{$product->prix_product}}">
+																									<button type="submit" class="buy">
+																										<i class="fas fa-shopping-cart fa-md fa-fw  text-gray-400" aria-hidden="true"></i>
+																										Ajouter au panier
+																									</button>
+																								</form>
+																							</div>
+																						</div>
+																					</div>
+																					<div class="product-content">
+																						<h3><a href="product-details.html">{!! \Illuminate\Support\Str::words($product->description_product, 25,'....')  !!}</a></h3>
+																						<div class="product-price">
+																							<span style="color:red">{{$product->prix_product}} FCFA</span>
+																						</div>
+																					</div>
+																				</div>
+																				@endforeach
+																				<!-- End Single Product -->
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<!--/ End Single Tab -->
+															<!-- Start Single Tab -->
+															<div class="tab-pane fade" id="accessories" role="tabpanel">
+																<div class="tab-single">
+																	<div class="row">
+																		<div class="col-12">
+																			<div class="owl-carousel popular-slider" style="padding:5px;">
+																			<!-- Start Single Product -->
+																				@foreach($products as $product)
+																				<div class="single-product" style="width:300px;height:300px;">
+																					<div class="product-img">
+																						<a href="product-details.html">
+																							<img class="default-img" style="width:300px;height:150px;" src="{{$product->image_product ? asset($product->image_product) : asset('uploads/images/default.png')}}" alt="#">
+																							<img class="hover-img" src="{{$product->image_product ? asset($product->image_product) : asset('uploads/images/default.png')}}" alt="#">
+																						</a>
+																						<div class="button-head">
+																							<div class="product-action">
+																								<a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" fas fa-eye"></i><span>Ajout et details</span></a>
+																								<a title="Wishlist" href="#"><i class=" fas fa-heart "></i><span>{{$product->name_product}}</span></a>
+																								<a title="Compare" href="#"><i class="fas fa-bar-chart-alt"></i><span>Ajout et details</span></a>
+																							</div>
+																							<div class="product-action-2">
+																								<form action="{{route('cart.store')}}" method="POST"  class="add-to-cart">
+																									@csrf
+																									<input type="hidden" name="id" value="{{\Illuminate\Support\Facades\Auth::id()}}">
+																									<input type="hidden" name="product_id" value="{{$product->id}}">
+																									<input type="hidden" name="prix_product" value="{{$product->prix_product}}">
+																									<button type="submit" class="buy">
+																										<i class="fas fa-shopping-cart fa-md fa-fw  text-gray-400" aria-hidden="true"></i>
+																										Ajouter au panier
+																									</button>
+																								</form>
+																							</div>
+																						</div>
+																					</div>
+																					<div class="product-content">
+																						<h3><a href="product-details.html">{!! \Illuminate\Support\Str::words($product->description_product, 25,'....')  !!}</a></h3>
+																						<div class="product-price">
+																							<span style="color:red">{{$product->prix_product}} FCFA</span>
+																						</div>
+																					</div>
+																				</div>
+																				@endforeach
+																			<!-- End Single Product -->
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<!--/ End Single Tab -->
+															<!-- Start Single Tab -->
+															<div class="tab-pane fade" id="essential" role="tabpanel">
+																<div class="tab-single">
+																	<div class="row">
+																		<div class="col-12">
+																			<div class="owl-carousel popular-slider" style="padding:5px;">
+																			<!-- Start Single Product -->
+																				@foreach($products as $product)
+																				<div class="single-product" style="width:300px;height:300px;">
+																					<div class="product-img">
+																						<a href="product-details.html">
+																							<img class="default-img" style="width:300px;height:150px;" src="{{$product->image_product ? asset($product->image_product) : asset('uploads/images/default.png')}}" alt="#">
+																							<img class="hover-img" src="{{$product->image_product ? asset($product->image_product) : asset('uploads/images/default.png')}}" alt="#">
+																						</a>
+																						<div class="button-head">
+																							<div class="product-action">
+																								<a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" fas fa-eye"></i><span>Ajout et details</span></a>
+																								<a title="Wishlist" href="#"><i class=" fas fa-heart "></i><span>{{$product->name_product}}</span></a>
+																								<a title="Compare" href="#"><i class="fas fa-bar-chart-alt"></i><span>Ajout et details</span></a>
+																							</div>
+																							<div class="product-action-2">
+																								<form action="{{route('cart.store')}}" method="POST"  class="add-to-cart">
+																									@csrf
+																									<input type="hidden" name="id" value="{{\Illuminate\Support\Facades\Auth::id()}}">
+																									<input type="hidden" name="product_id" value="{{$product->id}}">
+																									<input type="hidden" name="prix_product" value="{{$product->prix_product}}">
+																									<button type="submit" class="buy">
+																										<i class="fas fa-shopping-cart fa-md fa-fw  text-gray-400" aria-hidden="true"></i>
+																										Ajouter au panier
+																									</button>
+																								</form>
+																							</div>
+																						</div>
+																					</div>
+																					<div class="product-content">
+																						<h3><a href="product-details.html">{!! \Illuminate\Support\Str::words($product->description_product, 25,'....')  !!}</a></h3>
+																						<div class="product-price">
+																							<span style="color:red">{{$product->prix_product}} FCFA</span>
+																						</div>
+																					</div>
+																				</div>
+																			@endforeach
+																			<!-- End Single Product -->
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<!--/ End Single Tab -->
+															<!-- Start Single Tab -->
+															<div class="tab-pane fade" id="prices" role="tabpanel">
+																<div class="tab-single">
+																	<div class="row">
+																		<div class="col-12">
+																			<div class="owl-carousel popular-slider" style="padding:5px;">
+																			<!-- Start Single Product -->
+																				@foreach($products as $product)
+																				<div class="single-product" style="width:300px;height:300px;">
+																					<div class="product-img">
+																						<a href="product-details.html">
+																							<img class="default-img" style="width:300px;height:150px;" src="{{$product->image_product ? asset($product->image_product) : asset('uploads/images/default.png')}}" alt="#">
+																							<img class="hover-img" src="{{$product->image_product ? asset($product->image_product) : asset('uploads/images/default.png')}}" alt="#">
+																						</a>
+																						<div class="button-head">
+																							<div class="product-action">
+																								<a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" fas fa-eye"></i><span>Ajout et details</span></a>
+																								<a title="Wishlist" href="#"><i class=" fas fa-heart "></i><span>{{$product->name_product}}</span></a>
+																								<a title="Compare" href="#"><i class="fas fa-bar-chart-alt"></i><span>Ajout et details</span></a>
+																							</div>
+																							<div class="product-action-2">
+																								<form action="{{route('cart.store')}}" method="POST"  class="add-to-cart">
+																									@csrf
+																									<input type="hidden" name="id" value="{{\Illuminate\Support\Facades\Auth::id()}}">
+																									<input type="hidden" name="product_id" value="{{$product->id}}">
+																									<input type="hidden" name="prix_product" value="{{$product->prix_product}}">
+																									<button type="submit" class="buy">
+																										<i class="fas fa-shopping-cart fa-md fa-fw  text-gray-400" aria-hidden="true"></i>
+																										Ajouter au panier
+																									</button>
+																								</form>
+																							</div>
+																						</div>
+																					</div>
+																					<div class="product-content">
+																						<h3><a href="product-details.html">{!! \Illuminate\Support\Str::words($product->description_product, 25,'....')  !!}</a></h3>
+																						<div class="product-price">
+																							<span style="color:red">{{$product->prix_product}} FCFA</span>
+																						</div>
+																					</div>
+																				</div>
+																				@endforeach
+																			<!-- End Single Product -->
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<!--/ End Single Tab -->
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<!-- End Product Area -->
+								
+							
     @endsection
+
