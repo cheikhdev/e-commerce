@@ -53413,6 +53413,9 @@ var app = new Vue({
 }); //Fonctionalite qui permet d'ajouter des produit dans un panier de commande
 
 var form = document.getElementById("panier_form");
+var indice_cart = document.getElementById('indice_cart');
+var indice = document.getElementById('indice');
+var indiceH = document.getElementById('indiceH');
 $('form.add-to-cart').submit(function (e) {
   e.preventDefault();
   var form_data = $(this).serialize(); //alert(form_data);
@@ -53423,6 +53426,11 @@ $('form.add-to-cart').submit(function (e) {
     data: form_data,
     success: function success(data) {
       if (data.success) {
+        indice_cart.innerHTML = parseInt(indice.value) + 1;
+        indice.value = parseInt(indice.value) + 1; //  $('.indice').innerHTML=indice.value;
+
+        indiceH.value = indice.value; // var valeur = document.forms['ID_FORMULAIRE'].elements['inputStoreID'].value;
+
         $("form#".concat(data.id, " button")).html('produit ajouter au panier');
         console.log("Tout va bien");
         sweetalert2__WEBPACK_IMPORTED_MODULE_0___default.a.fire({

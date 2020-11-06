@@ -8,12 +8,56 @@
             </ul>
     	</li>
 	@endsection
-	@section('slide')
+	
+	@section('indice_cart')
+			<a href="#" class="single-icon" id="shopping"><i class="fas fa-shopping-cart fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i> 
+				<span class="total-count indice" id="indice_cart">{{Cart::count()}}</span>							
+			</a>
+								<!-- Shopping Item -->
+			<div class="shopping-item">
+				<div class="dropdown-cart-header">
+					<span class="indice">{{Cart::count()}} produit(s)</span>
+					<a href="/panier">Afficher le panier</a>
+					<form action="#">
+						<input type="hidden" id="indiceH" name="indice" class="indice" value="{{Cart::count()}}">
+					</form>
+				</div>
+				<?php
+					//$indice = Cart::count();
+					//dd(Cart::content());
+				?>
+				<ul class="shopping-list" >
+					@foreach(Cart::content() as $row)
+                        <li>
+                            <form action="{{route('cart.destroy',$row->rowId)}}" method="POST" class="">
+                                @csrf                      
+                                @method('DELETE')
+                                <button type="submit" class="remove text-danger  " title="Remove this item"><i class="fa fa-remove "></i></button>
+                            </form>
+                            <a class="cart-img" href="#"><img src="https://via.placeholder.com/70x70" alt="#"></a>
+                            <h4><a href="#">{{$row->name}}</a></h4>
+                            <p class="quantity">(Quantité : {{$row->qty}}) -- <span class="amount">{{$row->price}} FCFA</span></p>
+                        </li>
+					@endforeach
+				</ul>
+				<div class="bottom">
+					<div class="total">
+						<span>Total</span>
+						<span class="total-amount">{{Cart::total()}} FCFA</span>
+					</div>
+					<a href="checkout.html" class="btn animate">Vider le panier</a>
+				</div>
+			</div>
+			<!--/ End Shopping Item -->							
+		@endsection
+
+      @section('slide')
+     
 		<!-- Slider Area -->
-		<section class="hero-slider" style="margin-left:300px; margin-top:25px;padding:5px;">
-		<!-- Single Slider -->
-    		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
+        <section class="hero-slider" style="margin-left:300px;margin-right:100px; margin-top:25px;padding:5px;">
+        <!-- Single Slider -->
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
                   <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
                   <li data-target="#carousel-example-generic" data-slide-to="1"></li>
                   <li data-target="#carousel-example-generic" data-slide-to="2"></li>
@@ -81,11 +125,12 @@
                     <span class="sr-only">Next</span>
                   </a>
               </div>
-		<!--/ End Single Slider -->
-		</section>
-	<!--/ End Slider Area -->
-	@endsection
-	@section('content')
+			<!--/ End Single Slider -->
+          </section>
+        <!--/ End Slider Area -->
+		@endsection
+		
+		@section('content')
             <div class="row"style="margin:20px; width: 100%; height: auto;">
              	<!-- Start Shop Home List  -->
 				<section class="shop-home-list section">
@@ -109,6 +154,7 @@
 													<form action="#" id="{{'product_'.$product->id}}" class="add-to-cart">
 														@csrf
 														<input type="hidden" name="user_id" value="{{\Illuminate\Support\Facades\Auth::id()}}">
+														<input type="hidden" id="indice" name="product_id" value="{{Cart::count()}}">
 														<input type="hidden" name="product_id" value="{{$product->id}}">
 														<input type="hidden" name="prix_product" value="{{$product->prix_product}}">
 														<button type="submit" class="buy" id="panier-form">
@@ -124,6 +170,7 @@
 													<form action="#" id="{{'product_'.$product->id}}" class="add-to-cart">
 														@csrf
 														<input type="hidden" name="user_id" value="{{\Illuminate\Support\Facades\Auth::id()}}">
+														<input type="hidden" id="indice" name="product_id" value="{{Cart::count()}}">
 														<input type="hidden" name="product_id" value="{{$product->id}}">
 														<input type="hidden" name="prix_product" value="{{$product->prix_product}}">
 														<button type="submit" class="">
@@ -156,6 +203,7 @@
 													<form action="#" id="{{'product_'.$product->id}}" class="add-to-cart">
 														@csrf
 														<input type="hidden" name="user_id" value="{{\Illuminate\Support\Facades\Auth::id()}}">
+														<input type="hidden" id="indice" name="product_id" value="{{Cart::count()}}">
 														<input type="hidden" name="product_id" value="{{$product->id}}">
 														<input type="hidden" name="prix_product" value="{{$product->prix_product}}">
 														<button type="submit" class="buy" id="panier-form">
@@ -172,6 +220,7 @@
 														@csrf
 														<input type="hidden" name="user_id" value="{{\Illuminate\Support\Facades\Auth::id()}}">
 														<input type="hidden" name="product_id" value="{{$product->id}}">
+														<input type="hidden" id="indice" name="product_id" value="{{Cart::count()}}">
 														<input type="hidden" name="prix_product" value="{{$product->prix_product}}">
 														<button type="submit" class="">
 															<i class="fas fa-shopping-cart fa-md fa-fw  text-gray-400" aria-hidden="true"></i>
@@ -202,6 +251,7 @@
 													<img src="{{$product->image_product ? asset($product->image_product) : asset('uploads/images/default.png')}}" alt="#">
 													<form action="#" id="{{'product_'.$product->id}}" class="add-to-cart">
 														@csrf
+														<input type="hidden" id="indice" name="product_id" value="{{Cart::count()}}">
 														<input type="hidden" name="user_id" value="{{\Illuminate\Support\Facades\Auth::id()}}">
 														<input type="hidden" name="product_id" value="{{$product->id}}">
 														<input type="hidden" name="prix_product" value="{{$product->prix_product}}">
@@ -217,6 +267,7 @@
 													<p class="price with-discount mb-2">{{$product->prix_product}} FCFA</p>
 													<form action="#" id="{{'product_'.$product->id}}" class="add-to-cart">
 														@csrf
+														<input type="hidden" id="indice" name="product_id" value="{{Cart::count()}}">
 														<input type="hidden" name="user_id" value="{{\Illuminate\Support\Facades\Auth::id()}}">
 														<input type="hidden" name="product_id" value="{{$product->id}}">
 														<input type="hidden" name="prix_product" value="{{$product->prix_product}}">
@@ -286,6 +337,7 @@
 																							<div class="product-action-2">
 																								<form action="{{route('cart.store')}}" method="POST"  class="add-to-cart">
 																									@csrf
+																									<input type="hidden" id="indice" name="product_id" value="{{Cart::count()}}">
 																									<input type="hidden" name="id" value="{{\Illuminate\Support\Facades\Auth::id()}}">
 																									<input type="hidden" name="product_id" value="{{$product->id}}">
 																									<input type="hidden" name="prix_product" value="{{$product->prix_product}}">
@@ -335,6 +387,7 @@
 																							<div class="product-action-2">
 																								<form action="{{route('cart.store')}}" method="POST"  class="add-to-cart">
 																									@csrf
+																									<input type="hidden" id="indice" name="product_id" value="{{Cart::count()}}">
 																									<input type="hidden" name="id" value="{{\Illuminate\Support\Facades\Auth::id()}}">
 																									<input type="hidden" name="product_id" value="{{$product->id}}">
 																									<input type="hidden" name="prix_product" value="{{$product->prix_product}}">
@@ -384,6 +437,7 @@
 																							<div class="product-action-2">
 																								<form action="{{route('cart.store')}}" method="POST"  class="add-to-cart">
 																									@csrf
+																									<input type="hidden" id="indice" name="product_id" value="{{Cart::count()}}">
 																									<input type="hidden" name="id" value="{{\Illuminate\Support\Facades\Auth::id()}}">
 																									<input type="hidden" name="product_id" value="{{$product->id}}">
 																									<input type="hidden" name="prix_product" value="{{$product->prix_product}}">
@@ -567,3 +621,4 @@
 								
 							
     @endsection
+

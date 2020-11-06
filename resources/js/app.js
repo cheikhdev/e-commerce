@@ -38,9 +38,13 @@ const app = new Vue({
 //Fonctionalite qui permet d'ajouter des produit dans un panier de commande
 
 let form = document.getElementById("panier_form");
+let indice_cart = document.getElementById('indice_cart');
+let indice = document.getElementById('indice');
+let indiceH = document.getElementById('indiceH');
 $('form.add-to-cart').submit(function (e) {
     e.preventDefault();
     let form_data = $(this).serialize();
+    
     //alert(form_data);
     $.ajax({
         type: "POST",
@@ -48,6 +52,12 @@ $('form.add-to-cart').submit(function (e) {
         data: form_data,
         success: function (data) {
             if(data.success){
+                indice_cart.innerHTML=parseInt(indice.value)+1;
+
+                indice.value=parseInt(indice.value)+1;
+              //  $('.indice').innerHTML=indice.value;
+                indiceH.value=indice.value;
+               // var valeur = document.forms['ID_FORMULAIRE'].elements['inputStoreID'].value;
                 $(`form#${data.id} button`).html('produit ajouter au panier');
                 console.log("Tout va bien");
                 Swal.fire({
