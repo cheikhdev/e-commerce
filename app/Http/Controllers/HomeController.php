@@ -52,31 +52,27 @@ class HomeController extends Controller
     }
 
     // Store Contact Form data
-    public function CreateForm(Request $request){
+   public function CreateForm(Request $request) {       
+   
+    $produit = new Contact();
+      $data = $request->validate([
+         'nom'=>'required|min:4',
+         'prenom' => 'required|min:3',
+         'email' => 'required|email',
+         'objet' => 'required|max:1000000',
+         'message' => 'required|min:3|max:1000000'
+         
+         
+     ]);       
     
-        $data = $request->validate([
-      'nom'   =>    'required|min:2',
-      'prenom'   => 'required|min:3',
-      'email'   =>  'required|email',
-      'objet'   =>  'required',
-      'message'   =>'required|max:1000000',
-      
-   ]);
-    
-        $posts = Contact::create([
-           'nom' => request('nom'),
-           'prenom' => request('prenom'),
-           'email' => request('email'),
-          'objet' => request('objet'),
-           'message' => request('message'),
-           ]);
-        
-        return redirect()
-            ->back()
-            ->with('success', 'Merci de nous contacter, nous allons vous repondre dans les plus brefs delais.');
-
-    }
-
+     $produit->nom = $request->input('nom');
+     $produit->prenom = $request->input('prenom');
+     $produit->email = $request->input('email');
+      $produit->objet = $request->input('objet');
+       $produit->message= $request->input('message');
+     $produit->save();
+     return redirect()->back()->with('success', 'Votre message a ete bien enregistre');
+     }
  
  
 

@@ -82,7 +82,7 @@
 						<div class="top-left">
 							<ul class="list-main">	
 								<li><i class="fas fa-envelope fa-lg fa-fw mr-2 text-gray-400" aria-hidden="true"></i> support@matcosen.com</li>
-								<li><i class="fas fa-phone fa-lg fa-fw mr-2 text-gray-400" aria-hidden="true"></i> 33 825 25 25</li>
+								<li><a href="{{url('https://wa.me/221774781907')}}" target="_blank" class="text-success"><i class="fab fa-whatsapp text-success"></i>77 478 19 07</a></li>
         						
 							</ul>
 						</div>
@@ -303,6 +303,7 @@
 		</div>
 		<!--/ End Header Inner -->
 	</header>
+	<marquee><h3 style="border: 1px solid yellow;width: 65%;background: orange;">Bienvenue a Matcosen , la plateforme e-quincaillerie.</h3></marquee>
 	<!--/ End Header -->
 	<!-- Single Slider -->
 		@yield('slide')
@@ -385,7 +386,7 @@
                     <div class="modal-content" >
                         <!-- Modal Header -->
                         <div class="modal-header" style="">
-                            <button type="button" class="close bg-danger btn-danger " data-dismiss="modal">&times;</button>
+                            <button type="button" class="close bg-danger btn-danger " data-dismiss="modal"><h2 style="color: black;">&times;</h2></button>
                         </div>                        
                         <!-- Modal body -->
                         <div class="modal-body ">
@@ -402,53 +403,53 @@
 											@csrf 
 											<div class="row">
 												<div class="form-group col-12 col-sm-12 col-md-6">
-													<label for="inputEmail" class="" style="font-weight:bold;color:red;">Prénom<span style="background-colol:red;">*</span></span></label>
+													<label for="inputEmail" class="ml-3" style="font-weight:bold;color:black;">Prénom</label>
 													<div class="col-sm-10">
-														<input type="text" class="form-control" id="prenom" name="prenom" placeholder="Entrer Prenom">
+														<input type="text" class="form-control h-50" id="prenom" name="prenom" placeholder="Entrer Prenom">
 													</div>
 												</div>
 												<div class="form-group col-12 col-sm-12 col-md-6">
-													<label for="inputPassword" class="" style="font-weight:bold;color:red;">Nom</label>
+													<label for="inputPassword" class="ml-3" style="font-weight:bold;color:black;">Nom</label>
 													<div class="col-sm-10">
-														<input type="text" class="form-control" id="nom" name="nom" placeholder="Entrer Nom">
+														<input type="text" class="form-control h-50" id="nom" name="nom" placeholder="Entrer Nom">
 													</div>
 												</div>
 											</div>
 											<div class="row ">
 												<div class="form-group col-12 col-sm-12 col-md-6">
-														<label for="inputPassword" class="" style="font-weight:bold;color:red;">Adresse</label>
+														<label for="inputPassword" class="ml-3" style="font-weight:bold;color:black;">Adresse</label>
 														<div class="col-sm-10">
-															<input type="text" class="form-control" id="adresse" name="adresse" placeholder="Entrer Adresse">
+															<input type="text" class="form-control h-50" id="adresse" name="adresse" placeholder="Entrer Adresse">
 														</div>
 												</div>
 												
 												<div class="form-group col-12 col-sm-12 col-md-6">
-													<label for="inputPassword" class="" style="font-weight:bold;color:red;">Telephone</label>
+													<label for="inputPassword" class="ml-3"style="font-weight:bold;color:black;">Telephone</label>
 													<div class="col-sm-10">
-														<input type="text" class="form-control" id="lieu" name="phone" placeholder="Entrer Telephone">
+														<input type="text" class="form-control h-50" id="lieu" name="phone" placeholder="Entrer Telephone">
 													</div>
 												</div>
 											</div>
 											<div class="row">
 												<div class="form-group col-12 ">
-													<label for="inputPassword" class=" " style="font-weight:bold;color:red;">Email</label>
+													<label for="inputPassword" class="ml-3" style="font-weight:bold;color:black;">Email</label>
 													<div class="col-sm-10">
-														<input type="email" class="form-control" id="date" name="email" placeholder="Entrer mail">
+														<input type="email" class="form-control w-75 h-50" id="date" name="email" placeholder="Entrer mail">
 													</div>
 												</div>
 											</div>
 											<div class="row ">
 												<div class="form-group col-12 col-sm-12 col-md-6">
-														<label for="inputPassword" class="" style="font-weight:bold;color:red;">Mot de passe</label>
+														<label for="inputPassword" class="ml-3" style="font-weight:bold;color:black;">Mot de passe</label>
 														<div class="col-sm-10">
-															<input type="password" class="form-control" id="adresse" name="password" placeholder="Entrer password">
+															<input type="password" class="form-control h-50" id="adresse" name="password" placeholder="Entrer password">
 														</div>
 												</div>
 												
 												<div class="form-group col-12 col-sm-12 col-md-6">
-													<label for="inputPassword" class="" style="font-weight:bold;color:red;">Cofirmer mot de passe</label>
+													<label for="inputPassword"class="ml-3" style="font-weight:bold;color:black;">Cofirmer mot de passe</label>
 													<div class="col-sm-10">
-														<input type="password" class="form-control" id="lieu" name="confirme_pass" placeholder="confirmer password">
+														<input type="password" class="form-control h-50" id="lieu" name="confirme_pass" placeholder="confirmer password">
 													</div>
 												</div>
 											</div>
@@ -467,13 +468,13 @@
        <!--fin modall inscription-->
 		 <!-- Debut modall Cnnexion -->
 		
-			<div class="modal fade " id="ModalLogin" >
+			<div class="modal fade ml-5 w-75 " id="ModalLogin" >
                 <div class="modal-dialog  modal-md">
                     <div class="modal-content" >
                         <!-- Modal Header -->
                         <div class="modal-header" style="">
                           
-                            <button type="button" class="close bg-danger btn-danger " data-dismiss="modal">&times;</button>
+                            <button type="button" class="close bg-danger btn-danger " data-dismiss="modal"><h2 style="color: black;">&times;</h2></button>
                         </div>                        
                         <!-- Modal body -->
                         <div class="modal-body ">
@@ -489,9 +490,9 @@
 						@csrf
 						<div class="mb-5" data-validate="Username is required">
 							<!-- class="label-input100">Identifiant</span-->
-							<div class="input-group login">
+							<div class="input-group login w-75">
 								<span class="input-group-addon"><i class="fas fa-user"></i></span>
-								<input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus placeholder="Entrer votre login" >
+								<input id="email" type="email" class=" form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus placeholder="Entrer votre login">
 
 								@error('email')
 									<span class="invalid-feedback" role="alert">
@@ -504,9 +505,9 @@
 
 						<div class="mb-2" data-validate = "Password is required">
 							<!--span class="label-input100">Mot de passe</span-->
-							<div class="input-group pass">
+							<div class="input-group pass w-75 ">
 								<span class="input-group-addon"><i class="fas fa-lock"></i></span>
-								<input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="current-password" placeholder="Entrer votre mot de passe" >
+								<input id="password" type="password" class="form-control  @error('password') is-invalid @enderror" name="password" required autocomplete="current-password" placeholder="Entrer votre mot de passe" >
 
 								@error('password')
 									<span class="invalid-feedback" role="alert">
@@ -525,7 +526,7 @@
 							@endif
 						</div>
 						<div class="d-flex justify-content-center " style="">
-							<button class=" btn-success" style="border-radius:70px;width:200px;height:45px;size:12px;font-weight:bold;">
+							<button class=" btn-success" style="border-radius:70px;width:150px;height:35px;size:12px;font-weight:bold;">
 								Se Connecter
 							</button>
 							
@@ -602,7 +603,7 @@
 							<ul>
 								<li><a href="#"><i class="fab fa-facebook text-info"></i></a></li>
 								<li><a href=""><i class="fab fa-twitter"></i></a></li>
-								<li><a href="{{url('https://wa.me/221774781907')}}"><i class="fab fa-whatsapp text-success"></i></a></li>
+								<li><a target="_blank" href="{{url('https://wa.me/221774781907')}}"><i class="fab fa-whatsapp text-success"></i></a></li>
 								<li><a href="#"><i class="fab fa-instagram"></i></a></li>
 							</ul>
 						</div>

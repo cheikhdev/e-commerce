@@ -7,6 +7,11 @@ use Illuminate\Database\Eloquent\Model;
 
 class Contact extends Model
 {
-    public $table = 'contacts';
-    public $fillable = ['nom','prenom','email','message'];
+    
+    public $fillable = ['nom','prenom','email','objet','message'];
+
+public function Contact(){
+         return $this->belongsToMany("App\Contact");
+
+     }
 }
