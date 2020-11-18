@@ -84,7 +84,7 @@
                                         {{csrf_field()}}
                                         <input  style="width:90px;" type="number" id="quantite" name="uqty" value="{{$row->qty}}">
                                         <input type="hidden" name="rowId" value="{{$row->rowId}}">
-                                        <button type="submit" disabled="true" class="btn btn-primary btnedit" id="edit" style=""><i class="fas fa-edit"></i></button> 
+                                        
                                     </form>
                                 </td>
                                 <td><b>{{$row->price}} Fcfa</b></td>
@@ -101,7 +101,11 @@
                                 <td colspan="3" style="color:red;"><b>{{Cart::total()}} Fcfa</b></td>
                             </tr>
                         </tfoot>
+                        
                     </table>
+                    <div class="d-flex justify-content-start mt-3 mb-5">
+                            <button id="" class="btn btn-primary" style=""> Mise à jour panier</button>
+                    </div>
                     <div class="d-flex justify-content-around">
                         <button><a href="/finish_cart" class="" style="font-weight:bold;">Valider la commande</a></button>
                         <button><a href="#" id="vider" style="font-weight:bold;">Vider</a></button>

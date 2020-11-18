@@ -149,7 +149,7 @@
 													<form action="#" id="{{'product_'.$product->id}}" class="add-to-cart">
 														@csrf
 														<input type="hidden" name="user_id" value="{{\Illuminate\Support\Facades\Auth::id()}}">
-														<input type="hidden" id="indice" name="product_id" value="{{Cart::count()}}">
+														<input type="hidden" id="indice" name="" value="{{Cart::count()}}">
 														<input type="hidden" name="product_id" value="{{$product->id}}">
 														<input type="hidden" name="prix_product" value="{{$product->prix_product}}">
 														<button type="submit" class="buy" id="panier-form">
@@ -165,7 +165,7 @@
 													<form action="#" id="{{'product_'.$product->id}}" class="add-to-cart">
 														@csrf
 														<input type="hidden" name="user_id" value="{{\Illuminate\Support\Facades\Auth::id()}}">
-														<input type="hidden" id="indice" name="product_id" value="{{Cart::count()}}">
+														<input type="hidden" id="indice" name="" value="{{Cart::count()}}">
 														<input type="hidden" name="product_id" value="{{$product->id}}">
 														<input type="hidden" name="prix_product" value="{{$product->prix_product}}">
 														<button type="submit" class="">
@@ -198,7 +198,7 @@
 													<form action="#" id="{{'product_'.$product->id}}" class="add-to-cart">
 														@csrf
 														<input type="hidden" name="user_id" value="{{\Illuminate\Support\Facades\Auth::id()}}">
-														<input type="hidden" id="indice" name="product_id" value="{{Cart::count()}}">
+														<input type="hidden" id="indice" name="" value="{{Cart::count()}}">
 														<input type="hidden" name="product_id" value="{{$product->id}}">
 														<input type="hidden" name="prix_product" value="{{$product->prix_product}}">
 														<button type="submit" class="buy" id="panier-form">
@@ -214,14 +214,14 @@
 													<form action="#" id="{{'product_'.$product->id}}" class="add-to-cart">
 														@csrf
 														<input type="hidden" name="user_id" value="{{\Illuminate\Support\Facades\Auth::id()}}">
+														<input type="hidden" id="indice" name="" value="{{Cart::count()}}">
 														<input type="hidden" name="product_id" value="{{$product->id}}">
-														<input type="hidden" id="indice" name="product_id" value="{{Cart::count()}}">
 														<input type="hidden" name="prix_product" value="{{$product->prix_product}}">
 														<button type="submit" class="">
 															<i class="fas fa-shopping-cart fa-md fa-fw  text-gray-400" aria-hidden="true"></i>
 															Acheter
 														</button>
-													</form>	
+													</form>
 												</div>
 											</div>
 										</div>
@@ -246,7 +246,7 @@
 													<img src="{{$product->image_product ? asset($product->image_product) : asset('uploads/images/default.png')}}" alt="#">
 													<form action="#" id="{{'product_'.$product->id}}" class="add-to-cart">
 														@csrf
-														<input type="hidden" id="indice" name="product_id" value="{{Cart::count()}}">
+														<input type="hidden" id="indice" name="" value="{{Cart::count()}}">
 														<input type="hidden" name="user_id" value="{{\Illuminate\Support\Facades\Auth::id()}}">
 														<input type="hidden" name="product_id" value="{{$product->id}}">
 														<input type="hidden" name="prix_product" value="{{$product->prix_product}}">
@@ -262,7 +262,7 @@
 													<p class="price with-discount mb-2">{{$product->prix_product}} FCFA</p>
 													<form action="#" id="{{'product_'.$product->id}}" class="add-to-cart">
 														@csrf
-														<input type="hidden" id="indice" name="product_id" value="{{Cart::count()}}">
+														<input type="hidden" id="indice" name="" value="{{Cart::count()}}">
 														<input type="hidden" name="user_id" value="{{\Illuminate\Support\Facades\Auth::id()}}">
 														<input type="hidden" name="product_id" value="{{$product->id}}">
 														<input type="hidden" name="prix_product" value="{{$product->prix_product}}">
@@ -332,7 +332,7 @@
 																							<div class="product-action-2">
 																								<form action="{{route('cart.store')}}" method="POST"  class="add-to-cart">
 																									@csrf
-																									<input type="hidden" id="indice" name="product_id" value="{{Cart::count()}}">
+																									<input type="hidden" id="indice" name="" value="{{Cart::count()}}">
 																									<input type="hidden" name="id" value="{{\Illuminate\Support\Facades\Auth::id()}}">
 																									<input type="hidden" name="product_id" value="{{$product->id}}">
 																									<input type="hidden" name="prix_product" value="{{$product->prix_product}}">
@@ -382,7 +382,7 @@
 																							<div class="product-action-2">
 																								<form action="{{route('cart.store')}}" method="POST"  class="add-to-cart">
 																									@csrf
-																									<input type="hidden" id="indice" name="product_id" value="{{Cart::count()}}">
+																									<input type="hidden" id="indice" name="" value="{{Cart::count()}}">
 																									<input type="hidden" name="id" value="{{\Illuminate\Support\Facades\Auth::id()}}">
 																									<input type="hidden" name="product_id" value="{{$product->id}}">
 																									<input type="hidden" name="prix_product" value="{{$product->prix_product}}">
@@ -432,7 +432,7 @@
 																							<div class="product-action-2">
 																								<form action="{{route('cart.store')}}" method="POST"  class="add-to-cart">
 																									@csrf
-																									<input type="hidden" id="indice" name="product_id" value="{{Cart::count()}}">
+																									<input type="hidden" id="indice" name="" value="{{Cart::count()}}">
 																									<input type="hidden" name="id" value="{{\Illuminate\Support\Facades\Auth::id()}}">
 																									<input type="hidden" name="product_id" value="{{$product->id}}">
 																									<input type="hidden" name="prix_product" value="{{$product->prix_product}}">
