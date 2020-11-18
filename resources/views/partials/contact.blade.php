@@ -6,24 +6,33 @@
     @section('content')
 
 
-                 <div class="formu" style="text-align: center;"> 
-                     <h1 class="mt-5">Nous Ecrire</h1>
-                   <p class="mt-1">Laissez nous un message texte pour toutes demandes ou de renseignement</p><br>
-                   <p class="mt-1">Nous vous recontacterons.</p>
-
-                <form action="{{('contact.store')}}" method="POST" enctype="multipart/form-data">
+             <div class="formu" style="text-align: center;"> 
+                    <div class="mt-3">
+                        <a href="/home"><img src="images/cont1.png" alt="logo" width="60px" height="140px"></a>
+                        <a href="/home"><img src="images/cont2.png" alt="logo" width="60px" height="140px"></a>
+                        <a href="/home"><img src="images/cont3.png" alt="logo" width="60px" height="140px"></a>
+                    </div>
+                 <h1 class="mt-2">Nous Ecrire</h1>
+                   <p class="mt-2">Laissez nous un message texte pour toutes demandes ou de renseignement<br>Nous Vous recontacterons
+                 </p>
+                
+                <form action="{{route('contact.store')}}" method="POST" >
                 @csrf
                 @if($errors->any())
                 @foreach($errors->all() as $error)
                 <div class="alert alert-danger">{{$error}}</div>
                 @endforeach
                 @endif
-
-                <input class="mt-4" type="text" name="name" placeholder="METTRE LE NOM " style="width: 500px; height: 50px;">
-                <input class="mt-4"type="text" name="name" placeholder="METTRE LE PRENOM" style="width: 500px;height: 50px;"><br>
-                <input class="mt-4" type="text" name="name" placeholder="METTRE L'EMAIL" style="width: 500px;height: 50px;">
-                <input class="mt-4" type="text" name="name" placeholder="METTRE L'OBJET" style="width: 500px;height: 50px;"><br>
-                <textarea class="mt-4" style="width: 1000px;height: 250px;" placeholder="Veuillez Ecrire votre message."></textarea><br>
+                @if (session('success'))
+                        <div class="alert alert-success" role="alert">
+                            {{ session('success') }}
+                        </div>
+                @endif
+                <input class="mt-1" type="text" name="nom" placeholder="NOM " style="width: 28%; height: 38px;">
+                <input class="mt-2"type="text" name="prenom" placeholder=" PRENOM" style="width: 28%;height: 38px;"><br>
+                <input class="mt-2" type="text" name="email" placeholder="EMAIL" style="width: 28%;height: 38px;">
+                <input class="mt-2" type="text" name="objet" placeholder="OBJET" style="width: 28%;height: 38px;"><br>
+                <textarea class="mt-2" style="width: 56%;height: 160px;" placeholder="Message." name="message"></textarea><br>
                 <a href="{{url('/home')}}"><button class="btn btn-info mt-2 w-25" type="submit">ENVOYER</button></a>
                 </form>
 

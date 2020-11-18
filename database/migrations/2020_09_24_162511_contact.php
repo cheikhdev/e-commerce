@@ -24,8 +24,8 @@ class Contact extends Migration
             $table->string('objet');
             $table->string('message');
             
-            
             $table->timestamps();
+            
         });
     }
 

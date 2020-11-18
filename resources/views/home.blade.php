@@ -5,7 +5,7 @@
       @endsection
 
 		@section('indice_cart')
-			<a href="#" class="single-icon" id="shopping"><i class="fas fa-shopping-cart fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i> 
+			<a href="#" class="single-icon fixed" id="shopping"><i class="fas fa-shopping-cart fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i> 
 				<span class="total-count indice" id="indice_cart">{{Cart::count()}}</span>							
 			</a>
 								<!-- Shopping Item -->
@@ -40,7 +40,7 @@
 						<span>Total</span>
 						<span class="total-amount">{{Cart::total()}} FCFA</span>
 					</div>
-					<a href="checkout.html" class="btn animate">Vider le panier</a>
+					<a href="{{('/panier')}}" class="btn animate">Voir le panier</a>
 				</div>
 			</div>
 			<!--/ End Shopping Item -->							
@@ -61,7 +61,7 @@
                 </ol>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img class="second-slide animated zoomInDown d-none d-md-block" src="{{asset('images/materiel3.jpg')}}" style="height:65vh; width:100%;" alt="">
+                    <img class="second-slide animated zoomInDown d-none d-md-block" src="{{asset('images/materiel3.jpg')}}" style="height:55vh; width:100%;" alt="">
                     <div class="container">
                       <div class="carousel-caption d-none d-md-block">
                         <h1 class="animated fadeInDown" style="color: #ffffff;">Poduits de La marque Inco.</h1>
@@ -71,7 +71,7 @@
                     </div>
                   </div>
                   <div class="carousel-item">
-                    <img class="second-slide animated zoomInDown d-none d-md-block" src="{{asset('images/materiel2.jpg')}}" style="height:65vh; width:100%;" alt="">
+                    <img class="second-slide animated zoomInDown d-none d-md-block" src="{{asset('images/materiel2.jpg')}}" style="height:55vh; width:100%;" alt="">
                     <div class="container">
                       <div class="carousel-caption d-none d-md-block">
                         <h1 class="animated fadeInDown" style="color: #ffffff;">Poduits de La marque Inco.</h1>
@@ -81,7 +81,7 @@
                     </div>
                   </div>
                   <div class="carousel-item">
-                    <img class="second-slide animated zoomInDown d-none d-md-block" src="{{asset('images/construction-material.jpeg')}}" alt="" style="height:65vh; width:100%;">
+                    <img class="second-slide animated zoomInDown d-none d-md-block" src="{{asset('images/construction-material.jpeg')}}" alt="" style="height:55vh; width:100%;">
                     <div class="container">
                       <div class="carousel-caption d-none d-md-block">
                         <h1 class="animated fadeInDown" style="color: #ffffff;">Poduits de La marque Inco.</h1>
@@ -91,7 +91,7 @@
                     </div>
                   </div>
                   <div class="carousel-item">
-                    <img class="second-slide animated zoomInDown d-none d-md-block" src="{{asset('images/courant.jpg')}}" alt="" style="height:65vh; width:100%;">
+                    <img class="second-slide animated zoomInDown d-none d-md-block" src="{{asset('images/courant.jpg')}}" alt="" style="height:55vh; width:100%;">
                     <div class="container">
                       <div class="carousel-caption d-none d-md-block">
                         <h1 class="animated fadeInDown" style="color: #ffffff;">Poduits de La marque Inco.</h1>
@@ -101,7 +101,7 @@
                     </div>
                   </div>
                   <div class="carousel-item">
-                    <img class="second-slide animated zoomInDown" src="{{asset('images/equipemen_macon.jpg')}}" alt="" style="height:65vh; width:100%;">
+                    <img class="second-slide animated zoomInDown" src="{{asset('images/equipemen_macon.jpg')}}" alt="" style="height:55vh; width:100%;">
                     <div class="container">
                       <div class="carousel-caption d-none d-md-block">
                         <h1 class="animated fadeInDown" style="color: #ffffff;">Poduits de La marque Inco.</h1>
