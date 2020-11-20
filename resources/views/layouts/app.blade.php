@@ -109,7 +109,7 @@
 				<div class="row">
 					<div class="col-lg-2 col-md-2 col-12">
 						<!-- Logo -->
-						<div class="logo">
+						<div class="logo" style="margin-left:-50px; margin-top:-15px;">
 							<a href="/home"><img src="images/logo.png" alt="logo"></a>
 						</div>
 						<!--/ End Logo -->
@@ -128,7 +128,7 @@
 						<!--/ End Search Form -->
 						<div class="mobile-nav"></div>
 					</div>
-					<div class="col-lg-8 col-md-7 col-12">
+					<div class="col-lg-8 col-md-7 col-12" style=" margin-top:-22px;">
 						<div class="search-bar-top">
 							<div class="search-bar">
 								
@@ -160,13 +160,13 @@
   </div>
   @endif
 		<!-- Header Inner -->
-		<div class="header-inner">
-			<div class="container" >
+		<div class="header-inner" style=" margin-top:-15px; height: 40px;" >
+			<div class="container">
 				<div class="cat-nav-head" >
 					<div class="row" >
 						<div class="col-lg-3">
 							<div class="all-category">
-								<h3 class="cat-heading"><i class="fa fa-bars" aria-hidden="true"></i>CATEGORIES</h3>
+								<h3 class="cat-heading" style="height: 40px;"><i class="fa fa-bars" aria-hidden="true"></i>CATEGORIES</h3>
 								<ul class="main-category">
 									<li><a href="#">Electricité <i class="fa fa-angle-right" aria-hidden="true"></i></a>
 										<ul class="sub-category" style="z-index:9999 ;">
@@ -265,7 +265,7 @@
 									<div class="navbar-collapse" >	
 										<div class="nav-inner" id="bare">	
 											<ul class="nav main-menu menu navbar-nav" >
-													<li  class="active"><a href="#"><i class="fas fa-home fa-lg fa-fw mr-2 text-gray-400" aria-hidden="true"></i>Accueuil</a></li>
+													<li  class="active"><a href="#" style="height: 40px;"><i class="fas fa-home fa-lg fa-fw mr-2 text-gray-400" aria-hidden="true"></i>Accueuil</a></li>
 													<li><a href="#"><i class="fas fa-medkit fa-lg fa-fw mr-2 text-gray-400" aria-hidden="true"></i>A propos<i class="fas fa-angle-down"></i></a>
 														<ul class="dropdown">
 															<li><a href="shop-grid.html">Mention légale</a></li>
@@ -303,7 +303,7 @@
 		</div>
 		<!--/ End Header Inner -->
 	</header>
-	<marquee><h3 style="border: 1px solid yellow;width: 65%;background: orange;">Bienvenue a Matcosen , la plateforme e-quincaillerie.</h3></marquee>
+	<marquee BEHAVIOR="alternate"><h3 style="border: 1px solid yellow;width: 65%;background: black;color:orange;">Bienvenue a Matcosen , la plateforme e-quincaillerie.</h3></marquee>
 	<!--/ End Header -->
 	<!-- Single Slider -->
 		@yield('slide')
@@ -520,8 +520,8 @@
 
 						<div class="mb-3 d-flex justify-content-end">
 							@if (Route::has('password.request'))
-								<a class="" href="{{ route('password.request') }}">
-									Mot de passe oublié?
+								<a  href="{{ route('password.request') }}">
+									<span style="">Mot de passe oublié?</span>
 								</a>
 							@endif
 						</div>

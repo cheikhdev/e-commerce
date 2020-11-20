@@ -31,7 +31,7 @@
                             </form>
                             <a class="cart-img" href="#"><img src="https://via.placeholder.com/70x70" alt="#"></a>
                             <h4><a href="#">{{$row->name}}</a></h4>
-                            <p class="quantity">(Quantité : {{$row->qty}}) -- <span class="amount">{{$row->price}} FCFA</span></p>
+                            <p class="quantity">(Quantité : {{$row->qty}}) ==> <span class="amount">{{$row->price}} FCFA</span></p>
                         </li>
 					@endforeach
 				</ul>
@@ -49,7 +49,7 @@
       @section('slide')
      
 		<!-- Slider Area -->
-        <section class="hero-slider" style="margin-left:300px;margin-right:100px; margin-top:25px;padding:5px;">
+        <section class="hero-slider" style="margin-left:300px;margin-right:100px; margin-top:-2px;padding:5px;">
         <!-- Single Slider -->
             <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
@@ -66,7 +66,7 @@
                       <div class="carousel-caption d-none d-md-block">
                         <h1 class="animated fadeInDown" style="color: #ffffff;">Poduits de La marque Inco.</h1>
                         <p class="animated fadeInRight" style="color: #ffffff;">Retrouvez d'excellent produit de la marque Inco , ches nos magasins .</p>
-                        <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+                        <p><a class="btn btn-info" href="#" role="button">Learn more</a></p>
                       </div>
                     </div>
                   </div>
@@ -76,7 +76,7 @@
                       <div class="carousel-caption d-none d-md-block">
                         <h1 class="animated fadeInDown" style="color: #ffffff;">Poduits de La marque Inco.</h1>
                         <p class="animated fadeInRight" style="color: #ffffff;">Retrouvez d'excellent produit de la marque Inco , ches nos magasins .</p>
-                        <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+                        <p><a class="btn btn-info" href="#" role="button">Learn more</a></p>
                       </div>
                     </div>
                   </div>
@@ -86,7 +86,7 @@
                       <div class="carousel-caption d-none d-md-block">
                         <h1 class="animated fadeInDown" style="color: #ffffff;">Poduits de La marque Inco.</h1>
                         <p class="animated fadeInRight" style="color: #ffffff;">Retrouvez d'excellent produit de la marque Inco , ches nos magasins .</p>
-                        <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+                        <p><a class="btn btn-info" href="#" role="button">Learn more</a></p>
                       </div>
                     </div>
                   </div>
@@ -96,7 +96,7 @@
                       <div class="carousel-caption d-none d-md-block">
                         <h1 class="animated fadeInDown" style="color: #ffffff;">Poduits de La marque Inco.</h1>
                         <p class="animated fadeInRight" style="color: #ffffff;">Retrouvez d'excellent produit de la marque Inco , ches nos magasins .</p>
-                        <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+                        <p><a class="btn btn-info" href="#" role="button">Learn more</a></p>
                       </div>
                     </div>
                   </div>
