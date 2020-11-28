@@ -103,7 +103,13 @@
                   <div class="carousel-item">
                     <img class="second-slide animated zoomInDown" src="{{asset('images/equipemen_macon.jpg')}}" alt="" style="height:55vh; width:100%;">
                     <div class="container">
-                      <div class="carousel-caption d-none d-md-block">
+                      <div class="carousel-captionfrom sklearn.ensemble import RandomForestClassifier
+
+rfc = RandomForestClassifier(n_estimators=500)
+from sklearn.ensemble import RandomForestClassifier
+
+rfc = RandomForestClassifier(n_estimators=500)
+ d-none d-md-block">
                         <h1 class="animated fadeInDown" style="color: #ffffff;">Poduits de La marque Inco.</h1>
                         <p class="animated fadeInRight" style="color: #ffffff;">Retrouvez d'excellent produit de la marque Inco , chez nos magasins .</p>
                         <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
@@ -315,44 +321,44 @@
 																	<div class="row">
 																		<div class="col-12">
 																			<div class="owl-carousel popular-slider" style="padding:5px;">
-																			<!-- Start Single Product -->
-																			@foreach($products as $product)
-																			<div class="single-product" style="width:300px;height:300px;">
-																				<div class="product-img">
-																						<a href="product-details.html">
-																							<img class="default-img" style="width:300px;height:150px;" src="{{$product->image_product ? asset($product->image_product) : asset('uploads/images/default.png')}}" alt="#">
-																							<img class="hover-img" src="{{$product->image_product ? asset($product->image_product) : asset('uploads/images/default.png')}}" alt="#">
-																						</a>
-																						<div class="button-head">
-																							<div class="product-action">
-																								<a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" fas fa-eye"></i><span>Ajout et details</span></a>
-																								<a title="Wishlist" href="#"><i class=" fas fa-heart "></i><span>{{$product->name_product}}</span></a>
-																								<a title="Compare" href="#"><i class="fas fa-bar-chart-alt"></i><span>Ajout et details</span></a>
+																				<!-- Start Single Product -->
+																				@foreach($products as $product)
+																					<div class="single-product" style="width:300px;height:300px;">
+																						<div class="product-img">
+																							<a href="product-details.html">
+																								<img class="default-img" style="width:300px;height:150px;" src="{{$product->image_product ? asset($product->image_product) : asset('uploads/images/default.png')}}" alt="#">
+																								<img class="hover-img" src="{{$product->image_product ? asset($product->image_product) : asset('uploads/images/default.png')}}" alt="#">
+																							</a>
+																							<div class="button-head">
+																								<div class="product-action">
+																									<a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" fas fa-eye"></i><span>Ajout et details</span></a>
+																									<a title="Wishlist" href="#"><i class=" fas fa-heart "></i><span>{{$product->name_product}}</span></a>
+																									<a title="Compare" href="#"><i class="fas fa-bar-chart-alt"></i><span>Ajout et details</span></a>
+																								</div>
+																								<div class="product-action-2">
+																									<form action="{{route('cart.store')}}" method="POST"  class="add-to-cart">
+																										@csrf
+																										<input type="hidden" id="indice" name="" value="{{Cart::count()}}">
+																										<input type="hidden" name="id" value="{{\Illuminate\Support\Facades\Auth::id()}}">
+																										<input type="hidden" name="product_id" value="{{$product->id}}">
+																										<input type="hidden" name="prix_product" value="{{$product->prix_product}}">
+																										<button type="submit" class="buy">
+																											<i class="fas fa-shopping-cart fa-md fa-fw  text-gray-400" aria-hidden="true"></i>
+																											Ajouter au panier
+																										</button>
+																									</form>
+																								</div>
 																							</div>
-																							<div class="product-action-2">
-																								<form action="{{route('cart.store')}}" method="POST"  class="add-to-cart">
-																									@csrf
-																									<input type="hidden" id="indice" name="" value="{{Cart::count()}}">
-																									<input type="hidden" name="id" value="{{\Illuminate\Support\Facades\Auth::id()}}">
-																									<input type="hidden" name="product_id" value="{{$product->id}}">
-																									<input type="hidden" name="prix_product" value="{{$product->prix_product}}">
-																									<button type="submit" class="buy">
-																										<i class="fas fa-shopping-cart fa-md fa-fw  text-gray-400" aria-hidden="true"></i>
-																										Ajouter au panier
-																									</button>
-																								</form>
+																						</div>
+																						<div class="product-content">
+																							<h3><a href="product-details.html">{!! \Illuminate\Support\Str::words($product->description_product, 25,'....')  !!}</a></h3>
+																							<div class="product-price">
+																								<span style="color:red">{{$product->prix_product}} FCFA</span>
 																							</div>
 																						</div>
 																					</div>
-																					<div class="product-content">
-																						<h3><a href="product-details.html">{!! \Illuminate\Support\Str::words($product->description_product, 25,'....')  !!}</a></h3>
-																						<div class="product-price">
-																							<span style="color:red">{{$product->prix_product}} FCFA</span>
-																						</div>
-																					</div>
-																			</div>
-																			@endforeach
-																			<!-- End Single Product -->
+																				@endforeach
+																				<!-- End Single Product -->
 																			</div>
 																		</div>
 																	</div>

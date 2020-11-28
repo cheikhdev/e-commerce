@@ -155,10 +155,10 @@
 			</div>
 		</div>
 		@if (request()->input('q'))
-  <div class="row align-items-center justify-content-center">
-    <h4 style="margin-top: -65px; font-size: 20px;border: 1px solid black ;  width: 30%; text-align: center;color: #FFD700;">{{ $products->total() }} résultat(s) pour la recherche "{{ request()->q }}"</h4>
-  </div>
-  @endif
+			<div class="row align-items-center justify-content-center">
+				<h4 class="alert alert-danger " style="margin-top: -65px; font-size: 16px; width: 60%; text-align: center;color: #FFFFFF;">{{ $products->total() }} résultat(s) pour la recherche "{{ request()->q }}"</h4>
+			</div>
+		@endif
 		<!-- Header Inner -->
 		<div class="header-inner" style=" margin-top:-15px; height: 40px;" >
 			<div class="container">
