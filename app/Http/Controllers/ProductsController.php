@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use Illuminate\Http\UploadedFile;
 use Illuminate\Support\Str;
 use Illuminate\Contracts\Session\Session;
+use Illuminate\Support\Facades\DB;
 use App\Order;
 use App\Category;
 use App\Product;
@@ -30,7 +31,7 @@ class ProductsController extends Controller
                 ->orWhere('description_product', 'like', "%$q%")
                 ->paginate(6);
 
-        return view('home')->with('products', $produc);
+        return view('products.search')->with('products', $produc);
     }
     public function contact(){
       
@@ -227,11 +228,13 @@ public function merci()   {
 }   
 public function achat1()   {
    return view("orders.achat1");
-}            
- 
-public function show($id){
-   $product = Product::find($id);
-   return view("orders.show", compact('product'));
+}  
+ public function show()  {
+  
+    $product = Product::find($id);
+    $products = DB::table('products')->paginate(1);//paginate(6);
+          
+   return view("orders.show", compact('product','products'));
 }
 
 public function achat($id){

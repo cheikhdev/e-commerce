@@ -58,23 +58,23 @@
                         <form action="#" id="form">
                             <div class="row mb-5">
                                 <div class="col-6">
-                                    <input type="text" required=""  id="nom" style="border:1px solid  #F7941D;background:rgb(231, 225, 225);border-radius:10px;" class="form-control" name="nom" placeholder="Nom*">
+                                    <input type="text" required=""  id="nom" style="border:1px solid  #F7941D;background:rgb(231, 225, 225);border-radius:10px;" class="form-control w-50" name="nom" placeholder="Nom*">
                                 </div>
                                 <div class="col-6">
-                                    <input type="text" required="" id="prenom" style="border:1px solid  #F7941D;background:rgb(231, 225, 225);border-radius:10px;" class="form-control" name="prenom" placeholder="Prénom*">
+                                    <input type="text" required="" id="prenom" style="border:1px solid  #F7941D;background:rgb(231, 225, 225);border-radius:10px;" class="form-control w-50" name="prenom" placeholder="Prénom*">
                                 </div>
                             </div>
                             <div class="row mb-5">
                                 <div class="col-6">
-                                    <input type="email" required="" id="email" style="border:1px solid  #F7941D;background:rgb(231, 225, 225);border-radius:10px;" class="form-control" name="email" placeholder="E-mail*">
+                                    <input type="email" required="" id="email" style="border:1px solid  #F7941D;background:rgb(231, 225, 225);border-radius:10px;" class="form-control w-50" name="email" placeholder="E-mail*">
                                 </div>
                                 <div class="col-6">
-                                    <input type="text" required="" id="phone" style="border:1px solid  #F7941D;background:rgb(231, 225, 225);border-radius:10px;" class="form-control" name="phone" placeholder="Numéro de Téléphone*">
+                                    <input type="text" required="" id="phone" style="border:1px solid  #F7941D;background:rgb(231, 225, 225);border-radius:10px;" class="form-control w-50" name="phone" placeholder="Numéro de Téléphone*">
                                 </div>
                             </div>
                             <div class="row mb-5">
                                 <div class="col-10">
-                                    <input type="text" required="" id="adresse" style="border:1px solid  #F7941D;background:rgb(231, 225, 225);border-radius:10px;" class="form-control" name="adresse" placeholder="Adresse*">
+                                    <input type="text" required="" id="adresse" style="border:1px solid  #F7941D;background:rgb(231, 225, 225);border-radius:10px;" class="form-control w-50" name="adresse" placeholder="Adresse*">
                                 </div>
                             </div>
                             <div class="" id="infoChamps">
@@ -95,23 +95,23 @@
                             <div id="autre_address" style="display:none;">
                                 <div class="row mb-5">
                                     <div class="col-6">
-                                        <input type="text" required=""  id="nom2" style="border:1px solid  #F7941D;background:rgb(231, 225, 225);border-radius:10px;" class="form-control" name="nom2" placeholder="Nom*">
+                                        <input type="text" required=""  id="nom2" style="border:1px solid  #F7941D;background:rgb(231, 225, 225);border-radius:10px;" class="form-control w-50" name="nom2" placeholder="Nom*">
                                     </div>
                                     <div class="col-6">
-                                        <input type="text" required="" id="prenom2" style="border:1px solid  #F7941D;background:rgb(231, 225, 225);border-radius:10px;" class="form-control" name="prenom2" placeholder="Prénom*">
+                                        <input type="text" required="" id="prenom2" style="border:1px solid  #F7941D;background:rgb(231, 225, 225);border-radius:10px;" class="form-control w-50" name="prenom2" placeholder="Prénom*">
                                     </div>
                                 </div>
                                 <div class="row mb-5">
                                     <div class="col-6">
-                                        <input type="email" required="" id="email2" style="border:1px solid  #F7941D;background:rgb(231, 225, 225);border-radius:10px;" class="form-control" name="email2" placeholder="E-mail*">
+                                        <input type="email" required="" id="email2" style="border:1px solid  #F7941D;background:rgb(231, 225, 225);border-radius:10px;" class="form-control w-50" name="email2" placeholder="E-mail*">
                                     </div>
                                     <div class="col-6">
-                                        <input type="text" required="" id="phone2" style="border:1px solid  #F7941D;background:rgb(231, 225, 225);border-radius:10px;" class="form-control" name="phone2" placeholder="Numéro de Téléphone*">
+                                        <input type="text" required="" id="phone2" style="border:1px solid  #F7941D;background:rgb(231, 225, 225);border-radius:10px;" class="form-control w-50" name="phone2" placeholder="Numéro de Téléphone*">
                                     </div>
                                 </div>
                                 <div class="row mb-5">
                                     <div class="col-10">
-                                        <input type="text" required="" id="adresse2" style="border:1px solid  #F7941D;background:rgb(231, 225, 225);border-radius:10px;" class="form-control" name="adresse2" placeholder="Adresse*">
+                                        <input type="text" required="" id="adresse2" style="border:1px solid  #F7941D;background:rgb(231, 225, 225);border-radius:10px;" class="form-control w-50" name="adresse2" placeholder="Adresse*">
                                     </div>
                                 </div>
                             </div>
