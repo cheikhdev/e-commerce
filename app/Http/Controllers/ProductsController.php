@@ -31,7 +31,7 @@ class ProductsController extends Controller
                 ->orWhere('description_product', 'like', "%$q%")
                 ->paginate(6);
 
-        return view('home')->with('products', $produc);
+        return view('products.search')->with('products', $produc);
     }
     public function contact(){
       

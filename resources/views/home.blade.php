@@ -65,7 +65,7 @@
                     <div class="container">
                       <div class="carousel-caption d-none d-md-block">
                         <h1 class="animated fadeInDown" style="color: #ffffff;">Poduits de La marque Inco.</h1>
-                        <p class="animated fadeInRight" style="color: #ffffff;">Retrouvez d'excellent produit de la marque Inco , ches nos magasins .</p>
+                        <p class="animated fadeInRight" style="color: #ffffff;">Retrouvez d'excellent produit de la marque Inco , chez nos magasins .</p>
                         <p><a class="btn btn-info" href="#" role="button">Learn more</a></p>
                       </div>
                     </div>
@@ -75,7 +75,7 @@
                     <div class="container">
                       <div class="carousel-caption d-none d-md-block">
                         <h1 class="animated fadeInDown" style="color: #ffffff;">Poduits de La marque Inco.</h1>
-                        <p class="animated fadeInRight" style="color: #ffffff;">Retrouvez d'excellent produit de la marque Inco , ches nos magasins .</p>
+                        <p class="animated fadeInRight" style="color: #ffffff;">Retrouvez d'excellent produit de la marque Inco , chez nos magasins .</p>
                         <p><a class="btn btn-info" href="#" role="button">Learn more</a></p>
                       </div>
                     </div>
@@ -85,7 +85,7 @@
                     <div class="container">
                       <div class="carousel-caption d-none d-md-block">
                         <h1 class="animated fadeInDown" style="color: #ffffff;">Poduits de La marque Inco.</h1>
-                        <p class="animated fadeInRight" style="color: #ffffff;">Retrouvez d'excellent produit de la marque Inco , ches nos magasins .</p>
+                        <p class="animated fadeInRight" style="color: #ffffff;">Retrouvez d'excellent produit de la marque Inco , chez nos magasins .</p>
                         <p><a class="btn btn-info" href="#" role="button">Learn more</a></p>
                       </div>
                     </div>
@@ -95,7 +95,7 @@
                     <div class="container">
                       <div class="carousel-caption d-none d-md-block">
                         <h1 class="animated fadeInDown" style="color: #ffffff;">Poduits de La marque Inco.</h1>
-                        <p class="animated fadeInRight" style="color: #ffffff;">Retrouvez d'excellent produit de la marque Inco , ches nos magasins .</p>
+                        <p class="animated fadeInRight" style="color: #ffffff;">Retrouvez d'excellent produit de la marque Inco , chez nos magasins .</p>
                         <p><a class="btn btn-info" href="#" role="button">Learn more</a></p>
                       </div>
                     </div>
@@ -105,7 +105,7 @@
                     <div class="container">
                       <div class="carousel-caption d-none d-md-block">
                         <h1 class="animated fadeInDown" style="color: #ffffff;">Poduits de La marque Inco.</h1>
-                        <p class="animated fadeInRight" style="color: #ffffff;">Retrouvez d'excellent produit de la marque Inco , ches nos magasins .</p>
+                        <p class="animated fadeInRight" style="color: #ffffff;">Retrouvez d'excellent produit de la marque Inco , chez nos magasins .</p>
                         <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
                       </div>
                     </div>

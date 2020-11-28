@@ -1,30 +1,46 @@
 @extends('layouts.app')
-    @section('content')
+   @section('content')
             <div class="row"style="padding:20px; width: 100%; height: auto;">
             @foreach($products as $product)
-              <div class="col-lg-2 col-sm-9 portfolio-item">
-                <div class="card h-80">
-                    <a href="#"><a href="/produit/{{$product->id}}/show"><img class="card-img-top" src="{{$product->image_product ? asset($product->image_product) : asset('uploads/images/default.png')}}"    alt="" style="width: 1267;height: 636"></a></a>
-                    <div class="card-body">
-                        <h4 class="card-title">
-                            <a href="/produit/{{$product->id}}/show">{{$product->name_product}}  </a>
-                        </h4>
-                        <p class="card-text">{!! \Illuminate\Support\Str::words($product->description_product, 25,'....')  !!}</p>
+                  <div class="single-list">
+                    <div class="row">
+                      <div class="col-lg-6 col-md-6 col-12">
+                        <div class="list-image overlay">
+                          <img src="{{$product->image_product ? asset($product->image_product) : asset('uploads/images/default.png')}}" alt="#">
+                          <form action="#" id="{{'product_'.$product->id}}" class="add-to-cart">
+                            @csrf
+                            <input type="hidden" name="user_id" value="{{\Illuminate\Support\Facades\Auth::id()}}">
+                            <input type="hidden" id="indice" name="product_id" value="{{Cart::count()}}">
+                            <input type="hidden" name="product_id" value="{{$product->id}}">
+                            <input type="hidden" name="prix_product" value="{{$product->prix_product}}">
+                            <button type="submit" class="buy" id="panier-form">
+                              <i class="fas fa-shopping-cart fa-md fa-fw  text-gray-400" aria-hidden="true"></i>
+                            </button>
+                          </form>
+                        </div>
+                      </div>
+                      <div class="col-lg-6 col-md-6 col-12 no-padding">
+                        <div class="content">
+                          <h4 class="title"><a href="#">{{$product->name_product}}</a></h4>
+                          <p class="price with-discount mb-2">{{$product->prix_product}} FCFA</p>
+                          <form action="#" id="{{'product_'.$product->id}}" class="add-to-cart">
+                            @csrf
+                            <input type="hidden" name="user_id" value="{{\Illuminate\Support\Facades\Auth::id()}}">
+                            <input type="hidden" id="indice" name="product_id" value="{{Cart::count()}}">
+                            <input type="hidden" name="product_id" value="{{$product->id}}">
+                            <input type="hidden" name="prix_product" value="{{$product->prix_product}}">
+                            <button type="submit" class="">
+                              <i class="fas fa-shopping-cart fa-md fa-fw  text-gray-400" aria-hidden="true"></i>
+                              Acheter
+                            </button>
+                          </form> 
+                        </div>
+                      </div>
                     </div>
-                    <form action="#" id="{{'product_'.$product->id}}" class="add-to-cart">
-                      @csrf
-                      <input type="hidden" name="id" value="{{\Illuminate\Support\Facades\Auth::id()}}">
-                      <input type="hidden" name="product_id" value="{{$product->id}}">
-                      <input type="hidden" name="prix_product" value="{{$product->prix_product}}">
-                      <button type="submit" class="btn btn-primary btn-fancy" href="/produit/{{$product->id}}/show">Ajouter au panier</button>
-                    </form>
-                    <div class="card-footer">
-                      <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
-                    </div> 
-                </div>
-              </div>
-            @endforeach
+                  </div>
+                @endforeach 
             {{ $products->appends(request()->input())->links() }}
           </div>
           {{ $products->appends(request()->input())->links() }}
+          <a class="btn btn-warning" href="{{('home')}}"><i class="fas fa-shopping-cart"></i><span style="color: white;font-size: 15px;">VERS L'ACCUEIL</span></a>
     @endsection

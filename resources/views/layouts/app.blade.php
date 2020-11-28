@@ -15,8 +15,8 @@
 	<link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
 	
 	<!-- StyleSheet -->
-	<link href="{{asset('css/app.css')}}" rel="stylesheet" />
-  <link href="{{asset('css/all.css')}}" rel="stylesheet" />
+    <link href="{{asset('css/app.css')}}" rel="stylesheet" />
+    <link href="{{asset('css/all.css')}}" rel="stylesheet" />
 	<!-- Bootstrap -->
     <link rel="stylesheet" href="{{asset('css/css_home/bootstrap.css')}}">
   <!-- Magnific Popup -->
@@ -110,7 +110,7 @@
 					<div class="col-lg-2 col-md-2 col-12">
 						<!-- Logo -->
 						<div class="logo" style="margin-left:-50px; margin-top:-15px;">
-							<a href="/home"><img src="images/logo.png" alt="logo"></a>
+							<a href="#"><img src="images/logo.png" alt="logo"></a>
 						</div>
 						<!--/ End Logo -->
 						<!-- Search Form -->
@@ -134,7 +134,7 @@
 								
 								<form action="{{route('products.search')}}">
 									<input type="text" name="q" class="form-control" placeholder="Recherche de Produits" value="{{ request()->q ?? '' }}">
-									<button class="btnn"><i class="fas fa-search"></i></button>
+									<a href="{{('partials.search')}}"><button class="btnn"><i class="fas fa-search"></i></button></a>
 								</form>
 							</div>
 						</div>
@@ -155,8 +155,8 @@
 			</div>
 		</div>
 		@if (request()->input('q'))
-  <div class="row align-items-center justify-content-center mt-1" >
-    <h4 style="font-size: 20px;border: 1px solid black ;  width: 30%; text-align: center;color: #FFD700">{{ $products->total() }} résultat(s) pour la recherche "{{ request()->q }}"</h4>
+  <div class="row align-items-center justify-content-center">
+    <h4 style="margin-top: -65px; font-size: 20px;border: 1px solid black ;  width: 30%; text-align: center;color: #FFD700;">{{ $products->total() }} résultat(s) pour la recherche "{{ request()->q }}"</h4>
   </div>
   @endif
 		<!-- Header Inner -->
@@ -265,7 +265,7 @@
 									<div class="navbar-collapse" >	
 										<div class="nav-inner" id="bare">	
 											<ul class="nav main-menu menu navbar-nav" >
-													<li  class="active"><a href="#" style="height: 40px;"><i class="fas fa-home fa-lg fa-fw mr-2 text-gray-400" aria-hidden="true"></i>Accueuil</a></li>
+													<li  class="active"><a href="#" style="height: 40px;"><i class="fas fa-home fa-lg fa-fw mr-2 text-gray-400" aria-hidden="true"></i>Accueil</a></li>
 													<li><a href="#"><i class="fas fa-medkit fa-lg fa-fw mr-2 text-gray-400" aria-hidden="true"></i>A propos<i class="fas fa-angle-down"></i></a>
 														<ul class="dropdown">
 															<li><a href="shop-grid.html">Mention légale</a></li>
@@ -288,7 +288,7 @@
 															<li><a href="checkout.html">Legrand</a></li> 
 														</ul>
 													</li>
-													<li><a href="{{url('/contact')}}">Nous contacter</a></li>									
+													<li><a href="{{url('/contact')}}">Contactez-Nous</a></li>									
 													
 												</ul>
 										</div>
@@ -303,7 +303,7 @@
 		</div>
 		<!--/ End Header Inner -->
 	</header>
-	<marquee BEHAVIOR="alternate"><h3 style="border: 1px solid yellow;width: 65%;background: black;color:orange;">Bienvenue a Matcosen , la plateforme e-quincaillerie.</h3></marquee>
+	<marquee BEHAVIOR="alternate"><h3 style="border: 1px solid yellow;width: 60%;background: black;color:orange;">Bienvenue a Matcosen , la plateforme e-quincaillerie.</h3></marquee>
 	<!--/ End Header -->
 	<!-- Single Slider -->
 		@yield('slide')
@@ -364,7 +364,7 @@
 						<!-- Start Newsletter Inner -->
 						<div class="inner">
 							<h4>Newsletter</h4>
-							<p> Abonnez-vous à notre newsletter et recevez <span>10%</span> sur votre premier achat</p>
+							<p> Abonnez-vous à notre newsletter et recevez <span>les promos et nouvelles arrivages</span> de MatcoSen.</p>
 							<form action="mail/mail.php" method="get" target="_blank" class="newsletter-inner">
 								<input name="email" placeholder="Votre adresse email" required="" type="email">
 								<button class="btn">Souscrire</button>
@@ -381,7 +381,7 @@
 	
 	
 	<!-- Debut modall inscriptionnnn -->
-			<div class="modal fade " id="myModal" >
+			<div class="modal fade" id="myModal">
                 <div class="modal-dialog  modal-md">
                     <div class="modal-content" >
                         <!-- Modal Header -->
@@ -468,7 +468,7 @@
        <!--fin modall inscription-->
 		 <!-- Debut modall Cnnexion -->
 		
-			<div class="modal fade ml-5 w-75 " id="ModalLogin" >
+			<div class="modal fade ml-5  " id="ModalLogin" >
                 <div class="modal-dialog  modal-md">
                     <div class="modal-content" >
                         <!-- Modal Header -->

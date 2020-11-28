@@ -11,15 +11,15 @@
                             {{ session('success') }}
                         </div>
               @endif
-             <div class="formu" style="text-align: center;"> 
+             <div class="formu mt-1" style="text-align: center;"> 
                     <div class="mt-3">
-                        <a href="/home"><img src="images/cont1.png" alt="logo" width="60px" height="140px"></a>
-                        <a href="/home"><img src="images/cont2.png" alt="logo" width="60px" height="140px"></a>
-                        <a href="/home"><img src="images/cont3.png" alt="logo" width="60px" height="140px"></a>
+                        <a href="/home"><img src="images/cont1.png" alt="logo" width="80px" height="170px"></a>
+                        <a href="/home"><img src="images/cont2.png" alt="logo" width="80px" height="170px"></a>
+                        <a href="/home"><img src="images/cont3.png" alt="logo" width="80px" height="170px"></a>
                     </div>
                    
                  <h1 class="mt-2">Nous Ecrire</h1>
-                   <p class="mt-2">Laissez nous un message texte pour toutes demandes ou de renseignement<br>Nous Vous recontacterons
+                   <p class="mt-2" style="color: orange;">Laissez nous un message texte pour toutes demandes ou de renseignement<br>Nous Vous recontacterons
                  </p>
                 
                 <form action="{{route('contact.store')}}" method="POST" >
