@@ -63,13 +63,12 @@
 		<div class="preloader">
 			<div class="preloader-inner">
 				<div class="preloader-icon">
-					<span>Veuiller patienter</span>
+					
 					<span></span>
 				</div>
 			</div>
 		</div>
 	<!--End Preloader -->
-	
 
 	<!-- Header -->
 	<header class="header shop">
@@ -79,17 +78,14 @@
 				<div class="row">
 					<div class="col-lg-4 col-md-12 col-12">
 						<!-- Top Left -->
-						<div class="top-left">
-							<ul class="list-main">	
-								<li><i class="fas fa-envelope fa-lg fa-fw mr-2 text-gray-400" aria-hidden="true"></i> support@matcosen.com</li>
-								<li><a href="{{url('https://wa.me/221774781907')}}" target="_blank" class="text-success"><i class="fab fa-whatsapp text-success"></i>77 478 19 07</a></li>
-        						
+						<div class="">
+							<ul class="list-main">		
+								<li><a href="#" > <i class="fas fa-envelope fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i>support@matcosen.com</a></li>
+        						<li><a href="{{url('https://wa.me/221774781907')}}" target="_blank" class="text-success"><i class="fab fa-whatsapp text-success"></i></a>77 478 19 07</li>
 							</ul>
 						</div>
 						<!--/ End Top Left -->
 					</div>
-
-
 					<div class="col-lg-8 col-md-12 col-12">
 						<!-- Top Right -->
 						<div class="right-content">
@@ -107,28 +103,28 @@
 		<div class="middle-inner">
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-2 col-md-2 col-12">
+					<div class="col-lg-3 col-md-3 col-12">
 						<!-- Logo -->
-						<div class="logo" style="margin-left:-50px; margin-top:-15px;">
-							<a href="#"><img src="images/logo.png" alt="logo"></a>
+						<div class="logo" style="margin-left:5px; margin-top:-15px;">
+							<a href="#"><img src="images/logo.jpg" alt="logo"></a>
 						</div>
 						<!--/ End Logo -->
-						<!-- Search Form -->
+						<!-- Search Form >
 						<div class="search-top">
 							<div class="top-search"><a href="#0"><i class="ti-search"></i></a></div>
-							<!-- Search Form -->
+							< Search Form >
 							<div class="search-top">
 								<form class="search-form">
 									<input type="text" placeholder="Recherche de produits...." name="search">
 									<button value="search" type="submit"><i class="fas fa-search"></i></button>
 								</form>
 							</div>
-							<!--/ End Search Form -->
+							< End Search Form >
 						</div>
-						<!--/ End Search Form -->
+						< End Search Form -->
 						<div class="mobile-nav"></div>
 					</div>
-					<div class="col-lg-8 col-md-7 col-12" style=" margin-top:-22px;">
+					<div class="col-lg-7 col-md-7 col-12" style=" margin-top:-22px;">
 						<div class="search-bar-top">
 							<div class="search-bar">
 								
@@ -139,12 +135,8 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-lg-2 col-md-3 col-12">
+					<div class="col-lg-2 col-md-2 col-12">
 						<div class="right-bar">
-							<!-- Search Form -->
-							<div class="sinlge-bar">
-								<a href="#" class="single-icon"><i class="fas fa-heart-o" aria-hidden="true"></i></a>
-							</div>
 							
 							<div class="sinlge-bar shopping">
 								@yield('indice_cart')
@@ -156,7 +148,7 @@
 		</div>
 		@if (request()->input('q'))
 			<div class="row align-items-center justify-content-center">
-				<h4 class="alert alert-danger " style="margin-top: -65px; font-size: 16px; width: 60%; text-align: center;color: #FFFFFF;">{{ $products->total() }} résultat(s) pour la recherche "{{ request()->q }}"</h4>
+				<h4 class="alert alert-danger " style=" font-size: 16px; width: 60%; text-align: center;color: #FFFFFF;">{{ $products->total() }} résultat(s) pour la recherche "{{ request()->q }}"</h4>
 			</div>
 		@endif
 		<!-- Header Inner -->
@@ -303,7 +295,9 @@
 		</div>
 		<!--/ End Header Inner -->
 	</header>
-	<marquee BEHAVIOR="alternate"><h3 style="border: 1px solid yellow;width: 60%;background: black;color:orange;">Bienvenue a Matcosen , la plateforme e-quincaillerie.</h3></marquee>
+	<div class="p-2">
+	<marquee BEHAVIOR="alternate"><h3 style="width: 100%;background: white;color:#BE1E2D;">Bienvenue a Matcosen , la plateforme e-quincaillerie.</h3></marquee>
+	</div>
 	<!--/ End Header -->
 	<!-- Single Slider -->
 		@yield('slide')
