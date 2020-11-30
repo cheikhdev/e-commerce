@@ -95,7 +95,7 @@ Version:1.0
 			nav:true,
 			merge:true,
 			dots:false,
-			navText: ['<i class="ti-angle-left"></i>', '<i class="ti-angle-right"></i>'],
+			navText: ['<i class="fas fa-angle-left"></i>', '<i class="fas fa-angle-right"></i>'],
 			responsive:{
 				0: {
 					items:1,
@@ -130,7 +130,7 @@ Version:1.0
 			nav:true,
 			merge:true,
 			dots:false,
-			navText: ['<i class="ti-angle-left"></i>', '<i class="ti-angle-right"></i>'],
+			navText: ['<i class="fas fa-angle-left"></i>', '<i class="fas fa-angle-right"></i>'],
 			responsive:{
 				0: {
 					items:1,

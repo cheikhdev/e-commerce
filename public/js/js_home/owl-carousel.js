@@ -86,7 +86,7 @@
         _goToLoop: null,
         _checkVisibile: null
     }, e.Defaults = {
-        items: 3,
+        items: 4,
         loop: !1,
         center: !1,
         mouseDrag: !0,

@@ -10,7 +10,7 @@
 	<!-- Title Tag  -->
     <title>Matcosen - eQuincaillerie en ligne.</title>
 	<!-- Favicon -->
-	<link rel="icon" type="image/png" href="images/logo.png">
+	<link rel="icon" type="image/png" href="images/logo.jpg">
 	<!-- Web Font -->
 	<link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
 	
@@ -52,7 +52,7 @@
 <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
 
 </head>	
-<body class="js">
+<body class="js" style="font-family: Georgia, 'Times New Roman', Times, serif;">
 	<style>
 		.btnedit:hover{
 			background-color:;
@@ -109,28 +109,27 @@
 							<a href="#"><img src="images/logo.jpg" alt="logo"></a>
 						</div>
 						<!--/ End Logo -->
-						<!-- Search Form >
+						<!-- Search Form --->
 						<div class="search-top">
 							<div class="top-search"><a href="#0"><i class="ti-search"></i></a></div>
-							< Search Form >
+							<!-- Search Form -->
 							<div class="search-top">
 								<form class="search-form">
 									<input type="text" placeholder="Recherche de produits...." name="search">
 									<button value="search" type="submit"><i class="fas fa-search"></i></button>
 								</form>
 							</div>
-							< End Search Form >
+							<!-- End Search Form -->
 						</div>
-						< End Search Form -->
+						<!-- End Search Form -->
 						<div class="mobile-nav"></div>
 					</div>
-					<div class="col-lg-7 col-md-7 col-12" style=" margin-top:-22px;">
-						<div class="search-bar-top">
-							<div class="search-bar">
-								
-								<form action="{{route('products.search')}}">
-									<input type="text" name="q" class="form-control" placeholder="Recherche de Produits" value="{{ request()->q ?? '' }}">
-									<a href="{{('partials.search')}}"><button class="btnn"><i class="fas fa-search"></i></button></a>
+					<div class="col-lg-7 col-md-7 col-12" style="">
+						<div class="search-bar-top w-100">
+							<div class="search-bar w-100">
+								<form action="{{route('products.search')}}" class="w-100">
+									<input type="text" name="q" class="form-control " placeholder="Recherche de Produits" value="{{ request()->q ?? '' }}" style="width:90%;">
+									<a href="{{('partials.search')}}" class="w-20"><button class="btnn"><i class="fas fa-search"></i></button></a>
 								</form>
 							</div>
 						</div>
@@ -152,13 +151,13 @@
 			</div>
 		@endif
 		<!-- Header Inner -->
-		<div class="header-inner" style=" margin-top:-15px; height: 40px;" >
+		<div class="header-inner" style=" " >
 			<div class="container">
 				<div class="cat-nav-head" >
 					<div class="row" >
 						<div class="col-lg-3">
 							<div class="all-category">
-								<h3 class="cat-heading" style="height: 40px;"><i class="fa fa-bars" aria-hidden="true"></i>CATEGORIES</h3>
+								<h3 class="cat-heading" style=""><i class="fa fa-bars" aria-hidden="true"></i>CATEGORIES</h3>
 								<ul class="main-category">
 									<li><a href="#">Electricité <i class="fa fa-angle-right" aria-hidden="true"></i></a>
 										<ul class="sub-category" style="z-index:9999 ;">
@@ -169,46 +168,7 @@
 											
 										</ul>
 									</li>
-									<!--li class="main-mega" style="z-index:9999 ;"><a href="#">Indispensables à la maison <i class="fa fa-angle-right" aria-hidden="true"></i></a>
-										<ul class="mega-menu" style="z-index:9999 ;">
-											<li class="single-menu">
-												<a href="#" class="title-link">Toilettes</a>
-												<div class="image">
-													<img src="https://via.placeholder.com/225x155" alt="#">
-												</div>
-												<div class="inner-link">
-													<a href="#">Lavabo</a>
-													<a href="#">Chasse</a>
-													<a href="#">Chaise</a>
-													<a href="#">.............</a>
-												</div>
-											</li>
-											<li class="single-menu">
-												<a href="#" class="title-link">Accessoires d'electricité</a>
-												<div class="image">
-													<img src="https://via.placeholder.com/225x155" alt="#">
-												</div>
-												<div class="inner-link">
-													<a href="#">Cable</a>
-													<a href="#">Lampes</a>
-													<a href="#">Groupe electrogene</a>
-													<a href="#">Solaire</a>
-												</div>
-											</li>
-											<li class="single-menu">
-												<a href="#" class="title-link">Peinture de qualité</a>
-												<div class="image">
-													<img src="https://via.placeholder.com/225x155" alt="#">
-												</div>
-												<div class="inner-link">
-													<a href="#">De tous couleurs</a>
-													<a href="#">Poits</a>
-													<a href="#">Sachets de peinture</a>
-													<a href="#">.................</a>
-												</div>
-											</li>
-										</ul>
-									</li-->
+									
 									<li><a href="#">Maçonnerie<i class="fa fa-angle-right" aria-hidden="true"></i></a>
 										<ul class="sub-category" style="z-index:9999 ;">
 											<li><a href="#">Ciment</a></li>
@@ -239,14 +199,7 @@
 											
 										</ul>
 									</li>
-									<li><a href="#">Indispensable à maison<i class="fa fa-angle-right" aria-hidden="true"></i></a>
-										<ul class="sub-category" style="z-index:9999 ;">
-											<li><a href="#">.............</a></li>
-											<li><a href="#">.............</a></li>
-											<li><a href="#">..............</a></li>
-											<li><a href="#">..............</a></li>
-										</ul>
-									</li>
+									
 								</ul>
 							</div>
 						</div>
@@ -256,8 +209,8 @@
 								<nav class="navbar navbar-expand-lg" >
 									<div class="navbar-collapse" >	
 										<div class="nav-inner" id="bare">	
-											<ul class="nav main-menu menu navbar-nav" >
-													<li  class="active"><a href="#" style="height: 40px;"><i class="fas fa-home fa-lg fa-fw mr-2 text-gray-400" aria-hidden="true"></i>Accueil</a></li>
+											<ul class="nav main-menu menu navbar-nav" style="font-size:16px;">
+													<li  class="active"><a href="#" style=""><i class="fas fa-home fa-lg fa-fw mr-2 text-gray-400" aria-hidden="true"></i>Accueil</a></li>
 													<li><a href="#"><i class="fas fa-medkit fa-lg fa-fw mr-2 text-gray-400" aria-hidden="true"></i>A propos<i class="fas fa-angle-down"></i></a>
 														<ul class="dropdown">
 															<li><a href="shop-grid.html">Mention légale</a></li>
@@ -386,7 +339,7 @@
                         <div class="modal-body ">
 							<div class="  " style="height:100%;overflow-x:scroll;">
 								<div class="card auth ">
-									<div class="card-header auth-header login100-form-title" style="background-image: url({{asset('images/logo.png')}});">
+									<div class="card-header auth-header login100-form-title" style="background-position:center;background: url({{asset('images/logo.jpg')}});">
 										<span class="login100-form-title-1" style="size:16px;font-weight:bold;">
 											Inscription
 										</span>
@@ -472,9 +425,9 @@
                         </div>                        
                         <!-- Modal body -->
                         <div class="modal-body ">
-						<div class="  " style="height:100%;overflow-x:scroll;">
+						<div class="  " style="height:100%;overflow:hidden;">
 			<div class="card auth ">
-				<div class="card-header auth-header login100-form-title" style="background-image: url({{asset('images/logo.png')}});">
+				<div class="card-header auth-header login100-form-title " style="background-position:center;background-image: url({{asset('images/logo.jpg')}});">
 					<span class="login100-form-title-1" style="size:16px;font-weight:bold;">
 						Login
 					</span>
@@ -545,7 +498,7 @@
 						<!-- Single Widget -->
 						<div class="single-footer about">
 							<div class="logo">
-								<a href="index.html"><img src="images/logo.png" alt="#"></a>
+								<a href="/home"><img src="images/logo.jpg" alt="#"></a>
 							</div>
 							<p class="text">Bienvenue a votre quincailerie digitale de reference .</p>
 							<p class="call">Question? Appeler 24/7<span><a href="tel:123456789">+221 77 478 19 07</a></span></p>
