@@ -82,7 +82,7 @@
                                 <td class="d-flex justify-content-between">
                                     <form action="{{url('update')}}" method="post">
                                         {{csrf_field()}}
-                                        <input  style="width:90px;" type="number" id="quantite" name="uqty" value="{{$row->qty}}">
+                                        <input  style="width:90px;" type="number" class="quantite" name="uqty" value="{{$row->qty}}">
                                         <input type="hidden" name="rowId" value="{{$row->rowId}}">
                                         
                                     </form>
@@ -103,10 +103,11 @@
                         </tfoot>
                         
                     </table>
-                    <div class="d-flex justify-content-start mt-3 mb-5">
-                            <button id="" class="btn btn-primary" style=""> Mise à jour panier</button>
+                   
+                    <div class="d-flex justify-content-center mt-3 mb-5">
+                            <button id="updcart" class="update-disable" disabled="true" style=""> Mise à jour panier</button>
                     </div>
-                    <div class="d-flex justify-content-around">
+                    <div class="d-flex justify-content-between">
                         <button><a href="/finish_cart" class="" style="font-weight:bold;">Valider la commande</a></button>
                         <button><a href="#" id="vider" style="font-weight:bold;">Vider</a></button>
                     </div>

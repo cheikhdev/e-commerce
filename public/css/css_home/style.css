@@ -4994,3 +4994,17 @@ button{
 /*=============================
 	End Footer CSS
 ===============================*/
+
+/*class hover pour js         */
+.update-enable{
+	background:#191348;
+}
+.update-enable:hover{
+	background:#191348;
+}
+.update-disable{
+	background:gray;
+}
+.update-disable:hover{
+	background:gray;
+}
