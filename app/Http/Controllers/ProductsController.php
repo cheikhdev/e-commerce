@@ -229,7 +229,7 @@ public function merci()   {
 public function achat1()   {
    return view("orders.achat1");
 }  
- public function show()  {
+ public function show($id)  {
   
     $product = Product::find($id);
     $products = DB::table('products')->paginate(1);//paginate(6);

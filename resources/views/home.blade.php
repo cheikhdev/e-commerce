@@ -148,7 +148,7 @@
 													<div class="row">
 														<div class="col-lg-6 col-md-6 col-12">
 															<div class="list-image overlay">
-																<img style="height:100%;" src="{{$product->image_product ? asset($product->image_product) : asset('uploads/images/default.png')}}" alt="#">
+																<a href="/produit/{{$product->id}}/show"><img style="height:100%;" src="{{$product->image_product ? asset($product->image_product) : asset('uploads/images/default.png')}}"></a>
 																<form action="#" id="{{'product_'.$product->id}}" class="add-to-cart">
 																	@csrf
 																	<input type="hidden" id="indice" name="product_id" value="{{Cart::count()}}">
