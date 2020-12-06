@@ -1,7 +1,7 @@
 @extends('layouts.app')
       @section('connect')
         <li><a href="#" data-toggle="modal" data-target="#myModal"> <i class="fas fa-sign-in-alt fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i>Inscription</a></li>
-        <li><a href="login.html#"data-toggle="modal" data-target="#ModalLogin"> <i class="fas fa-user-lock fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i>Connexion</a></li>
+        <li><a href="login.html#" data-toggle="modal" data-target="#ModalLogin"> <i class="fas fa-user-lock fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i>Connexion</a></li>
       @endsection
 
 		@section('indice_cart')
@@ -148,7 +148,7 @@
 													<div class="row">
 														<div class="col-lg-6 col-md-6 col-12">
 															<div class="list-image overlay">
-																<img style="height:100%;" src="{{$product->image_product ? asset($product->image_product) : asset('uploads/images/default.png')}}" alt="#">
+																<a href="#" data-toggle="modal" data-target="#descriptModal"><img style="height:100%;"   src="{{$product->image_product ? asset($product->image_product) : asset('uploads/images/default.png')}}" alt="#"></a>
 																<form action="#" id="{{'product_'.$product->id}}" class="add-to-cart">
 																	@csrf
 																	<input type="hidden" id="indice" name="product_id" value="{{Cart::count()}}">
@@ -159,6 +159,7 @@
 																		<i class="fas fa-shopping-cart fa-md fa-fw  text-gray-400" aria-hidden="true"></i>
 																	</button>
 																</form>
+																
 															</div>
 														</div>
 														<div class="col-lg-6 col-md-6 col-12 no-padding">
@@ -180,6 +181,7 @@
 														</div>
 													</div>
 												</div>
+												
 											@endforeach
 											<!-- End Single Product -->
 										</div>
@@ -205,7 +207,7 @@
 													<div class="row">
 														<div class="col-lg-6 col-md-6 col-12">
 															<div class="list-image overlay">
-																<img style="height:100%;" src="{{$product->image_product ? asset($product->image_product) : asset('uploads/images/default.png')}}" alt="#">
+															<a href="#" data-toggle="modal" data-target="#descriptModal"><img style="height:100%;"   src="{{$product->image_product ? asset($product->image_product) : asset('uploads/images/default.png')}}" alt="#"></a>
 																<form action="#" id="{{'product_'.$product->id}}" class="add-to-cart">
 																	@csrf
 																	<input type="hidden" id="indice" name="product_id" value="{{Cart::count()}}">
@@ -262,7 +264,7 @@
 													<div class="row">
 														<div class="col-lg-6 col-md-6 col-12">
 															<div class="list-image overlay">
-																<img style="height:100%;" src="{{$product->image_product ? asset($product->image_product) : asset('uploads/images/default.png')}}" alt="#">
+															<a href="#" data-toggle="modal" data-target="#descriptModal"><img style="height:100%;"   src="{{$product->image_product ? asset($product->image_product) : asset('uploads/images/default.png')}}" alt="#"></a>
 																<form action="#" id="{{'product_'.$product->id}}" class="add-to-cart">
 																	@csrf
 																	<input type="hidden" id="indice" name="product_id" value="{{Cart::count()}}">
@@ -442,7 +444,7 @@
 																				<div class="single-product" style="width:300px;height:300px;">
 																					<div class="product-img">
 																						<a href="product-details.html">
-																							<img class="default-img" style="width:300px;height:150px;" src="{{$product->image_product ? asset($product->image_product) : asset('uploads/images/default.png')}}" alt="#">
+																						<a href="#" data-toggle="modal" data-target="#descriptModal"><img style="height:100%;"   src="{{$product->image_product ? asset($product->image_product) : asset('uploads/images/default.png')}}" alt="#"></a>
 																							<img class="hover-img" src="{{$product->image_product ? asset($product->image_product) : asset('uploads/images/default.png')}}" alt="#">
 																						</a>
 																						<div class="button-head">
@@ -492,7 +494,7 @@
 																				<div class="single-product" style="width:300px;height:200px;">
 																					<div class="product-img">
 																						<a href="product-details.html">
-																							<img class="default-img" style="width:300px;height:150px;" src="{{$product->image_product ? asset($product->image_product) : asset('uploads/images/default.png')}}" alt="#">
+																						<a href="#" data-toggle="modal" data-target="#descriptModal"><img style="height:100%;"   src="{{$product->image_product ? asset($product->image_product) : asset('uploads/images/default.png')}}" alt="#"></a>
 																							<img class="hover-img" src="{{$product->image_product ? asset($product->image_product) : asset('uploads/images/default.png')}}" alt="#">
 																						</a>
 																						<div class="button-head">
@@ -588,6 +590,84 @@
 									</div>
 									<!-- End Product Area -->
 								
-							
+																<div class="modal fade" id="descriptModal" tabindex="-1" role="dialog">
+																	<div class="modal-dialog " style="width:auto;height:auto;" role="document">
+																		<div class="modal-content" style="width:100%;height:100%;">
+																			<div class="modal-header">
+																				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span class="ti-close" aria-hidden="true"></span></button>
+																			</div>
+																			<div class="modal-body">
+																				<div class="row no-gutters">
+																					<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+																						<!-- Product Slider -->
+																							<div class="product-gallery">
+																								<div class="quickview-slider-active">
+																									<div class="single-slider">
+																										<img style="width:100%;height:100%;overflow:hidden;" src="{{$product->image_product ? asset($product->image_product) : asset('uploads/images/default.png')}}" alt="#">
+																									</div>
+																									<div class="single-slider">
+																										<img style="width:100%;height:100%;overflow:hidden;" src="{{$product->image_product ? asset($product->image_product) : asset('uploads/images/default.png')}}" alt="#">
+																									</div>
+																									<div class="single-slider">
+																										<img style="width:100%;height:100%;overflow:hidden;" src="{{$product->image_product ? asset($product->image_product) : asset('uploads/images/default.png')}}" alt="#">
+																									</div>
+																									<div class="single-slider">
+																										<img style="width:100%;height:100%;overflow:hidden;" src="{{$product->image_product ? asset($product->image_product) : asset('uploads/images/default.png')}}" alt="#">
+																									</div>
+																								</div>
+																							</div>
+																						<!-- End Product slider -->
+																					</div>
+																					<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+																						<div class="quickview-content mb-5">
+																							<h2>{{$product->name_product}}</h2>
+																							<div class="quickview-ratting-review mb-3">
+																								<div class="quickview-ratting-wrap">
+																									<div class="quickview-ratting">
+																										<i class="yellow fa fa-star"></i>
+																										<i class="yellow fa fa-star"></i>
+																										<i class="yellow fa fa-star"></i>
+																										<i class="yellow fa fa-star"></i>
+																										<i class="fa fa-star"></i>
+																									</div>
+																									
+																								</div>
+																								
+																							</div>
+																							<h3>{{$product->prix_product}} Fcfa</h3>
+																							<div class="quickview-peragraph mb-5" >
+																								<p>{{$product->description_product}}</p>
+																							</div>
+																							
+																							
+																							<div class="add-to-cart mb-5">
+																								<form action="#" id="{{'product_'.$product->id}}" class="add-to-cart">
+																									@csrf
+																									<input type="hidden" id="indice" name="product_id" value="{{Cart::count()}}">
+																									<input type="hidden" name="user_id" value="{{\Illuminate\Support\Facades\Auth::id()}}">
+																									<input type="hidden" name="product_id" value="{{$product->id}}">
+																									<input type="hidden" name="prix_product" value="{{$product->prix_product}}">
+																									<button type="submit" class="">
+																										<i class="fas fa-shopping-cart fa-md fa-fw  text-gray-400" aria-hidden="true"></i>
+																										Acheter
+																									</button>
+																								</form>	
+																							</div>
+																							<div class="default-social">
+																								<h4 class="share-now">Share:</h4>
+																								<ul>
+																									<li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+																									<li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+																									<li><a class="youtube" href="#"><i class="fa fa-pinterest-p"></i></a></li>
+																									<li><a class="dribbble" href="#"><i class="fa fa-google-plus"></i></a></li>
+																								</ul>
+																							</div>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
     @endsection
 

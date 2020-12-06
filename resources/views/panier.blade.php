@@ -18,7 +18,6 @@
                     <h1 class="mr-3" style="text-align: center;">Details du panier</h1>
                 </div>
                 <div class="card-body">
-              
                     <!--table  class="table table-responsive " style="overflow:hedden;">
                         <thead  class="table-dark ">
                             <tr class="mw-50">
@@ -76,13 +75,17 @@
                             </tr>
                         </thead>
                         <tbody class="mb-3">
+                        <?php
+                            $i=0;
+                        ?>
                         @foreach(Cart::content() as $row)
+                            
                             <tr class="" data-href="" style="">
                                 <td>{{$row->name}}</td>
                                 <td class="d-flex justify-content-between">
                                     <form action="{{url('update')}}" method="post">
                                         {{csrf_field()}}
-                                        <input  style="width:90px;" type="number" class="quantite" name="uqty" value="{{$row->qty}}">
+                                        <input  style="width:90px;" type="number" id="quantite<?php echo$i ?>" name="uqty" value="{{$row->qty}}">
                                         <input type="hidden" name="rowId" value="{{$row->rowId}}">
                                         
                                     </form>
@@ -93,6 +96,9 @@
                                     <p><a class="btn btn-danger" href="" data-toggle="modal" data-target="#deleteModal"><i class="fas fa-trash-alt"></i></a></p>
                                 </td>
                             </tr>
+                            <?php
+                                $i=$i+1;
+                            ?>
                             @endforeach
                         </tbody>
                         <tfoot class="mb-3">  
