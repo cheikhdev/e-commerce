@@ -106,7 +106,7 @@
 					<div class="col-lg-3 col-md-3 col-12">
 						<!-- Logo -->
 						<div class="logo" style="margin-left:5px; margin-top:-15px;">
-							<a href="#"><img src="images/logo.jpg" alt="logo"></a>
+							<a href="#"><img src="{{asset('images/logo.jpg')}}" alt="logo"></a>
 						</div>
 						<!--/ End Logo -->
 						<!-- Search Form --->
@@ -498,7 +498,7 @@
 						<!-- Single Widget -->
 						<div class="single-footer about">
 							<div class="logo">
-								<a href="/home"><img src="images/logo.jpg" alt="#"></a>
+								<a href="/home"><img src="{{asset('images/logo.jpg')}}"></a>
 							</div>
 							<p class="text">Bienvenue a votre quincailerie digitale de reference .</p>
 							<p class="call">Question? Appeler 24/7<span><a href="tel:123456789">+221 77 478 19 07</a></span></p>
