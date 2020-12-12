@@ -15,7 +15,7 @@
                 </div>
                 <div class="card-body">
                     <div class="d-flex mt-3">
-                        <div class="col-4 pl-0 pr-0" style="">
+                        <div class="col-3 pl-0 pr-0" style="">
                             <div class="d-flex ">
                                 <div class="col-5 phase-valide" id="phaseValFact1" style="">
                                 </div>
@@ -28,24 +28,36 @@
                             </div>
                             <h4 style="text-align:center;">Facturation</h4>
                         </div>
-                        <div class="col-4 pl-0 pr-0">
+                        <div class="col-3 pl-0 pr-0">
+                            <div class="d-flex ">
+                                <div class="col-5 phase-non-valide" id="phaseValLiv1">
+                                </div>
+                                <div class="col-2 phase-non-valide-border" id="phaseValBordLiv">
+                                    <h5  class="pt-2 pb-2" style="text-align:center;">2</h5>
+                                </div>
+                                <div class="col-5 phase-non-valide" id="phaseValLiv2">
+                                </div>
+                            </div>
+                            <h4 style="text-align:center;">Livraison</h4>
+                        </div>
+                        <div class="col-3 pl-0 pr-0">
                             <div class="d-flex ">
                                 <div class="col-5 phase-non-valide" id="phaseValComm1">
                                 </div>
                                 <div class="col-2 phase-non-valide-border" id="phaseValBordComm">
-                                    <h5  class="pt-2 pb-2" style="text-align:center;">2</h5>
+                                    <h5  class="pt-2 pb-2" style="text-align:center;">3</h5>
                                 </div>
                                 <div class="col-5 phase-non-valide" id="phaseValComm2">
                                 </div>
                             </div>
                             <h4 style="text-align:center;">Commande</h4>
                         </div>
-                        <div class="col-4 pl-0 pr-0" style="">
+                        <div class="col-3 pl-0 pr-0" style="">
                             <div class="d-flex ">
                                 <div class="col-5 phase-non-valide" id="phaseValPaie1">
                                 </div>
                                 <div class="col-2 phase-non-valide-border" id="phaseValBordPaie">
-                                    <h5  class="pt-2 pb-2" style="text-align:center;">3</h5>
+                                    <h5  class="pt-2 pb-2" style="text-align:center;">4</h5>
                                 </div>
                                 <div class="col-5 phase-non-valide" id="phaseValPaie2">
                                 </div>
@@ -118,9 +130,54 @@
                         </form>
                         <div class="d-flex justify-content-between">
                             <button class="" ><a href="/panier" style="font-weight:bold;">Retour au panier</a></button>
-                            <button id="suivantbtn"  class="suivant">Suivant</button>
+                            <button id="suivantbtn1"  class="suivant">Suivant</button>
                         </div>
                     </div>
+                    
+                    <div class="mt-5" id="livraison" style="display:none;">
+                        <h4 class="mb-3 details">Details de la livraison</h4>
+                        <div class="row mb-5">
+                            <div class="col-12 " >
+                                <div class="card">
+                                    <div class="card-header">
+                                        <h5 class="mb-5 mt-4 d-flex justify-content-center" >Veuiller choisir une option pour la livraison </h5>
+                                    </div>
+                                    <div class="card-body">
+                                        <form action="#" class="mb-5" id="formLiv">
+                                            <div class="mb-5 d-flex">
+                                                <input type="checkbox" class=" mr-2" style="height:10px;width:10px;" name="livMagazin" id="livMagazin">
+                                                <h6>Retirer la commande au magazin</h6>
+                                            </div>
+                                            <div class="d-flex">
+                                                <input type="checkbox" class=" mr-2" name="livDomicile" id="livDomicile">
+                                                <h6>Livraison à l'adresse définie à l'étape Facturation</h6>
+                                            </div>
+                                            <div class="row" id="detailLiv" style="display:none;">
+                                                <h5 class="mb-5 mt-4 d-flex justify-content-center">Info livraison</h5>
+                                                <div>
+                                                    <div >Nom : <h6 id="labnomL"></h6></div>
+                                                    <hr>
+                                                    <div >Telephone : <h6 id="labphoneL"></h6></div>
+                                                    <hr>
+                                                    <div >Email : <h6 id="labmailL"></h6></div>
+                                                    <hr>
+                                                    <div >Adresse : <h6 id="labadresseL"></h6></div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                        <div class="" id="infoChamps2">
+
+                                        </div>
+                                        <div class="d-flex justify-content-between">
+                                            <button class="" id="retourfacture" style="font-weight:bold;">Retour à la facturation</button>
+                                            <button id="suivantbtn2"  class="suivant">Suivant</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                     <div class="mt-5" id="commande" style="display:none;">
                         <h4 class="mb-3 details">Details de la commande</h4>
                         <div class="row mb-5">
@@ -179,7 +236,7 @@
                             </div>
                         </div>
                         <div class="d-flex justify-content-around">
-                            <button id="retourfacture" class="" >Retour a la facturation</button>
+                            <button id="retourlivraison" class="" >Retour a la livraison</button>
                             <button id="commander"  class="">Commander</button>
                         </div>
                     </div>

@@ -106,7 +106,7 @@
 					<div class="col-lg-3 col-md-3 col-12">
 						<!-- Logo -->
 						<div class="logo" style="margin-left:5px; margin-top:-15px;">
-							<a href="#"><img src="{{asset('images/logo.jpg')}}" alt="logo"></a>
+							<a href="/home"><img src="{{asset('images/logo.jpg')}}" alt="logo"></a>
 						</div>
 						<!--/ End Logo -->
 						<!-- Search Form --->
@@ -210,7 +210,7 @@
 									<div class="navbar-collapse" >	
 										<div class="nav-inner" id="bare">	
 											<ul class="nav main-menu menu navbar-nav" style="font-size:16px;">
-													<li  class="active"><a href="#" style=""><i class="fas fa-home fa-lg fa-fw mr-2 text-gray-400" aria-hidden="true"></i>Accueil</a></li>
+													<li  class="active"><a href="/home" style=""><i class="fas fa-home fa-lg fa-fw mr-2 text-gray-400" aria-hidden="true"></i>Accueil</a></li>
 													<li><a href="#"><i class="fas fa-medkit fa-lg fa-fw mr-2 text-gray-400" aria-hidden="true"></i>A propos<i class="fas fa-angle-down"></i></a>
 														<ul class="dropdown">
 															<li><a href="shop-grid.html">Mention légale</a></li>

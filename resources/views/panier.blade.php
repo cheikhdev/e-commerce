@@ -114,8 +114,9 @@
                             <button id="updcart" class="update-disable" disabled="true" style=""> Mise à jour panier</button>
                     </div>
                     <div class="d-flex justify-content-between">
+                    <button><a href="#" id="vider" style="font-weight:bold;">Vider</a></button>
                         <button><a href="/finish_cart" class="" style="font-weight:bold;">Valider la commande</a></button>
-                        <button><a href="#" id="vider" style="font-weight:bold;">Vider</a></button>
+                        
                     </div>
                 </div>
             </div>
