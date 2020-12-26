@@ -12,7 +12,7 @@
 			<div class="shopping-item">
 				<div class="dropdown-cart-header">
 					<span class="indice">{{Cart::count()}} produit(s)</span>
-					<a href="/panier">Afficher le panier</a>
+					<a href="/panier">Afficher le Panier</a>
 					<form action="#">
 						<input type="hidden" id="indiceH" name="indice" class="indice" value="{{Cart::count()}}">
 					</form>
@@ -254,7 +254,7 @@
 								<div class="row">
 									<div class="col-12">
 										<div class="shop-section-title">
-											<h1 style="color:white;">Les plus visités</h1>
+											<h1 style="color:white;">Les produits plus visités</h1>
 										</div>
 									</div>
 								</div>
