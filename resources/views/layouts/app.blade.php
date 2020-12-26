@@ -31,6 +31,7 @@
     <link rel="stylesheet" href="{{asset('css/css_home/niceselect.css')}}">
   <!-- Animate CSS -->
     <link rel="stylesheet" href="{{asset('css/css_home/animate.css')}}">
+    <link rel="stylesheet" href="{{asset('css/css_home/style2.css')}}">
   <!-- Flex Slider CSS -->
     <link rel="stylesheet" href="{{asset('css/css_home/flex-slider.min.css')}}">
   <!-- Owl Carousel -->
@@ -81,7 +82,7 @@
 						<div class="">
 							<ul class="list-main">		
 								<li><a href="#" > <i class="fas fa-envelope fa-md fa-fw mr-2 text-gray-400" aria-hidden="true"></i>support@matcosen.com</a></li>
-        						<li><a href="{{url('https://wa.me/221774781907')}}" target="_blank" class="text-success"><i class="fab fa-whatsapp text-success"></i></a>77 478 19 07</li>
+        						<li><a href="{{url('https://wa.me/221774781907')}}" target="_blank" class="text-success"><i class="fab fa-whatsapp text-success"></i>77 478 19 07</a></li>
 							</ul>
 						</div>
 						<!--/ End Top Left -->
@@ -210,17 +211,17 @@
 									<div class="navbar-collapse" >	
 										<div class="nav-inner" id="bare">	
 											<ul class="nav main-menu menu navbar-nav" style="font-size:16px;">
-													<li  class="active"><a href="/home" style=""><i class="fas fa-home fa-lg fa-fw mr-2 text-gray-400" aria-hidden="true"></i>Accueil</a></li>
-													<li><a href="#"><i class="fas fa-medkit fa-lg fa-fw mr-2 text-gray-400" aria-hidden="true"></i>A propos<i class="fas fa-angle-down"></i></a>
+													<li id="acceuil" class=""><a href="/home" style=""><i class="fas fa-home fa-lg fa-fw mr-2 text-gray-400" aria-hidden="true"></i>acceuil</a></li>
+													<li id="propos" class=""><a href="/home"><i class="fas fa-medkit fa-lg fa-fw mr-2 text-gray-400" aria-hidden="true"></i>A propos<i class="fas fa-angle-down"></i></a>
 														<ul class="dropdown">
 															<li><a href="shop-grid.html">Mention légale</a></li>
 															<li><a href="cart.html">Conditions générales de vente</a></li>
-															<li><a href="{{url('/contact')}}">Contact</a></li>
+															<li><a href="/contact">Contact</a></li>
 															
 														</ul>
 													</li>												
-													<li><a href="#">Actualite</a></li>
-													<li><a href="#">Nos Partenaires<i class="fas fa-angle-down"></i></a>
+													<li id="actualite" class=""><a href="/home">Actualite</a></li>
+													<li id="partenaires"><a href="/home">Nos Partenaires<i class="fas fa-angle-down"></i></a>
 														<ul class="dropdown">
 															
 															<li><a href="cart.html">Inco</a>
@@ -233,7 +234,7 @@
 															<li><a href="checkout.html">Legrand</a></li> 
 														</ul>
 													</li>
-													<li><a href="{{url('/contact')}}">Contactez-Nous</a></li>									
+													<li id="contact" class=""><a href="{{url('/contact')}}">Contactez-Nous</a></li>									
 													
 												</ul>
 										</div>
@@ -249,7 +250,7 @@
 		<!--/ End Header Inner -->
 	</header>
 	<div class="p-2">
-	<marquee BEHAVIOR="alternate"><h3 style="width: 100%;background: white;color:#BE1E2D;">Bienvenue a Matcosen , la plateforme e-quincaillerie.</h3></marquee>
+	<marquee  BEHAVIOR="alternate"><h3 style="width: 67%;background:white;color:#BE1E2D;">Bienvenue a Matcosen , la plateforme e-quincaillerie.</h3></marquee>
 	</div>
 	<!--/ End Header -->
 	<!-- Single Slider -->
@@ -617,6 +618,7 @@
 	<script src="{{asset('js/js_home/active.js')}}"></script>
 
 	<script src="{{asset('js/js_home/panier.js')}}"></script>
+	<script src="{{asset('js/js_home/class_active.js')}}"></script>
 	<!--script src="{{asset('js/js_home/add_cart.js')}}"></script-->
 	<script src="{{asset('js/js_home/commande.js')}}"></script>
 	<script src="//cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>

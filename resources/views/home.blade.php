@@ -148,7 +148,8 @@
 													<div class="row">
 														<div class="col-lg-6 col-md-6 col-12">
 															<div class="list-image overlay">
-																<a href="#" data-toggle="modal" data-target="#descriptModal"><img style="height:100%;"   src="{{$product->image_product ? asset($product->image_product) : asset('uploads/images/default.png')}}" alt="#"></a>
+															   <a href="/produit/{{$product->id}}/show">	<img style="height:100%;"  src="{{$product->image_product ? asset($product->image_product) : asset('uploads/images/default.png')}}" alt="#"></a>
+																
 																<form action="#" id="{{'product_'.$product->id}}" class="add-to-cart">
 																	@csrf
 																	<input type="hidden" id="indice" name="product_id" value="{{Cart::count()}}">
@@ -164,7 +165,7 @@
 														</div>
 														<div class="col-lg-6 col-md-6 col-12 no-padding">
 															<div class="content">
-																<h4 class="title"><a href="#">{{$product->name_product}}</a></h4>
+																<h4 class="title"><a href="/produit/{{$product->id}}/show">{{$product->name_product}}</a></h4>
 																<p class="price with-discount mb-2">{{$product->prix_product}} FCFA</p>
 																<form action="#" id="{{'product_'.$product->id}}" class="add-to-cart">
 																	@csrf
@@ -207,7 +208,8 @@
 													<div class="row">
 														<div class="col-lg-6 col-md-6 col-12">
 															<div class="list-image overlay">
-															<a href="#" data-toggle="modal" data-target="#descriptModal"><img style="height:100%;"   src="{{$product->image_product ? asset($product->image_product) : asset('uploads/images/default.png')}}" alt="#"></a>
+															<a href="/produit/{{$product->id}}/show">	<img style="height:100%;"  src="{{$product->image_product ? asset($product->image_product) : asset('uploads/images/default.png')}}" alt="#"></a>
+																
 																<form action="#" id="{{'product_'.$product->id}}" class="add-to-cart">
 																	@csrf
 																	<input type="hidden" id="indice" name="product_id" value="{{Cart::count()}}">
@@ -218,11 +220,12 @@
 																		<i class="fas fa-shopping-cart fa-md fa-fw  text-gray-400" aria-hidden="true"></i>
 																	</button>
 																</form>
+																
 															</div>
 														</div>
 														<div class="col-lg-6 col-md-6 col-12 no-padding">
 															<div class="content">
-																<h4 class="title"><a href="#">{{$product->name_product}}</a></h4>
+																<h4 class="title"><a href="/produit/{{$product->id}}/show">{{$product->name_product}}</a></h4>
 																<p class="price with-discount mb-2">{{$product->prix_product}} FCFA</p>
 																<form action="#" id="{{'product_'.$product->id}}" class="add-to-cart">
 																	@csrf
@@ -264,7 +267,8 @@
 													<div class="row">
 														<div class="col-lg-6 col-md-6 col-12">
 															<div class="list-image overlay">
-															<a href="#" data-toggle="modal" data-target="#descriptModal"><img style="height:100%;"   src="{{$product->image_product ? asset($product->image_product) : asset('uploads/images/default.png')}}" alt="#"></a>
+															<a href="/produit/{{$product->id}}/show">	<img style="height:100%;"  src="{{$product->image_product ? asset($product->image_product) : asset('uploads/images/default.png')}}" alt="#"></a>
+																
 																<form action="#" id="{{'product_'.$product->id}}" class="add-to-cart">
 																	@csrf
 																	<input type="hidden" id="indice" name="product_id" value="{{Cart::count()}}">
@@ -275,12 +279,14 @@
 																		<i class="fas fa-shopping-cart fa-md fa-fw  text-gray-400" aria-hidden="true"></i>
 																	</button>
 																</form>
+																
 															</div>
 														</div>
 														<div class="col-lg-6 col-md-6 col-12 no-padding">
 															<div class="content">
-																<h4 class="title"><a href="#">{{$product->name_product}}</a></h4>
-																<p class="price with-discount mb-2">{{$product->prix_product}} FCFA</p>
+																<h4 class="title"><a href="/produit/{{$product->id}}/show">{{$product->name_product}}</a></h4>
+																<p class="">{{$product->prix_product}}
+																FcFa{{$product->prix_product/655 }}Euro</p>
 																<form action="#" id="{{'product_'.$product->id}}" class="add-to-cart">
 																	@csrf
 																	<input type="hidden" id="indice" name="product_id" value="{{Cart::count()}}">
