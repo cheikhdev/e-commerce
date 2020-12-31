@@ -22,7 +22,7 @@
                    <p class="mt-2" style="color: orange;">Laissez nous un message texte pour toutes demandes ou de renseignement<br>Nous Vous recontacterons
                  </p>
                 
-                <form action="{{route('contact.store')}}" method="POST" >
+                <form action="{{route('contact.store')}}" method="POST">
                 @csrf
                 @if($errors->any())
                 @foreach($errors->all() as $error)
