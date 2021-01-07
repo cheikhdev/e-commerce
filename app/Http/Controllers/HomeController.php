@@ -18,6 +18,7 @@ class HomeController extends Controller
     {
         //$this->middleware('auth');
     }
+
     public function index(){
          $categories=Category::where('id' , 1)->get();
 
