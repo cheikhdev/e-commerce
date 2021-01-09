@@ -513,7 +513,7 @@
 					<div class="col-lg-2 col-md-6 col-12">
 						<!-- Single Widget -->
 						<div class="single-footer links">
-							<h4>Information</h4>
+							<h4 class="btn btn-danger">Information</h4>
 							<ul>
 								<li><a href="#">A propos</a></li>
 								<li><a href="#">Faq</a></li>
@@ -527,7 +527,7 @@
 					<div class="col-lg-2 col-md-6 col-12">
 						<!-- Single Widget -->
 						<div class="single-footer links">
-							<h4>Nos Service</h4>
+							<h4 class="btn btn-danger">Nos Service</h4>
 							<ul>
 								<li><a href="#">Methodes de paiement</a></li>
 								<li><a href="#">Money-back</a></li>
@@ -541,7 +541,7 @@
 					<div class="col-lg-3 col-md-6 col-12">
 						<!-- Single Widget -->
 						<div class="single-footer social">
-							<h4>Entrer en contact</h4>
+							<h4 class="btn btn-danger">Entrer en contact</h4>
 							<!-- Single Widget -->
 							<div class="contact">
 								<ul>
