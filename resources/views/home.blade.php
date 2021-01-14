@@ -165,8 +165,12 @@
 														</div>
 														<div class="col-lg-6 col-md-6 col-12 no-padding">
 															<div class="content">
-																<h4 class="title"><a href="/produit/{{$product->id}}/show">{{$product->name_product}}</a></h4>
-																<p class="price with-discount mb-2">{{$product->prix_product}} FCFA</p>
+																<h4 class="title"><a href="/produit/{{$product->id}}/show"><span style="font-size: 18px;">{{$product->name_product}}</span></a></h4>
+																<span class="btn-info" style="font-style: italic;font-size: 15px;">{{$product->prix_product}}
+																<em style="font-weight: bold;
+																color: #be1e2d;">FcFa</em></span><br>
+															    <span class="btn btn-info"style="font-style: italic;font-size: 15px;">{{sprintf("%.2f",$product->prix_product/650)}}<i class="fas fa-dollar-sign" style="font-size: 15px;color: #be1e2d;"></i> </span><br>
+															    <span class="btn btn-info"style="font-style: italic;font-size: 15px;">{{sprintf("%.2f",$product->prix_product/550)}}<i class="fas fa-euro-sign"style="font-size: 17px;color: #be1e2d;"></i> </span>
 																<form action="#" id="{{'product_'.$product->id}}" class="add-to-cart">
 																	@csrf
 																	<input type="hidden" id="indice" name="product_id" value="{{Cart::count()}}">
@@ -202,9 +206,8 @@
 								<div class="row">
 									<div class="col-12">
 										<div class="owl-carousel popular-slider" style="padding:1px;">
-										<!-- Start Single List  -->
-											@foreach($products as $product)
-												<div class="single-list mr-3 bg-white" >
+										@foreach($products as $product)
+												<div class="single-list mr-3 bg-white">
 													<div class="row">
 														<div class="col-lg-6 col-md-6 col-12">
 															<div class="list-image overlay">
@@ -225,8 +228,12 @@
 														</div>
 														<div class="col-lg-6 col-md-6 col-12 no-padding">
 															<div class="content">
-																<h4 class="title"><a href="/produit/{{$product->id}}/show">{{$product->name_product}}</a></h4>
-																<p class="price with-discount mb-2">{{$product->prix_product}} FCFA</p>
+																<h4 class="title"><a href="/produit/{{$product->id}}/show"><span style="font-size: 18px;">{{$product->name_product}}</span></a></h4>
+																<span class="btn-info" style="font-style: italic;font-size: 15px;">{{$product->prix_product}}
+																<em style="font-weight: bold;
+																color: #be1e2d;">FcFa</em></span><br>
+															    <span class="btn btn-info"style="font-style: italic;font-size: 15px;">{{sprintf("%.2f",$product->prix_product/650)}}<i class="fas fa-dollar-sign" style="font-size: 15px;color: #be1e2d;"></i> </span><br>
+															    <span class="btn btn-info"style="font-style: italic;font-size: 15px;">{{sprintf("%.2f",$product->prix_product/550)}}<i class="fas fa-euro-sign"style="font-size: 17px;color: #be1e2d;"></i> </span><p>
 																<form action="#" id="{{'product_'.$product->id}}" class="add-to-cart">
 																	@csrf
 																	<input type="hidden" id="indice" name="product_id" value="{{Cart::count()}}">
@@ -243,7 +250,7 @@
 													</div>
 												</div>
 											@endforeach
-											<!-- End Single List  -->
+											<!-- End Single Product -->
 										</div>
 									</div>
 								</div>
@@ -284,9 +291,12 @@
 														</div>
 														<div class="col-lg-6 col-md-6 col-12 no-padding">
 															<div class="content">
-																<h4 class="title"><a href="/produit/{{$product->id}}/show">{{$product->name_product}}</a></h4>
-																<p class="">{{$product->prix_product}}
-																FcFa{{$product->prix_product/655 }}Euro</p>
+																<h4 class="title"><a href="/produit/{{$product->id}}/show"><span style="font-size: 18px;">{{$product->name_product}}</span></a></h4>
+																<span class="btn-info" style="font-style: italic;font-size: 15px;">{{$product->prix_product}}
+																<em style="font-weight: bold;
+																color: #be1e2d;">FcFa</em></span><br>
+															    <span class="btn btn-info"style="font-style: italic;font-size: 15px;">{{sprintf("%.2f",$product->prix_product/650)}}<i class="fas fa-dollar-sign" style="font-size: 15px;color: #be1e2d;"></i> </span><br>
+															    <span class="btn btn-info"style="font-style: italic;font-size: 15px;">{{sprintf("%.2f",$product->prix_product/550)}}<i class="fas fa-euro-sign"style="font-size: 17px;color: #be1e2d;"></i> </span><p>
 																<form action="#" id="{{'product_'.$product->id}}" class="add-to-cart">
 																	@csrf
 																	<input type="hidden" id="indice" name="product_id" value="{{Cart::count()}}">

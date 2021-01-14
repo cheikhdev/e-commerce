@@ -106,6 +106,7 @@
                                 <td colspan="3" style="color:red;text-align:right;">
                                 <b>Total</b></td>
                                 <td colspan="3" style="color:red;"><b>{{Cart::total()}} Fcfa</b></td>
+                                
                             </tr>
                         </tfoot>
                         

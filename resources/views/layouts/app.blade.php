@@ -13,7 +13,7 @@
 	<link rel="icon" type="image/png" href="images/logo.jpg">
 	<!-- Web Font -->
 	<link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
-	
+	      
 	<!-- StyleSheet -->
     <link href="{{asset('css/app.css')}}" rel="stylesheet" />
     <link href="{{asset('css/all.css')}}" rel="stylesheet" />
@@ -42,6 +42,7 @@
   <link href="{{asset('css/css_home/reset.css')}}" rel="stylesheet" />
   <link href="{{asset('css/css_home/responsive.css')}}" rel="stylesheet" />
   <link href="{{asset('css/css_home/style.css')}}" rel="stylesheet" />
+  <link href="{{asset('css/css_home/style2.css')}}" rel="stylesheet" />
   <!--link href="{{asset('css/css_home/frontend.min.css')}}" rel="stylesheet" />
   <link href="{{asset('css/css_home/style.min.css')}}" rel="stylesheet" />
   <link href="{{asset('css/css_home/post-10.css')}}" rel="stylesheet" /-->
@@ -204,15 +205,17 @@
 								</ul>
 							</div>
 						</div>
-						<div class="col-lg-9 col-12" >
+						
+						<div class="col-lg-9 col-12" id="cole">
 							<div class="menu-area" >
 								<!-- Main Menu -->
 								<nav class="navbar navbar-expand-lg" >
 									<div class="navbar-collapse" >	
 										<div class="nav-inner" id="bare">	
 											<ul class="nav main-menu menu navbar-nav" style="font-size:16px;">
-													<li id="acceuil" class=""><a href="/home" style=""><i class="fas fa-home fa-lg fa-fw mr-2 text-gray-400" aria-hidden="true"></i>acceuil</a></li>
-													<li id="propos" class=""><a href="/home"><i class="fas fa-medkit fa-lg fa-fw mr-2 text-gray-400" aria-hidden="true"></i>A propos<i class="fas fa-angle-down"></i></a>
+												
+													<li id="acceuil" class="active"><a href="/home" style=""><i class="fas fa-home fa-lg fa-fw mr-2 text-gray-400" aria-hidden="true"></i>acceuil</a></li>
+													<li id="propos" class=""><a href="/home" class=""><i class="fas fa-medkit fa-lg fa-fw mr-2 text-gray-400" aria-hidden="true"></i>A propos<i class="fas fa-angle-down"></i></a>
 														<ul class="dropdown">
 															<li><a href="shop-grid.html">Mention légale</a></li>
 															<li><a href="cart.html">Conditions générales de vente</a></li>
@@ -220,8 +223,8 @@
 															
 														</ul>
 													</li>												
-													<li id="actualite" class=""><a href="/home">Actualite</a></li>
-													<li id="partenaires"><a href="/home">Nos Partenaires<i class="fas fa-angle-down"></i></a>
+													<li id="actualite" class=""><a href="/home" class="">Actualite</a></li>
+													<li id="partenaires"><a href="/home" class="">Nos Partenaires<i class="fas fa-angle-down"></i></a>
 														<ul class="dropdown">
 															
 															<li><a href="cart.html">Inco</a>
@@ -234,7 +237,8 @@
 															<li><a href="checkout.html">Legrand</a></li> 
 														</ul>
 													</li>
-													<li id="contact" class=""><a href="{{url('/contact')}}">Contactez-Nous</a></li>									
+													<li id="contact" class=""><a href="{{url('/contact')}}" class="1">Contactez-Nous</a></li>
+																
 													
 												</ul>
 										</div>
@@ -509,7 +513,7 @@
 					<div class="col-lg-2 col-md-6 col-12">
 						<!-- Single Widget -->
 						<div class="single-footer links">
-							<h4>Information</h4>
+							<h4 class="btn btn-danger">Information</h4>
 							<ul>
 								<li><a href="#">A propos</a></li>
 								<li><a href="#">Faq</a></li>
@@ -523,7 +527,7 @@
 					<div class="col-lg-2 col-md-6 col-12">
 						<!-- Single Widget -->
 						<div class="single-footer links">
-							<h4>Nos Service</h4>
+							<h4 class="btn btn-danger">Nos Service</h4>
 							<ul>
 								<li><a href="#">Methodes de paiement</a></li>
 								<li><a href="#">Money-back</a></li>
@@ -537,7 +541,7 @@
 					<div class="col-lg-3 col-md-6 col-12">
 						<!-- Single Widget -->
 						<div class="single-footer social">
-							<h4>Entrer en contact</h4>
+							<h4 class="btn btn-danger">Entrer en contact</h4>
 							<!-- Single Widget -->
 							<div class="contact">
 								<ul>

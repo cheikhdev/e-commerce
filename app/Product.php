@@ -25,5 +25,6 @@ class Product extends Model
     public function getPrice() {
         return $this->prix_product;
     }
+    
    
 }
