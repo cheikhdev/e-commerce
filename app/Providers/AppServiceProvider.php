@@ -36,7 +36,9 @@ class AppServiceProvider extends ServiceProvider
     public function boot(){
         \Illuminate\Support\Facades\Schema::defaultStringLength(191);
         
-    
-     }
-     
+    }
+     // Pour ne pas cacher ces certains effets styles css
+    //{
+        //URL::forceScheme('http or https');
+    //}
 }
