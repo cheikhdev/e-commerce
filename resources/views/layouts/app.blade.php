@@ -503,9 +503,10 @@
 						<!-- Single Widget -->
 						<div class="single-footer about">
 							<div class="logo">
-								<a href="/home"><img src="{{asset('images/logo.jpg')}}"></a>
+								<a href="/home"><img src="{{asset('images/logo.jpg')}}" style="" width="230px" height="340px"></a>
 							</div>
-							<p class="text">Bienvenue a votre quincailerie digitale de reference .</p>
+							<p class="text" style="font: bold;">Bienvenue a Matcosen votre quincailerie<br> digitale de reference 
+							.</p>
 							<p class="call">Question? Appeler 24/7<span><a href="tel:123456789">+221 77 478 19 07</a></span></p>
 						</div>
 						<!-- End Single Widget -->
@@ -546,9 +547,9 @@
 							<div class="contact">
 								<ul>
 									<li>Dakar, adresse.</li>
-									
 									<li>info@matcom.com</li>
-									<li>+221 77 478 19 07</li>
+									<li>Mobil:+221 77 478 19 07</li>
+									<li>Fixe: +221 33 xxx xx</li>
 								</ul>
 							</div>
 							<!-- End Single Widget -->
