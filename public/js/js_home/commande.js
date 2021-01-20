@@ -78,10 +78,11 @@ suiv.addEventListener('click', function(){
 
 document.getElementById("livMagazin").addEventListener('click',function(){
     if(document.getElementById("livMagazin").checked==true){
-        document.getElementById("livDomicile").disabled=true;
+        document.getElementById("livDomicile").checked=false;
+        document.getElementById("detailLiv").style.display="none";
     }
     if(document.getElementById("livMagazin").checked==false){
-        document.getElementById("livDomicile").disabled=false;
+        
     }
 });
 
@@ -92,7 +93,7 @@ document.getElementById("livDomicile").addEventListener('click',function(){
         labphoneL.innerText=phone.value;
         labadresseL.innerText=adresse.value;
         document.getElementById("detailLiv").style.display="block";
-        document.getElementById("livMagazin").disabled=true;
+        document.getElementById("livMagazin").checked=false;
     }
     if(document.getElementById("livDomicile").checked==false){
         document.getElementById("livMagazin").disabled=false;

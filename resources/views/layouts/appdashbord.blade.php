@@ -90,7 +90,7 @@
               <ul class="nav sidebar-inner mt-1" id="sidebar-menu">
                 
                 <li>
-                    <a href="/espace_client">
+                    <a href="/home">
                         <i class="fas fa-home"></i>
                         <span class="nav-text">Aller au site</span> <b class=""></b>
                     </a>
