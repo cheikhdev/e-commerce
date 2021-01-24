@@ -618,7 +618,7 @@ but.addEventListener('click', function(event)
  <!-- Bootstrap js -->
     <script src="{{asset('js/js_home/bootstrap.min.js')}}"></script>
 <!-- Color JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/colors/3.0.0/js/colors.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/colors/3.0.0/js/colors.min.js"></script> 
 <!-- Slicknav JS -->
     <script src="{{asset('js/js_home/slicknav.min.js')}}"></script>
 <!-- Owl Carousel JS -->
