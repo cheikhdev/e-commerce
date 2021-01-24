@@ -252,9 +252,16 @@ Version:1.0
 	display:block !important;
 	background:#191348;
 }
+.header .nav li  a:active{
+	color:#191348;
+	background-color: #BE1E2D ;
+	
+}
 .header .nav li a i {
 	margin-left: 6px;
 	font-size: 10px;
+	
+	
 }
 /* Dropdown Menu */
 .header .nav li .dropdown {

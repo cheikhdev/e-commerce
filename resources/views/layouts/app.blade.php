@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="{{asset('css/css_home/bootstrap.css')}}">
   <!-- Magnific Popup -->
     <link rel="stylesheet" href="{{asset('css/css_home/magnific-popup.min.css')}}">
+   <link rel="stylesheet" href="https://www.bitcular.com/wp-content/themes/bitther/assets/css/fonts/font-themify/themify.woff">
   <!-- Font Awesome -->
     <link rel="stylesheet" href="{{asset('css/css_home/font-awesome.css')}}">
   <!-- Fancybox -->
@@ -55,11 +56,13 @@
 
 </head>	
 <body class="js" style="font-family: Georgia, 'Times New Roman', Times, serif;">
+	
 	<style>
 		.btnedit:hover{
 			background-color:;
 		}
 	</style>
+	
 	
 	<!-- Preloader -->
 		<div class="preloader">
@@ -73,6 +76,18 @@
 	<!--End Preloader -->
 
 	<!-- Header -->
+	<script type="text/javascript">
+		//  pour le nav
+let but=document.querySelector('#acceuil #propos #actualite  #partenaires #contact'); 
+
+but.addEventListener('click', function(event)
+{
+    event.preventDefault();
+	
+	but.classList.add('active');
+	
+});
+	</script>
 	<header class="header shop">
 		<!-- Topbar -->
 		<div class="topbar">
@@ -212,7 +227,7 @@
 								<nav class="navbar navbar-expand-lg" >
 									<div class="navbar-collapse" >	
 										<div class="nav-inner" id="bare">	
-											<ul class="nav main-menu menu navbar-nav" style="font-size:16px;">
+											<ul class="nav main-menu menu navbar-nav" id="" style="font-size:16px;">
 												
 													<li id="acceuil" class="active"><a href="/home" style=""><i class="fas fa-home fa-lg fa-fw mr-2 text-gray-400" aria-hidden="true"></i>acceuil</a></li>
 													<li id="propos" class=""><a href="/home" class=""><i class="fas fa-medkit fa-lg fa-fw mr-2 text-gray-400" aria-hidden="true"></i>A propos<i class="fas fa-angle-down"></i></a>
@@ -224,7 +239,7 @@
 														</ul>
 													</li>												
 													<li id="actualite" class=""><a href="/home" class="">Actualite</a></li>
-													<li id="partenaires"><a href="/home" class="">Nos Partenaires<i class="fas fa-angle-down"></i></a>
+													<li id="partenaires" class=""><a href="/home" class="">Nos Partenaires<i class="fas fa-angle-down"></i></a>
 														<ul class="dropdown">
 															
 															<li><a href="cart.html">Inco</a>
@@ -244,6 +259,7 @@
 										</div>
 									</div>
 								</nav>
+								
 								<!--/ End Main Menu -->	
 							</div>
 						</div>
@@ -589,6 +605,10 @@
 	
 <!-- Jquery --> 
 <!--script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script!-->
+<script
+  src="https://code.jquery.com/jquery-3.5.1.js"
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous"></script>
 <script src="{{asset('js/app.js')}}"></script>   
 <script src="{{asset('js/js_home/jquery.min.js')}}"></script>
     <script src="{{asset('js/js_home/jquery-migrate-3.0.0.js')}}"></script>
@@ -598,7 +618,7 @@
  <!-- Bootstrap js -->
     <script src="{{asset('js/js_home/bootstrap.min.js')}}"></script>
 <!-- Color JS -->
-    <script src="{{asset('js/js_home/colors.js')}}"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/colors/3.0.0/js/colors.min.js"></script>
 <!-- Slicknav JS -->
     <script src="{{asset('js/js_home/slicknav.min.js')}}"></script>
 <!-- Owl Carousel JS -->

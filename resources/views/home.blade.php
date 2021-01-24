@@ -169,8 +169,7 @@
 																<span class="btn-info" style="font-style: italic;font-size: 15px;">{{$product->prix_product}}
 																<em style="font-weight: bold;
 																color: #be1e2d;">FcFa</em></span><br>
-															    <span class="btn btn-info"style="font-style: italic;font-size: 15px;">{{sprintf("%.2f",$product->prix_product/650)}}<i class="fas fa-dollar-sign" style="font-size: 15px;color: #be1e2d;"></i> </span><br>
-															    <span class="btn btn-info"style="font-style: italic;font-size: 15px;">{{sprintf("%.2f",$product->prix_product/550)}}<i class="fas fa-euro-sign"style="font-size: 17px;color: #be1e2d;"></i> </span>
+															    
 																<form action="#" id="{{'product_'.$product->id}}" class="add-to-cart">
 																	@csrf
 																	<input type="hidden" id="indice" name="product_id" value="{{Cart::count()}}">
@@ -232,8 +231,7 @@
 																<span class="btn-info" style="font-style: italic;font-size: 15px;">{{$product->prix_product}}
 																<em style="font-weight: bold;
 																color: #be1e2d;">FcFa</em></span><br>
-															    <span class="btn btn-info"style="font-style: italic;font-size: 15px;">{{sprintf("%.2f",$product->prix_product/650)}}<i class="fas fa-dollar-sign" style="font-size: 15px;color: #be1e2d;"></i> </span><br>
-															    <span class="btn btn-info"style="font-style: italic;font-size: 15px;">{{sprintf("%.2f",$product->prix_product/550)}}<i class="fas fa-euro-sign"style="font-size: 17px;color: #be1e2d;"></i> </span><p>
+															    
 																<form action="#" id="{{'product_'.$product->id}}" class="add-to-cart">
 																	@csrf
 																	<input type="hidden" id="indice" name="product_id" value="{{Cart::count()}}">
@@ -295,8 +293,7 @@
 																<span class="btn-info" style="font-style: italic;font-size: 15px;">{{$product->prix_product}}
 																<em style="font-weight: bold;
 																color: #be1e2d;">FcFa</em></span><br>
-															    <span class="btn btn-info"style="font-style: italic;font-size: 15px;">{{sprintf("%.2f",$product->prix_product/650)}}<i class="fas fa-dollar-sign" style="font-size: 15px;color: #be1e2d;"></i> </span><br>
-															    <span class="btn btn-info"style="font-style: italic;font-size: 15px;">{{sprintf("%.2f",$product->prix_product/550)}}<i class="fas fa-euro-sign"style="font-size: 17px;color: #be1e2d;"></i> </span><p>
+															    
 																<form action="#" id="{{'product_'.$product->id}}" class="add-to-cart">
 																	@csrf
 																	<input type="hidden" id="indice" name="product_id" value="{{Cart::count()}}">
